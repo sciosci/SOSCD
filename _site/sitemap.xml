@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/people/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/publish/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/images/sos_logo.pdf</loc>
+<lastmod>2019-08-23T11:27:41-04:00</lastmod>
+</url>
+</urlset>
