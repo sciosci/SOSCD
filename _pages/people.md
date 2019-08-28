@@ -2,25 +2,25 @@
 layout: single
 permalink: /people/
 author_profile: false
-title: ""
+title: "People"
 ---
 
-# Principal Investigator
+## Principal Investigator
 
 - [Daniel Acuna](/about), Ph.D., Assistant Professor, iSchool
 
-# Visiting scholars
+## Visiting scholars
 
 - Tong Zeng (曾通), Doctoral student in Information Science, 
 [School of Information Management](https://www.nju.edu.cn/EN/7f/7d/c7136a163709/page.htm), 
 [Nanjing University](https://www.nju.edu.cn/EN/)
 
-# Doctoral students
+## Doctoral students
 
 - [Han Zhuang](https://ischool.syr.edu/people/directories/view/hzhuang/), Graduate Assistant, iSchool, since Fall 2017
 - [Dipto Das](https://ischool.syr.edu/people/directories/view/ddas05/), Research Assistant, iSchool, since Fall 2019
 
-# Master students
+## Master students
 
 - [Ziyue (Alan) Xiang](http://www.alanshawn.com/), Computer Science, since Fall 2018
 - Lizhen Liang, iSchool, since Fall 2018
@@ -29,9 +29,9 @@ title: ""
 - Rashika Singh, iSchool, starting Fall 2019
 - Sourabh Ghosh, iSchool, starting Fall 2019
 
-# Alumni
+## Alumni
 
-#### Ph.D. student practica
+### Ph.D. student practica
 - [Alain Shema](http://alainshema.com), Graduate Assistant, Teaching and Research
 Practica (Fall 2016 - Spring 2018)
 - [Mahboobeh Harandi](https://ischool.syr.edu/people/directories/view/mharandi/), 
@@ -41,7 +41,7 @@ Practica, iSchool (Fall 2017-Spring 2018)
 - [Sarah Bratt](https://ischool.syr.edu/people/directories/view/sebratt/), Research Practicum, iSchool, Spring 2018
 
 
-#### Master's students
+### Master's students
 - Mengyu (Mike) Liu, Computer Science, Fall 2018 - Summer 2019
 - Priya Matnani, iSchool (IM with CAS in Data Science), Faculty Engagement Scholar, Fall 2017 - Spring 2019 (Summer 2018 internship at Airbnb, San Francisco), data scientist at Airbnb
 - Xinxuan Wei, iSchool, Spring 2018 - Spring 2019, data scientist in Shanghai, China

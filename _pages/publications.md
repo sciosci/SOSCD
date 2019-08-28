@@ -1,8 +1,8 @@
 ---
 layout: single
-permalink: /publish/
+permalink: /publications/
 author_profile: false
-title: ""
+title: "Publications"
 ---
 
 #### 2020
