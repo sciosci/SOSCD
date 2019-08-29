@@ -6,6 +6,10 @@ author_profile: false
 #   image: /assets/images/research.png
 #   caption: "Wanderer, Caspar David Friedrich. Credit: Photographic reproduction by Cybershot800i. (Diff), Wikimedia Commons"
 title: "Projects"
+toc: true
+toc_label: "Sections"
+toc_icon: "book"
+toc_sticky: true
 ---
 
 - Optimizing scientific peer review
