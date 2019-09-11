@@ -1,7 +1,7 @@
 ## Customization Notes
 
-- [_includes/masthead.html] is modified to display the title without full name
-- [_includes/seo.html] is modified to show the correct title
+- [_includes/masthead.html](_includes/masthead.html) is modified to display the title without full name
+- [_includes/seo.html](_includes/seo.html) is modified to show the correct title
 
 
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
