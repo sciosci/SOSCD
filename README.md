@@ -1,3 +1,9 @@
+## Customization Notes
+
+- [_includes/masthead.html] is modified to display the title without full name
+- [_includes/seo.html] is modified to show the correct title
+
+
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
