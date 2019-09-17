@@ -14,18 +14,24 @@ intro:
 
 @media screen and (max-width: 540px) {
     .logo-width {
+        margin-top: 15px;
+        margin-bottom: 15px;
         width: 65%;
     }
 }
 
 @media screen and (min-width: 540px) and (max-width: 780px) {
     .logo-width {
+        margin-top: 25px;
+        margin-bottom: 25px;
         width: 50%;
     }
 }
 
 @media screen and (min-width: 780px){
     .logo-width {
+        margin-top: 30px;
+        margin-bottom: 30px;
         width: 30%;
     }
 }
