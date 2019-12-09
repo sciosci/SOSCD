@@ -37,6 +37,8 @@ intro:
 }
 </style>
 
+[![image-center](/assets/images/s4/s4_square.png){: .align-center}](/s4)
+
  
 {: .text-center}
 
