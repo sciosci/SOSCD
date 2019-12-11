@@ -29,3 +29,7 @@ title: "People"
 - Rashika Singh, iSchool, starting Fall 2019
 - Sourabh Ghosh, iSchool, starting Fall 2019
 - Megha Ramesh Jakhotia, iSchool, from Fall 2019
+
+## Research analyst
+
+- [Yatish Hedge](https://ischool.syr.edu/people/directories/view/yhegde/), since Fall 2019
