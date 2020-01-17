@@ -3,9 +3,23 @@ layout: single
 permalink: /publications/
 author_profile: false
 title: "Publications"
+toc: true
 ---
 
+### Under review
+
+- Zhuang, H., **Acuna, DE**, _The effect of novelty on the future impact of scientific grants_, [pre-print](https://arxiv.org/abs/1911.02712)
+- Achakulvisut, T, Bhagavatula, C, **Acuna, DE**, Kording, K, _Claim extraction in biomedical publications using deep discourse model and transfer learning_, [Link](https://arxiv.org/pdf/1907.00962.pdf)
+- Zeng, T, **Acuna, DE**, _The detection of sentences that need citations using natural language models trained on scientific articles_
+
+### Published
+
 #### 2020
+
+- Zeng, T., Wu, L., Bratt, S., **Acuna, DE**, (2020) _Assigning credit to scientific datasets using article citation networks_, Journal of Informetrics [pre-print version](https://arxiv.org/abs/2001.05917)
+
+- Liang., L., **Acuna, DE** (2020) _Artificial mental phenomena: Psychophysics as a framework to detect perception biases in AI models_ In Conference on Fairness, Accountability, and Transparency (FAT* ’20), January
+27–30, 2020, Barcelona, Spain. ACM, New York, NY, USA, 10 pages. [https://doi.org/10.1145/3351095.3375623](https://doi.org/10.1145/3351095.3375623) [pre-print version](https://arxiv.org/abs/1912.10818)
 
 - Zeng, T., **Acuna, DE**, (2020) _Dataset mention extraction in scientific articles using a BiLSTM-CRF model_ Chapter 11 in Julia I. Lane, Ian Mulvany, and Paco Nathan (Ed.), 
 Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure, New York
