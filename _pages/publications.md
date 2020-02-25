@@ -8,6 +8,8 @@ toc: true
 
 ### Under review
 
+- **Acuna, DE**, Xiang, Z., _Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations_
+- Xiang, Z., **Acuna, DE**, _Scientific Image Tampering Detection Based On Noise Inconsistencies: A Method And Datasets_, [pre-print](https://arxiv.org/abs/2001.07799)
 - Zhuang, H., **Acuna, DE**, _The effect of novelty on the future impact of scientific grants_, [pre-print](https://arxiv.org/abs/1911.02712)
 - Achakulvisut, T, Bhagavatula, C, **Acuna, DE**, Kording, K, _Claim extraction in biomedical publications using deep discourse model and transfer learning_, [Link](https://arxiv.org/pdf/1907.00962.pdf)
 - Zeng, T, **Acuna, DE**, _The detection of sentences that need citations using natural language models trained on scientific articles_
@@ -16,7 +18,7 @@ toc: true
 
 #### 2020
 
-- Zeng, T., Wu, L., Bratt, S., **Acuna, DE**, (2020) _Assigning credit to scientific datasets using article citation networks_, Journal of Informetrics [pre-print version](https://arxiv.org/abs/2001.05917)
+- Zeng, T., Wu, L., Bratt, S., **Acuna, DE**, (2020) _Assigning credit to scientific datasets using article citation networks_, Journal of Informetrics [pre-print version](https://www.sciencedirect.com/science/article/abs/pii/S1751157719301841)
 
 - Liang., L., **Acuna, DE** (2020) _Artificial mental phenomena: Psychophysics as a framework to detect perception biases in AI models_ In Conference on Fairness, Accountability, and Transparency (FAT* ’20), January
 27–30, 2020, Barcelona, Spain. ACM, New York, NY, USA, 10 pages. [https://doi.org/10.1145/3351095.3375623](https://doi.org/10.1145/3351095.3375623) [pre-print version](https://arxiv.org/abs/1912.10818)
