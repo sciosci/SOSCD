@@ -18,6 +18,8 @@ toc: true
 
 #### 2020
 
+- Achakulvisut, T., **Acuna, DE**, Kording, K. (2020). Pubmed Parser: A Python Parser for PubMed Open-Access XML Subset and MEDLINE XML Dataset XML Dataset. Journal of Open Source Software, 5(46), 1979, [https://doi.org/10.21105/joss.01979](https://doi.org/10.21105/joss.01979)
+
 - Zeng, T., Wu, L., Bratt, S., **Acuna, DE**, (2020) _Assigning credit to scientific datasets using article citation networks_, Journal of Informetrics [pre-print version](https://www.sciencedirect.com/science/article/abs/pii/S1751157719301841)
 
 - Liang., L., **Acuna, DE** (2020) _Artificial mental phenomena: Psychophysics as a framework to detect perception biases in AI models_ In Conference on Fairness, Accountability, and Transparency (FAT* ’20), January
