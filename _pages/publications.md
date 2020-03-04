@@ -8,7 +8,7 @@ toc: true
 
 ### Under review
 
-- **Acuna, DE**, Xiang, Z., _Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations_
+- **Acuna, DE**, Xiang, Z., _Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations_ [pre-print](https://arxiv.org/abs/2003.00878)
 - Xiang, Z., **Acuna, DE**, _Scientific Image Tampering Detection Based On Noise Inconsistencies: A Method And Datasets_, [pre-print](https://arxiv.org/abs/2001.07799)
 - Zhuang, H., **Acuna, DE**, _The effect of novelty on the future impact of scientific grants_, [pre-print](https://arxiv.org/abs/1911.02712)
 - Achakulvisut, T, Bhagavatula, C, **Acuna, DE**, Kording, K, _Claim extraction in biomedical publications using deep discourse model and transfer learning_, [Link](https://arxiv.org/pdf/1907.00962.pdf)
@@ -17,6 +17,8 @@ toc: true
 ### Published
 
 #### 2020
+
+- Jas, M., Achakulvisut, T., Idrizović, A., **Acuna, DE**, Antalek, M., Marques, V., Odland, T., Garg, R., Agrawal, M., Umegaki, Y., Foley, P., Fernandes, H., Harris, D., Li, B., Pieters, O.  (0000-0002-5473-4849), Scott Otterson, De Toni, G., Rodgers, C. , Eva Dyer, Matti Hamalainen, Konrad Kording, Pavan Ramkumar (2020) _Pyglmnet: Python implementation of elastic-net regularized generalized linear models_ Journal of Open Source Software, 5(47), 1959, [https://doi.org/10.21105/joss.01959](https://doi.org/10.21105/joss.01959)
 
 - Achakulvisut, T., **Acuna, DE**, Kording, K. (2020). Pubmed Parser: A Python Parser for PubMed Open-Access XML Subset and MEDLINE XML Dataset XML Dataset. Journal of Open Source Software, 5(46), 1979, [https://doi.org/10.21105/joss.01979](https://doi.org/10.21105/joss.01979)
 
