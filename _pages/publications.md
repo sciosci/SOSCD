@@ -18,7 +18,7 @@ toc: true
 
 #### 2020
 
-- Jas, M., Achakulvisut, T., Idrizović, A., **Acuna, DE**, Antalek, M., Marques, V., Odland, T., Garg, R., Agrawal, M., Umegaki, Y., Foley, P., Fernandes, H., Harris, D., Li, B., Pieters, O.  (0000-0002-5473-4849), Scott Otterson, De Toni, G., Rodgers, C. , Eva Dyer, Matti Hamalainen, Konrad Kording, Pavan Ramkumar (2020) _Pyglmnet: Python implementation of elastic-net regularized generalized linear models_ Journal of Open Source Software, 5(47), 1959, [https://doi.org/10.21105/joss.01959](https://doi.org/10.21105/joss.01959)
+- Jas, M., Achakulvisut, T., Idrizović, A., **Acuna, DE**, Antalek, M., Marques, V., Odland, T., Garg, R., Agrawal, M., Umegaki, Y., Foley, P., Fernandes, H., Harris, D., Li, B., Pieters, O., Otterson, S.,De Toni, G., Rodgers, C. , Dyer, E., Hamalainen, M., Kording, K., Ramkumar, P. (2020) _Pyglmnet: Python implementation of elastic-net regularized generalized linear models_ Journal of Open Source Software, 5(47), 1959, [https://doi.org/10.21105/joss.01959](https://doi.org/10.21105/joss.01959)
 
 - Achakulvisut, T., **Acuna, DE**, Kording, K. (2020). Pubmed Parser: A Python Parser for PubMed Open-Access XML Subset and MEDLINE XML Dataset XML Dataset. Journal of Open Source Software, 5(46), 1979, [https://doi.org/10.21105/joss.01979](https://doi.org/10.21105/joss.01979)
 
