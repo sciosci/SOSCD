@@ -11,12 +11,13 @@ toc: true
 - **Acuna, DE**, Xiang, Z., _Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations_ [pre-print](https://arxiv.org/abs/2003.00878)
 - Xiang, Z., **Acuna, DE**, _Scientific Image Tampering Detection Based On Noise Inconsistencies: A Method And Datasets_, [pre-print](https://arxiv.org/abs/2001.07799)
 - Zhuang, H., **Acuna, DE**, _The effect of novelty on the future impact of scientific grants_, [pre-print](https://arxiv.org/abs/1911.02712)
-- Achakulvisut, T, Bhagavatula, C, **Acuna, DE**, Kording, K, _Claim extraction in biomedical publications using deep discourse model and transfer learning_, [Link](https://arxiv.org/pdf/1907.00962.pdf)
-- Zeng, T, **Acuna, DE**, _The detection of sentences that need citations using natural language models trained on scientific articles_
+- Achakulvisut, T, Bhagavatula, C, **Acuna, DE**, Kording, K, _Claim extraction in biomedical publications using deep discourse model and transfer learning_, [pre-print](https://arxiv.org/abs/1907.00962)
 
 ### Published
 
 #### 2020
+
+- Zeng, T, **Acuna, DE**, (2020), _Modeling citation worthiness by using attention-based Bidirectional Long Short-Term Memory networks and interpretable models_, Scientometrics, _accepted_
 
 - Jas, M., Achakulvisut, T., Idrizović, A., **Acuna, DE**, Antalek, M., Marques, V., Odland, T., Garg, R., Agrawal, M., Umegaki, Y., Foley, P., Fernandes, H., Harris, D., Li, B., Pieters, O., Otterson, S.,De Toni, G., Rodgers, C. , Dyer, E., Hamalainen, M., Kording, K., Ramkumar, P. (2020) _Pyglmnet: Python implementation of elastic-net regularized generalized linear models_ Journal of Open Source Software, 5(47), 1959, [https://doi.org/10.21105/joss.01959](https://doi.org/10.21105/joss.01959)
 
