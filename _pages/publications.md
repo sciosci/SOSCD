@@ -17,23 +17,22 @@ toc: true
 
 #### 2020
 
-- Zeng, T, **Acuna, DE**, (2020), _Modeling citation worthiness by using attention-based Bidirectional Long Short-Term Memory networks and interpretable models_, Scientometrics, _accepted_
+- Zeng, T, **Acuna, DE**, (2020), _Modeling citation worthiness by using attention-based Bidirectional Long Short-Term Memory networks and interpretable models_, Scientometrics, _accepted_ [https://doi.org/10.1007/s11192-020-03421-9](https://doi.org/10.1007/s11192-020-03421-9)
 
 - Jas, M., Achakulvisut, T., Idrizović, A., **Acuna, DE**, Antalek, M., Marques, V., Odland, T., Garg, R., Agrawal, M., Umegaki, Y., Foley, P., Fernandes, H., Harris, D., Li, B., Pieters, O., Otterson, S.,De Toni, G., Rodgers, C. , Dyer, E., Hamalainen, M., Kording, K., Ramkumar, P. (2020) _Pyglmnet: Python implementation of elastic-net regularized generalized linear models_ Journal of Open Source Software, 5(47), 1959, [https://doi.org/10.21105/joss.01959](https://doi.org/10.21105/joss.01959)
 
-- Achakulvisut, T., **Acuna, DE**, Kording, K. (2020). Pubmed Parser: A Python Parser for PubMed Open-Access XML Subset and MEDLINE XML Dataset XML Dataset. Journal of Open Source Software, 5(46), 1979, [https://doi.org/10.21105/joss.01979](https://doi.org/10.21105/joss.01979)
+- Achakulvisut, T., **Acuna, DE**, Kording, K. (2020) _Pubmed Parser: A Python Parser for PubMed Open-Access XML Subset and MEDLINE XML Dataset_, Journal of Open Source Software, 5(46), 1979, [https://doi.org/10.21105/joss.01979](https://doi.org/10.21105/joss.01979)
 
-- Zeng, T., Wu, L., Bratt, S., **Acuna, DE**, (2020) _Assigning credit to scientific datasets using article citation networks_, Journal of Informetrics [pre-print version](https://www.sciencedirect.com/science/article/abs/pii/S1751157719301841)
+- Zeng, T., Wu, L., Bratt, S., **Acuna, DE**, (2020) _Assigning credit to scientific datasets using article citation networks_, Journal of Informetrics [Link](https://www.sciencedirect.com/science/article/abs/pii/S1751157719301841)
 
 - Liang., L., **Acuna, DE** (2020) _Artificial mental phenomena: Psychophysics as a framework to detect perception biases in AI models_ In Conference on Fairness, Accountability, and Transparency (FAT* ’20), January
 27–30, 2020, Barcelona, Spain. ACM, New York, NY, USA, 10 pages. [https://doi.org/10.1145/3351095.3375623](https://doi.org/10.1145/3351095.3375623) [pre-print version](https://arxiv.org/abs/1912.10818)
 
-- Zeng, T., **Acuna, DE**, (2020) _Dataset mention extraction in scientific articles using a BiLSTM-CRF model_ Chapter 11 in Julia I. Lane, Ian Mulvany, and Paco Nathan (Ed.), 
-Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure, New York
+- Zeng, T., **Acuna, DE**, (2020) _Dataset mention extraction in scientific articles using a BiLSTM-CRF model_ Chapter 11 in Julia I. Lane, Ian Mulvany, and Paco Nathan (Ed.), Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure, New York
 
 #### 2019
 
-- Zeng, T, **Acuna, DE**, (2019) _Dead science: most resources linked in scientific articles disappear in eight years_, iConference 2019 (to appear in Lecture Notes of Computer Science)
+- Zeng, T, **Acuna, DE**, (2019) _Dead science: most resources linked in scientific articles disappear in eight years_, iConference 2019 in Lecture Notes of Computer Science, [https://doi.org/10.1007/978-3-030-15742-5_16](https://doi.org/10.1007/978-3-030-15742-5_16)
 
 - Taraz G. Lee, **Acuna, DE**, K. P., Grafton, S. T. (2019) _Limiting motor skill knowledge via incidental 
 training protects against choking under pressure_, Psychonomic Bulletin & Review [Link](https://doi.org/10.3758/s13423-018-1486-x)
