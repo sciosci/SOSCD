@@ -28,7 +28,7 @@ toc: true
 - Liang., L., **Acuna, DE** (2020) _Artificial mental phenomena: Psychophysics as a framework to detect perception biases in AI models_ In Conference on Fairness, Accountability, and Transparency (FAT* ’20), January
 27–30, 2020, Barcelona, Spain. ACM, New York, NY, USA, 10 pages. [https://doi.org/10.1145/3351095.3375623](https://doi.org/10.1145/3351095.3375623) [pre-print version](https://arxiv.org/abs/1912.10818)
 
-- Zeng, T., **Acuna, DE**, (2020) _Dataset mention extraction in scientific articles using a BiLSTM-CRF model_ Chapter 11 in Julia I. Lane, Ian Mulvany, and Paco Nathan (Ed.), Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure, New York
+- Zeng, T., **Acuna, DE**, (2020) _Dataset mention extraction in scientific articles using a BiLSTM-CRF model_ Chapter 11 in Julia I. Lane, Ian Mulvany, and Paco Nathan (Ed.), Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure, New York, [ePub](https://study.sagepub.com/richcontext)
 
 #### 2019
 

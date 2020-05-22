@@ -19,6 +19,10 @@ toc_sticky: true
 
 ## Funding sources
 
+### Sloan Foundation
+
+- `2020-2023`: Does Government Funding Change What You Do? The Effects of Funding on the Direction and Impact of Academic Energy Research
+
 ### Office of Research Integrity, DHHS
 
 - `2019 - 2020`: (Conference grant) Computational Research Integrity Conference (CRI-CON)

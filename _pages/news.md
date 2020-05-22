@@ -1,4 +1,3 @@
 ### News
-- <i class="fas fa-newspaper"></i> Best poster award, Metascience 2019 conference (with Ph.D. student Han Zhuang)
-- <i class="fas fa-newspaper"></i> `October 14 - 16, 2019` A talk and poster accepted to the [Atlanta Conference on Science and Innovation Policy](http://www.atlconf.org/)
+- <i class="fas fa-newspaper"></i> Sloan Foundation's grant with David Popp to study funding effects on research paths [Maxwell news](https://www.maxwell.syr.edu/news/stories/Popp_s_work_on_government_research_support_funded_by_Sloan_Foundation/)
 - <i class="fas fa-newspaper"></i> New lab space in 205 Hinds Hall, iSchool
