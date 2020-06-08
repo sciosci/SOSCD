@@ -34,6 +34,8 @@ toc: false
         
         var events = [
         {'name': "(Tong) Grant recommendation final manuscript", 'date': new Date("June 15, 2020 17:00:00 GMT-04:00")},
+        {'name': "(Tong) ASIS&T 2020 conference submission", 'date': new Date("June 15, 2020 23:59:59 GMT-04:00")},
+        {'name': "(Tong) IC2S2 2020 video presentation", 'date': new Date("June 19, 2020 23:59:59 GMT-04:00")},
         {'name': "(Lizhen) CHI 2021", 'date': new Date("September 10, 2020 23:59:59 GMT-04:00")},
         {'name': "(Daniel & Alan) ORI 2021", 'date': new Date("July 28, 2020 17:00:00 GMT-04:00")},
         {'name': "(Daniel) NSF CAREER", 'date': new Date("July 27, 2020 17:00:00 GMT-04:00")},
