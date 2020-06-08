@@ -18,6 +18,8 @@ toc: false
 <div id="4"></div>
 <div id="5"></div>
 <div id="6"></div>
+<div id="7"></div>
+<div id="8"></div>
 
 <script>
     $("countdown").ready(function () {
