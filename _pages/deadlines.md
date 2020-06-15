@@ -27,8 +27,16 @@ toc: false
         function create_countdown(name, date, id) {
             countdown(date,
                 function (ts) {
+                    let color = "";
+                    let text_after = "";
+                    if (ts.start < ts.end) {
+                        color="red";
+                        text_after = " past due";
+                    }                    
                     $(id).html(
-                    "<h4>" + name + "</h4>" + ts.toHTML()
+                    "<h4 style='color:" + color + "'>" + name + "</h4>" + "<p style='color:" + color + "'>" + 
+                    
+                    ts.toHTML() + text_after + "</p>"
                     );
                 },
                 countdown.MONTHS|countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS);
