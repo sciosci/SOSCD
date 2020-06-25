@@ -17,6 +17,10 @@ toc: true
 
 #### 2020
 
+- Liang, L., **Acuna, DE**, (2020), _Don't Judge a Journal by its Cover? Appearance of a Journal's Website as Predictor of Blacklisted Open-Access Status_, In Association for Information Science and Technology, Maryland, USA  
+
+- Liang, L., **Acuna, DE**, (2020), _Are author, affiliation, and citation networks predictive of a journal getting blacklisted?_, In International Conference on Computational Social Science, Cambridge, MA, USA
+
 - Zeng, T, **Acuna, DE**, (2020), _Modeling citation worthiness by using attention-based Bidirectional Long Short-Term Memory networks and interpretable models_, Scientometrics, _accepted_ [https://doi.org/10.1007/s11192-020-03421-9](https://doi.org/10.1007/s11192-020-03421-9)
 
 - Jas, M., Achakulvisut, T., Idrizović, A., **Acuna, DE**, Antalek, M., Marques, V., Odland, T., Garg, R., Agrawal, M., Umegaki, Y., Foley, P., Fernandes, H., Harris, D., Li, B., Pieters, O., Otterson, S.,De Toni, G., Rodgers, C. , Dyer, E., Hamalainen, M., Kording, K., Ramkumar, P. (2020) _Pyglmnet: Python implementation of elastic-net regularized generalized linear models_ Journal of Open Source Software, 5(47), 1959, [https://doi.org/10.21105/joss.01959](https://doi.org/10.21105/joss.01959)
