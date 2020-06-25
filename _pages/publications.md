@@ -17,26 +17,30 @@ toc: true
 
 #### 2020
 
+- Zeng, T., & **Acuna, D. E.** (2020). GotFunding: A Grant Recommendation System Based on Scientific Articles. In 6th International Conference on Computational Social Science. Cambridge, MA USA, 2020.
+
+- Zeng, T., & **Acuna, D. E.** (2020). Large-Scale Author-Name Disambiguation Using Approximate Network Structures.” Proceedings of the 83rd Annual Meeting of the Association for Information Science and Technology.
+
 - Liang, L., **Acuna, DE**, (2020), _Don't Judge a Journal by its Cover? Appearance of a Journal's Website as Predictor of Blacklisted Open-Access Status_, In Association for Information Science and Technology, Maryland, USA  
 
 - Liang, L., **Acuna, DE**, (2020), _Are author, affiliation, and citation networks predictive of a journal getting blacklisted?_, In International Conference on Computational Social Science, Cambridge, MA, USA
 
-- Zeng, T, **Acuna, DE**, (2020), _Modeling citation worthiness by using attention-based Bidirectional Long Short-Term Memory networks and interpretable models_, Scientometrics, _accepted_ [https://doi.org/10.1007/s11192-020-03421-9](https://doi.org/10.1007/s11192-020-03421-9)
+- Zeng, T., **Acuna, D.E.** (2020), _Modeling citation worthiness by using attention-based Bidirectional Long Short-Term Memory networks and interpretable models_, Scientometrics, Scientometrics, 124(1), 399–428. [https://doi.org/10.1007/s11192-020-03421-9](https://doi.org/10.1007/s11192-020-03421-9)
 
 - Jas, M., Achakulvisut, T., Idrizović, A., **Acuna, DE**, Antalek, M., Marques, V., Odland, T., Garg, R., Agrawal, M., Umegaki, Y., Foley, P., Fernandes, H., Harris, D., Li, B., Pieters, O., Otterson, S.,De Toni, G., Rodgers, C. , Dyer, E., Hamalainen, M., Kording, K., Ramkumar, P. (2020) _Pyglmnet: Python implementation of elastic-net regularized generalized linear models_ Journal of Open Source Software, 5(47), 1959, [https://doi.org/10.21105/joss.01959](https://doi.org/10.21105/joss.01959)
 
 - Achakulvisut, T., **Acuna, DE**, Kording, K. (2020) _Pubmed Parser: A Python Parser for PubMed Open-Access XML Subset and MEDLINE XML Dataset_, Journal of Open Source Software, 5(46), 1979, [https://doi.org/10.21105/joss.01979](https://doi.org/10.21105/joss.01979)
 
-- Zeng, T., Wu, L., Bratt, S., **Acuna, DE**, (2020) _Assigning credit to scientific datasets using article citation networks_, Journal of Informetrics [Link](https://www.sciencedirect.com/science/article/abs/pii/S1751157719301841)
+- Zeng, T., Wu, L., Bratt, S., **Acuna, D.E.**, (2020) _Assigning credit to scientific datasets using article citation networks_, Journal of Informetrics, 14(2), 101013. [Link][https://doi.org/10.1016/j.joi.2020.101013](https://doi.org/10.1016/j.joi.2020.101013)
 
 - Liang., L., **Acuna, DE** (2020) _Artificial mental phenomena: Psychophysics as a framework to detect perception biases in AI models_ In Conference on Fairness, Accountability, and Transparency (FAT* ’20), January
 27–30, 2020, Barcelona, Spain. ACM, New York, NY, USA, 10 pages. [https://doi.org/10.1145/3351095.3375623](https://doi.org/10.1145/3351095.3375623) [pre-print version](https://arxiv.org/abs/1912.10818)
 
-- Zeng, T., **Acuna, DE**, (2020) _Dataset mention extraction in scientific articles using a BiLSTM-CRF model_ Chapter 11 in Julia I. Lane, Ian Mulvany, and Paco Nathan (Ed.), Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure, New York, [ePub](https://study.sagepub.com/richcontext)
+- Zeng, T., **Acuna, DE** (2020) _Dataset mention extraction in scientific articles using a BiLSTM-CRF model_ Chapter 11 in Julia I. Lane, Ian Mulvany, and Paco Nathan (Ed.), Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure, New York, [ePub](https://study.sagepub.com/richcontext)
 
 #### 2019
 
-- Zeng, T, **Acuna, DE**, (2019) _Dead science: most resources linked in scientific articles disappear in eight years_, iConference 2019 in Lecture Notes of Computer Science, [https://doi.org/10.1007/978-3-030-15742-5_16](https://doi.org/10.1007/978-3-030-15742-5_16)
+- Zeng, T., Shema, A., & **Acuna, D.E.** (2019) _Dead science: most resources linked in scientific articles disappear in eight years_, iConference 2019. Lecture Notes in Computer Science, vol 11420. Springer, Cham [https://doi.org/10.1007/978-3-030-15742-5_16](https://doi.org/10.1007/978-3-030-15742-5_16)
 
 - Taraz G. Lee, **Acuna, DE**, K. P., Grafton, S. T. (2019) _Limiting motor skill knowledge via incidental 
 training protects against choking under pressure_, Psychonomic Bulletin & Review [Link](https://doi.org/10.3758/s13423-018-1486-x)
