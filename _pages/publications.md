@@ -28,8 +28,8 @@ toc: true
 - Zhuang, H., & **Acuna, DE**. (2020), _An Automatic Misleading Graph Detection Tool_, In International Conference on Computational Social Science, Cambridge, MA, USA
 
 - Zeng, T., **Acuna, D.E.** (2020), _Modeling citation worthiness by using attention-based Bidirectional Long Short-Term Memory networks and interpretable models_, Scientometrics, Scientometrics, 124(1), 399–428. [https://doi.org/10.1007/s11192-020-03421-9](https://doi.org/10.1007/s11192-020-03421-9)
-  - Datasets and code: [https://github.com/sciosci/cite-worthiness](https://github.com/sciosci/cite-worthiness)
-  - Online demo: [https://cite-worthiness.scienceofscience.org/](https://cite-worthiness.scienceofscience.org/#/)
+  - [Datasets and code, click here](https://github.com/sciosci/cite-worthiness)
+  - [Online demo, click here](https://cite-worthiness.scienceofscience.org/#/)
 
 - Jas, M., Achakulvisut, T., Idrizović, A., **Acuna, DE**, Antalek, M., Marques, V., Odland, T., Garg, R., Agrawal, M., Umegaki, Y., Foley, P., Fernandes, H., Harris, D., Li, B., Pieters, O., Otterson, S.,De Toni, G., Rodgers, C. , Dyer, E., Hamalainen, M., Kording, K., Ramkumar, P. (2020) _Pyglmnet: Python implementation of elastic-net regularized generalized linear models_ Journal of Open Source Software, 5(47), 1959, [https://doi.org/10.21105/joss.01959](https://doi.org/10.21105/joss.01959)
 
