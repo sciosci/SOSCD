@@ -38,7 +38,9 @@ toc: true
 - Zeng, T., Wu, L., Bratt, S., **Acuna, D.E.**, (2020) _Assigning credit to scientific datasets using article citation networks_, Journal of Informetrics, 14(2), 101013. [Link][https://doi.org/10.1016/j.joi.2020.101013](https://doi.org/10.1016/j.joi.2020.101013)
 
 - Liang., L., **Acuna, DE** (2020) _Artificial mental phenomena: Psychophysics as a framework to detect perception biases in AI models_ In Conference on Fairness, Accountability, and Transparency (FAT* ’20), January
-27–30, 2020, Barcelona, Spain. ACM, New York, NY, USA, 10 pages. [https://doi.org/10.1145/3351095.3375623](https://doi.org/10.1145/3351095.3375623) [pre-print version](https://arxiv.org/abs/1912.10818)
+27–30, 2020, Barcelona, Spain. ACM, New York, NY, USA, 10 pages. [https://doi.org/10.1145/3351095.3375623](https://dl.acm.org/doi/abs/10.1145/3351095.3375623)   
+  - [pre-print version](https://arxiv.org/abs/1912.10818)  
+  - [Code](https://github.com/LiamLiang/Bias_AI) 
 
 - Zeng, T., **Acuna, DE** (2020) _Dataset mention extraction in scientific articles using a BiLSTM-CRF model_ Chapter 11 in Julia I. Lane, Ian Mulvany, and Paco Nathan (Ed.), Rich Search and Discovery for Research Datasets: Building the next generation of scholarly infrastructure, New York, [ePub](https://study.sagepub.com/richcontext)
 
