@@ -58,7 +58,7 @@ training protects against choking under pressure_, Psychonomic Bulletin & Review
 
 - Teplitskiy, M, **Acuna, DE**, Elamrani-Raoult, A, Körding, K, Evans, J (2018) _The sociology of scientific validity: How professional networks shape judgement in peer review_, Research Policy [Link](https://www.sciencedirect.com/science/article/pii/S0048733318301598)
 
-- **Acuna, DE**, Brooks, P, Kording, P (2018) _Bioscience-scale automated detection of figure element reuse_ (2018) BioArXiv, [Link](https://arxiv.org/pdf/1802.01270.pdf) `Preprint`
+- **Acuna, DE**, Brooks, P, Kording, P (2018) _Bioscience-scale automated detection of figure element reuse_ (2018) BioArXiv, [Link](https://www.biorxiv.org/content/10.1101/269415v3) `Preprint`
 
 
 #### 2017
