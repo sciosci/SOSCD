@@ -10,16 +10,22 @@ title: "People"
 
 - [Daniel Acuna](/about), Ph.D., Assistant Professor, iSchool
 
-# Postdoctoral researchers
+## Postdoctoral researchers
 
 - [Qing Ke](http://qke.github.io/), since Fall 2020
 
-# Doctoral students
+## Doctoral students
 
 - [Han Zhuang](https://ischool.syr.edu/people/directories/view/hzhuang/), Graduate Assistant, iSchool, since Fall 2017
 - [Lizhen Liang](https://www.linkedin.com/in/lizhenliang/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student, Ph.D. student starting Fall 2020
 
-# Master students
+## Visiting scholars 
+
+- Tong Zeng (曾通), Doctoral student in Information Science, 
+[School of Information Management](https://www.nju.edu.cn/EN/7f/7d/c7136a163709/page.htm), 
+[Nanjing University](https://www.nju.edu.cn/EN/)
+
+## Master students
 
 - Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, starting Fall 2020
 - Rashika Singh, Faculty Engagement Scholar, iSchool, starting Fall 2019
@@ -28,13 +34,6 @@ title: "People"
 - Sourabh Ghosh, Faculty Engagement Scholar, iSchool, starting Fall 2019
 
 # Alumni
-
-#### Visiting scholars 
-
-- Tong Zeng (曾通), Doctoral student in Information Science, 
-[School of Information Management](https://www.nju.edu.cn/EN/7f/7d/c7136a163709/page.htm), 
-[Nanjing University](https://www.nju.edu.cn/EN/)
-
 
 #### Ph.D. student practica
 - [Dipto Das](https://ischool.syr.edu/people/directories/view/ddas05/), Research Assistant, iSchool, Fall 2019
