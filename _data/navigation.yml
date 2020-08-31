@@ -1,10 +1,12 @@
 # main links
 main:
+  - title: "Apply"
+    url: /recruitment/
   - title: "Publications"
     url: /publications/
   - title: "People"
     url: /people/
-  - title: "Projects & Research"
+  - title: "Research"
     url: /projects/
   - title: "About"
     url: /about/
