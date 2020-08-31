@@ -8,8 +8,8 @@ toc: true
 
 ### Ph.D. student to start in Fall 2021 
 
-This year, Assistant Professor Daniel Acuna from the School of Information Studies and 
-the [Science of Science and Computational Discovery (SOS+CD) Lab](https://scienceofscience.org)  is looking
+Assistant Professor Daniel Acuna from the School of Information Studies and 
+the [Science of Science and Computational Discovery (SOS+CD) Lab](https://scienceofscience.org) are looking
 for Ph.D. students to apply to the program in Fall 2021. 
 
 
