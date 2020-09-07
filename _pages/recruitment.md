@@ -22,7 +22,7 @@ The SOS+CD Lab works on
  
 #### Contact me  
 
-If you want to your current career plans and are considering a Ph.D., please send me an email to 
+If you want to discuss your current career plans, are interested in our research, are considering a Ph.D., please send me an email to 
 deacuna AT syr.edu.
 
 _Deadline to apply is January 3rd_ but you should talk to me first. 
