@@ -2,7 +2,7 @@
 layout: single
 permalink: /recruitment/
 author_profile: false
-title: "We are *always* looking for ambitious students"
+title: "New Ph.D. and master's students"
 toc: true
 ---
 
