@@ -4,6 +4,7 @@ permalink: /workshops/
 author_profile: false
 title: "iConference 2021 Workshop:"
 toc: true
+masthead: false
 ---
 
 **Machine Learning and Artificial Intelligence**  
