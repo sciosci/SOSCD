@@ -19,11 +19,15 @@ With the development of the Internet, scientific literature has been transformed
 This workshop aims to help bring awareness to ML and AI partially. It also aims to close this gap with a half-day workshop that will teach principles and techniques to a broad set of attendees. We will pay special attention to include historically under-represented disciplinary and demographic audiences. After this workshop finishes, attendees will have a good understanding of SciSci, and CD but will also grasp limitations and opportunities for future research.  
 
 **The purpose** of this workshop is to:
-    1. Introduce researchers to the Science of Science (SciSci) and Computational Discovery (CD) research communities
-    2. Demonstrate and help researchers interested in getting started with Machine Learning and Artificial Intelligence
-    3. Allow practitioners of SciSci and CD multiple opportunities to interact and network with the organizers, and peers.
+- Introduce researchers to the Science of Science (SciSci) and Computational Discovery (CD) research communities
+- Demonstrate and help researchers interested in getting started with Machine Learning and Artificial Intelligence
+- Allow practitioners of SciSci and CD multiple opportunities to interact and network with the organizers, and peers.
+  
 
-**Intended Audience**: researchers from all research areas in critical information issues that affect contemporary society. These researchers include Information Scientists, Network Scientists, Data Scientists, Computer Scientists, and Librarians. Programming experience is preferred but not required.
+**Intended Audience**:   
+- Researchers from all research areas in critical information issues that affect contemporary society.    
+- These researchers include Information Scientists, Network Scientists, Data Scientists, Computer Scientists, and Librarians.   
+- Programming experience is preferred but not required.
 
 
 ## Workshop Schedule
