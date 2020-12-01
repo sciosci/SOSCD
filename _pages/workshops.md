@@ -26,16 +26,31 @@ This workshop aims to help bring awareness to ML and AI partially. It also aims 
 **Intended Audience**: researchers from all research areas in critical information issues that affect contemporary society. These researchers include Information Scientists, Network Scientists, Data Scientists, Computer Scientists, and Librarians. Programming experience is preferred but not required.
 
 
-## Workshop Format
-| Time | Activity |   
-|---------------------|---------------------|   
-| 9:00 AM - 9:10 AM | Welcoming: goals, format, speakers, and schedule of the workshop |   
-| 9:10 AM - 9:40 AM | Introduction to Science of Science: A broad overview of the scale and growth of science vs. scientists, biases, novelty, and problems in peer review, issues of false results, and non-reproducible science. |    
-| 9:40 AM - 10:00 AM | Talks about applications of AI and ML to SciSci and CD. |    
-| 10:00 AM - 10:30 AM | Introduction to ML and AI |    
-| 10:30 AM - 11:00 AM | Packages and Frameworks: - Spark: Data transformation, ML pipeline - PyTorch: Basics, Pretrained models |    
-| 11:10 PM - 12:10 PM | Hands on experiments: - An curated dataset - Exploratory data analysis - Modeling with Linear, Tree-based and Deep Learning models |    
-| 12:10 PM - 12:30 PM | Flash Talk, 3 or 5 minutes each, the audience share their insights and experiences, could be any topic covers: Interests and benefits; Challenges and Constraints; Opportunities and Future directions |    
+## Workshop Schedule
+
+9:00 AM - 9:10 AM:   
+Welcoming: goals, format, speakers, and schedule of the workshop       
+  
+9:10 AM - 9:40 AM:   
+Introduction to Science of Science: A broad overview of the scale and growth of science vs. scientists, biases, novelty, and problems in peer review, issues of false results, and non-reproducible science    
+  
+9:40 AM - 10:00 AM:   
+Talks about applications of AI and ML to SciSci and CD       
+   
+10:00 AM - 10:30 AM:   
+Introduction to ML and AI     
+  
+10:30 AM - 11:00 AM:   
+Packages and Frameworks: - Spark: Data transformation, ML pipeline - PyTorch: Basics, Pretrained models       
+
+11:10 PM - 12:10 PM:   
+Hands on experiments: - An curated dataset - Exploratory data analysis - Modeling with Linear, Tree-based and Deep Learning models     
+  
+12:10 PM - 12:30 PM:   
+Flash Talk, 3 or 5 minutes each, the audience share their insights and experiences, could be any topic covers: 
+- Interests and benefits; 
+- Challenges and Constraints; 
+- Opportunities and Future directions        
   
 ## Date
 TBD  
