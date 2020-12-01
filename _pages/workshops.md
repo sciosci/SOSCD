@@ -3,8 +3,9 @@ layout: single
 permalink: /workshops/
 author_profile: false
 title: "iConference 2021 Workshop:"
-toc: true
+toc: false
 masthead: false
+classes: wide
 ---
 
 <h1>Machine Learning and Artificial Intelligence for Science of Science and Computational Discovery: Principles, Applications, and Future Opportunities</h1>
