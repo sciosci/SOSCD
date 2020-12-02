@@ -30,7 +30,7 @@
     width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
-
+   
   .page__inner-wrap {
     float: left;
     margin-top: 1em;
@@ -51,6 +51,8 @@
     }
   }
 }
+
+
 
 .page__title {
   margin-top: 0;
@@ -518,3 +520,14 @@
     }
   }
 }
+
+.page__align_center {
+   @include breakpoint($large) {
+    width: 100%;
+   }
+
+   @include breakpoint($x-large) {
+    width: 100%;
+   }     
+}
+
