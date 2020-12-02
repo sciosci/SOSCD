@@ -5,7 +5,7 @@ author_profile: false
 title: "iConference 2021 Workshop:"
 toc: false
 masthead: false
-classes: wide
+classes: wide, page__align_center
 ---
 
 <p><img src="https://ischools.org/resources/Pictures/iConf2021/1_banner_2021iconference_website_web2.png" alt="iConference2021_banner" width="100%"></p>
