@@ -522,12 +522,14 @@
 }
 
 .page__align_center {
-   @include breakpoint($large) {
-    width: 100%;
-   }
-
-   @include breakpoint($x-large) {
-    width: 100%;
-   }     
+  .page {
+    @include breakpoint($large) {
+      width: 100%;
+     }
+  
+     @include breakpoint($x-large) {
+      width: 100%;
+     }   
+  }     
 }
 
