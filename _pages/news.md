@@ -1,4 +1,5 @@
 ### News
+- <i class="fas fa-newspaper"></i> [iConference 2021 workshop: Machine Learning and Artificial Intelligence for Science of Science and Computational Discovery: Principles, Applications, and Future Opportunities](workshops)
 - <i class="fas fa-newspaper"></i> [The SOS+CD lab is looking for Ph.D. student for Fall 2021](recruitment)
 - <i class="fas fa-newspaper"></i> [Science of Science Summer School (S4)](s4) postponed until Summer 2021
 - Sloan Foundation's grant with David Popp to study funding effects on research paths [
