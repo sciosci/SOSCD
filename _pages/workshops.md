@@ -8,7 +8,7 @@ masthead: false
 classes: wide page__align_center
 ---
 
-<p><img src="https://ischools.org/resources/Pictures/iConf2021/1_banner_2021iconference_website_web2.png" alt="iConference2021_banner" width="100%"></p>
+<p><a href="https://scienceofscience.org/"><img src="https://ischools.org/resources/Pictures/iConf2021/1_banner_2021iconference_website_web2.png" alt="iConference2021_banner" width="100%"></a></p>
 
 <h1>Machine Learning and Artificial Intelligence for Science of Science and Computational Discovery: Principles, Applications, and Future Opportunities</h1>
 <p align="center"><strong>Daniel E. Acuna</strong><sup>1</sup>, <strong>Tong Zeng</strong><sup>2</sup>, <strong>Han Zhuang</strong><sup>1</sup>, <strong>Lizhen Liang</strong><sup>1</sup><br><sup>1</sup>School of Information Studies, Syracuse University, Syracuse, NY, USA<br><sup>2</sup>School of Information Science, Nanjing University, China</p>
