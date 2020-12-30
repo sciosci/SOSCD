@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /projects/
+permalink: /funding/
 author_profile: false
 # header:
 #   image: /assets/images/research.png
