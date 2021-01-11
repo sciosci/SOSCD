@@ -39,30 +39,131 @@ This workshop aims to help bring awareness to ML and AI partially. It also aims 
 
 
 ## Workshop Schedule
-
-9:00 AM - 9:10 AM:   
-Welcoming: goals, format, speakers, and schedule of the workshop       
-  
-9:10 AM - 9:40 AM:   
-Introduction to Science of Science: A broad overview of the scale and growth of science vs. scientists, biases, novelty, and problems in peer review, issues of false results, and non-reproducible science    
-  
-9:40 AM - 10:00 AM:   
-Talks about applications of AI and ML to SciSci and CD       
-   
-10:00 AM - 10:30 AM:   
-Introduction to ML and AI     
-  
-10:30 AM - 11:00 AM:   
-Packages and Frameworks: - Spark: Data transformation, ML pipeline - PyTorch: Basics, Pretrained models       
-
-11:10 PM - 12:10 PM:   
-Hands on experiments: - An curated dataset - Exploratory data analysis - Modeling with Linear, Tree-based and Deep Learning models     
-  
-12:10 PM - 12:30 PM:   
-Flash Talk, 3 or 5 minutes each, the audience share their insights and experiences, could be any topic covers: 
-- Interests and benefits; 
-- Challenges and Constraints; 
-- Opportunities and Future directions        
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>China</th>
+      <th>Europe</th>
+      <th>New York Time</th>
+      <th>West coast</th>
+      <th>Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>21:00</td>
+      <td>14:00</td>
+      <td>08:00</td>
+      <td>05:00</td>
+      <td>Welcoming remarks</td>
+    </tr>
+    <tr>
+      <td>21:10</td>
+      <td>14:10</td>
+      <td>08:10</td>
+      <td>05:10</td>
+      <td>Keynote speaker</td>
+    </tr>
+    <tr>
+      <td>21:40</td>
+      <td>14:40</td>
+      <td>08:40</td>
+      <td>05:40</td>
+      <td>Introduction to Science of Science</td>
+    </tr>
+    <tr>
+      <td>22:30</td>
+      <td>15:30</td>
+      <td>09:30</td>
+      <td>06:30</td>
+      <td>Research on SciSci: Talks about applications of AI and ML to SciSci and CD</td>
+    </tr>
+    <tr>
+      <td>23:30</td>
+      <td>16:30</td>
+      <td>10:30</td>
+      <td>07:30</td>
+      <td>Break</td>
+    </tr>
+    <tr>
+      <td>23:45</td>
+      <td>16:45</td>
+      <td>10:45</td>
+      <td>07:45</td>
+      <td>Introduction to ML/AI for SOS+CD</td>
+    </tr>
+    <tr>
+      <td>00:45</td>
+      <td>17:45</td>
+      <td>11:45</td>
+      <td>08:45</td>
+      <td>Long break</td>
+    </tr>
+    <tr>
+      <td>01:30</td>
+      <td>18:30</td>
+      <td>12:30</td>
+      <td>09:30</td>
+      <td>Supervised learning: deep learning, bagging, boosting</td>
+    </tr>
+    <tr>
+      <td>02:30</td>
+      <td>19:30</td>
+      <td>13:30</td>
+      <td>10:30</td>
+      <td>Unsupervised and semi-supervised learning: autoencoders, GANs, reinforcement learning</td>
+    </tr>
+    <tr>
+      <td>03:30</td>
+      <td>20:30</td>
+      <td>14:30</td>
+      <td>11:30</td>
+      <td>Break</td>
+    </tr>
+    <tr>
+      <td>03:45</td>
+      <td>20:45</td>
+      <td>14:45</td>
+      <td>11:45</td>
+      <td>Advanced topics: Causal inference and Biases in AI</td>
+    </tr>
+    <tr>
+      <td>04:45</td>
+      <td>21:45</td>
+      <td>15:45</td>
+      <td>12:45</td>
+      <td>Packages and tools for SOS in Python and R</td>
+    </tr>
+    <tr>
+      <td>06:15</td>
+      <td>23:15</td>
+      <td>17:15</td>
+      <td>14:15</td>
+      <td>Noteworthy projects presentations (half-baked ideas)</td>
+    </tr>
+    <tr>
+      <td>07:45</td>
+      <td>00:45</td>
+      <td>18:45</td>
+      <td>15:45</td>
+      <td>Work on an idea and pitch it in front of everybody</td>
+    </tr>
+    <tr>
+      <td>09:00</td>
+      <td>02:00</td>
+      <td>20:00</td>
+      <td>17:00</td>
+      <td>Pitch ideas</td>
+    </tr>
+    <tr>
+      <td>11:00</td>
+      <td>04:00</td>
+      <td>22:00</td>
+      <td>19:00</td>
+      <td>End</td>
+    </tr>
+  </tbody>
+</table> 
   
 ## Date
 TBD  
