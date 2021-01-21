@@ -22,7 +22,8 @@ citation_language: english
 
 
 
-<p align="center"><strong>Zeng, Tong</strong><sup>1,2</sup>, <strong>Acuna, Daniel E.</strong><sup>2,*</sup>, <br><sup>1</sup>School of Information Science, Nanjing University, China<br><sup>2</sup>School of Information Studies, Syracuse University, Syracuse, NY, USA</p>
+<p align="center"><strong>Zeng, Tong</strong><sup>1,2</sup>, <strong>Acuna, Daniel E.</strong><sup>2,*</sup> </p>
+<p align="center"><sup>1</sup>School of Information Science, Nanjing University, China<br><sup>2</sup>School of Information Studies, Syracuse University, Syracuse, NY, USA</p>
 
 <h2>Abstract</h2>
 
