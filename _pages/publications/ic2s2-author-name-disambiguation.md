@@ -17,7 +17,7 @@ masthead: true
 classes: wide page__align_center 
 
 # the link to this page, please always keep the "/publications/" and change "ic2s2-author-name-disambiguation/" to the name you like
-permalink: /publications/ic2s2-author-name-disambiguation/
+permalink: /publications/ic2s2-author-name-disambiguation.html
 
 # The title of the web page, it would be overwrited by citation_title if citation_title exists
 title: Large-scale author name disambiguation using approximate network structures 
