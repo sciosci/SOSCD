@@ -36,6 +36,22 @@ layout: default
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
         </header>
+        <p align="center">
+          {% if page.html_citation_author %}
+            {% for author in page.html_citation_author %}
+              <strong>{{ author }}</strong>{% unless forloop.last %}&nbsp;,{% endunless %}
+            {% endfor %}
+          {% endif %}
+        </p>
+        <p align="center">
+          {% if page.html_insitution_list %}
+            {% for insitution in page.html_insitution_list %}
+            <strong>{{ insitution }}</strong>{% unless forloop.last %}<br>{% endunless %}
+            {% endfor %}
+          {% endif %}                  
+        </p>
+
+
       {% endunless %}
 
       <section class="page__content" itemprop="text">
@@ -47,6 +63,9 @@ layout: default
             </nav>
           </aside>
         {% endif %}
+        <h2>Abstract</h2>
+        {{ page.citation_abstract}}
+
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
