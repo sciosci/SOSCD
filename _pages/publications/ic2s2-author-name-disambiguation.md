@@ -163,7 +163,7 @@ citation_abstract_html_url:
 citation_fulltext_html_url:
 
 # The url for pdf file of the paper
-citation_pdf_url:
+citation_pdf_url: https://scienceofscience.org/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf
 
 ####################################################################################################
 # end: meta data for Google Scholar ----> 
@@ -184,4 +184,4 @@ html_insitution_list: ['<sup>1</sup>School of Information Science, Nanjing Unive
 
 
 <h2>Full Text</h2>
-Please refer to <a href="https://doi.org/10.5281/zenodo.4403705"> 10.5281/zenodo.4403705</a> for the full paper. 
+Please <a href="/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf"> click here </a>to read the full paper.
