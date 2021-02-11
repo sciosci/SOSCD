@@ -19,7 +19,7 @@ toc: true
 
 - Zeng, T., & **Acuna, D. E.** (2020). _GotFunding: A Grant Recommendation System Based on Scientific Articles_. Proceedings of the 83rd Annual Meeting of the Association for Information Science and Technology.
 
-- Zeng, T., & **Acuna, D. E.** (2020). <a href="./ic2s2-author-name-disambiguation.html">_Large-Scale Author-Name Disambiguation Using Approximate Network Structures_.</a> In 6th International Conference on Computational Social Science. Cambridge, MA USA, 2020.
+- Zeng, T., & **Acuna, D. E.** (2020). <a href="/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf">_Large-Scale Author-Name Disambiguation Using Approximate Network Structures_.</a> In 6th International Conference on Computational Social Science. Cambridge, MA USA, 2020.
 
 - Liang, L., **Acuna, DE**, (2020), _Don't Judge a Journal by its Cover? Appearance of a Journal's Website as Predictor of Blacklisted Open-Access Status_, In Association for Information Science and Technology, Maryland, USA  
 
