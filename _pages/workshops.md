@@ -40,8 +40,30 @@ This workshop aims to help bring awareness to ML and AI partially. It also aims 
 
 ## Workshop Schedule
 
-TBA
-  
+10:00 AM - 10:10 AM:
+Welcoming: goals, format, speakers, and schedule of the workshop
+
+10:10 AM - 10:40 AM:
+Introduction to Science of Science: A broad overview of the scale and growth of science vs. scientists, biases, novelty, and problems in peer review, issues of false results, and non-reproducible science
+
+10:40 AM - 11:00 AM:
+Talks about applications of AI and ML to SciSci and CD
+
+11:00 AM - 11:30 AM:
+Introduction to ML and AI
+
+11:30 AM - 12:00 AM:
+Packages and Frameworks: - Spark: Data transformation, ML pipeline - PyTorch: Basics, Pretrained models
+
+12:10 PM - 13:10 PM:
+Hands on experiments: - An curated dataset - Exploratory data analysis - Modeling with Linear, Tree-based and Deep Learning models
+
+13:10 PM - 14:00 PM:
+Flash Talk, 3 or 5 minutes each, the audience share their insights and experiences, could be any topic covers:  
+- Interests and benefits;
+- Challenges and Constraints;
+- Opportunities and Future directions;  
+
 ## Date
 TBD  
   
