@@ -38,7 +38,7 @@ This workshop aims to help bring awareness to ML and AI partially. It also aims 
 - Programming experience is preferred but not required.
 
 
-## Workshop Schedule
+## Workshop Schedule   
 
 10:00 AM - 10:10 AM:
 Welcoming: goals, format, speakers, and schedule of the workshop
@@ -65,7 +65,8 @@ Flash Talk, 3 or 5 minutes each, the audience share their insights and experienc
 - Opportunities and Future directions;  
 
 ## Date
-TBD  
+**Wednesday, March 17**    
+   
   
 ## References  
 - Fortunato, S., Bergstrom, C. T., Börner, K., Evans, J. A., Helbing, D., Milojević, S., ... & Vespignani, A. (2018). Science of science. Science , 359 (6379).
