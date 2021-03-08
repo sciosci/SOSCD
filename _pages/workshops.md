@@ -53,7 +53,7 @@ Talks about applications of AI and ML to SciSci and CD
 Introduction to ML and AI
 
 11:30 AM - 12:00 AM:
-Packages and Frameworks: - Spark: Data transformation, ML pipeline - PyTorch: Basics, Pretrained models
+Packages and Frameworks
 
 12:10 PM - 13:10 PM:
 Hands on experiments: - An curated dataset - Exploratory data analysis - Modeling with Linear, Tree-based and Deep Learning models
