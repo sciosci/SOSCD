@@ -19,21 +19,19 @@ title: "People"
 - [Han Zhuang](https://ischool.syr.edu/people/directories/view/hzhuang/), Graduate Assistant, iSchool, since Fall 2017
 - [Lizhen Liang](https://www.linkedin.com/in/lizhenliang/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student, Ph.D. student starting Fall 2020
 
-## Visiting scholars 
-
-- Tong Zeng (曾通), Doctoral student in Information Science, 
-[School of Information Management](https://www.nju.edu.cn/EN/7f/7d/c7136a163709/page.htm), 
-[Nanjing University](https://www.nju.edu.cn/EN/)
-
 ## Master students
 
 - Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, starting Fall 2020
-- Rashika Singh, Faculty Engagement Scholar, iSchool, starting Fall 2019
 - Hanlin Zhang, iSchool, starting Fall 2019
 - Jian Jian, iSchool, starting Spring 2020
-- Sourabh Ghosh, Faculty Engagement Scholar, iSchool, starting Fall 2019
 
 # Alumni
+
+#### Visiting scholar
+
+- Tong Zeng (曾通), Doctoral student in Information Science, 
+[School of Information Management](https://www.nju.edu.cn/EN/7f/7d/c7136a163709/page.htm), 
+[Nanjing University](https://www.nju.edu.cn/EN/) (Fall 2017 - Spring 2021)
 
 #### Ph.D. student practica
 - [Dipto Das](https://ischool.syr.edu/people/directories/view/ddas05/), Research Assistant, iSchool, Fall 2019
@@ -47,6 +45,8 @@ Practica (Fall 2016 - Spring 2018)
 
 
 #### Master's students
+- Rashika Singh, Faculty Engagement Scholar, iSchool, starting Fall 2019 - Spring 2021
+- Sourabh Ghosh, Faculty Engagement Scholar, iSchool, starting Fall 2019 - Fall 2020
 - Megha Ramesh Jakhotia, Faculty Engagement Scholar, previously with prof. Yang Wang, Fall 2019 - Spring 2020
 - [Ziyue (Alan) Xiang](http://www.alanshawn.com/), Computer Science, Fall 2018 - Spring 2020, now Ph.D. student at Purdue University
 - Ananth Raj GV, iSchool, Spring 2019 - Spring 2020, data scientits with Bank of America
