@@ -2,8 +2,6 @@
 main:
   - title: "<span style='color: #D44500'>S4</span>"
     url: /s4/
-  - title: "<span style='color: #D44500'>iConf workshop</span>"
-    url: /workshops/
   - title: "Publications"
     url: /publications/
   - title: "People"
