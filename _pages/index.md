@@ -1,14 +1,10 @@
 ---
-title: "—"
 layout: splash
 permalink: /
 author_profile: true
 intro:
     - excerpt: 'Make Science Great Again (scientifically)'
 description: Trying to understand science and developing methods to mine scientific knowledge from vast, unstructured dataset of full-text publications, citations, and images
-title: "Science of science & Computational Discovery"
-author:
-   twitter: daniel_akuna
 header:
   teaser: /assets/images/sos_logo_square.png
 ---
