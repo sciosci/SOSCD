@@ -11,9 +11,12 @@ toc: true
 - **Acuna, DE**, Xiang, Z., _Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations_ [pre-print](https://arxiv.org/abs/2003.00878)
 - Xiang, Z., **Acuna, DE**, _Scientific Image Tampering Detection Based On Noise Inconsistencies: A Method And Datasets_, [pre-print](https://arxiv.org/abs/2001.07799)
 - Zhuang, H., **Acuna, DE**, _The effect of novelty on the future impact of scientific grants_, [pre-print](https://arxiv.org/abs/1911.02712)
-- Achakulvisut, T, Bhagavatula, C, **Acuna, DE**, Kording, K, _Claim extraction in biomedical publications using deep discourse model and transfer learning_, [pre-print](https://arxiv.org/abs/1907.00962)
 
 ### Published
+
+#### 2021
+
+- **Acuna, D. E.**, Liang, L. (2021). _Are AI ethics conferences different and more diverse compared to traditional computer science conferences?_ AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society 2021, [Preprint](https://doi.org/10.31219/osf.io/75qfs)
 
 #### 2020
 

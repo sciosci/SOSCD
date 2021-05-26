@@ -8,9 +8,9 @@ title: "People"
 
 # Principal Investigator
 
-- [Daniel Acuna](/about), Ph.D., Assistant Professor, iSchool
+- [Daniel Acuña](/about), Ph.D., Assistant Professor, iSchool, Syracuse University
 
-## Postdoctoral researchers
+## Postdoctoral researcher
 
 - [Qing Ke](http://qke.github.io/), since Fall 2020
 
