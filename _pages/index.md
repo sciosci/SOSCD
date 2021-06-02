@@ -43,6 +43,5 @@ header:
 {: .text-center}
 
 [![image-center](assets/images/s4/s4_socialmedia_large.png)](s4){: .align-center .logo-width  }
-The SOS+CD Lab at the iSchool, Syracuse University works on understanding current practices in science and developing semi-automated methods to mine scientific knowledge from vast, unstructured dataset of full-text publications, citations, and images. We use a variety of computational techniques including deep learning, natural language processing, graph analytics, image processing and causal inference.
 
 {% include_relative news.md %}
