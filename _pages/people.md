@@ -21,9 +21,8 @@ title: "People"
 
 ## Master students
 
-- Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, starting Fall 2020
-- Hanlin Zhang, iSchool, starting Fall 2019
-- Jian Jian, iSchool, starting Spring 2020
+- Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, since Fall 2020
+- Jim Yi, iSchool, since Spring 2021
 
 # Alumni
 
@@ -45,8 +44,10 @@ Practica (Fall 2016 - Spring 2018)
 
 
 #### Master's students
-- Rashika Singh, Faculty Engagement Scholar, iSchool, starting Fall 2019 - Spring 2021
-- Sourabh Ghosh, Faculty Engagement Scholar, iSchool, starting Fall 2019 - Fall 2020
+- Hanlin Zhang, Computer Science, Fall 2019 - Spring 2021
+- Jian Jian, iSchool, Spring 2020 - Spring 2021
+- Rashika Singh, Faculty Engagement Scholar, iSchool, Fall 2019 - Spring 2021
+- Sourabh Ghosh, Faculty Engagement Scholar, iSchool, Fall 2019 - Fall 2020
 - Megha Ramesh Jakhotia, Faculty Engagement Scholar, previously with prof. Yang Wang, Fall 2019 - Spring 2020
 - [Ziyue (Alan) Xiang](http://www.alanshawn.com/), Computer Science, Fall 2018 - Spring 2020, now Ph.D. student at Purdue University
 - Ananth Raj GV, iSchool, Spring 2019 - Spring 2020, data scientits with Bank of America
