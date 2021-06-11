@@ -2,7 +2,6 @@
 layout: single
 permalink: /mentorship/
 author_profile: false
-title: "mentorship"
 ---
 
 <h2 style="text-align: center;">A dataset of mentorship in science with semantic and demographic estimations</h2>
