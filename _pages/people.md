@@ -50,7 +50,7 @@ Practica (Fall 2016 - Spring 2018)
 - Sourabh Ghosh, Faculty Engagement Scholar, iSchool, Fall 2019 - Fall 2020
 - Megha Ramesh Jakhotia, Faculty Engagement Scholar, previously with prof. Yang Wang, Fall 2019 - Spring 2020
 - [Ziyue (Alan) Xiang](http://www.alanshawn.com/), Computer Science, Fall 2018 - Spring 2020, now Ph.D. student at Purdue University
-- Ananth Raj GV, iSchool, Spring 2019 - Spring 2020, data scientits with Bank of America
+- Ananth Raj GV, iSchool, Spring 2019 - Spring 2020, data scientist with Bank of America
 - Omkar Buchade, Computer Science, since Fall 2018 (in Summer 2019 internship with CBS Interactive)
 - Mengyu (Mike) Liu, Computer Science, Fall 2018 - Summer 2019
 - Priya Matnani, iSchool (IM with CAS in Data Science), Faculty Engagement Scholar, Fall 2017 - Spring 2019 (Summer 2018 internship at Airbnb, San Francisco), data scientist at Airbnb
