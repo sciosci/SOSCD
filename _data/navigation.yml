@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "<span style='color: #D44500'>S4</span>"
-    url: https://s4.scienceofscience.org 
+    url: /s4/
   - title: "Publications"
     url: /publications/
   - title: "People"
