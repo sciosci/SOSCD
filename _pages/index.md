@@ -42,6 +42,6 @@ header:
  
 {: .text-center}
 
-[![image-center](assets/images/s4/s4_socialmedia_large.png)](s4){: .align-center .logo-width  }
+[![image-center](assets/images/s4/s4_socialmedia_large.png)](https://s4.scienceofscience.org/){: .align-center .logo-width  }
 
 {% include_relative news.md %}
