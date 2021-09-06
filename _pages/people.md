@@ -18,11 +18,13 @@ title: "People"
 
 - [Han Zhuang](https://ischool.syr.edu/people/directories/view/hzhuang/), Graduate Assistant, iSchool, since Fall 2017
 - [Lizhen Liang](https://www.linkedin.com/in/lizhenliang/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student, Ph.D. student starting Fall 2020
+- LaRoyce Jermaine Covington Jr., Research and Teaching Practica, iSchool, Fall 2021
 
 ## Master students
 
 - Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, since Fall 2020
 - Jim Yi, iSchool, since Spring 2021
+- Chao Zhou, Computer Science and Engineering, since Fall 2021
 
 # Alumni
 
