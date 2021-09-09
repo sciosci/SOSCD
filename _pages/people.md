@@ -25,6 +25,7 @@ title: "People"
 - Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, since Fall 2020
 - Jim Yi, iSchool, since Spring 2021
 - Chao Zhou, Computer Science and Engineering, since Fall 2021
+- Ayyappa Sumanth Bhuma, iSchool, since Fall 2021
 
 # Alumni
 
