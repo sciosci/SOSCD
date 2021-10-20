@@ -10,24 +10,23 @@ title: "People"
 
 - [Daniel Acuña](/about), Ph.D., Assistant Professor, iSchool, Syracuse University
 
-## Postdoctoral researcher
-
-- [Qing Ke](http://qke.github.io/), since Fall 2020
-
 ## Doctoral students
 
 - [Han Zhuang](https://ischool.syr.edu/people/directories/view/hzhuang/), Graduate Assistant, iSchool, since Fall 2017
 - [Lizhen Liang](https://www.linkedin.com/in/lizhenliang/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student, Ph.D. student starting Fall 2020
-- LaRoyce Jermaine Covington Jr., Research and Teaching Practica, iSchool, Fall 2021
+- LaRoyce Jermaine Covington Jr., Research Practica, iSchool, Fall 2021
 
 ## Master students
 
 - Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, since Fall 2020
 - Jim Yi, iSchool, since Spring 2021
 - Chao Zhou, Computer Science and Engineering, since Fall 2021
-- Ayyappa Sumanth Bhuma, iSchool, since Fall 2021
 
 # Alumni
+
+#### Postdoctoral researcher
+
+- [Qing Ke](http://qke.github.io/), since Fall 2020 - August 2021, now at City University of Hong Kong
 
 #### Visiting scholar
 
@@ -47,8 +46,8 @@ Practica (Fall 2016 - Spring 2018)
 
 
 #### Master's students
-- Hanlin Zhang, Computer Science, Fall 2019 - Spring 2021
-- Jian Jian, iSchool, Spring 2020 - Spring 2021
+- Hanlin Zhang, Computer Science, Fall 2019 - Spring 2021, now in Ant Group (China)
+- Jian Jian, iSchool, Spring 2020 - Spring 2021, now Data Scientist at DeepCell
 - Rashika Singh, Faculty Engagement Scholar, iSchool, Fall 2019 - Spring 2021
 - Sourabh Ghosh, Faculty Engagement Scholar, iSchool, Fall 2019 - Fall 2020
 - Megha Ramesh Jakhotia, Faculty Engagement Scholar, previously with prof. Yang Wang, Fall 2019 - Spring 2020
