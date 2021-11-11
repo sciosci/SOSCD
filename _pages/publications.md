@@ -10,7 +10,6 @@ toc: true
 
 - **Acuna, DE**, Yi, Z, Nagre, K,  Matnani, P, _EILEEN: A recommendation system for scientific publications and grants_, [pre-print](https://arxiv.org/abs/2110.09663)
 - Ke, Q., Liang, L., Ding, Y., David, SV., **Acuna, DE**, _A dataset of mentorship in science with semantic and demographic estimations_, [pre-print](https://arxiv.org/abs/2106.06487)
-- Zhuang, H., Huang, TY, **Acuna, DE**, _Graphical integrity issues in open access publications: detection and patterns of proportional ink violations_
 - **Acuna, DE**, Xiang, Z., _Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations_ [pre-print](https://arxiv.org/abs/2003.00878)
 - Xiang, Z., **Acuna, DE**, _Scientific Image Tampering Detection Based On Noise Inconsistencies: A Method And Datasets_, [pre-print](https://arxiv.org/abs/2001.07799)
 - Zhuang, H., **Acuna, DE**, _The effect of novelty on the future impact of scientific grants_, [pre-print](https://arxiv.org/abs/1911.02712)
@@ -19,7 +18,11 @@ toc: true
 
 #### 2021
 
-- **Acuna, D. E.**, Liang, L. (2021). _Are AI ethics conferences different and more diverse compared to traditional computer science conferences?_ AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society 2021, [Preprint](https://doi.org/10.31219/osf.io/75qfs)
+- Zhuang, H., Huang, TY, **Acuna, DE**, _Graphical integrity issues in open access publications: detection and patterns of proportional ink violations_, PLOS Computational Biology, (_conditionally accepted_)
+- **Acuna, DE**, Yi, Z, Liang, L., Zhuang, H, _Predicting the usage of scientific datasets based on article, author, institution, and journal bibliometrics_,  iConference 2022, Lecture Notes in Computer Science (_accepted_)
+- **Acuna, D. E.**, Liang, L. (2021). [_Are AI ethics conferences different and more diverse compared to traditional computer science conferences?_](https://dl.acm.org/doi/abs/10.1145/3461702.3462616) AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society 2021
+
+
 
 #### 2020
 
