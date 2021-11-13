@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: publications
 permalink: /publications/
 author_profile: false
 title: "Publications"
@@ -8,7 +8,6 @@ toc: true
 
 ### Under review
 
-- **Acuna, DE**, Yi, Z, Nagre, K,  Matnani, P, _EILEEN: A recommendation system for scientific publications and grants_, [pre-print](https://arxiv.org/abs/2110.09663)
 - Ke, Q., Liang, L., Ding, Y., David, SV., **Acuna, DE**, _A dataset of mentorship in science with semantic and demographic estimations_, [pre-print](https://arxiv.org/abs/2106.06487)
 - **Acuna, DE**, Xiang, Z., _Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations_ [pre-print](https://arxiv.org/abs/2003.00878)
 - Xiang, Z., **Acuna, DE**, _Scientific Image Tampering Detection Based On Noise Inconsistencies: A Method And Datasets_, [pre-print](https://arxiv.org/abs/2001.07799)
