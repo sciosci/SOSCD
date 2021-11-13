@@ -8,6 +8,7 @@ toc: true
 
 ### Under review
 
+- Zhuang, H., **Acuna, DE**, _Incorporating costs and benefits to the evaluation of uncertain research findings: applications to cancer research funding_ 
 - **Acuna, DE**, Jian, J, Zeng, T, Liang, L, Zhuang, H, _Predicting the longevity of resources shared in scientific publications_
 - Ke, Q., Liang, L., Ding, Y., David, SV., **Acuna, DE**, _A dataset of mentorship in science with semantic and demographic estimations_, [pre-print](https://arxiv.org/abs/2106.06487)
 - **Acuna, DE**, Xiang, Z., _Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations_ [pre-print](https://arxiv.org/abs/2003.00878)
