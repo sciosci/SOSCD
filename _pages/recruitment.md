@@ -2,36 +2,37 @@
 layout: single
 permalink: /recruitment/
 author_profile: false
-title: "New Ph.D. , Master's  and Undergraduate Students"
+title: "New Ph.D. and Master's Students"
 toc: true
 ---
 
-### Ph.D. student to start in Fall 2021 
+### Ph.D. student to start in Fall 2022 
 
 Assistant Professor Daniel Acuna from the School of Information Studies and 
 the [Science of Science and Computational Discovery (SOS+CD) Lab](https://scienceofscience.org) are looking
-for Ph.D. students to apply to the program in Fall 2021. 
+for Ph.D. students to apply to the program in Fall 2022. 
 
 
 The SOS+CD Lab works on
  understanding current practices in science and developing semi-automated methods to mine scientific knowledge from vast, 
  unstructured dataset of full-text publications, citations, and images. 
  We use various computational techniques, including deep learning, natural language processing, 
- graph analytics, image processing, and causal inference. The ideal student should have a good grasp of quantitative methods and be a good programmer. The ideal candidate should have an undergraduate major or masters degree in 
+ graph analytics, image processing, and causal inference. The ideal student should have a good grasp of 
+ quantitative methods and be a good programmer. The ideal candidate should have an undergraduate major or master's degree in 
  Computer Science, Engineering, Applied Statistics, Mathematics, or a similar quantitative field.
  
 #### Contact me  
 
-If you want to discuss your current career plans, are interested in our research, are considering a Ph.D., please send me an email to 
-deacuna AT syr.edu.
+If you want to discuss your current career plans, are interested in our research, are considering a Ph.D., please 
+send me an email to deacuna AT syr.edu.
 
-_Deadline to apply is January 3rd_ but you should talk to me first. 
-[More information](https://ischool.syr.edu/academics/ph-d-in-information-science-and-technology/)
+__Deadline to apply is December 15 but you should talk to me first__   
+[Go to iSchool's application](https://ischool.syr.edu/academics/ph-d-in-information-science-and-technology/)
 
 ### Masters students
 
 Assistant Professor Daniel Acuna from the School of Information Studies and the Science of Science and Computational Discovery (SOS+CD) Lab 
-(https://scienceofscience.org) is looking for Master’s students with experience in image analysis, natural language processing, 
+[https://scienceofscience.org](https://scienceofscience.org) is looking for Master’s students with experience in image analysis, natural language processing, 
 or statistical analysis. 
 
 Send an email to deacuna AT syr.edu and attach the following information:

@@ -18,7 +18,7 @@ header:
     .logo-width {
         margin-top: 15px;
         margin-bottom: 15px;
-        width: 100%;
+        width: 30%;
     }
 }
 
@@ -26,7 +26,7 @@ header:
     .logo-width {
         margin-top: 25px;
         margin-bottom: 25px;
-        width: 100%;
+        width: 30%;
     }
 }
 
@@ -34,7 +34,7 @@ header:
     .logo-width {
         margin-top: 30px;
         margin-bottom: 30px;
-        width: 100%;
+        width: 30%;
     }
 }
 </style>
@@ -42,6 +42,6 @@ header:
  
 {: .text-center}
 
-[![image-center](assets/images/s4/s4_socialmedia_large.png)](/s4/){: .align-center .logo-width  }
-
+[comment]: <> ([![image-center]&#40;assets/images/s4/s4_socialmedia_large.png&#41;]&#40;/s4/&#41;{: .align-center .logo-width  })
+![image-center](assets/images/splash_logo.png){: .align-center .logo-width  }
 {% include_relative news.md %}
