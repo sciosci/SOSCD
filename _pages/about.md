@@ -18,7 +18,7 @@ The SOS+CD Lab works on understanding current practices in science and developin
 
 
 ### Address
-205 Hinds Hall
+205 Hinds Hall   
 Science of Science and Computational Discovery Lab (SOS+CD)   
 School of Information Studies   
 Syracuse University  
