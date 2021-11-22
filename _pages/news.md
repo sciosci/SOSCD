@@ -7,10 +7,10 @@ If you are interested, please [read more information](recruitment).
 {: .notice--primary}
 
 ### Upcoming events
-- Early April 2022: New grant for [Computational Research Integrity Conference 2022](https://cri-conf.org) - details soon
-- November 18, 2021: Daniel Acuna is presenting at the [Future Privacy Forum](https://fpf.org/) on "Promoting Responsible Research Data Access" (Virtual, by invitation only)
+- Early May 2022: New grant for [Computational Research Integrity Conference 2022](https://cri-conf.org) - details soon
 
 ### News
+- November 18, 2021: Daniel Acuna is presenting at the [Future Privacy Forum](https://fpf.org/) on "Promoting Responsible Research Data Access" (Virtual, by invitation only)
 - October 2021: Nanjing University awarded visiting scholar alumni Tong Zeng a research excellence award for high productivity for his work during his visit to SOS+CD!
 - September 2021: Postdoctoral alumni [Qing Ke](http://qke.github.io/) joins the Department of Data Science at the City University of Hong Kong!
 - July 26 - August 6, 2021: [Science of Science Summer School (S4) 2021](/s4/) with 50+ mentees and 12+ mentors finished successfully!; [six micro-grants announced](https://s4.scienceofscience.org/announcement/microgrants)
