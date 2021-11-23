@@ -32,7 +32,7 @@ jobs:
         set -xo pipefail
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git checkout master
+        git checkout gh-pages
         ls -Q | grep -v _site | xargs rm -rf
         mv _site/* .
         rm -rf _site
@@ -40,4 +40,4 @@ jobs:
         [[ -n "$(git status --porcelain)" ]] || exit 0
         git add .
         git commit -m "Build $(git rev-parse master | grep -o '^.\{10\}')"
-        git push "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" master
+        git push "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
