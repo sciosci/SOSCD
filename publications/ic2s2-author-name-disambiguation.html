@@ -1,0 +1,439 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <!-- begin paper_meta.html -->
+
+
+<meta name="citation_title" content="Large-scale author name disambiguation using approximate network structures">
+
+
+
+    
+        
+        <meta name="citation_author" content="Zeng, Tong">
+        
+        
+            
+            <meta name="citation_author_institution" content="School of Information Science, Nanjing University, China">
+            
+            <meta name="citation_author_institution" content="School of Information Studies, Syracuse University, Syracuse, NY, USA">
+            
+        
+        
+        <meta name="citation_author_orcid" content="0000-0002-5533-8506">
+        
+    
+        
+        <meta name="citation_author" content="Acuna, Daniel E.">
+        
+        
+            
+            <meta name="citation_author_institution" content="School of Information Studies, Syracuse University, Syracuse, NY, USA">
+            
+        
+        
+        <meta name="citation_author_orcid" content="0000-0002-7765-1595">
+        
+    
+
+
+
+    
+        <meta name="citation_keywords" content="Author name disambiguation">
+    
+        <meta name="citation_keywords" content="Entity resolution">
+    
+        <meta name="citation_keywords" content="Clustering">
+    
+        <meta name="citation_keywords" content="Approximate nearest neighbor">
+    
+        <meta name="citation_keywords" content="Minimum-spanning tree">
+    
+
+
+
+<meta name="citation_abstract" content="Properly identifying the author of a scientific article is an important task for giving credit, tracking progress, and identifying ideas’ lineages. Usually, publications and citations do not provide unique identifiers to authors but only the raw string character representation of their name and affiliation. The fundamental problem is that an author might change the string representations due to changing in name spelling (e.g., removing accents), journal limitations (e.g., only allow first letter of first name), or simply two people having the same name. Several researchers have proposed methods to solve this problem, but most methods do not scale well and are not open to the community. In this work, we develop a scalable method that we make publicly available to disambiguate large-scale publications">
+
+
+
+
+
+<meta name="citation_year" content="2020">
+
+
+
+<meta name="citation_date" content="2020/07/17">
+
+
+
+<meta name="citation_publication_date" content="2020/07/17">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="citation_conference_title" content="International Conference on Computational Social Science">
+
+
+
+
+
+<meta name="citation_conference_sequence_num" content="6">
+
+
+
+<meta name="citation_conference_abbrev" content="IC2S2">
+
+
+
+
+
+
+
+
+
+
+
+<meta name="citation_doi" content="10.5281/zenodo.4403705">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="citation_public_url" content="https://doi.org/10.5281/zenodo.4403705">
+
+
+
+<meta name="citation_language" content="english">
+
+
+
+
+
+
+
+
+
+
+
+<meta name="citation_pdf_url" content="https://scienceofscience.org/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf">
+
+
+<!-- end paper_meta.html -->
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Large-scale author name disambiguation using approximate network structures - SOS+CD Lab</title>
+
+
+
+<title>Large-scale author name disambiguation using approximate network structures</title>
+
+<meta name="description" content="Science of Science &amp; Computational Discovery">
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="SOS+CD Lab">
+<meta property="og:title" content="Large-scale author name disambiguation using approximate network structures">
+<meta property="og:url" content="https://scienceofscience.org/publications/ic2s2-author-name-disambiguation.html">
+
+
+
+
+
+
+  <meta name="twitter:site" content="@daniel_akuna">
+  <meta name="twitter:title" content="Large-scale author name disambiguation using approximate network structures">
+  <meta name="twitter:description" content="Science of Science &amp; Computational Discovery">
+  <meta name="twitter:url" content="https://scienceofscience.org/publications/ic2s2-author-name-disambiguation.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://scienceofscience.org/publications/ic2s2-author-name-disambiguation.html">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SOS+CD",
+      "url": "https://scienceofscience.org",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="SOS+CD Lab Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<style>
+  article.page {
+      width: 100%;
+  }
+</style>
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--paper wide page__align_center">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+      
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/sos_logo_s.png" alt=""></a>
+        
+        <!-- avoid showing the full name in title
+        <a class="site-title" href="/">SOS+CD Lab</a>
+          -->
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/recruitment/" ><span style='color: #D44500'>Recruiting</span></a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/" >Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/people/" >People</a>
+            </li><li class="masthead__menu-item">
+              <a href="/funding/" >Funding</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Large-scale author name disambiguation using approximate network structures">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <br/>
+          
+            <h1 id="page-title" class="page__title" itemprop="headline">Large-scale author name disambiguation using approximate network structures
+</h1>
+          
+          
+        </header>
+        <p align="center">
+          
+            
+              <strong><strong>Zeng, Tong</strong><sup>1,2</sup></strong>&nbsp;,
+            
+              <strong><strong>Acuna, Daniel E.</strong><sup>2,*</sup></strong>
+            
+          
+        </p>
+        <p align="center">
+          
+            
+            <strong><sup>1</sup>School of Information Science, Nanjing University, China</strong><br>
+            
+            <strong><sup>2</sup>School of Information Studies, Syracuse University, Syracuse, NY, USA</strong>
+            
+                            
+        </p>
+
+
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2>Abstract</h2>
+        Properly identifying the author of a scientific article is an important task for giving credit, tracking progress, and identifying ideas’ lineages. Usually, publications and citations do not provide unique identifiers to authors but only the raw string character representation of their name and affiliation. The fundamental problem is that an author might change the string representations due to changing in name spelling (e.g., removing accents), journal limitations (e.g., only allow first letter of first name), or simply two people having the same name. Several researchers have proposed methods to solve this problem, but most methods do not scale well and are not open to the community. In this work, we develop a scalable method that we make publicly available to disambiguate large-scale publications
+
+        <h2>Full Text</h2>
+<p>Please <a href="/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf"> click here </a>to read the full paper.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 SOS+CD.
+  Address: 205 Hinds Hall, <a href="https://ischool.syr.edu">School of Information Studies</a>, <a href="https://syracuse.edu">Syracuse University</a>, Syracuse, NY 13244</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
