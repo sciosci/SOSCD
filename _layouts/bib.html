@@ -1,0 +1,32 @@
+---
+liquid:
+  error_mode: strict
+#  strict_variables: true
+  strict_filters: true
+---
+
+
+{% if entry.image %}
+<img src="{{ entry.image }}">
+{% endif %}
+{% for idx in (1..entry.author_array.size) %}
+{% assign idx0 = idx | minus: 1 %}
+{% assign author = entry.author_array[idx0] %}
+{% assign first_names = author.first | split: " " %}
+{% if author.last == "Acuna" %}
+<b>
+{% endif %}{{author.last}}{% if 0 == first_names | size %},{% endif %}
+{% for fn in first_names %}{{ fn | slice: 0 }}. {% endfor %}
+{% if author.last == "Acuna" %}
+</b>{% endif %}{% if idx < entry.author_array.size %},{% endif %}{% endfor %}
+({{entry.year}}),
+{% if entry.url %}
+<a href="{{entry.url}}">
+{% endif %}
+{{entry.title}}
+{% if entry.url %}
+</a>
+{% endif %}, <em>{{entry.journal}}</em>
+{% if entry.abstract %}
+<blockquote>{{ entry.abstract }}</blockquote>
+{% endif %}
