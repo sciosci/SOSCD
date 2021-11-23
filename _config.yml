@@ -258,6 +258,13 @@ compress_html:
   ignore:
     envs: development
 
+scholar:
+    style: apa
+    sort_by: year
+    group_by: year
+    group_order: descending
+    order: descending
+    bibliography_template: bib
 
 # Defaults
 defaults:
