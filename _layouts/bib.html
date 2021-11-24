@@ -1,32 +1,73 @@
 ---
-liquid:
-  error_mode: strict
-#  strict_variables: true
-  strict_filters: true
 ---
-
-
 {% if entry.image %}
+{% if entry.url %}
+<a href="{{entry.url}}" target="_blank">
+{% endif %}
 <img src="{{ entry.image }}">
+{% if entry.url %}
+</a>
+{% endif %}
 {% endif %}
 {% for idx in (1..entry.author_array.size) %}
 {% assign idx0 = idx | minus: 1 %}
 {% assign author = entry.author_array[idx0] %}
 {% assign first_names = author.first | split: " " %}
 {% if author.last == "Acuna" %}
-<b>
+<span style="font-weight: 500;">
 {% endif %}{{author.last}}{% if 0 == first_names | size %},{% endif %}
 {% for fn in first_names %}{{ fn | slice: 0 }}. {% endfor %}
 {% if author.last == "Acuna" %}
-</b>{% endif %}{% if idx < entry.author_array.size %},{% endif %}{% endfor %}
+</span>{% endif %}{% if idx < entry.author_array.size %},{% endif %}{% endfor %}
+{% if entry.year != "2050" %}
 ({{entry.year}}),
+{% endif %}
+{% if entry.year == "2050" %},{% endif %}
 {% if entry.url %}
-<a href="{{entry.url}}">
+<a href="{{entry.url}}" target="_blank">
 {% endif %}
 {{entry.title}}
 {% if entry.url %}
 </a>
-{% endif %}, <em>{{entry.journal}}</em>
+{% endif %}.
+{% if entry.type == "phdthesis" %} [Ph.D. Thesis] {% endif %}
+{% if entry.type == "incollection" %}In {{entry.editor}} (Eds.),{% endif %}
+<em>{{entry.journal}}{{entry.booktitle}}{{entry.school}}</em>
+{% if entry.volume %}, {{entry.volume}}
+{% if entry.number %}({{entry.number}}){% endif %}
+{% endif %}
+{% if entry.pages %}, {{entry.pages}}
+{% if entry.altmetric_id %}
+<span class="altmetric-embed" data-hide-no-mentions="true" data-badge-type="4" data-altmetric-id="{{entry.altmetric_id}}"></span>
+{% endif %}
+{% if entry.altmetric_doi %}
+<span class="altmetric-embed" data-hide-no-mentions="true" data-badge-type="4" data-doi="{{entry.altmetric_doi}}"></span>
+{% endif %}
+{% endif %}
+{% if entry.code or entry.press_name0 or entry.demo %}
+<ol>
+{% endif %}
+{% if entry.code %}
+<li><small><i class="fab fa-github"></i> <a href="{{entry.code}}" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
+{% endif %}
+{% if entry.demo %}
+<li><small><i class="fas fa-laptop-code"></i> <a href="{{entry.demo}}" target="_blank">Demo <i class="fas fa-external-link-alt"></i></a></small></li>
+{% endif %}
+{% if entry.press_name0 %}
+<li><small><i class="fas fa-newspaper"></i> {{entry.press_name0 | truncate: 50}} <a href="{{entry.press_url0}}" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
+{% endif %}
+{% if entry.press_name1 %}
+<li><small><i class="fas fa-newspaper"></i> {{entry.press_name1 | truncate: 50}} <a href="{{entry.press_url1}}" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
+{% endif %}
+{% if entry.press_name2 %}
+<li><small><i class="fas fa-newspaper"></i> {{entry.press_name2 | truncate: 50}} <a href="{{entry.press_url2}}" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
+{% endif %}
+{% if entry.press_name3 %}
+<li><small><i class="fas fa-newspaper"></i> {{entry.press_name3 | truncate: 50}} <a href="{{entry.press_url3}}" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
+{% endif %}
+{% if entry.code or entry.press_name0 or entry.demo %}
+</ol>
+{% endif %}
 {% if entry.abstract %}
 <blockquote>{{ entry.abstract }}</blockquote>
 {% endif %}

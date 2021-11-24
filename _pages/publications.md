@@ -1,6 +1,6 @@
 ---
 layout: publications
-permalink: /publications/
+permalink: /publications2/
 author_profile: false
 title: "Publications"
 toc: true
