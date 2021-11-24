@@ -18,7 +18,7 @@ header:
     .logo-width {
         margin-top: 15px;
         margin-bottom: 15px;
-        width: 30%;
+        width: 70%;
     }
 }
 
@@ -26,7 +26,7 @@ header:
     .logo-width {
         margin-top: 25px;
         margin-bottom: 25px;
-        width: 30%;
+        width: 50%;
     }
 }
 

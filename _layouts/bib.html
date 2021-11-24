@@ -14,7 +14,7 @@
 {% assign author = entry.author_array[idx0] %}
 {% assign first_names = author.first | split: " " %}
 {% if author.last == "Acuna" %}
-<span style="font-weight: 500;">
+<span style="font-weight: 600;">
 {% endif %}{{author.last}}{% if 0 == first_names | size %},{% endif %}
 {% for fn in first_names %}{{ fn | slice: 0 }}. {% endfor %}
 {% if author.last == "Acuna" %}
