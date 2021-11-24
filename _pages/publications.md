@@ -60,13 +60,7 @@ View on [Google Scholar](https://scholar.google.com/citations?hl=en&user=GAi23ss
 @media only screen and (max-width: 740px) {
     .bibliography li {
       display: inline-block;
-      padding-left: 1em;
-      text-indent: -1em;
     }
-    .bibliography li:before {
-      content: "•";
-      padding-right: 5px;
-    } 
     h2 {
         margin-top: 0;
     }
