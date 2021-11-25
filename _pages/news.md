@@ -11,7 +11,7 @@ If you are interested, please [read more information](recruitment).
 
 ### News
 - November 18, 2021: Daniel Acuna is presenting at the [Future Privacy Forum](https://fpf.org/) on "Promoting Responsible Research Data Access" (Virtual, by invitation only)
-- October 2021: Nanjing University awarded visiting scholar alumni Tong Zeng a research excellence award for high productivity for his work during his visit to SOS+CD!
+- October 2021: Nanjing University awarded visiting scholar alumni Tong Zeng a [research excellence award for high productivity](https://im.nju.edu.cn/46/a3/c13249a542371/page.htm) for his work during his visit to SOS+CD!
 - September 2021: Postdoctoral alumni [Qing Ke](http://qke.github.io/) joins the Department of Data Science at the City University of Hong Kong!
 - July 26 - August 6, 2021: [Science of Science Summer School (S4) 2021](/s4/) with 50+ mentees and 12+ mentors finished successfully!; [six micro-grants announced](https://s4.scienceofscience.org/announcement/microgrants)
 - June 23, 2021: Daniel Acuna appeared in a [The New Yorker article](https://www.newyorker.com/science/elements/how-a-sharp-eyed-scientist-became-biologys-image-detective)
