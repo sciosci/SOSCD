@@ -16,27 +16,11 @@
 {% if author.last == "Acuna" %}
 <span style="font-weight: 600;">
 {% endif %}{{author.last}}{% if 0 == first_names | size %},{% endif %}
-{% for fn in first_names %}{{ fn | slice: 0 }}. {% endfor %}
-{% if author.last == "Acuna" %}
-</span>{% endif %}{% if idx < entry.author_array.size %},{% endif %}{% endfor %}
-{% if entry.year != "2050" %}
-({{entry.year}}),
-{% endif %}
-{% if entry.year == "2050" %},{% endif %}
-{% if entry.url %}
-<a href="{{entry.url}}" target="_blank">
-{% endif %}
-{{entry.title}}
-{% if entry.url %}
-</a>
-{% endif %}.
+{% for fn in first_names %}{{ fn | slice: 0 }}{% endfor %}{% if author.last == "Acuna" %}</span>{% endif %}{% if idx < entry.author_array.size %},{% endif %}{% endfor %}{% if entry.year != "2050" %} ({{entry.year}}),{% endif %}{% if entry.year == "2050" %},{% endif %}
+{% if entry.url %}<a href="{{entry.url}}" target="_blank">{% endif %}{{entry.title}}{% if entry.url %}</a>{% endif %}.
 {% if entry.type == "phdthesis" %} [Ph.D. Thesis] {% endif %}
 {% if entry.type == "incollection" %}In {{entry.editor}} (Eds.),{% endif %}
-<em>{{entry.journal}}{{entry.booktitle}}{{entry.school}}</em>
-{% if entry.volume %}, {{entry.volume}}
-{% if entry.number %}({{entry.number}}){% endif %}
-{% endif %}
-{% if entry.pages %}, {{entry.pages}}
+<em>{{entry.journal}}{{entry.booktitle}}{{entry.school}}</em>{% if entry.volume %}, {{entry.volume}}{% if entry.number %}({{entry.number}}){% endif %}{% endif %}{% if entry.pages %}, {{entry.pages}}
 {% if entry.altmetric_id %}
 <span class="altmetric-embed" data-hide-no-mentions="true" data-badge-type="4" data-altmetric-id="{{entry.altmetric_id}}"></span>
 {% endif %}
