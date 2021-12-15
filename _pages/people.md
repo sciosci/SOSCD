@@ -19,7 +19,6 @@ title: "People"
 ## Master students
 
 - Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, since Fall 2020
-- Jim Yi, iSchool, since Spring 2021
 - Chao Zhou, Computer Science and Engineering, since Fall 2021
 
 # Alumni
@@ -46,6 +45,7 @@ Practica (Fall 2016 - Spring 2018)
 
 
 #### Master's students
+- Jim Yi, iSchool, since Spring 2021 - November 2021
 - Hanlin Zhang, Computer Science, Fall 2019 - Spring 2021, now in Ant Group (China)
 - Jian Jian, iSchool, Spring 2020 - Spring 2021, now Data Scientist at DeepCell
 - Rashika Singh, Faculty Engagement Scholar, iSchool, Fall 2019 - Spring 2021
