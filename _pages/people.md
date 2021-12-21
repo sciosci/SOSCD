@@ -14,12 +14,16 @@ title: "People"
 
 - [Han Zhuang](https://ischool.syr.edu/people/directories/view/hzhuang/), Graduate Assistant, iSchool, since Fall 2017
 - [Lizhen Liang](https://www.linkedin.com/in/lizhenliang/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student, Ph.D. student starting Fall 2020
-- LaRoyce Jermaine Covington Jr., Research Practica, iSchool, Fall 2021
 
 ## Master students
 
 - Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, since Fall 2020
 - Chao Zhou, Computer Science and Engineering, since Fall 2021
+
+## Undergraduate students (SOURCE grant)
+
+- Taeheun Lee, iSchool major, since Spring 2021
+- Chen Qiu, Computer Science major, since Spring 2021
 
 # Alumni
 
@@ -34,6 +38,7 @@ title: "People"
 [Nanjing University](https://www.nju.edu.cn/EN/) (Fall 2017 - Spring 2021)
 
 #### Ph.D. student practica
+- [LaRoyce Jermaine Covington Jr.](https://ljcovingtonjr.github.io/), Research Practica, iSchool, Fall 2021
 - [Dipto Das](https://ischool.syr.edu/people/directories/view/ddas05/), Research Assistant, iSchool, Fall 2019
 - [Sarah Bratt](https://ischool.syr.edu/people/directories/view/sebratt/), Research Practicum, iSchool, Spring 2018
 - [Alex Smith](https://ischool.syr.edu/people/directories/view/aosmith/), Graduate Assistant, Teaching and Research
