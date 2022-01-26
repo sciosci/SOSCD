@@ -1,11 +1,3 @@
-
-__Seeking Ph.D. and master's, and pre-doctoral students, visiting scholars__  
-If you are interested in science of science, bias in artificial intelligence, and computational methods
-for improving science and knowledge discovery, consider joining us! We at hiring at multiple levels thanks to several grants.   
-If you are interested, please [read more information](recruitment).  
-(Ph.D. application deadline is December 15, 2021)  
-{: .notice--primary}
-
 ### Upcoming events
 - Early May 2022: New grant for [Computational Research Integrity Conference 2022](https://cri-conf.org) - details soon
 
