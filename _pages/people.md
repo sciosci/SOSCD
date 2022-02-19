@@ -14,16 +14,18 @@ title: "People"
 
 - [Han Zhuang](https://ischool.syr.edu/people/directories/view/hzhuang/), Graduate Assistant, iSchool, since Fall 2017
 - [Lizhen Liang](https://liamliang.github.io/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student, Ph.D. student starting Fall 2020
+- [LaRoyce Jermaine Covington Jr.](https://ljcovingtonjr.github.io/), collaborating, Research Practica, iSchool, Fall 2021
+- [Jinfen Li](https://ischool.syr.edu/jinfen-li/), Teaching Practica, Spring 2022
 
 ## Master students
 
 - Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, since Fall 2020
 - Chao Zhou, Computer Science and Engineering, since Fall 2021
 
-## Undergraduate students (SOURCE grant)
+## Undergraduate students
 
-- Taeheun Lee, iSchool major, since Spring 2022
-- Chen Qiu, Computer Science major, since Spring 2022
+- Taeheun Lee, iSchool major, since Spring 2022 ([SOURCE grant](https://research.syr.edu/source/))
+- Chen Qiu, Computer Science major, since Spring 2022 ([SOURCE grant](https://research.syr.edu/source/))
 - Zachary Tyler Williams, iSchool major, since Fall 2021
 
 # Alumni

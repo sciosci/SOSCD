@@ -1,5 +1,6 @@
 ### Upcoming events
-- Early May 2022: New grant for [Computational Research Integrity Conference 2022](https://cri-conf.org) - details soon
+- June 11, 2022: Invited talk at International Conference on Data Intelligence & Information Service Development, organized by [Tianjin Normal University](http://www.tjnu.edu.cn/info/1084/9530.htm), China (virtual) 
+- Fall 2022 (tentative): New grant for [Computational Research Integrity Conference 2022](https://cri-conf.org) - details soon
 
 ### News
 - November 18, 2021: Daniel Acuna is presenting at the [Future Privacy Forum](https://fpf.org/) on "Promoting Responsible Research Data Access" (Virtual, by invitation only)
