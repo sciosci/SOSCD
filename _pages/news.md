@@ -1,4 +1,5 @@
 ### Upcoming events
+- August 14-18, 2022: Workshop on A.I. for Science of Science at [KDD 2022](https://kdd.org/kdd2022/index.html)
 - June 11, 2022: Invited talk at International Conference on Data Intelligence & Information Service Development, organized by [Tianjin Normal University](http://www.tjnu.edu.cn/info/1084/9530.htm), China (virtual) 
 - Fall 2022 (tentative): New grant for [Computational Research Integrity Conference 2022](https://cri-conf.org) - details soon
 
