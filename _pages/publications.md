@@ -88,6 +88,8 @@ View on [Google Scholar](https://scholar.google.com/citations?hl=en&user=GAi23ss
 </style>
 ## Under review
 {% bibliography --query @*[year=2050]%}
+## 2022
+{% bibliography --query @*[year=2022]%}
 ## 2021
 {% bibliography --query @*[year=2021]%}
 ## 2020

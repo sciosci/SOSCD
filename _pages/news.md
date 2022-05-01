@@ -1,8 +1,8 @@
 ### Upcoming events
 - August 1-12, 2022: Science of Science Summer School (S4) 2022! Virtual. [Apply now!](https://s4.scienceofscience.org)
-- August 14-18, 2022: Workshop on A.I. for Science of Science at [KDD 2022](https://kdd.org/kdd2022/index.html)
+- August 14-18, 2022: Workshop on [Data-Driven Science of Science at KDD 2022](http://124.70.200.79:8199/DDSoS-KDD-2022/index.html)
 - June 11, 2022: Invited talk at International Conference on Data Intelligence & Information Service Development, organized by [Tianjin Normal University](http://www.tjnu.edu.cn/info/1084/9530.htm), China (virtual) 
-- Fall 2022 (tentative): New grant for [Computational Research Integrity Conference 2022](https://cri-conf.org) - details soon
+- Spring 2023 (tentative): New grant for [Computational Research Integrity Conference 2022](https://cri-conf.org) - details soon
 
 ### News
 - November 18, 2021: Daniel Acuna is presenting at the [Future Privacy Forum](https://fpf.org/) on "Promoting Responsible Research Data Access" (Virtual, by invitation only)
