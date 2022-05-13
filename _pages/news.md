@@ -1,4 +1,5 @@
 ### Upcoming events
+- August 22, 2022: Daniel will present his work on large scale nearest neighbor search during the Ray Summit Meetup, part of [Ray Summit 2022](https://www.anyscale.com/ray-summit-2022) 
 - August 1-12, 2022: Science of Science Summer School (S4) 2022! Virtual. [Apply now!](https://s4.scienceofscience.org)
 - August 14-18, 2022: Workshop on [Data-Driven Science of Science at KDD 2022](http://124.70.200.79:8199/DDSoS-KDD-2022/index.html)
 - June 11, 2022: Invited talk at International Conference on Data Intelligence & Information Service Development, organized by [Tianjin Normal University](http://www.tjnu.edu.cn/info/1084/9530.htm), China (virtual) 
