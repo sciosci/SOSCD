@@ -8,18 +8,16 @@ title: "People"
 
 # Principal Investigator
 
-- [Daniel Acuña](/about), Ph.D., Assistant Professor, iSchool, Syracuse University
+- [Daniel Acuña](/about), Ph.D., Associate Professor, iSchool, Syracuse University
 
 ## Doctoral students
 
 - [Han Zhuang](https://ischool.syr.edu/people/directories/view/hzhuang/), Graduate Assistant, iSchool, since Fall 2017
 - [Lizhen Liang](https://liamliang.github.io/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student, Ph.D. student starting Fall 2020
-- [LaRoyce Jermaine Covington Jr.](https://ljcovingtonjr.github.io/), collaborating, Research Practica, iSchool, Fall 2021
-- [Jinfen Li](https://ischool.syr.edu/jinfen-li/), Teaching Practica, Spring 2022
+- [LaRoyce Jermaine Covington Jr.](https://ljcovingtonjr.github.io/), iSchool, since Fall 2021
 
 ## Master students
 
-- Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, since Fall 2020
 - Chao Zhou, Computer Science and Engineering, since Fall 2021
 
 ## Undergraduate students
@@ -41,6 +39,7 @@ title: "People"
 [Nanjing University](https://www.nju.edu.cn/EN/) (Fall 2017 - Spring 2021)
 
 #### Ph.D. student practica
+- [Jinfen Li](https://ischool.syr.edu/jinfen-li/), Teaching Practica, Spring 2022
 - [LaRoyce Jermaine Covington Jr.](https://ljcovingtonjr.github.io/), Research Practica, iSchool, Fall 2021
 - [Dipto Das](https://ischool.syr.edu/people/directories/view/ddas05/), Research Assistant, iSchool, Fall 2019
 - [Sarah Bratt](https://ischool.syr.edu/people/directories/view/sebratt/), Research Practicum, iSchool, Spring 2018
@@ -53,7 +52,8 @@ Practica (Fall 2016 - Spring 2018)
 
 
 #### Master's students
-- Jim Yi, iSchool, since Spring 2021 - Fall 2021
+- Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, Fall 2020 - Spring 2022, now a Data Scientist at Amazon
+- Jim Yi, iSchool, Spring 2021 - Fall 2021
 - Hanlin Zhang, Computer Science, Fall 2019 - Spring 2021, now in Ant Group (China)
 - Jian Jian, iSchool, Spring 2020 - Spring 2021, now Data Scientist at DeepCell
 - Rashika Singh, Faculty Engagement Scholar, iSchool, Fall 2019 - Spring 2021

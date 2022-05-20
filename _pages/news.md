@@ -3,9 +3,11 @@
 - August 1-12, 2022: Science of Science Summer School (S4) 2022! Virtual. [Apply now!](https://s4.scienceofscience.org)
 - August 14-18, 2022: Workshop on [Data-Driven Science of Science at KDD 2022](http://124.70.200.79:8199/DDSoS-KDD-2022/index.html)
 - June 11, 2022: Invited talk at International Conference on Data Intelligence & Information Service Development, organized by [Tianjin Normal University](http://www.tjnu.edu.cn/info/1084/9530.htm), China (virtual) 
-- Spring 2023 (tentative): New grant for [Computational Research Integrity Conference 2022](https://cri-conf.org) - details soon
+- Spring 2023 (tentative): [Computational Research Integrity Conference 2023](https://cri-conf.org) - details soon
 
 ### News
+- May, 2022: Daniel Acuna will be a member of the [ACM DEI Council](https://www.acm.org/diversity-inclusion), leading the focus on improving data-driven bias detection and awareness in peer review.
+- May, 2022: Daniel Acuna has been promoted to Associate Professor with Tenure!
 - November 18, 2021: Daniel Acuna is presenting at the [Future Privacy Forum](https://fpf.org/) on "Promoting Responsible Research Data Access" (Virtual, by invitation only)
 - October 2021: Nanjing University awarded visiting scholar alumni Tong Zeng a [research excellence award for high productivity](https://im.nju.edu.cn/46/a3/c13249a542371/page.htm) for his work during his visit to SOS+CD!
 - September 2021: Postdoctoral alumni [Qing Ke](http://qke.github.io/) joins the Department of Data Science at the City University of Hong Kong!
