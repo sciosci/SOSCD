@@ -14,17 +14,14 @@ title: "People"
 
 - [Han Zhuang](https://ischool.syr.edu/people/directories/view/hzhuang/), Graduate Assistant, iSchool, since Fall 2017
 - [Lizhen Liang](https://liamliang.github.io/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student, Ph.D. student starting Fall 2020
-- [LaRoyce Jermaine Covington Jr.](https://ljcovingtonjr.github.io/), iSchool, since Fall 2021
 
 ## Master students
 
 - Chao Zhou, Computer Science and Engineering, since Fall 2021
 
-## Undergraduate students
+## Research assistants
 
-- Taeheun Lee, iSchool major, since Spring 2022 ([SOURCE grant](https://research.syr.edu/source/))
-- Chen Qiu, Computer Science major, since Spring 2022 ([SOURCE grant](https://research.syr.edu/source/))
-- Zachary Tyler Williams, iSchool major, since Fall 2021
+- Elizabeth Novoa, External consultant from [Unika Analytics](https://www.unikaanalytics.com), since Summer 2018
 
 # Alumni
 
@@ -39,6 +36,7 @@ title: "People"
 [Nanjing University](https://www.nju.edu.cn/EN/) (Fall 2017 - Spring 2021)
 
 #### Ph.D. student practica
+- [LaRoyce Jermaine Covington Jr.](https://ljcovingtonjr.github.io/), iSchool, Fall 2021 - Summer 2022
 - [Jinfen Li](https://ischool.syr.edu/jinfen-li/), Teaching Practica, Spring 2022
 - [LaRoyce Jermaine Covington Jr.](https://ljcovingtonjr.github.io/), Research Practica, iSchool, Fall 2021
 - [Dipto Das](https://ischool.syr.edu/people/directories/view/ddas05/), Research Assistant, iSchool, Fall 2019
@@ -75,3 +73,9 @@ Practica (Fall 2016 - Spring 2018)
 - Zhida Zhao, MS (2017), iSchool, looking for positions in Data Science
 - Manas Sikri, MS (2017), iSchool, Goldman Sachs
 - Shrutik Katchhi, MS (2017), iSchool, Ernst & Young
+
+## Undergraduate students
+
+- Taeheun Lee, iSchool major, since Spring 2022 ([SOURCE grant](https://research.syr.edu/source/))
+- Chen Qiu, Computer Science major, since Spring 2022 ([SOURCE grant](https://research.syr.edu/source/))
+- Zachary Tyler Williams, iSchool major, since Fall 2021
