@@ -12,12 +12,7 @@ View on [Google Scholar](https://scholar.google.com/citations?hl=en&user=GAi23ss
 .skip-links {
     height: 0;    
 }
-@media only screen and (min-width: 740px) {
-    /*li {*/
-    /*  display: inline-block;*/
-    /*  padding-left: 30px;*/
-    /*  text-indent: -30px;*/
-    /*}*/
+@media only screen and (min-width: 740px) {    
     li img {
         vertical-align: middle;
         float: right;
@@ -29,12 +24,11 @@ View on [Google Scholar](https://scholar.google.com/citations?hl=en&user=GAi23ss
         box-shadow: 1px 2px 3px #3e3d3c59;
     }
     li img:hover {    
-        transform: scale(1.5);        
+        transform: scale(1.5);
         box-shadow: 2px 2px 18px #D44500;
     }
     ol ol li {
         margin-bottom: 0;
-        /*padding-left: 15px;*/
     }
     ol ol {
         padding-left: 1em;

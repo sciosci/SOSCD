@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "<span style='color:red'>Openings</span>"
+    url: /recruitment/
   - title: "Publications"
     url: /publications/
   - title: "People"

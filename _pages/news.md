@@ -1,7 +1,8 @@
 
 
-In Fall 2022, the lab will move to the [Computer Science Department](https://www.colorado.edu/cs/) at [Colorado University, Boulder](https://www.colorado.edu/) where Daniel will be a Visiting Associate Professor. **We will be looking for postdoctoral researchers, Ph.D. students, master students, and pre-doctoral students to work on a broad range of projects on [science of science](https://scienceofscience.org), [computational research integrity](https://cri-conf.org), and [fairness in AI](https://dl.acm.org/doi/abs/10.1145/3351095.3375623)**. 
-Deadline to apply to the [Ph.D. is December 15, 2022](https://www.colorado.edu/cs/academics/graduate-programs/doctor-philosophy). If you are interested, please send an email to _deacuna@syr.edu_.
+In Fall 2022, the lab will move to the [Computer Science Department](https://www.colorado.edu/cs/) at [Colorado University, Boulder](https://www.colorado.edu/) where Daniel will be an Associate Professor. **We will be looking for postdoctoral researchers, Ph.D. students, master students, and pre-doctoral students to work on a broad range of projects on [science of science](https://scienceofscience.org), [computational research integrity](https://cri-conf.org), and [fairness in AI](https://dl.acm.org/doi/abs/10.1145/3351095.3375623)**. 
+Deadline to apply to the [Ph.D. is December 15, 2022](https://www.colorado.edu/cs/academics/graduate-programs/doctor-philosophy).  
+[Read more](/recruitment/)
 {: .notice--danger}
 
 ### Upcoming events
