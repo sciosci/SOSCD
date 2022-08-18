@@ -11,16 +11,15 @@ article.page {
 }
 </style>
 ![](/assets/images/daniel-acuna-research-group-medium.png){: .align-right}
-Science of Science and Computational Discovery Lab (SOS+CD) is run by professor [Daniel Acuña](https://acuna.io/) from the School of Information Studies at Syracuse University.
+Science of Science and Computational Discovery Lab (SOS+CD) is run by professor [Daniel Acuña](https://acuna.io/) from the Department of Computer Science in the University of Colorado at Boulder.
 
 The SOS+CD Lab works on understanding current practices in science and developing semi-automated methods to mine scientific knowledge from vast, unstructured datasets of full-text publications, citations, and images. We use various computational techniques, including deep learning, natural language processing, graph analytics, image processing, and causal inference.
 
 
 
 ### Address
-205 Hinds Hall   
+_TBA_  
 Science of Science and Computational Discovery Lab (SOS+CD)   
-School of Information Studies   
-Syracuse University  
-Syracuse, NY 13244  
+Department of Computer Science   
+University of Colorado at Boulder  
 {: .small-font }

@@ -8,7 +8,7 @@ toc: true
 
 ### Postdocs
 
-We have positions available. Please email Daniel directly with your interests. 
+We have positions available. Please email Daniel directly with your interests at `daniel.acuna@colorado.edu` 
 
 ### Ph.D. student to start in Fall 2023 
 
@@ -19,7 +19,7 @@ The SOS+CD Lab works on understanding current practices in science and developin
  
 #### Contact me  
 
-If you want to discuss your current career plans, are interested in our research, or are considering a Ph.D., please email me at deacuna AT syr.edu.
+If you want to discuss your current career plans, are interested in our research, or are considering a Ph.D., please email me at daniel.acuna AT colorado.edu.
 
 __For the Ph.D. program, the Deadline is December 15, but you should talk to me first__   
 [Go to CS's department application](https://www.colorado.edu/cs/academics/graduate-programs/doctor-philosophy)
@@ -28,7 +28,7 @@ __For the Ph.D. program, the Deadline is December 15, but you should talk to me 
 
 Association Professor Daniel Acuna is looking for master's students.
 
-Email deacuna AT syr.edu and attach the following information:
+Email daniel.acuna AT colorado.edu and attach the following information:
 1. A short introduction of yourself and why you want to work with me
 2. A brief CV or a 1-page resume
 3. Your GitHub repository, preferably with code from a personal project rather than a “class project.”
@@ -75,4 +75,4 @@ We use tools like:
 Those tools and techniques are essential for aspiring quantitative researchers, data scientists, and data analytics to have a successful career in either academia or industry. Participating in our research projects would be a great experience to get your hands dirty.
 
 Feel free to contact us if you want to learn more:  
-Please email me at **deacuna AT syr.edu**
+Please email me at **daniel.acuna AT colorado.edu**

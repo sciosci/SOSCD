@@ -8,7 +8,7 @@ title: "People"
 
 # Principal Investigator
 
-- [Daniel Acuña](/about), Ph.D., Associate Professor, iSchool, Syracuse University
+- [Daniel Acuña](/about), Ph.D., Associate Professor, Department of Computer Science, University of Colorado at Boulder
 
 ## Doctoral students
 

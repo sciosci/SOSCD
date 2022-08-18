@@ -27,4 +27,4 @@ We use tools like:
 Those tools and techniques are important for aspiring quantitative researchers, data scientists and data analytics to have a successful career in either academia or industry.  Participating in our research projects would be a great experience to get your hands dirty.
 
 Feel free to contact us if you want to learn more:  
-Please send an email to **deacuna AT syr.edu** or **lliang06 AT syr.edu**
+Please send an email to **daniel.acuna AT colorado.edu**
