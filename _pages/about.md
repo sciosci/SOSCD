@@ -17,9 +17,12 @@ The SOS+CD Lab works on understanding current practices in science and developin
 
 
 
-### Address
-_TBA_  
-Science of Science and Computational Discovery Lab (SOS+CD)   
-Department of Computer Science   
+### Address  
+
+_Science of Science and Computational Discovery Lab_  
+1111 Engineering Drive  
+Room 105 ECNW  
 University of Colorado at Boulder  
+Boulder, CO 80309  
+[map](https://www.colorado.edu/map?id=336#!m/193857?mc/40.007408174581485,-105.2629081952237?z/19?lvl/0])
 {: .small-font }
