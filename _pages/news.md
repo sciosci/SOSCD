@@ -6,12 +6,12 @@ Deadline to apply to the [Ph.D. is December 15, 2022](https://www.colorado.edu/c
 {: .notice--danger}
 
 ### Upcoming events
-- August 22, 2022: Daniel will present his work on large scale nearest neighbor search during the Ray Summit Meetup, part of [Ray Summit 2022](https://www.anyscale.com/ray-summit-2022) 
-- August 1-12, 2022: Science of Science Summer School (S4) 2022! Virtual. [Apply now!](https://s4.scienceofscience.org)
-- August 14-18, 2022: Workshop on [Data-Driven Science of Science at KDD 2022](http://124.70.200.79:8199/DDSoS-KDD-2022/index.html) 
 - Spring 2023 (tentative): [Computational Research Integrity Conference 2023](https://cri-conf.org) - details soon
 
 ### News
+- August 22, 2022: Daniel will present his work on large scale nearest neighbor search during the Ray Summit Meetup, part of [Ray Summit 2022](https://www.anyscale.com/ray-summit-2022) 
+- August 1-12, 2022: Science of Science Summer School (S4) 2022! Virtual. [Apply now!](https://s4.scienceofscience.org)
+- August 14-18, 2022: Workshop on [Data-Driven Science of Science at KDD 2022](http://124.70.200.79:8199/DDSoS-KDD-2022/index.html)
 - June 11, 2022: Invited talk at International Conference on Data Intelligence & Information Service Development, organized by [Tianjin Normal University](http://www.tjnu.edu.cn/info/1084/9530.htm), China (virtual)
 - May, 2022: Daniel Acuna will be a member of the [ACM DEI Council](https://www.acm.org/diversity-inclusion), leading the focus on improving data-driven bias detection and awareness in peer review.
 - May, 2022: Daniel Acuna has been promoted to Associate Professor with Tenure!
