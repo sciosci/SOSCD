@@ -6,7 +6,10 @@ Deadline to apply to the [Ph.D. is December 15, 2022](https://www.colorado.edu/c
 {: .notice--danger}
 
 ### Upcoming events
-- Spring 2023 (tentative): [Computational Research Integrity Conference 2023](https://cri-conf.org) - details soon
+- May 11-12, 2023: Daniel is organizing the [Computational Research Integrity Conference 2023](https://cri-conf.org) - details soon. See you in Washington, DC!
+- May 24-26, 2023: Daniel will be part of the Program Committee for the [9th
+Atlanta Conference on Science and Innovation Policy at the Georgia Institute of Technology](https://www.atlconf.org). See you in Georgia!
+- July 17 - 20, 2023 : Daniel will be part of the Program Committee for the [9th International Conference on Computational Social Science](https://iscss.org/ic2s2/conference/). See you in Copenhagen!
 
 ### News
 - August 22, 2022: Daniel will present his work on large scale nearest neighbor search during the Ray Summit Meetup, part of [Ray Summit 2022](https://www.anyscale.com/ray-summit-2022) 
