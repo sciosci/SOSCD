@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /recruitment/
+permalink: /openings/
 author_profile: false
 title: "Recruiting postdocs, Ph.D. and Master's students"
 toc: true
