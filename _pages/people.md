@@ -23,6 +23,10 @@ title: "People"
 
 - Elizabeth Novoa, External consultant from [Unika Analytics](https://www.unikaanalytics.com), since Summer 2018
 
+## Visiting scholar
+
+- Tong Zeng, Ph.D. (Fall 2022 - Spring 2023) (**remote visitor**) Working on biases in AI present in image generation systems.
+
 # Alumni
 
 #### Postdoctoral researcher
