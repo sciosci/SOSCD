@@ -1,176 +1,30 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 <html lang="en" class="no-js">
   <head>
-    <!-- begin paper_meta.html -->
-
-
-<meta name="citation_title" content="Large-scale author name disambiguation using approximate network structures">
-
-
-
-    
-        
-        <meta name="citation_author" content="Zeng, Tong">
-        
-        
-            
-            <meta name="citation_author_institution" content="School of Information Science, Nanjing University, China">
-            
-            <meta name="citation_author_institution" content="School of Information Studies, Syracuse University, Syracuse, NY, USA">
-            
-        
-        
-        <meta name="citation_author_orcid" content="0000-0002-5533-8506">
-        
-    
-        
-        <meta name="citation_author" content="Acuna, Daniel E.">
-        
-        
-            
-            <meta name="citation_author_institution" content="School of Information Studies, Syracuse University, Syracuse, NY, USA">
-            
-        
-        
-        <meta name="citation_author_orcid" content="0000-0002-7765-1595">
-        
-    
-
-
-
-    
-        <meta name="citation_keywords" content="Author name disambiguation">
-    
-        <meta name="citation_keywords" content="Entity resolution">
-    
-        <meta name="citation_keywords" content="Clustering">
-    
-        <meta name="citation_keywords" content="Approximate nearest neighbor">
-    
-        <meta name="citation_keywords" content="Minimum-spanning tree">
-    
-
-
-
-<meta name="citation_abstract" content="Properly identifying the author of a scientific article is an important task for giving credit, tracking progress, and identifying ideas’ lineages. Usually, publications and citations do not provide unique identifiers to authors but only the raw string character representation of their name and affiliation. The fundamental problem is that an author might change the string representations due to changing in name spelling (e.g., removing accents), journal limitations (e.g., only allow first letter of first name), or simply two people having the same name. Several researchers have proposed methods to solve this problem, but most methods do not scale well and are not open to the community. In this work, we develop a scalable method that we make publicly available to disambiguate large-scale publications">
-
-
-
-
-
-<meta name="citation_year" content="2020">
-
-
-
-<meta name="citation_date" content="2020/07/17">
-
-
-
-<meta name="citation_publication_date" content="2020/07/17">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta name="citation_conference_title" content="International Conference on Computational Social Science">
-
-
-
-
-
-<meta name="citation_conference_sequence_num" content="6">
-
-
-
-<meta name="citation_conference_abbrev" content="IC2S2">
-
-
-
-
-
-
-
-
-
-
-
-<meta name="citation_doi" content="10.5281/zenodo.4403705">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta name="citation_public_url" content="https://doi.org/10.5281/zenodo.4403705">
-
-
-
-<meta name="citation_language" content="english">
-
-
-
-
-
-
-
-
-
-
-
-<meta name="citation_pdf_url" content="https://scienceofscience.org/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf">
-
-
-<!-- end paper_meta.html -->
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Large-scale author name disambiguation using approximate network structures - Science of Science and Computational Discovery Lab</title>
-
-
-
-<title>Large-scale author name disambiguation using approximate network structures</title>
-
+<!-- begin _includes/seo.html --><title>Large-scale author name disambiguation using approximate network structures -</title>
 <meta name="description" content="Science of Science &amp; Computational Discovery">
 
 
+  <meta name="author" content="SOS+CD">
+  
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Science of Science and Computational Discovery Lab">
+<meta property="og:site_name" content="">
 <meta property="og:title" content="Large-scale author name disambiguation using approximate network structures">
 <meta property="og:url" content="https://scienceofscience.org/publications/ic2s2-author-name-disambiguation.html">
 
+
+  <meta property="og:description" content="Science of Science &amp; Computational Discovery">
 
 
 
@@ -204,18 +58,15 @@
 
 
 
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
       "@type": "Organization",
-      "name": "SOS+CD",
-      "url": "https://scienceofscience.org",
-      "sameAs": null
-    }
-  </script>
+      "url": "https://scienceofscience.org/"
+    
+  }
+</script>
 
 
 
@@ -226,7 +77,9 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Science of Science and Computational Discovery Lab Feed">
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -237,21 +90,8 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-
-<!--[if IE ]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
 
@@ -269,7 +109,6 @@
 
   <body class="layout--paper wide page__align_center">
     <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
     <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
@@ -277,12 +116,7 @@
   </ul>
 </nav>
 
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-
     
-      
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -291,19 +125,20 @@
         
           <a class="site-logo" href="/"><img src="/assets/images/sos_logo_s.png" alt=""></a>
         
-        <!-- avoid showing the full name in title
-        <a class="site-title" href="/">Science of Science and Computational Discovery Lab</a>
-          -->
+        <a class="site-title" href="/">
+          
+          
+        </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/openings/" ><span style='color:red'>Openings</span></a>
+              <a href="/openings/"><span style='color:red'>Openings</span></a>
             </li><li class="masthead__menu-item">
-              <a href="/publications/" >Publications</a>
+              <a href="/publications/">Publications</a>
             </li><li class="masthead__menu-item">
-              <a href="/people/" >People</a>
+              <a href="/people/">People</a>
             </li><li class="masthead__menu-item">
-              <a href="/funding/" >Funding</a>
+              <a href="/funding/">Funding</a>
             </li><li class="masthead__menu-item">
-              <a href="/about/" >About</a>
+              <a href="/about/">About</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -316,7 +151,6 @@
   </div>
 </div>
 
-    
 
     <div class="initial-content">
       
@@ -325,6 +159,7 @@
 
 <div id="main" role="main">
   
+
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Large-scale author name disambiguation using approximate network structures">
@@ -412,19 +247,19 @@
 
     
 
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2022 SOS+CD.
-  Address: 205 Hinds Hall, <a href="https://ischool.syr.edu">School of Information Studies</a>, <a href="https://syracuse.edu">Syracuse University</a>, Syracuse, NY 13244</div>
+<div class="page__footer-copyright">&copy; 2023 SOS+CD. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
   <script src="/assets/js/main.min.js"></script>
-  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 
 

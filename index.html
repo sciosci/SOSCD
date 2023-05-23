@@ -1,112 +1,30 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 <html lang="en" class="no-js">
   <head>
-    <!-- begin paper_meta.html -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- end paper_meta.html -->
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Science of Science and Computational Discovery Lab</title>
-
-
-
-<title>Science of Science and Computational Discovery Lab</title>
-
+<!-- begin _includes/seo.html --><title></title>
 <meta name="description" content="Trying to understand science and developing methods to mine scientific knowledge from vast, unstructured dataset of full-text publications, citations, and images">
 
 
+  <meta name="author" content="SOS+CD">
+  
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Science of Science and Computational Discovery Lab">
-<meta property="og:title" content="Science of Science and Computational Discovery Lab">
+<meta property="og:site_name" content="">
+<meta property="og:title" content="">
 <meta property="og:url" content="https://scienceofscience.org/">
 
+
+  <meta property="og:description" content="Trying to understand science and developing methods to mine scientific knowledge from vast, unstructured dataset of full-text publications, citations, and images">
 
 
 
@@ -115,7 +33,7 @@
 
 
   <meta name="twitter:site" content="@daniel_akuna">
-  <meta name="twitter:title" content="Science of Science and Computational Discovery Lab">
+  <meta name="twitter:title" content="">
   <meta name="twitter:description" content="Trying to understand science and developing methods to mine scientific knowledge from vast, unstructured dataset of full-text publications, citations, and images">
   <meta name="twitter:url" content="https://scienceofscience.org/">
 
@@ -144,18 +62,15 @@
 
 
 
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
       "@type": "Organization",
-      "name": "SOS+CD",
-      "url": "https://scienceofscience.org",
-      "sameAs": null
-    }
-  </script>
+      "url": "https://scienceofscience.org/"
+    
+  }
+</script>
 
 
 
@@ -166,7 +81,9 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Science of Science and Computational Discovery Lab Feed">
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -177,21 +94,8 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-
-<!--[if IE ]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
 
@@ -209,7 +113,6 @@
 
   <body class="layout--splash">
     <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
     <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
@@ -217,12 +120,7 @@
   </ul>
 </nav>
 
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-
     
-      
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -231,19 +129,20 @@
         
           <a class="site-logo" href="/"><img src="/assets/images/sos_logo_s.png" alt=""></a>
         
-        <!-- avoid showing the full name in title
-        <a class="site-title" href="/">Science of Science and Computational Discovery Lab</a>
-          -->
+        <a class="site-title" href="/">
+          
+          
+        </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/openings/" ><span style='color:red'>Openings</span></a>
+              <a href="/openings/"><span style='color:red'>Openings</span></a>
             </li><li class="masthead__menu-item">
-              <a href="/publications/" >Publications</a>
+              <a href="/publications/">Publications</a>
             </li><li class="masthead__menu-item">
-              <a href="/people/" >People</a>
+              <a href="/people/">People</a>
             </li><li class="masthead__menu-item">
-              <a href="/funding/" >Funding</a>
+              <a href="/funding/">Funding</a>
             </li><li class="masthead__menu-item">
-              <a href="/about/" >About</a>
+              <a href="/about/">About</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -256,7 +155,6 @@
   </div>
 </div>
 
-    
 
     <div class="initial-content">
       
@@ -301,17 +199,20 @@
 
 <p><img src="assets/images/splash_logo.png" alt="image-center" class="align-center logo-width" /></p>
 
+<p class="notice--danger">We are always looking for talented Ph.D. students, pre-doctoral students, visiting students/scholars, and (to a limited extent) Postdocs. <br />
+Deadline to apply to the <a href="https://www.colorado.edu/cs/academics/graduate-programs/doctor-philosophy">Ph.D. is December 15, 2023</a>.   <br />
+<a href="/openings/"><strong>Read more</strong></a></p>
+
 <h3 id="upcoming-events">Upcoming events</h3>
-<ul>  
-  <li>June 26-28, 2023: Daniel will be program committee co-chair for the <a href="https://www.icssi.org/">International Conference on 
-    Science of Science and Innovation</a>. See you in Evanston, IL!</li>
-  <li>May 24-26, 2023: Daniel will be part of the Program Committee for the <a href="https://www.atlconf.org">9th
-Atlanta Conference on Science and Innovation Policy at the Georgia Institute of Technology</a>. See you in Georgia!</li>
-  <li>July 17 - 20, 2023 : Daniel will be part of the Program Committee for the <a href="https://iscss.org/ic2s2/conference/">9th International Conference on Computational Social Science</a>. See you in Copenhagen!</li>
+<ul>
+  <li>June 26-28, 2023: Daniel will be program committee co-chair for the <a href="https://www.icssi.org/">International Conference on Science of Science and Innovation</a>. See you in Evanston, IL!</li>
 </ul>
 
 <h3 id="news">News</h3>
 <ul>
+  <li>April 21, 2023: Daniel <a href="https://siliconflatirons.org/events/exploring-generative-ai-and-law/">participated on a panel on Law and Generative AI</a></li>
+  <li>April 15, 2023: <a href="https://hanzhuangsyr.github.io/">Dr. Han Zhuang</a> successfully defends his thesis and is headed to Barabasi Lab at Northeastern University! Congrats Han!</li>
+  <li>March 3, 2023: Daniel <a href="https://theconversation.com/three-ai-experts-on-how-access-to-chatgpt-style-tech-is-about-to-change-our-world-podcast-200882">was interviewed by The Conversation on our ChatGPT</a></li>
   <li>August 22, 2022: Daniel will present his work on large scale nearest neighbor search during the Ray Summit Meetup, part of <a href="https://www.anyscale.com/ray-summit-2022">Ray Summit 2022</a></li>
   <li>August 1-12, 2022: Science of Science Summer School (S4) 2022! Virtual. <a href="https://s4.scienceofscience.org">Apply now!</a></li>
   <li>August 14-18, 2022: Workshop on <a href="http://124.70.200.79:8199/DDSoS-KDD-2022/index.html">Data-Driven Science of Science at KDD 2022</a></li>
@@ -366,19 +267,19 @@ Atlanta Conference on Science and Innovation Policy at the Georgia Institute of 
 
     
 
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2022 SOS+CD.
-  Address: 205 Hinds Hall, <a href="https://ischool.syr.edu">School of Information Studies</a>, <a href="https://syracuse.edu">Syracuse University</a>, Syracuse, NY 13244</div>
+<div class="page__footer-copyright">&copy; 2023 SOS+CD. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
   <script src="/assets/js/main.min.js"></script>
-  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 
 

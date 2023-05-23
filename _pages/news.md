@@ -1,17 +1,18 @@
 
 
-We moved! Now we are in the [Computer Science Department](https://www.colorado.edu/cs/) at [Colorado University, Boulder](https://www.colorado.edu/). We are looking for postdoctoral researchers, Ph.D. students, master students, and pre-doctoral students to work on a broad range of projects on [science of science](https://scienceofscience.org), [computational research integrity](https://cri-conf.org), and [fairness in AI](https://dl.acm.org/doi/abs/10.1145/3351095.3375623). 
-Deadline to apply to the [Ph.D. is December 15, 2022](https://www.colorado.edu/cs/academics/graduate-programs/doctor-philosophy).     
+We are always looking for talented Ph.D. students, pre-doctoral students, visiting students/scholars, and (to a limited extent) Postdocs.   
+Deadline to apply to the [Ph.D. is December 15, 2023](https://www.colorado.edu/cs/academics/graduate-programs/doctor-philosophy).     
 [**Read more**](/openings/)
 {: .notice--danger}
 
 ### Upcoming events
-- May 11-12, 2023: Daniel is organizing the [Computational Research Integrity Conference 2023](https://cri-conf.org) - details soon. See you in Washington, DC!
-- May 24-26, 2023: Daniel will be part of the Program Committee for the [9th
-Atlanta Conference on Science and Innovation Policy at the Georgia Institute of Technology](https://www.atlconf.org). See you in Georgia!
-- July 17 - 20, 2023 : Daniel will be part of the Program Committee for the [9th International Conference on Computational Social Science](https://iscss.org/ic2s2/conference/). See you in Copenhagen!
+- June 26-28, 2023: Daniel will be program committee co-chair for the [International Conference on Science of Science and Innovation](https://www.icssi.org/). See you in Evanston, IL!
+
 
 ### News
+- April 21, 2023: Daniel [participated on a panel on Law and Generative AI](https://siliconflatirons.org/events/exploring-generative-ai-and-law/)
+- April 15, 2023: [Dr. Han Zhuang](https://hanzhuangsyr.github.io/) successfully defends his thesis and is headed to Barabasi Lab at Northeastern University! Congrats Han!
+- March 3, 2023: Daniel [was interviewed by The Conversation on our ChatGPT](https://theconversation.com/three-ai-experts-on-how-access-to-chatgpt-style-tech-is-about-to-change-our-world-podcast-200882)
 - August 22, 2022: Daniel will present his work on large scale nearest neighbor search during the Ray Summit Meetup, part of [Ray Summit 2022](https://www.anyscale.com/ray-summit-2022) 
 - August 1-12, 2022: Science of Science Summer School (S4) 2022! Virtual. [Apply now!](https://s4.scienceofscience.org)
 - August 14-18, 2022: Workshop on [Data-Driven Science of Science at KDD 2022](http://124.70.200.79:8199/DDSoS-KDD-2022/index.html)
