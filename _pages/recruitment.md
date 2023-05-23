@@ -6,11 +6,7 @@ title: "Recruiting postdocs, Ph.D. and Master's students"
 toc: true
 ---
 
-### Postdocs
-
-We have positions available. Please email Daniel directly with your interests at `daniel.acuna@colorado.edu` 
-
-### Ph.D. student to start in Fall 2023 
+### Ph.D. student to start in Fall 2024 
 
 Associate Professor Daniel Acuna from the Department of Computer Science is looking for Ph.D. students to apply to the program in Fall 2023. 
 

@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Science of Science and Computational Discovery Lab"
+title                    : ""
 title_separator          : "-"
 name                     : "SOS+CD"
 description              : "Science of Science & Computational Discovery"

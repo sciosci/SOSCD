@@ -12,20 +12,19 @@ title: "People"
 
 ## Doctoral students
 
-- [Han Zhuang](https://ischool.syr.edu/people/directories/view/hzhuang/), Graduate Assistant, iSchool, since Fall 2017
-- [Lizhen Liang](https://liamliang.github.io/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student, Ph.D. student starting Fall 2020
+- Carolina Chávez, Ph.D. student, Department of Computer Science, University of Colorado at Boulder, since Fall 2024 (co-advised with [Aaron Clauset](https://www.colorado.edu/faculty/clauset/))
+- Miles Mena, Ph.D. student, Department of Computer Science, University of Colorado at Boulder, since Fall 2024 (co-advised with [Aaron Clauset](https://www.colorado.edu/faculty/clauset/))
+- Meysam Varasteh, Ph.D. student, Department of Computer Science, University of Colorado at Boulder, since Fall 2024 (co-advised with [Robin Burke](http://www.that-recsys-lab.net/home/people/burke))
 
 ## Master students
 
-- Chao Zhou, Computer Science and Engineering, since Fall 2021
+- Vinay Ramesh, since Fall 2022, Computer Science and Engineering Master's student
+- Shubham Sati, since Fall 2022, Computer Science and Engineering Master's student
 
 ## Research assistants
 
 - Elizabeth Novoa, External consultant from [Unika Analytics](https://www.unikaanalytics.com), since Summer 2018
 
-## Visiting scholar
-
-- Tong Zeng, Ph.D. (Fall 2022 - Spring 2023) (**remote visitor**) Working on biases in AI present in image generation systems.
 
 # Alumni
 
@@ -35,9 +34,16 @@ title: "People"
 
 #### Visiting scholar
 
-- Tong Zeng (曾通), Doctoral student in Information Science, 
+- [Tong Zeng (曾通)](https://scholar.google.com/citations?user=E1HI8OoAAAAJ&hl=en&oi=ao), Doctoral student in Information Science, 
 [School of Information Management](https://www.nju.edu.cn/EN/7f/7d/c7136a163709/page.htm), 
 [Nanjing University](https://www.nju.edu.cn/EN/) (Fall 2017 - Spring 2021)
+
+#### Ph.D. students
+
+- [Lizhen Liang](https://liamliang.github.io/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student, Ph.D. student starting Fall 2020 - Spring 2023 (still working with us)
+
+- [Han Zhuang](https://hanzhuangsyr.github.io/), Graduate Assistant, iSchool, (Fall 2017 - Spring 2023), now a Postdoctoral Researcher at Barabasi Lab, Northeastern University
+
 
 #### Ph.D. student practica
 - [LaRoyce Jermaine Covington Jr.](https://ljcovingtonjr.github.io/), iSchool, Fall 2021 - Summer 2022
@@ -54,6 +60,7 @@ Practica (Fall 2016 - Spring 2018)
 
 
 #### Master's students
+- Chao Zhou, Computer Science and Engineering, since Fall 2021 - Spring 2023, back in China
 - Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, Fall 2020 - Spring 2022, now a Data Scientist at Amazon
 - Jim Yi, iSchool, Spring 2021 - Fall 2021
 - Hanlin Zhang, Computer Science, Fall 2019 - Spring 2021, now in Ant Group (China)
