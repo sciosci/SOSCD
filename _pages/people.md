@@ -5,21 +5,20 @@ author_profile: false
 title: "People"
 ---
 
-
-# Principal Investigator
+## Principal Investigator
 
 - [Daniel Acuña](/about), Ph.D., Associate Professor, Department of Computer Science, University of Colorado at Boulder
 
 ## Doctoral students
 
-- Carolina Chávez, Ph.D. student, Department of Computer Science, University of Colorado at Boulder, since Fall 2024 (co-advised with [Aaron Clauset](https://www.colorado.edu/faculty/clauset/))
-- Miles Mena, Ph.D. student, Department of Computer Science, University of Colorado at Boulder, since Fall 2024 (co-advised with [Aaron Clauset](https://www.colorado.edu/faculty/clauset/))
-- Meysam Varasteh, Ph.D. student, Department of Computer Science, University of Colorado at Boulder, since Fall 2024 (co-advised with [Robin Burke](http://www.that-recsys-lab.net/home/people/burke))
+- Carolina Chávez, Department of Computer Science, starting Fall 2024 (co-advised with Aaron Clauset)
+- Miles Mena, Department of Computer Science, starting Fall 2024 (co-advised with Aaron Clauset)
+- Meysam Varasteh, Department of Computer Science, starting Fall 2024 (co-advised with Robin Burke)
 
 ## Master students
 
-- Vinay Ramesh, since Fall 2022, Computer Science and Engineering Master's student
-- Shubham Sati, since Fall 2022, Computer Science and Engineering Master's student
+- Vinay Ramesh, since Fall 2022, Department of Computer Science
+- Shubham Sati, since Fall 2022, Department of Computer Science
 
 ## Research assistants
 
@@ -30,19 +29,20 @@ title: "People"
 
 #### Postdoctoral researcher
 
-- [Qing Ke](http://qke.github.io/), since Fall 2020 - August 2021, now at City University of Hong Kong
+- [Qing Ke](http://qke.github.io/), since Fall 2020 - August 2021, now Assistant Professor
+School of Data Science, City University of Hong Kong
+
+#### Ph.D. students
+
+- [Han Zhuang](https://hanzhuangsyr.github.io/), Graduate Assistant, iSchool, (Fall 2017 - Spring 2023), now a Postdoctoral Researcher at Barabasi Lab, Northeastern University
+ 
+- [Lizhen Liang](https://liamliang.github.io/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student, Fall 2020 - Spring 2023 as a Ph.D. student
 
 #### Visiting scholar
 
 - [Tong Zeng (曾通)](https://scholar.google.com/citations?user=E1HI8OoAAAAJ&hl=en&oi=ao), Doctoral student in Information Science, 
 [School of Information Management](https://www.nju.edu.cn/EN/7f/7d/c7136a163709/page.htm), 
-[Nanjing University](https://www.nju.edu.cn/EN/) (Fall 2017 - Spring 2021)
-
-#### Ph.D. students
-
-- [Lizhen Liang](https://liamliang.github.io/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student, Ph.D. student starting Fall 2020 - Spring 2023 (still working with us)
-
-- [Han Zhuang](https://hanzhuangsyr.github.io/), Graduate Assistant, iSchool, (Fall 2017 - Spring 2023), now a Postdoctoral Researcher at Barabasi Lab, Northeastern University
+[Nanjing University](https://www.nju.edu.cn/EN/) (Fall 2017 - Spring 2021), now at a startup in Shanghai
 
 
 #### Ph.D. student practica

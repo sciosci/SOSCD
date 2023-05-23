@@ -82,6 +82,8 @@ View on [Google Scholar](https://scholar.google.com/citations?hl=en&user=GAi23ss
 </style>
 ## Under review
 {% bibliography --query @*[year=2050]%}
+## 2023
+{% bibliography --query @*[year=2023]%}
 ## 2022
 {% bibliography --query @*[year=2022]%}
 ## 2021

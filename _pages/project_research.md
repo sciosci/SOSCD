@@ -21,7 +21,7 @@ toc_sticky: true
 
 ### Sloan Foundation
 
-- `2020-2023`: Does Government Funding Change What You Do? The Effects of Funding on the Direction and Impact of Academic Energy Research
+- `2020-2024`: Does Government Funding Change What You Do? The Effects of Funding on the Direction and Impact of Academic Energy Research
 
 ### Office of Research Integrity, DHHS
 
