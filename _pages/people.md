@@ -96,14 +96,15 @@ h2 {
 Unika Analytics, since Summer 2018" %}
 
 </div>
-# Alumni
 
-#### Postdoctoral researcher
+## Alumni
+
+### Postdoctoral researcher
 
 - [Qing Ke](http://qke.github.io/), since Fall 2020 - August 2021, now Assistant Professor
   School of Data Science, City University of Hong Kong
 
-#### Ph.D. students
+### Ph.D. students
 
 - [Han Zhuang](https://hanzhuangsyr.github.io/), Graduate Assistant, iSchool, (Fall 2017 - Spring 2023), now a
   Postdoctoral Researcher at Barabasi Lab, Northeastern University
@@ -111,14 +112,14 @@ Unika Analytics, since Summer 2018" %}
 - [Lizhen Liang](https://liamliang.github.io/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student,
   Fall 2020 - Spring 2023 as a Ph.D. student
 
-#### Visiting scholar
+### Visiting scholar
 
 - [Tong Zeng (曾通)](https://scholar.google.com/citations?user=E1HI8OoAAAAJ&hl=en&oi=ao), Doctoral student in
   Information Science,
   [School of Information Management](https://www.nju.edu.cn/EN/7f/7d/c7136a163709/page.htm),
   [Nanjing University](https://www.nju.edu.cn/EN/) (Fall 2017 - Spring 2021), now at a startup in Shanghai
 
-#### Ph.D. student practica
+### Ph.D. student practica
 
 - [LaRoyce Jermaine Covington Jr.](https://ljcovingtonjr.github.io/), iSchool, Fall 2021 - Summer 2022
 - [Jinfen Li](https://ischool.syr.edu/jinfen-li/), Teaching Practica, Spring 2022
@@ -132,7 +133,7 @@ Unika Analytics, since Summer 2018" %}
 - [Alain Shema](http://alainshema.com), Graduate Assistant, Teaching and Research
   Practica (Fall 2016 - Spring 2018)
 
-#### Master's students
+### Master's students
 
 - Chao Zhou, Computer Science and Engineering, since Fall 2021 - Spring 2023, back in China
 - Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, Fall 2020 - Spring 2022, now a Data Scientist at Amazon
@@ -163,7 +164,7 @@ Unika Analytics, since Summer 2018" %}
 - Manas Sikri, MS (2017), iSchool, Goldman Sachs
 - Shrutik Katchhi, MS (2017), iSchool, Ernst & Young
 
-#### Undergraduate students
+### Undergraduate students
 
 - Taeheun Lee, iSchool major, since Spring 2022 ([SOURCE grant](https://research.syr.edu/source/))
 - Chen Qiu, Computer Science major, since Spring 2022 ([SOURCE grant](https://research.syr.edu/source/))
