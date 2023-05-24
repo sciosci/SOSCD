@@ -17,7 +17,7 @@ header:
     - label: "About"
       url: "about"
 feature_row:
-  - image_path: assets/images/splash_images/publications.avif
+  - image_path: assets/images/splash_images/publications.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "Publications"
     title: "Publications"
@@ -33,7 +33,7 @@ feature_row:
     url: "https://github.com/sciosci"
     btn_label: "ScioSci Github"
     btn_class: "btn--primary"
-  - image_path: assets/images/splash_images/data.avif
+  - image_path: assets/images/splash_images/data.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "Datasets"
     title: "Datasets"
@@ -46,10 +46,10 @@ feature_row:
 #  - image_path: assets/images/splash_images/lab_members.png
 
 feature_row2:
-  - image_path: assets/images/splash_images/lab_members2.png
-    alt: "Our lab is recruiting passionate minds!"
+  - image_path: assets/images/splash_images/lab_members3.png
+    alt: "We are recruiting!"
     image_caption: "Midjourney"
-    title: "Our lab is recruiting passionate minds!"
+    title: "We are recruiting!"
     excerpt: 'We try to understand and improve science by developing methods to mine knowledge from massive datasets, using cutting-edge techniques like deep learning, natural language processing, and more. **Our Ph.D. program is fully-funded with deadline on December 15, 2023**'
     url: "openings"
     btn_label: "Read More"
