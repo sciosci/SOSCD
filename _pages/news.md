@@ -1,13 +1,6 @@
-
-
-We are always looking for talented Ph.D. students, pre-doctoral students, visiting students/scholars, and (to a limited extent) Postdocs.   
-Deadline to apply to the [Ph.D. is December 15, 2023](https://www.colorado.edu/cs/academics/graduate-programs/doctor-philosophy).     
-[**Read more**](/openings/)
-{: .notice--danger}
-
+# News
 ### Upcoming events
 - June 26-28, 2023: Daniel will be program committee co-chair for the [International Conference on Science of Science and Innovation](https://www.icssi.org/). See you in Evanston, IL!
-
 
 ### News
 - April 21, 2023: Daniel [participated on a panel on Law and Generative AI](https://siliconflatirons.org/events/exploring-generative-ai-and-law/)

@@ -1,47 +1,74 @@
 ---
+title: "Science of Science and Computational Discovery Laboratory"
+excerpt: "<a href='https://www.colorado.edu/cs/'>Department of Computer Science</a>
+<br /><a href='https://www.colorado.edu/'>University of Colorado Boulder</a>"
 layout: splash
 permalink: /
-author_profile: true
-intro:
-    - excerpt: 'Make Science Great Again (scientifically)'
 description: Trying to understand science and developing methods to mine scientific knowledge from vast, unstructured dataset of full-text publications, citations, and images
 header:
-  teaser: /assets/images/sos_logo_square.png
+  image: /assets/images/splash_images/cs_cub_midjourney.png
+  caption: "Computer Science Laboratory in CU Boulder, Midjourney"
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/splash_images/cs_cub_midjourney.png
+  actions:    
+    - label: "News"
+      url: "#news"
+    - label: "About"
+      url: "about"
+feature_row:
+  - image_path: assets/images/splash_images/publications.avif
+    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    alt: "Publications"
+    title: "Publications"
+    excerpt: "See our latest publications"
+    url: "publications"
+    btn_label: "Publications"
+    btn_class: "btn--primary"
+  - image_path: assets/images/splash_images/code2.png
+    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    alt: "Code"
+    title: "Code"
+    excerpt: "We believe in opening our code to the public for reproducibility. Browse our code on Github"
+    url: "https://github.com/sciosci"
+    btn_label: "ScioSci Github"
+    btn_class: "btn--primary"
+  - image_path: assets/images/splash_images/data.avif
+    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    alt: "Datasets"
+    title: "Datasets"
+    excerpt: "Datasets enable new and better science."
+    url: "mentorship"
+    btn_label: "Datasets"
+    btn_class: "btn--primary"
+#feature_row2: 
+#  - excerpt: 'Our lab is recruiting passionate minds! We try to understand and improve science by developing methods to mine knowledge from massive datasets, using cutting-edge techniques like deep learning, natural language processing, and more. Our Ph.D. program is fully-funded with deadline on December 15, 2023 [Read more](openings)'
+#  - image_path: assets/images/splash_images/lab_members.png
+
+feature_row2:
+  - image_path: assets/images/splash_images/lab_members2.png
+    alt: "Our lab is recruiting passionate minds!"
+    image_caption: "Midjourney"
+    title: "Our lab is recruiting passionate minds!"
+    excerpt: 'We try to understand and improve science by developing methods to mine knowledge from massive datasets, using cutting-edge techniques like deep learning, natural language processing, and more. **Our Ph.D. program is fully-funded with deadline on December 15, 2023**'
+    url: "openings"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
-<style>
-.small-font {
-    font-size: 10px;
-}
-
-@media screen and (max-width: 540px) {
-    .logo-width {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        width: 70%;
-    }
-}
-
-@media screen and (min-width: 540px) and (max-width: 780px) {
-    .logo-width {
-        margin-top: 25px;
-        margin-bottom: 25px;
-        width: 50%;
-    }
-}
-
-@media screen and (min-width: 780px){
-    .logo-width {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        width: 30%;
-    }
-}
-</style>
-
- 
 {: .text-center}
 
-[comment]: <> ([![image-center]&#40;assets/images/s4/s4_socialmedia_large.png&#41;]&#40;/s4/&#41;{: .align-center .logo-width  })
-![image-center](assets/images/splash_logo.png){: .align-center .logo-width  }
+<style>
+
+  .btn--primary.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+</style>
+
+{% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
+
 {% include_relative news.md %}

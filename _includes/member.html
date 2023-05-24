@@ -1,0 +1,61 @@
+<style>
+  .author__avatar {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Add styles for figure */
+  figure.author__figure {
+    max-width: 200px;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* add margin to the right of the image */
+    margin-right: 30px;
+    /*align-items: center;*/
+  }
+
+  /* Remove underline from links */
+  figure.author__figure a {
+    text-decoration: none;
+  }
+
+  /* Add styles for figcaption */
+  figure.author__figure figcaption {
+    text-align: center;
+  }
+
+  /* Add hover effect */
+  figure.author__figure:hover {
+    transform: scale(1.01);
+  }
+
+  /* no link underlines */
+  .page__content a:not(.btn):hover {
+    text-decoration: none;
+  }
+</style>
+
+<figure class="author__figure">
+  <a href="{{ include.url }}">
+    {% if include.image %}
+    <img src="{{ include.image }}" alt="{{ include.name }}" class="author__avatar">
+    {% else %}
+<!--    Create empty gray image inline with an image tag. and create 10px margin at the bottom of the image-->
+    <svg class="author__avatar" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 10px;">
+      <rect width="100" height="100" fill="#e6e6e6"/>
+    </svg>
+    {% endif %}
+    <figcaption>
+      <h3>{{ include.name | markdownify | remove: "<p>" | remove: "</p>" }}</h3>
+      <p>{{ include.position | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    </figcaption>
+  </a>
+</figure>

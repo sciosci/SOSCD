@@ -1,65 +1,88 @@
 ---
-layout: single
+layout: splash
 permalink: /people/
-author_profile: false
+author_profile: true
 title: "People"
 ---
 
 ## Principal Investigator
 
-- [Daniel Acuña](/about), Ph.D., Associate Professor, Department of Computer Science, University of Colorado at Boulder
+<style>
+/* Add styles for figures container */
+.container {
+  display: flex;
+  flex-wrap: wrap; /* This will allow the figures to wrap onto the next line if the container's width is not enough */
+}
+</style>
+<div class="container">
+{% include member.html  url="https://acuna.io" image="/assets/images/people/acuna-daniel.png" name="Daniel Acuna" position="Associate Professor in Computer Science at CU Boulder" %}
+</div>
 
 ## Doctoral students
 
-- Carolina Chávez, Department of Computer Science, starting Fall 2024 (co-advised with Aaron Clauset)
-- Miles Mena, Department of Computer Science, starting Fall 2024 (co-advised with Aaron Clauset)
-- Meysam Varasteh, Department of Computer Science, starting Fall 2024 (co-advised with Robin Burke)
+<div class="container">
 
+{% include member.html name="Carolina Chávez" position="Department of Computer Science, starting Fall 2023 (co-advised
+with Aaron Clauset)" %}
+
+{% include member.html name="Miles Mena" position="Department of Computer Science, starting Fall 2023 (co-advised with
+Aaron Clauset)" %}
+
+{% include member.html name="Meysam Varasteh" position="Department of Computer Science, starting Fall 2023 (co-advised
+with Aaron Clauset)" %}
+</div>
 ## Master students
+<div class="container">
 
-- Vinay Ramesh, since Fall 2022, Department of Computer Science
-- Shubham Sati, since Fall 2022, Department of Computer Science
+{% include member.html name="Vinay Ramesh" position="Department of Computer Science, since Fall 2022" %}
 
+{% include member.html name="Shubham Sati" position="Department of Computer Science, since Spring 2023" %}
+</div>
 ## Research assistants
 
-- Elizabeth Novoa, External consultant from [Unika Analytics](https://www.unikaanalytics.com), since Summer 2018
+<div class="container">
 
+{% include member.html url="https://www.unikaanalytics.com" name="Elizabeth Novoa" position="External consultant from Unika Analytics, since Summer 2018" %}
 
+</div>
 # Alumni
 
 #### Postdoctoral researcher
 
 - [Qing Ke](http://qke.github.io/), since Fall 2020 - August 2021, now Assistant Professor
-School of Data Science, City University of Hong Kong
+  School of Data Science, City University of Hong Kong
 
 #### Ph.D. students
 
-- [Han Zhuang](https://hanzhuangsyr.github.io/), Graduate Assistant, iSchool, (Fall 2017 - Spring 2023), now a Postdoctoral Researcher at Barabasi Lab, Northeastern University
- 
-- [Lizhen Liang](https://liamliang.github.io/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student, Fall 2020 - Spring 2023 as a Ph.D. student
+- [Han Zhuang](https://hanzhuangsyr.github.io/), Graduate Assistant, iSchool, (Fall 2017 - Spring 2023), now a
+  Postdoctoral Researcher at Barabasi Lab, Northeastern University
+
+- [Lizhen Liang](https://liamliang.github.io/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student,
+  Fall 2020 - Spring 2023 as a Ph.D. student
 
 #### Visiting scholar
 
-- [Tong Zeng (曾通)](https://scholar.google.com/citations?user=E1HI8OoAAAAJ&hl=en&oi=ao), Doctoral student in Information Science, 
-[School of Information Management](https://www.nju.edu.cn/EN/7f/7d/c7136a163709/page.htm), 
-[Nanjing University](https://www.nju.edu.cn/EN/) (Fall 2017 - Spring 2021), now at a startup in Shanghai
-
+- [Tong Zeng (曾通)](https://scholar.google.com/citations?user=E1HI8OoAAAAJ&hl=en&oi=ao), Doctoral student in
+  Information Science,
+  [School of Information Management](https://www.nju.edu.cn/EN/7f/7d/c7136a163709/page.htm),
+  [Nanjing University](https://www.nju.edu.cn/EN/) (Fall 2017 - Spring 2021), now at a startup in Shanghai
 
 #### Ph.D. student practica
+
 - [LaRoyce Jermaine Covington Jr.](https://ljcovingtonjr.github.io/), iSchool, Fall 2021 - Summer 2022
 - [Jinfen Li](https://ischool.syr.edu/jinfen-li/), Teaching Practica, Spring 2022
 - [LaRoyce Jermaine Covington Jr.](https://ljcovingtonjr.github.io/), Research Practica, iSchool, Fall 2021
 - [Dipto Das](https://ischool.syr.edu/people/directories/view/ddas05/), Research Assistant, iSchool, Fall 2019
 - [Sarah Bratt](https://ischool.syr.edu/people/directories/view/sebratt/), Research Practicum, iSchool, Spring 2018
 - [Alex Smith](https://ischool.syr.edu/people/directories/view/aosmith/), Graduate Assistant, Teaching and Research
-Practica, iSchool (Fall 2017-Spring 2018) 
-- [Mahboobeh Harandi](https://ischool.syr.edu/people/directories/view/mharandi/), 
-iSchool, Research Practicum, Spring 2017
+  Practica, iSchool (Fall 2017-Spring 2018)
+- [Mahboobeh Harandi](https://ischool.syr.edu/people/directories/view/mharandi/),
+  iSchool, Research Practicum, Spring 2017
 - [Alain Shema](http://alainshema.com), Graduate Assistant, Teaching and Research
-Practica (Fall 2016 - Spring 2018)
-
+  Practica (Fall 2016 - Spring 2018)
 
 #### Master's students
+
 - Chao Zhou, Computer Science and Engineering, since Fall 2021 - Spring 2023, back in China
 - Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, Fall 2020 - Spring 2022, now a Data Scientist at Amazon
 - Jim Yi, iSchool, Spring 2021 - Fall 2021
@@ -68,14 +91,18 @@ Practica (Fall 2016 - Spring 2018)
 - Rashika Singh, Faculty Engagement Scholar, iSchool, Fall 2019 - Spring 2021
 - Sourabh Ghosh, Faculty Engagement Scholar, iSchool, Fall 2019 - Fall 2020
 - Megha Ramesh Jakhotia, Faculty Engagement Scholar, previously with prof. Yang Wang, Fall 2019 - Spring 2020
-- [Ziyue (Alan) Xiang](http://www.alanshawn.com/), Computer Science, Fall 2018 - Spring 2020, now Ph.D. student at Purdue University
+- [Ziyue (Alan) Xiang](http://www.alanshawn.com/), Computer Science, Fall 2018 - Spring 2020, now Ph.D. student at
+  Purdue University
 - Ananth Raj GV, iSchool, Spring 2019 - Spring 2020, data scientist with Bank of America
 - Omkar Buchade, Computer Science, since Fall 2018 (in Summer 2019 internship with CBS Interactive)
 - Mengyu (Mike) Liu, Computer Science, Fall 2018 - Summer 2019
-- Priya Matnani, iSchool (IM with CAS in Data Science), Faculty Engagement Scholar, Fall 2017 - Spring 2019 (Summer 2018 internship at Airbnb, San Francisco), data scientist at Airbnb
+- Priya Matnani, iSchool (IM with CAS in Data Science), Faculty Engagement Scholar, Fall 2017 - Spring 2019 (Summer 2018
+  internship at Airbnb, San Francisco), data scientist at Airbnb
 - Xinxuan Wei, iSchool, Spring 2018 - Spring 2019, data scientist in Shanghai, China
-- Woojin Park, iSchool (Applied Data Science program), Faculty Engagement Scholar, Fall 2018 - Spring 2019, currently at CMU
-- Zexin Yao, Computer Science, Spring 2018 - Spring 2019 (Summer 2018 internship at NetEase Games, Guangzhou City, China) - will be a software engineer for Google starting June, 2019
+- Woojin Park, iSchool (Applied Data Science program), Faculty Engagement Scholar, Fall 2018 - Spring 2019, currently at
+  CMU
+- Zexin Yao, Computer Science, Spring 2018 - Spring 2019 (Summer 2018 internship at NetEase Games, Guangzhou City,
+  China) - will be a software engineer for Google starting June, 2019
 - Puzhen (Price) Qian, Computer Science, Fall 2018 - Spring 2019
 - Shloak Gupta, iSchool, Fall 2018
 - Kartik Nagre, iSchool, Fall 2016 - Spring 2018, Data Scientist at NewtonX
