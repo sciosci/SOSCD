@@ -1,18 +1,71 @@
 ---
-layout: splash
+layout: single
 permalink: /people/
-author_profile: true
+author_profile: false
 title: "People"
+toc: true
 ---
 
 ## Principal Investigator
 
 <style>
-/* Add styles for figures container */
 .container {
   display: flex;
   flex-wrap: wrap; /* This will allow the figures to wrap onto the next line if the container's width is not enough */
+  align-items: flex-start;
 }
+h2 {
+  margin-top: 20px;
+}
+  .author__avatar {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  figcaption {
+    /* reset font-family */
+    font-family: inherit;
+  }
+
+  /* Add styles for figure */
+  figure.author__figure {
+    max-width: 200px;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* add margin to the right of the image */
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*align-items: center;*/
+  }
+
+  /* Remove underline from links */
+  figure.author__figure a {
+    text-decoration: none;
+  }
+
+  /* Add styles for figcaption */
+  figure.author__figure figcaption {
+    text-align: center;
+  }
+
+  /* Add hover effect */
+  figure.author__figure:hover {
+    transform: scale(1.01);
+  }
+
+  /* no link underlines */
+  .page__content a:not(.btn):hover {
+    text-decoration: none;
+  }
 </style>
 <div class="container">
 {% include member.html  url="https://acuna.io" image="/assets/images/people/acuna-daniel.png" name="Daniel Acuna" position="Associate Professor in Computer Science at CU Boulder" %}
@@ -22,27 +75,25 @@ title: "People"
 
 <div class="container">
 
-{% include member.html name="Carolina Chávez" position="Department of Computer Science, starting Fall 2023 (co-advised
-with Aaron Clauset)" %}
+{% include member.html name="Carolina Chávez" position="CS Dept, starting Fall 2023 (w/ Aaron Clauset)" %}
 
-{% include member.html name="Miles Mena" position="Department of Computer Science, starting Fall 2023 (co-advised with
-Aaron Clauset)" %}
+{% include member.html name="Miles Mena" position="CS Dept, starting Fall 2023 (w/ Aaron Clauset)" %}
 
-{% include member.html name="Meysam Varasteh" position="Department of Computer Science, starting Fall 2023 (co-advised
-with Aaron Clauset)" %}
+{% include member.html name="Meysam Varasteh" position="CS Dept, starting Fall 2023 (w/ Robin Burke)" %}
 </div>
 ## Master students
 <div class="container">
 
 {% include member.html name="Vinay Ramesh" position="Department of Computer Science, since Fall 2022" %}
 
-{% include member.html name="Shubham Sati" position="Department of Computer Science, since Spring 2023" %}
+{% include member.html name="Shubham Sati" position="Department of Computer Science, since Spring 2023" image="/assets/images/people/shubham.jpg" %}
 </div>
 ## Research assistants
 
 <div class="container">
 
-{% include member.html url="https://www.unikaanalytics.com" name="Elizabeth Novoa" position="External consultant from Unika Analytics, since Summer 2018" %}
+{% include member.html url="https://www.unikaanalytics.com" name="Elizabeth Novoa" position="External consultant from
+Unika Analytics, since Summer 2018" %}
 
 </div>
 # Alumni
@@ -112,7 +163,7 @@ with Aaron Clauset)" %}
 - Manas Sikri, MS (2017), iSchool, Goldman Sachs
 - Shrutik Katchhi, MS (2017), iSchool, Ernst & Young
 
-## Undergraduate students
+#### Undergraduate students
 
 - Taeheun Lee, iSchool major, since Spring 2022 ([SOURCE grant](https://research.syr.edu/source/))
 - Chen Qiu, Computer Science major, since Spring 2022 ([SOURCE grant](https://research.syr.edu/source/))
