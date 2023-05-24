@@ -17,24 +17,21 @@ header:
     - label: "About"
       url: "about"
 feature_row:
-  - image_path: assets/images/splash_images/publications.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+  - image_path: assets/images/splash_images/publications_mj.jpg
     alt: "Publications"
     title: "Publications"
     excerpt: "See our latest publications"
     url: "publications"
     btn_label: "Publications"
     btn_class: "btn--primary"
-  - image_path: assets/images/splash_images/code2.png
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+  - image_path: assets/images/splash_images/code_mj.jpg
     alt: "Code"
     title: "Code"
-    excerpt: "We believe in opening our code to the public for reproducibility. Browse our code on Github"
+    excerpt: "Browse our code on Github"
     url: "https://github.com/sciosci"
     btn_label: "ScioSci Github"
     btn_class: "btn--primary"
-  - image_path: assets/images/splash_images/data.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+  - image_path: assets/images/splash_images/data_mj.jpg
     alt: "Datasets"
     title: "Datasets"
     excerpt: "Datasets enable new and better science."
