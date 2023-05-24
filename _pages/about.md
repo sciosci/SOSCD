@@ -22,7 +22,7 @@ _Science of Science and Computational Discovery Lab_
 Room 105 ECNW  
 University of Colorado at Boulder  
 Boulder, CO 80309  
-[map](https://www.colorado.edu/map?id=336#!s/?mc/40.00793399332605,-105.26281640367506?z/21?lvl/1])
+[map](https://www.colorado.edu/map?id=336#!s/?mc/40.00793399332605,-105.26281640367506?z/21?lvl/1)
 {: .small-font }
 
 ## About the Department of Computer Science and the University of Colorado Boulder
