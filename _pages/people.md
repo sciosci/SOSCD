@@ -84,7 +84,7 @@ h2 {
 ## Master students
 <div class="container">
 
-{% include member.html name="Vinay Ramesh" position="Department of Computer Science, since Fall 2022" %}
+{% include member.html name="Vinay Ramesh" position="Department of Computer Science, since Fall 2022" image="/assets/images/people/vinay.jpg" %}
 
 {% include member.html name="Shubham Sati" position="Department of Computer Science, since Spring 2023" image="/assets/images/people/shubham.jpg" %}
 </div>
