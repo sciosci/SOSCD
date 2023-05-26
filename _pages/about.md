@@ -15,7 +15,7 @@ Science of Science and Computational Discovery Lab (SOS+CD) is run by professor 
 
 The SOS+CD Lab works on understanding current practices in science and developing semi-automated methods to mine scientific knowledge from vast, unstructured datasets of full-text publications, citations, and images. We use various computational techniques, including deep learning, natural language processing, graph analytics, image processing, and causal inference.
 
-[Our talented alumni](/people/#alumni) have secured fulfilling positions as software engineers, data scientists, data engineers, and security analysts. Many of our graduates have gone on to excel as postdoctoral researchers and professors at top institutions worldwide.
+[Our talented alumni](/people/#alumni) have secured positions as software engineers, data scientists, data engineers, and security analysts. Many of our graduates have gone to postdoctoral and assistant professor positions at top institutions.
 
 ### Address  
 
