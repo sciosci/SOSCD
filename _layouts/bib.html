@@ -1,11 +1,36 @@
 ---
 ---
+<!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+{% assign press_url_exists = false %}
+{% if entry.press_url0 or entry.press_url1 or entry.press_url2 or entry.press_url3 %}
+{% assign press_url_exists = true %}
+{% endif %}
+  <!--  Check if entry.code exists -->
+{% assign code_exists = false %}
+{% if entry.code %}
+{% assign code_exists = true %}
+{% endif %}
+  <!--  Check if entry.demo exists -->
+{% assign demo_exists = false %}
+{% if entry.demo %}
+{% assign demo_exists = true %}
+{% endif %}
+  <!--  Check if entry.dataset_url exists -->
+{% assign dataset_url_exists = false %}
+{% if entry.dataset_url %}
+{% assign dataset_url_exists = true %}
+{% endif %}
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="{{entry.key}}" class="bib_entry entry_type_{{entry.type}} press_url_exists_{{press_url_exists}} code_exists_{{code_exists}} demo_exists_{{demo_exists}} dataset_exists_{{dataset_url_exists}}">
+
 {% if entry.image %}
 {% if entry.url %}
 <a href="{{entry.url}}" target="_blank">
-{% endif %}
-<img src="{{ entry.image }}">
-{% if entry.url %}
+  {% endif %}
+  <img src="{{ entry.image }}">
+  {% if entry.url %}
 </a>
 {% endif %}
 {% endif %}
@@ -22,36 +47,53 @@
 {% if entry.type == "incollection" %}In {{entry.editor}} (Eds.),{% endif %}
 <em>{{entry.journal}}{{entry.booktitle}}{{entry.school}}</em>{% if entry.volume %}, {{entry.volume}}{% if entry.number %}({{entry.number}}){% endif %}{% endif %}{% if entry.pages %}, {{entry.pages}}
 {% if entry.altmetric_id %}
-<span class="altmetric-embed" data-hide-no-mentions="true" data-badge-type="4" data-altmetric-id="{{entry.altmetric_id}}"></span>
+<span class="altmetric-embed" data-hide-no-mentions="true" data-badge-type="4"
+      data-altmetric-id="{{entry.altmetric_id}}"></span>
 {% endif %}
 {% if entry.altmetric_doi %}
-<span class="altmetric-embed" data-hide-no-mentions="true" data-badge-type="4" data-doi="{{entry.altmetric_doi}}"></span>
+<span class="altmetric-embed" data-hide-no-mentions="true" data-badge-type="4"
+      data-doi="{{entry.altmetric_doi}}"></span>
 {% endif %}
 {% endif %}
-{% if entry.code or entry.press_name0 or entry.demo %}
+{% if entry.code or entry.press_name0 or entry.demo or entry.dataset_url %}
 <ol>
-{% endif %}
-{% if entry.code %}
-<li><small><i class="fab fa-github"></i> <a href="{{entry.code}}" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
-{% endif %}
-{% if entry.demo %}
-<li><small><i class="fas fa-laptop-code"></i> <a href="{{entry.demo}}" target="_blank">Demo <i class="fas fa-external-link-alt"></i></a></small></li>
-{% endif %}
-{% if entry.press_name0 %}
-<li><small><i class="fas fa-newspaper"></i> {{entry.press_name0 | truncate: 50}} <a href="{{entry.press_url0}}" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
-{% endif %}
-{% if entry.press_name1 %}
-<li><small><i class="fas fa-newspaper"></i> {{entry.press_name1 | truncate: 50}} <a href="{{entry.press_url1}}" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
-{% endif %}
-{% if entry.press_name2 %}
-<li><small><i class="fas fa-newspaper"></i> {{entry.press_name2 | truncate: 50}} <a href="{{entry.press_url2}}" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
-{% endif %}
-{% if entry.press_name3 %}
-<li><small><i class="fas fa-newspaper"></i> {{entry.press_name3 | truncate: 50}} <a href="{{entry.press_url3}}" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
-{% endif %}
-{% if entry.code or entry.press_name0 or entry.demo %}
+  {% endif %}
+  {% if entry.code %}
+  <li><small><i class="fab fa-github"></i> <a href="{{entry.code}}" target="_blank">Code <i
+    class="fas fa-external-link-alt"></i></a></small></li>
+  {% endif %}
+  {% if entry.demo %}
+  <li><small><i class="fas fa-laptop-code"></i> <a href="{{entry.demo}}" target="_blank">Demo <i
+    class="fas fa-external-link-alt"></i></a></small></li>
+  {% endif %}
+  {% if entry.dataset_url %}
+  <li><small><i class="fas fa-database"></i> <a href="{{entry.dataset_url}}" target="_blank">Dataset <i
+    class="fas fa-external-link-alt"></i></a></small></li>
+  {% endif %}
+  {% if entry.press_name0 %}
+  <li><small><i class="fas fa-newspaper"></i> {{entry.press_name0 | truncate: 50}} <a href="{{entry.press_url0}}"
+                                                                                      target="_blank"> More <i
+    class="fas fa-external-link-alt"></i></a></small></li>
+  {% endif %}
+  {% if entry.press_name1 %}
+  <li><small><i class="fas fa-newspaper"></i> {{entry.press_name1 | truncate: 50}} <a href="{{entry.press_url1}}"
+                                                                                      target="_blank"> More <i
+    class="fas fa-external-link-alt"></i></a></small></li>
+  {% endif %}
+  {% if entry.press_name2 %}
+  <li><small><i class="fas fa-newspaper"></i> {{entry.press_name2 | truncate: 50}} <a href="{{entry.press_url2}}"
+                                                                                      target="_blank"> More <i
+    class="fas fa-external-link-alt"></i></a></small></li>
+  {% endif %}
+  {% if entry.press_name3 %}
+  <li><small><i class="fas fa-newspaper"></i> {{entry.press_name3 | truncate: 50}} <a href="{{entry.press_url3}}"
+                                                                                      target="_blank"> More <i
+    class="fas fa-external-link-alt"></i></a></small></li>
+  {% endif %}
+  {% if entry.code or entry.press_name0 or entry.demo or entry.dataset_url %}
 </ol>
 {% endif %}
 {% if entry.abstract %}
 <blockquote>{{ entry.abstract }}</blockquote>
 {% endif %}
+</span>
