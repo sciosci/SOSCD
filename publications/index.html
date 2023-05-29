@@ -231,7 +231,6 @@
     .bibliography li {
       display: inline-block;
       padding-left: 1em;
-      text-indent: -1em;
     }
     .bibliography li:before {
       content: "•";
@@ -268,13 +267,95 @@
 }
 </style>
 
+<form class="form-inline">
+<strong>Filter by type &nbsp;</strong>
+    <span class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="entry_type_article" name="entry_type_article" value="article" checked="" />
+        <label class="form-check-label" for="entry_type_article"><i class="fas fa-newspaper"></i> Journal</label>
+    </span>
+
+    <span class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="entry_type_conference" name="entry_type_conference" value="conference" checked="" />
+        <label class="form-check-label" for="entry_type_conference"><i class="fas fa-calendar-alt"></i> Conference</label>
+    </span>
+
+    <span class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="entry_type_dataset" name="entry_type_dataset" value="press" checked="" />
+        <label class="form-check-label" for="entry_type_dataset"><i class="fas fa-database"></i> Dataset</label>
+    </span>
+
+    <span class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="entry_type_code" name="entry_type_code" value="code" checked="" />
+        <label class="form-check-label" for="entry_type_code"><i class="fas fa-code"></i> Code</label>
+    </span>
+
+    <span class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="entry_type_demo" name="entry_type_demo" value="demo" checked="" />
+        <label class="form-check-label" for="entry_type_demo"><i class="fas fa-desktop"></i> Demo</label>
+    </span>
+</form>
+
+<script type="text/javascript">
+
+var waitForLoad = function () {
+    if (typeof $ != "undefined") {
+        $(document).ready(function() {
+            var filter = function() {
+                $(".bib_entry").each(function() {
+                    var entry_type_article = $(this).hasClass("entry_type_article");
+                    var entry_type_conference = $(this).hasClass("entry_type_inproceedings");                    
+                    // check for code, demo, dataset
+                    var code_exists = $(this).hasClass("code_exists_true");
+                    var demo_exists = $(this).hasClass("demo_exists_true");
+                    var dataset_exists = $(this).hasClass("dataset_exists_true");
+                    
+                    var show_based_on_entry_type = (entry_type_article && $("#entry_type_article").is(":checked")) || (entry_type_conference && $("#entry_type_conference").is(":checked")) || (dataset_exists && $("#entry_type_dataset").is(":checked")) || (code_exists && $("#entry_type_code").is(":checked")) || (demo_exists && $("#entry_type_demo").is(":checked"));
+
+                    if (show_based_on_entry_type) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            };
+            filter();
+            $("input").change(function() {
+                filter();
+            });
+        });
+    } else {
+        setTimeout(waitForLoad, 100);
+    }
+};
+waitForLoad();
+
+</script>
+
 <h2 id="under-review">Under review</h2>
-<ol class="bibliography"><li>
+
+<ol class="bibliography"><li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="zhou2022paraphrase" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
+
+
 
 <a href="https://arxiv.org/abs/2212.06933" target="_blank">
-
-<img src="/assets/images/publications/paraphrase_preprint.png" />
-
+  
+  <img src="/assets/images/publications/paraphrase_preprint.png" />
+  
 </a>
 
 
@@ -301,15 +382,34 @@ DE</span>,
 
 <em>arXiv preprint arXiv:2212.06933</em>
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="zhuangacuna2022" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -328,15 +428,34 @@ Incorporating costs and benefits to the evaluation of uncertain research finding
 
 <em></em>
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acuna2022predicting" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -370,21 +489,42 @@ H,
 
 <em></em>
 
+  
+  
+  
+  
+  
+  
+  
+  
 
+</span></li></ol>
 
-
-
-
-
-
-</li></ol>
 <h2 id="2023">2023</h2>
-<ol class="bibliography"><li>
+
+<ol class="bibliography"><li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="zhuang2023computational" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
+
+
 
 <a href="https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-023-00380-y" target="_blank">
-
-<img src="/assets/images/publications/13688_2023_380_Fig2_HTML.webp" />
-
+  
+  <img src="/assets/images/publications/13688_2023_380_Fig2_HTML.webp" />
+  
 </a>
 
 
@@ -414,21 +554,42 @@ DE</span> (2023),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
 
+</span></li></ol>
 
-
-
-
-
-
-</li></ol>
 <h2 id="2022">2022</h2>
-<ol class="bibliography"><li>
+
+<ol class="bibliography"><li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acuna2022" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
+
+
 
 <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0273994" target="_blank">
-
-<img src="/assets/images/publications/journal.pone.0273994.g002.png" />
-
+  
+  <img src="/assets/images/publications/journal.pone.0273994.g002.png" />
+  
 </a>
 
 
@@ -460,20 +621,39 @@ K (2022),
 
 <em>PLOS ONE</em>
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="keacuna2022" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_true">
 
 
-
-</li>
-<li>
 
 <a href="https://www.nature.com/articles/s41597-022-01578-x" target="_blank">
-
-<img src="/assets/images/publications/mentorship_pub.png" />
-
+  
+  <img src="/assets/images/publications/mentorship_pub.png" />
+  
 </a>
 
 
@@ -511,26 +691,47 @@ DE</span> (2022),
 <em>Scientific Data</em>, 9(467)
 
 <ol>
-
-
-
-
-<li><small><i class="fas fa-newspaper"></i> Dataset <a href="https://zenodo.org/record/4917086" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
-
-
-
-
-
+  
+  
+  
+  
+  <li><small><i class="fas fa-database"></i> <a href="https://zenodo.org/record/4917086" target="_blank">Dataset <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  
+  
+  
+  
 </ol>
 
-</li></ol>
+
+</span></li></ol>
+
 <h2 id="2021">2021</h2>
-<ol class="bibliography"><li>
+
+<ol class="bibliography"><li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="10.1145/3461702.3462616" class="bib_entry entry_type_inproceedings press_url_exists_true code_exists_true demo_exists_false dataset_exists_false">
+
+
 
 <a href="https://dl.acm.org/doi/pdf/10.1145/3461702.3462616" target="_blank">
-
-<img src="/assets/images/publications/aies_pub.png" />
-
+  
+  <img src="/assets/images/publications/aies_pub.png" />
+  
 </a>
 
 
@@ -556,22 +757,41 @@ L (2021),
 
 
 <ol>
-
-
-<li><small><i class="fab fa-github"></i> <a href="https://github.com/sciosci/demographicx" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
-
-
-
-<li><small><i class="fas fa-newspaper"></i> demographicx Python package <a href="https://github.com/sciosci/demographicx/blob/master/paper/paper.pdf" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
-
-
-
-
-
+  
+  
+  <li><small><i class="fab fa-github"></i> <a href="https://github.com/sciosci/demographicx" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  
+  
+  <li><small><i class="fas fa-newspaper"></i> demographicx Python package <a href="https://github.com/sciosci/demographicx/blob/master/paper/paper.pdf" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  
+  
+  
 </ol>
 
-</li>
-<li>
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acunaiconference2022" class="bib_entry entry_type_inproceedings press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
+
+
 
 
 
@@ -600,20 +820,39 @@ H (2021),
 
 <em>International Conference on Information</em>
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="zhuangacuna2021" class="bib_entry entry_type_article press_url_exists_false code_exists_true demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009650" target="_blank">
-
-<img src="/assets/images/publications/journal.pcbi.1009650.g009.png" />
-
+  
+  <img src="/assets/images/publications/journal.pcbi.1009650.g009.png" />
+  
 </a>
 
 
@@ -641,21 +880,42 @@ DE</span> (2021),
 <em>PloS Computational Biology</em>
 
 <ol>
-
-
-<li><small><i class="fab fa-github"></i> <a href="https://github.com/sciosci/graph_check" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
-
-
-
-
-
-
-
+  
+  
+  <li><small><i class="fab fa-github"></i> <a href="https://github.com/sciosci/graph_check" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  
+  
+  
+  
+  
+  
 </ol>
 
-</li></ol>
+
+</span></li></ol>
+
 <h2 id="2020">2020</h2>
-<ol class="bibliography"><li>
+
+<ol class="bibliography"><li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="zeng2020finding" class="bib_entry entry_type_incollection press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
+
+
 
 
 
@@ -674,20 +934,39 @@ DE</span> (2020),
 In Lane, Julia I. and Mulvany, Ian and Nathan, Paco (Eds.),
 <em>Rich Search and Discovery for Research Datasets</em>
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="liang2020artificial" class="bib_entry entry_type_inproceedings press_url_exists_false code_exists_true demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 <a href="https://dl.acm.org/doi/abs/10.1145/3351095.3375623" target="_blank">
-
-<img src="/assets/images/publications/biasai_pub.png" />
-
+  
+  <img src="/assets/images/publications/biasai_pub.png" />
+  
 </a>
 
 
@@ -713,25 +992,44 @@ DE</span> (2020),
 
 
 <ol>
-
-
-<li><small><i class="fab fa-github"></i> <a href="https://github.com/LiamLiang/Bias_AI" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
-
-
-
-
-
-
-
+  
+  
+  <li><small><i class="fab fa-github"></i> <a href="https://github.com/LiamLiang/Bias_AI" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  
+  
+  
+  
+  
+  
 </ol>
 
-</li>
-<li>
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="zeng2020assigning" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
+
+
 
 <a href="https://www.sciencedirect.com/science/article/pii/S1751157719301841" target="_blank">
-
-<img src="/assets/images/publications/datarank_pub.png" />
-
+  
+  <img src="/assets/images/publications/datarank_pub.png" />
+  
 </a>
 
 
@@ -766,15 +1064,34 @@ DE</span> (2020),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="achakulvisut2020pubmed" class="bib_entry entry_type_article press_url_exists_false code_exists_true demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -802,20 +1119,39 @@ K (2020),
 
 
 <ol>
-
-
-<li><small><i class="fab fa-github"></i> <a href="https://github.com/titipata/pubmed_parser" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
-
-
-
-
-
-
-
+  
+  
+  <li><small><i class="fab fa-github"></i> <a href="https://github.com/titipata/pubmed_parser" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  
+  
+  
+  
+  
+  
 </ol>
 
-</li>
-<li>
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="jas2020pyglmnet" class="bib_entry entry_type_article press_url_exists_false code_exists_true demo_exists_false dataset_exists_false">
+
+
 
 
 
@@ -880,25 +1216,44 @@ others
 <em>Journal of Open Source Software</em>, 5(47)
 
 <ol>
-
-
-<li><small><i class="fab fa-github"></i> <a href="https://github.com/glm-tools/pyglmnet" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
-
-
-
-
-
-
-
+  
+  
+  <li><small><i class="fab fa-github"></i> <a href="https://github.com/glm-tools/pyglmnet" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  
+  
+  
+  
+  
+  
 </ol>
 
-</li>
-<li>
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="zeng2020modeling" class="bib_entry entry_type_article press_url_exists_false code_exists_true demo_exists_true dataset_exists_false">
+
+
 
 <a href="https://link.springer.com/article/10.1007/s11192-020-03421-9" target="_blank">
-
-<img src="/assets/images/publications/citeworthiness_pub.png" />
-
+  
+  <img src="/assets/images/publications/citeworthiness_pub.png" />
+  
 </a>
 
 
@@ -924,22 +1279,41 @@ DE</span> (2020),
 
 
 <ol>
-
-
-<li><small><i class="fab fa-github"></i> <a href="https://github.com/sciosci/cite-worthiness" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
-
-
-<li><small><i class="fas fa-laptop-code"></i> <a href="https://cite-worthiness.scienceofscience.org" target="_blank">Demo <i class="fas fa-external-link-alt"></i></a></small></li>
-
-
-
-
-
-
+  
+  
+  <li><small><i class="fab fa-github"></i> <a href="https://github.com/sciosci/cite-worthiness" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  <li><small><i class="fas fa-laptop-code"></i> <a href="https://cite-worthiness.scienceofscience.org" target="_blank">Demo <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  
+  
+  
+  
+  
 </ol>
 
-</li>
-<li>
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="zhuangacuna2020" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
+
+
 
 
 
@@ -958,15 +1332,34 @@ An Automatic Misleading Graph Detection Tool.
 
 <em>International Conference on Computational Social Science</em>
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="liangacuna2020" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -985,15 +1378,34 @@ DE</span> (2020),
 
 <em>International Conference on Computational Social Science</em>
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="liang2020don" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1015,15 +1427,34 @@ DE</span> (2020),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="zengacuna2020" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1042,15 +1473,34 @@ DE</span> (2020),
 
 <em>International Conference on Computational Social Science</em>
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="zeng2020gotfunding" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1072,16 +1522,37 @@ DE</span> (2020),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
 
+</span></li></ol>
 
-
-
-
-
-
-</li></ol>
 <h2 id="2019">2019</h2>
-<ol class="bibliography"><li>
+
+<ol class="bibliography"><li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="lee2019limiting" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
+
+
 
 
 
@@ -1113,20 +1584,39 @@ ST (2019),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="zeng2019dead" class="bib_entry entry_type_inproceedings press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 <a href="https://link.springer.com/chapter/10.1007/978-3-030-15742-5_16" target="_blank">
-
-<img src="/assets/images/publications/deadscience_pub.png" />
-
+  
+  <img src="/assets/images/publications/deadscience_pub.png" />
+  
 </a>
 
 
@@ -1156,16 +1646,37 @@ DE</span> (2019),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
 
+</span></li></ol>
 
-
-
-
-
-
-</li></ol>
 <h2 id="2018">2018</h2>
-<ol class="bibliography"><li>
+
+<ol class="bibliography"><li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acuna2018bioscience" class="bib_entry entry_type_article press_url_exists_true code_exists_false demo_exists_false dataset_exists_false">
+
+
 
 
 
@@ -1195,24 +1706,43 @@ KP (2018),
 
 
 <ol>
-
-
-
-
-<li><small><i class="fas fa-newspaper"></i> (Nature News) Researchers have finally created ... <a href="https://www.nature.com/articles/d41586-018-02421-3" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
-
-
-<li><small><i class="fas fa-newspaper"></i> (Retraction Watch) What if we could scan for im... <a href="https://retractionwatch.com/2018/04/04/what-if-we-could-scan-for-image-duplication-the-way-we-check-for-plagiarism/" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
-
-
-<li><small><i class="fas fa-newspaper"></i> (BioTechniques) Preventing image fraud across r... <a href="https://www.biotechniques.com/news/preventing-image-fraud-across-research-papers/" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
-
-
-
+  
+  
+  
+  
+  
+  <li><small><i class="fas fa-newspaper"></i> (Nature News) Researchers have finally created ... <a href="https://www.nature.com/articles/d41586-018-02421-3" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  <li><small><i class="fas fa-newspaper"></i> (Retraction Watch) What if we could scan for im... <a href="https://retractionwatch.com/2018/04/04/what-if-we-could-scan-for-image-duplication-the-way-we-check-for-plagiarism/" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  <li><small><i class="fas fa-newspaper"></i> (BioTechniques) Preventing image fraud across r... <a href="https://www.biotechniques.com/news/preventing-image-fraud-across-research-papers/" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  
 </ol>
 
-</li>
-<li>
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="teplitskiy2018sociology" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
+
+
 
 
 
@@ -1249,15 +1779,34 @@ J (2018),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="lienard2018intellectual" class="bib_entry entry_type_article press_url_exists_true code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1290,21 +1839,42 @@ SV (2018),
 
 
 <ol>
-
-
-
-
-<li><small><i class="fas fa-newspaper"></i> (Nature Asia) Social sciences: Mentors and the ... <a href="https://www.natureasia.com/en/research/highlight/12793" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
-
-
-
-
-
+  
+  
+  
+  
+  
+  <li><small><i class="fas fa-newspaper"></i> (Nature Asia) Social sciences: Mentors and the ... <a href="https://www.natureasia.com/en/research/highlight/12793" target="_blank"> More <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  
+  
+  
 </ol>
 
-</li></ol>
+
+</span></li></ol>
+
 <h2 id="2017">2017</h2>
-<ol class="bibliography"><li>
+
+<ol class="bibliography"><li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="shema2017show" class="bib_entry entry_type_inproceedings press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
+
+
 
 
 
@@ -1326,16 +1896,37 @@ DE</span> (2017),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
 
+</span></li></ol>
 
-
-
-
-
-
-</li></ol>
 <h2 id="2016">2016</h2>
-<ol class="bibliography"><li>
+
+<ol class="bibliography"><li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="ramkumar2016chunking" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
+
+
 
 
 
@@ -1377,15 +1968,34 @@ KP (2016),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="ethier2016adaptive" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1417,15 +2027,34 @@ LE (2016),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="achakulvisut2016science" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1457,16 +2086,37 @@ K (2016),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
 
+</span></li></ol>
 
-
-
-
-
-
-</li></ol>
 <h2 id="2008---2015">2008 - 2015</h2>
-<ol class="bibliography"><li>
+
+<ol class="bibliography"><li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acuna2015using" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
+
+
 
 
 
@@ -1498,15 +2148,34 @@ KP (2015),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acuna2014multifaceted" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1558,15 +2227,34 @@ KP (2014),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acuna2013future" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1590,15 +2278,34 @@ CG (2013),
 
 <em>Medical Physics</em>, 40(11)
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="avraham2012toward" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1645,15 +2352,34 @@ A (2012),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acuna2012predicting" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1682,15 +2408,34 @@ KP (2012),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acuna2011rational" class="bib_entry entry_type_phdthesis press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1704,15 +2449,34 @@ DE</span> (2011),
 
 <em>University of Minnesota</em>
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acuna2010people" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1734,15 +2498,34 @@ V (2010),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acuna2010structure" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1764,15 +2547,34 @@ P (2010),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acuna2009improving" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1794,15 +2596,34 @@ P (2009),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acuna2008bayesian" class="bib_entry entry_type_inproceedings press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1824,15 +2645,34 @@ P (2008),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
 
 
 
 
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="acuna2008structure" class="bib_entry entry_type_inproceedings press_url_exists_false code_exists_false demo_exists_false dataset_exists_false">
 
 
-
-</li>
-<li>
 
 
 
@@ -1854,14 +2694,16 @@ P (2008),
 
 
 
+  
+  
+  
+  
+  
+  
+  
+  
 
-
-
-
-
-
-
-</li></ol>
+</span></li></ol>
 
         
       </section>
