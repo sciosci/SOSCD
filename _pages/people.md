@@ -87,6 +87,8 @@ h2 {
 {% include member.html name="Vinay Ramesh" position="Department of Computer Science, since Fall 2022" image="/assets/images/people/vinay.jpg" %}
 
 {% include member.html name="Shubham Sati" position="Department of Computer Science, since Spring 2023" image="/assets/images/people/shubham.jpg" %}
+
+{% include member.html name="Mohit Snehal" position="Department of Computer Science, since Summer 2023" image="/assets/images/people/mohit.jpg" %}
 </div>
 ## Research assistants
 
