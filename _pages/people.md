@@ -3,7 +3,11 @@ layout: single
 permalink: /people/
 author_profile: false
 title: "People"
+# sticky toc: true
 toc: true
+toc_label: "Sections"
+toc_icon: "cog"
+toc_sticky: true
 ---
 
 ## Principal Investigator
