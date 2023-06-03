@@ -1,6 +1,8 @@
 ---
 layout: single
 permalink: /people/
+header:
+  image: /assets/images/splash_images/people.png
 author_profile: false
 title: "People"
 # sticky toc: true

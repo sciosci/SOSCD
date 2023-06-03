@@ -33,5 +33,5 @@ According to the [rankings published by US News and World Report](https://www.co
 
 ## About Boulder, Colorado
 
-Nestled at the foothills of the Rocky Mountains, Boulder is a picturesque city known for its natural beauty and outdoor recreational opportunities. Just a short drive away, Denver, the state capital, boasts a vibrant cultural scene. The Denver International Airport offers connectivity to Beijing, London, and Tokyo, making Boulder and Denver an ideal choice for students seeking an enriching and accessible location.
+Nestled at the foothills of the Rocky Mountains, Boulder is a picturesque city known for its natural beauty and outdoor recreational opportunities. Just a short drive away, Denver, the state capital, boasts a vibrant cultural scene. 
 

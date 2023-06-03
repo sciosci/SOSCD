@@ -1,6 +1,8 @@
 ---
 layout: publications
 permalink: /publications/
+header:
+  image: /assets/images/splash_images/papers.png
 author_profile: false
 toc: true
 toc_label: "Publication year"

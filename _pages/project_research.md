@@ -2,8 +2,8 @@
 layout: single
 permalink: /funding/
 author_profile: false
-# header:
-#   image: /assets/images/research.png
+header:
+ image: /assets/images/splash_images/projects.png
 #   caption: "Wanderer, Caspar David Friedrich. Credit: Photographic reproduction by Cybershot800i. (Diff), Wikimedia Commons"
 title: "Projects"
 toc: true
