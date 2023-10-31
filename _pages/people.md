@@ -81,11 +81,11 @@ h2 {
 
 <div class="container">
 
-{% include member.html name="Carolina Chávez" position="CS Dept, starting Fall 2023 (w/ Aaron Clauset)" %}
+{% include member.html name="Carolina Chávez" position="CS Dept, from Fall 2023 (w/ Aaron Clauset)" %}
 
-{% include member.html name="Miles Mena" url="" image="/assets/images/people/miles.jpg" position="CS Dept, starting Fall 2023 (w/ Aaron Clauset)" %}
+{% include member.html name="Miles Mena" url="" image="/assets/images/people/miles.jpg" position="CS Dept, from Fall 2023" %}
 
-{% include member.html name="Meysam Varasteh" url="https://sites.google.com/view/meysamvarsth/home" image="/assets/images/people/meysam.jpg" position="CS Dept, starting Fall 2023 (w/ Robin Burke)" %}
+{% include member.html name="Meysam Varasteh" url="https://sites.google.com/view/meysamvarsth/home" image="/assets/images/people/meysam.jpg" position="CS Dept, from Fall 2023 (w/ Robin Burke)" %}
 </div>
 ## Master students
 <div class="container">
