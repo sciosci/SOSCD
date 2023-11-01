@@ -1,8 +1,6 @@
 # News
-### Upcoming events
-- June 26-28, 2023: Daniel will be program committee co-chair for the [International Conference on Science of Science and Innovation](https://www.icssi.org/). See you in Evanston, IL!
 
-### News
+- June 26-28, 2023: Daniel will be program committee co-chair for the [International Conference on Science of Science and Innovation](https://www.icssi.org/).
 - April 21, 2023: Daniel [participated on a panel on Law and Generative AI](https://siliconflatirons.org/events/exploring-generative-ai-and-law/)
 - April 15, 2023: [Dr. Han Zhuang](https://hanzhuangsyr.github.io/) successfully defends his thesis and is headed to Barabasi Lab at Northeastern University! Congrats Han!
 - March 3, 2023: Daniel [was interviewed by The Conversation on our ChatGPT](https://theconversation.com/three-ai-experts-on-how-access-to-chatgpt-style-tech-is-about-to-change-our-world-podcast-200882)
