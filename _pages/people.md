@@ -81,18 +81,18 @@ h2 {
 
 <div class="container">
 
-{% include member.html name="Carolina Chávez" position="CS Dept, from Fall 2023 (w/ Aaron Clauset)" %}
-
-{% include member.html name="Miles Mena" url="" image="/assets/images/people/miles.jpg" position="CS Dept, from Fall 2023" %}
+{% include member.html name="Carolina Chávez-Ruelas" image="/assets/images/people/carolina.png" url="https://carolinachru.github.io/" position="CS Dept, from Fall 2023 (w/ Aaron Clauset)" %}
 
 {% include member.html name="Meysam Varasteh" url="https://sites.google.com/view/meysamvarsth/home" image="/assets/images/people/meysam.jpg" position="CS Dept, from Fall 2023 (w/ Robin Burke)" %}
 </div>
 ## Master students
 <div class="container">
 
-{% include member.html name="Vinay Ramesh" position="Department of Computer Science, Fall 2022 - Summer 2023" image="/assets/images/people/vinay.jpg" %}
-
 {% include member.html name="Shubham Sati" position="Department of Computer Science, since Spring 2023" image="/assets/images/people/shubham.jpg" %}
+
+{% include member.html name="Tyler Gorman" position="Department of Computer Science, since Fall 2023" %}
+
+{% include member.html name="Pawin Taechoyotin" position="Department of Computer Science, since Fall 2023"%}
 
 </div>
 ## Research assistants
@@ -142,6 +142,7 @@ Unika Analytics, since Summer 2018" %}
 
 ### Master's students
 
+- Vinay Ramesh, Department of Computer Science, Fall 2022 - Summer 2023
 - Chao Zhou, Computer Science and Engineering, since Fall 2021 - Spring 2023, back in China
 - Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, Fall 2020 - Spring 2022, now a Data Scientist at Amazon
 - Jim Yi, iSchool, Spring 2021 - Fall 2021
