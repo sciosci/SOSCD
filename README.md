@@ -1,3 +1,64 @@
+# How to update contents in this repository?
+### News
+- Only Update the latest News in <i>./news.yml</i> file.
+- <i>./new_generator.rb</i> file is automatically executed in the Github Actions everytime you push your changes to the remote repository. This file reads the news content from <i>./news.yml</i> file and converts it to a markdown file, and stores in <i>_pages/news.md</i>
+- Note that if you are running the website on your localhost, Github Actions will not be executed and you need to do the changes in _pages/news.md file itself, else make sure to manually run the ./new_generator.rb file.
+### Opening
+- Only Update the latest Openings content in <i>_pages/recruitment.md</i>.
+### Publications
+- Only Update the latest Publication in <i>_bibliography/references.bib</i>.
+- <i>./publications_generator.rb</i> file is automatically executed in the Github Actions everytime you push your changes to the remote repository. This file reads the publications in <i>_bibliography/references.bib</i> file, and customizes the Javascript code to handle filtering logic of publications page. 
+- The generated Javascript code is always pasted between the following two comment lines in _pages/publications.md file: 
+"DO NOT REMOVE THIS LINE : BEGIN" and "DO NOT REMOVE THIS LINE : END".
+- For any updates you might have to do between the above two lines of code, update the <i>./publications_generator.rb</i> file with the changes, and github actions with reflect the Javascript changes.
+- Note that if you are running the website on your localhost, Github Actions will not be executed and you need to do the changes in _pages/publications.md file itself, else make sure to manually run the ./publications_generator.rb file.
+### People
+- Only Update the latest People information in <i>_pages/people.md</i>
+### Funding
+- Only Update the latest Funding information in <i>_pages/project_research.md</i>
+### About
+- Only Update the About content in <i>_pages/about.md</i>
+
+## Staging Deployment : How to deploy the website on personal github repository to validate future design changes.
+
+- In your _config.yml file, change to
+
+`url : https://<github username>.github.io`
+
+- run the script : 
+
+`ruby generate_staging_deployment.rb staging /SOSCD`
+
+to set the base urls throughout the repository to deploy on personal github portfolio. This will be used to validate design changes on personal github portfolio (staging environment).
+- <b><i>"/SOSCD"</i></b> is the project name, which will be used as base url in config.yml.
+- Running the above file, the append '/SOSCD' project name to all the image urls in the repository, and update base_url in _config.yml file.
+- After testing, to revert the changes and to push the changes to live, run:
+
+`ruby generate_staging_deployment.rb live /SOSCD`
+
+- In <i>Settings</i> of the repository, Navigate to <i>Pages</i>. Under <i>Builld and deployment</i>, set Source as <i>Deploy from a branch</i>. Under <i>Branch</i>, select gh-pages.
+- If there is no 'gh-pages' branch in your repository, run the following commands on your terminal first. 
+
+`git checkout --orphan gh-pages`
+
+`git rm -rf .`
+
+`git commit -m "Initial gh-pages commit"`
+
+`git push origin gh-pages`
+
+## Deploying to Live
+
+- In your _config.yml file, change to
+
+`url : https://scienceofscience.org`
+
+- Then run 
+
+`ruby generate_staging_deployment.rb live /SOSCD`
+
+- The above two changes will set all the urls appropriate for live deployment.
+
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)

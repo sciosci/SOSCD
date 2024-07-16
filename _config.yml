@@ -21,7 +21,7 @@ title_separator          : "-"
 name                     : "SOS+CD"
 description              : "Science of Science & Computational Discovery Lab"
 url                      : https://scienceofscience.org
-#baseurl                  : #
+baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 #logo                     : "/assets/images/sos_logo_s.png"
@@ -218,6 +218,7 @@ whitelist:
   - jemoji
   - jekyll-include-cache
   - jekyll-redirect-from
+  - jekyll-scholar
 
 
 # Archives

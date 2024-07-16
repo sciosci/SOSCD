@@ -19,6 +19,14 @@ toc_sticky: true
 
 ## Funding sources
 
+### National Science Foundation
+
+- `2024 - 2027`: The impact of socioeconomic diversity on science and innovation
+
+### Venture Partners at CU Boulder and OEDIT Advanced Industries Program
+
+- `2024 - 2025`: ReviewerZero.ai—An artificial intelligence technology suite to ensure research integrity in scientific publications
+
 ### Sloan Foundation
 
 - `2020-2024`: Does Government Funding Change What You Do? The Effects of Funding on the Direction and Impact of Academic Energy Research

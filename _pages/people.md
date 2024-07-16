@@ -88,10 +88,6 @@ h2 {
 ## Master students
 <div class="container">
 
-{% include member.html name="Shubham Sati" position="Department of Computer Science, since Spring 2023" image="/assets/images/people/shubham.jpg" %}
-
-{% include member.html name="Tyler Gorman" position="Department of Computer Science, since Fall 2023" %}
-
 {% include member.html name="Pawin Taechoyotin" position="Department of Computer Science, since Fall 2023"%}
 
 </div>
@@ -141,7 +137,8 @@ Unika Analytics, since Summer 2018" %}
   Practica (Fall 2016 - Spring 2018)
 
 ### Master's students
-
+- Tyler Gorman,  Department of Computer Science, Fall 2023 - Spring 2024
+- Shubham Sati,  Department of Computer Science, Spring 2023 - Spring 2024
 - Vinay Ramesh, Department of Computer Science, Fall 2022 - Summer 2023
 - Chao Zhou, Computer Science and Engineering, since Fall 2021 - Spring 2023, back in China
 - Tzu-Yang (Peter) Huang, Faculty Engagement Scholar, iSchool, Fall 2020 - Spring 2022, now a Data Scientist at Amazon

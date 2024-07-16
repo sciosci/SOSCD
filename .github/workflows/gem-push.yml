@@ -19,11 +19,25 @@ jobs:
       with:
         ruby-version: '3.0'
     - name: Build Jekyll site
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
         set -xo pipefail
         rm -rf _site/*
         gem install bundler
         bundle install
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        ruby news_generator.rb
+        ruby publications_generator.rb
+        if [[ -n $(git status --porcelain) ]]; then
+          echo "Changes detected. Committing and pushing changes."
+          git add .
+          git commit -m 'Generating News and Publications page'
+          git push origin master
+        else
+          echo "No changes detected. No commit or push performed."
+        fi
         bundle exec jekyll build
         cp CNAME _site/CNAME
     - name: Deploy
