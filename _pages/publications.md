@@ -231,7 +231,7 @@ function set_year_paper_id_map() {
             '2021': ["10.1145/3461702.3462616", "acunaiconference2022", "zhuangacuna2021"],
             '2022': ["acuna2022", "keacuna2022"],
             '2023': ["zhuang2023computational"],
-            '2024': ["10.1162/qss_a_00332", "novoa2024science", "taechoyotin2024misti", "XU2024103542", "Bibal2024", "leto2024first"],
+            '2024': ["10.1162/qss_a_00332", "novoa2024science", "taechoyotin2024misti", "XU2024103542", "leto2024first", "Bibal2024"],
             '2050': ["liang2024complementary", "zhou2022paraphrase", "acuna2022predicting"],
             '2008-2015': ["acuna2008bayesian", "acuna2008structure","acuna2009improving","acuna2010people", "acuna2010structure","acuna2011rational","avraham2012toward", "acuna2012predicting","acuna2013future","acuna2014multifaceted","acuna2015using",""],
     }
