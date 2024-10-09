@@ -87,6 +87,10 @@ h2 {
 
 {% include member.html name="Pawin Taechoyotin" image="/assets/images/people/pawin_picture.png" position="Department of Computer Science, since Fall 2024"%}
 </div>
+
+{% include member.html name="Christopher Ebuka Ojukwu" image="/assets/images/people/christopher.JPEG" position="Department of Computer Science, since Fall 2024"%}
+</div>
+
 ## Master students
 <div class="container">
 
