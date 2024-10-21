@@ -21,16 +21,27 @@
 {% assign dataset_url_exists = true %}
 {% endif %}
 
+<!--  Check if entry.paper_intro_url exists -->
+{% assign paper_intro_url_exists = false %}
+{% if entry.paper_intro_url %}
+{% assign paper_intro_url_exists = true %}
+{% endif %}
+  
 
   <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
-<span id="{{entry.key}}" class="bib_entry entry_type_{{entry.type}} press_url_exists_{{press_url_exists}} code_exists_{{code_exists}} demo_exists_{{demo_exists}} dataset_exists_{{dataset_url_exists}}">
+<span id="{{entry.key}}" class="bib_entry entry_type_{{entry.type}} press_url_exists_{{press_url_exists}} code_exists_{{code_exists}} demo_exists_{{demo_exists}} dataset_exists_{{dataset_url_exists}} paper_intro_exists_{{paper_intro_url_exists}}">
 
 {% if entry.image %}
-{% if entry.url %}
+{% if entry.paper_intro_url %} 
+<a href="{{entry.paper_intro_url}}" target="_blank"></a>
+{% elsif entry.url %}
 <a href="{{entry.url}}" target="_blank">
   {% endif %}
   <img src="{{ entry.image }}">
-  {% if entry.url %}
+
+  {% if entry.paper_intro_url %} 
+</a>
+  {% elsif entry.url %}
 </a>
 {% endif %}
 {% endif %}
@@ -42,7 +53,7 @@
 <span style="font-weight: 600;">
 {% endif %}{{author.last}}{% if 0 == first_names | size %},{% endif %}
 {% for fn in first_names %}{{ fn | slice: 0 }}{% endfor %}{% if author.last == "Acuna" %}</span>{% endif %}{% if idx < entry.author_array.size %},{% endif %}{% endfor %}{% if entry.year != "2050" %} ({{entry.year}}),{% endif %}{% if entry.year == "2050" %},{% endif %}
-{% if entry.url %}<a href="{{entry.url}}" target="_blank">{% endif %}{{entry.title}}{% if entry.url %}</a>{% endif %}.
+{% if entry.paper_intro_url %} <a href="{{entry.paper_intro_url}}" target="_blank"> {% elsif entry.url %}<a href="{{entry.url}}" target="_blank">{% endif %}{{entry.title}}{% if entry.paper_intro_url %}</a>{% elsif entry.url %}</a>{% endif %}.
 {% if entry.type == "phdthesis" %} [Ph.D. Thesis] {% endif %}
 {% if entry.type == "incollection" %}In {{entry.editor}} (Eds.),{% endif %}
 <em>{{entry.journal}}{{entry.booktitle}}{{entry.school}}</em>{% if entry.volume %}, {{entry.volume}}{% if entry.number %}({{entry.number}}){% endif %}{% endif %}{% if entry.pages %}, {{entry.pages}}
