@@ -97,11 +97,9 @@ h2 {
 </div>
 ## Research assistants
 
-div class="container">
-
-{% include member.html url="https://www.linkedin.com/in/guanchao-wang-aa4589299/" name="Guanchao (Mike) Wang"%}
-
 <div class="container">
+
+{% include member.html url="https://www.linkedin.com/in/guanchao-wang-aa4589299/" name="Guanchao (Mike) Wang" image="/assets/images/people/guanchao.jpg" position="Department of Linguistics & CS , since Spring 2024"%}
 
 {% include member.html url="https://www.unikaanalytics.com" name="Elizabeth Novoa" position="External consultant from
 Unika Analytics, since Summer 2018" %}
