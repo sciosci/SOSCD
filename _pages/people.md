@@ -97,6 +97,10 @@ h2 {
 </div>
 ## Research assistants
 
+div class="container">
+
+{% include member.html url="https://www.linkedin.com/in/guanchao-wang-aa4589299/" name="Guanchao (Mike) Wang"%}
+
 <div class="container">
 
 {% include member.html url="https://www.unikaanalytics.com" name="Elizabeth Novoa" position="External consultant from
