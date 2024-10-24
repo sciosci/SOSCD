@@ -94,6 +94,8 @@ h2 {
 <div class="container">
 {% include member.html name="Diego Munoz" position="Masters Student Assistant" %}
 
+{% include member.html name="Lin Shi" position="Masters Student Assistant" %}
+
 </div>
 ## Research assistants
 
