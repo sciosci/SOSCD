@@ -87,21 +87,23 @@ h2 {
 
 {% include member.html name="Pawin Taechoyotin" image="/assets/images/people/pawin_picture.png" position="Department of Computer Science, since Fall 2024"%}
 
+{% include member.html name="Almene De Meran Meguimtsop" position="Department of Computer Science, since Fall 2024"%}
+
 {% include member.html name="Christopher Ebuka Ojukwu" image="/assets/images/people/christoper.JPEG" position="Department of Computer Science, since Fall 2024"%}
 </div>
 
 ## Master students
 <div class="container">
-{% include member.html name="Diego Munoz" position="Masters Student Assistant" %}
+{% include member.html name="Lin Shi" position="Department of Computer Science, since Spring 2024" %}
 
-{% include member.html name="Lin Shi" position="Masters Student Assistant" %}
+{% include member.html url="https://www.linkedin.com/in/guanchao-wang-aa4589299/" name="Guanchao (Mike) Wang" image="/assets/images/people/guanchao.jpg" position="Department of Linguistics & CS, since Spring 2024"%}
+
+{% include member.html name="Diego Munoz" position="Department of Computer Science, since Spring 2024" %}
 
 </div>
-## Research assistants
+## External research assistants
 
 <div class="container">
-
-{% include member.html url="https://www.linkedin.com/in/guanchao-wang-aa4589299/" name="Guanchao (Mike) Wang" image="/assets/images/people/guanchao.jpg" position="Department of Linguistics & CS , since Spring 2024"%}
 
 {% include member.html url="https://www.unikaanalytics.com" name="Elizabeth Novoa" position="External consultant from
 Unika Analytics, since Summer 2018" %}
