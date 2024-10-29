@@ -94,7 +94,7 @@ h2 {
 
 ## Master students
 <div class="container">
-{% include member.html name="Lin Shi" position="Department of Computer Science, since Spring 2024" %}
+{% include member.html name="Lin Shi" image="/assets/images/people/lin_shi.jpg" position="Department of Computer Science, since Spring 2024" %}
 
 {% include member.html url="https://www.linkedin.com/in/guanchao-wang-aa4589299/" name="Guanchao (Mike) Wang" image="/assets/images/people/guanchao.jpg" position="Department of Linguistics & CS, since Spring 2024"%}
 
