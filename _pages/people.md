@@ -89,7 +89,7 @@ h2 {
 
 {% include member.html name="Christopher Ebuka Ojukwu" image="/assets/images/people/christoper.JPEG" position="Department of Computer Science, since Fall 2024"%}
 
-{% include member.html name="Yifan Tian" position="Department of Computer Science, starting Fall 2025"%}
+
 
 </div>
 
