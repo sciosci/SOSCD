@@ -83,20 +83,18 @@ h2 {
 
 {% include member.html name="Carolina Chávez-Ruelas" image="/assets/images/people/carolina.png" url="https://carolinachru.github.io/" position="CS Dept, from Fall 2023 (w/ Aaron Clauset)" %}
 
-{% include member.html name="Meysam Varasteh" url="https://sites.google.com/view/meysamvarsth/home" image="/assets/images/people/meysam.jpg" position="CS Dept, from Fall 2023 (w/ Robin Burke)" %}
-
 {% include member.html name="Pawin Taechoyotin" image="/assets/images/people/pawin_picture.png" position="Department of Computer Science, since Fall 2024"%}
 
 {% include member.html name="Almene De Meran Meguimtsop" position="Department of Computer Science, since Fall 2024"%}
 
 {% include member.html name="Christopher Ebuka Ojukwu" image="/assets/images/people/christoper.JPEG" position="Department of Computer Science, since Fall 2024"%}
+
+{% include member.html name="Yifan Tian" position="Department of Computer Science, starting Fall 2025"%}
+
 </div>
 
 ## Master students
 <div class="container">
-{% include member.html name="Lin Shi" image="/assets/images/people/lin_shi.jpg" position="Department of Computer Science, since Spring 2024" %}
-
-{% include member.html url="https://www.linkedin.com/in/guanchao-wang-aa4589299/" name="Guanchao (Mike) Wang" image="/assets/images/people/guanchao.jpg" position="Department of Linguistics & CS, since Spring 2024"%}
 
 {% include member.html name="Diego Munoz" position="Department of Computer Science, since Spring 2024" %}
 
@@ -118,6 +116,8 @@ Unika Analytics, since Summer 2018" %}
   School of Data Science, City University of Hong Kong
 
 ### Ph.D. students
+
+- Meysam Varasteh, CS Dept, from Fall 2023 - Summer 2024 (co-advised with Robin Burke)
 
 - [Han Zhuang](https://hanzhuangsyr.github.io/), Graduate Assistant, iSchool, (Fall 2017 - Spring 2023), now a
   Postdoctoral Researcher at Barabasi Lab, Northeastern University
@@ -147,6 +147,9 @@ Unika Analytics, since Summer 2018" %}
   Practica (Fall 2016 - Spring 2018)
 
 ### Master's students
+
+- Lin Shi, Department of Computer Science, Spring 2024 - Fall 2024
+- Guanchao (Mike) Wang, Department of Linguistics & CS, Spring 2024 - Summer 2024
 - Tyler Gorman,  Department of Computer Science, Fall 2023 - Spring 2024
 - Shubham Sati,  Department of Computer Science, Spring 2023 - Spring 2024
 - Vinay Ramesh, Department of Computer Science, Fall 2022 - Summer 2023
