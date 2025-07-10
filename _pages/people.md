@@ -89,14 +89,7 @@ h2 {
 
 {% include member.html name="Christopher Ebuka Ojukwu" image="/assets/images/people/christoper.JPEG" position="Department of Computer Science, since Fall 2024"%}
 
-
-
-</div>
-
-## Master students
-<div class="container">
-
-{% include member.html name="Diego Munoz" position="Department of Computer Science, since Spring 2024" %}
+{% include member.html name="Yifan Tian" position="Department of Computer Science, starting Fall 2025"%}
 
 </div>
 ## External research assistants
@@ -148,6 +141,7 @@ Unika Analytics, since Summer 2018" %}
 
 ### Master's students
 
+- Diego Muñoz, Department of Computer Science, Fall 2024 - Spring 2025
 - Lin Shi, Department of Computer Science, Spring 2024 - Fall 2024
 - Guanchao (Mike) Wang, Department of Linguistics & CS, Spring 2024 - Summer 2024
 - Tyler Gorman,  Department of Computer Science, Fall 2023 - Spring 2024
