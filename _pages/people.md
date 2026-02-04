@@ -83,7 +83,7 @@ h2 {
 
 {% include member.html name="Carolina Chávez-Ruelas" image="/assets/images/people/carolina.png" url="https://carolinachru.github.io/" position="CS Dept, from Fall 2023 (w/ Aaron Clauset)" %}
 
-{% include member.html name="Pawin Taechoyotin" image="/assets/images/people/pawin_picture.png" position="Department of Computer Science, since Fall 2024"%}
+{% include member.html name="Pawin Taechoyotin" image="/assets/images/people/pawin_picture.png" url="https://khempawin.github.io/" position="Department of Computer Science, since Fall 2024"%}
 
 {% include member.html name="Almene De Meran Meguimtsop" position="Department of Computer Science, since Fall 2024"%}
 
