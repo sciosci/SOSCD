@@ -85,7 +85,7 @@ h2 {
 
 {% include member.html name="Pawin Taechoyotin" image="/assets/images/people/pawin_picture.png" url="https://khempawin.github.io/" position="Department of Computer Science, since Fall 2024"%}
 
-{% include member.html name="Almene De Meran Meguimtsop" position="Department of Computer Science, since Fall 2024"% url="https://almenedemeran.github.io/"}
+{% include member.html name="Almene De Meran Meguimtsop" position="Department of Computer Science, since Fall 2024"% url="https://almene08.github.io/"}
 
 {% include member.html name="Christopher Ebuka Ojukwu" image="/assets/images/people/christoper.JPEG" position="Department of Computer Science, since Fall 2024"% url="https://christopherebukaojukwu.github.io/"}
 
