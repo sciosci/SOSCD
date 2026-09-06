@@ -6,6 +6,22 @@
   <ul style="list-style: none; padding-left: 0;">
     <li style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
         <div style="flex: 1;">
+            Daniel serves as an Area Chair for the <a href="https://ai4sciencecommunity.github.io/neurips26.html">AI for Science workshop</a> at <a href="https://neurips.cc/Conferences/2026">NeurIPS 2026</a>
+        </div>
+        <div style="flex: 0 0 150px; text-align: right; color: #555; font-style: italic;">
+            December 2026
+        </div>
+    </li>
+    <li style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+        <div style="flex: 1;">
+            Daniel serves as a reviewer for the <a href="https://ui.adsabs.harvard.edu/WIESP/2026/">4th Workshop on Artificial Intelligence for Scientific Publications (WASP 2026)</a> at <a href="https://2026.aaclnet.org/">AACL-IJCNLP 2026</a>
+        </div>
+        <div style="flex: 0 0 150px; text-align: right; color: #555; font-style: italic;">
+            November 2026
+        </div>
+    </li>
+    <li style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+        <div style="flex: 1;">
             Daniel will deliver a keynote, <em>AI vs. AI: Guarding the Scientific Record Against Fabrication, Manipulation, and Machine-Authored Content</em>, in the Ethics &amp; Governance in AI for Science track of <a href="https://ai4scikorea.org">AI4Sci Korea 2026</a>, Seoul, South Korea (September 28 – October 1, 2026)
         </div>
         <div style="flex: 0 0 150px; text-align: right; color: #555; font-style: italic;">
@@ -18,6 +34,30 @@
         </div>
         <div style="flex: 0 0 150px; text-align: right; color: #555; font-style: italic;">
             August 2026
+        </div>
+    </li>
+    <li style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+        <div style="flex: 1;">
+            Daniel joined the Program Committee of <a href="https://aaai.org/conference/aaai/aaai-27/">AAAI 2027</a>
+        </div>
+        <div style="flex: 0 0 150px; text-align: right; color: #555; font-style: italic;">
+            August 2026
+        </div>
+    </li>
+    <li style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+        <div style="flex: 1;">
+            Daniel served as an Area Chair for the <a href="https://ai4sciencecommunity.github.io/icml26.html">AI for Science workshop</a> at <a href="https://icml.cc/Conferences/2026">ICML 2026</a>
+        </div>
+        <div style="flex: 0 0 150px; text-align: right; color: #555; font-style: italic;">
+            July 2026
+        </div>
+    </li>
+    <li style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+        <div style="flex: 1;">
+            Daniel joined the Program Committee of the <a href="https://ai4scisci.github.io/2026/">3rd International Workshop on AI for the Science of Science (AI4SciSci 2026)</a> at JCDL 2026
+        </div>
+        <div style="flex: 0 0 150px; text-align: right; color: #555; font-style: italic;">
+            July 2026
         </div>
     </li>
     <li style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
@@ -94,7 +134,7 @@
     </li>
     <li style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
         <div style="flex: 1;">
-            Daniel serves as Area Chair for the AI4Science workshops at ICML 2026 and NeurIPS 2026, as a Program Committee member for AAAI 2027, and as a reviewer for the WASP workshop at AACL-IJCNLP 2026
+            Daniel serves on the editorial boards of <a href="https://www.nature.com/palcomms/"><em>Humanities and Social Sciences Communications</em></a> and the <a href="https://www.sciopen.com/journal/2688-5255"><em>Journal of Social Computing</em></a>
         </div>
         <div style="flex: 0 0 150px; text-align: right; color: #555; font-style: italic;">
             2026
