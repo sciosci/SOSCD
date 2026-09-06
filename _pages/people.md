@@ -74,7 +74,7 @@ h2 {
   }
 </style>
 <div class="container">
-{% include member.html  url="https://acuna.io" image="/assets/images/people/acuna-daniel.png" name="Daniel Acuna" position="Associate Professor in Computer Science at CU Boulder" %}
+{% include member.html  url="https://acuna.io" image="/assets/images/people/acuna-daniel.png" name="Daniel Acuna" position="Associate Professor of Computer Science (and Information Science, by courtesy) at CU Boulder" %}
 </div>
 
 ## Doctoral students
@@ -88,8 +88,6 @@ h2 {
 {% include member.html name="Almene De Meran Meguimtsop" url="https://almene08.github.io/" position="Department of Computer Science, since Fall 2024"%}
 
 {% include member.html name="Christopher Ebuka Ojukwu" image="/assets/images/people/christoper.JPEG" url="https://christopherebukaojukwu.github.io/" position="Department of Computer Science, since Fall 2024"%}
-
-{% include member.html name="Yifan Tian" position="Department of Computer Science, starting Fall 2025"%}
 
 </div>
 ## External research assistants
@@ -109,6 +107,8 @@ Unika Analytics, since Summer 2018" %}
   School of Data Science, City University of Hong Kong
 
 ### Ph.D. students
+
+- Yifan Tian, Department of Computer Science, Fall 2025 - 2026
 
 - Meysam Varasteh, CS Dept, from Fall 2023 - Summer 2024 (co-advised with Robin Burke)
 

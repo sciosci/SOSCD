@@ -214,6 +214,10 @@ function set_display_status() {
         document.getElementById('2023-hr').style.display = "none";
         document.getElementById('2024').style.display = "none";
         document.getElementById('2024-hr').style.display = "none";
+        document.getElementById('2025').style.display = "none";
+        document.getElementById('2025-hr').style.display = "none";
+        document.getElementById('2026').style.display = "none";
+        document.getElementById('2026-hr').style.display = "none";
         document.getElementById('2050').style.display = "none";
         document.getElementById('2050-hr').style.display = "none";
         document.getElementById('2008-2015').style.display = "none";
@@ -231,8 +235,10 @@ function set_year_paper_id_map() {
             '2021': ["10.1145/3461702.3462616", "acunaiconference2022", "zhuangacuna2021"],
             '2022': ["acuna2022", "keacuna2022"],
             '2023': ["zhuang2023computational"],
-            '2024': ["10.1162/qss_a_00332", "novoa2024science", "taechoyotin2024misti", "XU2024103542", "leto2024first", "Bibal2024"],
-            '2050': ["liang2024complementary", "zhou2022paraphrase", "acuna2022predicting"],
+            '2024': ["10.1162/qss_a_00332", "novoa2024science", "taechoyotin2024misti", "XU2024103542", "leto2024first", "Bibal2024", "taechoyotin2024mamorx", "varasteh2024comparative"],
+            '2025': ["zhou2022paraphrase", "acuna2022predicting", "zhuang2025estimating"],
+            '2026': ["zhou2026widespread", "xu2026beyond", "kusumegi2026dissecting"],
+            '2050': ["meguimtsop2026sciintbench", "taechoyotin2026remctx", "popp2026government", "taechoyotin2025remor", "liang2024complementary"],
             '2008-2015': ["acuna2008bayesian", "acuna2008structure","acuna2009improving","acuna2010people", "acuna2010structure","acuna2011rational","avraham2012toward", "acuna2012predicting","acuna2013future","acuna2014multifaceted","acuna2015using",""],
     }
 }
@@ -245,7 +251,15 @@ waitForLoad();
 <hr id='2050-hr'>
 
 
-{% bibliography --query @*[year>2024]%}
+{% bibliography --query @*[year>2026]%}
+
+<h1  id='2026'> 2026 </h1>
+<hr  id='2026-hr'>
+{% bibliography --query @*[year=2026]%}
+
+<h1  id='2025'> 2025 </h1>
+<hr  id='2025-hr'>
+{% bibliography --query @*[year=2025]%}
 
 <h1  id='2024'> 2024 </h1>
 <hr  id='2024-hr'>

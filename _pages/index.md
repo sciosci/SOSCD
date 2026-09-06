@@ -47,7 +47,7 @@ feature_row2:
     alt: "We are recruiting!"
     image_caption: "Midjourney"
     title: "We are recruiting!"
-    excerpt: 'We try to understand and improve science by developing methods to mine knowledge from massive datasets, using cutting-edge techniques like deep learning, natural language processing, and more. **Our Ph.D. program is fully-funded with deadline on December 15, 2023**'
+    excerpt: 'We try to understand and improve science by developing methods to mine knowledge from massive datasets, using cutting-edge techniques like deep learning, natural language processing, and more. **We are recruiting one fully funded Ph.D. student for Fall 2027. Application deadline: December 15, 2026**'
     url: "openings"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -65,5 +65,7 @@ feature_row2:
 </style>
 
 {% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
 
 {% include_relative news.md %}
