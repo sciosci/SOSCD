@@ -205,7 +205,7 @@
           <aside class="sidebar__right ">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Publication year</h4></header>
-              <ul class="toc__menu"><li><a href="#2050"> Under Review </a></li><li><a href="#2024"> 2024 </a></li><li><a href="#2023"> 2023 </a></li><li><a href="#2022"> 2022 </a></li><li><a href="#2021"> 2021 </a></li><li><a href="#2020"> 2020 </a></li><li><a href="#2019"> 2019 </a></li><li><a href="#2018"> 2018 </a></li><li><a href="#2017"> 2017 </a></li><li><a href="#2016"> 2016 </a></li><li><a href="#2008-2015"> 2008-2015 </a></li></ul>
+              <ul class="toc__menu"><li><a href="#2050"> Under Review </a></li><li><a href="#2026"> 2026 </a></li><li><a href="#2025"> 2025 </a></li><li><a href="#2024"> 2024 </a></li><li><a href="#2023"> 2023 </a></li><li><a href="#2022"> 2022 </a></li><li><a href="#2021"> 2021 </a></li><li><a href="#2020"> 2020 </a></li><li><a href="#2019"> 2019 </a></li><li><a href="#2018"> 2018 </a></li><li><a href="#2017"> 2017 </a></li><li><a href="#2016"> 2016 </a></li><li><a href="#2008-2015"> 2008-2015 </a></li></ul>
 
             </nav>
           </aside>
@@ -394,6 +394,10 @@ function set_display_status() {
         document.getElementById('2023-hr').style.display = "none";
         document.getElementById('2024').style.display = "none";
         document.getElementById('2024-hr').style.display = "none";
+        document.getElementById('2025').style.display = "none";
+        document.getElementById('2025-hr').style.display = "none";
+        document.getElementById('2026').style.display = "none";
+        document.getElementById('2026-hr').style.display = "none";
         document.getElementById('2050').style.display = "none";
         document.getElementById('2050-hr').style.display = "none";
         document.getElementById('2008-2015').style.display = "none";
@@ -411,8 +415,10 @@ function set_year_paper_id_map() {
             '2021': ["10.1145/3461702.3462616", "acunaiconference2022", "zhuangacuna2021"],
             '2022': ["acuna2022", "keacuna2022"],
             '2023': ["zhuang2023computational"],
-            '2024': ["10.1162/qss_a_00332", "novoa2024science", "taechoyotin2024misti", "XU2024103542", "leto2024first", "Bibal2024"],
-            '2050': ["liang2024complementary", "zhou2022paraphrase", "acuna2022predicting"],
+            '2024': ["10.1162/qss_a_00332", "novoa2024science", "taechoyotin2024misti", "XU2024103542", "leto2024first", "Bibal2024", "taechoyotin2024mamorx", "varasteh2024comparative"],
+            '2025': ["zhou2022paraphrase", "acuna2022predicting", "zhuang2025estimating"],
+            '2026': ["zhou2026widespread", "xu2026beyond", "kusumegi2026dissecting"],
+            '2050': ["meguimtsop2026sciintbench", "taechoyotin2026remctx", "popp2026government", "taechoyotin2025remor", "liang2024complementary"],
             '2008-2015': ["acuna2008bayesian", "acuna2008structure","acuna2009improving","acuna2010people", "acuna2010structure","acuna2011rational","avraham2012toward", "acuna2012predicting","acuna2013future","acuna2014multifaceted","acuna2015using",""],
     }
 }
@@ -424,6 +430,221 @@ waitForLoad();
 <hr id="2050-hr" />
 
 <ol class="bibliography"><li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+<!--  Check if entry.paper_intro_url exists -->
+
+
+  
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="meguimtsop2026sciintbench" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false paper_intro_exists_false">
+
+
+
+
+
+
+Meguimtsop
+ADM,
+
+
+
+Pacheco
+ML,
+
+
+
+
+<span style="font-weight: 600;">
+Acuna
+DE</span>,
+<a href="https://arxiv.org/abs/2605.29468" target="_blank">SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under Adversarial Framing</a>.
+
+
+<em>arXiv preprint arXiv:2605.29468</em>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+<!--  Check if entry.paper_intro_url exists -->
+
+
+  
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="taechoyotin2026remctx" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false paper_intro_exists_false">
+
+
+
+
+
+
+Taechoyotin
+P,
+
+
+
+
+<span style="font-weight: 600;">
+Acuna
+DE</span>,
+<a href="https://arxiv.org/abs/2604.00248" target="_blank">REM-CTX: Automated Peer Review via Reinforcement Learning with Auxiliary Context</a>.
+
+
+<em>arXiv preprint arXiv:2604.00248</em>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+<!--  Check if entry.paper_intro_url exists -->
+
+
+  
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="popp2026government" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false paper_intro_exists_false">
+
+
+
+
+
+
+Popp
+D,
+
+
+
+Gregoire-Zawilski
+M,
+
+
+
+Liang
+L,
+
+
+
+
+<span style="font-weight: 600;">
+Acuna
+DE</span>,
+<a href="https://doi.org/10.3386/w34856" target="_blank">Government Funding and the Direction of Academic Energy Research</a>.
+
+
+<em>NBER Working Paper No. 34856</em>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+<!--  Check if entry.paper_intro_url exists -->
+
+
+  
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="taechoyotin2025remor" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false paper_intro_exists_false">
+
+
+
+
+
+
+Taechoyotin
+P,
+
+
+
+
+<span style="font-weight: 600;">
+Acuna
+DE</span>,
+<a href="https://arxiv.org/abs/2505.11718" target="_blank">REMOR: Automated Peer Review Generation with LLM Reasoning and Multi-Objective Reinforcement Learning</a>.
+
+
+<em>arXiv preprint arXiv:2505.11718</em>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
 
 
   <!--  Check if entry.code exists -->
@@ -468,10 +689,72 @@ J,
 <span style="font-weight: 600;">
 Acuna
 DE</span>,
-The complementary contributions of academia and industry to AI research.
+<a href="https://arxiv.org/abs/2401.10268" target="_blank">The complementary contributions of academia and industry to AI research</a>.
 
 
-<em></em>
+<em>arXiv preprint arXiv:2401.10268</em>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li></ol>
+
+<h1 id="2026"> 2026 </h1>
+<hr id="2026-hr" />
+
+<ol class="bibliography"><li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+<!--  Check if entry.paper_intro_url exists -->
+
+
+  
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="zhou2026widespread" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false paper_intro_exists_false">
+
+
+
+
+
+
+Zhou
+H,
+
+
+
+Liang
+L,
+
+
+
+
+<span style="font-weight: 600;">
+Acuna
+DE</span> (2026),
+<a href="https://doi.org/10.1162/qss.a.400" target="_blank">Widespread reference missingness disparities in open scholarly metadata</a>.
+
+
+<em>Quantitative Science Studies</em>, 7, 53–65
+
+
+
 
   
   
@@ -502,11 +785,158 @@ The complementary contributions of academia and industry to AI research.
   
 
   <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="xu2026beyond" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false paper_intro_exists_false">
+
+
+
+
+
+
+Xu
+H,
+
+
+
+Sun
+S,
+
+
+
+Liu
+M,
+
+
+
+Zhang
+C,
+
+
+
+Bu
+Y,
+
+
+
+Zhang
+Y,
+
+
+
+
+<span style="font-weight: 600;">
+Acuna
+DE</span>,
+
+
+
+Meyer
+E,
+
+
+
+Ding
+Y (2026),
+<a href="https://doi.org/10.1002/asi.70083" target="_blank">Beyond a number game: Flat team structures improve inclusion and performance in diverse scientific teams</a>.
+
+
+<em>Journal of the Association for Information Science and Technology</em>, 77(9), 1119–1135
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+<!--  Check if entry.paper_intro_url exists -->
+
+
+  
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="kusumegi2026dissecting" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false paper_intro_exists_false">
+
+
+
+
+
+
+Kusumegi
+K,
+
+
+
+
+<span style="font-weight: 600;">
+Acuna
+DE</span>,
+
+
+
+Sano
+Y (2026),
+<a href="https://doi.org/10.1007/s11192-026-05712-z" target="_blank">Dissecting the gender divide: authorship and acknowledgment in scientific publications</a>.
+
+
+<em>Scientometrics</em>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li></ol>
+
+<h1 id="2025"> 2025 </h1>
+<hr id="2025-hr" />
+
+<ol class="bibliography"><li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+<!--  Check if entry.paper_intro_url exists -->
+
+
+  
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
 <span id="zhou2022paraphrase" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false paper_intro_exists_false">
 
 
 
-<a href="https://arxiv.org/abs/2212.06933" target="_blank">
+<a href="https://doi.org/10.1109/ACCESS.2025.3556899" target="_blank">
   
   <img src="/assets/images/publications/paraphrase_preprint.png" />
 
@@ -528,14 +958,22 @@ C,
 
 
 
+Liang
+L,
+
+
+
 
 <span style="font-weight: 600;">
 Acuna
-DE</span>,
-<a href="https://arxiv.org/abs/2212.06933" target="_blank">Paraphrase Identification with Deep Learning: A Review of Datasets and Methods</a>.
+DE</span> (2025),
+<a href="https://doi.org/10.1109/ACCESS.2025.3556899" target="_blank">Paraphrase Identification with Deep Learning: A Review of Datasets and Methods</a>.
 
 
-<em>arXiv preprint arXiv:2212.06933</em>
+<em>IEEE Access</em>, 13, 65797–65822
+
+
+
 
   
   
@@ -570,12 +1008,12 @@ DE</span>,
 
 
  
-<a href="/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html" target="_blank"></a>
+<a href="/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html" target="_blank">
 
   <img src="/assets/images/publications/predicting_longevity/figure8_b.png" />
 
    
-&lt;/a&gt;
+</a>
   
 
 
@@ -605,11 +1043,72 @@ L,
 
 
 Zhuang
+H (2025),
+ <a href="/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html" target="_blank"> Predicting the longevity of resources shared in scientific publications</a>.
+
+
+<em>Humanities and Social Sciences Communications</em>, 12(1), 698
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+<!--  Check if entry.paper_intro_url exists -->
+
+
+  
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="zhuang2025estimating" class="bib_entry entry_type_article press_url_exists_false code_exists_false demo_exists_false dataset_exists_false paper_intro_exists_false">
+
+
+
+
+
+
+Zhuang
 H,
- <a href="/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html" target="_blank"> Predicting the longevity of resources shared in scientific publications (Accepted)</a>.
 
 
-<em>Humanities and Social Sciences Communications</em>
+
+Liang
+L,
+
+
+
+
+<span style="font-weight: 600;">
+Acuna
+DE</span> (2025),
+<a href="https://doi.org/10.1126/sciadv.adt2792" target="_blank">Estimating the predictability of questionable open-access journals</a>.
+
+
+<em>Science Advances</em>, 11(35), eadt2792
+
+
+
 
   
   
@@ -1022,6 +1521,144 @@ L (2024),
 
 
 
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+<!--  Check if entry.paper_intro_url exists -->
+
+
+  
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="taechoyotin2024mamorx" class="bib_entry entry_type_inproceedings press_url_exists_false code_exists_true demo_exists_true dataset_exists_false paper_intro_exists_false">
+
+
+
+
+
+
+Taechoyotin
+P,
+
+
+
+Wang
+G,
+
+
+
+Zeng
+T,
+
+
+
+Sides
+B,
+
+
+
+
+<span style="font-weight: 600;">
+Acuna
+DE</span> (2024),
+<a href="https://openreview.net/forum?id=frvkE8rCfX" target="_blank">MAMORX: Multi-agent Multi-modal Scientific Review Generation with External Knowledge</a>.
+
+
+<em>NeurIPS 2024 Workshop on Foundation Models for Science: Progress, Opportunities, and Challenges</em>
+
+<ol>
+  
+  
+  <li><small><i class="fab fa-github"></i> <a href="https://github.com/sciosci/mamorx-review-system" target="_blank">Code <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  <li><small><i class="fas fa-laptop-code"></i> <a href="https://rev0.ai" target="_blank">Demo <i class="fas fa-external-link-alt"></i></a></small></li>
+  
+  
+  
+  
+  
+  
+  
+</ol>
+
+
+</span></li>
+<li><!--  Check if entry.press_url0, entry.press_url1, entry.press_url2 or entry.press_url3 exists -->
+
+
+  <!--  Check if entry.code exists -->
+
+
+  <!--  Check if entry.demo exists -->
+
+
+  <!--  Check if entry.dataset_url exists -->
+
+
+
+<!--  Check if entry.paper_intro_url exists -->
+
+
+  
+
+  <!-- Create a span with classes that can be used to filter entries by type, whether they have a press_url, code, or demo, and whether they have a pdf -->
+<span id="varasteh2024comparative" class="bib_entry entry_type_inproceedings press_url_exists_false code_exists_false demo_exists_false dataset_exists_false paper_intro_exists_false">
+
+
+
+
+
+
+Varasteh
+M,
+
+
+
+McKinnie
+E,
+
+
+
+Aird
+A,
+
+
+
+
+<span style="font-weight: 600;">
+Acuna
+DE</span>,
+
+
+
+Burke
+R (2024),
+<a href="https://ceur-ws.org/Vol-3815/paper1.pdf" target="_blank">Comparative Explanations for Recommendation: Research Directions</a>.
+
+
+<em>Proceedings of the 11th Joint Workshop on Interfaces and Human Decision Making for Recommender Systems (IntRS 2024), co-located with RecSys 2024</em>
 
   
   
