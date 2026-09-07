@@ -133,6 +133,18 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - .impeccable
+  - .playwright-mcp
+  - PRODUCT.md
+  - DESIGN.md
+  - DESIGN.md.json
+  - news_generator.rb
+  - publications_generator.rb
+  - lib
+  - tests
+  - generate_staging_deployment.rb
+  - screenshot.png
+  - screenshot-layouts.png
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
@@ -194,8 +206,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+
+
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -285,4 +297,3 @@ defaults:
     values:
       layout: single
       auther_profile: true
-

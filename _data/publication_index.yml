@@ -1,0 +1,1244 @@
+---
+acuna2008bayesian:
+  key: acuna2008bayesian
+  title: Bayesian modeling of human sequential decision-making on the multi-armed
+    bandit problem
+  alternate_title: ''
+  authors: Daniel Ernesto Acuna, Paul Schrater
+  authors_short: Daniel Ernesto Acuna, Paul Schrater
+  year: '2008'
+  year_label: '2008'
+  format: inproceedings
+  format_label: ''
+  venue: Proceedings of the 30th annual conference of the cognitive science society
+  topics:
+  - foundations
+  tags:
+  - decision-making
+  - reinforcement-learning
+acuna2008structure:
+  key: acuna2008structure
+  title: Structure learning in human sequential decision-making
+  alternate_title: ''
+  authors: Daniel E Acuna, Paul Schrater
+  authors_short: Daniel E Acuna, Paul Schrater
+  year: '2008'
+  year_label: '2008'
+  format: inproceedings
+  format_label: ''
+  venue: Proceedings of the 21st International Conference on Neural Information Processing
+    Systems
+  topics:
+  - foundations
+  tags:
+  - decision-making
+  - reinforcement-learning
+acuna2009improving:
+  key: acuna2009improving
+  title: Improving bayesian reinforcement learning using transition abstraction
+  alternate_title: ''
+  authors: Daniel E Acuna, Paul Schrater
+  authors_short: Daniel E Acuna, Paul Schrater
+  year: '2009'
+  year_label: '2009'
+  format: inproceedings
+  format_label: ''
+  venue: Proceedings of the ICML/UAI/COLT Workshop on Abstraction in Reinforcement
+    Learning
+  topics:
+  - foundations
+  tags:
+  - reinforcement-learning
+  - decision-making
+acuna2010people:
+  key: acuna2010people
+  title: People efficiently explore the solution space of the computationally intractable
+    traveling salesman problem to find near-optimal tours
+  alternate_title: ''
+  authors: Daniel E Acuna, V{\'\i}ctor Parada
+  authors_short: Daniel E Acuna, V{\'\i}ctor Parada
+  year: '2010'
+  year_label: '2010'
+  format: article
+  format_label: ''
+  venue: PloS ONE
+  topics:
+  - foundations
+  tags:
+  - decision-making
+acuna2010structure:
+  key: acuna2010structure
+  title: Structure learning in human sequential decision-making
+  alternate_title: ''
+  authors: Daniel E Acuna, Paul Schrater
+  authors_short: Daniel E Acuna, Paul Schrater
+  year: '2010'
+  year_label: '2010'
+  format: article
+  format_label: ''
+  venue: PLoS computational biology
+  topics:
+  - foundations
+  tags:
+  - decision-making
+  - reinforcement-learning
+acuna2011rational:
+  key: acuna2011rational
+  title: Rational Bayesian Analysis of Sequential Decision-Making Under Uncertainty
+    In Humans and Machines
+  alternate_title: ''
+  authors: Daniel Ernesto Acuna
+  authors_short: Daniel Ernesto Acuna
+  year: '2011'
+  year_label: '2011'
+  format: phdthesis
+  format_label: ''
+  venue: University of Minnesota
+  topics:
+  - foundations
+  tags:
+  - decision-making
+  - reinforcement-learning
+avraham2012toward:
+  key: avraham2012toward
+  title: 'Toward perceiving robots as humans: Three handshake models face the turing-like
+    handshake test'
+  alternate_title: ''
+  authors: Guy Avraham, Ilana Nisky, Hugo L Fernandes, Daniel E Acuna, Konrad P Kording,
+    Gerald E Loeb, Amir Karniel
+  authors_short: Guy Avraham, Ilana Nisky, Hugo L Fernandes, et al.
+  year: '2012'
+  year_label: '2012'
+  format: article
+  format_label: ''
+  venue: IEEE Transactions on Haptics
+  topics:
+  - foundations
+  tags:
+  - human-computer-interaction
+  - perception
+acuna2012predicting:
+  key: acuna2012predicting
+  title: Predicting scientific success
+  alternate_title: ''
+  authors: Daniel E Acuna, Stefano Allesina, Konrad P Kording
+  authors_short: Daniel E Acuna, Stefano Allesina, Konrad P Kording
+  year: '2012'
+  year_label: '2012'
+  format: article
+  format_label: ''
+  venue: Nature
+  topics:
+  - ecosystem
+  tags:
+  - careers
+  - citation-analysis
+acuna2013future:
+  key: acuna2013future
+  title: The future h-index is an excellent way to predict scientistsˈ future impact
+  alternate_title: ''
+  authors: Daniel E Acuna, Orion Penner, Colin G Orton
+  authors_short: Daniel E Acuna, Orion Penner, Colin G Orton
+  year: '2013'
+  year_label: '2013'
+  format: article
+  format_label: ''
+  venue: Medical Physics
+  topics:
+  - ecosystem
+  tags:
+  - careers
+  - citation-analysis
+acuna2014multifaceted:
+  key: acuna2014multifaceted
+  title: Multifaceted aspects of chunking enable robust algorithms
+  alternate_title: ''
+  authors: Daniel E Acuna, Nicholas F Wymbs, Chelsea A Reynolds, Nathalie Picard,
+    Robert S Turner, Peter L Strick, Scott T Grafton, Konrad P Kording
+  authors_short: Daniel E Acuna, Nicholas F Wymbs, Chelsea A Reynolds, et al.
+  year: '2014'
+  year_label: '2014'
+  format: article
+  format_label: ''
+  venue: Journal of neurophysiology
+  topics:
+  - foundations
+  tags:
+  - neuroscience
+  - decision-making
+acuna2015using:
+  key: acuna2015using
+  title: Using psychophysics to ask if the brain samples or maximizes
+  alternate_title: ''
+  authors: Daniel E Acuna, Max Berniker, Hugo L Fernandes, Konrad P Kording
+  authors_short: Daniel E Acuna, Max Berniker, Hugo L Fernandes, et al.
+  year: '2015'
+  year_label: '2015'
+  format: article
+  format_label: ''
+  venue: Journal of vision
+  topics:
+  - foundations
+  tags:
+  - perception
+  - decision-making
+ramkumar2016chunking:
+  key: ramkumar2016chunking
+  title: Chunking as the result of an efficiency computation trade-off
+  alternate_title: ''
+  authors: Pavan Ramkumar, Daniel E Acuna, Max Berniker, Scott T Grafton, Robert S
+    Turner, Konrad P Kording
+  authors_short: Pavan Ramkumar, Daniel E Acuna, Max Berniker, et al.
+  year: '2016'
+  year_label: '2016'
+  format: article
+  format_label: ''
+  venue: Nature communications
+  topics:
+  - foundations
+  tags:
+  - neuroscience
+  - decision-making
+ethier2016adaptive:
+  key: ethier2016adaptive
+  title: Adaptive neuron-to-EMG decoder training for FES neuroprostheses
+  alternate_title: ''
+  authors: Christian Ethier, Daniel Acuna, Sara A Solla, Lee E Miller
+  authors_short: Christian Ethier, Daniel Acuna, Sara A Solla, et al.
+  year: '2016'
+  year_label: '2016'
+  format: article
+  format_label: ''
+  venue: Journal of neural engineering
+  topics:
+  - foundations
+  tags:
+  - neuroscience
+  - statistical-methods
+achakulvisut2016science:
+  key: achakulvisut2016science
+  title: 'Science Concierge: A fast content-based recommendation system for scientific
+    publications'
+  alternate_title: ''
+  authors: Titipat Achakulvisut, Daniel E Acuna, Tulakan Ruangrong, Konrad Kording
+  authors_short: Titipat Achakulvisut, Daniel E Acuna, Tulakan Ruangrong, et al.
+  year: '2016'
+  year_label: '2016'
+  format: article
+  format_label: ''
+  venue: PloS ONE
+  topics:
+  - discovery
+  tags:
+  - research-recommendation
+  - recommender-systems
+  - text-mining
+shema2017show:
+  key: shema2017show
+  title: 'Show Me Your App Usage and I Will Tell Who Your Close Friends Are: Predicting
+    User''s Context from Simple Cellphone Activity'
+  alternate_title: ''
+  authors: Alain Shema, Daniel E Acuna
+  authors_short: Alain Shema, Daniel E Acuna
+  year: '2017'
+  year_label: '2017'
+  format: inproceedings
+  format_label: ''
+  venue: Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors
+    in Computing Systems
+  topics:
+  - foundations
+  tags:
+  - human-computer-interaction
+acuna2018bioscience:
+  key: acuna2018bioscience
+  title: Bioscience-scale automated detection of figure element reuse
+  alternate_title: ''
+  authors: Daniel E Acuna, Paul S Brookes, Konrad P Kording
+  authors_short: Daniel E Acuna, Paul S Brookes, Konrad P Kording
+  year: '2018'
+  year_label: 2018 · Preprint / working paper
+  format: preprint
+  format_label: Preprint / working paper
+  venue: BioRxiv
+  topics:
+  - integrity
+  tags:
+  - figure-integrity
+  - image-forensics
+teplitskiy2018sociology:
+  key: teplitskiy2018sociology
+  title: 'The sociology of scientific validity: How professional networks shape judgement
+    in peer review'
+  alternate_title: ''
+  authors: Misha Teplitskiy, Daniel Acuna, A{\"\i}da Elamrani-Raoult, Konrad K{\"o}rding,
+    James Evans
+  authors_short: Misha Teplitskiy, Daniel Acuna, A{\"\i}da Elamrani-Raoult, et al.
+  year: '2018'
+  year_label: '2018'
+  format: article
+  format_label: ''
+  venue: Research Policy
+  topics:
+  - integrity
+  - discovery
+  - ecosystem
+  tags:
+  - peer-review
+  - review-bias
+  - collaboration
+lienard2018intellectual:
+  key: lienard2018intellectual
+  title: Intellectual synthesis in mentorship determines success in academic careers
+  alternate_title: ''
+  authors: Jean F Li{\'e}nard, Titipat Achakulvisut, Daniel E Acuna, Stephen V David
+  authors_short: Jean F Li{\'e}nard, Titipat Achakulvisut, Daniel E Acuna, et al.
+  year: '2018'
+  year_label: '2018'
+  format: article
+  format_label: ''
+  venue: Nature communications
+  topics:
+  - ecosystem
+  tags:
+  - mentorship
+  - careers
+  - interdisciplinarity
+lee2019limiting:
+  key: lee2019limiting
+  title: Limiting motor skill knowledge via incidental training protects against choking
+    under pressure
+  alternate_title: ''
+  authors: Taraz G Lee, Daniel E Acuna, Konrad P Kording, Scott T Grafton
+  authors_short: Taraz G Lee, Daniel E Acuna, Konrad P Kording, et al.
+  year: '2019'
+  year_label: '2019'
+  format: article
+  format_label: ''
+  venue: Psychonomic bulletin \& review
+  topics:
+  - foundations
+  tags:
+  - neuroscience
+zeng2019dead:
+  key: zeng2019dead
+  title: 'Dead science: Most resources linked in biomedical articles disappear in
+    eight years'
+  alternate_title: ''
+  authors: Tong Zeng, Alain Shema, Daniel E Acuna
+  authors_short: Tong Zeng, Alain Shema, Daniel E Acuna
+  year: '2019'
+  year_label: '2019'
+  format: inproceedings
+  format_label: ''
+  venue: International Conference on Information
+  topics:
+  - integrity
+  - ecosystem
+  tags:
+  - reproducibility
+  - dataset-discovery
+zeng2020finding:
+  key: zeng2020finding
+  title: 'Finding datasets in publications: the Syracuse University approach'
+  alternate_title: Dataset Mention Extraction in Scientific Articles Using Bi-LSTM-CRF
+    Model
+  authors: Tong Zeng, Daniel E Acuna
+  authors_short: Tong Zeng, Daniel E Acuna
+  year: '2020'
+  year_label: '2020'
+  format: incollection
+  format_label: ''
+  venue: Rich Search and Discovery for Research Datasets
+  topics:
+  - discovery
+  tags:
+  - dataset-discovery
+  - text-mining
+  - scholarly-data
+liang2020artificial:
+  key: liang2020artificial
+  title: 'Artificial mental phenomena: Psychophysics as a framework to detect perception
+    biases in AI models'
+  alternate_title: ''
+  authors: Lizhen Liang, Daniel E Acuna
+  authors_short: Lizhen Liang, Daniel E Acuna
+  year: '2020'
+  year_label: '2020'
+  format: inproceedings
+  format_label: ''
+  venue: Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency
+  topics:
+  - foundations
+  tags:
+  - ai-bias
+  - perception
+zeng2020assigning:
+  key: zeng2020assigning
+  title: Assigning credit to scientific datasets using article citation networks
+  alternate_title: ''
+  authors: Tong Zeng, Longfeng Wu, Sarah Bratt, Daniel E Acuna
+  authors_short: Tong Zeng, Longfeng Wu, Sarah Bratt, et al.
+  year: '2020'
+  year_label: '2020'
+  format: article
+  format_label: ''
+  venue: Journal of Informetrics
+  topics:
+  - discovery
+  - ecosystem
+  tags:
+  - dataset-discovery
+  - citation-analysis
+  - scholarly-data
+achakulvisut2020pubmed:
+  key: achakulvisut2020pubmed
+  title: 'Pubmed parser: a python parser for pubmed open-access XML subset and MEDLINE
+    XML dataset XML dataset'
+  alternate_title: ''
+  authors: Titipat Achakulvisut, Daniel E Acuna, Konrad Kording
+  authors_short: Titipat Achakulvisut, Daniel E Acuna, Konrad Kording
+  year: '2020'
+  year_label: '2020'
+  format: article
+  format_label: ''
+  venue: Journal of Open Source Software
+  topics:
+  - discovery
+  tags:
+  - scholarly-data
+  - text-mining
+jas2020pyglmnet:
+  key: jas2020pyglmnet
+  title: 'Pyglmnet: Python implementation of elastic-net regularized generalized linear
+    models'
+  alternate_title: ''
+  authors: Mainak Jas, Titipat Achakulvisut, Aid Idrizovi{\'c}, Daniel Ernesto Acuna,
+    Matthew Antalek, Vinicius Marques, Tommy Odland, Ravi Prakash Garg, Mayank Agrawal,
+    Yu Umegaki, others
+  authors_short: Mainak Jas, Titipat Achakulvisut, Aid Idrizovi{\'c}, et al.
+  year: '2020'
+  year_label: '2020'
+  format: article
+  format_label: ''
+  venue: Journal of Open Source Software
+  topics:
+  - foundations
+  tags:
+  - statistical-methods
+zeng2020modeling:
+  key: zeng2020modeling
+  title: Modeling citation worthiness by using attention-based bidirectional long
+    short-term memory networks and interpretable models
+  alternate_title: ''
+  authors: Tong Zeng, Daniel E Acuna
+  authors_short: Tong Zeng, Daniel E Acuna
+  year: '2020'
+  year_label: '2020'
+  format: article
+  format_label: ''
+  venue: Scientometrics
+  topics:
+  - integrity
+  - discovery
+  tags:
+  - citation-practices
+  - text-mining
+  - scholarly-data
+zhuangacuna2020:
+  key: zhuangacuna2020
+  title: An Automatic Misleading Graph Detection Tool
+  alternate_title: ''
+  authors: Han Zhuang, Daniel E Acuna
+  authors_short: Han Zhuang, Daniel E Acuna
+  year: '2020'
+  year_label: '2020'
+  format: inproceedings
+  format_label: ''
+  venue: International Conference on Computational Social Science
+  topics:
+  - integrity
+  tags:
+  - figure-integrity
+  - graphical-integrity
+liangacuna2020:
+  key: liangacuna2020
+  title: Are author, affiliation, and citation networks predictive of a journal getting
+    blacklisted?
+  alternate_title: ''
+  authors: Lizhen Liang, Daniel E Acuna
+  authors_short: Lizhen Liang, Daniel E Acuna
+  year: '2020'
+  year_label: '2020'
+  format: inproceedings
+  format_label: ''
+  venue: International Conference on Computational Social Science
+  topics:
+  - integrity
+  - ecosystem
+  tags:
+  - questionable-journals
+  - citation-analysis
+liang2020don:
+  key: liang2020don
+  title: 'Don''t judge a journal by its cover?: Appearance of a Journal''s website
+    as predictor of blacklisted Open-Access status'
+  alternate_title: ''
+  authors: Lizhen Liang, Daniel E Acuna
+  authors_short: Lizhen Liang, Daniel E Acuna
+  year: '2020'
+  year_label: '2020'
+  format: inproceedings
+  format_label: ''
+  venue: Proceedings of the Association for Information Science and Technology
+  topics:
+  - integrity
+  tags:
+  - questionable-journals
+zengacuna2020:
+  key: zengacuna2020
+  title: Large-scale author name disambiguation using approximate network structures
+  alternate_title: ''
+  authors: Tong Zeng, Daniel E Acuna
+  authors_short: Tong Zeng, Daniel E Acuna
+  year: '2020'
+  year_label: '2020'
+  format: inproceedings
+  format_label: ''
+  venue: International Conference on Computational Social Science
+  topics:
+  - discovery
+  - ecosystem
+  tags:
+  - scholarly-data
+  - citation-analysis
+zeng2020gotfunding:
+  key: zeng2020gotfunding
+  title: 'GotFunding: A grant recommendation system based on scientific articles'
+  alternate_title: ''
+  authors: Tong Zeng, Daniel E Acuna
+  authors_short: Tong Zeng, Daniel E Acuna
+  year: '2020'
+  year_label: '2020'
+  format: inproceedings
+  format_label: ''
+  venue: Proceedings of the Association for Information Science and Technology
+  topics:
+  - discovery
+  - ecosystem
+  tags:
+  - funding
+  - research-recommendation
+  - recommender-systems
+  - text-mining
+10.1145/3461702.3462616:
+  key: 10.1145/3461702.3462616
+  title: Are AI Ethics Conferences Different and More Diverse Compared to Traditional
+    Computer Science Conferences?
+  alternate_title: ''
+  authors: Daniel E. Acuna, Lizhen Liang
+  authors_short: Daniel E. Acuna, Lizhen Liang
+  year: '2021'
+  year_label: '2021'
+  format: inproceedings
+  format_label: ''
+  venue: Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society
+  topics:
+  - ecosystem
+  tags:
+  - diversity
+  - responsible-ai
+acunaiconference2022:
+  key: acunaiconference2022
+  title: Predicting the usage of scientific datasets based on article, author, institution,
+    and journal bibliometrics
+  alternate_title: ''
+  authors: Daniel E. Acuna, Zijun Yi, Lizhen Liang, Han Zhuang
+  authors_short: Daniel E. Acuna, Zijun Yi, Lizhen Liang, et al.
+  year: '2022'
+  year_label: '2022'
+  format: inproceedings
+  format_label: ''
+  venue: International Conference on Information
+  topics:
+  - ecosystem
+  tags:
+  - dataset-discovery
+  - citation-analysis
+zhuangacuna2021:
+  key: zhuangacuna2021
+  title: 'Graphical integrity issues in open access publications: detection and patterns
+    of proportional ink violations'
+  alternate_title: ''
+  authors: Han Zhuang, Tzu-Yang Huang, Daniel Ernesto Acuna
+  authors_short: Han Zhuang, Tzu-Yang Huang, Daniel Ernesto Acuna
+  year: '2021'
+  year_label: '2021'
+  format: article
+  format_label: ''
+  venue: PloS Computational Biology
+  topics:
+  - integrity
+  tags:
+  - figure-integrity
+  - graphical-integrity
+acuna2022:
+  key: acuna2022
+  title: 'Author-suggested reviewers rate manuscripts much more favorably: A cross-sectional
+    analysis of the neuroscience section of PLOS ONE'
+  alternate_title: ''
+  authors: D E Acuna, M Teplitskiy, J. Evans, K. Kording
+  authors_short: D E Acuna, M Teplitskiy, J. Evans, et al.
+  year: '2022'
+  year_label: '2022'
+  format: article
+  format_label: ''
+  venue: PLOS ONE
+  topics:
+  - integrity
+  - discovery
+  - ecosystem
+  tags:
+  - peer-review
+  - review-bias
+keacuna2022:
+  key: keacuna2022
+  title: A dataset of mentorship in bioscience with semantic and demographic estimations
+  alternate_title: ''
+  authors: Q. Ke, L. Liang, Y. Ding, S V David, D E Acuna
+  authors_short: Q. Ke, L. Liang, Y. Ding, et al.
+  year: '2022'
+  year_label: '2022'
+  format: article
+  format_label: ''
+  venue: Scientific Data
+  topics:
+  - ecosystem
+  tags:
+  - mentorship
+  - scholarly-data
+  - diversity
+zhuang2023computational:
+  key: zhuang2023computational
+  title: A computational analysis of accessibility, readability, and explainability
+    of figures in open access publications
+  alternate_title: ''
+  authors: Han Zhuang, Tzu-Yang Huang, Daniel E Acuna
+  authors_short: Han Zhuang, Tzu-Yang Huang, Daniel E Acuna
+  year: '2023'
+  year_label: '2023'
+  format: article
+  format_label: ''
+  venue: EPJ Data Science
+  topics:
+  - integrity
+  - ecosystem
+  tags:
+  - figure-accessibility
+10.1162/qss_a_00332:
+  key: 10.1162/qss_a_00332
+  title: 'Incorporating costs and benefits to the evaluation of uncertain research
+    results: applications to cancer research funding'
+  alternate_title: ''
+  authors: Han Zhuang, Daniel E. Acuna
+  authors_short: Han Zhuang, Daniel E. Acuna
+  year: '2024'
+  year_label: '2024'
+  format: article
+  format_label: ''
+  venue: Quantitative Science Studies
+  topics:
+  - ecosystem
+  - foundations
+  tags:
+  - funding
+  - decision-making
+novoa2024science:
+  key: novoa2024science
+  title: 'Science Needs You: Mobilizing for Diversity in Award Recognition'
+  alternate_title: ''
+  authors: Elizabeth Novoa-Monsalve, David Patterson, Stephanie Ludi, Daniel E Acuna
+  authors_short: Elizabeth Novoa-Monsalve, David Patterson, Stephanie Ludi, et al.
+  year: '2024'
+  year_label: '2024'
+  format: article
+  format_label: ''
+  venue: Communications of the ACM
+  topics:
+  - ecosystem
+  tags:
+  - diversity
+  - careers
+taechoyotin2024misti:
+  key: taechoyotin2024misti
+  title: 'MISTI: Metadata-Informed Scientific Text and Image Representation through
+    Contrastive Learning'
+  alternate_title: ''
+  authors: Pawin Taechoyotin, Daniel Acuna
+  authors_short: Pawin Taechoyotin, Daniel Acuna
+  year: '2024'
+  year_label: '2024'
+  format: inproceedings
+  format_label: ''
+  venue: Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP
+    2024)
+  topics:
+  - discovery
+  tags:
+  - multimodal-learning
+  - text-mining
+  - scholarly-data
+XU2024103542:
+  key: XU2024103542
+  title: The impact of heterogeneous shared leadership in scientific teams
+  alternate_title: 'Shared Leadership in Scientific Teams: Heterogeneity vs. Homogeneity'
+  authors: Huimin Xu, Meijun Liu, Yi Bu, Shujing Sun, Yi Zhang, Chenwei Zhang, Daniel
+    E. Acuna, Steven Gray, Eric Meyer, Ying Ding
+  authors_short: Huimin Xu, Meijun Liu, Yi Bu, et al.
+  year: '2024'
+  year_label: '2024'
+  format: article
+  format_label: ''
+  venue: Information Processing & Management
+  topics:
+  - ecosystem
+  tags:
+  - collaboration
+  - diversity
+leto2024first:
+  key: leto2024first
+  title: 'A First Step towards Measuring Interdisciplinary Engagement in Scientific
+    Publications: A Case Study on NLP+ CSS Research'
+  alternate_title: ''
+  authors: Alexandria Leto, Shamik Roy, Alexander Hoyle, Daniel Acuna, Mar{\'\i}a
+    Leonor Pacheco
+  authors_short: Alexandria Leto, Shamik Roy, Alexander Hoyle, et al.
+  year: '2024'
+  year_label: '2024'
+  format: inproceedings
+  format_label: ''
+  venue: Proceedings of the Sixth Workshop on Natural Language Processing and Computational
+    Social Science (NLP+ CSS 2024)
+  topics:
+  - discovery
+  - ecosystem
+  tags:
+  - interdisciplinarity
+  - citation-analysis
+  - text-mining
+Bibal2024:
+  key: Bibal2024
+  title: 'RecSOI: recommending research directions using statements of ignorance'
+  alternate_title: ''
+  authors: Adrien Bibal, Nourah M. Salem, R{\'e}mi Cardon, Elizabeth K. White, Daniel E.
+    Acuna, Robin Burke, Lawrence E. Hunter
+  authors_short: Adrien Bibal, Nourah M. Salem, R{\'e}mi Cardon, et al.
+  year: '2024'
+  year_label: '2024'
+  format: article
+  format_label: ''
+  venue: Journal of Biomedical Semantics
+  topics:
+  - discovery
+  tags:
+  - research-recommendation
+  - recommender-systems
+  - text-mining
+taechoyotin2024mamorx:
+  key: taechoyotin2024mamorx
+  title: 'MAMORX: Multi-agent Multi-modal Scientific Review Generation with External
+    Knowledge'
+  alternate_title: ''
+  authors: Pawin Taechoyotin, Guanchao Wang, Tong Zeng, Bradley Sides, Daniel E. Acuna
+  authors_short: Pawin Taechoyotin, Guanchao Wang, Tong Zeng, et al.
+  year: '2024'
+  year_label: '2024'
+  format: inproceedings
+  format_label: ''
+  venue: 'NeurIPS 2024 Workshop on Foundation Models for Science: Progress, Opportunities,
+    and Challenges'
+  topics:
+  - discovery
+  tags:
+  - peer-review
+  - language-models
+  - multimodal-learning
+varasteh2024comparative:
+  key: varasteh2024comparative
+  title: 'Comparative Explanations for Recommendation: Research Directions'
+  alternate_title: ''
+  authors: Meysam Varasteh, Elizabeth McKinnie, Amanda Aird, Daniel E. Acuna, Robin
+    Burke
+  authors_short: Meysam Varasteh, Elizabeth McKinnie, Amanda Aird, et al.
+  year: '2024'
+  year_label: '2024'
+  format: inproceedings
+  format_label: ''
+  venue: Proceedings of the 11th Joint Workshop on Interfaces and Human Decision Making
+    for Recommender Systems (IntRS 2024), co-located with RecSys 2024
+  topics:
+  - discovery
+  - foundations
+  tags:
+  - recommender-systems
+  - ai-bias
+  - human-computer-interaction
+zhou2022paraphrase:
+  key: zhou2022paraphrase
+  title: 'Paraphrase Identification with Deep Learning: A Review of Datasets and Methods'
+  alternate_title: ''
+  authors: Chao Zhou, Cheng Qiu, Lizhen Liang, Daniel E. Acuna
+  authors_short: Chao Zhou, Cheng Qiu, Lizhen Liang, et al.
+  year: '2025'
+  year_label: '2025'
+  format: article
+  format_label: ''
+  venue: IEEE Access
+  topics:
+  - discovery
+  - foundations
+  tags:
+  - text-mining
+acuna2022predicting:
+  key: acuna2022predicting
+  title: Predicting the longevity of resources shared in scientific publications
+  alternate_title: ''
+  authors: Daniel E. Acuna, Jian Jian, Tong Zeng, Lizhen Liang, Han Zhuang
+  authors_short: Daniel E. Acuna, Jian Jian, Tong Zeng, et al.
+  year: '2025'
+  year_label: '2025'
+  format: article
+  format_label: ''
+  venue: Humanities and Social Sciences Communications
+  topics:
+  - integrity
+  - ecosystem
+  tags:
+  - reproducibility
+  - dataset-discovery
+zhuang2025estimating:
+  key: zhuang2025estimating
+  title: Estimating the predictability of questionable open-access journals
+  alternate_title: ''
+  authors: Han Zhuang, Lizhen Liang, Daniel E. Acuna
+  authors_short: Han Zhuang, Lizhen Liang, Daniel E. Acuna
+  year: '2025'
+  year_label: '2025'
+  format: article
+  format_label: ''
+  venue: Science Advances
+  topics:
+  - integrity
+  - ecosystem
+  tags:
+  - questionable-journals
+zhou2026widespread:
+  key: zhou2026widespread
+  title: Widespread reference missingness disparities in open scholarly metadata
+  alternate_title: ''
+  authors: Huaxia Zhou, Lizhen Liang, Daniel E. Acuna
+  authors_short: Huaxia Zhou, Lizhen Liang, Daniel E. Acuna
+  year: '2026'
+  year_label: '2026'
+  format: article
+  format_label: ''
+  venue: Quantitative Science Studies
+  topics:
+  - integrity
+  - ecosystem
+  tags:
+  - metadata-quality
+  - scholarly-data
+  - citation-analysis
+  - diversity
+xu2026beyond:
+  key: xu2026beyond
+  title: 'Beyond a number game: Flat team structures improve inclusion and performance
+    in diverse scientific teams'
+  alternate_title: 'Beyond a Number Game: Flat Structures Foster Minority Inclusion
+    in Diverse Scientific Teams'
+  authors: Huimin Xu, Shujing Sun, Meijun Liu, Chenwei Zhang, Yi Bu, Yi Zhang, Daniel
+    E. Acuna, Eric Meyer, Ying Ding
+  authors_short: Huimin Xu, Shujing Sun, Meijun Liu, et al.
+  year: '2026'
+  year_label: '2026'
+  format: article
+  format_label: ''
+  venue: Journal of the Association for Information Science and Technology
+  topics:
+  - ecosystem
+  tags:
+  - collaboration
+  - diversity
+kusumegi2026dissecting:
+  key: kusumegi2026dissecting
+  title: 'Dissecting the gender divide: authorship and acknowledgment in scientific
+    publications'
+  alternate_title: ''
+  authors: Keigo Kusumegi, Daniel E. Acuna, Yukie Sano
+  authors_short: Keigo Kusumegi, Daniel E. Acuna, Yukie Sano
+  year: '2026'
+  year_label: '2026'
+  format: article
+  format_label: ''
+  venue: Scientometrics
+  topics:
+  - ecosystem
+  tags:
+  - diversity
+  - collaboration
+  - careers
+meguimtsop2026sciintbench:
+  key: meguimtsop2026sciintbench
+  title: 'SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under
+    Adversarial Framing'
+  alternate_title: ''
+  authors: Almene De Meran Meguimtsop, Maria Leonor Pacheco, Daniel E. Acuna
+  authors_short: Almene De Meran Meguimtsop, Maria Leonor Pacheco, Daniel E. Acuna
+  year: '2026'
+  year_label: 2026 · Preprint / working paper
+  format: preprint
+  format_label: Preprint / working paper
+  venue: arXiv preprint arXiv:2605.29468
+  topics:
+  - integrity
+  - discovery
+  tags:
+  - responsible-ai
+  - language-models
+taechoyotin2026remctx:
+  key: taechoyotin2026remctx
+  title: 'REM-CTX: Automated Peer Review via Reinforcement Learning with Auxiliary
+    Context'
+  alternate_title: ''
+  authors: Pawin Taechoyotin, Daniel E. Acuna
+  authors_short: Pawin Taechoyotin, Daniel E. Acuna
+  year: '2026'
+  year_label: 2026 · Preprint / working paper
+  format: preprint
+  format_label: Preprint / working paper
+  venue: arXiv preprint arXiv:2604.00248
+  topics:
+  - discovery
+  tags:
+  - peer-review
+  - language-models
+  - reinforcement-learning
+  - multimodal-learning
+popp2026government:
+  key: popp2026government
+  title: Government Funding and the Direction of Academic Energy Research
+  alternate_title: ''
+  authors: David Popp, Myriam Gregoire-Zawilski, Lizhen Liang, Daniel E. Acuna
+  authors_short: David Popp, Myriam Gregoire-Zawilski, Lizhen Liang, et al.
+  year: '2026'
+  year_label: 2026 · Preprint / working paper
+  format: preprint
+  format_label: Preprint / working paper
+  venue: NBER Working Paper No. 34856
+  topics:
+  - ecosystem
+  tags:
+  - funding
+taechoyotin2025remor:
+  key: taechoyotin2025remor
+  title: 'REMOR: Automated Peer Review Generation with LLM Reasoning and Multi-Objective
+    Reinforcement Learning'
+  alternate_title: ''
+  authors: Pawin Taechoyotin, Daniel E. Acuna
+  authors_short: Pawin Taechoyotin, Daniel E. Acuna
+  year: '2025'
+  year_label: 2025 · Preprint / working paper
+  format: preprint
+  format_label: Preprint / working paper
+  venue: arXiv preprint arXiv:2505.11718
+  topics:
+  - discovery
+  tags:
+  - peer-review
+  - language-models
+  - reinforcement-learning
+liang2024complementary:
+  key: liang2024complementary
+  title: The complementary contributions of academia and industry to AI research
+  alternate_title: ''
+  authors: Lizhen Liang, Han Zhuang, James Zou, Daniel E. Acuna
+  authors_short: Lizhen Liang, Han Zhuang, James Zou, et al.
+  year: '2024'
+  year_label: 2024 · Preprint / working paper
+  format: preprint
+  format_label: Preprint / working paper
+  venue: arXiv preprint arXiv:2401.10268
+  topics:
+  - ecosystem
+  tags:
+  - collaboration
+lancichinetti2015topic:
+  key: lancichinetti2015topic
+  title: High-Reproducibility and High-Accuracy Method for Automated Topic Classification
+  alternate_title: ''
+  authors: Andrea Lancichinetti, M. Irmak Sirer, Jane X. Wang, Daniel Acuna, Konrad
+    Körding, Luís A. Nunes Amaral
+  authors_short: Andrea Lancichinetti, M. Irmak Sirer, Jane X. Wang, et al.
+  year: '2015'
+  year_label: '2015'
+  format: article
+  format_label: ''
+  venue: Physical Review X
+  topics:
+  - discovery
+  - foundations
+  tags:
+  - text-mining
+  - statistical-methods
+achakulvisut2019claim:
+  key: achakulvisut2019claim
+  title: Claim Extraction in Biomedical Publications using Deep Discourse Model and
+    Transfer Learning
+  alternate_title: ''
+  authors: Titipat Achakulvisut, Chandra Bhagavatula, Daniel Acuna, Konrad Kording
+  authors_short: Titipat Achakulvisut, Chandra Bhagavatula, Daniel Acuna, et al.
+  year: '2019'
+  year_label: 2019 · Preprint / working paper
+  format: preprint
+  format_label: Preprint / working paper
+  venue: arXiv:1907.00962
+  topics:
+  - discovery
+  - foundations
+  tags:
+  - text-mining
+  - scholarly-data
+liu2022team:
+  key: liu2022team
+  title: 'Team formation and team impact: The balance between team freshness and repeat
+    collaboration'
+  alternate_title: ''
+  authors: Meijun Liu, Ajay Jaiswal, Yi Bu, Chao Min, Sijie Yang, Zhibo Liu, Daniel
+    Acuña, Ying Ding
+  authors_short: Meijun Liu, Ajay Jaiswal, Yi Bu, et al.
+  year: '2022'
+  year_label: '2022'
+  format: article
+  format_label: ''
+  venue: Journal of Informetrics
+  topics:
+  - ecosystem
+  tags:
+  - collaboration
+  - citation-analysis
+achakulvisut2020neuromatch:
+  key: achakulvisut2020neuromatch
+  title: 'neuromatch: Algorithms to match scientists'
+  alternate_title: ''
+  authors: Titipat Achakulvisut, Tulakan Ruangrong, Daniel Ernesto Acuna, Brad Wyble,
+    Dan Goodman, Konrad Kording
+  authors_short: Titipat Achakulvisut, Tulakan Ruangrong, Daniel Ernesto Acuna, et
+    al.
+  year: '2020'
+  year_label: 2020 · Web article
+  format: webarticle
+  format_label: Web article
+  venue: eLife Labs
+  topics:
+  - discovery
+  - ecosystem
+  tags:
+  - recommender-systems
+  - collaboration
+  - careers
+  - text-mining
+xiang2020tampering:
+  key: xiang2020tampering
+  title: 'Scientific Image Tampering Detection Based On Noise Inconsistencies: A Method
+    And Datasets'
+  alternate_title: ''
+  authors: Ziyue Xiang, Daniel E. Acuna
+  authors_short: Ziyue Xiang, Daniel E. Acuna
+  year: '2020'
+  year_label: 2020 · Preprint / working paper
+  format: preprint
+  format_label: Preprint / working paper
+  venue: arXiv:2001.07799
+  topics:
+  - integrity
+  - foundations
+  tags:
+  - figure-integrity
+  - image-forensics
+zhuang2019novelty:
+  key: zhuang2019novelty
+  title: The effect of novelty on the future impact of scientific grants
+  alternate_title: ''
+  authors: Han Zhuang, Daniel E. Acuna
+  authors_short: Han Zhuang, Daniel E. Acuna
+  year: '2019'
+  year_label: 2019 · Preprint / working paper
+  format: preprint
+  format_label: Preprint / working paper
+  venue: arXiv:1911.02712
+  topics:
+  - ecosystem
+  tags:
+  - funding
+  - citation-analysis
+acuna2020mentorshipcommentary:
+  key: acuna2020mentorshipcommentary
+  title: 'Some considerations for studying gender, mentorship, and scientific impact:
+    commentary on AlShebli, Makovi, and Rahwan (2020)'
+  alternate_title: ''
+  authors: Daniel Ernesto Acuna
+  authors_short: Daniel Ernesto Acuna
+  year: '2020'
+  year_label: 2020 · Archived preprint
+  format: preprint
+  format_label: Archived preprint
+  venue: OSF Preprints
+  topics:
+  - integrity
+  - ecosystem
+  tags:
+  - mentorship
+  - diversity
+  - statistical-methods
+abatayo2026credibility:
+  key: abatayo2026credibility
+  title: Assessments of Credibility in the Social and Behavioral Sciences
+  alternate_title: ''
+  authors: Anna Lou Abatayo, Titipat Achakulvisut, Daniel Acuna, Balazs Aczel, Laxmaan
+    Balaji, Anita Bandrowski, Daniel M Benjamin, Michael M Bishop, Gary L Brase, Andrew
+    W Brown, Martin Bush, James Caverlee, Tatiana Chakravorti, Yiling Chen, Macie
+    Daley, Morteza Dehghani, Mirka Dirzo, Anna Dreber, Peter Eckmann, Timothy M Errington,
+    Qizhang Feng, Fiona Fidler, Samuel Field, Nicholas W Fox, Robert D Fraleigh, Aaron
+    Frank, Hannah Fraser, James Gentile, C L Giles, Brandon Goldfedder, Phil Gooch,
+    Michael Gordon, Elliot Gould, Christopher Griffin, Timothy Gulden, Noah Haber,
+    Krystal Hahn, Felix Holzmeister, Xia B Hu, Yuzhong Huang, Magnus Johannesson,
+    Brendan Kennedy, Melissa Kline Struhl, Anthony Kwasnica, Dong-Ho Lee, Kristina
+    Lerman, Yang Liu, Allegra Pearce, Isabella Mandema, Alexandru Marcoci, Brinna
+    Mawhinney, Souad McIntosh, Michael Mclaughlin, Arjun Menon, Olivia Miske, Fallon
+    Mody, Fred Morstatter, Nishanth S Nakshatri, Brian A Nosek, Michele B Nuijten,
+    David Pennock, Thomas Pfeiffer, Darien Pipkin, Jay Pujara, Sarah Rajtmajer, Martijn
+    Roelandse, Adam Russell, Priya Silverstein, Vaibhav Singh, Courtney K Soderberg,
+    Anna M Squicciarini, Theresa Stankov, Jordan W Suchow, Barnabas Szaszi, Louisa
+    Tran, Peter A Vesk, Tim Vines, Colby J Vorland, Juntao Wang, Zhuoer Wang, David
+    P Wilkinson, Bonnie Wintle, Jian Wu
+  authors_short: Anna Lou Abatayo, Titipat Achakulvisut, Daniel Acuna, et al.
+  year: '2026'
+  year_label: 2026 · Preprint / working paper
+  format: preprint
+  format_label: Preprint / working paper
+  venue: MetaArXiv
+  topics:
+  - integrity
+  - ecosystem
+  tags:
+  - reproducibility
+  - statistical-methods
+acuna2021eileen:
+  key: acuna2021eileen
+  title: 'EILEEN: A recommendation system for scientific publications and grants'
+  alternate_title: ''
+  authors: Daniel E. Acuna, Kartik Nagre, Priya Matnani
+  authors_short: Daniel E. Acuna, Kartik Nagre, Priya Matnani
+  year: '2021'
+  year_label: 2021 · Preprint / working paper
+  format: preprint
+  format_label: Preprint / working paper
+  venue: arXiv:2110.09663
+  topics:
+  - discovery
+  - ecosystem
+  tags:
+  - research-recommendation
+  - recommender-systems
+  - funding
+  - text-mining
+bu2022workshop:
+  key: bu2022workshop
+  title: International Workshop on Data-driven Science of Science
+  alternate_title: ''
+  authors: Yi Bu, Meijun Liu, Yujia Zhai, Ying Ding, Feng Xia, Daniel E. Acuña, Yi
+    Zhang
+  authors_short: Yi Bu, Meijun Liu, Yujia Zhai, et al.
+  year: '2022'
+  year_label: 2022 · Workshop announcement
+  format: inproceedings
+  format_label: Workshop announcement
+  venue: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and
+    Data Mining
+  topics:
+  - ecosystem
+  - discovery
+  tags:
+  - scholarly-data
+acuna2010aspiration:
+  key: acuna2010aspiration
+  title: The rational control of aspiration in learning
+  alternate_title: ''
+  authors: Daniel Acuna, C. Shawn Green, Paul Schrater
+  authors_short: Daniel Acuna, C. Shawn Green, Paul Schrater
+  year: '2010'
+  year_label: 2010 · Conference abstract
+  format: inproceedings
+  format_label: Conference abstract
+  venue: Computational and Systems Neuroscience 2010
+  topics:
+  - foundations
+  tags:
+  - decision-making
+  - reinforcement-learning
+acuna2020nullmodel:
+  key: acuna2020nullmodel
+  title: Estimating a Null Model of Scientific Image Reuse to Support Research Integrity
+    Investigations
+  alternate_title: ''
+  authors: Daniel E. Acuna, Ziyue Xiang
+  authors_short: Daniel E. Acuna, Ziyue Xiang
+  year: '2020'
+  year_label: 2020 · Preprint / working paper
+  format: preprint
+  format_label: Preprint / working paper
+  venue: arXiv:2003.00878
+  topics:
+  - integrity
+  - foundations
+  tags:
+  - figure-integrity
+  - image-forensics
+  - statistical-methods
+schrater2009structure:
+  key: schrater2009structure
+  title: Structure learning in sequential decision making
+  alternate_title: ''
+  authors: Paul Schrater, Daniel Acuna
+  authors_short: Paul Schrater, Daniel Acuna
+  year: '2009'
+  year_label: 2009 · Conference abstract
+  format: inproceedings
+  format_label: Conference abstract
+  venue: 'Journal of Vision: Vision Sciences Society Annual Meeting Abstracts'
+  topics:
+  - foundations
+  tags:
+  - decision-making
+  - reinforcement-learning
+acuna2021mlworkshop:
+  key: acuna2021mlworkshop
+  title: 'Machine Learning and Artificial Intelligence for Science of Science and
+    Computational Discovery: Principles, Applications, and Future Opportunities'
+  alternate_title: ''
+  authors: Daniel E. Acuna, Tong Zeng, Han Zhuang, Lizhen Liang
+  authors_short: Daniel E. Acuna, Tong Zeng, Han Zhuang, et al.
+  year: '2021'
+  year_label: 2021 · Workshop description
+  format: inproceedings
+  format_label: Workshop description
+  venue: iConference 2021 workshop
+  topics:
+  - discovery
+  - ecosystem
+  - foundations
+  tags:
+  - scholarly-data
+  - text-mining
+  - statistical-methods

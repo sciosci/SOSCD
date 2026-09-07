@@ -1,23 +1,38 @@
-# How to update contents in this repository?
-### News
-- Only Update the latest News in <i>./news.yml</i> file.
-- <i>./new_generator.rb</i> file is automatically executed in the Github Actions everytime you push your changes to the remote repository. This file reads the news content from <i>./news.yml</i> file and converts it to a markdown file, and stores in <i>_pages/news.md</i>
-- Note that if you are running the website on your localhost, Github Actions will not be executed and you need to do the changes in _pages/news.md file itself, else make sure to manually run the ./new_generator.rb file.
-### Opening
-- Only Update the latest Openings content in <i>_pages/recruitment.md</i>.
-### Publications
-- Only Update the latest Publication in <i>_bibliography/references.bib</i>.
-- <i>./publications_generator.rb</i> file is automatically executed in the Github Actions everytime you push your changes to the remote repository. This file reads the publications in <i>_bibliography/references.bib</i> file, and customizes the Javascript code to handle filtering logic of publications page. 
-- The generated Javascript code is always pasted between the following two comment lines in _pages/publications.md file: 
-"DO NOT REMOVE THIS LINE : BEGIN" and "DO NOT REMOVE THIS LINE : END".
-- For any updates you might have to do between the above two lines of code, update the <i>./publications_generator.rb</i> file with the changes, and github actions with reflect the Javascript changes.
-- Note that if you are running the website on your localhost, Github Actions will not be executed and you need to do the changes in _pages/publications.md file itself, else make sure to manually run the ./publications_generator.rb file.
-### People
-- Only Update the latest People information in <i>_pages/people.md</i>
-### Funding
-- Only Update the latest Funding information in <i>_pages/project_research.md</i>
-### About
-- Only Update the About content in <i>_pages/about.md</i>
+# Science of Science & Computational Discovery Lab
+
+## Local development
+
+Ruby dependencies are managed by Bundler. After `bundle install`, run:
+
+```sh
+npm run dev
+```
+
+This regenerates the news and publication views and starts Jekyll at **http://127.0.0.1:4000** with live reload. Node dependencies are not required for this command. Run `npm run build` for a complete static build in `_site`. Run `npm test` for publication metadata and search regression checks.
+
+The website uses semantic Jekyll/Liquid templates, a standalone stylesheet (`assets/css/lab.css`), and a small vanilla JavaScript file (`assets/js/lab.js`). Sora and Hanken Grotesk are self-hosted with their OFL licenses in `assets/fonts`. The design system is documented in `DESIGN.md`.
+
+## Content and generated files
+
+- **News:** edit `news.yml`, then run `ruby news_generator.rb`. This writes the full `/news/` archive and the homepage preview.
+- **Publications:** edit `_bibliography/references.bib` and add an explicit record under `papers` in `_data/publication_taxonomy.yml`, then run `bundle exec ruby publications_generator.rb`. Every paper needs one or more controlled topics and tags and an actual publication year of 2008 or later. Use explicit preprint format metadata, never a synthetic future year. The build rejects untagged records and unknown IDs. This writes the publication region, metadata index, facet counts, selected-work data, and explorer points. Keep the BEGIN/END comments in `_pages/publications.md`.
+- **Topics and tags:** `_data/publication_taxonomy.yml` is the editorial source. Assign multiple topics when appropriate. Aliases support search, and optional `format` overrides correct legacy BibTeX types without altering citations. Do not edit the generated `_data/publication_index.yml` or `_data/publication_facets.yml`.
+- **Giving:** edit `_pages/support.md` for copy and `_data/giving.yml` for contacts. Leave `fund_name` and `fund_url` empty until CU Advancement confirms a lab-specific gift designation. Set both to activate the direct giving button; the default is a contact route. Never substitute a generic department fund URL.
+- **Featured publications:** update the `selection` list in `publications_generator.rb`; bibliographic facts are read from the bibliography.
+- **People:** edit `_pages/people.md`; optimized photographs live in `assets/images/lab/`, with source provenance in adjacent JSON files.
+- **Research and funding:** edit `_pages/project_research.md`.
+- **Recruitment:** edit `_pages/recruitment.md` and the homepage recruitment notices in `_pages/index.md` together when the opening changes.
+- **Homepage:** `_pages/index.md` is the sole owner of `/`.
+
+The research lens is a radial publication index, not a citation graph. Radius reflects the actual publication year, including preprints; larger points distinguish working papers. Its overlapping topic assignments come from the same reviewed taxonomy as the archive. Hover or keyboard focus reveals a styled paper preview, and topic controls link to the full filtered archive. Each point opens the original paper, or its archive record if no external URL exists.
+
+The lab logo is `assets/images/lab/logo.svg`: only the gray diamond and blue/cyan semicircles, on transparency. Header, footer, and SVG favicon share this source. `logo-restored.png` is a transparent 2048 px export; the smaller PNGs are compatibility icons. See `.impeccable/decisions/logo-restoration.md`.
+
+The September 2026 Scholar reconciliation is recorded in `.impeccable/review/scholar-reconciliation.md`, with a disposition for every Scholar entry. Fourteen distinct works were added; alternate versions, duplicates, non-paper records, and uncertain metadata are explicitly accounted for.
+
+The existing GitHub Actions publishing workflow continues to run both generators. No deployment settings need to change for the redesign.
+
+---
 
 ## Staging Deployment : How to deploy the website on personal github repository to validate future design changes.
 

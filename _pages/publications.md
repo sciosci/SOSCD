@@ -1,304 +1,120 @@
 ---
-layout: publications
-permalink: /publications/
-header:
-  image: /assets/images/splash_images/papers.png
-author_profile: false
-toc: true
-toc_label: "Publication year"
+layout: lab
 title: "Publications"
+permalink: /publications/
+description: "Research papers, preprints, code, and datasets from the Science of Science & Computational Discovery Lab."
 ---
-
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-View on [Google Scholar](https://scholar.google.com/citations?hl=en&user=GAi23ssAAAAJ&view_op=list_works&sortby=pubdate)
-<style>
-.skip-links {
-    height: 0;    
-}
-@media only screen and (min-width: 740px) {    
-    li img {
-        vertical-align: middle;
-        float: right;
-        margin-right: 20px;
-        width:100%;
-        max-width:200px;
-        border-radius: 5%;
-        transition: transform .1s;
-        box-shadow: 1px 2px 3px #3e3d3c59;
-    }
-    li img:hover {    
-        transform: scale(1.5);
-        box-shadow: 2px 2px 18px #D44500;
-    }
-    ol ol li {
-        margin-bottom: 0;
-    }
-    ol ol {
-        padding-left: 1em;
-    }
-    ol {
-        padding-left: 0.5em;
-    }
-    ul {
-      list-style: none;
-      margin-left: 0;
-      padding-left: 0;
-    }
-    .bibliography li {
-      display: inline-block;
-      padding-left: 1em;
-    }
-    .bibliography li:before {
-      content: "•";
-      padding-right: 5px;
-    }
-}
-@media only screen and (max-width: 740px) {
-    .bibliography li {
-      display: inline-block;
-    }
-    h2 {
-        margin-top: 0;
-    }
-    ol {
-        margin-left: 0;
-        padding-left: 0;
-    }
-    ol ol {
-        margin-top: 0;
-        margin-bottom: 30px;
-        text-indent: 0;
-        padding-left: 0;
-    }
-    li img {
-            /*vertical-align: middle;*/
-            display: block;
-            /*margin-right: 20px;*/
-            height:100%;
-            max-height:200px;
-            border-radius: 5%;
-            /*transition: transform .1s;*/
-            box-shadow: 1px 2px 3px #3e3d3c59;
-        }
-}
-</style>
-
-[//]: # (<form>)
-
-[//]: # (    <input type="checkbox" id="entry_type_article" name="entry_type_article" value="article" checked>)
-
-[//]: # (    <label for="entry_type_article">Article</label>)
-
-[//]: # (    <input type="checkbox" id="entry_type_conference" name="entry_type_conference" value="conference" checked>)
-
-[//]: # (    <label for="entry_type_conference">Conference</label>    )
-
-[//]: # (    <input type="checkbox" id="entry_type_dataset" name="entry_type_dataset" value="press" checked>)
-
-[//]: # (    <label for="entry_type_dataset">Dataset</label>)
-
-[//]: # (    <input type="checkbox" id="entry_type_code" name="entry_type_code" value="code" checked>)
-
-[//]: # (    <label for="entry_type_code">Code</label>)
-
-[//]: # (    <input type="checkbox" id="entry_type_demo" name="entry_type_demo" value="demo" checked>)
-
-[//]: # (    <label for="entry_type_demo">Demo</label>)
-
-[//]: # (</form>)
-<form class="form-inline">
-<strong>Filter by type &nbsp;</strong>
-    <span class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" id="entry_type_article" name="entry_type_article" value="article" checked>
-        <label class="form-check-label" for="entry_type_article"><i class="fas fa-newspaper"></i> Journal</label>
-    </span>
-
-    <span class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" id="entry_type_conference" name="entry_type_conference" value="conference" checked>
-        <label class="form-check-label" for="entry_type_conference"><i class="fas fa-calendar-alt"></i> Conference</label>
-    </span>
-
-    <span class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" id="entry_type_dataset" name="entry_type_dataset" value="press" checked>
-        <label class="form-check-label" for="entry_type_dataset"><i class="fas fa-database"></i> Dataset</label>
-    </span>
-
-    <span class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" id="entry_type_code" name="entry_type_code" value="code" checked>
-        <label class="form-check-label" for="entry_type_code"><i class="fas fa-code"></i> Code</label>
-    </span>
-
-    <span class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" id="entry_type_demo" name="entry_type_demo" value="demo" checked>
-        <label class="form-check-label" for="entry_type_demo"><i class="fas fa-desktop"></i> Demo</label>
-    </span>
-</form>
-
+<main id="main" class="interior-main wrap">
+  <header class="page-heading publication-heading"><div><h1>Publications.</h1><p>Publications, preprints, and the resources behind our research.</p></div><a class="text-link" href="https://scholar.google.com/citations?hl=en&user=GAi23ssAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar {% include lab-arrow.html %}</a></header>
+  <div class="publication-tools" data-publication-tools hidden>
+    <div class="search-row"><div class="publication-search"><label for="publication-search">Search publications</label><div class="search-input-wrap"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.5"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.5"/></svg><input type="search" id="publication-search" placeholder="Search by title, author, or topic" autocomplete="off"></div></div><div class="year-filter"><label for="publication-year">Year</label><select id="publication-year"><option value="all">All years</option></select></div></div>
+    <div class="facet-row">
+      <div class="publication-facet"><label for="publication-topic">Research topic</label><select id="publication-topic" aria-describedby="publication-topic-description"><option value="all">All research topics</option>{% for item in site.data.publication_facets.topics %}<option value="{{ item[0] }}">{{ item[1].label }} ({{ item[1].count }})</option>{% endfor %}</select></div>
+      <div class="publication-facet"><label for="publication-tag">Specific tag</label><select id="publication-tag"><option value="all">All tags</option>{% for item in site.data.publication_facets.tags %}<option value="{{ item[0] }}">{{ item[1].label }} ({{ item[1].count }})</option>{% endfor %}</select></div>
+    </div>
+    <p class="topic-description" id="publication-topic-description">Browse by topic or a specific tag. Papers can belong to more than one topic.</p>
+    <div class="filter-row"><div class="publication-filters" role="group" aria-label="Publication format or resource"><button type="button" data-filter="all" aria-pressed="true">All formats</button><button type="button" data-filter="article" aria-pressed="false">Journal articles</button><button type="button" data-filter="preprint" aria-pressed="false">Preprints</button><button type="button" data-filter="inproceedings" aria-pressed="false">Conferences &amp; workshops</button><button type="button" data-filter="incollection" aria-pressed="false">Chapters</button><button type="button" data-filter="phdthesis" aria-pressed="false">Theses</button><button type="button" data-filter="webarticle" aria-pressed="false">Web articles</button><button type="button" data-filter="code" aria-pressed="false">With code</button><button type="button" data-filter="dataset" aria-pressed="false">With data</button><button type="button" data-filter="demo" aria-pressed="false">With demo</button></div></div>
+    <div class="publication-results-summary"><p id="publication-count" role="status" aria-live="polite"></p><button type="button" class="clear-publications" data-reset-publications hidden>Clear all filters</button></div>
+  </div>
+  <noscript><p>All publications are listed below. Enable JavaScript to search and filter the archive.</p></noscript>
+  <div id="publication-results">
 <!-- DO NOT REMOVE THIS LINE : BEGIN -->
+<section class="publication-year" data-year="2026" aria-labelledby="year-2026">
+  <h2 id="year-2026">2026</h2>
+  {% bibliography --query @*[year=2026] %}
+</section>
 
-<script type="text/javascript">
+<section class="publication-year" data-year="2025" aria-labelledby="year-2025">
+  <h2 id="year-2025">2025</h2>
+  {% bibliography --query @*[year=2025] %}
+</section>
 
-var waitForLoad = function () {
-    if (typeof $ != "undefined") {
-        $(document).ready(function() {
-            var filter = function() {
-                var doc_id_value = "";
-                var map_data = set_year_paper_id_map();
-                $(".bib_entry").each(function() {
-                    var entry_type_article = $(this).hasClass("entry_type_article");
-                    var entry_type_conference = $(this).hasClass("entry_type_inproceedings");                    
-                    var code_exists = $(this).hasClass("code_exists_true");
-                    var demo_exists = $(this).hasClass("demo_exists_true");
-                    var dataset_exists = $(this).hasClass("dataset_exists_true");
-                    
-                    var show_based_on_entry_type = (entry_type_article && $("#entry_type_article").is(":checked")) || 
-                                                   (entry_type_conference && $("#entry_type_conference").is(":checked")) || 
-                                                   (dataset_exists && $("#entry_type_dataset").is(":checked")) || 
-                                                   (code_exists && $("#entry_type_code").is(":checked")) || 
-                                                   (demo_exists && $("#entry_type_demo").is(":checked"));
+<section class="publication-year" data-year="2024" aria-labelledby="year-2024">
+  <h2 id="year-2024">2024</h2>
+  {% bibliography --query @*[year=2024] %}
+</section>
 
-                    if (show_based_on_entry_type) {
-                        $(this).closest('li').show();
-                        $.each(this.attributes, function() {
-                            if (this.name === "id") {
-                                doc_id_value = this.value
-                            }
-                        });
-                        for (var year in map_data) {
-                            if (map_data.hasOwnProperty(year)) {
-                                map_data[year].forEach(function(item) {
-                                    if (doc_id_value === item) {
-                                        document.getElementById(year).style.display = "block";
-                                        document.getElementById(year + '-hr').style.display = "block";
-                                    }
-                                });
-                            }
-                        }
-                    } else {
-                        $(this).closest('li').hide();
-                    }
-                });
+<section class="publication-year" data-year="2023" aria-labelledby="year-2023">
+  <h2 id="year-2023">2023</h2>
+  {% bibliography --query @*[year=2023] %}
+</section>
 
-            };
-            set_display_status();
-            filter();
-            $("input").change(function() {
-                set_display_status();
-                filter();
-            });
-        });
-    } else {
-        setTimeout(waitForLoad, 100);
-    }
-};
+<section class="publication-year" data-year="2022" aria-labelledby="year-2022">
+  <h2 id="year-2022">2022</h2>
+  {% bibliography --query @*[year=2022] %}
+</section>
 
-function set_display_status() {
-    // For every new header added to represent new year, set the display attribute to "none" in this function.
+<section class="publication-year" data-year="2021" aria-labelledby="year-2021">
+  <h2 id="year-2021">2021</h2>
+  {% bibliography --query @*[year=2021] %}
+</section>
 
-        document.getElementById('2016').style.display = "none";
-        document.getElementById('2016-hr').style.display = "none";
-        document.getElementById('2017').style.display = "none";
-        document.getElementById('2017-hr').style.display = "none";
-        document.getElementById('2018').style.display = "none";
-        document.getElementById('2018-hr').style.display = "none";
-        document.getElementById('2019').style.display = "none";
-        document.getElementById('2019-hr').style.display = "none";
-        document.getElementById('2020').style.display = "none";
-        document.getElementById('2020-hr').style.display = "none";
-        document.getElementById('2021').style.display = "none";
-        document.getElementById('2021-hr').style.display = "none";
-        document.getElementById('2022').style.display = "none";
-        document.getElementById('2022-hr').style.display = "none";
-        document.getElementById('2023').style.display = "none";
-        document.getElementById('2023-hr').style.display = "none";
-        document.getElementById('2024').style.display = "none";
-        document.getElementById('2024-hr').style.display = "none";
-        document.getElementById('2025').style.display = "none";
-        document.getElementById('2025-hr').style.display = "none";
-        document.getElementById('2026').style.display = "none";
-        document.getElementById('2026-hr').style.display = "none";
-        document.getElementById('2050').style.display = "none";
-        document.getElementById('2050-hr').style.display = "none";
-        document.getElementById('2008-2015').style.display = "none";
-        document.getElementById('2008-2015-hr').style.display = "none";
-}
+<section class="publication-year" data-year="2020" aria-labelledby="year-2020">
+  <h2 id="year-2020">2020</h2>
+  {% bibliography --query @*[year=2020] %}
+</section>
 
-function set_year_paper_id_map() {
-    // Update the below object with the year and paper id of every new paper added in references.bib
-    return  {
-            '2016': ["ramkumar2016chunking", "ethier2016adaptive", "achakulvisut2016science"],
-            '2017': ["shema2017show"],
-            '2018': ["acuna2018bioscience", "teplitskiy2018sociology", "lienard2018intellectual"],
-            '2019': ["lee2019limiting", "zeng2019dead"],
-            '2020': ["zeng2020finding", "liang2020artificial", "zeng2020assigning", "achakulvisut2020pubmed", "jas2020pyglmnet", "zeng2020modeling", "zhuangacuna2020", "liangacuna2020", "liang2020don", "zengacuna2020", "zeng2020gotfunding"],
-            '2021': ["10.1145/3461702.3462616", "acunaiconference2022", "zhuangacuna2021"],
-            '2022': ["acuna2022", "keacuna2022"],
-            '2023': ["zhuang2023computational"],
-            '2024': ["10.1162/qss_a_00332", "novoa2024science", "taechoyotin2024misti", "XU2024103542", "leto2024first", "Bibal2024", "taechoyotin2024mamorx", "varasteh2024comparative"],
-            '2025': ["zhou2022paraphrase", "acuna2022predicting", "zhuang2025estimating"],
-            '2026': ["zhou2026widespread", "xu2026beyond", "kusumegi2026dissecting"],
-            '2050': ["meguimtsop2026sciintbench", "taechoyotin2026remctx", "popp2026government", "taechoyotin2025remor", "liang2024complementary"],
-            '2008-2015': ["acuna2008bayesian", "acuna2008structure","acuna2009improving","acuna2010people", "acuna2010structure","acuna2011rational","avraham2012toward", "acuna2012predicting","acuna2013future","acuna2014multifaceted","acuna2015using",""],
-    }
-}
-waitForLoad();
+<section class="publication-year" data-year="2019" aria-labelledby="year-2019">
+  <h2 id="year-2019">2019</h2>
+  {% bibliography --query @*[year=2019] %}
+</section>
 
-</script>
+<section class="publication-year" data-year="2018" aria-labelledby="year-2018">
+  <h2 id="year-2018">2018</h2>
+  {% bibliography --query @*[year=2018] %}
+</section>
 
+<section class="publication-year" data-year="2017" aria-labelledby="year-2017">
+  <h2 id="year-2017">2017</h2>
+  {% bibliography --query @*[year=2017] %}
+</section>
 
-<h1  id='2050'> Under Review </h1>
-<hr id='2050-hr'>
+<section class="publication-year" data-year="2016" aria-labelledby="year-2016">
+  <h2 id="year-2016">2016</h2>
+  {% bibliography --query @*[year=2016] %}
+</section>
 
+<section class="publication-year" data-year="2015" aria-labelledby="year-2015">
+  <h2 id="year-2015">2015</h2>
+  {% bibliography --query @*[year=2015] %}
+</section>
 
-{% bibliography --query @*[year>2026]%}
+<section class="publication-year" data-year="2014" aria-labelledby="year-2014">
+  <h2 id="year-2014">2014</h2>
+  {% bibliography --query @*[year=2014] %}
+</section>
 
-<h1  id='2026'> 2026 </h1>
-<hr  id='2026-hr'>
-{% bibliography --query @*[year=2026]%}
+<section class="publication-year" data-year="2013" aria-labelledby="year-2013">
+  <h2 id="year-2013">2013</h2>
+  {% bibliography --query @*[year=2013] %}
+</section>
 
-<h1  id='2025'> 2025 </h1>
-<hr  id='2025-hr'>
-{% bibliography --query @*[year=2025]%}
+<section class="publication-year" data-year="2012" aria-labelledby="year-2012">
+  <h2 id="year-2012">2012</h2>
+  {% bibliography --query @*[year=2012] %}
+</section>
 
-<h1  id='2024'> 2024 </h1>
-<hr  id='2024-hr'>
-{% bibliography --query @*[year=2024]%}
+<section class="publication-year" data-year="2011" aria-labelledby="year-2011">
+  <h2 id="year-2011">2011</h2>
+  {% bibliography --query @*[year=2011] %}
+</section>
 
-<h1  id='2023'> 2023 </h1>
-<hr  id='2023-hr'>
-{% bibliography --query @*[year=2023]%}
+<section class="publication-year" data-year="2010" aria-labelledby="year-2010">
+  <h2 id="year-2010">2010</h2>
+  {% bibliography --query @*[year=2010] %}
+</section>
 
-<h1  id='2022'> 2022 </h1>
-<hr  id='2022-hr'>
-{% bibliography --query @*[year=2022]%}
+<section class="publication-year" data-year="2009" aria-labelledby="year-2009">
+  <h2 id="year-2009">2009</h2>
+  {% bibliography --query @*[year=2009] %}
+</section>
 
-<h1  id='2021'> 2021 </h1>
-<hr  id='2021-hr'>
-{% bibliography --query @*[year=2021]%}
-
-<h1  id='2020'> 2020 </h1>
-<hr  id='2020-hr'>
-{% bibliography --query @*[year=2020]%}
-
-<h1  id='2019'> 2019 </h1>
-<hr  id='2019-hr'>
-{% bibliography --query @*[year=2019]%}
-
-<h1  id='2018'> 2018 </h1>
-<hr  id='2018-hr'>
-{% bibliography --query @*[year=2018]%}
-
-<h1  id='2017'> 2017 </h1>
-<hr  id='2017-hr'>
-{% bibliography --query @*[year=2017]%}
-
-<h1  id='2016'> 2016 </h1>
-<hr  id='2016-hr'>
-{% bibliography --query @*[year=2016]%}
-
-<h1  id='2008-2015'> 2008-2015 </h1>
-<hr  id='2008-2015-hr'>
-{% bibliography --query @*[year<=2015]%}
-
+<section class="publication-year" data-year="2008" aria-labelledby="year-2008">
+  <h2 id="year-2008">2008</h2>
+  {% bibliography --query @*[year=2008] %}
+</section>
 <!-- DO NOT REMOVE THIS LINE : END -->
+  </div>
+  <div class="publication-empty" hidden><h2>No matching publications.</h2><p>Try a broader topic, a different tag, or clear the filters to see all work.</p><button class="button button-primary" type="button" data-reset-publications>Clear search &amp; filters {% include lab-arrow.html %}</button></div>
+  <script type="application/json" id="publication-taxonomy-data">{{ site.data.publication_facets | jsonify }}</script>
+</main>

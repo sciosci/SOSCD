@@ -1,48 +1,24 @@
 require 'yaml'
+require 'cgi'
 
-# Function to generate HTML content for a year
-def generate_html_for_year(year, events)
-  html = """
-<!-- #{year} News -->
-<div style=\"border: 2px solid #333; padding: 15px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\">
-  <h2 style=\"background-color: #5bc0de; padding: 10px; border-radius: 5px; text-align: center;\">#{year}</h2>
-  <ul style=\"list-style: none; padding-left: 0;\">
-    """
-  
-  events.each do |event|
-    html += """\
-<li style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;\">
-        <div style=\"flex: 1;\">
-            #{event['description']}
-        </div>
-        <div style=\"flex: 0 0 150px; text-align: right; color: #555; font-style: italic;\">
-            #{event['date']}
-        </div>
-    </li>
-    """
-  end
-
-  html += """
-  </ul>
-</div>
-"""
-  html
+news = YAML.safe_load(File.read('./news.yml'))
+def event_html(event)
+  description = event['description'].gsub(/href="(\/[^"]*)"/) { "href=\"{{ '#{$1}' | relative_url }}\"" }
+  "<li class=\"news-item\"><div class=\"news-date\">#{CGI.escapeHTML(event['date'])}</div><div class=\"news-description\">#{description}</div></li>"
 end
-
-# Read YAML file
-news_data = YAML.safe_load(File.read('./news.yml'))
-
-# Generate markdown content
-markdown_content = ""
-news_data.each do |year, events|
-  markdown_content += generate_html_for_year(year, events)
-end
-
-final_content = "# News\n" + markdown_content
-
-# Write to markdown file
-File.open('_pages/news.md', 'w') do |file|
-  file.write(final_content)
-end
-
-puts "Markdown file 'news.md' has been generated."
+archive = news.map do |year, events|
+  "<section class=\"news-year\" aria-labelledby=\"news-#{year}\"><h2 id=\"news-#{year}\">#{year}</h2><ul class=\"news-list\">\n#{events.map { |event| event_html(event) }.join("\n")}\n</ul></section>"
+end.join("\n")
+File.write('_pages/news.md', <<~PAGE)
+  ---
+  layout: single
+  title: "News & events"
+  permalink: /news/
+  description: "Publications, conversations, and milestones from the lab."
+  toc: true
+  ---
+  #{archive}
+PAGE
+preview = news.values.flatten.first(4).map { |event| event_html(event) }.join("\n")
+File.write('_includes/lab-news-preview.html', "<ul class=\"news-list\">\n#{preview}\n</ul>\n")
+puts "Generated news archive and homepage preview from news.yml."

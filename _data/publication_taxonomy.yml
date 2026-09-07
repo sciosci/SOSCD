@@ -1,0 +1,369 @@
+# Curated navigation metadata. Bibliographic facts stay in references.bib.
+# Every paper needs explicit, possibly overlapping topics and specific tags.
+# The generator rejects missing records, unknown IDs, and empty assignments.
+topics:
+  integrity:
+    label: Research integrity
+    short_label: Integrity
+    description: "Trustworthy research: figure and journal quality, citation practices, review bias, reproducibility, and responsible AI."
+    aliases: [integrity, research integrity, scientific integrity]
+  discovery:
+    label: Peer review & discovery
+    short_label: Discovery
+    description: "Scientific peer review, research recommendation, and computational tools for finding and interpreting scholarly information."
+    aliases: [discovery, computational discovery, peer review and discovery, peer review and computational discovery]
+  ecosystem:
+    label: Science of science
+    short_label: Ecosystem
+    description: "How careers, collaboration, funding, recognition, and scholarly infrastructure shape science."
+    aliases: [science of science, ecosystem, research ecosystem, scientometrics, bibliometrics, science]
+  foundations:
+    label: Cognition & methods
+    short_label: Methods
+    description: "Foundational work in learning, decision-making, neuroscience, human–computer interaction, and computational methods."
+    aliases: [cognition and methods, cognition, foundations, methods]
+
+tags:
+  figure-integrity:
+    label: Figure integrity
+    aliases: [scientific figure integrity]
+  image-forensics:
+    label: Image reuse & forensics
+    aliases: [image integrity, figure reuse, image reuse, image duplication, image manipulation, image tampering, image forensics]
+  graphical-integrity:
+    label: Graphical integrity
+    aliases: [misleading graphs, misleading charts, proportional ink, graphical integrity]
+  figure-accessibility:
+    label: Figure accessibility
+    aliases: [figure readability, color blindness, colour blindness, figure explainability]
+  questionable-journals:
+    label: Questionable journals
+    aliases: [predatory journals, blacklisted journals, journal blacklisting, predatory publishing]
+  reproducibility:
+    label: Reproducibility & resource longevity
+    aliases: [reproducibility, reproducible research, resource longevity, link rot, dead science, resource decay]
+  citation-practices:
+    label: Citation practices
+    aliases: [citation worthiness, citation worthiness detection, citation missingness, missing citations]
+  metadata-quality:
+    label: Metadata quality
+    aliases: [reference missingness, missing references, openalex, bibliometric data quality]
+  peer-review:
+    label: Peer review
+    aliases: [peer review, peerreview, review, reviewers, scientific review]
+  review-bias:
+    label: Review bias
+    aliases: [peer review bias, reviewer bias, author suggested reviewers]
+  research-recommendation:
+    label: Research recommendation
+    aliases: [scientific recommendation, literature recommendation, literature discovery, research directions]
+  recommender-systems:
+    label: Recommender systems
+    aliases: [recommendation, recommendations, recommender, recommendation systems]
+  scholarly-data:
+    label: Scholarly data & tools
+    aliases: [scholarly data, scholarly tools, scholarly metadata, pubmed, author disambiguation, name disambiguation]
+  dataset-discovery:
+    label: Dataset discovery & reuse
+    aliases: [dataset discovery, data discovery, dataset reuse, data reuse, dataset credit]
+  citation-analysis:
+    label: Citation analysis
+    aliases: [citations, citation networks, citation impact, h index]
+  text-mining:
+    label: Text mining & NLP
+    aliases: [text mining, nlp, natural language processing, knowledge extraction, information extraction, paraphrase, paraphrases]
+  multimodal-learning:
+    label: Multimodal learning
+    aliases: [multimodal, multi modal, contrastive learning, image text retrieval]
+  language-models:
+    label: Language models
+    aliases: [llm, llms, large language models, generative ai]
+  responsible-ai:
+    label: Responsible AI
+    aliases: [ai ethics, responsible ai, research misconduct, responsible conduct of research]
+  ai-bias:
+    label: AI bias & explainability
+    aliases: [ai bias, perception bias, explainable ai, comparative explanations, algorithmic bias]
+  funding:
+    label: Research funding
+    aliases: [funding, grants, grant recommendation, science policy, energy research]
+  mentorship:
+    label: Mentorship
+    aliases: [mentorship, mentoring, mentors]
+  careers:
+    label: Scientific careers & recognition
+    aliases: [scientific careers, academic careers, scientific success, recognition, awards]
+  collaboration:
+    label: Teams & collaboration
+    aliases: [collaboration, scientific teams, team science, teamwork, leadership, coauthorship]
+  diversity:
+    label: Diversity & inclusion
+    aliases: [diversity, inclusion, gender, inequality, disparities, equity]
+  interdisciplinarity:
+    label: Interdisciplinarity
+    aliases: [interdisciplinarity, interdisciplinary, interdisciplinary engagement]
+  decision-making:
+    label: Decision-making
+    aliases: [decision making, uncertainty, bayesian, bandit, exploration]
+  reinforcement-learning:
+    label: Reinforcement learning
+    aliases: [reinforcement learning, rl, grpo]
+  neuroscience:
+    label: Neuroscience & motor learning
+    aliases: [neuroscience, motor learning, chunking, motor control, neuroprostheses, fes]
+  perception:
+    label: Perception & psychophysics
+    aliases: [perception, psychophysics, vision, haptics]
+  human-computer-interaction:
+    label: Human–computer interaction
+    aliases: [human computer interaction, hci, robotics, mobile computing]
+  statistical-methods:
+    label: Statistical methods & software
+    aliases: [statistical methods, statistical software, generalized linear models, elastic net, pyglmnet]
+
+papers:
+  acuna2008bayesian:
+    topics: [foundations]
+    tags: [decision-making, reinforcement-learning]
+  acuna2008structure:
+    topics: [foundations]
+    tags: [decision-making, reinforcement-learning]
+  acuna2009improving:
+    format: inproceedings
+    topics: [foundations]
+    tags: [reinforcement-learning, decision-making]
+  acuna2010people:
+    topics: [foundations]
+    tags: [decision-making]
+  acuna2010structure:
+    topics: [foundations]
+    tags: [decision-making, reinforcement-learning]
+  acuna2011rational:
+    topics: [foundations]
+    tags: [decision-making, reinforcement-learning]
+  avraham2012toward:
+    topics: [foundations]
+    tags: [human-computer-interaction, perception]
+  acuna2012predicting:
+    topics: [ecosystem]
+    tags: [careers, citation-analysis]
+  acuna2013future:
+    topics: [ecosystem]
+    tags: [careers, citation-analysis]
+  acuna2014multifaceted:
+    topics: [foundations]
+    tags: [neuroscience, decision-making]
+  acuna2015using:
+    topics: [foundations]
+    tags: [perception, decision-making]
+  ramkumar2016chunking:
+    topics: [foundations]
+    tags: [neuroscience, decision-making]
+  ethier2016adaptive:
+    topics: [foundations]
+    tags: [neuroscience, statistical-methods]
+  achakulvisut2016science:
+    topics: [discovery]
+    tags: [research-recommendation, recommender-systems, text-mining]
+  shema2017show:
+    topics: [foundations]
+    tags: [human-computer-interaction]
+  acuna2018bioscience:
+    format: preprint
+    topics: [integrity]
+    tags: [figure-integrity, image-forensics]
+  teplitskiy2018sociology:
+    topics: [integrity, discovery, ecosystem]
+    tags: [peer-review, review-bias, collaboration]
+  lienard2018intellectual:
+    topics: [ecosystem]
+    tags: [mentorship, careers, interdisciplinarity]
+  lee2019limiting:
+    topics: [foundations]
+    tags: [neuroscience]
+  zeng2019dead:
+    topics: [integrity, ecosystem]
+    tags: [reproducibility, dataset-discovery]
+  zeng2020finding:
+    topics: [discovery]
+    tags: [dataset-discovery, text-mining, scholarly-data]
+  liang2020artificial:
+    topics: [foundations]
+    tags: [ai-bias, perception]
+  zeng2020assigning:
+    topics: [discovery, ecosystem]
+    tags: [dataset-discovery, citation-analysis, scholarly-data]
+  achakulvisut2020pubmed:
+    topics: [discovery]
+    tags: [scholarly-data, text-mining]
+  jas2020pyglmnet:
+    topics: [foundations]
+    tags: [statistical-methods]
+  zeng2020modeling:
+    topics: [integrity, discovery]
+    tags: [citation-practices, text-mining, scholarly-data]
+    note: "The abstract explicitly covers omitted citations and pre-submission checks, so this also belongs to integrity."
+  zhuangacuna2020:
+    format: inproceedings
+    topics: [integrity]
+    tags: [figure-integrity, graphical-integrity]
+  liangacuna2020:
+    format: inproceedings
+    topics: [integrity, ecosystem]
+    tags: [questionable-journals, citation-analysis]
+  liang2020don:
+    format: inproceedings
+    topics: [integrity]
+    tags: [questionable-journals]
+  zengacuna2020:
+    format: inproceedings
+    topics: [discovery, ecosystem]
+    tags: [scholarly-data, citation-analysis]
+  zeng2020gotfunding:
+    format: inproceedings
+    topics: [discovery, ecosystem]
+    tags: [funding, research-recommendation, recommender-systems, text-mining]
+  10.1145/3461702.3462616:
+    topics: [ecosystem]
+    tags: [diversity, responsible-ai]
+    note: "A study of participation in AI ethics conferences, not a study of scientific misconduct."
+  acunaiconference2022:
+    topics: [ecosystem]
+    tags: [dataset-discovery, citation-analysis]
+  zhuangacuna2021:
+    topics: [integrity]
+    tags: [figure-integrity, graphical-integrity]
+  acuna2022:
+    topics: [integrity, discovery, ecosystem]
+    tags: [peer-review, review-bias]
+  keacuna2022:
+    topics: [ecosystem]
+    tags: [mentorship, scholarly-data, diversity]
+  zhuang2023computational:
+    topics: [integrity, ecosystem]
+    tags: [figure-accessibility]
+    note: "Included in integrity for scientific communication quality; accessibility problems do not imply misconduct."
+  10.1162/qss_a_00332:
+    topics: [ecosystem, foundations]
+    tags: [funding, decision-making]
+  novoa2024science:
+    topics: [ecosystem]
+    tags: [diversity, careers]
+  taechoyotin2024misti:
+    topics: [discovery]
+    tags: [multimodal-learning, text-mining, scholarly-data]
+    note: "Scientific figure/caption retrieval, not peer-review generation or image-forensics research."
+  XU2024103542:
+    topics: [ecosystem]
+    tags: [collaboration, diversity]
+  leto2024first:
+    topics: [discovery, ecosystem]
+    tags: [interdisciplinarity, citation-analysis, text-mining]
+  Bibal2024:
+    topics: [discovery]
+    tags: [research-recommendation, recommender-systems, text-mining]
+  taechoyotin2024mamorx:
+    topics: [discovery]
+    tags: [peer-review, language-models, multimodal-learning]
+  varasteh2024comparative:
+    topics: [discovery, foundations]
+    tags: [recommender-systems, ai-bias, human-computer-interaction]
+    note: "General recommender-system explanations support discovery methods; not specifically scientific peer review."
+  zhou2022paraphrase:
+    topics: [discovery, foundations]
+    tags: [text-mining]
+    note: "A survey of paraphrase methods; the word review here does not make it a peer-review paper."
+  acuna2022predicting:
+    topics: [integrity, ecosystem]
+    tags: [reproducibility, dataset-discovery]
+  zhuang2025estimating:
+    topics: [integrity, ecosystem]
+    tags: [questionable-journals]
+  zhou2026widespread:
+    topics: [integrity, ecosystem]
+    tags: [metadata-quality, scholarly-data, citation-analysis, diversity]
+    note: "Integrity includes reliability of scholarly metadata; database omissions do not imply author misconduct."
+  xu2026beyond:
+    topics: [ecosystem]
+    tags: [collaboration, diversity]
+  kusumegi2026dissecting:
+    topics: [ecosystem]
+    tags: [diversity, collaboration, careers]
+  meguimtsop2026sciintbench:
+    format: preprint
+    topics: [integrity, discovery]
+    tags: [responsible-ai, language-models]
+  taechoyotin2026remctx:
+    format: preprint
+    topics: [discovery]
+    tags: [peer-review, language-models, reinforcement-learning, multimodal-learning]
+  popp2026government:
+    format: preprint
+    topics: [ecosystem]
+    tags: [funding]
+  taechoyotin2025remor:
+    format: preprint
+    topics: [discovery]
+    tags: [peer-review, language-models, reinforcement-learning]
+  liang2024complementary:
+    format: preprint
+    topics: [ecosystem]
+    tags: [collaboration]
+  lancichinetti2015topic:
+    topics: [discovery, foundations]
+    tags: [text-mining, statistical-methods]
+    note: "Topic modeling and reliable computational methods; reproducibility here describes algorithm behavior, not an investigation of research misconduct."
+  achakulvisut2019claim:
+    format: preprint
+    topics: [discovery, foundations]
+    tags: [text-mining, scholarly-data]
+  liu2022team:
+    topics: [ecosystem]
+    tags: [collaboration, citation-analysis]
+  achakulvisut2020neuromatch:
+    format: webarticle
+    topics: [discovery, ecosystem]
+    tags: [recommender-systems, collaboration, careers, text-mining]
+    note: "An eLife Labs web article, not a peer-reviewed eLife journal article."
+  xiang2020tampering:
+    format: preprint
+    topics: [integrity, foundations]
+    tags: [figure-integrity, image-forensics]
+  zhuang2019novelty:
+    format: preprint
+    topics: [ecosystem]
+    tags: [funding, citation-analysis]
+  acuna2020mentorshipcommentary:
+    format: preprint
+    topics: [integrity, ecosystem]
+    tags: [mentorship, diversity, statistical-methods]
+    note: "Methodological commentary on the interpretation of gender and mentorship evidence. The original OSF landing page is unavailable; link is the archived author manuscript exposed by Scholar."
+  abatayo2026credibility:
+    format: preprint
+    topics: [integrity, ecosystem]
+    tags: [reproducibility, statistical-methods]
+    note: "Research credibility, replicability, reproducibility, and robustness. Complete author list comes from the OSF citation API."
+  acuna2021eileen:
+    format: preprint
+    topics: [discovery, ecosystem]
+    tags: [research-recommendation, recommender-systems, funding, text-mining]
+  bu2022workshop:
+    topics: [ecosystem, discovery]
+    tags: [scholarly-data]
+    note: "A published two-page workshop announcement."
+  acuna2010aspiration:
+    topics: [foundations]
+    tags: [decision-making, reinforcement-learning]
+    note: "Poster abstract, confirmed against the original conference program and Frontiers event abstract."
+  acuna2020nullmodel:
+    format: preprint
+    topics: [integrity, foundations]
+    tags: [figure-integrity, image-forensics, statistical-methods]
+  schrater2009structure:
+    topics: [foundations]
+    tags: [decision-making, reinforcement-learning]
+    note: "Separate 2009 VSS abstract; do not merge with the 2008 NeurIPS paper or 2010 PLOS article."
+  acuna2021mlworkshop:
+    topics: [discovery, ecosystem, foundations]
+    tags: [scholarly-data, text-mining, statistical-methods]
+    note: "Existing lab workshop page confirms the year and authors; now indexed in Publications too."

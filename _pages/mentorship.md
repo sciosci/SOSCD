@@ -2,6 +2,8 @@
 layout: single
 permalink: /mentorship/
 author_profile: false
+title: "Mentorship in science"
+description: "An open dataset with semantic and demographic estimations."
 ---
 
 <h2 style="text-align: center;">A dataset of mentorship in science with semantic and demographic estimations</h2>
@@ -20,9 +22,9 @@ author_profile: false
 <sup>3</sup>Oregon Hearing Research Center, Oregon Health and Science University<br>
 </h4>
 
-The dataset can be accessed [here](https://doi.org/10.5281/zenodo.4917086).
+<div class="dataset-download"><p>Explore and download the mentorship dataset on Zenodo.</p><a class="button button-primary" href="https://doi.org/10.5281/zenodo.4917086">Get the dataset {% include lab-arrow.html %}</a></div>
 
-The visualization of researcher SPECTER vectors can be found [here]().
+The researcher SPECTER-vector visualization is not currently linked from this site.
 
 ### Funding
 

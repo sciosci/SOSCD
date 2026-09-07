@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-07T20:54:03.719114+00:00",
+  "title": "Design System: SOS+CD Lab",
+  "extensions": {
+    "colorMeta": {
+      "surface": {
+        "role": "neutral",
+        "displayName": "Cool reading surface",
+        "tonalRamp": [
+          "oklch(15.00% 0.00694 304.24)",
+          "oklch(26.43% 0.00694 304.24)",
+          "oklch(37.86% 0.00694 304.24)",
+          "oklch(49.29% 0.00694 304.24)",
+          "oklch(60.71% 0.00694 304.24)",
+          "oklch(72.14% 0.00694 304.24)",
+          "oklch(83.57% 0.00694 304.24)",
+          "oklch(95.00% 0.00694 304.24)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "White paper",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Violet ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.03390 299.40)",
+          "oklch(26.43% 0.03390 299.40)",
+          "oklch(37.86% 0.03390 299.40)",
+          "oklch(49.29% 0.03390 299.40)",
+          "oklch(60.71% 0.03390 299.40)",
+          "oklch(72.14% 0.03390 299.40)",
+          "oklch(83.57% 0.03390 299.40)",
+          "oklch(95.00% 0.03390 299.40)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted violet gray",
+        "tonalRamp": [
+          "oklch(15.00% 0.02935 303.02)",
+          "oklch(26.43% 0.02935 303.02)",
+          "oklch(37.86% 0.02935 303.02)",
+          "oklch(49.29% 0.02935 303.02)",
+          "oklch(60.71% 0.02935 303.02)",
+          "oklch(72.14% 0.02935 303.02)",
+          "oklch(83.57% 0.02935 303.02)",
+          "oklch(95.00% 0.02935 303.02)"
+        ]
+      },
+      "purple": {
+        "role": "primary",
+        "displayName": "Instrument violet",
+        "tonalRamp": [
+          "oklch(15.00% 0.13547 294.87)",
+          "oklch(26.43% 0.13547 294.87)",
+          "oklch(37.86% 0.13547 294.87)",
+          "oklch(49.29% 0.13547 294.87)",
+          "oklch(60.71% 0.13547 294.87)",
+          "oklch(72.14% 0.13547 294.87)",
+          "oklch(83.57% 0.13547 294.87)",
+          "oklch(95.00% 0.13547 294.87)"
+        ]
+      },
+      "purple-dark": {
+        "role": "primary",
+        "displayName": "Deep violet",
+        "tonalRamp": [
+          "oklch(15.00% 0.10083 295.77)",
+          "oklch(26.43% 0.10083 295.77)",
+          "oklch(37.86% 0.10083 295.77)",
+          "oklch(49.29% 0.10083 295.77)",
+          "oklch(60.71% 0.10083 295.77)",
+          "oklch(72.14% 0.10083 295.77)",
+          "oklch(83.57% 0.10083 295.77)",
+          "oklch(95.00% 0.10083 295.77)"
+        ]
+      },
+      "purple-pale": {
+        "role": "primary",
+        "displayName": "Pale violet",
+        "tonalRamp": [
+          "oklch(15.00% 0.02269 305.59)",
+          "oklch(26.43% 0.02269 305.59)",
+          "oklch(37.86% 0.02269 305.59)",
+          "oklch(49.29% 0.02269 305.59)",
+          "oklch(60.71% 0.02269 305.59)",
+          "oklch(72.14% 0.02269 305.59)",
+          "oklch(83.57% 0.02269 305.59)",
+          "oklch(95.00% 0.02269 305.59)"
+        ]
+      },
+      "acid": {
+        "role": "secondary",
+        "displayName": "Chartreuse selection",
+        "tonalRamp": [
+          "oklch(15.00% 0.12383 117.36)",
+          "oklch(26.43% 0.12383 117.36)",
+          "oklch(37.86% 0.12383 117.36)",
+          "oklch(49.29% 0.12383 117.36)",
+          "oklch(60.71% 0.12383 117.36)",
+          "oklch(72.14% 0.12383 117.36)",
+          "oklch(83.57% 0.12383 117.36)",
+          "oklch(95.00% 0.12383 117.36)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Soft rule",
+        "tonalRamp": [
+          "oklch(15.00% 0.02007 305.23)",
+          "oklch(26.43% 0.02007 305.23)",
+          "oklch(37.86% 0.02007 305.23)",
+          "oklch(49.29% 0.02007 305.23)",
+          "oklch(60.71% 0.02007 305.23)",
+          "oklch(72.14% 0.02007 305.23)",
+          "oklch(83.57% 0.02007 305.23)",
+          "oklch(95.00% 0.02007 305.23)"
+        ]
+      }
+    },
+    "tonalRampNote": "Synthetic display ramps only: eight OKLCH lightness steps retain each source hue and chroma for the panel swatch strip. These are extensions, not implemented CSS colors or new design tokens. Browser gamut mapping may affect their rendered appearance.",
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Shared page-heading baseline; surface-specific overrides remain in source CSS."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Shared section-heading baseline with responsive and prose overrides."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Shared compact-heading baseline; long bibliographic titles use more open line heights."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default reading role; supporting copy and mobile prose use contextual sizes."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Explicit field labels, not decorative eyebrows."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Shared SVG arrow, node opacity, and initial field easing."
+      },
+      {
+        "name": "color-state",
+        "value": ".2s",
+        "purpose": "Button and filter color changes."
+      },
+      {
+        "name": "arrow-state",
+        "value": ".22s",
+        "purpose": "Small SVG arrow translations."
+      },
+      {
+        "name": "node-state",
+        "value": ".4s",
+        "purpose": "Research-node opacity and fill changes."
+      },
+      {
+        "name": "field-settle",
+        "value": "1.4s",
+        "purpose": "Initial publication-field rotation from -14deg to 0."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none !important; transition: none !important; scroll-behavior: auto",
+        "purpose": "The implemented reduced-motion media query removes motion without hiding information."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1150px"
+      },
+      {
+        "name": "menu-and-tablet",
+        "value": "960px"
+      },
+      {
+        "name": "phone",
+        "value": "680px"
+      },
+      {
+        "name": "narrow-phone",
+        "value": "360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Violet action with the shared stroked arrow.",
+      "html": "<a class=\"ds-button ds-primary\" href=\"/publications/\">Explore our research <svg class=\"ds-arrow\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:34px;min-height:54px;padding:15px 22px;border:0;border-radius:8px;font-weight:600;font-size:16px;text-decoration:none;line-height:1.3;transition:background-color .2s,color .2s;font-family:var(--body,'Hanken Grotesk',sans-serif);}.ds-button:focus-visible{outline:3px solid var(--purple,#51358a);outline-offset:5px;}.ds-arrow{flex-shrink:0;vertical-align:middle;transition:transform .22s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-button:hover .ds-arrow{transform:translateX(4px)}.ds-button:disabled{cursor:not-allowed;opacity:.45}@media(prefers-reduced-motion:reduce){.ds-button,.ds-arrow{transition:none}}.ds-primary{background:var(--purple,#51358a);color:var(--paper,#fff)}.ds-primary:hover{background:var(--purple-dark,#38245f)}"
+    },
+    {
+      "name": "Light button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Chartreuse action used on violet invitation fields.",
+      "html": "<a class=\"ds-button ds-light\" href=\"/openings/\">Find your place in the lab <svg class=\"ds-arrow\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:34px;min-height:54px;padding:15px 22px;border:0;border-radius:8px;font-weight:600;font-size:16px;text-decoration:none;line-height:1.3;transition:background-color .2s,color .2s;font-family:var(--body,'Hanken Grotesk',sans-serif);}.ds-button:focus-visible{outline:3px solid var(--purple,#51358a);outline-offset:5px;}.ds-arrow{flex-shrink:0;vertical-align:middle;transition:transform .22s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-button:hover .ds-arrow{transform:translateX(4px)}.ds-button:disabled{cursor:not-allowed;opacity:.45}@media(prefers-reduced-motion:reduce){.ds-button,.ds-arrow{transition:none}}.ds-light{background:var(--acid,#e4f694);color:var(--purple-dark,#38245f)}.ds-light:hover{background:#f0ffc4}"
+    },
+    {
+      "name": "Publication search",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "Explicitly labeled white field with a leading SVG search icon.",
+      "html": "<div class=\"ds-search\"><label for=\"ds-publication-search\">Search publications</label><div class=\"ds-input-wrap\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"m16 16 5 5\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg><input type=\"search\" id=\"ds-publication-search\" placeholder=\"Search by title, author, or topic\" autocomplete=\"off\"></div></div>",
+      "css": ".ds-search{color:var(--ink,#282234);font-family:var(--body,'Hanken Grotesk',sans-serif);}.ds-search label{display:block;font-size:13px;font-weight:600;margin-bottom:9px}.ds-input-wrap{position:relative}.ds-input-wrap>svg{position:absolute;left:17px;top:16px;color:var(--muted,#686173)}.ds-input-wrap input{box-sizing:border-box;width:100%;border:1px solid var(--line,#d9d3e1);background:var(--paper,#fff);color:var(--ink,#282234);padding:14px 16px 14px 49px;height:55px;font-size:16px;border-radius:8px;caret-color:var(--purple,#51358a);font-family:var(--body,'Hanken Grotesk',sans-serif);}.ds-input-wrap input::placeholder{color:var(--muted,#686173);opacity:1}.ds-input-wrap input:focus-visible{outline:3px solid var(--purple,#51358a);outline-offset:5px;}"
+    },
+    {
+      "name": "Archive filters",
+      "kind": "chip",
+      "refersTo": "archive-filter",
+      "description": "Transparent archive buttons with an explicit selected state.",
+      "html": "<div class=\"ds-filters\" role=\"group\" aria-label=\"Publication type\"><button type=\"button\" aria-pressed=\"true\">All work</button><button type=\"button\" aria-pressed=\"false\">Journal articles</button><button type=\"button\" aria-pressed=\"false\">Preprints</button></div>",
+      "css": ".ds-filters{display:flex;gap:7px;flex-wrap:wrap}.ds-filters button{background:transparent;color:var(--ink,#282234);border:1px solid var(--line,#d9d3e1);padding:9px 14px;font-size:13px;min-height:40px;white-space:nowrap;border-radius:6px;transition:background-color .2s,color .2s;cursor:pointer;font-family:var(--body,'Hanken Grotesk',sans-serif);}.ds-filters button:hover{background:var(--purple-pale,#e9e2f2)}.ds-filters button[aria-pressed=true]{background:var(--purple,#51358a);border-color:var(--purple,#51358a);color:white}.ds-filters button:focus-visible{outline:3px solid var(--purple,#51358a);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-filters button{transition:none}}"
+    },
+    {
+      "name": "Research lens filters",
+      "kind": "chip",
+      "refersTo": "lens-filter-selected",
+      "description": "Five controls use the archive’s shared, overlapping topic assignments; selected controls reverse to chartreuse.",
+      "html": "<div class=\"ds-lens\"><div class=\"ds-lens-controls\" role=\"group\" aria-label=\"Highlight a research theme\"><button type=\"button\" aria-pressed=\"true\">All work</button><button type=\"button\" aria-pressed=\"false\">Integrity</button><button type=\"button\" aria-pressed=\"false\">Discovery</button><button type=\"button\" aria-pressed=\"false\">Ecosystem</button><button type=\"button\" aria-pressed=\"false\">Methods</button></div></div>",
+      "css": ".ds-lens{background:var(--purple,#51358a);border-radius:var(--radius,14px);padding:24px 28px 0}.ds-lens-controls{display:flex;flex-wrap:wrap;gap:5px;margin:4px 0 20px}.ds-lens-controls button{flex:1;background:transparent;color:#efe8fa;border:1px solid #9479b9;padding:8px 7px;font-size:12px;min-height:38px;white-space:nowrap;border-radius:6px;transition:background .2s,color .2s;cursor:pointer;font-family:var(--body,'Hanken Grotesk',sans-serif);}.ds-lens-controls button:hover{background:#674aa0}.ds-lens-controls button[aria-pressed=true]{background:var(--acid,#e4f694);color:var(--purple-dark,#38245f);border-color:var(--acid,#e4f694);font-weight:600}.ds-lens-controls button:focus-visible{outline:3px solid var(--acid,#e4f694);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-lens-controls button{transition:none}}"
+    },
+    {
+      "name": "Primary navigation",
+      "kind": "nav",
+      "refersTo": "nav-join",
+      "description": "Compact navigation with a current-page rule and outlined openings action.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"/publications/\" aria-current=\"page\">Publications</a><a href=\"/people/\">People</a><a class=\"ds-nav-join\" href=\"/openings/\">Join us <svg class=\"ds-arrow\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:28px;font-size:15px;font-weight:500;color:var(--ink,#282234);font-family:var(--body,'Hanken Grotesk',sans-serif);}.ds-nav>a{text-decoration:none;position:relative;white-space:nowrap}.ds-nav>a:hover,.ds-nav>a[aria-current=page]{color:var(--purple,#51358a)}.ds-nav>a[aria-current=page]:not(.ds-nav-join)::after{content:\"\";position:absolute;left:0;right:0;bottom:-10px;height:2px;background:var(--purple,#51358a)}.ds-nav .ds-nav-join{display:flex;gap:15px;align-items:center;border:1px solid var(--purple,#51358a);border-radius:8px;padding:11px 15px;color:var(--purple,#51358a)}.ds-nav .ds-nav-join:hover,.ds-nav .ds-nav-join[aria-current=page]{color:white;background:var(--purple,#51358a)}.ds-nav>a:focus-visible{outline:3px solid var(--purple,#51358a);outline-offset:5px;}.ds-arrow{flex-shrink:0;vertical-align:middle}"
+    },
+    {
+      "name": "Selected publication",
+      "kind": "card",
+      "refersTo": "selected-paper",
+      "description": "An open record with a top rule, scholarly metadata, and a circular paper link.",
+      "html": "<article class=\"ds-paper\"><h3><a href=\"https://doi.org/10.1126/sciadv.adt2792\">Estimating the predictability of questionable open-access journals</a></h3><div class=\"ds-paper-meta\"><span>Research integrity</span><span>2025</span></div><p>Han Zhuang, Lizhen Liang, Daniel E. Acuna</p><div class=\"ds-paper-bottom\"><span>Science Advances</span><a href=\"https://doi.org/10.1126/sciadv.adt2792\" aria-label=\"Read Estimating the predictability of questionable open-access journals\"><svg class=\"ds-arrow\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div></article>",
+      "css": ".ds-paper{display:flex;flex-direction:column;padding:30px 0 27px;border-top:1px solid var(--line,#d9d3e1);color:var(--ink,#282234);font-family:var(--body,'Hanken Grotesk',sans-serif);}.ds-paper h3{margin:0;font-size:24px;font-weight:500;line-height:1.3;letter-spacing:-.025em;max-width:520px;font-family:var(--display,Sora,sans-serif);}.ds-paper h3 a{color:inherit;text-decoration:none}.ds-paper h3 a:hover{color:var(--purple,#51358a);text-decoration:underline}.ds-paper-meta{display:flex;justify-content:space-between;gap:20px;font-size:12px;color:var(--purple,#51358a);margin-top:16px}.ds-paper-meta>span:last-child{color:var(--muted,#686173);font-variant-numeric:tabular-nums}.ds-paper>p{font-size:14px;color:var(--muted,#686173);line-height:1.5;margin-top:17px;margin-bottom:25px}.ds-paper-bottom{display:flex;align-items:center;gap:24px;justify-content:space-between;margin-top:auto;font-size:13px}.ds-paper-bottom>span{color:var(--muted,#686173);max-width:90%}.ds-paper-bottom>a{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:var(--purple-pale,#e9e2f2);color:var(--purple,#51358a);flex-shrink:0}.ds-paper-bottom>a:hover{background:var(--purple,#51358a);color:white}.ds-paper a:focus-visible{outline:3px solid var(--purple,#51358a);outline-offset:5px;}.ds-arrow{flex-shrink:0;vertical-align:middle}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Optical research bench",
+    "overview": "The implemented system sets geometric scientific forms against a cool, light reading surface. Violet identifies interactive elements and contains the publication lens; chartreuse marks selections and invitations. Open rows, clear type, and generous separation let dense research records coexist with short introductory passages.\n\nThis is a scan of the completed implementation in `assets/css/lab.css`, `assets/js/lab.js`, the lab layout, and its components. The north star describes the code-led direction recorded in the layout; it is not a claim that the user approved this palette or a particular composition. Audience priority remains provisional. The user requires the original diamond logo: a gray diamond with blue and cyan left semicircles and transparent surroundings. It is reconstructed as an SVG and shared by the header, footer, and icons. AI restoration was explored through the Codex CLI, but its altered colors and painted transparency were unsuitable; no AI-generated raster is shipped. Existing photographs and publication-linked SVG geometry provide the other visual evidence.",
+    "keyCharacteristics": [
+      "Cool reading surfaces, violet structure, and chartreuse selection.",
+      "Sora headings paired with Hanken Grotesk reading and control text.",
+      "Flat, ruled records with selective rounded panels.",
+      "Real portraits, precise SVG geometry, and addressable publications.",
+      "Native links and disclosure elements, with optional filtering and restrained motion."
+    ],
+    "rules": [
+      {
+        "name": "The Selection Contrast Rule",
+        "body": "Selected archive filters use violet with white text; selected filters inside the violet lens use chartreuse with deep-violet text. Preserve the explicit pressed state as well as the color change.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Measure Rule",
+        "body": "Constrain prose and supporting copy independently of the outer page container; use open line height for bibliographic titles and author lists.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Records Rule",
+        "body": "Keep publication, news, funding, and research records on their reading plane, separated by rules and space. Reserve filled rounded fields for the panel patterns that already use them.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** use the source palette and the two locally hosted font families across new surfaces.",
+      "**Do** keep explicit labels, visible focus, current navigation, and pressed filter states alongside their visual treatments.",
+      "**Do** use rules and whitespace to organize reading records, and constrain prose within wide layouts.",
+      "**Do** preserve native links, readable content without JavaScript, and a complete reduced-motion presentation.",
+      "**Do** use real photographs and publication evidence, with honest text fallbacks when an asset is missing."
+    ],
+    "donts": [
+      "**Don't** add shadows to the existing flat record and panel patterns.",
+      "**Don't** treat the lens as evidence of citation relationships or invent research links to fill it.",
+      "**Don't** promote homepage-specific composition, tiny decorative labels, or one-off color variations into reusable system requirements.",
+      "**Don't** present the implemented direction or unresolved identity assumptions as user-approved brand policy."
+    ]
+  }
+}

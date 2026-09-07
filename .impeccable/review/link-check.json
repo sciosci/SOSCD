@@ -1,0 +1,20 @@
+{
+  "html_pages": 14,
+  "missing_internal_links": [],
+  "broken_anchors": [],
+  "duplicate_ids": [],
+  "missing_images": [],
+  "referenced_rasters_with_added_origin": [
+    "assets/images/publications/13688_2023_380_Fig2_HTML.webp.json",
+    "assets/images/publications/aies_pub.png.json",
+    "assets/images/publications/biasai_pub.png.json",
+    "assets/images/publications/citeworthiness_pub.png.json",
+    "assets/images/publications/datarank_pub.png.json",
+    "assets/images/publications/deadscience_pub.png.json",
+    "assets/images/publications/journal.pcbi.1009650.g009.png.json",
+    "assets/images/publications/journal.pone.0273994.g002.png.json",
+    "assets/images/publications/mentorship_pub.png.json",
+    "assets/images/publications/paraphrase_preprint.png.json",
+    "assets/images/publications/predicting_longevity/figure8_b.png.json"
+  ]
+}

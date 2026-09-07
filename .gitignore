@@ -38,3 +38,8 @@ Gemfile.lock
 node_modules
 npm-debug.log*
 .idea
+
+# Local design review and browser captures
+.playwright-mcp/
+.impeccable/review/*.png
+.impeccable/mocks/

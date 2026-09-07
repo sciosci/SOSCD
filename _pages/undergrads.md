@@ -4,8 +4,10 @@ permalink: /undergrads/
 author_profile: false
 title: "Research Opportunities for Undergraduate Students"
 toc: true
----  
-  
+---
+
+<div class="archive-note">This page describes past undergraduate research opportunities. See <a href="{{ "/openings/" | relative_url }}">current openings</a> for the lab’s present recruiting status.</div>
+
 The [Science of Science and Computational Discovery (SOS+CD) Lab](https://scienceofscience.org) encourages and welcomes undergraduate students to participate in  exciting research projects!
 
 The SOS+CD Lab works on understanding current practices in science and developing semi-automated methods to mine scientific knowledge from vast, unstructured dataset of full-text publications, citations, and images.   

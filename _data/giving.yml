@@ -1,0 +1,9 @@
+# Set both values only after CU Advancement confirms the lab's designated fund.
+# Until then, the public page offers a contact route and no payment button.
+fund_name: ""
+fund_url: ""
+contact_email: daniel.acuna@colorado.edu
+advancement_email: kristen.gallagher@colorado.edu
+advancement_url: https://www.colorado.edu/engineering/giving
+giving_faq_url: https://www.giving.cu.edu/faq
+recurring_gifts_url: https://www.giving.cu.edu/faq/set-and-manage-recurring-gifts

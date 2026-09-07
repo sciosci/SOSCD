@@ -1,0 +1,36 @@
+---
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3f8">
+  {% include seo.html %}
+  {% if page.citation_title %}{% include head/paper_meta.html %}{% endif %}
+  <link rel="icon" href="{{ '/assets/images/lab/favicon-32.png' | relative_url }}" type="image/png" sizes="32x32">
+  <link rel="icon" href="{{ '/assets/images/lab/logo.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/lab/apple-touch-icon.png' | relative_url }}" sizes="180x180">
+  <link rel="preload" href="{{ '/assets/fonts/sora-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/assets/fonts/hanken-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/assets/css/lab.css' | relative_url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  {% if page.url == '/publications/' %}<script src="{{ '/assets/js/publication-search.js' | relative_url }}" defer></script>{% endif %}
+  <script src="{{ '/assets/js/lab.js' | relative_url }}" defer></script>
+</head>
+<body id="top" class="{% if page.url == '/' %}is-home{% else %}is-interior{% endif %} route-{% if page.url == "/" %}home{% else %}{{ page.url | slugify }}{% endif %}">
+  <!--
+  THESIS: Science itself is the specimen. Real research questions lead an inspectable field of work.
+  OWN-WORLD: Cool white, saturated violet, chartreuse selection; Sora display, Hanken Grotesk reading; optical rings and precise open layouts.
+  STORY: Understand what this lab studies, explore its publications, meet its people, and find a research opportunity.
+  FIRST VIEWPORT: Oversized left-aligned purpose, a violet research specimen to the right, visible publication action, topic controls beneath the field.
+  FORM: Optical research bench, grounded direction 4, seed 0f53ec25. Code-led execution; the selected research lens changes the specimen and its associated paper.
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+  -->
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include lab-header.html %}
+  {{ content }}
+  {% include lab-footer.html %}
+  {% if jekyll.environment == 'production' %}{% include analytics.html %}{% endif %}
+</body>
+</html>

@@ -1,0 +1,320 @@
+---
+topics:
+  integrity:
+    label: Research integrity
+    short_label: Integrity
+    description: 'Trustworthy research: figure and journal quality, citation practices,
+      review bias, reproducibility, and responsible AI.'
+    aliases:
+    - integrity
+    - research integrity
+    - scientific integrity
+    count: 18
+  discovery:
+    label: Peer review & discovery
+    short_label: Discovery
+    description: Scientific peer review, research recommendation, and computational
+      tools for finding and interpreting scholarly information.
+    aliases:
+    - discovery
+    - computational discovery
+    - peer review and discovery
+    - peer review and computational discovery
+    count: 24
+  ecosystem:
+    label: Science of science
+    short_label: Ecosystem
+    description: How careers, collaboration, funding, recognition, and scholarly infrastructure
+      shape science.
+    aliases:
+    - science of science
+    - ecosystem
+    - research ecosystem
+    - scientometrics
+    - bibliometrics
+    - science
+    count: 33
+  foundations:
+    label: Cognition & methods
+    short_label: Methods
+    description: Foundational work in learning, decision-making, neuroscience, human–computer
+      interaction, and computational methods.
+    aliases:
+    - cognition and methods
+    - cognition
+    - foundations
+    - methods
+    count: 25
+tags:
+  ai-bias:
+    label: AI bias & explainability
+    aliases:
+    - ai bias
+    - perception bias
+    - explainable ai
+    - comparative explanations
+    - algorithmic bias
+    count: 2
+  citation-analysis:
+    label: Citation analysis
+    aliases:
+    - citations
+    - citation networks
+    - citation impact
+    - h index
+    count: 10
+  citation-practices:
+    label: Citation practices
+    aliases:
+    - citation worthiness
+    - citation worthiness detection
+    - citation missingness
+    - missing citations
+    count: 1
+  dataset-discovery:
+    label: Dataset discovery & reuse
+    aliases:
+    - dataset discovery
+    - data discovery
+    - dataset reuse
+    - data reuse
+    - dataset credit
+    count: 5
+  decision-making:
+    label: Decision-making
+    aliases:
+    - decision making
+    - uncertainty
+    - bayesian
+    - bandit
+    - exploration
+    count: 12
+  diversity:
+    label: Diversity & inclusion
+    aliases:
+    - diversity
+    - inclusion
+    - gender
+    - inequality
+    - disparities
+    - equity
+    count: 8
+  figure-accessibility:
+    label: Figure accessibility
+    aliases:
+    - figure readability
+    - color blindness
+    - colour blindness
+    - figure explainability
+    count: 1
+  figure-integrity:
+    label: Figure integrity
+    aliases:
+    - scientific figure integrity
+    count: 5
+  graphical-integrity:
+    label: Graphical integrity
+    aliases:
+    - misleading graphs
+    - misleading charts
+    - proportional ink
+    - graphical integrity
+    count: 2
+  human-computer-interaction:
+    label: Human–computer interaction
+    aliases:
+    - human computer interaction
+    - hci
+    - robotics
+    - mobile computing
+    count: 3
+  image-forensics:
+    label: Image reuse & forensics
+    aliases:
+    - image integrity
+    - figure reuse
+    - image reuse
+    - image duplication
+    - image manipulation
+    - image tampering
+    - image forensics
+    count: 3
+  interdisciplinarity:
+    label: Interdisciplinarity
+    aliases:
+    - interdisciplinarity
+    - interdisciplinary
+    - interdisciplinary engagement
+    count: 2
+  language-models:
+    label: Language models
+    aliases:
+    - llm
+    - llms
+    - large language models
+    - generative ai
+    count: 4
+  mentorship:
+    label: Mentorship
+    aliases:
+    - mentorship
+    - mentoring
+    - mentors
+    count: 3
+  metadata-quality:
+    label: Metadata quality
+    aliases:
+    - reference missingness
+    - missing references
+    - openalex
+    - bibliometric data quality
+    count: 1
+  multimodal-learning:
+    label: Multimodal learning
+    aliases:
+    - multimodal
+    - multi modal
+    - contrastive learning
+    - image text retrieval
+    count: 3
+  neuroscience:
+    label: Neuroscience & motor learning
+    aliases:
+    - neuroscience
+    - motor learning
+    - chunking
+    - motor control
+    - neuroprostheses
+    - fes
+    count: 4
+  peer-review:
+    label: Peer review
+    aliases:
+    - peer review
+    - peerreview
+    - review
+    - reviewers
+    - scientific review
+    count: 5
+  perception:
+    label: Perception & psychophysics
+    aliases:
+    - perception
+    - psychophysics
+    - vision
+    - haptics
+    count: 3
+  questionable-journals:
+    label: Questionable journals
+    aliases:
+    - predatory journals
+    - blacklisted journals
+    - journal blacklisting
+    - predatory publishing
+    count: 3
+  recommender-systems:
+    label: Recommender systems
+    aliases:
+    - recommendation
+    - recommendations
+    - recommender
+    - recommendation systems
+    count: 6
+  reinforcement-learning:
+    label: Reinforcement learning
+    aliases:
+    - reinforcement learning
+    - rl
+    - grpo
+    count: 9
+  reproducibility:
+    label: Reproducibility & resource longevity
+    aliases:
+    - reproducibility
+    - reproducible research
+    - resource longevity
+    - link rot
+    - dead science
+    - resource decay
+    count: 3
+  funding:
+    label: Research funding
+    aliases:
+    - funding
+    - grants
+    - grant recommendation
+    - science policy
+    - energy research
+    count: 5
+  research-recommendation:
+    label: Research recommendation
+    aliases:
+    - scientific recommendation
+    - literature recommendation
+    - literature discovery
+    - research directions
+    count: 4
+  responsible-ai:
+    label: Responsible AI
+    aliases:
+    - ai ethics
+    - responsible ai
+    - research misconduct
+    - responsible conduct of research
+    count: 2
+  review-bias:
+    label: Review bias
+    aliases:
+    - peer review bias
+    - reviewer bias
+    - author suggested reviewers
+    count: 2
+  scholarly-data:
+    label: Scholarly data & tools
+    aliases:
+    - scholarly data
+    - scholarly tools
+    - scholarly metadata
+    - pubmed
+    - author disambiguation
+    - name disambiguation
+    count: 11
+  careers:
+    label: Scientific careers & recognition
+    aliases:
+    - scientific careers
+    - academic careers
+    - scientific success
+    - recognition
+    - awards
+    count: 6
+  statistical-methods:
+    label: Statistical methods & software
+    aliases:
+    - statistical methods
+    - statistical software
+    - generalized linear models
+    - elastic net
+    - pyglmnet
+    count: 7
+  collaboration:
+    label: Teams & collaboration
+    aliases:
+    - collaboration
+    - scientific teams
+    - team science
+    - teamwork
+    - leadership
+    - coauthorship
+    count: 7
+  text-mining:
+    label: Text mining & NLP
+    aliases:
+    - text mining
+    - nlp
+    - natural language processing
+    - knowledge extraction
+    - information extraction
+    - paraphrase
+    - paraphrases
+    count: 14

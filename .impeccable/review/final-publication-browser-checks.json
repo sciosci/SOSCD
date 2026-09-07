@@ -1,0 +1,122 @@
+{
+  "lens": {
+    "previewed": 70,
+    "fail": [],
+    "escaped": true,
+    "topics": {
+      "all": 70,
+      "integrity": 18,
+      "discovery": 24,
+      "ecosystem": 33,
+      "foundations": 25
+    }
+  },
+  "archive": {
+    "total": 70,
+    "facetChecks": 36,
+    "failures": [],
+    "formats": {
+      "article": 33,
+      "preprint": 13,
+      "inproceedings": 21,
+      "webarticle": 1,
+      "incollection": 1,
+      "phdthesis": 1
+    },
+    "preprints2025": [
+      "taechoyotin2025remor"
+    ],
+    "queries": {
+      "integrity": [
+        "abatayo2026credibility",
+        "acuna2018bioscience",
+        "acuna2020mentorshipcommentary",
+        "acuna2020nullmodel",
+        "acuna2022",
+        "acuna2022predicting",
+        "liang2020don",
+        "liangacuna2020",
+        "meguimtsop2026sciintbench",
+        "teplitskiy2018sociology",
+        "xiang2020tampering",
+        "zeng2019dead",
+        "zeng2020modeling",
+        "zhou2026widespread",
+        "zhuang2023computational",
+        "zhuang2025estimating",
+        "zhuangacuna2020",
+        "zhuangacuna2021"
+      ],
+      "peer review & discovery": [
+        "Bibal2024",
+        "achakulvisut2016science",
+        "achakulvisut2019claim",
+        "achakulvisut2020neuromatch",
+        "achakulvisut2020pubmed",
+        "acuna2021eileen",
+        "acuna2021mlworkshop",
+        "acuna2022",
+        "bu2022workshop",
+        "lancichinetti2015topic",
+        "leto2024first",
+        "meguimtsop2026sciintbench",
+        "taechoyotin2024mamorx",
+        "taechoyotin2024misti",
+        "taechoyotin2025remor",
+        "taechoyotin2026remctx",
+        "teplitskiy2018sociology",
+        "varasteh2024comparative",
+        "zeng2020assigning",
+        "zeng2020finding",
+        "zeng2020gotfunding",
+        "zeng2020modeling",
+        "zengacuna2020",
+        "zhou2022paraphrase"
+      ],
+      "image forensics": [
+        "acuna2018bioscience",
+        "acuna2020nullmodel",
+        "xiang2020tampering"
+      ],
+      "Dataset Mention Extraction in Scientific Articles Using Bi-LSTM-CRF Model": [
+        "zeng2020finding"
+      ],
+      "Shared Leadership in Scientific Teams: Heterogeneity vs. Homogeneity": [
+        "XU2024103542"
+      ],
+      "Beyond a Number Game: Flat Structures Foster Minority Inclusion in Diverse Scientific Teams": [
+        "xu2026beyond"
+      ],
+      "Jian Wu": [
+        "abatayo2026credibility"
+      ]
+    },
+    "years": [
+      "all",
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020",
+      "2019",
+      "2018",
+      "2017",
+      "2016",
+      "2015",
+      "2014",
+      "2013",
+      "2012",
+      "2011",
+      "2010",
+      "2009",
+      "2008"
+    ],
+    "authorsDisclosure": "All 83 authors",
+    "overflow": false
+  },
+  "authorsOpen": true,
+  "mobileOverflow": false,
+  "errors": []
+}

@@ -1,112 +1,27 @@
 ---
-layout: single
-permalink: /people/
-header:
-  image: /assets/images/splash_images/people.png
-author_profile: false
+layout: lab
 title: "People"
-# sticky toc: true
-toc: true
-toc_label: "Sections"
-toc_icon: "cog"
-toc_sticky: true
+permalink: /people/
+description: "Meet the people behind the Science of Science & Computational Discovery Lab."
 ---
-
-## Principal Investigator
-
-<style>
-.container {
-  display: flex;
-  flex-wrap: wrap; /* This will allow the figures to wrap onto the next line if the container's width is not enough */
-  align-items: flex-start;
-}
-h2 {
-  margin-top: 20px;
-}
-  .author__avatar {
-    max-width: 150px;
-    max-height: 150px;
-    border-radius: 50%;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  figcaption {
-    /* reset font-family */
-    font-family: inherit;
-  }
-
-  /* Add styles for figure */
-  figure.author__figure {
-    max-width: 200px;
-    transition: transform 0.3s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* add margin to the right of the image */
-    margin-right: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    /*align-items: center;*/
-  }
-
-  /* Remove underline from links */
-  figure.author__figure a {
-    text-decoration: none;
-  }
-
-  /* Add styles for figcaption */
-  figure.author__figure figcaption {
-    text-align: center;
-  }
-
-  /* Add hover effect */
-  figure.author__figure:hover {
-    transform: scale(1.01);
-  }
-
-  /* no link underlines */
-  .page__content a:not(.btn):hover {
-    text-decoration: none;
-  }
-</style>
-<div class="container">
-{% include member.html  url="https://acuna.io" image="/assets/images/people/acuna-daniel.png" name="Daniel Acuna" position="Associate Professor of Computer Science (and Information Science, by courtesy) at CU Boulder" %}
-</div>
-
-## Doctoral students
-
-<div class="container">
-
-{% include member.html name="Carolina Chávez-Ruelas" image="/assets/images/people/carolina.png" url="https://carolinachru.github.io/" position="CS Dept, from Fall 2023 (w/ Aaron Clauset)" %}
-
-{% include member.html name="Pawin Taechoyotin" image="/assets/images/people/pawin_picture.png" url="https://pawin.io/" position="Department of Computer Science, since Fall 2024"%}
-
-{% include member.html name="Almene De Meran Meguimtsop" url="https://almene08.github.io/" position="Department of Computer Science, since Fall 2024"%}
-
-{% include member.html name="Christopher Ebuka Ojukwu" image="/assets/images/people/christoper.JPEG" url="https://christopherebukaojukwu.github.io/" position="Department of Computer Science, since Fall 2024"%}
-
-</div>
-## External research assistants
-
-<div class="container">
-
-{% include member.html url="https://www.unikaanalytics.com" name="Elizabeth Novoa" position="External consultant from
-Unika Analytics, since Summer 2018" %}
-
-</div>
-
-## Alumni
-
-### Postdoctoral researcher
+<main id="main" class="interior-main wrap people-page">
+  <header class="page-heading"><h1>The people behind<br>the questions.</h1><p>A shared curiosity about science. A range of perspectives on how to make it better.</p></header>
+  <section class="people-section" id="principal-investigator" aria-labelledby="pi-heading"><h2 id="pi-heading">Principal investigator</h2><div class="pi-profile"><img class="member-photo" src="{{ '/assets/images/lab/daniel.webp' | relative_url }}" alt="Daniel Acuña" width="640" height="640"><div><h3>Daniel Acuña</h3><p>Associate Professor of Computer Science, and Information Science by courtesy, at the University of Colorado Boulder.</p><a class="text-link" href="https://acuna.io/">Personal website {% include lab-arrow.html %}</a></div></div></section>
+  <section class="people-section" id="doctoral-students" aria-labelledby="doctoral-heading"><h2 id="doctoral-heading">Doctoral students</h2><div class="member-grid">
+    <article class="member"><a href="https://carolinachru.github.io/"><img class="member-photo" src="{{ '/assets/images/lab/carolina.webp' | relative_url }}" alt="Carolina Chávez-Ruelas" width="640" height="640" loading="lazy"><h3>Carolina<br>Chávez-Ruelas</h3><p>Computer Science, since Fall 2023<br>Co-advised with Aaron Clauset</p><span class="member-link">Personal website {% include lab-arrow.html %}</span></a></article>
+    <article class="member"><a href="https://pawin.io/"><img class="member-photo" src="{{ '/assets/images/lab/pawin.webp' | relative_url }}" alt="Pawin Taechoyotin" width="640" height="640" loading="lazy"><h3>Pawin<br>Taechoyotin</h3><p>Department of Computer Science<br>Since Fall 2024</p><span class="member-link">Personal website {% include lab-arrow.html %}</span></a></article>
+    <article class="member"><a href="https://almene08.github.io/"><div class="member-placeholder" aria-hidden="true">AM</div><h3>Almene De Meran<br>Meguimtsop</h3><p>Department of Computer Science<br>Since Fall 2024</p><span class="member-link">Personal website {% include lab-arrow.html %}</span></a></article>
+    <article class="member"><a href="https://christopherebukaojukwu.github.io/"><img class="member-photo" src="{{ '/assets/images/lab/christopher.webp' | relative_url }}" alt="Christopher Ebuka Ojukwu" width="640" height="640" loading="lazy"><h3>Christopher Ebuka<br>Ojukwu</h3><p>Department of Computer Science<br>Since Fall 2024</p><span class="member-link">Personal website {% include lab-arrow.html %}</span></a></article>
+  </div></section>
+  <section class="people-section" id="external-research-assistants" aria-labelledby="external-heading"><h2 id="external-heading">External research assistants</h2><div class="prose"><h3>Elizabeth Novoa</h3><p>External consultant from <a href="https://www.unikaanalytics.com">Unika Analytics</a>, since Summer 2018.</p></div></section>
+  <section class="people-section" id="alumni" aria-labelledby="alumni-heading"><h2 id="alumni-heading">Alumni</h2><div class="alumni-content">
+<details class="alumni-group"><summary><span>Postdoctoral researcher</span><span class="alumni-count">1 person</span></summary><div markdown="1">
 
 - [Qing Ke](http://qke.github.io/), since Fall 2020 - August 2021, now Assistant Professor
   School of Data Science, City University of Hong Kong
 
-### Ph.D. students
+</div></details>
+<details class="alumni-group"><summary><span>Ph.D. students</span><span class="alumni-count">4 people</span></summary><div markdown="1">
 
 - Yifan Tian, Department of Computer Science, Fall 2025 - 2026
 
@@ -118,14 +33,16 @@ Unika Analytics, since Summer 2018" %}
 - [Lizhen Liang](https://liamliang.github.io/), Research Assistant, iSchool, Fall 2018-Spring 2020 as Master's student,
   Fall 2020 - Spring 2023 as a Ph.D. student
 
-### Visiting scholar
+</div></details>
+<details class="alumni-group"><summary><span>Visiting scholar</span><span class="alumni-count">1 person</span></summary><div markdown="1">
 
 - [Tong Zeng (曾通)](https://scholar.google.com/citations?user=E1HI8OoAAAAJ&hl=en&oi=ao), Doctoral student in
   Information Science,
   [School of Information Management](https://www.nju.edu.cn/EN/7f/7d/c7136a163709/page.htm),
   [Nanjing University](https://www.nju.edu.cn/EN/) (Fall 2017 - Spring 2021), now at a startup in Shanghai
 
-### Ph.D. student practica
+</div></details>
+<details class="alumni-group"><summary><span>Ph.D. student practica</span><span class="alumni-count">7 people</span></summary><div markdown="1">
 
 - [LaRoyce Jermaine Covington Jr.](https://ljcovingtonjr.github.io/), iSchool, Fall 2021 - Summer 2022
 - [Jinfen Li](https://ischool.syr.edu/jinfen-li/), Teaching Practica, Spring 2022
@@ -139,7 +56,8 @@ Unika Analytics, since Summer 2018" %}
 - [Alain Shema](http://alainshema.com), Graduate Assistant, Teaching and Research
   Practica (Fall 2016 - Spring 2018)
 
-### Master's students
+</div></details>
+<details class="alumni-group"><summary><span>Master's students</span><span class="alumni-count">30 people</span></summary><div markdown="1">
 
 - Diego Muñoz, Department of Computer Science, Fall 2024 - Spring 2025
 - Lin Shi, Department of Computer Science, Spring 2024 - Fall 2024
@@ -176,8 +94,14 @@ Unika Analytics, since Summer 2018" %}
 - Manas Sikri, MS (2017), iSchool, Goldman Sachs
 - Shrutik Katchhi, MS (2017), iSchool, Ernst & Young
 
-### Undergraduate students
+</div></details>
+<details class="alumni-group"><summary><span>Undergraduate students</span><span class="alumni-count">3 people</span></summary><div markdown="1">
 
 - Taeheun Lee, iSchool major, since Spring 2022 ([SOURCE grant](https://research.syr.edu/source/))
 - Chen Qiu, Computer Science major, since Spring 2022 ([SOURCE grant](https://research.syr.edu/source/))
 - Zachary Tyler Williams, iSchool major, since Fall 2021
+
+</div></details>
+</div></section>
+  <a class="text-link" href="{{ '/openings/' | relative_url }}">Interested in joining us? {% include lab-arrow.html %}</a>
+</main>

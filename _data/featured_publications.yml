@@ -1,0 +1,32 @@
+---
+- key: meguimtsop2026sciintbench
+  topic: Research integrity
+  title: 'SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under
+    Adversarial Framing'
+  url: https://arxiv.org/abs/2605.29468
+  authors: Almene De Meran Meguimtsop, Maria Leonor Pacheco, Daniel E. Acuna
+  venue: arXiv preprint arXiv:2605.29468
+  status: 2026 · Preprint / working paper
+- key: taechoyotin2026remctx
+  topic: AI for peer review
+  title: 'REM-CTX: Automated Peer Review via Reinforcement Learning with Auxiliary
+    Context'
+  url: https://arxiv.org/abs/2604.00248
+  authors: Pawin Taechoyotin, Daniel E. Acuna
+  venue: arXiv preprint arXiv:2604.00248
+  status: 2026 · Preprint / working paper
+- key: kusumegi2026dissecting
+  topic: Science of science
+  title: 'Dissecting the gender divide: authorship and acknowledgment in scientific
+    publications'
+  url: https://doi.org/10.1007/s11192-026-05712-z
+  authors: Keigo Kusumegi, Daniel E. Acuna, Yukie Sano
+  venue: Scientometrics
+  status: '2026'
+- key: zhuang2025estimating
+  topic: Research integrity
+  title: Estimating the predictability of questionable open-access journals
+  url: https://doi.org/10.1126/sciadv.adt2792
+  authors: Han Zhuang, Lizhen Liang, Daniel E. Acuna
+  venue: Science Advances
+  status: '2025'

@@ -1,179 +1,69 @@
-require 'yaml'
 require 'bibtex'
+require 'yaml'
+require 'cgi'
+require_relative 'lib/publication_catalog'
 
-# Parse the BibTeX file
-bib_data = BibTeX.open('./_bibliography/references.bib')
+# The bibliography remains the only source of publication facts.
+entries = BibTeX.open('./_bibliography/references.bib').entries.values
+entry_map = entries.to_h { |entry| [entry.key, entry] }
+catalog = PublicationCatalog.new(entries, YAML.safe_load(File.read('_data/publication_taxonomy.yml')))
+File.write('_data/publication_index.yml', catalog.index.to_yaml)
+File.write('_data/publication_facets.yml', catalog.facets.to_yaml)
+years = entries.map { |entry| entry[:year].to_s }.uniq.sort_by { |year| -year.to_i }
+html = years.map do |year|
+  <<~HTML
+    <section class="publication-year" data-year="#{year}" aria-labelledby="year-#{year}">
+      <h2 id="year-#{year}">#{year}</h2>
+      {% bibliography --query @*[year=#{year}] %}
+    </section>
+  HTML
+end.join("\n")
+page = File.read('_pages/publications.md')
+page = page.sub(/(<!-- DO NOT REMOVE THIS LINE : BEGIN -->).*?(<!-- DO NOT REMOVE THIS LINE : END -->)/m) { "#{$1}\n#{html}#{$2}" }
+File.write('_pages/publications.md', page)
 
-# Extract years and paper IDs
-year_paper_map = {}
-
-bib_data.entries.each do |entry|
-  entry = entry[1]  # Access the actual entry from the array
-  year = entry[:year].to_s || 'unknown'
-  paper_id = entry.key
-
-  year_paper_map[year] ||= []
-  year_paper_map[year] << paper_id
-end
-
-# Generate the script
-script = """
-<script type=\"text/javascript\">
-
-var waitForLoad = function () {
-    if (typeof $ != \"undefined\") {
-        $(document).ready(function() {
-            var filter = function() {
-                var doc_id_value = \"\";
-                var map_data = set_year_paper_id_map();
-                $(\".bib_entry\").each(function() {
-                    var entry_type_article = $(this).hasClass(\"entry_type_article\");
-                    var entry_type_conference = $(this).hasClass(\"entry_type_inproceedings\");                    
-                    var code_exists = $(this).hasClass(\"code_exists_true\");
-                    var demo_exists = $(this).hasClass(\"demo_exists_true\");
-                    var dataset_exists = $(this).hasClass(\"dataset_exists_true\");
-                    
-                    var show_based_on_entry_type = (entry_type_article && $(\"#entry_type_article\").is(\":checked\")) || 
-                                                   (entry_type_conference && $(\"#entry_type_conference\").is(\":checked\")) || 
-                                                   (dataset_exists && $(\"#entry_type_dataset\").is(\":checked\")) || 
-                                                   (code_exists && $(\"#entry_type_code\").is(\":checked\")) || 
-                                                   (demo_exists && $(\"#entry_type_demo\").is(\":checked\"));
-
-                    if (show_based_on_entry_type) {
-                        $(this).closest('li').show();
-                        $.each(this.attributes, function() {
-                            if (this.name === \"id\") {
-                                doc_id_value = this.value
-                            }
-                        });
-                        for (var year in map_data) {
-                            if (map_data.hasOwnProperty(year)) {
-                                map_data[year].forEach(function(item) {
-                                    if (doc_id_value === item) {
-                                        document.getElementById(year).style.display = \"block\";
-                                        document.getElementById(year + '-hr').style.display = \"block\";
-                                    }
-                                });
-                            }
-                        }
-                    } else {
-                        $(this).closest('li').hide();
-                    }
-                });
-
-            };
-            set_display_status();
-            filter();
-            $(\"input\").change(function() {
-                set_display_status();
-                filter();
-            });
-        });
-    } else {
-        setTimeout(waitForLoad, 100);
-    }
-};
-
-function set_display_status() {
-    // For every new header added to represent new year, set the display attribute to \"none\" in this function.
-"""
-
-# Add display settings for each year
-year_paper_map.each do |year, _|
-  if year.to_i > 2015
-    script += """
-        document.getElementById('#{year}').style.display = \"none\";
-        document.getElementById('#{year}-hr').style.display = \"none\";"""
+# A small, intentional selection; all bibliographic facts come from references.bib.
+selection = [
+  ['meguimtsop2026sciintbench', 'Research integrity'],
+  ['taechoyotin2026remctx', 'AI for peer review'],
+  ['kusumegi2026dissecting', 'Science of science'],
+  ['zhuang2025estimating', 'Research integrity']
+]
+featured = selection.filter_map do |key, topic|
+  entry = entry_map[key]
+  next unless entry
+  names = entry[:author].to_s.split(/\s+and\s+/).map do |name|
+    parts = name.split(',').map(&:strip)
+    parts.length > 1 ? "#{parts[1]} #{parts[0]}" : name
   end
+  {
+    'key' => key, 'topic' => topic, 'title' => entry[:title].to_s.delete('{}'),
+    'url' => entry[:url].to_s.gsub('\\_', '_'), 'authors' => names.join(', '),
+    'venue' => (entry[:journal] || entry[:booktitle]).to_s,
+    'status' => catalog.index.fetch(key).fetch('year_label')
+  }
 end
+File.write('_data/featured_publications.yml', featured.to_yaml)
 
-script += """
-        document.getElementById('2008-2015').style.display = \"none\";
-        document.getElementById('2008-2015-hr').style.display = \"none\";"""
-
-script += """
-}
-
-function set_year_paper_id_map() {
-    // Update the below object with the year and paper id of every new paper added in references.bib
-    return  {"""
-
-# Add year-paper_id mappings
-initial_papers = ""
-year_paper_map.each do |year, paper_ids|
-  if year.to_i <= 2015
-    paper_ids_str = paper_ids.join('", "')
-    initial_papers += paper_ids_str
-    initial_papers += '","'
-  else
-    paper_ids_str = paper_ids.join('", "')
-    script += """
-            '#{year}': [\"#{paper_ids_str}\"],"""
-  end
-end
-
-script += """
-            '2008-2015': [\"#{initial_papers}\"],"""
-
-script += """
-    }
-}
-waitForLoad();
-
-</script>
-"""
-
-sorted_years = year_paper_map.keys.sort.reverse
-
-script += """
-
-<h1  id='2050'> Under Review </h1>
-<hr id='2050-hr'>
-"""
-
-script += """
-
-{% bibliography --query @*[year>""" + sorted_years[1].to_s + """]%}
-"""
-
-sorted_years.each do |year|
-  if year.to_i > 2015 && year.to_i != 2050
-    script += """
-<h1  id='#{year}'> #{year} </h1>
-<hr  id='#{year}-hr'>"""
-    script += """
-{% bibliography --query @*[year=#{year}]%}
-"""
-  end
-end
-
-script += """
-<h1  id='2008-2015'> 2008-2015 </h1>
-<hr  id='2008-2015-hr'>
-{% bibliography --query @*[year<=2015]%}
-
-"""
-
-# Write the script to a markdown file
-#markdown_content = File.read('./_pages/publications.md')
-#markdown_content += script
-
-# Write back to the file
-#File.open('./_pages/publications.md', 'w') do |file|
-#  file.write(markdown_content)
-#end
-
-file_path = './_pages/publications.md'
-
-# Read the file
-content = File.read(file_path)
-
-# Insert the text between the specified lines
-new_content = content.gsub(/(<!-- DO NOT REMOVE THIS LINE : BEGIN -->)(.*?)(<!-- DO NOT REMOVE THIS LINE : END -->)/m) do
-  "#{$1}\n#{script}#{$3}"
-end
-
-# Write the updated content back to the file
-File.open(file_path, 'w') { |file| file.write(new_content) }
-
-puts "Markdown file 'publications.md' has been generated."
+# A radial index, not a citation graph: each point links to one actual work.
+# Radius uses actual publication years, including preprints.
+sorted = entries.sort_by { |entry| [entry[:year].to_i, entry.key] }
+first_year, last_year = years.map(&:to_i).minmax
+nodes = sorted.each_with_index.map do |entry, i|
+  year = entry[:year].to_i
+  radius = 58 + (year - first_year).to_f / [last_year - first_year, 1].max * 148
+  angle = i * 2.399963229728653
+  x, y = 260 + Math.cos(angle) * radius, 242 + Math.sin(angle) * radius
+  title = entry[:title].to_s.delete('{}')
+  topics = catalog.index.fetch(entry.key).fetch('topics').join(' ')
+  label = "#{title} (#{catalog.index.fetch(entry.key).fetch('year_label')})"
+  href = CGI.escapeHTML(entry[:url].to_s.gsub('\\_', '_'))
+  href = "{{ '/publications/##{entry.key}' | relative_url }}" if href.empty?
+  <<~SVG
+    <a href="#{href}" class="research-node" data-paper="#{CGI.escapeHTML(entry.key)}" data-topics="#{topics}" aria-label="#{CGI.escapeHTML(label)}"><circle class="node-target" cx="#{x.round(2)}" cy="#{y.round(2)}" r="11" fill="transparent"/><circle class="node-dot" cx="#{x.round(2)}" cy="#{y.round(2)}" r="#{catalog.index.fetch(entry.key).fetch('format') == 'preprint' ? 5.5 : 4}"/></a>
+  SVG
+end.join
+File.write('_includes/research-nodes.html', nodes)
+File.write('_data/publication_stats.yml', { 'total' => entries.size, 'first_year' => first_year, 'last_year' => last_year }.to_yaml)
+puts "Generated #{entries.size} publications, #{years.size} year groups, and #{featured.size} selected works."
+puts "Validated topic and tag assignments for all #{catalog.index.size} works."

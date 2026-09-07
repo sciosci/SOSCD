@@ -1,37 +1,11 @@
 ---
-layout: publications
+layout: lab
+title: "About the lab"
 permalink: /about/
-author_profile: false
-toc: false
-title: "About"
+description: "Understanding science through computation at the University of Colorado Boulder."
 ---
-<style>
-article.page {
- padding-right: 0px;
-}
-</style>
-![](/assets/images/daniel-acuna-research-group-medium.png){: .align-right}
-Science of Science and Computational Discovery Lab (SOS+CD) is run by professor [Daniel Acuña](https://acuna.io/) from the Department of Computer Science in the University of Colorado at Boulder.
-
-The SOS+CD Lab works on understanding current practices in science and developing semi-automated methods to mine scientific knowledge from vast, unstructured datasets of full-text publications, citations, and images. We use various computational techniques, including deep learning, natural language processing, graph analytics, image processing, and causal inference.
-
-[Our talented alumni](/people/#alumni) have secured positions as software engineers, data scientists, data engineers, and security analysts. Many of our graduates have gone to postdoctoral and assistant professor positions at top institutions.
-
-### Address  
-
-_Science of Science and Computational Discovery Lab_  
-1111 Engineering Drive  
-Room 105 ECNW  
-University of Colorado at Boulder  
-Boulder, CO 80309  
-[map](https://www.colorado.edu/map?id=336#!s/?mc/40.00793399332605,-105.26281640367506?z/21?lvl/1)
-{: .small-font }
-
-## About the Department of Computer Science and the University of Colorado Boulder
-
-According to the [rankings published by US News and World Report](https://www.colorado.edu/engineering/2023/04/25/top-10-college-hits-milestone-2024-best-graduate-school-rankings), the Computer Science program at CU Boulder ranks among the top 18 of public universities in the United States. Additionally, the graduate engineering programs are ranked within the top 10 among public universities, and within the top 19 across both public and private institutions.
-
-## About Boulder, Colorado
-
-Nestled at the foothills of the Rocky Mountains, Boulder is a picturesque city known for its natural beauty and outdoor recreational opportunities. Just a short drive away, Denver, the state capital, boasts a vibrant cultural scene. 
-
+<main id="main" class="interior-main wrap">
+  <header class="page-heading"><h1>A different lens<br>on discovery.</h1></header>
+  <section class="about-lead" aria-label="About the lab"><div><p>The Science of Science &amp; Computational Discovery Lab studies how research happens—and develops computational methods to improve it.</p><p>Led by <a href="https://acuna.io/">Professor Daniel Acuña</a> in the Department of Computer Science at the University of Colorado Boulder, we mine scientific knowledge from large, unstructured collections of publications, citations, and images.</p><p>Our methods include deep learning, natural language processing, graph analytics, image processing, and causal inference.</p></div><figure><img src="{{ '/assets/images/lab/group.webp' | relative_url }}" alt="Researchers discussing work around a table in the lab" width="600" height="472"><figcaption>Ideas take shape through conversation.</figcaption></figure></section>
+  <div class="about-columns"><section><h2>Many paths.<br>A shared starting point.</h2><p>Our alumni have gone on to work as software engineers, data scientists, data engineers, and security analysts, as well as postdoctoral researchers and assistant professors.</p><a class="text-link" href="{{ '/people/#alumni' | relative_url }}">Meet our alumni {% include lab-arrow.html %}</a><div class="prose"><h2>At home in Boulder.</h2><p>Nestled at the foothills of the Rocky Mountains, Boulder is known for its natural beauty and outdoor recreation. Denver, the state capital, is a short drive away.</p><details><summary>University context and rankings</summary><p>According to <a href="https://www.colorado.edu/engineering/2023/04/25/top-10-college-hits-milestone-2024-best-graduate-school-rankings">the university’s April 2023 report on US News rankings</a>, Computer Science ranked among the top 18 public university programs. Graduate engineering ranked in the top 10 among public universities and the top 19 overall.</p></details></div></section><section class="location-panel"><h2>Come find us.</h2><address>Science of Science &amp;<br>Computational Discovery Lab<br><br>1111 Engineering Drive<br>Room 105 ECNW<br>University of Colorado Boulder<br>Boulder, CO 80309</address><a class="text-link" href="https://www.colorado.edu/map?id=336#!s/?mc/40.00793399332605,-105.26281640367506?z/21?lvl/1">View campus map {% include lab-arrow.html %}</a><div class="prose"><h3>Explore the department</h3><p><a href="https://www.colorado.edu/cs/">Computer Science at CU Boulder</a></p></div></section></div>
+</main>

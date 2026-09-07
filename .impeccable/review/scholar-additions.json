@@ -1,0 +1,326 @@
+[
+  {
+    "key": "lancichinetti2015topic",
+    "kind": "article",
+    "fields": {
+      "title": "High-Reproducibility and High-Accuracy Method for Automated Topic Classification",
+      "author": "Lancichinetti, Andrea and Sirer, M. Irmak and Wang, Jane X. and Acuna, Daniel and Körding, Konrad and Nunes Amaral, Luís A.",
+      "journal": "Physical Review X",
+      "volume": "5",
+      "number": "1",
+      "pages": "011007",
+      "year": "2015",
+      "doi": "10.1103/PhysRevX.5.011007",
+      "url": "https://doi.org/10.1103/PhysRevX.5.011007"
+    },
+    "topics": [
+      "discovery",
+      "foundations"
+    ],
+    "tags": [
+      "text-mining",
+      "statistical-methods"
+    ],
+    "format": null,
+    "reason": "Topic modeling and reliable computational methods; reproducibility here describes algorithm behavior, not an investigation of research misconduct."
+  },
+  {
+    "key": "achakulvisut2019claim",
+    "kind": "article",
+    "fields": {
+      "title": "Claim Extraction in Biomedical Publications using Deep Discourse Model and Transfer Learning",
+      "author": "Achakulvisut, Titipat and Bhagavatula, Chandra and Acuna, Daniel and Kording, Konrad",
+      "journal": "arXiv:1907.00962",
+      "year": "2019",
+      "doi": "10.48550/arXiv.1907.00962",
+      "url": "https://arxiv.org/abs/1907.00962"
+    },
+    "topics": [
+      "discovery",
+      "foundations"
+    ],
+    "tags": [
+      "text-mining",
+      "scholarly-data"
+    ],
+    "format": "preprint",
+    "reason": ""
+  },
+  {
+    "key": "liu2022team",
+    "kind": "article",
+    "fields": {
+      "title": "Team formation and team impact: The balance between team freshness and repeat collaboration",
+      "author": "Liu, Meijun and Jaiswal, Ajay and Bu, Yi and Min, Chao and Yang, Sijie and Liu, Zhibo and Acuña, Daniel and Ding, Ying",
+      "journal": "Journal of Informetrics",
+      "volume": "16",
+      "number": "4",
+      "pages": "101337",
+      "year": "2022",
+      "doi": "10.1016/j.joi.2022.101337",
+      "url": "https://doi.org/10.1016/j.joi.2022.101337"
+    },
+    "topics": [
+      "ecosystem"
+    ],
+    "tags": [
+      "collaboration",
+      "citation-analysis"
+    ],
+    "format": null,
+    "reason": ""
+  },
+  {
+    "key": "achakulvisut2020neuromatch",
+    "kind": "misc",
+    "fields": {
+      "title": "neuromatch: Algorithms to match scientists",
+      "author": "Achakulvisut, Titipat and Ruangrong, Tulakan and Acuna, Daniel Ernesto and Wyble, Brad and Goodman, Dan and Kording, Konrad",
+      "howpublished": "eLife Labs",
+      "year": "2020",
+      "url": "https://elifesciences.org/labs/5ed408f4/neuromatch-algorithms-to-match-scientists"
+    },
+    "topics": [
+      "discovery",
+      "ecosystem"
+    ],
+    "tags": [
+      "recommender-systems",
+      "collaboration",
+      "careers",
+      "text-mining"
+    ],
+    "format": "webarticle",
+    "reason": "An eLife Labs web article, not a peer-reviewed eLife journal article."
+  },
+  {
+    "key": "xiang2020tampering",
+    "kind": "article",
+    "fields": {
+      "title": "Scientific Image Tampering Detection Based On Noise Inconsistencies: A Method And Datasets",
+      "author": "Xiang, Ziyue and Acuna, Daniel E.",
+      "journal": "arXiv:2001.07799",
+      "year": "2020",
+      "doi": "10.48550/arXiv.2001.07799",
+      "url": "https://arxiv.org/abs/2001.07799"
+    },
+    "topics": [
+      "integrity",
+      "foundations"
+    ],
+    "tags": [
+      "figure-integrity",
+      "image-forensics"
+    ],
+    "format": "preprint",
+    "reason": ""
+  },
+  {
+    "key": "zhuang2019novelty",
+    "kind": "article",
+    "fields": {
+      "title": "The effect of novelty on the future impact of scientific grants",
+      "author": "Zhuang, Han and Acuna, Daniel E.",
+      "journal": "arXiv:1911.02712",
+      "year": "2019",
+      "doi": "10.48550/arXiv.1911.02712",
+      "url": "https://arxiv.org/abs/1911.02712"
+    },
+    "topics": [
+      "ecosystem"
+    ],
+    "tags": [
+      "funding",
+      "citation-analysis"
+    ],
+    "format": "preprint",
+    "reason": ""
+  },
+  {
+    "key": "acuna2020mentorshipcommentary",
+    "kind": "article",
+    "fields": {
+      "title": "Some considerations for studying gender, mentorship, and scientific impact: commentary on AlShebli, Makovi, and Rahwan (2020)",
+      "author": "Acuna, Daniel Ernesto",
+      "journal": "OSF Preprints",
+      "year": "2020",
+      "doi": "10.31219/osf.io/ybfk6",
+      "url": "https://scholar.archive.org/work/qk62l25nhjcnzck3fhcxdogl2u/access/wayback/https://files.osf.io/v1/resources/ybfk6/providers/osfstorage/5fe01fca149e75061b032ad0?action=download&direct&version=3",
+      "note": "Archived preprint"
+    },
+    "topics": [
+      "integrity",
+      "ecosystem"
+    ],
+    "tags": [
+      "mentorship",
+      "diversity",
+      "statistical-methods"
+    ],
+    "format": "preprint",
+    "reason": "Methodological commentary on the interpretation of gender and mentorship evidence. The original OSF landing page is unavailable; link is the archived author manuscript exposed by Scholar."
+  },
+  {
+    "key": "abatayo2026credibility",
+    "kind": "article",
+    "fields": {
+      "title": "Assessments of Credibility in the Social and Behavioral Sciences",
+      "author": "Abatayo, Anna Lou and Achakulvisut, Titipat and Acuna, Daniel and Aczel, Balazs and Balaji, Laxmaan and Bandrowski, Anita and Benjamin, Daniel M and Bishop, Michael M and Brase, Gary L and Brown, Andrew W and Bush, Martin and Caverlee, James and Chakravorti, Tatiana and Chen, Yiling and Daley, Macie and Dehghani, Morteza and Dirzo, Mirka and Dreber, Anna and Eckmann, Peter and Errington, Timothy M and Feng, Qizhang and Fidler, Fiona and Field, Samuel and Fox, Nicholas W and Fraleigh, Robert D and Frank, Aaron and Fraser, Hannah and Gentile, James and Giles, C L and Goldfedder, Brandon and Gooch, Phil and Gordon, Michael and Gould, Elliot and Griffin, Christopher and Gulden, Timothy and Haber, Noah and Hahn, Krystal and Holzmeister, Felix and Hu, Xia B and Huang, Yuzhong and Johannesson, Magnus and Kennedy, Brendan and Kline Struhl, Melissa and Kwasnica, Anthony and Lee, Dong-Ho and Lerman, Kristina and Liu, Yang and Pearce, Allegra and Mandema, Isabella and Marcoci, Alexandru and Mawhinney, Brinna and McIntosh, Souad and Mclaughlin, Michael and Menon, Arjun and Miske, Olivia and Mody, Fallon and Morstatter, Fred and Nakshatri, Nishanth S and Nosek, Brian A and Nuijten, Michele B and Pennock, David and Pfeiffer, Thomas and Pipkin, Darien and Pujara, Jay and Rajtmajer, Sarah and Roelandse, Martijn and Russell, Adam and Silverstein, Priya and Singh, Vaibhav and Soderberg, Courtney K and Squicciarini, Anna M and Stankov, Theresa and Suchow, Jordan W and Szaszi, Barnabas and Tran, Louisa and Vesk, Peter A and Vines, Tim and Vorland, Colby J and Wang, Juntao and Wang, Zhuoer and Wilkinson, David P and Wintle, Bonnie and Wu, Jian",
+      "journal": "MetaArXiv",
+      "year": "2026",
+      "url": "https://osf.io/preprints/metaarxiv/7u58q_v1",
+      "dataset_url": "https://osf.io/9fpyb/"
+    },
+    "topics": [
+      "integrity",
+      "ecosystem"
+    ],
+    "tags": [
+      "reproducibility",
+      "statistical-methods"
+    ],
+    "format": "preprint",
+    "reason": "Research credibility, replicability, reproducibility, and robustness. Complete author list comes from the OSF citation API."
+  },
+  {
+    "key": "acuna2021eileen",
+    "kind": "article",
+    "fields": {
+      "title": "EILEEN: A recommendation system for scientific publications and grants",
+      "author": "Acuna, Daniel E. and Nagre, Kartik and Matnani, Priya",
+      "journal": "arXiv:2110.09663",
+      "year": "2021",
+      "doi": "10.48550/arXiv.2110.09663",
+      "url": "https://arxiv.org/abs/2110.09663"
+    },
+    "topics": [
+      "discovery",
+      "ecosystem"
+    ],
+    "tags": [
+      "research-recommendation",
+      "recommender-systems",
+      "funding",
+      "text-mining"
+    ],
+    "format": "preprint",
+    "reason": ""
+  },
+  {
+    "key": "bu2022workshop",
+    "kind": "inproceedings",
+    "fields": {
+      "title": "International Workshop on Data-driven Science of Science",
+      "author": "Bu, Yi and Liu, Meijun and Zhai, Yujia and Ding, Ying and Xia, Feng and Acuña, Daniel E. and Zhang, Yi",
+      "booktitle": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "pages": "4856--4857",
+      "year": "2022",
+      "doi": "10.1145/3534678.3542891",
+      "url": "https://doi.org/10.1145/3534678.3542891",
+      "note": "Workshop announcement"
+    },
+    "topics": [
+      "ecosystem",
+      "discovery"
+    ],
+    "tags": [
+      "scholarly-data"
+    ],
+    "format": null,
+    "reason": "A published two-page workshop announcement."
+  },
+  {
+    "key": "acuna2010aspiration",
+    "kind": "inproceedings",
+    "fields": {
+      "title": "The rational control of aspiration in learning",
+      "author": "Acuna, Daniel and Green, C. Shawn and Schrater, Paul",
+      "booktitle": "Computational and Systems Neuroscience 2010",
+      "year": "2010",
+      "doi": "10.3389/conf.fnins.2010.03.00169",
+      "url": "https://www.frontiersin.org/10.3389/conf.fnins.2010.03.00169/event_abstract",
+      "note": "Conference abstract"
+    },
+    "topics": [
+      "foundations"
+    ],
+    "tags": [
+      "decision-making",
+      "reinforcement-learning"
+    ],
+    "format": null,
+    "reason": "Poster abstract, confirmed against the original conference program and Frontiers event abstract."
+  },
+  {
+    "key": "acuna2020nullmodel",
+    "kind": "article",
+    "fields": {
+      "title": "Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations",
+      "author": "Acuna, Daniel E. and Xiang, Ziyue",
+      "journal": "arXiv:2003.00878",
+      "year": "2020",
+      "doi": "10.48550/arXiv.2003.00878",
+      "url": "https://arxiv.org/abs/2003.00878"
+    },
+    "topics": [
+      "integrity",
+      "foundations"
+    ],
+    "tags": [
+      "figure-integrity",
+      "image-forensics",
+      "statistical-methods"
+    ],
+    "format": "preprint",
+    "reason": ""
+  },
+  {
+    "key": "schrater2009structure",
+    "kind": "inproceedings",
+    "fields": {
+      "title": "Structure learning in sequential decision making",
+      "author": "Schrater, Paul and Acuna, Daniel",
+      "booktitle": "Journal of Vision: Vision Sciences Society Annual Meeting Abstracts",
+      "volume": "9",
+      "number": "8",
+      "pages": "829",
+      "year": "2009",
+      "url": "https://jov.arvojournals.org/article.aspx?articleid=2136291",
+      "note": "Conference abstract"
+    },
+    "topics": [
+      "foundations"
+    ],
+    "tags": [
+      "decision-making",
+      "reinforcement-learning"
+    ],
+    "format": null,
+    "reason": "Separate 2009 VSS abstract; do not merge with the 2008 NeurIPS paper or 2010 PLOS article."
+  },
+  {
+    "key": "acuna2021mlworkshop",
+    "kind": "inproceedings",
+    "fields": {
+      "title": "Machine Learning and Artificial Intelligence for Science of Science and Computational Discovery: Principles, Applications, and Future Opportunities",
+      "author": "Acuna, Daniel E. and Zeng, Tong and Zhuang, Han and Liang, Lizhen",
+      "booktitle": "iConference 2021 workshop",
+      "year": "2021",
+      "url": "https://scienceofscience.org/workshops/",
+      "paper_intro_url": "/workshops/",
+      "note": "Workshop description"
+    },
+    "topics": [
+      "discovery",
+      "ecosystem",
+      "foundations"
+    ],
+    "tags": [
+      "scholarly-data",
+      "text-mining",
+      "statistical-methods"
+    ],
+    "format": null,
+    "reason": "Existing lab workshop page confirms the year and authors; now indexed in Publications too."
+  }
+]

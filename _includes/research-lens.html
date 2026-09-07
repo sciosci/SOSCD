@@ -1,0 +1,25 @@
+<div class="research-lens" data-research-lens data-active="all">
+  <div class="lens-topline"><span>A closer look at science</span><span class="lens-count">{{ site.data.publication_stats.total }} works</span></div>
+  <div class="lens-stage">
+  <svg class="research-map" viewBox="0 0 520 490" role="group" aria-label="Explore the lab’s publications" aria-describedby="research-map-description">
+    <desc id="research-map-description">Each point opens a real publication. Older works are nearer the center; newer works sit toward the edge. Larger points are preprints or working papers. Use the topic buttons below to highlight a research theme.</desc>
+    <g class="map-rings" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="260" cy="242" r="62"/><circle cx="260" cy="242" r="99"/><circle cx="260" cy="242" r="136"/><circle cx="260" cy="242" r="173"/><circle cx="260" cy="242" r="210"/><path d="M260 22v32m0 376v32M40 242h32m376 0h32"/><path class="map-axis" d="M109 91 411 393M109 393 411 91"/></g>
+    <g class="map-core" aria-hidden="true"><circle cx="260" cy="242" r="36"/><path d="M245 242h30m-15-15v30" fill="none" stroke="currentColor" stroke-width="1.5"/></g>
+    <g class="map-points">{% include research-nodes.html %}</g>
+    <g class="map-year-labels" aria-hidden="true"><text x="260" y="15" text-anchor="middle">NEW QUESTIONS</text><text x="260" y="480" text-anchor="middle">{{ site.data.publication_stats.first_year }} — {{ site.data.publication_stats.last_year }}</text></g>
+  </svg>
+  <div class="paper-preview" id="research-paper-preview" role="tooltip" hidden>
+    <strong class="paper-preview-title" data-preview-title></strong>
+    <p class="paper-preview-authors" data-preview-authors></p>
+    <p class="paper-preview-venue" data-preview-venue></p>
+    <p class="paper-preview-topics" data-preview-topics></p>
+    <p class="paper-preview-hint">Select the point to open the paper.</p>
+  </div>
+  </div>
+  <div class="lens-controls" data-lens-controls hidden role="group" aria-label="Highlight a research theme">
+    <button type="button" data-lens="all" aria-pressed="true">All work</button>{% for topic in site.data.publication_facets.topics %}<button type="button" data-lens="{{ topic[0] }}" aria-pressed="false" aria-label="{{ topic[1].label }}">{{ topic[1].short_label }}</button>{% endfor %}
+  </div>
+  <div class="lens-caption" aria-live="polite"><p data-lens-copy>Hover or focus a point to explore. Select it to open the paper.</p><a href="{{ '/publications/' | relative_url }}" data-lens-link aria-label="Explore all publications">{% include lab-arrow.html %}</a></div>
+  <script type="application/json" id="lens-paper-data">{{ site.data.publication_index | jsonify }}</script>
+  <script type="application/json" id="lens-topic-data">{{ site.data.publication_facets.topics | jsonify }}</script>
+</div>

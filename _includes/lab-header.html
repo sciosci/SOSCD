@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="SOS+CD Lab home">
+      <img class="brand-mark" src="{{ '/assets/images/lab/logo.svg' | relative_url }}" width="42" height="42" alt="">
+      <span class="brand-name">SOS<span class="brand-plus">+</span>CD<span class="brand-lab">Lab</span></span>
+    </a>
+    <a class="university-link" href="https://www.colorado.edu/cs/">University of<br>Colorado Boulder</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span>Menu</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 6h14M3 14h14" stroke="currentColor" stroke-width="1.5"/></svg></button>
+    <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+      {% for item in site.data.navigation.main %}
+      <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}{% if item.url == '/openings/' %} class="nav-join"{% endif %}>{{ item.title }}{% if item.url == '/openings/' %}{% include lab-arrow.html %}{% endif %}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

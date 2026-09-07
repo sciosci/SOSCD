@@ -1,8 +1,8 @@
 {
-  "name": "minimal-mistakes",
+  "name": "soscd-lab",
   "private": true,
   "version": "4.24.0",
-  "description": "Minimal Mistakes 2 column Jekyll theme.",
+  "description": "Science of Science & Computational Discovery Lab website",
   "repository": {
     "type": "git",
     "url": "git://github.com/mmistakes/minimal-mistakes.git"
@@ -30,6 +30,9 @@
     "uglify": "uglifyjs assets/js/vendor/jquery/jquery-3.6.0.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.ba-throttle-debounce.js assets/js/plugins/smooth-scroll.js assets/js/plugins/gumshoe.js assets/js/_main.js -c -m -o assets/js/main.min.js",
     "add-banner": "node banner.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
-    "build:js": "npm run uglify && npm run add-banner"
+    "build:js": "npm run uglify && npm run add-banner",
+    "dev": "ruby news_generator.rb && bundle exec ruby publications_generator.rb && bundle exec jekyll serve --host 127.0.0.1 --port 4000 --livereload",
+    "build": "ruby news_generator.rb && bundle exec ruby publications_generator.rb && bundle exec jekyll build",
+    "test": "bundle exec ruby publications_generator.rb && bundle exec ruby tests/publication_catalog_test.rb && node --test tests/publication-search.test.cjs"
   }
 }
