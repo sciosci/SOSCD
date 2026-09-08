@@ -299,6 +299,8 @@ input::placeholder{color:var(--muted);opacity:1}
 .pi-profile .member-photo{aspect-ratio:1/1;max-width:280px}
 .pi-profile h3{font-size:35px}
 .pi-profile p{max-width:520px;color:var(--muted);font-size:19px;margin:18px 0 24px}
+.pi-profile .pi-venture{font-size:16px}
+.pi-venture a{color:var(--purple)}
 .alumni-content{font-size:16px}
 .alumni-group{border-top:1px solid var(--line);padding-block:21px}
 .alumni-group:last-child{border-bottom:1px solid var(--line)}
