@@ -1,1 +1,556 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://scienceofscience.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://scienceofscience.org/" rel="alternate" type="text/html" /><updated>2026-09-07T21:44:44+00:00</updated><id>https://scienceofscience.org/feed.xml</id><title type="html">Science of Science &amp;amp; Computational Discovery Lab</title><subtitle>Science of Science &amp; Computational Discovery Lab</subtitle><author><name>SOS+CD</name><email>daniel.acuna@colorado.edu</email></author></feed>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <id>https://scienceofscience.org/feed.xml</id>
+  <title>SOS+CD Lab news</title>
+  <subtitle>Announcements, events, and milestones from the Science of Science &amp; Computational Discovery Lab.</subtitle>
+  <link href="https://scienceofscience.org/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://scienceofscience.org/news/"/>
+  <updated>2026-09-07T23:58:52+00:00</updated>
+  <author><name>SOS+CD Lab</name><uri>https://scienceofscience.org/</uri></author>
+  
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-faa789874c1d5a5f</id>
+    <title>Daniel serves as an Area Chair for the AI for Science workshop at NeurIPS 2026</title>
+    <link href="https://scienceofscience.org/news/#event-faa789874c1d5a5f"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">December 2026: Daniel serves as an Area Chair for the &lt;a href=&quot;https://ai4sciencecommunity.github.io/neurips26.html&quot;&gt;AI for Science workshop&lt;/a&gt; at &lt;a href=&quot;https://neurips.cc/Conferences/2026&quot;&gt;NeurIPS 2026&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-1d1a9f478486cdfa</id>
+    <title>Daniel serves as a reviewer for the 4th Workshop on Artificial Intelligence for Scientific Publications (WASP 2026) at AACL-IJCNLP 2026</title>
+    <link href="https://scienceofscience.org/news/#event-1d1a9f478486cdfa"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">November 2026: Daniel serves as a reviewer for the &lt;a href=&quot;https://ui.adsabs.harvard.edu/WIESP/2026/&quot;&gt;4th Workshop on Artificial Intelligence for Scientific Publications (WASP 2026)&lt;/a&gt; at &lt;a href=&quot;https://2026.aaclnet.org/&quot;&gt;AACL-IJCNLP 2026&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-ce2cb216c4c4f8da</id>
+    <title>Daniel will deliver a keynote, AI vs. AI: Guarding the Scientific Record Against Fabrication, Manipulation, and Machine-Authored Content, in the Ethics &amp;amp; Governance in AI for Science track of AI4Sci Korea 2026, Seoul, South Korea (September 28 – October 1, 2026)</title>
+    <link href="https://scienceofscience.org/news/#event-ce2cb216c4c4f8da"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">September 28, 2026: Daniel will deliver a keynote, &lt;em&gt;AI vs. AI: Guarding the Scientific Record Against Fabrication, Manipulation, and Machine-Authored Content&lt;/em&gt;, in the Ethics &amp;amp; Governance in AI for Science track of &lt;a href=&quot;https://ai4scikorea.org&quot;&gt;AI4Sci Korea 2026&lt;/a&gt;, Seoul, South Korea (September 28 – October 1, 2026)</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-89774454f4d0a3d7</id>
+    <title>Dissecting the gender divide: authorship and acknowledgment in scientific publications (Keigo Kusumegi, Daniel, and Yukie Sano) is published in Scientometrics</title>
+    <link href="https://scienceofscience.org/news/#event-89774454f4d0a3d7"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">August 2026: &lt;em&gt;Dissecting the gender divide: authorship and acknowledgment in scientific publications&lt;/em&gt; (Keigo Kusumegi, Daniel, and Yukie Sano) is published in &lt;a href=&quot;https://doi.org/10.1007/s11192-026-05712-z&quot;&gt;Scientometrics&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-f09801b358ae903d</id>
+    <title>Daniel joined the Program Committee of AAAI 2027</title>
+    <link href="https://scienceofscience.org/news/#event-f09801b358ae903d"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">August 2026: Daniel joined the Program Committee of &lt;a href=&quot;https://aaai.org/conference/aaai/aaai-27/&quot;&gt;AAAI 2027&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-d96c2f4028b27005</id>
+    <title>Daniel served as an Area Chair for the AI for Science workshop at ICML 2026</title>
+    <link href="https://scienceofscience.org/news/#event-d96c2f4028b27005"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">July 2026: Daniel served as an Area Chair for the &lt;a href=&quot;https://ai4sciencecommunity.github.io/icml26.html&quot;&gt;AI for Science workshop&lt;/a&gt; at &lt;a href=&quot;https://icml.cc/Conferences/2026&quot;&gt;ICML 2026&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-5006fa29e248f77d</id>
+    <title>Daniel joined the Program Committee of the 3rd International Workshop on AI for the Science of Science (AI4SciSci 2026) at JCDL 2026</title>
+    <link href="https://scienceofscience.org/news/#event-5006fa29e248f77d"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">July 2026: Daniel joined the Program Committee of the &lt;a href=&quot;https://ai4scisci.github.io/2026/&quot;&gt;3rd International Workshop on AI for the Science of Science (AI4SciSci 2026)&lt;/a&gt; at JCDL 2026</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-15833220d9ce2b15</id>
+    <title>Daniel joined the panel The Future Infrastructure of the Scientific Ecosystem (with Jessica Hullman and Aaron Clauset, moderated by Misha Teplitskiy) at the International Conference on the Science of Science and Innovation (ICSSI 2026), held in Boulder, Colorado, June 29 – July 1</title>
+    <link href="https://scienceofscience.org/news/#event-15833220d9ce2b15"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">June 30, 2026: Daniel joined the panel &lt;em&gt;The Future Infrastructure of the Scientific Ecosystem&lt;/em&gt; (with Jessica Hullman and Aaron Clauset, moderated by Misha Teplitskiy) at the &lt;a href=&quot;https://www.icssi.org/&quot;&gt;International Conference on the Science of Science and Innovation (ICSSI 2026)&lt;/a&gt;, held in Boulder, Colorado, June 29 – July 1</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-71a6c70bee1f0546</id>
+    <title>Strong lab presence at ICSSI 2026 in Boulder: Almene gave the lightning talk How Willing Are LLMs to Commit Scientific Fraud? A Study of 17 Commercial and Open Models; Christopher presented Quantifying and Understanding Global Disparities in Biomedical Research; Carolina presented Parental Occupation and Socioeconomic Origins in Academic Faculty (with Katie Spoon, Dan Larremore, Daniel, and Aaron Clauset) and a poster on LLM-based gender classification; and Pawin presented the poster Driving Science with Multi-Agents and Reinforcement Learning: Are LLMs Effective for Automated Peer Review?</title>
+    <link href="https://scienceofscience.org/news/#event-71a6c70bee1f0546"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">June 29 – July 1, 2026: Strong lab presence at &lt;a href=&quot;https://www.icssi.org/&quot;&gt;ICSSI 2026&lt;/a&gt; in Boulder: Almene gave the lightning talk &lt;em&gt;How Willing Are LLMs to Commit Scientific Fraud? A Study of 17 Commercial and Open Models&lt;/em&gt;; Christopher presented &lt;em&gt;Quantifying and Understanding Global Disparities in Biomedical Research&lt;/em&gt;; Carolina presented &lt;em&gt;Parental Occupation and Socioeconomic Origins in Academic Faculty&lt;/em&gt; (with Katie Spoon, Dan Larremore, Daniel, and Aaron Clauset) and a poster on LLM-based gender classification; and Pawin presented the poster &lt;em&gt;Driving Science with Multi-Agents and Reinforcement Learning: Are LLMs Effective for Automated Peer Review?&lt;/em&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-1f37265377233528</id>
+    <title>Beyond a number game: Flat team structures improve inclusion and performance in diverse scientific teams (Huimin Xu et al., with Daniel) is published in JASIST</title>
+    <link href="https://scienceofscience.org/news/#event-1f37265377233528"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">June 24, 2026: &lt;em&gt;Beyond a number game: Flat team structures improve inclusion and performance in diverse scientific teams&lt;/em&gt; (Huimin Xu et al., with Daniel) is published in &lt;a href=&quot;https://doi.org/10.1002/asi.70083&quot;&gt;JASIST&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-5e55a31115d6b786</id>
+    <title>Almene and Pawin were selected to attend the Machine Learning Summer School (MLSS) 2026 at Columbia University in New York City</title>
+    <link href="https://scienceofscience.org/news/#event-5e55a31115d6b786"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">June 15-26, 2026: Almene and Pawin were selected to attend the &lt;a href=&quot;https://mlss.cc/&quot;&gt;Machine Learning Summer School (MLSS) 2026&lt;/a&gt; at Columbia University in New York City</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-684ad9356562f9d1</id>
+    <title>New preprint by Almene, with Maria Pacheco and Daniel: SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under Adversarial Framing</title>
+    <link href="https://scienceofscience.org/news/#event-684ad9356562f9d1"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">May 2026: New preprint by Almene, with Maria Pacheco and Daniel: &lt;a href=&quot;https://arxiv.org/abs/2605.29468&quot;&gt;SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under Adversarial Framing&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-051b00b084573dfe</id>
+    <title>At the 9th World Conference on Research Integrity (WCRI 2026) in Vancouver, Canada, Daniel gave the talk Estimating the predictability of questionable journals: signals and interpretation and Pawin presented the poster Identifying Potential Falsified Research Outcomes from Partial Table Duplications</title>
+    <link href="https://scienceofscience.org/news/#event-051b00b084573dfe"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">May 3-8, 2026: At the &lt;a href=&quot;https://wcri2026.org/&quot;&gt;9th World Conference on Research Integrity (WCRI 2026)&lt;/a&gt; in Vancouver, Canada, Daniel gave the talk &lt;em&gt;Estimating the predictability of questionable journals: signals and interpretation&lt;/em&gt; and Pawin presented the poster &lt;em&gt;Identifying Potential Falsified Research Outcomes from Partial Table Duplications&lt;/em&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-19f29fd022f268b4</id>
+    <title>New preprint by Pawin and Daniel: REM-CTX: Automated Peer Review via Reinforcement Learning with Auxiliary Context</title>
+    <link href="https://scienceofscience.org/news/#event-19f29fd022f268b4"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">March 2026: New preprint by Pawin and Daniel: &lt;a href=&quot;https://arxiv.org/abs/2604.00248&quot;&gt;REM-CTX: Automated Peer Review via Reinforcement Learning with Auxiliary Context&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-9eddcee58300ecce</id>
+    <title>NBER working paper Government Funding and the Direction of Academic Energy Research (David Popp, Myriam Gregoire-Zawilski, Lizhen Liang, and Daniel), from our Sloan Foundation project, is out</title>
+    <link href="https://scienceofscience.org/news/#event-9eddcee58300ecce"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">February 2026: NBER working paper &lt;a href=&quot;https://doi.org/10.3386/w34856&quot;&gt;Government Funding and the Direction of Academic Energy Research&lt;/a&gt; (David Popp, Myriam Gregoire-Zawilski, Lizhen Liang, and Daniel), from our Sloan Foundation project, is out</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-2f1941feac050273</id>
+    <title>Widespread reference missingness disparities in open scholarly metadata (Huaxia Zhou, Lizhen Liang, and Daniel) is published in Quantitative Science Studies</title>
+    <link href="https://scienceofscience.org/news/#event-2f1941feac050273"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">2026: &lt;em&gt;Widespread reference missingness disparities in open scholarly metadata&lt;/em&gt; (Huaxia Zhou, Lizhen Liang, and Daniel) is published in &lt;a href=&quot;https://doi.org/10.1162/qss.a.400&quot;&gt;Quantitative Science Studies&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-698bb5938278b416</id>
+    <title>Daniel serves on the editorial boards of Humanities and Social Sciences Communications and the Journal of Social Computing</title>
+    <link href="https://scienceofscience.org/news/#event-698bb5938278b416"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">2026: Daniel serves on the editorial boards of &lt;a href=&quot;https://www.nature.com/palcomms/&quot;&gt;&lt;em&gt;Humanities and Social Sciences Communications&lt;/em&gt;&lt;/a&gt; and the &lt;a href=&quot;https://www.sciopen.com/journal/2688-5255&quot;&gt;&lt;em&gt;Journal of Social Computing&lt;/em&gt;&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-f52e84ba9020376a</id>
+    <title>Daniel delivered the keynote at the 2nd International Workshop on Artificial Intelligence and the Science of Science (AI4SciSci 2025) at JCDL 2025, presenting our work on estimating the predictability of questionable open-access journals</title>
+    <link href="https://scienceofscience.org/news/#event-f52e84ba9020376a"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">December 15, 2025: Daniel delivered the keynote at the &lt;a href=&quot;https://ai4scisci.github.io/2025/&quot;&gt;2nd International Workshop on Artificial Intelligence and the Science of Science (AI4SciSci 2025)&lt;/a&gt; at JCDL 2025, presenting our work on estimating the predictability of questionable open-access journals</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-f91ae815787b2cf7</id>
+    <title>Carolina passed her preliminary exam. Congrats Carolina!</title>
+    <link href="https://scienceofscience.org/news/#event-f91ae815787b2cf7"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">September 2025: Carolina passed her preliminary exam. Congrats Carolina!</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-730b8d4684c99b2a</id>
+    <title>Estimating the predictability of questionable open-access journals (Han Zhuang, Lizhen Liang, and Daniel) is published in Science Advances</title>
+    <link href="https://scienceofscience.org/news/#event-730b8d4684c99b2a"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">August 29, 2025: &lt;em&gt;Estimating the predictability of questionable open-access journals&lt;/em&gt; (Han Zhuang, Lizhen Liang, and Daniel) is published in &lt;a href=&quot;https://doi.org/10.1126/sciadv.adt2792&quot;&gt;Science Advances&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-afe7589bae638145</id>
+    <title>Daniel participated in the inaugural National Conference on Research Integrity (NCRI 2025) in Chicago, IL</title>
+    <link href="https://scienceofscience.org/news/#event-afe7589bae638145"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">May 2025: Daniel participated in the inaugural National Conference on Research Integrity (NCRI 2025) in Chicago, IL</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-b2427c9315f986b7</id>
+    <title>Carolina presented her work at the 10th Atlanta Conference on Science and Innovation Policy (ATLC 2025) at Georgia Tech</title>
+    <link href="https://scienceofscience.org/news/#event-b2427c9315f986b7"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">May 2025: Carolina presented her work at the 10th &lt;a href=&quot;https://atlconf.org/&quot;&gt;Atlanta Conference on Science and Innovation Policy (ATLC 2025)&lt;/a&gt; at Georgia Tech</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-34ba12aa294b6fa7</id>
+    <title>New preprint by Pawin and Daniel: REMOR: Automated Peer Review Generation with LLM Reasoning and Multi-Objective Reinforcement Learning</title>
+    <link href="https://scienceofscience.org/news/#event-34ba12aa294b6fa7"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">May 2025: New preprint by Pawin and Daniel: &lt;a href=&quot;https://arxiv.org/abs/2505.11718&quot;&gt;REMOR: Automated Peer Review Generation with LLM Reasoning and Multi-Objective Reinforcement Learning&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-de5279c2e6c6290b</id>
+    <title>Predicting the longevity of resources shared in scientific publications is published in Humanities and Social Sciences Communications, and Paraphrase Identification with Deep Learning: A Review of Datasets and Methods (Chao Zhou, Cheng Qiu, Lizhen Liang, and Daniel) in IEEE Access</title>
+    <link href="https://scienceofscience.org/news/#event-de5279c2e6c6290b"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">2025: &lt;em&gt;Predicting the longevity of resources shared in scientific publications&lt;/em&gt; is published in &lt;a href=&quot;https://doi.org/10.1057/s41599-025-04716-z&quot;&gt;Humanities and Social Sciences Communications&lt;/a&gt;, and &lt;em&gt;Paraphrase Identification with Deep Learning: A Review of Datasets and Methods&lt;/em&gt; (Chao Zhou, Cheng Qiu, Lizhen Liang, and Daniel) in &lt;a href=&quot;https://doi.org/10.1109/ACCESS.2025.3556899&quot;&gt;IEEE Access&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-3ce35333efc98519</id>
+    <title>MAMORX: Multi-agent Multi-modal Scientific Review Generation with External Knowledge (Pawin Taechoyotin, Guanchao Wang, Tong Zeng, Bradley Sides, and Daniel) was accepted at the NeurIPS 2024 Workshop on Foundation Models for Science</title>
+    <link href="https://scienceofscience.org/news/#event-3ce35333efc98519"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">December 2024: &lt;a href=&quot;https://openreview.net/forum?id=frvkE8rCfX&quot;&gt;MAMORX: Multi-agent Multi-modal Scientific Review Generation with External Knowledge&lt;/a&gt; (Pawin Taechoyotin, Guanchao Wang, Tong Zeng, Bradley Sides, and Daniel) was accepted at the NeurIPS 2024 Workshop on Foundation Models for Science</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-f6226c6cbfd1e5a7</id>
+    <title>Comparative Explanations for Recommendation: Research Directions (Meysam Varasteh, Elizabeth McKinnie, Amanda Aird, Daniel, and Robin Burke) appeared at the IntRS workshop at RecSys 2024</title>
+    <link href="https://scienceofscience.org/news/#event-f6226c6cbfd1e5a7"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">October 2024: &lt;a href=&quot;https://ceur-ws.org/Vol-3815/paper1.pdf&quot;&gt;Comparative Explanations for Recommendation: Research Directions&lt;/a&gt; (Meysam Varasteh, Elizabeth McKinnie, Amanda Aird, Daniel, and Robin Burke) appeared at the IntRS workshop at RecSys 2024</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-5a47b761126dda3f</id>
+    <title>Incorporating costs and benefits to the evaluation of uncertain research results: applications to cancer research funding (Han Zhuang and Daniel) is published in Quantitative Science Studies</title>
+    <link href="https://scienceofscience.org/news/#event-5a47b761126dda3f"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">September 2024: &lt;em&gt;Incorporating costs and benefits to the evaluation of uncertain research results: applications to cancer research funding&lt;/em&gt; (Han Zhuang and Daniel) is published in &lt;a href=&quot;https://doi.org/10.1162/qss_a_00332&quot;&gt;Quantitative Science Studies&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-e68ec908d54bf563</id>
+    <title>Welcome to our new Ph.D. students Pawin Taechoyotin, Almene De Meran Meguimtsop, and Christopher Ebuka Ojukwu!</title>
+    <link href="https://scienceofscience.org/news/#event-e68ec908d54bf563"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">Fall 2024: Welcome to our new Ph.D. students Pawin Taechoyotin, Almene De Meran Meguimtsop, and Christopher Ebuka Ojukwu!</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-59ac7872df78e90f</id>
+    <title>MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning (Pawin and Daniel) appeared at the 4th Workshop on Scholarly Document Processing (SDP 2024) at ACL 2024</title>
+    <link href="https://scienceofscience.org/news/#event-59ac7872df78e90f"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">August 2024: &lt;a href=&quot;https://aclanthology.org/2024.sdp-1.15/&quot;&gt;MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning&lt;/a&gt; (Pawin and Daniel) appeared at the 4th Workshop on Scholarly Document Processing (SDP 2024) at ACL 2024</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-be997ef2b83904d2</id>
+    <title>Science Needs You: Mobilizing for Diversity in Award Recognition (Elizabeth Novoa-Monsalve, David Patterson, Stephanie Ludi, and Daniel) is published in Communications of the ACM</title>
+    <link href="https://scienceofscience.org/news/#event-be997ef2b83904d2"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">August 2024: &lt;em&gt;Science Needs You: Mobilizing for Diversity in Award Recognition&lt;/em&gt; (Elizabeth Novoa-Monsalve, David Patterson, Stephanie Ludi, and Daniel) is published in &lt;a href=&quot;https://dl.acm.org/doi/10.1145/3651150&quot;&gt;Communications of the ACM&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-a8db05f9ed76f998</id>
+    <title>New NSF grant (co-PI) &apos;The impact of socioeconomic diversity on science and innovation&apos; with Aaron Clauset and Dan Larremore.</title>
+    <link href="https://scienceofscience.org/news/#event-a8db05f9ed76f998"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">July, 2024: New NSF grant (co-PI) &apos;The impact of socioeconomic diversity on science and innovation&apos; with Aaron Clauset and Dan Larremore.</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-18dc0989ed4606b4</id>
+    <title>Moderator for the panel &apos;The Other Side: Junk, Fraud, Retractions, and Paper Mills&apos; at the International Conference on Science of Science and Innovation 2024 (Washington, DC)</title>
+    <link href="https://scienceofscience.org/news/#event-18dc0989ed4606b4"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">July, 2024: Moderator for the panel &apos;The Other Side: Junk, Fraud, Retractions, and Paper Mills&apos; at the International Conference on Science of Science and Innovation 2024 (Washington, DC)</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-10f7bd0dedbf174b</id>
+    <title>Invited Speaker - Colorado Clinical and Translational Sciences Institute - What research can teach us about research integrity and culture? University of Colorado Anschutz Medical Campus</title>
+    <link href="https://scienceofscience.org/news/#event-10f7bd0dedbf174b"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">November 2, 2023: Invited Speaker - Colorado Clinical and Translational Sciences Institute - What research can teach us about research integrity and culture? University of Colorado Anschutz Medical Campus</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-a3505393009f7ad4</id>
+    <title>CU Lab Venture Challenge Winner ($125,000)</title>
+    <link href="https://scienceofscience.org/news/#event-a3505393009f7ad4"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">November, 2023: CU Lab Venture Challenge Winner ($125,000)</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-6cea2d8bb22f76e3</id>
+    <title>Daniel will be program committee co-chair for the International Conference on Science of Science and Innovation</title>
+    <link href="https://scienceofscience.org/news/#event-6cea2d8bb22f76e3"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">June 26-28, 2023: Daniel will be program committee co-chair for the &lt;a href=&quot;https://www.icssi.org/&quot;&gt;International Conference on Science of Science and Innovation&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-7ad688ef0753cf86</id>
+    <title>Daniel participated on a panel on Law and Generative AI</title>
+    <link href="https://scienceofscience.org/news/#event-7ad688ef0753cf86"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">April 21, 2023: Daniel &lt;a href=&quot;https://siliconflatirons.org/events/exploring-generative-ai-and-law/&quot;&gt;participated on a panel on Law and Generative AI&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-287f58b31f16e55e</id>
+    <title>Dr. Han Zhuang successfully defends his thesis and is headed to Barabasi Lab at Northeastern University! Congrats Han!</title>
+    <link href="https://scienceofscience.org/news/#event-287f58b31f16e55e"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">April 15, 2023: Dr. Han Zhuang successfully defends his thesis and is headed to Barabasi Lab at Northeastern University! Congrats Han!</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-003da0e46512c8f8</id>
+    <title>Daniel was interviewed by The Conversation on our ChatGPT</title>
+    <link href="https://scienceofscience.org/news/#event-003da0e46512c8f8"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">March 3, 2023: Daniel &lt;a href=&quot;https://theconversation.com/three-ai-experts-on-how-access-to-chatgpt-style-tech-is-about-to-change-our-world-podcast-200882&quot;&gt;was interviewed by The Conversation on our ChatGPT&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-3ab97d25fabea528</id>
+    <title>Daniel will present his work on large scale nearest neighbor search during the Ray Summit Meetup, part of Ray Summit 2022</title>
+    <link href="https://scienceofscience.org/news/#event-3ab97d25fabea528"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">August 22, 2022: Daniel will present his work on large scale nearest neighbor search during the Ray Summit Meetup, part of &lt;a href=&quot;https://www.anyscale.com/ray-summit-2022&quot;&gt;Ray Summit 2022&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-259c10fe090e94d0</id>
+    <title>Workshop on Data-Driven Science of Science at KDD 2022</title>
+    <link href="https://scienceofscience.org/news/#event-259c10fe090e94d0"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">August 14-18, 2022: Workshop on &lt;a href=&quot;http://124.70.200.79:8199/DDSoS-KDD-2022/index.html&quot;&gt;Data-Driven Science of Science at KDD 2022&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-f6fdabfe53dbe4d6</id>
+    <title>Science of Science Summer School (S4) 2022! Virtual. Apply now!</title>
+    <link href="https://scienceofscience.org/news/#event-f6fdabfe53dbe4d6"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">August 1-12, 2022: Science of Science Summer School (S4) 2022! Virtual. &lt;a href=&quot;https://s4.scienceofscience.org&quot;&gt;Apply now!&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-e97b3708d659a158</id>
+    <title>Invited talk at International Conference on Data Intelligence &amp; Information Service Development, organized by Tianjin Normal University China (virtual)</title>
+    <link href="https://scienceofscience.org/news/#event-e97b3708d659a158"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">June 11, 2022: Invited talk at International Conference on Data Intelligence &amp; Information Service Development, organized by &lt;a href=&quot;http://www.tjnu.edu.cn/info/1084/9530.htm&quot;&gt;Tianjin Normal University&lt;/a&gt; China (virtual)</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-41e016d14af60403</id>
+    <title>Daniel Acuna will be a member of the ACM DEI Council, leading the focus on improving data-driven bias detection and awareness in peer review.</title>
+    <link href="https://scienceofscience.org/news/#event-41e016d14af60403"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">May, 2022: Daniel Acuna will be a member of the &lt;a href=&quot;https://www.acm.org/diversity-inclusion&quot;&gt;ACM DEI Council&lt;/a&gt;, leading the focus on improving data-driven bias detection and awareness in peer review.</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-9c4ee9be512d5c2a</id>
+    <title>Daniel Acuna has been promoted to Associate Professor with Tenure!</title>
+    <link href="https://scienceofscience.org/news/#event-9c4ee9be512d5c2a"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">May, 2022: Daniel Acuna has been promoted to Associate Professor with Tenure!</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-0db3e3d5333e7cfd</id>
+    <title>Daniel Acuna is presenting at the Future Privacy Forum on &quot;Promoting Responsible Research Data Access&quot; (Virtual, by invitation only)</title>
+    <link href="https://scienceofscience.org/news/#event-0db3e3d5333e7cfd"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">November 18, 2021: Daniel Acuna is presenting at the &lt;a href=&quot;https://fpf.org/&quot;&gt;Future Privacy Forum&lt;/a&gt; on &quot;Promoting Responsible Research Data Access&quot; (Virtual, by invitation only)</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-0edc9f166be12c45</id>
+    <title>Nanjing University awarded visiting scholar alumni Tong Zeng a research excellence award for high productivity for his work during his visit to SOS+CD!</title>
+    <link href="https://scienceofscience.org/news/#event-0edc9f166be12c45"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">October 2021: Nanjing University awarded visiting scholar alumni Tong Zeng a &lt;a href=&quot;https://im.nju.edu.cn/46/a3/c13249a542371/page.htm&quot;&gt;research excellence award for high productivity&lt;/a&gt; for his work during his visit to SOS+CD!</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-3d30ae1ceb3a7df3</id>
+    <title>Postdoctoral alumni Qing Ke joins the Department of Data Science at the City University of Hong Kong!</title>
+    <link href="https://scienceofscience.org/news/#event-3d30ae1ceb3a7df3"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">September 2021: Postdoctoral alumni &lt;a href=&quot;http://qke.github.io/&quot;&gt;Qing Ke&lt;/a&gt; joins the Department of Data Science at the City University of Hong Kong!</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-2761c3cfbd339a0b</id>
+    <title>Postdoctoral alumni Science of Science Summer School (S4) 2021 with 50+ mentees and 12+ mentors finished successfully!; six micro-grants announced</title>
+    <link href="https://scienceofscience.org/news/#event-2761c3cfbd339a0b"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">July 26 - August 6, 2021: Postdoctoral alumni &lt;a href=&quot;https://scienceofscience.org/s4/&quot;&gt;Science of Science Summer School (S4) 2021&lt;/a&gt; with 50+ mentees and 12+ mentors finished successfully!; &lt;a href=&quot;https://s4.scienceofscience.org/announcement/microgrants&quot;&gt;six micro-grants announced&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-9769b7cd6d4265a1</id>
+    <title>Daniel Acuna appeared in a The New Yorker article</title>
+    <link href="https://scienceofscience.org/news/#event-9769b7cd6d4265a1"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">June 23, 2021: Daniel Acuna appeared in a &lt;a href=&quot;https://www.newyorker.com/science/elements/how-a-sharp-eyed-scientist-became-biologys-image-detective&quot;&gt;The New Yorker article&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-e99c3850c9bece2a</id>
+    <title>Massive dataset on mentorship released by SOS+CD in collaboration with Stephen David: MENTORSHIP</title>
+    <link href="https://scienceofscience.org/news/#event-e99c3850c9bece2a"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">June 2021: Massive dataset on mentorship released by SOS+CD in collaboration with Stephen David: &lt;a href=&quot;https://scienceofscience.org/mentorship/&quot;&gt;MENTORSHIP&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-f0c9d975696fccda</id>
+    <title>Computational Research Integrity Conference 2021</title>
+    <link href="https://scienceofscience.org/news/#event-f0c9d975696fccda"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">March 23-25, 2021: &lt;a href=&quot;https://cri-conf.org&quot;&gt;Computational Research Integrity Conference 2021&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-bccf2ba40e2f3e28</id>
+    <title>Successfully ran the iConference workshop on AI and Science of Science</title>
+    <link href="https://scienceofscience.org/news/#event-bccf2ba40e2f3e28"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">March 17, 2021: Successfully ran the &lt;a href=&quot;https://scienceofscience.org/workshops/&quot;&gt;iConference workshop on AI and Science of Science&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-660883fc98fe723b</id>
+    <title>Daniel Acuna presented at International Conference of Social Computing (virtual)</title>
+    <link href="https://scienceofscience.org/news/#event-660883fc98fe723b"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">December 2020: Daniel Acuna presented at &lt;a href=&quot;http://css.aerber.cn/institution/social_computing/csc/csc.html&quot;&gt;International Conference of Social Computing (virtual)&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-68b035347d875e0d</id>
+    <title>Daniel Acuna interviewed for Nature News (2020) Pioneering duplication detector trawls thousands of coronavirus preprints</title>
+    <link href="https://scienceofscience.org/news/#event-68b035347d875e0d"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">July 21, 2020: Daniel Acuna interviewed for Nature News (2020) &lt;a href=&quot;https://www.nature.com/articles/d41586-020-02161-3&quot;&gt;Pioneering duplication detector trawls thousands of coronavirus preprints&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-fcfa54201d0e0abf</id>
+    <title>Our work mentioned in Nature Machine Learning Editorial (2020) A match for virtual conferences</title>
+    <link href="https://scienceofscience.org/news/#event-fcfa54201d0e0abf"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">May 18, 2020: Our work mentioned in Nature Machine Learning Editorial (2020) &lt;a href=&quot;https://www.nature.com/articles/s42256-020-0182-5&quot;&gt;A match for virtual conferences&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-dd0319f97b8f73f9</id>
+    <title>Our work mentioned in Nature News  (2020) Publishers launch joint effort to tackle altered images in research papers</title>
+    <link href="https://scienceofscience.org/news/#event-dd0319f97b8f73f9"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">May 13, 2020: Our work mentioned in Nature News  (2020) &lt;a href=&quot;https://www.nature.com/articles/d41586-020-01410-9&quot;&gt;Publishers launch joint effort to tackle altered images in research papers&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-5cc5567f0ef397a3</id>
+    <title>Our work mentioned in a Nature Feature interview about Elisabeth Bik (2020)</title>
+    <link href="https://scienceofscience.org/news/#event-5cc5567f0ef397a3"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">May 13, 2020: Our work mentioned in a &lt;a href=&quot;https://www.nature.com/articles/d41586-020-01363-z&quot;&gt;Nature Feature interview about Elisabeth Bik (2020)&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-5378a1224f666702</id>
+    <title>Presented our work at the ACM FAT Conference Barcelona, Spain</title>
+    <link href="https://scienceofscience.org/news/#event-5378a1224f666702"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">January 27 - 30, 2020: Presented our work at the &lt;a href=&quot;https://fatconference.org/&quot;&gt;ACM FAT Conference&lt;/a&gt; Barcelona, Spain</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-01e48fc3470766a0</id>
+    <title>Daniel Acuna participated in the Data Science Leadership Summit, Santa Fe, New Mexico</title>
+    <link href="https://scienceofscience.org/news/#event-01e48fc3470766a0"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">November 6 - 10, 2019: Daniel Acuna participated in the &lt;a href=&quot;https://sites.google.com/msdse.org/datascienceleadership2019/home&quot;&gt;Data Science Leadership Summit, Santa Fe, New Mexico&lt;/a&gt;</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-ab9dad188d16fd2a</id>
+    <title>Daniel Acuna and Han Zhuang participated in the Atlanta Conference on Science and Innovation Policy, Atlanta, Georgia</title>
+    <link href="https://scienceofscience.org/news/#event-ab9dad188d16fd2a"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">October 14 - 16, 2019: Daniel Acuna and Han Zhuang participated in the &lt;a href=&quot;http://www.atlconf.org/&quot;&gt;Atlanta Conference on Science and Innovation Policy&lt;/a&gt;, Atlanta, Georgia</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-1d16d68ed4e3c076</id>
+    <title>Daniel Acuna and Han Zhuang participated in the Metascience 2019 Symposium, Stanford University, Stanford, CA. Han Zhuan was awarded the best poster award!</title>
+    <link href="https://scienceofscience.org/news/#event-1d16d68ed4e3c076"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">September 5 - 8, 2019: Daniel Acuna and Han Zhuang participated in the &lt;a href=&quot;https://www.metascience2019.org/&quot;&gt;Metascience 2019 Symposium&lt;/a&gt;, Stanford University, Stanford, CA. Han Zhuan was awarded the best poster award!</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-17088388ed2ca1ea</id>
+    <title>Daniel Acuna was an invited speaker at the International Conference on Science of Science, Tsinghua University and the University of Chicago Center in Beijing, China</title>
+    <link href="https://scienceofscience.org/news/#event-17088388ed2ca1ea"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">June 11 - 12, 2019: Daniel Acuna was an invited speaker at the International Conference on Science of Science, Tsinghua University and the University of Chicago Center in Beijing, China</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-9325db67aec72223</id>
+    <title>Presented our work in the 6th World Conference on Research Integrity, Hong Kong</title>
+    <link href="https://scienceofscience.org/news/#event-9325db67aec72223"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">June 2 - 5, 2019: Presented our work in the &lt;a href=&quot;http://wcri2019.org/&quot;&gt;6th World Conference on Research Integrity&lt;/a&gt;, Hong Kong</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-5070ef6226e4966d</id>
+    <title>2019 Research Integrity Conference, Chicago, IL</title>
+    <link href="https://scienceofscience.org/news/#event-5070ef6226e4966d"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">May 22-23, 2019: &lt;a href=&quot;https://www.researchintegrity.northwestern.edu/2019conference/&quot;&gt;2019 Research Integrity Conference&lt;/a&gt;, Chicago, IL</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-aac94f29ae876fe0</id>
+    <title>Invited speaker to the 8th Annual Ethics in Biomedical Research Lecture, University of Rochester School of Medicine and Dentistry</title>
+    <link href="https://scienceofscience.org/news/#event-aac94f29ae876fe0"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">May 10, 2019: Invited speaker to the 8th Annual Ethics in Biomedical Research Lecture, University of Rochester School of Medicine and Dentistry</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-c904891e7877ff8b</id>
+    <title>Short paper presentation at iConference 2019, University of Maryland</title>
+    <link href="https://scienceofscience.org/news/#event-c904891e7877ff8b"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">March 31 - April 3, 2019: Short paper presentation at &lt;a href=&quot;https://www.conftool.com/iConference2019/index.php?page=browseSessions&amp;form_session=363&amp;presentations=show&quot;&gt;iConference 2019&lt;/a&gt;, University of Maryland</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-0bc12843d6e0b022</id>
+    <title>Daniel Acuna was invited to present at the Symposium of Yotta Informatics, Tohoku University, Sendai, Japan</title>
+    <link href="https://scienceofscience.org/news/#event-0bc12843d6e0b022"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">March 20, 2019: Daniel Acuna was invited to present at the &lt;a href=&quot;http://www.aiyotta.tohoku.ac.jp/sympo2019/index.html&quot;&gt;Symposium of Yotta Informatics&lt;/a&gt;, Tohoku University, Sendai, Japan</summary>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/news/#event-b401ff93ec600cf4</id>
+    <title>Interview for Nature News (2018) Researchers have finally created a tool to spot duplicated images across thousands of papers</title>
+    <link href="https://scienceofscience.org/news/#event-b401ff93ec600cf4"/>
+    <updated>2026-09-07T23:58:52+00:00</updated>
+    <summary type="html">February 23, 2018: Interview for Nature News (2018) &lt;a href=&quot;https://www.nature.com/articles/d41586-018-02421-3&quot;&gt;Researchers have finally created a tool to spot duplicated images across thousands of papers&lt;/a&gt;</summary>
+  </entry>
+  
+</feed>

@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <id>https://scienceofscience.org/publications/feed.xml</id>
+  <title>SOS+CD publications and preprints</title>
+  <subtitle>Research records from 2008 onward. Entry updates describe catalog updates; publication dates are stated in each record.</subtitle>
+  <link href="https://scienceofscience.org/publications/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://scienceofscience.org/publications/"/>
+  <updated>2026-09-07T23:57:57+00:00</updated>
+  <author><name>SOS+CD Lab</name></author>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#meguimtsop2026sciintbench</id>
+    <title>SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under Adversarial Framing</title>
+    <link href="https://scienceofscience.org/publications/sciintbench/"/>
+    <link href="https://arxiv.org/abs/2605.29468" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2026-05-28T00:00:00+00:00</published>
+    <author><name>Almene De Meran Meguimtsop</name></author><author><name>Maria Leonor Pacheco</name></author><author><name>Daniel E. Acuna</name></author>
+    <summary>2026 · Preprint / working paper. arXiv preprint arXiv:2605.29468. SciIntBench evaluates how language models respond to scientific requests framed as explicit misconduct, covert misconduct, or legitimate work. It measures both refusal of problematic requests and helpfulness on benign ones.</summary>
+    <category term="integrity" label="Research integrity"/><category term="discovery" label="Peer review &amp; discovery"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#taechoyotin2026remctx</id>
+    <title>REM-CTX: Automated Peer Review via Reinforcement Learning with Auxiliary Context</title>
+    <link href="https://scienceofscience.org/publications/rem-ctx/"/>
+    <link href="https://arxiv.org/abs/2604.00248" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2026-03-31T00:00:00+00:00</published>
+    <author><name>Pawin Taechoyotin</name></author><author><name>Daniel E. Acuna</name></author>
+    <summary>2026 · Preprint / working paper. arXiv preprint arXiv:2604.00248. REM-CTX extends review generation beyond manuscript text. It trains a language model to use auxiliary context and tests whether explicit correspondence rewards improve the grounding of generated reviews.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#zhou2026widespread</id>
+    <title>Widespread reference missingness disparities in open scholarly metadata</title>
+    <link href="https://scienceofscience.org/publications/#zhou2026widespread"/>
+    <link href="https://doi.org/10.1162/qss.a.400" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Huaxia Zhou</name></author><author><name>Lizhen Liang</name></author><author><name>Daniel E. Acuna</name></author>
+    <summary>2026. Quantitative Science Studies. Huaxia Zhou, Lizhen Liang, Daniel E. Acuna (2026). Widespread reference missingness disparities in open scholarly metadata. Quantitative Science Studies. https://doi.org/10.1162/qss.a.400</summary>
+    <category term="integrity" label="Research integrity"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#popp2026government</id>
+    <title>Government Funding and the Direction of Academic Energy Research</title>
+    <link href="https://scienceofscience.org/publications/#popp2026government"/>
+    <link href="https://doi.org/10.3386/w34856" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>David Popp</name></author><author><name>Myriam Gregoire-Zawilski</name></author><author><name>Lizhen Liang</name></author><author><name>Daniel E. Acuna</name></author>
+    <summary>2026 · Preprint / working paper. NBER Working Paper No. 34856. David Popp, Myriam Gregoire-Zawilski, Lizhen Liang, Daniel E. Acuna (2026). Government Funding and the Direction of Academic Energy Research. NBER Working Paper No. 34856. https://doi.org/10.3386/w34856</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#kusumegi2026dissecting</id>
+    <title>Dissecting the gender divide: authorship and acknowledgment in scientific publications</title>
+    <link href="https://scienceofscience.org/publications/#kusumegi2026dissecting"/>
+    <link href="https://doi.org/10.1007/s11192-026-05712-z" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Keigo Kusumegi</name></author><author><name>Daniel E. Acuna</name></author><author><name>Yukie Sano</name></author>
+    <summary>2026. Scientometrics. Keigo Kusumegi, Daniel E. Acuna, Yukie Sano (2026). Dissecting the gender divide: authorship and acknowledgment in scientific publications. Scientometrics. https://doi.org/10.1007/s11192-026-05712-z</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#xu2026beyond</id>
+    <title>Beyond a number game: Flat team structures improve inclusion and performance in diverse scientific teams</title>
+    <link href="https://scienceofscience.org/publications/#xu2026beyond"/>
+    <link href="https://doi.org/10.1002/asi.70083" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Huimin Xu</name></author><author><name>Shujing Sun</name></author><author><name>Meijun Liu</name></author><author><name>Chenwei Zhang</name></author><author><name>Yi Bu</name></author><author><name>Yi Zhang</name></author><author><name>Daniel E. Acuna</name></author><author><name>Eric Meyer</name></author><author><name>Ying Ding</name></author>
+    <summary>2026. Journal of the Association for Information Science and Technology. Huimin Xu, Shujing Sun, Meijun Liu, Chenwei Zhang, Yi Bu, Yi Zhang, Daniel E. Acuna, Eric Meyer, Ying Ding (2026). Beyond a number game: Flat team structures improve inclusion and performance in diverse scientific teams. Journal of the Association for Information Science and Technology. https://doi.org/10.1002/asi.70083</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#abatayo2026credibility</id>
+    <title>Assessments of Credibility in the Social and Behavioral Sciences</title>
+    <link href="https://scienceofscience.org/publications/#abatayo2026credibility"/>
+    <link href="https://osf.io/preprints/metaarxiv/7u58q_v1" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Anna Lou Abatayo</name></author><author><name>Titipat Achakulvisut</name></author><author><name>Daniel Acuna</name></author><author><name>Balazs Aczel</name></author><author><name>Laxmaan Balaji</name></author><author><name>Anita Bandrowski</name></author><author><name>Daniel M Benjamin</name></author><author><name>Michael M Bishop</name></author><author><name>Gary L Brase</name></author><author><name>Andrew W Brown</name></author><author><name>Martin Bush</name></author><author><name>James Caverlee</name></author><author><name>Tatiana Chakravorti</name></author><author><name>Yiling Chen</name></author><author><name>Macie Daley</name></author><author><name>Morteza Dehghani</name></author><author><name>Mirka Dirzo</name></author><author><name>Anna Dreber</name></author><author><name>Peter Eckmann</name></author><author><name>Timothy M Errington</name></author><author><name>Qizhang Feng</name></author><author><name>Fiona Fidler</name></author><author><name>Samuel Field</name></author><author><name>Nicholas W Fox</name></author><author><name>Robert D Fraleigh</name></author><author><name>Aaron Frank</name></author><author><name>Hannah Fraser</name></author><author><name>James Gentile</name></author><author><name>C L Giles</name></author><author><name>Brandon Goldfedder</name></author><author><name>Phil Gooch</name></author><author><name>Michael Gordon</name></author><author><name>Elliot Gould</name></author><author><name>Christopher Griffin</name></author><author><name>Timothy Gulden</name></author><author><name>Noah Haber</name></author><author><name>Krystal Hahn</name></author><author><name>Felix Holzmeister</name></author><author><name>Xia B Hu</name></author><author><name>Yuzhong Huang</name></author><author><name>Magnus Johannesson</name></author><author><name>Brendan Kennedy</name></author><author><name>Melissa Kline Struhl</name></author><author><name>Anthony Kwasnica</name></author><author><name>Dong-Ho Lee</name></author><author><name>Kristina Lerman</name></author><author><name>Yang Liu</name></author><author><name>Allegra Pearce</name></author><author><name>Isabella Mandema</name></author><author><name>Alexandru Marcoci</name></author><author><name>Brinna Mawhinney</name></author><author><name>Souad McIntosh</name></author><author><name>Michael Mclaughlin</name></author><author><name>Arjun Menon</name></author><author><name>Olivia Miske</name></author><author><name>Fallon Mody</name></author><author><name>Fred Morstatter</name></author><author><name>Nishanth S Nakshatri</name></author><author><name>Brian A Nosek</name></author><author><name>Michele B Nuijten</name></author><author><name>David Pennock</name></author><author><name>Thomas Pfeiffer</name></author><author><name>Darien Pipkin</name></author><author><name>Jay Pujara</name></author><author><name>Sarah Rajtmajer</name></author><author><name>Martijn Roelandse</name></author><author><name>Adam Russell</name></author><author><name>Priya Silverstein</name></author><author><name>Vaibhav Singh</name></author><author><name>Courtney K Soderberg</name></author><author><name>Anna M Squicciarini</name></author><author><name>Theresa Stankov</name></author><author><name>Jordan W Suchow</name></author><author><name>Barnabas Szaszi</name></author><author><name>Louisa Tran</name></author><author><name>Peter A Vesk</name></author><author><name>Tim Vines</name></author><author><name>Colby J Vorland</name></author><author><name>Juntao Wang</name></author><author><name>Zhuoer Wang</name></author><author><name>David P Wilkinson</name></author><author><name>Bonnie Wintle</name></author><author><name>Jian Wu</name></author>
+    <summary>2026 · Preprint / working paper. MetaArXiv. Anna Lou Abatayo, Titipat Achakulvisut, Daniel Acuna, Balazs Aczel, Laxmaan Balaji, Anita Bandrowski, Daniel M Benjamin, Michael M Bishop, Gary L Brase, Andrew W Brown, Martin Bush, James Caverlee, Tatiana Chakravorti, Yiling Chen, Macie Daley, Morteza Dehghani, Mirka Dirzo, Anna Dreber, Peter Eckmann, Timothy M Errington, Qizhang Feng, Fiona Fidler, Samuel Field, Nicholas W Fox, Robert D Fraleigh, Aaron Frank, Hannah Fraser, James Gentile, C L Giles, Brandon Goldfedder, Phil Gooch, Michael Gordon, Elliot Gould, Christopher Griffin, Timothy Gulden, Noah Haber, Krystal Hahn, Felix Holzmeister, Xia B Hu, Yuzhong Huang, Magnus Johannesson, Brendan Kennedy, Melissa Kline Struhl, Anthony Kwasnica, Dong-Ho Lee, Kristina Lerman, Yang Liu, Allegra Pearce, Isabella Mandema, Alexandru Marcoci, Brinna Mawhinney, Souad McIntosh, Michael Mclaughlin, Arjun Menon, Olivia Miske, Fallon Mody, Fred Morstatter, Nishanth S Nakshatri, Brian A Nosek, Michele B Nuijten, David Pennock, Thomas Pfeiffer, Darien Pipkin, Jay Pujara, Sarah Rajtmajer, Martijn Roelandse, Adam Russell, Priya Silverstein, Vaibhav Singh, Courtney K Soderberg, Anna M Squicciarini, Theresa Stankov, Jordan W Suchow, Barnabas Szaszi, Louisa Tran, Peter A Vesk, Tim Vines, Colby J Vorland, Juntao Wang, Zhuoer Wang, David P Wilkinson, Bonnie Wintle, Jian Wu (2026). Assessments of Credibility in the Social and Behavioral Sciences. MetaArXiv.</summary>
+    <category term="integrity" label="Research integrity"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#zhuang2025estimating</id>
+    <title>Estimating the predictability of questionable open-access journals</title>
+    <link href="https://scienceofscience.org/publications/questionable-journals/"/>
+    <link href="https://doi.org/10.1126/sciadv.adt2792" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2025-08-27T00:00:00+00:00</published>
+    <author><name>Han Zhuang</name></author><author><name>Lizhen Liang</name></author><author><name>Daniel E. Acuna</name></author>
+    <summary>2025. Science Advances. This study evaluates whether journal websites and publication metadata can support large-scale screening for questionable open-access journals. It treats automated predictions as a way to focus expert investigation.</summary>
+    <category term="integrity" label="Research integrity"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2022predicting</id>
+    <title>Predicting the longevity of resources shared in scientific publications</title>
+    <link href="https://scienceofscience.org/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html"/>
+    <link href="https://doi.org/10.1057/s41599-025-04716-z" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2025-05-22T00:00:00+00:00</published>
+    <author><name>Daniel E. Acuna</name></author><author><name>Jian Jian</name></author><author><name>Tong Zeng</name></author><author><name>Lizhen Liang</name></author><author><name>Han Zhuang</name></author>
+    <summary>2025. Humanities and Social Sciences Communications. Code and data links can stop working long after a paper is published. This study examines which features of a resource, its host, and its associated publication help explain and predict its availability over time.</summary>
+    <category term="integrity" label="Research integrity"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#taechoyotin2025remor</id>
+    <title>REMOR: Automated Peer Review Generation with LLM Reasoning and Multi-Objective Reinforcement Learning</title>
+    <link href="https://scienceofscience.org/publications/remor/"/>
+    <link href="https://arxiv.org/abs/2505.11718" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2025-05-16T00:00:00+00:00</published>
+    <author><name>Pawin Taechoyotin</name></author><author><name>Daniel E. Acuna</name></author>
+    <summary>2025 · Preprint / working paper. arXiv preprint arXiv:2505.11718. REMOR studies review generation with a reasoning language model and rewards for multiple aspects of review quality. It compares different reward designs and examines how training changes the feedback produced.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#zhou2022paraphrase</id>
+    <title>Paraphrase Identification with Deep Learning: A Review of Datasets and Methods</title>
+    <link href="https://scienceofscience.org/publications/#zhou2022paraphrase"/>
+    <link href="https://doi.org/10.1109/ACCESS.2025.3556899" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Chao Zhou</name></author><author><name>Cheng Qiu</name></author><author><name>Lizhen Liang</name></author><author><name>Daniel E. Acuna</name></author>
+    <summary>2025. IEEE Access. Chao Zhou, Cheng Qiu, Lizhen Liang, Daniel E. Acuna (2025). Paraphrase Identification with Deep Learning: A Review of Datasets and Methods. IEEE Access. https://doi.org/10.1109/ACCESS.2025.3556899</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/><category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#XU2024103542</id>
+    <title>The impact of heterogeneous shared leadership in scientific teams</title>
+    <link href="https://scienceofscience.org/publications/#XU2024103542"/>
+    <link href="https://www.sciencedirect.com/science/article/pii/S0306457323002790" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Huimin Xu</name></author><author><name>Meijun Liu</name></author><author><name>Yi Bu</name></author><author><name>Shujing Sun</name></author><author><name>Yi Zhang</name></author><author><name>Chenwei Zhang</name></author><author><name>Daniel E. Acuna</name></author><author><name>Steven Gray</name></author><author><name>Eric Meyer</name></author><author><name>Ying Ding</name></author>
+    <summary>2024. Information Processing &amp; Management. Huimin Xu, Meijun Liu, Yi Bu, Shujing Sun, Yi Zhang, Chenwei Zhang, Daniel E. Acuna, Steven Gray, Eric Meyer, Ying Ding (2024). The impact of heterogeneous shared leadership in scientific teams. Information Processing &amp; Management. https://doi.org/10.1016/j.ipm.2023.103542</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#liang2024complementary</id>
+    <title>The complementary contributions of academia and industry to AI research</title>
+    <link href="https://scienceofscience.org/publications/#liang2024complementary"/>
+    <link href="https://arxiv.org/abs/2401.10268" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Lizhen Liang</name></author><author><name>Han Zhuang</name></author><author><name>James Zou</name></author><author><name>Daniel E. Acuna</name></author>
+    <summary>2024 · Preprint / working paper. arXiv preprint arXiv:2401.10268. Lizhen Liang, Han Zhuang, James Zou, Daniel E. Acuna (2024). The complementary contributions of academia and industry to AI research. arXiv preprint arXiv:2401.10268.</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#novoa2024science</id>
+    <title>Science Needs You: Mobilizing for Diversity in Award Recognition</title>
+    <link href="https://scienceofscience.org/publications/#novoa2024science"/>
+    <link href="https://dl.acm.org/doi/10.1145/3651150" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Elizabeth Novoa-Monsalve</name></author><author><name>David Patterson</name></author><author><name>Stephanie Ludi</name></author><author><name>Daniel E Acuna</name></author>
+    <summary>2024. Communications of the ACM. Elizabeth Novoa-Monsalve, David Patterson, Stephanie Ludi, Daniel E Acuna (2024). Science Needs You: Mobilizing for Diversity in Award Recognition. Communications of the ACM.</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#Bibal2024</id>
+    <title>RecSOI: recommending research directions using statements of ignorance</title>
+    <link href="https://scienceofscience.org/publications/#Bibal2024"/>
+    <link href="https://doi.org/10.1186/s13326-024-00304-3" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Adrien Bibal</name></author><author><name>Nourah M. Salem</name></author><author><name>Rémi Cardon</name></author><author><name>Elizabeth K. White</name></author><author><name>Daniel E. Acuna</name></author><author><name>Robin Burke</name></author><author><name>Lawrence E. Hunter</name></author>
+    <summary>2024. Journal of Biomedical Semantics. Adrien Bibal, Nourah M. Salem, Rémi Cardon, Elizabeth K. White, Daniel E. Acuna, Robin Burke, Lawrence E. Hunter (2024). RecSOI: recommending research directions using statements of ignorance. Journal of Biomedical Semantics. https://doi.org/10.1186/s13326-024-00304-3</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#taechoyotin2024misti</id>
+    <title>MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning</title>
+    <link href="https://scienceofscience.org/publications/misti/"/>
+    <link href="https://aclanthology.org/2024.sdp-1.15/" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Pawin Taechoyotin</name></author><author><name>Daniel Acuna</name></author>
+    <summary>2024. Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024). MISTI learns joint representations of scientific figures, captions, and publication metadata. The study tests whether contextual information such as titles, sections, and concepts improves retrieval beyond the image-caption pair alone.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#taechoyotin2024mamorx</id>
+    <title>MAMORX: Multi-agent Multi-modal Scientific Review Generation with External Knowledge</title>
+    <link href="https://scienceofscience.org/publications/#taechoyotin2024mamorx"/>
+    <link href="https://openreview.net/forum?id=frvkE8rCfX" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Pawin Taechoyotin</name></author><author><name>Guanchao Wang</name></author><author><name>Tong Zeng</name></author><author><name>Bradley Sides</name></author><author><name>Daniel E. Acuna</name></author>
+    <summary>2024. NeurIPS 2024 Workshop on Foundation Models for Science: Progress, Opportunities, and Challenges. Pawin Taechoyotin, Guanchao Wang, Tong Zeng, Bradley Sides, Daniel E. Acuna (2024). MAMORX: Multi-agent Multi-modal Scientific Review Generation with External Knowledge. NeurIPS 2024 Workshop on Foundation Models for Science: Progress, Opportunities, and Challenges.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#10.1162/qss_a_00332</id>
+    <title>Incorporating costs and benefits to the evaluation of uncertain research results: applications to cancer research funding</title>
+    <link href="https://scienceofscience.org/publications/research-costs-benefits/"/>
+    <link href="https://doi.org/10.1162/qss_a_00332" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Han Zhuang</name></author><author><name>Daniel E. Acuna</name></author>
+    <summary>2024. Quantitative Science Studies. A study&apos;s chance of being correct is only one part of deciding whether a research program is worth pursuing. This paper develops a decision-theoretic framework that makes potential costs and benefits explicit.</summary>
+    <category term="ecosystem" label="Science of science"/><category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#varasteh2024comparative</id>
+    <title>Comparative Explanations for Recommendation: Research Directions</title>
+    <link href="https://scienceofscience.org/publications/#varasteh2024comparative"/>
+    <link href="https://ceur-ws.org/Vol-3815/paper1.pdf" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Meysam Varasteh</name></author><author><name>Elizabeth McKinnie</name></author><author><name>Amanda Aird</name></author><author><name>Daniel E. Acuna</name></author><author><name>Robin Burke</name></author>
+    <summary>2024. Proceedings of the 11th Joint Workshop on Interfaces and Human Decision Making for Recommender Systems (IntRS 2024), co-located with RecSys 2024. Meysam Varasteh, Elizabeth McKinnie, Amanda Aird, Daniel E. Acuna, Robin Burke (2024). Comparative Explanations for Recommendation: Research Directions. Proceedings of the 11th Joint Workshop on Interfaces and Human Decision Making for Recommender Systems (IntRS 2024), co-located with RecSys 2024.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/><category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#leto2024first</id>
+    <title>A First Step towards Measuring Interdisciplinary Engagement in Scientific Publications: A Case Study on NLP+ CSS Research</title>
+    <link href="https://scienceofscience.org/publications/#leto2024first"/>
+    <link href="https://aclanthology.org/2024.nlpcss-1.11/" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Alexandria Leto</name></author><author><name>Shamik Roy</name></author><author><name>Alexander Hoyle</name></author><author><name>Daniel Acuna</name></author><author><name>María Leonor Pacheco</name></author>
+    <summary>2024. Proceedings of the Sixth Workshop on Natural Language Processing and Computational Social Science (NLP+ CSS 2024). Alexandria Leto, Shamik Roy, Alexander Hoyle, Daniel Acuna, María Leonor Pacheco (2024). A First Step towards Measuring Interdisciplinary Engagement in Scientific Publications: A Case Study on NLP+ CSS Research. Proceedings of the Sixth Workshop on Natural Language Processing and Computational Social Science (NLP+ CSS 2024).</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#zhuang2023computational</id>
+    <title>A computational analysis of accessibility, readability, and explainability of figures in open access publications</title>
+    <link href="https://scienceofscience.org/publications/#zhuang2023computational"/>
+    <link href="https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-023-00380-y" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Han Zhuang</name></author><author><name>Tzu-Yang Huang</name></author><author><name>Daniel E Acuna</name></author>
+    <summary>2023. EPJ Data Science. Han Zhuang, Tzu-Yang Huang, Daniel E Acuna (2023). A computational analysis of accessibility, readability, and explainability of figures in open access publications. EPJ Data Science.</summary>
+    <category term="integrity" label="Research integrity"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2022</id>
+    <title>Author-suggested reviewers rate manuscripts much more favorably: A cross-sectional analysis of the neuroscience section of PLOS ONE</title>
+    <link href="https://scienceofscience.org/publications/author-suggested-reviewers/"/>
+    <link href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0273994" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2022-12-12T00:00:00+00:00</published>
+    <author><name>D E Acuna</name></author><author><name>M Teplitskiy</name></author><author><name>J. Evans</name></author><author><name>K. Kording</name></author>
+    <summary>2022. PLOS ONE. This study examines the association between author-suggested reviewers and peer-review outcomes. It uses records from the neuroscience section of PLOS ONE to compare reviewer invitations, evaluations, and acceptance outcomes.</summary>
+    <category term="integrity" label="Research integrity"/><category term="discovery" label="Peer review &amp; discovery"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#keacuna2022</id>
+    <title>A dataset of mentorship in bioscience with semantic and demographic estimations</title>
+    <link href="https://scienceofscience.org/publications/mentorship-dataset/"/>
+    <link href="https://www.nature.com/articles/s41597-022-01578-x" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2022-08-02T00:00:00+00:00</published>
+    <author><name>Q. Ke</name></author><author><name>L. Liang</name></author><author><name>Y. Ding</name></author><author><name>S V David</name></author><author><name>D E Acuna</name></author>
+    <summary>2022. Scientific Data. This data descriptor introduces a resource linking academic mentorship relationships to publication records, research representations, and demographic estimates. It is designed to support analysis of mentorship and scientific careers.</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#liu2022team</id>
+    <title>Team formation and team impact: The balance between team freshness and repeat collaboration</title>
+    <link href="https://scienceofscience.org/publications/#liu2022team"/>
+    <link href="https://doi.org/10.1016/j.joi.2022.101337" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Meijun Liu</name></author><author><name>Ajay Jaiswal</name></author><author><name>Yi Bu</name></author><author><name>Chao Min</name></author><author><name>Sijie Yang</name></author><author><name>Zhibo Liu</name></author><author><name>Daniel Acuña</name></author><author><name>Ying Ding</name></author>
+    <summary>2022. Journal of Informetrics. Meijun Liu, Ajay Jaiswal, Yi Bu, Chao Min, Sijie Yang, Zhibo Liu, Daniel Acuña, Ying Ding (2022). Team formation and team impact: The balance between team freshness and repeat collaboration. Journal of Informetrics. https://doi.org/10.1016/j.joi.2022.101337</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acunaiconference2022</id>
+    <title>Predicting the usage of scientific datasets based on article, author, institution, and journal bibliometrics</title>
+    <link href="https://scienceofscience.org/publications/#acunaiconference2022"/>
+    <link href="https://link.springer.com/chapter/10.1007/978-3-030-96957-8_5" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel E. Acuna</name></author><author><name>Zijun Yi</name></author><author><name>Lizhen Liang</name></author><author><name>Han Zhuang</name></author>
+    <summary>2022. International Conference on Information. Daniel E. Acuna, Zijun Yi, Lizhen Liang, Han Zhuang (2022). Predicting the usage of scientific datasets based on article, author, institution, and journal bibliometrics. International Conference on Information. https://doi.org/10.1007/978-3-030-96957-8_5</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#bu2022workshop</id>
+    <title>International Workshop on Data-driven Science of Science</title>
+    <link href="https://scienceofscience.org/publications/#bu2022workshop"/>
+    <link href="https://doi.org/10.1145/3534678.3542891" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Yi Bu</name></author><author><name>Meijun Liu</name></author><author><name>Yujia Zhai</name></author><author><name>Ying Ding</name></author><author><name>Feng Xia</name></author><author><name>Daniel E. Acuña</name></author><author><name>Yi Zhang</name></author>
+    <summary>2022 · Workshop announcement. Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. Yi Bu, Meijun Liu, Yujia Zhai, Ying Ding, Feng Xia, Daniel E. Acuña, Yi Zhang (2022). International Workshop on Data-driven Science of Science. Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. https://doi.org/10.1145/3534678.3542891</summary>
+    <category term="ecosystem" label="Science of science"/><category term="discovery" label="Peer review &amp; discovery"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#zhuangacuna2021</id>
+    <title>Graphical integrity issues in open access publications: detection and patterns of proportional ink violations</title>
+    <link href="https://scienceofscience.org/publications/graphical-integrity/"/>
+    <link href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009650" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2021-12-13T00:00:00+00:00</published>
+    <author><name>Han Zhuang</name></author><author><name>Tzu-Yang Huang</name></author><author><name>Daniel Ernesto Acuna</name></author>
+    <summary>2021. PloS Computational Biology. This study examines violations of the proportional ink principle: the amount of visual ink representing a value should agree with that value. It develops an automated method for detecting these inconsistencies in scientific bar charts.</summary>
+    <category term="integrity" label="Research integrity"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2021mlworkshop</id>
+    <title>Machine Learning and Artificial Intelligence for Science of Science and Computational Discovery: Principles, Applications, and Future Opportunities</title>
+    <link href="https://scienceofscience.org/publications/#acuna2021mlworkshop"/>
+    <link href="https://scienceofscience.org/workshops/" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel E. Acuna</name></author><author><name>Tong Zeng</name></author><author><name>Han Zhuang</name></author><author><name>Lizhen Liang</name></author>
+    <summary>2021 · Workshop description. iConference 2021 workshop. Daniel E. Acuna, Tong Zeng, Han Zhuang, Lizhen Liang (2021). Machine Learning and Artificial Intelligence for Science of Science and Computational Discovery: Principles, Applications, and Future Opportunities. iConference 2021 workshop.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/><category term="ecosystem" label="Science of science"/><category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2021eileen</id>
+    <title>EILEEN: A recommendation system for scientific publications and grants</title>
+    <link href="https://scienceofscience.org/publications/#acuna2021eileen"/>
+    <link href="https://arxiv.org/abs/2110.09663" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel E. Acuna</name></author><author><name>Kartik Nagre</name></author><author><name>Priya Matnani</name></author>
+    <summary>2021 · Preprint / working paper. arXiv:2110.09663. Daniel E. Acuna, Kartik Nagre, Priya Matnani (2021). EILEEN: A recommendation system for scientific publications and grants. arXiv:2110.09663. https://doi.org/10.48550/arXiv.2110.09663</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#10.1145/3461702.3462616</id>
+    <title>Are AI Ethics Conferences Different and More Diverse Compared to Traditional Computer Science Conferences?</title>
+    <link href="https://scienceofscience.org/publications/#10.1145/3461702.3462616"/>
+    <link href="https://dl.acm.org/doi/pdf/10.1145/3461702.3462616" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel E. Acuna</name></author><author><name>Lizhen Liang</name></author>
+    <summary>2021. Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society. Daniel E. Acuna, Lizhen Liang (2021). Are AI Ethics Conferences Different and More Diverse Compared to Traditional Computer Science Conferences?. Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society. https://doi.org/10.1145/3461702.3462616</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#zengacuna2020</id>
+    <title>Large-scale author name disambiguation using approximate network structures</title>
+    <link href="https://scienceofscience.org/publications/ic2s2-author-name-disambiguation.html"/>
+    <link href="https://scienceofscience.org/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2020-07-17T00:00:00+00:00</published>
+    <author><name>Tong Zeng</name></author><author><name>Daniel E Acuna</name></author>
+    <summary>2020. International Conference on Computational Social Science. Names alone are unreliable identifiers: different people can share a name, and one person&apos;s name can appear in several forms. This work investigates a scalable approach to author-name disambiguation using approximate network structures.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2020nullmodel</id>
+    <title>Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations</title>
+    <link href="https://scienceofscience.org/publications/image-reuse-null-model/"/>
+    <link href="https://arxiv.org/abs/2003.00878" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2020-02-22T00:00:00+00:00</published>
+    <author><name>Daniel E. Acuna</name></author><author><name>Ziyue Xiang</name></author>
+    <summary>2020 · Preprint / working paper. arXiv:2003.00878. Image similarities need a reference point: a repeated pattern might be rare, or it might be common in scientific imagery. This preprint develops a statistical baseline for estimating how often a feature could occur by chance.</summary>
+    <category term="integrity" label="Research integrity"/><category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#xiang2020tampering</id>
+    <title>Scientific Image Tampering Detection Based On Noise Inconsistencies: A Method And Datasets</title>
+    <link href="https://scienceofscience.org/publications/scientific-image-tampering/"/>
+    <link href="https://arxiv.org/abs/2001.07799" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2020-01-21T00:00:00+00:00</published>
+    <author><name>Ziyue Xiang</name></author><author><name>Daniel E. Acuna</name></author>
+    <summary>2020 · Preprint / working paper. arXiv:2001.07799. Scientific images have different properties from everyday photographs. This preprint develops a detector tailored to scientific imagery and tests whether inconsistencies in image noise can reveal manipulated regions.</summary>
+    <category term="integrity" label="Research integrity"/><category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#achakulvisut2020neuromatch</id>
+    <title>neuromatch: Algorithms to match scientists</title>
+    <link href="https://scienceofscience.org/publications/#achakulvisut2020neuromatch"/>
+    <link href="https://elifesciences.org/labs/5ed408f4/neuromatch-algorithms-to-match-scientists" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Titipat Achakulvisut</name></author><author><name>Tulakan Ruangrong</name></author><author><name>Daniel Ernesto Acuna</name></author><author><name>Brad Wyble</name></author><author><name>Dan Goodman</name></author><author><name>Konrad Kording</name></author>
+    <summary>2020 · Web article. eLife Labs. Titipat Achakulvisut, Tulakan Ruangrong, Daniel Ernesto Acuna, Brad Wyble, Dan Goodman, Konrad Kording (2020). neuromatch: Algorithms to match scientists. eLife Labs.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2020mentorshipcommentary</id>
+    <title>Some considerations for studying gender, mentorship, and scientific impact: commentary on AlShebli, Makovi, and Rahwan (2020)</title>
+    <link href="https://scienceofscience.org/publications/#acuna2020mentorshipcommentary"/>
+    <link href="https://scholar.archive.org/work/qk62l25nhjcnzck3fhcxdogl2u/access/wayback/https://files.osf.io/v1/resources/ybfk6/providers/osfstorage/5fe01fca149e75061b032ad0?action=download&amp;direct&amp;version=3" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel Ernesto Acuna</name></author>
+    <summary>2020 · Archived preprint. OSF Preprints. Daniel Ernesto Acuna (2020). Some considerations for studying gender, mentorship, and scientific impact: commentary on AlShebli, Makovi, and Rahwan (2020). OSF Preprints. https://doi.org/10.31219/osf.io/ybfk6</summary>
+    <category term="integrity" label="Research integrity"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#jas2020pyglmnet</id>
+    <title>Pyglmnet: Python implementation of elastic-net regularized generalized linear models</title>
+    <link href="https://scienceofscience.org/publications/#jas2020pyglmnet"/>
+    <link href="https://joss.theoj.org/papers/10.21105/joss.01959" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Mainak Jas</name></author><author><name>Titipat Achakulvisut</name></author><author><name>Aid Idrizović</name></author><author><name>Daniel Ernesto Acuna</name></author><author><name>Matthew Antalek</name></author><author><name>Vinicius Marques</name></author><author><name>Tommy Odland</name></author><author><name>Ravi Prakash Garg</name></author><author><name>Mayank Agrawal</name></author><author><name>Yu Umegaki</name></author><author><name>others</name></author>
+    <summary>2020. Journal of Open Source Software. Mainak Jas, Titipat Achakulvisut, Aid Idrizović, Daniel Ernesto Acuna, Matthew Antalek, Vinicius Marques, Tommy Odland, Ravi Prakash Garg, Mayank Agrawal, Yu Umegaki, others (2020). Pyglmnet: Python implementation of elastic-net regularized generalized linear models. Journal of Open Source Software.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#achakulvisut2020pubmed</id>
+    <title>Pubmed parser: a python parser for pubmed open-access XML subset and MEDLINE XML dataset XML dataset</title>
+    <link href="https://scienceofscience.org/publications/#achakulvisut2020pubmed"/>
+    <link href="https://joss.theoj.org/papers/10.21105/joss.01979" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Titipat Achakulvisut</name></author><author><name>Daniel E Acuna</name></author><author><name>Konrad Kording</name></author>
+    <summary>2020. Journal of Open Source Software. Titipat Achakulvisut, Daniel E Acuna, Konrad Kording (2020). Pubmed parser: a python parser for pubmed open-access XML subset and MEDLINE XML dataset XML dataset. Journal of Open Source Software.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#zeng2020modeling</id>
+    <title>Modeling citation worthiness by using attention-based bidirectional long short-term memory networks and interpretable models</title>
+    <link href="https://scienceofscience.org/publications/#zeng2020modeling"/>
+    <link href="https://link.springer.com/article/10.1007/s11192-020-03421-9" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Tong Zeng</name></author><author><name>Daniel E Acuna</name></author>
+    <summary>2020. Scientometrics. Tong Zeng, Daniel E Acuna (2020). Modeling citation worthiness by using attention-based bidirectional long short-term memory networks and interpretable models. Scientometrics.</summary>
+    <category term="integrity" label="Research integrity"/><category term="discovery" label="Peer review &amp; discovery"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#zeng2020gotfunding</id>
+    <title>GotFunding: A grant recommendation system based on scientific articles</title>
+    <link href="https://scienceofscience.org/publications/#zeng2020gotfunding"/>
+    <link href="https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/pra2.323" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Tong Zeng</name></author><author><name>Daniel E Acuna</name></author>
+    <summary>2020. Proceedings of the Association for Information Science and Technology. Tong Zeng, Daniel E Acuna (2020). GotFunding: A grant recommendation system based on scientific articles. Proceedings of the Association for Information Science and Technology.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#zeng2020finding</id>
+    <title>Finding datasets in publications: the Syracuse University approach</title>
+    <link href="https://scienceofscience.org/publications/#zeng2020finding"/>
+    <link href="https://surface.syr.edu/cgi/viewcontent.cgi?article=1194&amp;context=istpub" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Tong Zeng</name></author><author><name>Daniel E Acuna</name></author>
+    <summary>2020. Rich Search and Discovery for Research Datasets. Tong Zeng, Daniel E Acuna (2020). Finding datasets in publications: the Syracuse University approach. Rich Search and Discovery for Research Datasets. https://doi.org/10.5281/zenodo.4402304</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#liang2020don</id>
+    <title>Don’t judge a journal by its cover?: Appearance of a Journal’s website as predictor of blacklisted Open-Access status</title>
+    <link href="https://scienceofscience.org/publications/#liang2020don"/>
+    <link href="https://zenodo.org/record/4403155/files/Liang_L%20AM20.pdf" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Lizhen Liang</name></author><author><name>Daniel E Acuna</name></author>
+    <summary>2020. Proceedings of the Association for Information Science and Technology. Lizhen Liang, Daniel E Acuna (2020). Don’t judge a journal by its cover?: Appearance of a Journal’s website as predictor of blacklisted Open-Access status. Proceedings of the Association for Information Science and Technology.</summary>
+    <category term="integrity" label="Research integrity"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#zeng2020assigning</id>
+    <title>Assigning credit to scientific datasets using article citation networks</title>
+    <link href="https://scienceofscience.org/publications/#zeng2020assigning"/>
+    <link href="https://www.sciencedirect.com/science/article/pii/S1751157719301841" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Tong Zeng</name></author><author><name>Longfeng Wu</name></author><author><name>Sarah Bratt</name></author><author><name>Daniel E Acuna</name></author>
+    <summary>2020. Journal of Informetrics. Tong Zeng, Longfeng Wu, Sarah Bratt, Daniel E Acuna (2020). Assigning credit to scientific datasets using article citation networks. Journal of Informetrics.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#liang2020artificial</id>
+    <title>Artificial mental phenomena: Psychophysics as a framework to detect perception biases in AI models</title>
+    <link href="https://scienceofscience.org/publications/#liang2020artificial"/>
+    <link href="https://dl.acm.org/doi/abs/10.1145/3351095.3375623" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Lizhen Liang</name></author><author><name>Daniel E Acuna</name></author>
+    <summary>2020. Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. Lizhen Liang, Daniel E Acuna (2020). Artificial mental phenomena: Psychophysics as a framework to detect perception biases in AI models. Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#liangacuna2020</id>
+    <title>Are author, affiliation, and citation networks predictive of a journal getting blacklisted?</title>
+    <link href="https://scienceofscience.org/publications/#liangacuna2020"/>
+    <link href="https://zenodo.org/record/4403394/files/ic2s2_Liang.pdf" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Lizhen Liang</name></author><author><name>Daniel E Acuna</name></author>
+    <summary>2020. International Conference on Computational Social Science. Lizhen Liang, Daniel E Acuna (2020). Are author, affiliation, and citation networks predictive of a journal getting blacklisted?. International Conference on Computational Social Science.</summary>
+    <category term="integrity" label="Research integrity"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#zhuangacuna2020</id>
+    <title>An Automatic Misleading Graph Detection Tool</title>
+    <link href="https://scienceofscience.org/publications/#zhuangacuna2020"/>
+    
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Han Zhuang</name></author><author><name>Daniel E Acuna</name></author>
+    <summary>2020. International Conference on Computational Social Science. Han Zhuang, Daniel E Acuna (2020). An Automatic Misleading Graph Detection Tool. International Conference on Computational Social Science.</summary>
+    <category term="integrity" label="Research integrity"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#zhuang2019novelty</id>
+    <title>The effect of novelty on the future impact of scientific grants</title>
+    <link href="https://scienceofscience.org/publications/#zhuang2019novelty"/>
+    <link href="https://arxiv.org/abs/1911.02712" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Han Zhuang</name></author><author><name>Daniel E. Acuna</name></author>
+    <summary>2019 · Preprint / working paper. arXiv:1911.02712. Han Zhuang, Daniel E. Acuna (2019). The effect of novelty on the future impact of scientific grants. arXiv:1911.02712. https://doi.org/10.48550/arXiv.1911.02712</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#lee2019limiting</id>
+    <title>Limiting motor skill knowledge via incidental training protects against choking under pressure</title>
+    <link href="https://scienceofscience.org/publications/#lee2019limiting"/>
+    <link href="https://link.springer.com/article/10.3758/s13423-018-1486-x" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Taraz G Lee</name></author><author><name>Daniel E Acuna</name></author><author><name>Konrad P Kording</name></author><author><name>Scott T Grafton</name></author>
+    <summary>2019. Psychonomic bulletin &amp; review. Taraz G Lee, Daniel E Acuna, Konrad P Kording, Scott T Grafton (2019). Limiting motor skill knowledge via incidental training protects against choking under pressure. Psychonomic bulletin &amp; review.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#zeng2019dead</id>
+    <title>Dead science: Most resources linked in biomedical articles disappear in eight years</title>
+    <link href="https://scienceofscience.org/publications/#zeng2019dead"/>
+    <link href="https://link.springer.com/chapter/10.1007/978-3-030-15742-5_16" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Tong Zeng</name></author><author><name>Alain Shema</name></author><author><name>Daniel E Acuna</name></author>
+    <summary>2019. International Conference on Information. Tong Zeng, Alain Shema, Daniel E Acuna (2019). Dead science: Most resources linked in biomedical articles disappear in eight years. International Conference on Information.</summary>
+    <category term="integrity" label="Research integrity"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#achakulvisut2019claim</id>
+    <title>Claim Extraction in Biomedical Publications using Deep Discourse Model and Transfer Learning</title>
+    <link href="https://scienceofscience.org/publications/#achakulvisut2019claim"/>
+    <link href="https://arxiv.org/abs/1907.00962" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Titipat Achakulvisut</name></author><author><name>Chandra Bhagavatula</name></author><author><name>Daniel Acuna</name></author><author><name>Konrad Kording</name></author>
+    <summary>2019 · Preprint / working paper. arXiv:1907.00962. Titipat Achakulvisut, Chandra Bhagavatula, Daniel Acuna, Konrad Kording (2019). Claim Extraction in Biomedical Publications using Deep Discourse Model and Transfer Learning. arXiv:1907.00962. https://doi.org/10.48550/arXiv.1907.00962</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/><category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#lienard2018intellectual</id>
+    <title>Intellectual synthesis in mentorship determines success in academic careers</title>
+    <link href="https://scienceofscience.org/publications/intellectual-synthesis-mentorship/"/>
+    <link href="https://www.nature.com/articles/s41467-018-07034-y" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2018-11-27T00:00:00+00:00</published>
+    <author><name>Jean F Liénard</name></author><author><name>Titipat Achakulvisut</name></author><author><name>Daniel E Acuna</name></author><author><name>Stephen V David</name></author>
+    <summary>2018. Nature communications. This observational study examines how graduate and postdoctoral mentorship relate to later academic careers. It asks whether combining ideas from mentors with different expertise predicts a trainee&apos;s subsequent success.</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#teplitskiy2018sociology</id>
+    <title>The sociology of scientific validity: How professional networks shape judgement in peer review</title>
+    <link href="https://scienceofscience.org/publications/#teplitskiy2018sociology"/>
+    <link href="https://www.sciencedirect.com/science/article/pii/S0048733318301598" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Misha Teplitskiy</name></author><author><name>Daniel Acuna</name></author><author><name>Aı̈da Elamrani-Raoult</name></author><author><name>Konrad Körding</name></author><author><name>James Evans</name></author>
+    <summary>2018. Research Policy. Misha Teplitskiy, Daniel Acuna, Aı̈da Elamrani-Raoult, Konrad Körding, James Evans (2018). The sociology of scientific validity: How professional networks shape judgement in peer review. Research Policy.</summary>
+    <category term="integrity" label="Research integrity"/><category term="discovery" label="Peer review &amp; discovery"/><category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2018bioscience</id>
+    <title>Bioscience-scale automated detection of figure element reuse</title>
+    <link href="https://scienceofscience.org/publications/#acuna2018bioscience"/>
+    <link href="https://www.biorxiv.org/content/10.1101/269415v3" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel E Acuna</name></author><author><name>Paul S Brookes</name></author><author><name>Konrad P Kording</name></author>
+    <summary>2018 · Preprint / working paper. BioRxiv. Daniel E Acuna, Paul S Brookes, Konrad P Kording (2018). Bioscience-scale automated detection of figure element reuse. BioRxiv.</summary>
+    <category term="integrity" label="Research integrity"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#shema2017show</id>
+    <title>Show Me Your App Usage and I Will Tell Who Your Close Friends Are: Predicting User’s Context from Simple Cellphone Activity</title>
+    <link href="https://scienceofscience.org/publications/#shema2017show"/>
+    <link href="https://dl.acm.org/doi/abs/10.1145/3027063.3053275" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Alain Shema</name></author><author><name>Daniel E Acuna</name></author>
+    <summary>2017. Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems. Alain Shema, Daniel E Acuna (2017). Show Me Your App Usage and I Will Tell Who Your Close Friends Are: Predicting User’s Context from Simple Cellphone Activity. Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#achakulvisut2016science</id>
+    <title>Science Concierge: A fast content-based recommendation system for scientific publications</title>
+    <link href="https://scienceofscience.org/publications/#achakulvisut2016science"/>
+    <link href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158423" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Titipat Achakulvisut</name></author><author><name>Daniel E Acuna</name></author><author><name>Tulakan Ruangrong</name></author><author><name>Konrad Kording</name></author>
+    <summary>2016. PloS ONE. Titipat Achakulvisut, Daniel E Acuna, Tulakan Ruangrong, Konrad Kording (2016). Science Concierge: A fast content-based recommendation system for scientific publications. PloS ONE.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#ramkumar2016chunking</id>
+    <title>Chunking as the result of an efficiency computation trade-off</title>
+    <link href="https://scienceofscience.org/publications/#ramkumar2016chunking"/>
+    <link href="https://www.nature.com/articles/ncomms12176" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Pavan Ramkumar</name></author><author><name>Daniel E Acuna</name></author><author><name>Max Berniker</name></author><author><name>Scott T Grafton</name></author><author><name>Robert S Turner</name></author><author><name>Konrad P Kording</name></author>
+    <summary>2016. Nature communications. Pavan Ramkumar, Daniel E Acuna, Max Berniker, Scott T Grafton, Robert S Turner, Konrad P Kording (2016). Chunking as the result of an efficiency computation trade-off. Nature communications.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#ethier2016adaptive</id>
+    <title>Adaptive neuron-to-EMG decoder training for FES neuroprostheses</title>
+    <link href="https://scienceofscience.org/publications/#ethier2016adaptive"/>
+    <link href="https://iopscience.iop.org/article/10.1088/1741-2560/13/4/046009" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Christian Ethier</name></author><author><name>Daniel Acuna</name></author><author><name>Sara A Solla</name></author><author><name>Lee E Miller</name></author>
+    <summary>2016. Journal of neural engineering. Christian Ethier, Daniel Acuna, Sara A Solla, Lee E Miller (2016). Adaptive neuron-to-EMG decoder training for FES neuroprostheses. Journal of neural engineering.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2015using</id>
+    <title>Using psychophysics to ask if the brain samples or maximizes</title>
+    <link href="https://scienceofscience.org/publications/#acuna2015using"/>
+    <link href="https://jov.arvojournals.org/article.aspx?articleid=2213288" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel E Acuna</name></author><author><name>Max Berniker</name></author><author><name>Hugo L Fernandes</name></author><author><name>Konrad P Kording</name></author>
+    <summary>2015. Journal of vision. Daniel E Acuna, Max Berniker, Hugo L Fernandes, Konrad P Kording (2015). Using psychophysics to ask if the brain samples or maximizes. Journal of vision.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#lancichinetti2015topic</id>
+    <title>High-Reproducibility and High-Accuracy Method for Automated Topic Classification</title>
+    <link href="https://scienceofscience.org/publications/#lancichinetti2015topic"/>
+    <link href="https://doi.org/10.1103/PhysRevX.5.011007" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Andrea Lancichinetti</name></author><author><name>M. Irmak Sirer</name></author><author><name>Jane X. Wang</name></author><author><name>Daniel Acuna</name></author><author><name>Konrad Körding</name></author><author><name>Luís A. Nunes Amaral</name></author>
+    <summary>2015. Physical Review X. Andrea Lancichinetti, M. Irmak Sirer, Jane X. Wang, Daniel Acuna, Konrad Körding, Luís A. Nunes Amaral (2015). High-Reproducibility and High-Accuracy Method for Automated Topic Classification. Physical Review X. https://doi.org/10.1103/PhysRevX.5.011007</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/><category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2014multifaceted</id>
+    <title>Multifaceted aspects of chunking enable robust algorithms</title>
+    <link href="https://scienceofscience.org/publications/#acuna2014multifaceted"/>
+    <link href="https://journals.physiology.org/doi/full/10.1152/jn.00028.2014" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel E Acuna</name></author><author><name>Nicholas F Wymbs</name></author><author><name>Chelsea A Reynolds</name></author><author><name>Nathalie Picard</name></author><author><name>Robert S Turner</name></author><author><name>Peter L Strick</name></author><author><name>Scott T Grafton</name></author><author><name>Konrad P Kording</name></author>
+    <summary>2014. Journal of neurophysiology. Daniel E Acuna, Nicholas F Wymbs, Chelsea A Reynolds, Nathalie Picard, Robert S Turner, Peter L Strick, Scott T Grafton, Konrad P Kording (2014). Multifaceted aspects of chunking enable robust algorithms. Journal of neurophysiology.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2013future</id>
+    <title>The future h-index is an excellent way to predict scientistsˈ future impact</title>
+    <link href="https://scienceofscience.org/publications/#acuna2013future"/>
+    <link href="https://aapm.onlinelibrary.wiley.com/doi/pdfdirect/10.1118/1.4816659" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel E Acuna</name></author><author><name>Orion Penner</name></author><author><name>Colin G Orton</name></author>
+    <summary>2013. Medical Physics. Daniel E Acuna, Orion Penner, Colin G Orton (2013). The future h-index is an excellent way to predict scientistsˈ future impact. Medical Physics.</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#avraham2012toward</id>
+    <title>Toward perceiving robots as humans: Three handshake models face the turing-like handshake test</title>
+    <link href="https://scienceofscience.org/publications/#avraham2012toward"/>
+    <link href="https://ieeexplore.ieee.org/abstract/document/6185551" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Guy Avraham</name></author><author><name>Ilana Nisky</name></author><author><name>Hugo L Fernandes</name></author><author><name>Daniel E Acuna</name></author><author><name>Konrad P Kording</name></author><author><name>Gerald E Loeb</name></author><author><name>Amir Karniel</name></author>
+    <summary>2012. IEEE Transactions on Haptics. Guy Avraham, Ilana Nisky, Hugo L Fernandes, Daniel E Acuna, Konrad P Kording, Gerald E Loeb, Amir Karniel (2012). Toward perceiving robots as humans: Three handshake models face the turing-like handshake test. IEEE Transactions on Haptics.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2012predicting</id>
+    <title>Predicting scientific success</title>
+    <link href="https://scienceofscience.org/publications/#acuna2012predicting"/>
+    <link href="https://www.nature.com/articles/489201a" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel E Acuna</name></author><author><name>Stefano Allesina</name></author><author><name>Konrad P Kording</name></author>
+    <summary>2012. Nature. Daniel E Acuna, Stefano Allesina, Konrad P Kording (2012). Predicting scientific success. Nature.</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2011rational</id>
+    <title>Rational Bayesian Analysis of Sequential Decision-Making Under Uncertainty In Humans and Machines</title>
+    <link href="https://scienceofscience.org/publications/#acuna2011rational"/>
+    <link href="https://dl.acm.org/doi/book/10.5555/2521677" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel Ernesto Acuna</name></author>
+    <summary>2011. University of Minnesota. Daniel Ernesto Acuna (2011). Rational Bayesian Analysis of Sequential Decision-Making Under Uncertainty In Humans and Machines. University of Minnesota.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2010structure</id>
+    <title>Structure learning in human sequential decision-making</title>
+    <link href="https://scienceofscience.org/publications/structure-learning/"/>
+    <link href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1001003" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2010-12-02T00:00:00+00:00</published>
+    <author><name>Daniel E Acuna</name></author><author><name>Paul Schrater</name></author>
+    <summary>2010. PLoS computational biology. Behavior that looks inefficient under a fixed model can make sense when a person is also learning how the environment works. This study connects human choices in sequential reward tasks with Bayesian models that learn both rewards and the structure that generates them.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2010aspiration</id>
+    <title>The rational control of aspiration in learning</title>
+    <link href="https://scienceofscience.org/publications/#acuna2010aspiration"/>
+    <link href="https://www.frontiersin.org/10.3389/conf.fnins.2010.03.00169/event_abstract" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel Acuna</name></author><author><name>C. Shawn Green</name></author><author><name>Paul Schrater</name></author>
+    <summary>2010 · Conference abstract. Computational and Systems Neuroscience 2010. Daniel Acuna, C. Shawn Green, Paul Schrater (2010). The rational control of aspiration in learning. Computational and Systems Neuroscience 2010. https://doi.org/10.3389/conf.fnins.2010.03.00169</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2010people</id>
+    <title>People efficiently explore the solution space of the computationally intractable traveling salesman problem to find near-optimal tours</title>
+    <link href="https://scienceofscience.org/publications/#acuna2010people"/>
+    <link href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011685" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel E Acuna</name></author><author><name>Víctor Parada</name></author>
+    <summary>2010. PloS ONE. Daniel E Acuna, Víctor Parada (2010). People efficiently explore the solution space of the computationally intractable traveling salesman problem to find near-optimal tours. PloS ONE.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#schrater2009structure</id>
+    <title>Structure learning in sequential decision making</title>
+    <link href="https://scienceofscience.org/publications/#schrater2009structure"/>
+    <link href="https://jov.arvojournals.org/article.aspx?articleid=2136291" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Paul Schrater</name></author><author><name>Daniel Acuna</name></author>
+    <summary>2009 · Conference abstract. Journal of Vision: Vision Sciences Society Annual Meeting Abstracts. Paul Schrater, Daniel Acuna (2009). Structure learning in sequential decision making. Journal of Vision: Vision Sciences Society Annual Meeting Abstracts.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2009improving</id>
+    <title>Improving bayesian reinforcement learning using transition abstraction</title>
+    <link href="https://scienceofscience.org/publications/#acuna2009improving"/>
+    <link href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.147.5877&amp;rep=rep1&amp;type=pdf" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel E Acuna</name></author><author><name>Paul Schrater</name></author>
+    <summary>2009. Proceedings of the ICML/UAI/COLT Workshop on Abstraction in Reinforcement Learning. Daniel E Acuna, Paul Schrater (2009). Improving bayesian reinforcement learning using transition abstraction. Proceedings of the ICML/UAI/COLT Workshop on Abstraction in Reinforcement Learning.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2008structure</id>
+    <title>Structure learning in human sequential decision-making</title>
+    <link href="https://scienceofscience.org/publications/#acuna2008structure"/>
+    <link href="https://dl.acm.org/doi/abs/10.5555/2981780.2981781" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel E Acuna</name></author><author><name>Paul Schrater</name></author>
+    <summary>2008. Proceedings of the 21st International Conference on Neural Information Processing Systems. Daniel E Acuna, Paul Schrater (2008). Structure learning in human sequential decision-making. Proceedings of the 21st International Conference on Neural Information Processing Systems.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#acuna2008bayesian</id>
+    <title>Bayesian modeling of human sequential decision-making on the multi-armed bandit problem</title>
+    <link href="https://scienceofscience.org/publications/#acuna2008bayesian"/>
+    <link href="https://core.ac.uk/download/pdf/22874996.pdf" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    
+    <author><name>Daniel Ernesto Acuna</name></author><author><name>Paul Schrater</name></author>
+    <summary>2008. Proceedings of the 30th annual conference of the cognitive science society. Daniel Ernesto Acuna, Paul Schrater (2008). Bayesian modeling of human sequential decision-making on the multi-armed bandit problem. Proceedings of the 30th annual conference of the cognitive science society.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+</feed>

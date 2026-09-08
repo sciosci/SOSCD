@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f3f8">
-  <!-- begin _includes/seo.html --><title>Mentorship in science - Science of Science &amp; Computational Discovery Lab</title>
-<meta name="description" content="An open dataset with semantic and demographic estimations.">
+  <!-- begin _includes/seo.html --><title>Mentorship in science: dataset and documentation - SOS+CD Lab</title>
+<meta name="description" content="Download and use the open mentorship dataset: files, join keys, publication identifiers, citation, license, and a Python example.">
+
 
 
   <meta name="author" content="SOS+CD">
@@ -14,24 +15,29 @@
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Science of Science & Computational Discovery Lab">
-<meta property="og:title" content="Mentorship in science">
+<meta property="og:site_name" content="Science of Science &amp; Computational Discovery Lab">
+<meta property="og:title" content="Mentorship in science: dataset and documentation">
 <meta property="og:url" content="https://scienceofscience.org/mentorship/">
 
 
-  <meta property="og:description" content="An open dataset with semantic and demographic estimations.">
+  <meta property="og:description" content="Download and use the open mentorship dataset: files, join keys, publication identifiers, citation, license, and a Python example.">
 
 
+
+  <meta property="og:image" content="https://scienceofscience.org/assets/images/lab/social-card.png">
+  <meta property="og:image:alt" content="Science of Science and Computational Discovery Lab at CU Boulder, with the SOS+CD diamond logo"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 
 
 
   <meta name="twitter:site" content="@daniel_akuna">
-  <meta name="twitter:title" content="Mentorship in science">
-  <meta name="twitter:description" content="An open dataset with semantic and demographic estimations.">
+  <meta name="twitter:title" content="Mentorship in science: dataset and documentation">
+  <meta name="twitter:description" content="Download and use the open mentorship dataset: files, join keys, publication identifiers, citation, license, and a Python example.">
   <meta name="twitter:url" content="https://scienceofscience.org/mentorship/">
 
   
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
+    
+      <meta name="twitter:image" content="https://scienceofscience.org/assets/images/lab/social-card.png">
     
   
 
@@ -53,15 +59,110 @@
 
 
 
+
+
+
+
+
+
+
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://scienceofscience.org/#organization",
+      "name": "Science of Science & Computational Discovery Lab",
+      "alternateName": "SOS+CD Lab",
+      "url": "https://scienceofscience.org/",
+      "description": "The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuña.",
+      "logo": "https://scienceofscience.org/assets/images/lab/logo.svg",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Department of Computer Science",
+        "url": "https://www.colorado.edu/cs/",
+        "parentOrganization": { "@id": "https://www.colorado.edu/#organization" }
+      },
+      "sameAs": ["https://github.com/sciosci"]
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "@id": "https://www.colorado.edu/#organization",
+      "name": "University of Colorado Boulder",
+      "url": "https://www.colorado.edu/"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://scienceofscience.org/people/#principal-investigator",
+      "name": "Daniel Acuña",
+      "alternateName": "Daniel E. Acuna",
+      "jobTitle": "Associate Professor of Computer Science",
+      "url": "https://acuna.io/",
+      "worksFor": { "@id": "https://www.colorado.edu/#organization" },
+      "affiliation": { "@id": "https://scienceofscience.org/#organization" },
+      "sameAs": [
+        "https://www.colorado.edu/cs/daniel-acuna",
+        "https://orcid.org/0000-0002-7765-1595",
+        "https://scholar.google.com/citations?user=GAi23ssAAAAJ"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://scienceofscience.org/#website",
+      "url": "https://scienceofscience.org/",
+      "name": "Science of Science & Computational Discovery Lab",
+      "alternateName": "SOS+CD Lab",
+      "inLanguage": "en-US",
+      "publisher": { "@id": "https://scienceofscience.org/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://scienceofscience.org/mentorship/#webpage",
+      "url": "https://scienceofscience.org/mentorship/",
+      "name": "Mentorship in science: dataset and documentation",
+      "description": "Download and use the open mentorship dataset: files, join keys, publication identifiers, citation, license, and a Python example.",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://scienceofscience.org/#website" },
+      "publisher": { "@id": "https://scienceofscience.org/#organization" }
+      ,
+      "mainEntity": { "@id": "https://scienceofscience.org/mentorship/#dataset" }
+      
+    }
     
-      "@type": "Organization",
-      "url": "https://scienceofscience.org/"
+    ,
     
-  }
+    {
+      "@type": "Dataset",
+      "@id": "https://scienceofscience.org/mentorship/#dataset",
+      "name": "A dataset of mentorship in science with semantic and demographic estimations",
+      "description": "An open dataset connecting academic mentorship relationships with researcher profiles, publication identifiers, semantic representations, and demographic estimates. It enriches Academic Family Tree records with publication information and supports research on mentorship and scientific careers, with strongest coverage and validation in neuroscience and biomedical science.",
+      "url": "https://scienceofscience.org/mentorship/",
+      "sameAs": "https://zenodo.org/records/4917086",
+      "identifier": "https://doi.org/10.5281/zenodo.4917086",
+      "datePublished": "2021-06-09",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": [{"@type": "Person", "name": "Qing Ke"},{"@type": "Person", "name": "Lizhen Liang"},{"@type": "Person", "name": "Ying Ding"},{"@type": "Person", "name": "Stephen V. David"},{"@type": "Person", "name": "Daniel E. Acuna"}],
+      "citation": "https://doi.org/10.1038/s41597-022-01578-x",
+      "includedInDataCatalog": {"@type": "DataCatalog", "name": "Zenodo", "url": "https://zenodo.org/"},
+      "distribution": [{"@type": "DataDownload", "name": "mentorship.csv.gz", "contentUrl": "https://zenodo.org/api/records/4917086/files/mentorship.csv.gz/content", "contentSize": "9241433 bytes", "encodingFormat": "application/gzip"},{"@type": "DataDownload", "name": "researcher.csv.gz", "contentUrl": "https://zenodo.org/api/records/4917086/files/researcher.csv.gz/content", "contentSize": "17197433 bytes", "encodingFormat": "application/gzip"},{"@type": "DataDownload", "name": "authorship.csv.gz", "contentUrl": "https://zenodo.org/api/records/4917086/files/authorship.csv.gz/content", "contentSize": "152763699 bytes", "encodingFormat": "application/gzip"},{"@type": "DataDownload", "name": "paper.csv.gz", "contentUrl": "https://zenodo.org/api/records/4917086/files/paper.csv.gz/content", "contentSize": "269560048 bytes", "encodingFormat": "application/gzip"},{"@type": "DataDownload", "name": "first_name_gender.csv", "contentUrl": "https://zenodo.org/api/records/4917086/files/first_name_gender.csv/content", "contentSize": "1349828 bytes", "encodingFormat": "text/csv"},{"@type": "DataDownload", "name": "full_name_race.csv", "contentUrl": "https://zenodo.org/api/records/4917086/files/full_name_race.csv/content", "contentSize": "17014612 bytes", "encodingFormat": "text/csv"},{"@type": "DataDownload", "name": "paper_specter_0.pkl", "contentUrl": "https://zenodo.org/api/records/4917086/files/paper_specter_0.pkl/content", "contentSize": "5361370327 bytes", "encodingFormat": "application/octet-stream"},{"@type": "DataDownload", "name": "paper_specter_1.pkl", "contentUrl": "https://zenodo.org/api/records/4917086/files/paper_specter_1.pkl/content", "contentSize": "5355729088 bytes", "encodingFormat": "application/octet-stream"},{"@type": "DataDownload", "name": "paper_specter_2.pkl", "contentUrl": "https://zenodo.org/api/records/4917086/files/paper_specter_2.pkl/content", "contentSize": "5356320195 bytes", "encodingFormat": "application/octet-stream"},{"@type": "DataDownload", "name": "paper_specter_3.pkl", "contentUrl": "https://zenodo.org/api/records/4917086/files/paper_specter_3.pkl/content", "contentSize": "5355804952 bytes", "encodingFormat": "application/octet-stream"},{"@type": "DataDownload", "name": "paper_specter_4.pkl", "contentUrl": "https://zenodo.org/api/records/4917086/files/paper_specter_4.pkl/content", "contentSize": "5356835438 bytes", "encodingFormat": "application/octet-stream"},{"@type": "DataDownload", "name": "paper_specter_5.pkl", "contentUrl": "https://zenodo.org/api/records/4917086/files/paper_specter_5.pkl/content", "contentSize": "5356481406 bytes", "encodingFormat": "application/octet-stream"},{"@type": "DataDownload", "name": "paper_specter_6.pkl", "contentUrl": "https://zenodo.org/api/records/4917086/files/paper_specter_6.pkl/content", "contentSize": "5352956891 bytes", "encodingFormat": "application/octet-stream"},{"@type": "DataDownload", "name": "paper_specter_7.pkl", "contentUrl": "https://zenodo.org/api/records/4917086/files/paper_specter_7.pkl/content", "contentSize": "5352978947 bytes", "encodingFormat": "application/octet-stream"},{"@type": "DataDownload", "name": "paper_specter_8.pkl", "contentUrl": "https://zenodo.org/api/records/4917086/files/paper_specter_8.pkl/content", "contentSize": "5355143660 bytes", "encodingFormat": "application/octet-stream"},{"@type": "DataDownload", "name": "paper_specter_9.pkl", "contentUrl": "https://zenodo.org/api/records/4917086/files/paper_specter_9.pkl/content", "contentSize": "5355125215 bytes", "encodingFormat": "application/octet-stream"},{"@type": "DataDownload", "name": "paper_tfidf.npz", "contentUrl": "https://zenodo.org/api/records/4917086/files/paper_tfidf.npz/content", "contentSize": "9628723417 bytes", "encodingFormat": "application/octet-stream"},{"@type": "DataDownload", "name": "paper_tfidf_MAGPaperID.txt.gz", "contentUrl": "https://zenodo.org/api/records/4917086/files/paper_tfidf_MAGPaperID.txt.gz/content", "contentSize": "52536785 bytes", "encodingFormat": "application/gzip"},{"@type": "DataDownload", "name": "researcher_neighbor_specter.csv.gz", "contentUrl": "https://zenodo.org/api/records/4917086/files/researcher_neighbor_specter.csv.gz/content", "contentSize": "41696623 bytes", "encodingFormat": "application/gzip"},{"@type": "DataDownload", "name": "researcher_specter.pkl", "contentUrl": "https://zenodo.org/api/records/4917086/files/researcher_specter.pkl/content", "contentSize": "1561077353 bytes", "encodingFormat": "application/octet-stream"},{"@type": "DataDownload", "name": "researcher_tfidf.npz", "contentUrl": "https://zenodo.org/api/records/4917086/files/researcher_tfidf.npz/content", "contentSize": "5112564519 bytes", "encodingFormat": "application/octet-stream"},{"@type": "DataDownload", "name": "researcher_tfidf_PID.txt.gz", "contentUrl": "https://zenodo.org/api/records/4917086/files/researcher_tfidf_PID.txt.gz/content", "contentSize": "1148561 bytes", "encodingFormat": "application/gzip"}]
+    }
+    
+    ,
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://scienceofscience.org/mentorship/#breadcrumbs",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Resources", "item": "https://scienceofscience.org/resources/"},
+        
+        {"@type": "ListItem", "position": 2, "name": "Mentorship in science: dataset and documentation", "item": "https://scienceofscience.org/mentorship/"}
+      ]
+    }
+    
+  ]
+}
 </script>
+
 
 
 
@@ -78,9 +179,13 @@
   <link rel="preload" href="/assets/fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/hanken-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/lab.css">
+  <link rel="stylesheet" href="/assets/css/research.css">
   <link rel="alternate" type="application/atom+xml" title="Science of Science & Computational Discovery Lab" href="/feed.xml">
+  <link rel="alternate" type="application/atom+xml" title="SOS+CD publications and preprints" href="/publications/feed.xml">
+  <link rel="alternate" type="application/json" title="SOS+CD publication metadata" href="/publications.json">
   
   <script src="/assets/js/lab.js" defer></script>
+  <script src="/assets/js/research.js" defer></script>
 </head>
 <body id="top" class="is-interior route-mentorship">
   <!--
@@ -96,7 +201,7 @@
   <div class="header-inner">
     <a class="brand" href="/" aria-label="SOS+CD Lab home">
       <img class="brand-mark" src="/assets/images/lab/logo.svg" width="42" height="42" alt="">
-      <span class="brand-name">SOS<span class="brand-plus">+</span>CD<span class="brand-lab">Lab</span></span>
+      <span class="brand-name">SOS<span class="brand-plus">+</span>CD <span class="brand-lab">Lab</span></span>
     </a>
     <a class="university-link" href="https://www.colorado.edu/cs/">University of<br>Colorado Boulder</a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span>Menu</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 6h14M3 14h14" stroke="currentColor" stroke-width="1.5"/></svg></button>
@@ -106,11 +211,11 @@
       
       <a href="/people/">People</a>
       
-      <a href="/funding/">Research</a>
+      <a href="/research/">Research</a>
       
       <a href="/about/">About</a>
       
-      <a href="/openings/" class="nav-join">Join the lab<svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <a href="/openings/" class="nav-join">Join Us<svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
 </a>
       
       <a href="/support/">Support</a>
@@ -119,41 +224,42 @@
   </div>
 </header>
 
-  <main id="main" class="interior-main wrap">
   
-  <header class="page-heading">
-    <h1>Mentorship in science</h1>
-    <p>An open dataset with semantic and demographic estimations.</p>
-  </header>
-  
-  <div class="reading-layout">
-    
-    <article class="prose page__content"><h2 style="text-align: center;">A dataset of mentorship in science with semantic and demographic estimations</h2>
+<main id="main" class="interior-main wrap research-overview">
+  <nav class="research-breadcrumbs" aria-label="Breadcrumb"><a href="/resources/">Resources</a><span aria-hidden="true">/</span><span>Mentorship dataset</span></nav>
+  <header class="page-heading"><h1>Mentorship in science.</h1><p class="topic-intro">An open dataset connecting mentorship relationships, publications, and representations of research.</p><div class="resource-actions"><a class="button button-primary" href="https://zenodo.org/records/4917086" data-resource-type="dataset" data-publication-key="keacuna2022">Get the dataset <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+</a><a href="#quickstart">Start with the CSV files</a><a href="/publications/mentorship-dataset/">Read the research overview</a></div></header>
+  <p>Qing Ke, Lizhen Liang, Ying Ding, Stephen V. David, Daniel E. Acuna</p>
+  <div class="dataset-facts"><span>Released June 9, 2021</span><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><a href="https://doi.org/10.5281/zenodo.4917086">DOI: 10.5281/zenodo.4917086</a></div>
+  <div class="research-prose">
+    <section><h2>What is in the dataset?</h2><p>An open dataset connecting academic mentorship relationships with researcher profiles, publication identifiers, semantic representations, and demographic estimates. It enriches Academic Family Tree records with publication information and supports research on mentorship and scientific careers, with strongest coverage and validation in neuroscience and biomedical science.</p><p>The <a href="/publications/mentorship-dataset/">2022 Scientific Data paper</a> explains the construction and validation. The dataset release is dated 2021; its release date and the paper's publication date describe different records.</p></section>
+    <section><h2>Start with the relationships</h2><p>Four CSV tables connect mentorship, researchers, authorship, and publication identifiers. Their column names are case-sensitive.</p><div class="data-table-wrap"><table class="data-table"><caption class="source-note">Core tables and join keys</caption><thead><tr><th scope="col">Table</th><th scope="col">What it contains</th></tr></thead><tbody><tr><td><code>mentorship.csv.gz</code></td><td><code>CID</code> identifies a relationship. <code>MenteeID</code> and <code>MentorID</code> link to a researcher's <code>PID</code>. Also includes mentorship type, institution, and start/stop years.</td></tr><tr><td><code>researcher.csv.gz</code></td><td>Researcher <code>PID</code>, names, institution, research area, ORCID, and MAG author identifier.</td></tr><tr><td><code>authorship.csv.gz</code></td><td>Links researcher <code>PID</code> to publication <code>MAGPaperID</code>.</td></tr><tr><td><code>paper.csv.gz</code></td><td>Links <code>MAGPaperID</code> to <code>DOI</code> and <code>PMID</code>, when available.</td></tr></tbody></table></div><p><code>MentorshipType</code> uses 0 for research assistant, 1 for graduate student, 2 for postdoctoral, 3 for research scientist, and 4 for collaborator. Missing dates or identifiers need explicit treatment in an analysis.</p></section>
+    <section id="quickstart"><h2>A small first analysis</h2><p>With Python and pandas installed, download two core files and attach each mentee's research area to their mentorship records. The compressed downloads total about 25 MiB. This example does not require the embedding files.</p>
+<pre><code>from urllib.request import urlretrieve
+import pandas as pd
 
-<h3 style="text-align: center;">
-<a href="https://qke.github.io/">Qing Ke</a><sup>1</sup>, 
-<a href="https://ischool.syr.edu/lizhen-liang/">Lizhen Liang</a><sup>1</sup>, 
-<a href="https://yingding.ischool.utexas.edu/">Ying Ding</a><sup>2</sup>, 
-<a href="https://www.ohsu.edu/people/stephen-v-david-phd">Stephen V. David</a><sup>3</sup>, and 
-<a href="https://acuna.io/">Daniel Acuna</a><sup>1</sup>
-</h3>
+base = "https://zenodo.org/api/records/4917086/files"
+for name in ("mentorship.csv.gz", "researcher.csv.gz"):
+    urlretrieve(f"{base}/{name}/content", name)
 
-<h4 style="text-align: center;">
-<sup>1</sup>School of Information Studies, Syracuse University<br />
-<sup>2</sup>School of Information, University of Texas, Austin<br />
-<sup>3</sup>Oregon Hearing Research Center, Oregon Health and Science University<br />
-</h4>
-
-<div class="dataset-download"><p>Explore and download the mentorship dataset on Zenodo.</p><a class="button button-primary" href="https://doi.org/10.5281/zenodo.4917086">Get the dataset <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
-</a></div>
-
-<p>The researcher SPECTER-vector visualization is not currently linked from this site.</p>
-
-<h3 id="funding">Funding</h3>
-
-<p>This project was partially supported by NSF grant #1933803 (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1933803">Social Dynamics of Knowledge Transfer Through Scientific Mentorship and Publication</a>).</p>
-</article>
+relationships = pd.read_csv(
+    "mentorship.csv.gz",
+    usecols=["CID", "MenteeID", "MentorID", "MentorshipType"],
+)
+researchers = pd.read_csv(
+    "researcher.csv.gz", usecols=["PID", "ResearchArea"]
+)
+mentees = researchers.rename(columns={"PID": "MenteeID"})
+joined = relationships.merge(
+    mentees, on="MenteeID", how="left", validate="many_to_one"
+)
+print(joined["ResearchArea"].value_counts(dropna=False).head())</code></pre>
+    <p>To attach mentor attributes, rename <code>PID</code> to <code>MentorID</code> and join on that column instead. Check matching rates and missing values before interpreting group differences.</p></section>
+    <section><h2>Coverage and responsible interpretation</h2><ul><li>The records are crowdsourced and do not represent a complete or uniform census of scientific mentorship. Coverage and validation are strongest in neuroscience and biomedical science.</li><li>Publication matching and semantic representations are estimates. Disambiguation errors and missing publications can affect downstream results.</li><li>Gender and race/ethnicity fields are name-based model estimates, not self-reported identities. They can be noisy and biased, and the categories do not describe the full range of individual identities.</li><li>Use these estimates with uncertainty and sensitivity analyses in aggregate research. They should not be used to decide an individual's identity, eligibility, or opportunity.</li><li>The release contains historical Microsoft Academic Graph identifiers. DOI and PMID provide additional routes to publication metadata.</li></ul><p>The paper describes some tables that are not present as separate files in this release. The download list below reflects the actual Zenodo record. Large embedding files are optional for the CSV example.</p></section>
+    <section><h2>Cite the dataset</h2><p class="citation-text" id="dataset-citation">Qing Ke, Lizhen Liang, Ying Ding, Stephen V. David, Daniel E. Acuna (2021). A dataset of mentorship in science with semantic and demographic estimations. Zenodo. https://doi.org/10.5281/zenodo.4917086</p><div class="resource-actions"><button class="button button-primary" type="button" data-copy-citation="dataset-citation" hidden="">Copy citation</button><a href="/datasets/mentorship.bib" download="">Download dataset BibTeX</a></div><p class="copy-status" data-copy-status="" role="status" aria-live="polite"></p><p>Please also cite the <a href="/publications/mentorship-dataset/#cite">data descriptor</a> when using its construction or validation methods. The dataset is shared under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a>; credit the creators and identify any changes.</p></section>
   </div>
+  <section class="related-research" aria-labelledby="files"><h2 id="files">Download files</h2><p class="source-note">File names and compressed sizes come from <a href="https://zenodo.org/records/4917086">Zenodo record 4917086</a>. <a href="/datasets/mentorship.json">Download file metadata and checksums (JSON)</a>. The embedding matrices can be several GiB each.</p><div class="data-table-wrap"><table class="data-table"><thead><tr><th scope="col">File</th><th scope="col">Download size</th></tr></thead><tbody><tr><td><a href="https://zenodo.org/api/records/4917086/files/mentorship.csv.gz/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>mentorship.csv.gz</code></a></td><td class="file-size">8.8 MiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/researcher.csv.gz/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>researcher.csv.gz</code></a></td><td class="file-size">16.4 MiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/authorship.csv.gz/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>authorship.csv.gz</code></a></td><td class="file-size">145.7 MiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/paper.csv.gz/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>paper.csv.gz</code></a></td><td class="file-size">257.1 MiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/first_name_gender.csv/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>first_name_gender.csv</code></a></td><td class="file-size">1.3 MiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/full_name_race.csv/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>full_name_race.csv</code></a></td><td class="file-size">16.2 MiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/paper_specter_0.pkl/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>paper_specter_0.pkl</code></a></td><td class="file-size">5.0 GiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/paper_specter_1.pkl/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>paper_specter_1.pkl</code></a></td><td class="file-size">5.0 GiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/paper_specter_2.pkl/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>paper_specter_2.pkl</code></a></td><td class="file-size">5.0 GiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/paper_specter_3.pkl/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>paper_specter_3.pkl</code></a></td><td class="file-size">5.0 GiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/paper_specter_4.pkl/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>paper_specter_4.pkl</code></a></td><td class="file-size">5.0 GiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/paper_specter_5.pkl/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>paper_specter_5.pkl</code></a></td><td class="file-size">5.0 GiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/paper_specter_6.pkl/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>paper_specter_6.pkl</code></a></td><td class="file-size">5.0 GiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/paper_specter_7.pkl/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>paper_specter_7.pkl</code></a></td><td class="file-size">5.0 GiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/paper_specter_8.pkl/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>paper_specter_8.pkl</code></a></td><td class="file-size">5.0 GiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/paper_specter_9.pkl/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>paper_specter_9.pkl</code></a></td><td class="file-size">5.0 GiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/paper_tfidf.npz/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>paper_tfidf.npz</code></a></td><td class="file-size">9.0 GiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/paper_tfidf_MAGPaperID.txt.gz/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>paper_tfidf_MAGPaperID.txt.gz</code></a></td><td class="file-size">50.1 MiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/researcher_neighbor_specter.csv.gz/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>researcher_neighbor_specter.csv.gz</code></a></td><td class="file-size">39.8 MiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/researcher_specter.pkl/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>researcher_specter.pkl</code></a></td><td class="file-size">1.5 GiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/researcher_tfidf.npz/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>researcher_tfidf.npz</code></a></td><td class="file-size">4.8 GiB</td></tr><tr><td><a href="https://zenodo.org/api/records/4917086/files/researcher_tfidf_PID.txt.gz/content" data-resource-type="dataset" data-publication-key="keacuna2022"><code>researcher_tfidf_PID.txt.gz</code></a></td><td class="file-size">1.1 MiB</td></tr></tbody></table></div></section>
+  <section class="research-close"><h2>Project support</h2><p>This project was partially supported by NSF grant <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1933803">1933803: Social Dynamics of Knowledge Transfer Through Scientific Mentorship and Publication</a>.</p><p>Explore more <a href="/research/science-of-science/">science-of-science research</a> or <a href="/resources/">lab code and datasets</a>.</p></section>
 </main>
 
   <footer class="site-footer" id="footer">
@@ -163,8 +269,8 @@
       <p>Science of Science &amp;<br>Computational Discovery Lab</p>
       <p class="footer-affiliation">Department of Computer Science<br>University of Colorado Boulder</p>
     </div>
-    <nav aria-label="Research links"><h2>Explore</h2><a href="/publications/">Publications</a><a href="/funding/">Research &amp; funding</a><a href="https://github.com/sciosci">Code on GitHub</a><a href="/mentorship/">Mentorship dataset</a></nav>
-    <nav aria-label="Lab links"><h2>The lab</h2><a href="/people/">People</a><a href="/about/">About us</a><a href="/news/">News &amp; events</a><a href="/openings/">Join the lab</a><a href="/support/">Support the lab</a></nav>
+    <nav aria-label="Research links"><h2>Explore</h2><a href="/research/">Research topics</a><a href="/publications/">Publications</a><a href="/resources/">Code, data &amp; citations</a><a href="/funding/">Funding</a><a href="/publications/feed.xml">Publication feed</a></nav>
+    <nav aria-label="Lab links"><h2>The lab</h2><a href="/people/">People</a><a href="/about/">About us</a><a href="/news/">News &amp; events</a><a href="/openings/">Join Us</a><a href="/support/">Support the lab</a></nav>
     <div class="footer-address"><h2>Find us</h2><address>1111 Engineering Drive<br>Room 105 ECNW<br>Boulder, CO 80309</address><a class="text-link" href="https://www.colorado.edu/map?id=336#!s/?mc/40.00793399332605,-105.26281640367506?z/21?lvl/1">Campus map <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
 </a></div>
   </div>
@@ -173,5 +279,14 @@
 </footer>
 
   
+
+
+  
+
+
+
+
+
+
 </body>
 </html>

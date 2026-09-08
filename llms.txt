@@ -1,0 +1,28 @@
+# Science of Science & Computational Discovery Lab
+
+> SOS+CD is a research lab led by Daniel Acuña in the Department of Computer Science at the University of Colorado Boulder. Its work examines research integrity, peer review and discovery, the science of science, and computational methods.
+
+## Research
+- [Research overview](https://scienceofscience.org/research/): Main questions and research areas.
+- [Research integrity](https://scienceofscience.org/research/research-integrity/): Scientific images, responsible AI, and research resources.
+- [Peer review and discovery](https://scienceofscience.org/research/peer-review-discovery/): Review evaluation and scientific retrieval.
+- [Science of science](https://scienceofscience.org/research/science-of-science/): Mentorship, teams, careers, and funding.
+- [Cognition and methods](https://scienceofscience.org/research/cognition-methods/): Earlier research and methodological foundations.
+
+## Publications and resources
+- [Publication archive](https://scienceofscience.org/publications/): 70 works from 2008 onward, with overlapping topics and tags.
+- [Publication metadata](https://scienceofscience.org/publications.json): JSON records with ordered authors, dates, publication status, identifiers, and resource links.
+- [BibTeX catalog](https://scienceofscience.org/publications.bib): Bibliographic records for reference managers.
+- [Resource directory](https://scienceofscience.org/resources/): Code, data, citations, and feeds.
+- [Mentorship dataset guide](https://scienceofscience.org/mentorship/): A 2021 dataset release and its related 2022 paper, documented separately.
+- [Publication feed](https://scienceofscience.org/publications/feed.xml).
+- [Lab news feed](https://scienceofscience.org/feed.xml).
+
+Publication overviews distinguish preprints from published versions and explain the scope of reported findings. Complete citation records and linked original sources supply the evidence behind each overview.
+
+## Lab
+- [People](https://scienceofscience.org/people/).
+- [About and contact](https://scienceofscience.org/about/).
+- [Join Us: Ph.D. applications and other research opportunities](https://scienceofscience.org/openings/).
+- [Funding](https://scienceofscience.org/funding/).
+- [Support the lab](https://scienceofscience.org/support/): Current giving guidance; no confirmed direct lab-fund donation link is listed.

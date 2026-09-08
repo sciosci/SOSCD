@@ -1,0 +1,68 @@
+/* Reading surfaces inherit the lab's Sora/Hanken typography and optical palette. */
+.research-breadcrumbs{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:32px;color:var(--purple);font-size:15px}
+.paper-heading{max-width:1100px;padding-bottom:42px;border-bottom:1px solid var(--line)}
+.paper-heading h1{font-size:clamp(30px,4vw,54px);line-height:1.2;letter-spacing:-.03em;text-wrap:wrap}
+.paper-authors{margin-top:26px;font-size:19px;line-height:1.55}
+.paper-citation-meta,.paper-doi{margin-top:12px;color:var(--muted);font-size:16px}
+.paper-doi a{color:var(--purple);overflow-wrap:anywhere}
+.research-reading-grid{display:grid;grid-template-columns:minmax(0,760px) minmax(190px,250px);justify-content:space-between;gap:64px;margin-top:48px}
+.research-prose{max-width:72ch;min-width:0}
+.research-prose section+section{margin-top:44px}
+.research-prose h2{font-size:clamp(24px,2.6vw,32px);line-height:1.3;margin-bottom:18px;text-wrap:wrap}
+.research-prose h3{font-size:22px;margin-block:28px 12px}
+.research-prose p+p{margin-top:18px}
+.research-lead{font-size:21px;line-height:1.65}
+.research-prose ul,.research-prose ol{padding-left:24px;margin-block:16px}
+.research-prose li+li{margin-top:12px}
+.research-prose a{color:var(--purple)}
+.research-sidebar h2{font-size:20px;letter-spacing:-.02em;margin-bottom:18px}
+.research-sidebar section+section{margin-top:36px}
+.resource-list{list-style:none;padding:0;margin:0}
+.resource-list li{padding-block:12px;border-bottom:1px solid var(--line)}
+.resource-list li:first-child{padding-top:0}
+.resource-list a{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:16px;color:var(--purple);text-decoration:none}
+.resource-list a:hover{text-decoration:underline}
+.source-note{font-size:14px;line-height:1.6;color:var(--muted)}
+.research-prose .source-note{margin-top:20px}
+.citation-text{padding:24px;background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow-wrap:anywhere;font-size:16px}
+.resource-actions{display:flex;align-items:center;flex-wrap:wrap;gap:18px 28px;margin-top:22px;font-size:16px}
+.resource-actions a{color:var(--purple)}
+.resource-actions .button-primary{color:var(--paper)}
+.copy-status{min-height:1.6em;font-size:14px;color:var(--purple)}
+.bibtex-details{margin-top:12px;font-size:16px}
+.bibtex-details summary{cursor:pointer;color:var(--purple)}
+.research-prose pre,.bibtex-details pre{max-width:100%;overflow:auto;background:var(--paper);padding:20px;border:1px solid var(--line);border-radius:8px;font-size:13px;line-height:1.65;tab-size:2}
+.research-prose code{overflow-wrap:anywhere}
+.related-research{margin-top:72px;padding-top:40px;border-top:1px solid var(--line)}
+.related-research>h2{font-size:32px;margin-bottom:12px}
+.research-paper-row{padding-block:28px;border-bottom:1px solid var(--line);max-width:900px}
+.research-paper-row h3{font-size:22px;line-height:1.4;text-wrap:wrap}
+.research-paper-row h3 a{text-decoration:none}
+.research-paper-row h3 a:hover{color:var(--purple);text-decoration:underline}
+.paper-overview-link{display:inline-flex;align-items:center;align-self:flex-start;gap:7px;width:max-content;max-width:100%;min-height:32px;margin-top:12px;padding:5px 10px;border:1px solid transparent;border-radius:5px;background:var(--acid);color:var(--purple-dark);font-size:13px;font-weight:600;line-height:1.4;text-decoration:none}
+.paper-overview-link svg{flex-shrink:0}
+.paper-overview-link:hover{border-color:var(--purple);text-decoration:underline}
+.research-paper-row p{margin-top:12px;max-width:72ch}
+.research-overview{max-width:1000px}
+.research-overview .page-heading{max-width:900px}
+.topic-intro{font-size:22px;max-width:65ch;line-height:1.6}
+.topic-row{display:grid;grid-template-columns:minmax(220px,.8fr) minmax(0,1.5fr);gap:40px;padding-block:44px;border-top:1px solid var(--line)}
+.topic-row h2{font-size:32px;line-height:1.25}
+.topic-row p{max-width:65ch}
+.topic-row .text-link{margin-top:24px;white-space:normal}
+.topic-count{display:block;margin-top:16px;color:var(--muted);font-size:15px}
+.research-close{margin-top:48px;max-width:72ch}
+.research-close h2{font-size:30px;margin-bottom:18px}
+.research-close p+p{margin-top:18px}
+.research-exports{display:flex;gap:16px 28px;flex-wrap:wrap;margin-block:20px 36px;font-size:15px;color:var(--purple)}
+.data-table-wrap{max-width:100%;overflow:auto;margin-block:24px}
+.data-table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.5;text-align:left}
+.data-table th,.data-table td{padding:14px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+.data-table th:first-child,.data-table td:first-child{padding-left:0}
+.data-table code{font-size:13px;overflow-wrap:anywhere}
+.data-table th{font-weight:600;color:var(--purple-dark)}
+.data-table .file-size{white-space:nowrap;font-variant-numeric:tabular-nums}
+.dataset-facts{display:flex;flex-wrap:wrap;gap:12px 24px;padding-block:24px;border-block:1px solid var(--line);margin-block:30px;font-size:16px}
+.dataset-facts a{color:var(--purple)}
+@media(max-width:960px){.research-reading-grid{grid-template-columns:minmax(0,1fr);gap:42px}.research-sidebar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;padding-block:28px;border-block:1px solid var(--line);grid-row:auto}.research-sidebar section+section{margin-top:0}.research-sidebar section:last-child{grid-column:1/-1}.research-prose{max-width:75ch}.topic-row{gap:28px;grid-template-columns:.8fr 1.3fr}}
+@media(max-width:600px){.research-breadcrumbs{margin-bottom:24px}.paper-heading{padding-bottom:28px}.paper-authors{font-size:17px;margin-top:20px}.paper-citation-meta{font-size:15px}.research-reading-grid{margin-top:30px;gap:34px}.research-sidebar{display:block}.research-sidebar section+section{margin-top:28px}.research-prose{font-size:17px}.research-lead,.topic-intro{font-size:19px}.research-prose section+section{margin-top:36px}.topic-row{display:block;padding-block:32px}.topic-row h2{font-size:28px}.topic-row>div:last-child{margin-top:18px}.topic-count{margin-top:10px}.related-research{margin-top:48px}.research-paper-row h3{font-size:20px}.citation-text{padding:18px}.data-table{font-size:14px}.data-table th,.data-table td{padding:12px 6px}.data-table code{font-size:12px}.research-prose pre{padding:14px;font-size:12px}.research-exports{gap:14px 22px}}

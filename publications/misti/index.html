@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3f8">
+  <!-- begin _includes/seo.html --><title>MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning</title>
+<meta name="description" content="MISTI learns joint representations of scientific figures, captions, and publication metadata. The study tests whether contextual information such as titles, sections, and concepts improves retrieval beyond the image-caption pair alone.">
+
+
+
+  <meta name="author" content="SOS+CD">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Science of Science &amp; Computational Discovery Lab">
+<meta property="og:title" content="MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning">
+<meta property="og:url" content="https://scienceofscience.org/publications/misti/">
+
+
+  <meta property="og:description" content="MISTI learns joint representations of scientific figures, captions, and publication metadata. The study tests whether contextual information such as titles, sections, and concepts improves retrieval beyond the image-caption pair alone.">
+
+
+
+  <meta property="og:image" content="https://scienceofscience.org/assets/images/lab/social-card.png">
+  <meta property="og:image:alt" content="Science of Science and Computational Discovery Lab at CU Boulder, with the SOS+CD diamond logo"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+
+
+
+  <meta name="twitter:site" content="@daniel_akuna">
+  <meta name="twitter:title" content="MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning">
+  <meta name="twitter:description" content="MISTI learns joint representations of scientific figures, captions, and publication metadata. The study tests whether contextual information such as titles, sections, and concepts improves retrieval beyond the image-caption pair alone.">
+  <meta name="twitter:url" content="https://scienceofscience.org/publications/misti/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    
+      <meta name="twitter:image" content="https://scienceofscience.org/assets/images/lab/social-card.png">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://scienceofscience.org/publications/misti/">
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://scienceofscience.org/#organization",
+      "name": "Science of Science & Computational Discovery Lab",
+      "alternateName": "SOS+CD Lab",
+      "url": "https://scienceofscience.org/",
+      "description": "The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuña.",
+      "logo": "https://scienceofscience.org/assets/images/lab/logo.svg",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Department of Computer Science",
+        "url": "https://www.colorado.edu/cs/",
+        "parentOrganization": { "@id": "https://www.colorado.edu/#organization" }
+      },
+      "sameAs": ["https://github.com/sciosci"]
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "@id": "https://www.colorado.edu/#organization",
+      "name": "University of Colorado Boulder",
+      "url": "https://www.colorado.edu/"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://scienceofscience.org/people/#principal-investigator",
+      "name": "Daniel Acuña",
+      "alternateName": "Daniel E. Acuna",
+      "jobTitle": "Associate Professor of Computer Science",
+      "url": "https://acuna.io/",
+      "worksFor": { "@id": "https://www.colorado.edu/#organization" },
+      "affiliation": { "@id": "https://scienceofscience.org/#organization" },
+      "sameAs": [
+        "https://www.colorado.edu/cs/daniel-acuna",
+        "https://orcid.org/0000-0002-7765-1595",
+        "https://scholar.google.com/citations?user=GAi23ssAAAAJ"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://scienceofscience.org/#website",
+      "url": "https://scienceofscience.org/",
+      "name": "Science of Science & Computational Discovery Lab",
+      "alternateName": "SOS+CD Lab",
+      "inLanguage": "en-US",
+      "publisher": { "@id": "https://scienceofscience.org/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://scienceofscience.org/publications/misti/#webpage",
+      "url": "https://scienceofscience.org/publications/misti/",
+      "name": "MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning",
+      "description": "MISTI learns joint representations of scientific figures, captions, and publication metadata. The study tests whether contextual information such as titles, sections, and concepts improves retrieval beyond the image-caption pair alone.",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://scienceofscience.org/#website" },
+      "publisher": { "@id": "https://scienceofscience.org/#organization" }
+      ,
+      "mainEntity": { "@id": "https://scienceofscience.org/publications/misti/#paper" }
+      
+    }
+    ,
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://scienceofscience.org/publications/misti/#paper",
+      "url": "https://scienceofscience.org/publications/misti/",
+      "headline": "MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning",
+      "name": "MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning",
+      "description": "MISTI learns joint representations of scientific figures, captions, and publication metadata. The study tests whether contextual information such as titles, sections, and concepts improves retrieval beyond the image-caption pair alone.",
+      "abstract": "In scientific publications, automatic representations of figures and their captions can be used in NLP, computer vision, and information retrieval tasks. Contrastive learning has proven effective for creating such joint representations for natural scenes, but its application to scientific imagery and descriptions remains under-explored. Recent open-access publication datasets provide an opportunity to understand the effectiveness of this technique as well as evaluate the usefulness of additional metadata, which are available only in the scientific context. Here, we introduce MISTI, a novel model that uses contrastive learning to simultaneously learn the representation of figures, captions, and metadata, such as a paper’s title, sections, and curated concepts from the PubMed Open Access Subset. We evaluate our model on multiple information retrieval tasks, showing substantial improvements over baseline models. Notably, incorporating metadata doubled retrieval performance, achieving a Recall@1 of 30% on a 70K-item caption retrieval task. We qualitatively explore how metadata can be used to strategically retrieve distinctive representations of the same concept but for different sections, such as introduction and results. Additionally, we show that our model seamlessly handles out-of-domain tasks related to image segmentation. We share our dataset and methods (https://github.com/Khempawin/scientific-image-caption-pair/tree/section-attr) and outline future research directions.",
+      "datePublished": "2024",
+      "mainEntityOfPage": { "@id": "https://scienceofscience.org/publications/misti/#webpage" },
+      "author": [
+        
+        {
+          "@type": "Person",
+          "name": "Taechoyotin, Pawin"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Acuna, Daniel"
+          
+        }
+        
+      ]
+      ,
+      "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": "10.18653/v1/2024.sdp-1.15" },
+      "sameAs": "https://doi.org/10.18653/v1/2024.sdp-1.15"
+      
+      
+    }
+    
+    
+    ,
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://scienceofscience.org/publications/misti/#breadcrumbs",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Research", "item": "https://scienceofscience.org/research/"},
+        {"@type": "ListItem", "position": 2, "name": "Publications", "item": "https://scienceofscience.org/publications/"},
+        {"@type": "ListItem", "position": 3, "name": "MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning", "item": "https://scienceofscience.org/publications/misti/"}
+      ]
+    }
+    
+  ]
+}
+</script>
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+  <!-- begin paper_meta.html -->
+
+
+<meta name="citation_title" content="MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning">
+
+
+
+
+    
+        
+        <meta name="citation_author" content="Taechoyotin, Pawin">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Acuna, Daniel">
+        
+        
+        
+    
+
+
+
+    
+        <meta name="citation_keywords" content="Multimodal learning">
+    
+        <meta name="citation_keywords" content="Text mining &amp; NLP">
+    
+        <meta name="citation_keywords" content="Scholarly data &amp; tools">
+    
+
+
+
+<meta name="citation_abstract" content="In scientific publications, automatic representations of figures and their captions can be used in NLP, computer vision, and information retrieval tasks. Contrastive learning has proven effective for creating such joint representations for natural scenes, but its application to scientific imagery and descriptions remains under-explored. Recent open-access publication datasets provide an opportunity to understand the effectiveness of this technique as well as evaluate the usefulness of additional metadata, which are available only in the scientific context. Here, we introduce MISTI, a novel model that uses contrastive learning to simultaneously learn the representation of figures, captions, and metadata, such as a paper’s title, sections, and curated concepts from the PubMed Open Access Subset. We evaluate our model on multiple information retrieval tasks, showing substantial improvements over baseline models. Notably, incorporating metadata doubled retrieval performance, achieving a Recall@1 of 30% on a 70K-item caption retrieval task. We qualitatively explore how metadata can be used to strategically retrieve distinctive representations of the same concept but for different sections, such as introduction and results. Additionally, we show that our model seamlessly handles out-of-domain tasks related to image segmentation. We share our dataset and methods (https://github.com/Khempawin/scientific-image-caption-pair/tree/section-attr) and outline future research directions.">
+
+
+
+
+
+<meta name="citation_year" content="2024">
+
+
+
+
+
+<meta name="citation_publication_date" content="2024">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="citation_conference_title" content="Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="citation_doi" content="10.18653/v1/2024.sdp-1.15">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="citation_language" content="en">
+
+
+
+<meta name="citation_firstpage" content="155">
+
+
+
+
+
+
+
+
+
+<meta name="citation_pdf_url" content="https://scienceofscience.org/publications/misti/paper.pdf">
+
+
+<!-- end paper_meta.html -->
+
+  <link rel="icon" href="/assets/images/lab/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="/assets/images/lab/logo.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/images/lab/apple-touch-icon.png" sizes="180x180">
+  <link rel="preload" href="/assets/fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/lab.css">
+  <link rel="stylesheet" href="/assets/css/research.css">
+  <link rel="alternate" type="application/atom+xml" title="Science of Science & Computational Discovery Lab" href="/feed.xml">
+  <link rel="alternate" type="application/atom+xml" title="SOS+CD publications and preprints" href="/publications/feed.xml">
+  <link rel="alternate" type="application/json" title="SOS+CD publication metadata" href="/publications.json">
+  
+  <script src="/assets/js/lab.js" defer></script>
+  <script src="/assets/js/research.js" defer></script>
+</head>
+<body id="top" class="is-interior route-publications-misti">
+  <!--
+  THESIS: Science itself is the specimen. Real research questions lead an inspectable field of work.
+  OWN-WORLD: Cool white, saturated violet, chartreuse selection; Sora display, Hanken Grotesk reading; optical rings and precise open layouts.
+  STORY: Understand what this lab studies, explore its publications, meet its people, and find a research opportunity.
+  FIRST VIEWPORT: Oversized left-aligned purpose, a violet research specimen to the right, visible publication action, topic controls beneath the field.
+  FORM: Optical research bench, grounded direction 4, seed 0f53ec25. Code-led execution; the selected research lens changes the specimen and its associated paper.
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+  -->
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/" aria-label="SOS+CD Lab home">
+      <img class="brand-mark" src="/assets/images/lab/logo.svg" width="42" height="42" alt="">
+      <span class="brand-name">SOS<span class="brand-plus">+</span>CD <span class="brand-lab">Lab</span></span>
+    </a>
+    <a class="university-link" href="https://www.colorado.edu/cs/">University of<br>Colorado Boulder</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span>Menu</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 6h14M3 14h14" stroke="currentColor" stroke-width="1.5"/></svg></button>
+    <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+      
+      <a href="/publications/">Publications</a>
+      
+      <a href="/people/">People</a>
+      
+      <a href="/research/">Research</a>
+      
+      <a href="/about/">About</a>
+      
+      <a href="/openings/" class="nav-join">Join Us<svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a>
+      
+      <a href="/support/">Support</a>
+      
+    </nav>
+  </div>
+</header>
+
+  
+
+<main id="main" class="interior-main wrap research-reading">
+  <nav class="research-breadcrumbs" aria-label="Breadcrumb"><a href="/research/">Research</a><span aria-hidden="true">/</span><a href="/publications/">Publications</a></nav>
+  <header class="paper-heading">
+    <h1>MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning</h1>
+    <p class="paper-authors">Pawin Taechoyotin, Daniel Acuna</p>
+    <p class="paper-citation-meta">Conference contribution · <em>Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)</em> · <time datetime="2024">2024</time></p>
+    <p class="paper-doi"><a href="https://doi.org/10.18653/v1/2024.sdp-1.15">DOI: 10.18653/v1/2024.sdp-1.15</a></p>
+    <div class="resource-actions"><a class="button button-primary" href="https://aclanthology.org/2024.sdp-1.15/" data-resource-type="paper" data-publication-key="taechoyotin2024misti">Read the paper <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a><a href="#cite">Cite this work</a><a href="#paper-resources">Resources</a></div>
+  </header>
+  <div class="research-reading-grid">
+    <article class="research-prose">
+      <section aria-labelledby="research-question"><h2 id="research-question">Can publication metadata improve scientific image and text retrieval?</h2><p class="research-lead">MISTI learns joint representations of scientific figures, captions, and publication metadata. The study tests whether contextual information such as titles, sections, and concepts improves retrieval beyond the image-caption pair alone.</p></section>
+      <section aria-labelledby="findings"><h2 id="findings">What the study found</h2><ul><li>Including metadata improved retrieval performance over the reported baselines.</li><li>The model reached 30% Recall@1 in a caption-retrieval task with 70,000 candidates.</li></ul></section>
+      <section aria-labelledby="methods"><h2 id="methods">How the study works</h2><p>The model uses contrastive learning on figures, captions, and metadata from the PubMed Open Access Subset, and is evaluated on information-retrieval tasks.</p></section>
+      <section aria-labelledby="scope"><h2 id="scope">Scope and limitations</h2><ul><li>The reported results depend on the tasks, candidate set, and publication collection used for evaluation.</li><li>Retrieving a relevant figure or caption is different from establishing that a scientific claim is correct.</li></ul></section>
+      
+      <section aria-labelledby="abstract"><h2 id="abstract">Abstract</h2><p>In scientific publications, automatic representations of figures and their captions can be used in NLP, computer vision, and information retrieval tasks. Contrastive learning has proven effective for creating such joint representations for natural scenes, but its application to scientific imagery and descriptions remains under-explored. Recent open-access publication datasets provide an opportunity to understand the effectiveness of this technique as well as evaluate the usefulness of additional metadata, which are available only in the scientific context. Here, we introduce MISTI, a novel model that uses contrastive learning to simultaneously learn the representation of figures, captions, and metadata, such as a paper’s title, sections, and curated concepts from the PubMed Open Access Subset. We evaluate our model on multiple information retrieval tasks, showing substantial improvements over baseline models. Notably, incorporating metadata doubled retrieval performance, achieving a Recall@1 of 30% on a 70K-item caption retrieval task. We qualitatively explore how metadata can be used to strategically retrieve distinctive representations of the same concept but for different sections, such as introduction and results. Additionally, we show that our model seamlessly handles out-of-domain tasks related to image segmentation. We share our dataset and methods (https://github.com/Khempawin/scientific-image-caption-pair/tree/section-attr) and outline future research directions.</p><p class="source-note">Abstract from <a href="https://aclanthology.org/2024.sdp-1.15/">the original work</a>, reproduced under its <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license</a>. The overview above summarizes the study.</p></section>
+      
+      <section id="cite" aria-labelledby="cite-heading"><h2 id="cite-heading">Cite this work</h2><p class="citation-text" id="paper-citation">Pawin Taechoyotin, Daniel Acuna (2024). MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning. Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024). https://doi.org/10.18653/v1/2024.sdp-1.15</p><div class="resource-actions"><button type="button" class="button button-primary" data-copy-citation="paper-citation" hidden>Copy citation</button><a href="/publications/citations/taechoyotin2024misti.bib" download data-resource-type="citation" data-publication-key="taechoyotin2024misti">Download BibTeX</a></div><p class="copy-status" data-copy-status role="status" aria-live="polite"></p><details class="bibtex-details"><summary>View BibTeX</summary><pre><code>@inproceedings{taechoyotin2024misti,
+  title = {MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning},
+  author = {Taechoyotin, Pawin and Acuna, Daniel},
+  year = {2024},
+  publication_date = {2024},
+  booktitle = {Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)},
+  pages = {155--164},
+  doi = {10.18653/v1/2024.sdp-1.15},
+  url = {https://aclanthology.org/2024.sdp-1.15/}
+}
+</code></pre></details></section>
+      <p class="source-note">Overview checked September 7, 2026 against the <a href="https://aclanthology.org/2024.sdp-1.15/">publication record</a>. Publication and preprint dates refer to the linked versions.</p>
+      <p class="source-note">The locally hosted PDF is an unchanged copy from <a href="https://aclanthology.org/2024.sdp-1.15.pdf">the original source</a>, shared under its <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license</a>. Copyright remains with the credited authors or rights holders.</p>
+    </article>
+    <aside class="research-sidebar" id="paper-resources" aria-label="Paper resources and topics">
+      <section><h2>Read and reuse</h2><ul class="resource-list">
+        <li><a href="https://aclanthology.org/2024.sdp-1.15/" data-resource-type="paper" data-publication-key="taechoyotin2024misti">Read the original paper <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></li>
+        <li><a href="/publications/misti/paper.pdf" data-resource-type="pdf" data-publication-key="taechoyotin2024misti">Download paper (PDF) <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></li><li><a href="https://github.com/Khempawin/scientific-image-caption-pair/tree/section-attr" data-resource-type="code" data-publication-key="taechoyotin2024misti">Code repository <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></li>
+        
+        <li><a href="#cite">Citation and BibTeX <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></li>
+      </ul></section>
+      <section><h2>Research topics</h2><ul class="resource-list"><li><a href="/research/peer-review-discovery/">Peer review & discovery <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></li></ul></section>
+      <section><h2>Explore the tags</h2><ul class="bib-tags" aria-label="Paper tags"><li><a href="/publications/?tag=multimodal-learning">Multimodal learning</a></li><li><a href="/publications/?tag=text-mining">Text mining & NLP</a></li><li><a href="/publications/?tag=scholarly-data">Scholarly data & tools</a></li></ul></section>
+    </aside>
+  </div>
+  <section class="related-research" aria-labelledby="related-heading"><h2 id="related-heading">Related research</h2><article class="research-paper-row"><h3><a href="/publications/sciintbench/">SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under Adversarial Framing</a></h3><a class="paper-overview-link" href="/publications/sciintbench/" aria-label="Research overview for SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under Adversarial Framing" data-resource-type="overview" data-publication-key="meguimtsop2026sciintbench"><svg width="15" height="17" viewBox="0 0 18 20" fill="none" aria-hidden="true"><path d="M4 1.5h6l4 4V18H4V1.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M10 1.5v4h4M6.5 9h5M6.5 12h5M6.5 15h3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Research overview</span></a>
+<p class="source-note">Almene De Meran Meguimtsop, Maria Leonor Pacheco, Daniel E. Acuna · 2026 · Preprint</p><p>SciIntBench evaluates how language models respond to scientific requests framed as explicit misconduct, covert misconduct, or legitimate work. It measures both refusal of problematic requests and helpfulness on benign ones.</p></article>
+<article class="research-paper-row"><h3><a href="/publications/rem-ctx/">REM-CTX: Automated Peer Review via Reinforcement Learning with Auxiliary Context</a></h3><a class="paper-overview-link" href="/publications/rem-ctx/" aria-label="Research overview for REM-CTX: Automated Peer Review via Reinforcement Learning with Auxiliary Context" data-resource-type="overview" data-publication-key="taechoyotin2026remctx"><svg width="15" height="17" viewBox="0 0 18 20" fill="none" aria-hidden="true"><path d="M4 1.5h6l4 4V18H4V1.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M10 1.5v4h4M6.5 9h5M6.5 12h5M6.5 15h3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Research overview</span></a>
+<p class="source-note">Pawin Taechoyotin, Daniel E. Acuna · 2026 · Preprint</p><p>REM-CTX extends review generation beyond manuscript text. It trains a language model to use auxiliary context and tests whether explicit correspondence rewards improve the grounding of generated reviews.</p></article>
+<article class="research-paper-row"><h3><a href="/publications/remor/">REMOR: Automated Peer Review Generation with LLM Reasoning and Multi-Objective Reinforcement Learning</a></h3><a class="paper-overview-link" href="/publications/remor/" aria-label="Research overview for REMOR: Automated Peer Review Generation with LLM Reasoning and Multi-Objective Reinforcement Learning" data-resource-type="overview" data-publication-key="taechoyotin2025remor"><svg width="15" height="17" viewBox="0 0 18 20" fill="none" aria-hidden="true"><path d="M4 1.5h6l4 4V18H4V1.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M10 1.5v4h4M6.5 9h5M6.5 12h5M6.5 15h3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Research overview</span></a>
+<p class="source-note">Pawin Taechoyotin, Daniel E. Acuna · 2025 · Preprint</p><p>REMOR studies review generation with a reasoning language model and rewards for multiple aspects of review quality. It compares different reward designs and examines how training changes the feedback produced.</p></article>
+</section>
+</main>
+
+  <footer class="site-footer" id="footer">
+  <div class="footer-main wrap">
+    <div class="footer-identity">
+      <a class="footer-wordmark" href="/" aria-label="SOS+CD Lab home"><img class="footer-mark" src="/assets/images/lab/logo.svg" width="54" height="54" alt="" loading="lazy"><span class="footer-brand-text">SOS<span>+</span>CD</span></a>
+      <p>Science of Science &amp;<br>Computational Discovery Lab</p>
+      <p class="footer-affiliation">Department of Computer Science<br>University of Colorado Boulder</p>
+    </div>
+    <nav aria-label="Research links"><h2>Explore</h2><a href="/research/">Research topics</a><a href="/publications/">Publications</a><a href="/resources/">Code, data &amp; citations</a><a href="/funding/">Funding</a><a href="/publications/feed.xml">Publication feed</a></nav>
+    <nav aria-label="Lab links"><h2>The lab</h2><a href="/people/">People</a><a href="/about/">About us</a><a href="/news/">News &amp; events</a><a href="/openings/">Join Us</a><a href="/support/">Support the lab</a></nav>
+    <div class="footer-address"><h2>Find us</h2><address>1111 Engineering Drive<br>Room 105 ECNW<br>Boulder, CO 80309</address><a class="text-link" href="https://www.colorado.edu/map?id=336#!s/?mc/40.00793399332605,-105.26281640367506?z/21?lvl/1">Campus map <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></div>
+  </div>
+  <div class="footer-bottom wrap"><span>&copy; 2026 SOS+CD Lab</span><span>Studying science. Advancing discovery.</span><a href="#top" data-back-top>Back to top <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></div>
+</footer>
+
+  
+
+
+  
+
+
+
+
+
+
+</body>
+</html>
