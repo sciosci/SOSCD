@@ -43,7 +43,7 @@ Keep query-based publication filters canonicalized to `/publications/`. Their ov
 
 ## Google Analytics and the existing Search Console property
 
-The old `UA-53191307-1` configuration was Universal Analytics. The new GA4 provider is ready, but no GA4 Measurement ID was available during implementation. `analytics.google.tracking_id` in `_config.yml` is intentionally empty. Supply the confirmed website stream's `G-…` value; do not substitute a property ID, stream ID, tag ID, or an invented ID.
+The old `UA-53191307-1` configuration was Universal Analytics. On September 7, 2026, the signed-in Chrome session confirmed the existing `scienceofscience` account (53191307) had no GA4 property. The lab now has property **SOS+CD Lab — scienceofscience.org** (552893037), website stream **SOS+CD Lab website** (15736506497), and Measurement ID **G-P91ZSLM4VH**, configured in `_config.yml`. Reporting uses Denver time and USD, with traffic and engagement reports. Daniel's separate `acuna.io` property is unchanged.
 
 Production builds load `gtag.js` only when a `G-…` ID is configured. Development builds do not collect analytics. The GitHub workflow now sets `JEKYLL_ENV=production`, so a configured ID can load after deployment. A production fixture with a test ID was evaluated without making analytics requests.
 
@@ -56,17 +56,17 @@ The implementation provides these events when GA4 is active:
 | `publication_filter` | Explicit topic/tag/year selection; no free-text query |
 | `lab_contact` | Page path when a mail link is chosen; no message contents |
 
-Page-location and same-origin referrer overrides remove the free-text `q` parameter and fragments, while retaining referral/UTM and taxonomy information. Advertising personalization and Google signals are disabled in the tag configuration. In the GA4 web stream, disable Enhanced Measurement **Site search** before enabling this tag if free-text searches must remain uncollected: that account feature can independently extract URL queries. Avoid installing a second tag through GTM or another integration.
+Page-location and same-origin referrer overrides remove the free-text `q` parameter and fragments, while retaining referral/UTM and taxonomy information. Advertising personalization and Google signals are disabled in the tag configuration. The web stream has Enhanced Measurement **Site search**, **Form interactions**, and history-based page changes disabled; normal page loads, scrolls, outbound clicks, video engagement and file downloads remain enabled. This avoids collecting archive searches and counting filter URL updates as page views. Email redaction remains enabled, and `q` URL parameter redaction is also configured in GA4. Avoid installing a second tag through GTM or another integration.
 
-Account steps remain outside the repository and were not performed in this session:
+Account follow-up steps:
 
-1. Confirm the existing GA4 property/website stream and Measurement ID, then verify production page views and the events above in Realtime/DebugView after publishing.
+1. The GA4 property, website stream and Measurement ID are confirmed. Verify production page views and the events above in Realtime/DebugView after publishing.
 2. Link the existing Search Console property to the appropriate GA4 web stream, if not already linked. Review access and property matching within the accounts.
 3. Use the existing Search Console property to confirm `/sitemap.xml` processing and inspect representative new topic, paper and dataset URLs after deployment. Do not create a duplicate property simply for this change.
 4. If desired, import/verify the same site in Bing Webmaster Tools and submit the sitemap. Its AI Performance reporting and Search Console's supported AI reports supplement referral analytics; they do not measure every ChatGPT citation.
 5. Create useful reports for resource actions and referrals, including `chatgpt.com`, other assistants and ordinary organic search. Record a baseline and deployment date, then compare 28- and 90-day windows with publication/news activity in mind.
 
-No analytics dashboard, Search Console verification, Bing property, indexing request, external profile, or university giving account was changed. Public CU/ORCID/Scholar identity links were added to the PI page. A direct lab-giving button still requires the confirmed CU fund and designation link.
+The lab Analytics property and stream were created in the existing account. Search Console verification, Bing property, indexing requests, external profiles and university giving accounts were not changed by this setup. Public CU/ORCID/Scholar identity links were added to the PI page. A direct lab-giving button still requires the confirmed CU fund and designation link.
 
 Official references: [GA4 event collection](https://developers.google.com/analytics/devguides/collection/ga4/events), [Google Scholar inclusion](https://scholar.google.com/intl/en/scholar/inclusion.html), [Dataset structured data](https://developers.google.com/search/docs/appearance/structured-data/dataset), [OpenAI crawler roles](https://developers.openai.com/api/docs/bots), [Google AI search guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide).
 

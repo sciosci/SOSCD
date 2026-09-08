@@ -100,7 +100,7 @@ social:
 analytics:
   provider               : google-gtag
   google:
-    tracking_id          : "" # Add the confirmed GA4 Measurement ID (G-...). Former UA-53191307-1 is retired.
+    tracking_id          : "G-P91ZSLM4VH" # SOS+CD Lab website stream in the scienceofscience Analytics account.
 
 
 # Site Author
