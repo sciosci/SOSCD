@@ -5,6 +5,7 @@ Use the **SOS+CD Lab — scienceofscience.org** GA4 property (552893037), not Da
 ## Reports configured September 7, 2026
 
 - **Reports → Reports snapshot** is the **Lab visibility overview** dashboard: engagement, events, acquisition sources, page views, Google queries and Google landing-page impressions.
+- **Reports → Lab research → Visibility and engagement → AI referrals** filters known AI assistant source domains and shows sessions, engaged sessions, engagement rate, engagement time and event counts by Session source / medium.
 - **Reports → Lab research → Visibility and engagement → Research engagement** isolates `research_resource_open`, `citation_copy`, `publication_filter`, and `lab_contact`.
 - Event-scoped custom dimensions: Publication ID (`publication_id`), Resource type (`resource_type`), Filter type (`filter_type`), Filter value (`filter_value`). Select a dimension in the Research engagement table to compare papers, resources, or taxonomy choices.
 - The existing Search Console domain property `scienceofscience.org` is linked to web stream 15736506497. Its Search Console report collection is published.
@@ -54,6 +55,7 @@ The old `/en/` homepage URL now redirects to `/`. Existing “crawled, not index
 - [acuna.io](https://acuna.io/) links to the lab and publications in its navigation and biography.
 - Daniel's [ORCID 0000-0002-7765-1595](https://orcid.org/0000-0002-7765-1595) links to acuna.io and the correct Scholar profile. A direct lab link would shorten this path; no ORCID credentials were needed for the public audit.
 - [PubMed Parser](https://github.com/titipata/pubmed_parser) already links to scienceofscience.org.
+- The [MAMORX repository](https://github.com/sciosci/mamorx-review-system) homepage now links to its dedicated [lab overview](https://scienceofscience.org/publications/mamorx/), verified after deployment.
 
 ## Maintaining paper overviews
 
@@ -62,3 +64,9 @@ Add original summaries, findings, methods, limitations, source URLs, and review 
 Validation: `npm test`, a production Jekyll build, and `bundle exec ruby tests/seo_test.rb DESTINATION`. The production workflow runs these checks before deployment.
 
 References: [Search Console integration](https://support.google.com/analytics/answer/10737381), [custom dimensions](https://support.google.com/analytics/answer/14239696), [Google AI performance reporting](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports), and [GitHub scheduled workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
+
+## September 7 verification
+
+The publication/search tests, five analytics behavior tests, and 12 production SEO tests (2,289 assertions) passed. GitHub build 34177613937 and Pages deployment 34177655099 succeeded. Public audit 34178256130 checked all 40 indexable HTML pages with zero issues. The AI referrals report was saved and added to the published Lab research collection.
+
+GA4 page views and resource-open collection were confirmed during the initial activation. The final signed-in Realtime check for citation-copy publication IDs and archive-filter receipt could not be completed because Chrome window access failed (`cgWindowNotFound`) after the account changes were saved. These behaviors pass code tests and their production scripts are deployed; confirm receipt in Realtime when browser access is restored. New standard reports may need processing time before showing data.
