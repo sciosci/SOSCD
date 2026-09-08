@@ -1,10 +1,15 @@
 require 'yaml'
+require 'latex/decode'
 
 # Editorial topic assignments are explicit and reviewed, never guessed from titles.
 class PublicationCatalog
   attr_reader :index, :facets
 
-  def initialize(entries, taxonomy)
+  def self.plain(value)
+    LaTeX.decode(value.to_s).delete('{}').gsub("ı́", 'í').unicode_normalize(:nfc).strip
+  end
+
+  def initialize(entries, taxonomy, details = {}, pdf_sources = {})
     topics = taxonomy.fetch('topics')
     tags = taxonomy.fetch('tags')
     papers = taxonomy.fetch('papers')
@@ -34,27 +39,56 @@ class PublicationCatalog
           raise "Invalid #{field} for #{entry.key}: #{values.inspect}"
         end
       end
-      names = entry[:author].to_s.split(/\s+and\s+/).map do |name|
-        parts = name.split(',').map(&:strip)
-        parts.length > 1 ? "#{parts[1]} #{parts[0]}" : name
+      author_list = entry[:author].map do |name|
+        given = self.class.plain(name.first)
+        family = [name.prefix, name.last].map { |value| self.class.plain(value) }.reject(&:empty?).join(' ')
+        suffix = self.class.plain(name.suffix)
+        { 'name' => [given, family, suffix].reject(&:empty?).join(' '), 'given' => given, 'family' => family }
       end
+      names = author_list.map { |author| author.fetch('name') }
       format = assignment.fetch('format', entry.type.to_s)
       raise "Invalid format for #{entry.key}: #{format}" unless %w[article inproceedings preprint incollection phdthesis webarticle].include?(format)
       format_label = entry[:note].to_s
       format_label = { 'preprint' => 'Preprint / working paper', 'webarticle' => 'Web article' }.fetch(format, '') if format_label.empty?
       year_label = [year, format_label].reject(&:empty?).join(' · ')
+      detail = details.fetch(entry.key, {})
+      doi = entry[:doi].to_s.gsub('\\_', '_').sub(%r{\Ahttps?://(?:dx\.)?doi.org/}i, '')
+      slug = entry.key.downcase.gsub(/[^a-z0-9]+/, '-').sub(/-\z/, '')
       record = {
-        'key' => entry.key, 'title' => entry[:title].to_s.delete('{}'),
-        'alternate_title' => entry[:alternate_title].to_s,
+        'key' => entry.key, 'title' => self.class.plain(entry[:title]),
+        'alternate_title' => self.class.plain(entry[:alternate_title]),
         'authors' => names.join(', '),
+        'author_list' => author_list,
         'authors_short' => names.first(3).join(', ') + (names.length > 3 ? ', et al.' : ''),
         'year' => year,
         'year_label' => year_label, 'format' => format, 'format_label' => format_label,
-        'venue' => (entry[:journal] || entry[:booktitle] || entry[:school] || entry[:howpublished]).to_s,
-        'topics' => assignment.fetch('topics'), 'tags' => assignment.fetch('tags')
+        'venue' => self.class.plain(entry[:journal] || entry[:booktitle] || entry[:school] || entry[:howpublished]),
+        'topics' => assignment.fetch('topics'), 'tags' => assignment.fetch('tags'),
+        'doi' => doi, 'publication_date' => entry[:publication_date].to_s.empty? ? year : entry[:publication_date].to_s,
+        'volume' => entry[:volume].to_s, 'issue' => entry[:number].to_s, 'pages' => entry[:pages].to_s,
+        'publisher' => self.class.plain(entry[:publisher]),
+        'url' => entry[:url].to_s.gsub('\\_', '_'),
+        'page_path' => detail['path'],
+        'bibtex_path' => "/publications/citations/#{slug}.bib",
+        'summary' => detail['summary'], 'abstract' => detail['abstract'],
+        'abstract_license' => detail['abstract_license'],
+        'reviewed_at' => detail['reviewed_at'],
+        'resources' => []
       }
+      resource_fields = { 'pdf_url' => 'pdf', 'preprint_url' => 'preprint', 'code' => 'code', 'dataset_url' => 'dataset', 'demo' => 'demo' }
+      resource_fields.each do |field, kind|
+        value = entry[field.to_sym].to_s.gsub('\\_', '_')
+        if kind == 'pdf' && pdf_sources.key?(entry.key)
+          source = pdf_sources.fetch(entry.key)
+          value = source['status'] == 'mirrored' ? source.fetch('path') : source.fetch('source_url')
+        end
+        record['resources'] << { 'type' => kind, 'url' => value } unless value.empty?
+      end
+      record['citation'] = "#{names.join(', ')} (#{year}). #{record['title']}. #{record['venue']}." + (doi.empty? ? '' : " https://doi.org/#{doi}")
       [entry.key, record]
     end
+    paths = @index.values.map { |record| record.fetch('bibtex_path') }
+    raise 'Duplicate BibTeX download paths' unless paths.uniq == paths
     @facets = { 'topics' => topics, 'tags' => tags }.to_h do |field, definitions|
       [field, definitions.to_h do |id, definition|
         [id, definition.merge('count' => @index.values.count { |record| record[field].include?(id) })]

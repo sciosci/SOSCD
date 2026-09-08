@@ -1,0 +1,24 @@
+---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <id>{{ '/feed.xml' | absolute_url | xml_escape }}</id>
+  <title>SOS+CD Lab news</title>
+  <subtitle>Announcements, events, and milestones from the Science of Science &amp; Computational Discovery Lab.</subtitle>
+  <link href="{{ '/feed.xml' | absolute_url | xml_escape }}" rel="self" type="application/atom+xml"/>
+  <link href="{{ '/news/' | absolute_url | xml_escape }}"/>
+  {% assign newest = site.data.news_feed | sort: 'updated_at' | last %}<updated>{{ newest.updated_at | date_to_xmlschema }}</updated>
+  <author><name>SOS+CD Lab</name><uri>{{ '/' | absolute_url | xml_escape }}</uri></author>
+  {% assign absolute_href = 'href="' | append: site.url | append: site.baseurl | append: '/' %}
+  {% for event in site.data.news_feed %}
+  <entry>
+    <id>{{ '/news/#event-' | append: event.id | absolute_url | xml_escape }}</id>
+    <title>{{ event.description | strip_html | xml_escape }}</title>
+    <link href="{{ '/news/#event-' | append: event.id | absolute_url | xml_escape }}"/>
+    <updated>{{ event.updated_at | date_to_xmlschema }}</updated>
+    <summary type="html">{{ event.date | append: ': ' | append: event.description | replace: 'href="/', absolute_href | xml_escape }}</summary>
+  </entry>
+  {% endfor %}
+</feed>

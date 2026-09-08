@@ -1,0 +1,897 @@
+{
+  "auditedAt": "2026-09-07T21:50:07.751Z",
+  "robots": "Sitemap: https://scienceofscience.org/sitemap.xml\n",
+  "sitemapURL": "https://scienceofscience.org/sitemap.xml",
+  "rows": [
+    {
+      "url": "https://scienceofscience.org/about/",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/about/",
+      "title": "About the lab - Science of Science & Computational Discovery Lab",
+      "titleLength": 64,
+      "description": "Understanding science through computation at the University of Colorado Boulder.",
+      "descriptionLength": 80,
+      "canonical": "https://scienceofscience.org/about/",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "A different lenson discovery."
+      ],
+      "wordCount": 193,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": null,
+      "citationAuthors": [],
+      "citationYear": null,
+      "citationDOI": null,
+      "citationPDF": null,
+      "internalLinks": [
+        "https://scienceofscience.org/people/#alumni"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/lab/group.webp",
+          "alt": "Researchers discussing work around a table in the lab",
+          "width": "600",
+          "height": "472"
+        }
+      ],
+      "bytes": 9513
+    },
+    {
+      "url": "https://scienceofscience.org/deadlines",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/deadlines",
+      "title": "Deadlines - Science of Science & Computational Discovery Lab",
+      "titleLength": 60,
+      "description": "Science of Science & Computational Discovery Lab",
+      "descriptionLength": 48,
+      "canonical": "https://scienceofscience.org/deadlines",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "Deadlines"
+      ],
+      "wordCount": 136,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": null,
+      "citationAuthors": [],
+      "citationYear": null,
+      "citationDOI": null,
+      "citationPDF": null,
+      "internalLinks": [],
+      "images": [],
+      "bytes": 8578
+    },
+    {
+      "url": "https://scienceofscience.org/publications/ic2s2-author-name-disambiguation.html",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/publications/ic2s2-author-name-disambiguation.html",
+      "title": "Large-scale author name disambiguation using approximate network structures - Science of Science & Computational Discovery Lab",
+      "titleLength": 126,
+      "description": "Science of Science & Computational Discovery Lab",
+      "descriptionLength": 48,
+      "canonical": "https://scienceofscience.org/publications/ic2s2-author-name-disambiguation.html",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "Large-scale author name disambiguation using approximate network structures"
+      ],
+      "wordCount": 164,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": "Large-scale author name disambiguation using approximate network structures",
+      "citationAuthors": [
+        "Zeng, Tong",
+        "Acuna, Daniel E."
+      ],
+      "citationYear": "2020",
+      "citationDOI": "10.5281/zenodo.4403705",
+      "citationPDF": "https://scienceofscience.org/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf",
+      "internalLinks": [
+        "https://scienceofscience.org/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf"
+      ],
+      "images": [],
+      "bytes": 12263
+    },
+    {
+      "url": "https://scienceofscience.org/",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/",
+      "title": "SOS+CD Lab at CU Boulder - Science of Science & Computational Discovery Lab",
+      "titleLength": 75,
+      "description": "We study how science works—and build computational tools to help it work better. A research lab at the University of Colorado Boulder.",
+      "descriptionLength": 134,
+      "canonical": "https://scienceofscience.org/",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "Science isour subject."
+      ],
+      "wordCount": 2778,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": null,
+      "citationAuthors": [],
+      "citationYear": null,
+      "citationDOI": null,
+      "citationPDF": null,
+      "internalLinks": [
+        "https://scienceofscience.org/publications/",
+        "https://scienceofscience.org/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf",
+        "https://scienceofscience.org/publications/#zhuangacuna2020",
+        "https://scienceofscience.org/workshops/",
+        "https://scienceofscience.org/publications/",
+        "https://scienceofscience.org/openings/",
+        "https://scienceofscience.org/funding/#research-integrity",
+        "https://scienceofscience.org/funding/#peer-review",
+        "https://scienceofscience.org/funding/#science-of-science",
+        "https://scienceofscience.org/publications/",
+        "https://scienceofscience.org/people/",
+        "https://scienceofscience.org/people/#principal-investigator",
+        "https://scienceofscience.org/people/#doctoral-students",
+        "https://scienceofscience.org/people/#doctoral-students",
+        "https://scienceofscience.org/news/",
+        "https://scienceofscience.org/openings/",
+        "https://scienceofscience.org/support/"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/lab/daniel.webp",
+          "alt": "Daniel Acuña",
+          "width": "320",
+          "height": "400"
+        },
+        {
+          "src": "/assets/images/lab/carolina.webp",
+          "alt": "Carolina Chávez-Ruelas",
+          "width": "320",
+          "height": "400"
+        },
+        {
+          "src": "/assets/images/lab/pawin.webp",
+          "alt": "Pawin Taechoyotin",
+          "width": "320",
+          "height": "400"
+        }
+      ],
+      "bytes": 88409
+    },
+    {
+      "url": "https://scienceofscience.org/mentorship/",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/mentorship/",
+      "title": "Mentorship in science - Science of Science & Computational Discovery Lab",
+      "titleLength": 72,
+      "description": "An open dataset with semantic and demographic estimations.",
+      "descriptionLength": 58,
+      "canonical": "https://scienceofscience.org/mentorship/",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "Mentorship in science"
+      ],
+      "wordCount": 97,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": null,
+      "citationAuthors": [],
+      "citationYear": null,
+      "citationDOI": null,
+      "citationPDF": null,
+      "internalLinks": [],
+      "images": [],
+      "bytes": 8401
+    },
+    {
+      "url": "https://scienceofscience.org/news/",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/news/",
+      "title": "News & events - Science of Science & Computational Discovery Lab",
+      "titleLength": 64,
+      "description": "Publications, conversations, and milestones from the lab.",
+      "descriptionLength": 57,
+      "canonical": "https://scienceofscience.org/news/",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "News & events"
+      ],
+      "wordCount": 1477,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": null,
+      "citationAuthors": [],
+      "citationYear": null,
+      "citationDOI": null,
+      "citationPDF": null,
+      "internalLinks": [
+        "https://scienceofscience.org/news/#news-2026",
+        "https://scienceofscience.org/news/#news-2025",
+        "https://scienceofscience.org/news/#news-2024",
+        "https://scienceofscience.org/news/#news-2023",
+        "https://scienceofscience.org/news/#news-2022",
+        "https://scienceofscience.org/news/#news-2021",
+        "https://scienceofscience.org/news/#news-2020",
+        "https://scienceofscience.org/news/#news-2019",
+        "https://scienceofscience.org/news/#news-2018",
+        "https://scienceofscience.org/s4/",
+        "https://scienceofscience.org/mentorship/",
+        "https://scienceofscience.org/workshops/"
+      ],
+      "images": [],
+      "bytes": 28392
+    },
+    {
+      "url": "https://scienceofscience.org/people/",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/people/",
+      "title": "People - Science of Science & Computational Discovery Lab",
+      "titleLength": 57,
+      "description": "Meet the people behind the Science of Science & Computational Discovery Lab.",
+      "descriptionLength": 76,
+      "canonical": "https://scienceofscience.org/people/",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "The people behindthe questions."
+      ],
+      "wordCount": 705,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": null,
+      "citationAuthors": [],
+      "citationYear": null,
+      "citationDOI": null,
+      "citationPDF": null,
+      "internalLinks": [
+        "https://scienceofscience.org/openings/"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/lab/daniel.webp",
+          "alt": "Daniel Acuña",
+          "width": "640",
+          "height": "640"
+        },
+        {
+          "src": "/assets/images/lab/carolina.webp",
+          "alt": "Carolina Chávez-Ruelas",
+          "width": "640",
+          "height": "640"
+        },
+        {
+          "src": "/assets/images/lab/pawin.webp",
+          "alt": "Pawin Taechoyotin",
+          "width": "640",
+          "height": "640"
+        },
+        {
+          "src": "/assets/images/lab/christopher.webp",
+          "alt": "Christopher Ebuka Ojukwu",
+          "width": "640",
+          "height": "640"
+        }
+      ],
+      "bytes": 17910
+    },
+    {
+      "url": "https://scienceofscience.org/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html",
+      "title": "Predicting the longevity of resources shared in scientific publications - Science of Science & Computational Discovery Lab",
+      "titleLength": 122,
+      "description": "Science of Science & Computational Discovery Lab",
+      "descriptionLength": 48,
+      "canonical": "https://scienceofscience.org/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "Predicting the longevity of resources shared in scientific publications"
+      ],
+      "wordCount": 218,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": "Predicting the longevity of resources shared in scientific publications",
+      "citationAuthors": [],
+      "citationYear": "2024",
+      "citationDOI": null,
+      "citationPDF": "https://arxiv.org/pdf/2203.12800",
+      "internalLinks": [],
+      "images": [],
+      "bytes": 11792
+    },
+    {
+      "url": "https://scienceofscience.org/funding/",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/funding/",
+      "title": "Research & funding - Science of Science & Computational Discovery Lab",
+      "titleLength": 69,
+      "description": "Questions about how science works—and the support that makes answering them possible.",
+      "descriptionLength": 85,
+      "canonical": "https://scienceofscience.org/funding/",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "Research & funding"
+      ],
+      "wordCount": 282,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": null,
+      "citationAuthors": [],
+      "citationYear": null,
+      "citationDOI": null,
+      "citationPDF": null,
+      "internalLinks": [
+        "https://scienceofscience.org/funding/#integrity-heading",
+        "https://scienceofscience.org/funding/#review-heading",
+        "https://scienceofscience.org/funding/#science-heading",
+        "https://scienceofscience.org/funding/#funding-sources",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/support/"
+      ],
+      "images": [],
+      "bytes": 11690
+    },
+    {
+      "url": "https://scienceofscience.org/publications/",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/publications/",
+      "title": "Publications - Science of Science & Computational Discovery Lab",
+      "titleLength": 63,
+      "description": "Research papers, preprints, code, and datasets from the Science of Science & Computational Discovery Lab.",
+      "descriptionLength": 105,
+      "canonical": "https://scienceofscience.org/publications/",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "Publications."
+      ],
+      "wordCount": 3462,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": null,
+      "citationAuthors": [],
+      "citationYear": null,
+      "citationDOI": null,
+      "citationPDF": null,
+      "internalLinks": [
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=metadata-quality",
+        "https://scienceofscience.org/publications/?tag=scholarly-data",
+        "https://scienceofscience.org/publications/?tag=citation-analysis",
+        "https://scienceofscience.org/publications/?tag=diversity",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=collaboration",
+        "https://scienceofscience.org/publications/?tag=diversity",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=diversity",
+        "https://scienceofscience.org/publications/?tag=collaboration",
+        "https://scienceofscience.org/publications/?tag=careers",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?tag=responsible-ai",
+        "https://scienceofscience.org/publications/?tag=language-models",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?tag=peer-review",
+        "https://scienceofscience.org/publications/?tag=language-models",
+        "https://scienceofscience.org/publications/?tag=reinforcement-learning",
+        "https://scienceofscience.org/publications/?tag=multimodal-learning",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=funding",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=reproducibility",
+        "https://scienceofscience.org/publications/?tag=statistical-methods",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=reproducibility",
+        "https://scienceofscience.org/publications/?tag=dataset-discovery",
+        "https://scienceofscience.org/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=questionable-journals",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?tag=peer-review",
+        "https://scienceofscience.org/publications/?tag=language-models",
+        "https://scienceofscience.org/publications/?tag=reinforcement-learning",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=funding",
+        "https://scienceofscience.org/publications/?tag=decision-making",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=diversity",
+        "https://scienceofscience.org/publications/?tag=careers",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?tag=multimodal-learning",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/publications/?tag=scholarly-data",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=collaboration",
+        "https://scienceofscience.org/publications/?tag=diversity",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=interdisciplinarity",
+        "https://scienceofscience.org/publications/?tag=citation-analysis",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?tag=research-recommendation",
+        "https://scienceofscience.org/publications/?tag=recommender-systems",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?tag=peer-review",
+        "https://scienceofscience.org/publications/?tag=language-models",
+        "https://scienceofscience.org/publications/?tag=multimodal-learning",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=recommender-systems",
+        "https://scienceofscience.org/publications/?tag=ai-bias",
+        "https://scienceofscience.org/publications/?tag=human-computer-interaction",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=collaboration",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=figure-accessibility",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=dataset-discovery",
+        "https://scienceofscience.org/publications/?tag=citation-analysis",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=peer-review",
+        "https://scienceofscience.org/publications/?tag=review-bias",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=mentorship",
+        "https://scienceofscience.org/publications/?tag=scholarly-data",
+        "https://scienceofscience.org/publications/?tag=diversity",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=collaboration",
+        "https://scienceofscience.org/publications/?tag=citation-analysis",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?tag=scholarly-data",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=diversity",
+        "https://scienceofscience.org/publications/?tag=responsible-ai",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?tag=figure-integrity",
+        "https://scienceofscience.org/publications/?tag=graphical-integrity",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=research-recommendation",
+        "https://scienceofscience.org/publications/?tag=recommender-systems",
+        "https://scienceofscience.org/publications/?tag=funding",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/workshops/",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=scholarly-data",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/publications/?tag=statistical-methods",
+        "https://scienceofscience.org/workshops/",
+        "https://scienceofscience.org/workshops/",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?tag=dataset-discovery",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/publications/?tag=scholarly-data",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=ai-bias",
+        "https://scienceofscience.org/publications/?tag=perception",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=dataset-discovery",
+        "https://scienceofscience.org/publications/?tag=citation-analysis",
+        "https://scienceofscience.org/publications/?tag=scholarly-data",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?tag=scholarly-data",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=statistical-methods",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?tag=citation-practices",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/publications/?tag=scholarly-data",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?tag=figure-integrity",
+        "https://scienceofscience.org/publications/?tag=graphical-integrity",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=questionable-journals",
+        "https://scienceofscience.org/publications/?tag=citation-analysis",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?tag=questionable-journals",
+        "https://scienceofscience.org/publications/ic2s2-author-name-disambiguation.html",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=scholarly-data",
+        "https://scienceofscience.org/publications/?tag=citation-analysis",
+        "https://scienceofscience.org/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf",
+        "https://scienceofscience.org/publications/ic2s2-author-name-disambiguation.html",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=funding",
+        "https://scienceofscience.org/publications/?tag=research-recommendation",
+        "https://scienceofscience.org/publications/?tag=recommender-systems",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=recommender-systems",
+        "https://scienceofscience.org/publications/?tag=collaboration",
+        "https://scienceofscience.org/publications/?tag=careers",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=figure-integrity",
+        "https://scienceofscience.org/publications/?tag=image-forensics",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=mentorship",
+        "https://scienceofscience.org/publications/?tag=diversity",
+        "https://scienceofscience.org/publications/?tag=statistical-methods",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=figure-integrity",
+        "https://scienceofscience.org/publications/?tag=image-forensics",
+        "https://scienceofscience.org/publications/?tag=statistical-methods",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=neuroscience",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=reproducibility",
+        "https://scienceofscience.org/publications/?tag=dataset-discovery",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/publications/?tag=scholarly-data",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=funding",
+        "https://scienceofscience.org/publications/?tag=citation-analysis",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?tag=figure-integrity",
+        "https://scienceofscience.org/publications/?tag=image-forensics",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=peer-review",
+        "https://scienceofscience.org/publications/?tag=review-bias",
+        "https://scienceofscience.org/publications/?tag=collaboration",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=mentorship",
+        "https://scienceofscience.org/publications/?tag=careers",
+        "https://scienceofscience.org/publications/?tag=interdisciplinarity",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=human-computer-interaction",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=neuroscience",
+        "https://scienceofscience.org/publications/?tag=decision-making",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=neuroscience",
+        "https://scienceofscience.org/publications/?tag=statistical-methods",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?tag=research-recommendation",
+        "https://scienceofscience.org/publications/?tag=recommender-systems",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=perception",
+        "https://scienceofscience.org/publications/?tag=decision-making",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=text-mining",
+        "https://scienceofscience.org/publications/?tag=statistical-methods",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=neuroscience",
+        "https://scienceofscience.org/publications/?tag=decision-making",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=careers",
+        "https://scienceofscience.org/publications/?tag=citation-analysis",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=human-computer-interaction",
+        "https://scienceofscience.org/publications/?tag=perception",
+        "https://scienceofscience.org/publications/?topic=ecosystem",
+        "https://scienceofscience.org/publications/?tag=careers",
+        "https://scienceofscience.org/publications/?tag=citation-analysis",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=decision-making",
+        "https://scienceofscience.org/publications/?tag=reinforcement-learning",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=decision-making",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=decision-making",
+        "https://scienceofscience.org/publications/?tag=reinforcement-learning",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=decision-making",
+        "https://scienceofscience.org/publications/?tag=reinforcement-learning",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=reinforcement-learning",
+        "https://scienceofscience.org/publications/?tag=decision-making",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=decision-making",
+        "https://scienceofscience.org/publications/?tag=reinforcement-learning",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=decision-making",
+        "https://scienceofscience.org/publications/?tag=reinforcement-learning",
+        "https://scienceofscience.org/publications/?topic=foundations",
+        "https://scienceofscience.org/publications/?tag=decision-making",
+        "https://scienceofscience.org/publications/?tag=reinforcement-learning"
+      ],
+      "images": [
+        {
+          "src": "/assets/images/publications/paraphrase_preprint.png",
+          "alt": "Figure from Paraphrase Identification with Deep Learning: A Review of Datasets and Methods",
+          "width": "180",
+          "height": "120"
+        },
+        {
+          "src": "/assets/images/publications/predicting_longevity/figure8_b.png",
+          "alt": "Figure from Predicting the longevity of resources shared in scientific publications",
+          "width": "180",
+          "height": "120"
+        },
+        {
+          "src": "/assets/images/publications/13688_2023_380_Fig2_HTML.webp",
+          "alt": "Figure from A computational analysis of accessibility, readability, and explainability of figures in open access publications",
+          "width": "180",
+          "height": "120"
+        },
+        {
+          "src": "/assets/images/publications/journal.pone.0273994.g002.png",
+          "alt": "Figure from Author-suggested reviewers rate manuscripts much more favorably: A cross-sectional analysis of the neuroscience section of PLOS ONE",
+          "width": "180",
+          "height": "120"
+        },
+        {
+          "src": "/assets/images/publications/mentorship_pub.png",
+          "alt": "Figure from A dataset of mentorship in bioscience with semantic and demographic estimations",
+          "width": "180",
+          "height": "120"
+        },
+        {
+          "src": "/assets/images/publications/aies_pub.png",
+          "alt": "Figure from Are AI Ethics Conferences Different and More Diverse Compared to Traditional Computer Science Conferences?",
+          "width": "180",
+          "height": "120"
+        },
+        {
+          "src": "/assets/images/publications/journal.pcbi.1009650.g009.png",
+          "alt": "Figure from Graphical integrity issues in open access publications: detection and patterns of proportional ink violations",
+          "width": "180",
+          "height": "120"
+        },
+        {
+          "src": "/assets/images/publications/biasai_pub.png",
+          "alt": "Figure from Artificial mental phenomena: Psychophysics as a framework to detect perception biases in AI models",
+          "width": "180",
+          "height": "120"
+        },
+        {
+          "src": "/assets/images/publications/datarank_pub.png",
+          "alt": "Figure from Assigning credit to scientific datasets using article citation networks",
+          "width": "180",
+          "height": "120"
+        },
+        {
+          "src": "/assets/images/publications/citeworthiness_pub.png",
+          "alt": "Figure from Modeling citation worthiness by using attention-based bidirectional long short-term memory networks and interpretable models",
+          "width": "180",
+          "height": "120"
+        },
+        {
+          "src": "/assets/images/publications/deadscience_pub.png",
+          "alt": "Figure from Dead science: Most resources linked in biomedical articles disappear in eight years",
+          "width": "180",
+          "height": "120"
+        }
+      ],
+      "bytes": 142377
+    },
+    {
+      "url": "https://scienceofscience.org/openings/",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/openings/",
+      "title": "Join the lab - Science of Science & Computational Discovery Lab",
+      "titleLength": 63,
+      "description": "Research opportunities at the Science of Science & Computational Discovery Lab.",
+      "descriptionLength": 79,
+      "canonical": "https://scienceofscience.org/openings/",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "Your next questioncould start here."
+      ],
+      "wordCount": 178,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": null,
+      "citationAuthors": [],
+      "citationYear": null,
+      "citationDOI": null,
+      "citationPDF": null,
+      "internalLinks": [
+        "https://scienceofscience.org/publications/"
+      ],
+      "images": [],
+      "bytes": 8986
+    },
+    {
+      "url": "https://scienceofscience.org/support/",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/support/",
+      "title": "Support the lab - Science of Science & Computational Discovery Lab",
+      "titleLength": 66,
+      "description": "Help the SOS+CD Lab advance trustworthy science, open research tools, and the next generation of researchers.",
+      "descriptionLength": 109,
+      "canonical": "https://scienceofscience.org/support/",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "Help sciencework better."
+      ],
+      "wordCount": 267,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": null,
+      "citationAuthors": [],
+      "citationYear": null,
+      "citationDOI": null,
+      "citationPDF": null,
+      "internalLinks": [
+        "https://scienceofscience.org/publications/",
+        "https://scienceofscience.org/publications/?topic=integrity",
+        "https://scienceofscience.org/publications/?topic=discovery",
+        "https://scienceofscience.org/people/"
+      ],
+      "images": [],
+      "bytes": 11511
+    },
+    {
+      "url": "https://scienceofscience.org/undergrads/",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/undergrads/",
+      "title": "Research Opportunities for Undergraduate Students - Science of Science & Computational Discovery Lab",
+      "titleLength": 100,
+      "description": "Science of Science & Computational Discovery Lab",
+      "descriptionLength": 48,
+      "canonical": "https://scienceofscience.org/undergrads/",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "Research Opportunities for Undergraduate Students"
+      ],
+      "wordCount": 157,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": null,
+      "citationAuthors": [],
+      "citationYear": null,
+      "citationDOI": null,
+      "citationPDF": null,
+      "internalLinks": [
+        "https://scienceofscience.org/openings/",
+        "https://scienceofscience.org/"
+      ],
+      "images": [],
+      "bytes": 8387
+    },
+    {
+      "url": "https://scienceofscience.org/workshops/",
+      "status": 200,
+      "finalURL": "https://scienceofscience.org/workshops/",
+      "title": "Science of Science & Computational Discovery Lab",
+      "titleLength": 48,
+      "description": "Science of Science & Computational Discovery Lab",
+      "descriptionLength": 48,
+      "canonical": "https://scienceofscience.org/workshops/",
+      "robots": null,
+      "ogImage": null,
+      "twitterCard": "summary",
+      "h1": [
+        "Machine Learning and Artificial Intelligence for Science of Science and Computational Discovery: Principles, Applications, and Future Opportunities"
+      ],
+      "wordCount": 936,
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://scienceofscience.org/"
+        }
+      ],
+      "citationTitle": null,
+      "citationAuthors": [],
+      "citationYear": null,
+      "citationDOI": null,
+      "citationPDF": null,
+      "internalLinks": [],
+      "images": [],
+      "bytes": 14126
+    }
+  ]
+}

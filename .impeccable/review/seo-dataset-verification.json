@@ -1,0 +1,30 @@
+{
+  "researchers": 774733,
+  "relationships": 743176,
+  "matched": 743176,
+  "duplicate_ids": 0,
+  "top_research_areas": [
+    [
+      "neuro",
+      142926
+    ],
+    [
+      "chemistry",
+      113793
+    ],
+    [
+      "educ",
+      48111
+    ],
+    [
+      "physics",
+      46361
+    ],
+    [
+      "etree",
+      41828
+    ]
+  ],
+  "pandas_example_syntax": "passed",
+  "method": "Complete CSV data verified using the same many-to-one join in Python standard-library csv; pandas is not installed in this environment."
+}

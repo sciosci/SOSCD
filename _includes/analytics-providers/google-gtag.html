@@ -1,9 +1,31 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
+{% assign measurement_id = site.analytics.google.tracking_id | default: '' %}
+{% assign id_prefix = measurement_id | slice: 0, 2 %}
+{% if id_prefix == 'G-' and measurement_id.size > 4 %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ measurement_id | escape }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  gtag('config', '{{ site.analytics.google.tracking_id }}', { 'anonymize_ip': {{ site.analytics.google.anonymize_ip | default: false }}});
+  const analyticsPage = new URL(location.href);
+  analyticsPage.searchParams.delete('q');
+  analyticsPage.hash = '';
+  let analyticsReferrer = document.referrer;
+  if (analyticsReferrer) {
+    const referrer = new URL(analyticsReferrer);
+    if (referrer.origin === location.origin) {
+      referrer.searchParams.delete('q');
+      referrer.hash = '';
+      analyticsReferrer = referrer.href;
+    }
+  }
+  gtag('set', 'page_location', analyticsPage.href);
+  gtag('set', 'page_referrer', analyticsReferrer);
+  gtag('config', {{ measurement_id | jsonify }}, {
+    page_location: analyticsPage.href,
+    page_referrer: analyticsReferrer,
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false
+  });
+  window.soscdAnalyticsReady = true;
 </script>
+{% endif %}

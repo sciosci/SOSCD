@@ -3,6 +3,8 @@ layout: single
 permalink: /workshops/
 author_profile: false
 title: 
+seo_title: "ML and AI for Science of Science — iConference 2021 Workshop"
+description: "Materials and schedule from the 2021 iConference workshop on machine learning and artificial intelligence for science of science and computational discovery."
 toc: false
 masthead: true
 classes: wide page__align_center

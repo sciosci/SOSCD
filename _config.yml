@@ -17,9 +17,10 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 title                    : "Science of Science & Computational Discovery Lab"
+short_title              : "SOS+CD Lab"
 title_separator          : "-"
 name                     : "SOS+CD"
-description              : "Science of Science & Computational Discovery Lab"
+description              : "The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuña."
 url                      : https://scienceofscience.org
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -86,7 +87,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/images/lab/social-card.png
+logo                     : /assets/images/lab/logo.svg
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -96,10 +98,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "custom"
+  provider               : google-gtag
   google:
-    tracking_id          : UA-53191307-1
-    anonymize_ip         : false # true, false (default)
+    tracking_id          : "" # Add the confirmed GA4 Measurement ID (G-...). Former UA-53191307-1 is retired.
 
 
 # Site Author
@@ -107,7 +108,7 @@ author:
   name             : "SOS+CD"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Department of Computer Science, University of Colorado at Boulder"
-  location         : "Bounder, Colorado"
+  location         : "Boulder, Colorado"
   email            : "daniel.acuna@colorado.edu"
   # links:
   #   - label: "Email"
@@ -279,6 +280,11 @@ scholar:
 
 # Defaults
 defaults:
+  # An old logo PDF is an asset, not a search landing page.
+  - scope:
+      path: "images/sos_logo.pdf"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""

@@ -17,9 +17,9 @@
   </div>
   </div>
   <div class="lens-controls" data-lens-controls hidden role="group" aria-label="Highlight a research theme">
-    <button type="button" data-lens="all" aria-pressed="true">All work</button>{% for topic in site.data.publication_facets.topics %}<button type="button" data-lens="{{ topic[0] }}" aria-pressed="false" aria-label="{{ topic[1].label }}">{{ topic[1].short_label }}</button>{% endfor %}
+    <button type="button" data-lens="all" aria-pressed="true">All work</button>{% for topic in site.data.publication_facets.topics %}<button type="button" data-lens="{{ topic[0] }}" aria-pressed="false" aria-label="{{ topic[1].short_label }}: {{ topic[1].label }}">{{ topic[1].short_label }}</button>{% endfor %}
   </div>
   <div class="lens-caption" aria-live="polite"><p data-lens-copy>Hover or focus a point to explore. Select it to open the paper.</p><a href="{{ '/publications/' | relative_url }}" data-lens-link aria-label="Explore all publications">{% include lab-arrow.html %}</a></div>
-  <script type="application/json" id="lens-paper-data">{{ site.data.publication_index | jsonify }}</script>
+  <script type="application/json" id="lens-paper-data">{{ site.data.publication_lens | jsonify }}</script>
   <script type="application/json" id="lens-topic-data">{{ site.data.publication_facets.topics | jsonify }}</script>
 </div>

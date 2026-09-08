@@ -1,0 +1,28 @@
+---
+layout: null
+permalink: /publications/feed.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+  <id>{{ '/publications/feed.xml' | absolute_url | xml_escape }}</id>
+  <title>SOS+CD publications and preprints</title>
+  <subtitle>Research records from 2008 onward. Entry updates describe catalog updates; publication dates are stated in each record.</subtitle>
+  <link href="{{ '/publications/feed.xml' | absolute_url | xml_escape }}" rel="self" type="application/atom+xml"/>
+  <link href="{{ '/publications/' | absolute_url | xml_escape }}"/>
+  <updated>{{ site.data.research_updates.publications | date_to_xmlschema }}</updated>
+  <author><name>SOS+CD Lab</name></author>
+  {% for key in site.data.publication_order %}{% assign paper = site.data.publication_index[key] %}{% assign fallback_path = '/publications/#' | append: paper.key %}
+  <entry>
+    <id>{{ '/publications/#' | append: paper.key | absolute_url | xml_escape }}</id>
+    <title>{{ paper.title | xml_escape }}</title>
+    <link href="{{ paper.page_path | default: fallback_path | absolute_url | xml_escape }}"/>
+    {% if paper.url != '' %}<link href="{{ paper.url | absolute_url | xml_escape }}" rel="related"/>{% endif %}
+    <updated>{{ site.data.research_updates.publications | date_to_xmlschema }}</updated>
+    {% if paper.publication_date.size == 10 %}<published>{{ paper.publication_date | date_to_xmlschema }}</published>{% endif %}
+    {% for author in paper.author_list %}<author><name>{{ author.name | xml_escape }}</name></author>{% endfor %}
+    <summary>{{ paper.year_label | append: '. ' | append: paper.venue | append: '. ' | xml_escape }}{{ paper.summary | default: paper.citation | xml_escape }}</summary>
+    {% for topic in paper.topics %}<category term="{{ topic | xml_escape }}" label="{{ site.data.publication_facets.topics[topic].label | xml_escape }}"/>{% endfor %}
+  </entry>
+  {% endfor %}
+</feed>

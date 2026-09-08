@@ -1,0 +1,135 @@
+{% comment %}Describe public, visible facts. Search eligibility does not guarantee a rich result or AI citation.{% endcomment %}
+{% assign organization_id = '/#organization' | absolute_url %}
+{% assign website_id = '/#website' | absolute_url %}
+{% assign person_id = '/people/#principal-investigator' | absolute_url %}
+{% assign webpage_id = canonical_url | append: '#webpage' %}
+{% assign paper_authors = page.author_affiliation_list | default: page.author_affilliation_list %}
+{% capture structured_data %}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": {{ organization_id | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "alternateName": "SOS+CD Lab",
+      "url": {{ '/' | absolute_url | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "logo": {{ site.logo | absolute_url | jsonify }},
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Department of Computer Science",
+        "url": "https://www.colorado.edu/cs/",
+        "parentOrganization": { "@id": "https://www.colorado.edu/#organization" }
+      },
+      "sameAs": ["https://github.com/sciosci"]
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "@id": "https://www.colorado.edu/#organization",
+      "name": "University of Colorado Boulder",
+      "url": "https://www.colorado.edu/"
+    },
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": "Daniel Acuña",
+      "alternateName": "Daniel E. Acuna",
+      "jobTitle": "Associate Professor of Computer Science",
+      "url": "https://acuna.io/",
+      "worksFor": { "@id": "https://www.colorado.edu/#organization" },
+      "affiliation": { "@id": {{ organization_id | jsonify }} },
+      "sameAs": [
+        "https://www.colorado.edu/cs/daniel-acuna",
+        "https://orcid.org/0000-0002-7765-1595",
+        "https://scholar.google.com/citations?user=GAi23ssAAAAJ"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ website_id | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "alternateName": "SOS+CD Lab",
+      "inLanguage": "en-US",
+      "publisher": { "@id": {{ organization_id | jsonify }} }
+    },
+    {
+      "@type": "WebPage",
+      "@id": {{ webpage_id | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "name": {{ page.seo_title | default: page.title | default: site.title | jsonify }},
+      "description": {{ seo_description_text | jsonify }},
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": {{ website_id | jsonify }} },
+      "publisher": { "@id": {{ organization_id | jsonify }} }
+      {% if page.citation_title %},
+      "mainEntity": { "@id": {{ canonical_url | append: '#paper' | jsonify }} }
+      {% elsif page.dataset_id %},
+      "mainEntity": { "@id": {{ canonical_url | append: '#dataset' | jsonify }} }
+      {% endif %}
+    }
+    {% if page.citation_title %},
+    {
+      "@type": "ScholarlyArticle",
+      "@id": {{ canonical_url | append: '#paper' | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "headline": {{ page.citation_title | jsonify }},
+      "name": {{ page.citation_title | jsonify }},
+      "description": {{ seo_description_text | jsonify }},
+      {% if page.citation_abstract %}"abstract": {{ page.citation_abstract | jsonify }},{% endif %}
+      "datePublished": {{ page.citation_publication_date | default: page.citation_year | replace: '/', '-' | jsonify }},
+      "mainEntityOfPage": { "@id": {{ webpage_id | jsonify }} },
+      "author": [
+        {% for author in paper_authors %}
+        {
+          "@type": "Person",
+          "name": {{ author.citation_author | jsonify }}
+          {% if author.citation_author_orcid %},
+          "sameAs": {{ author.citation_author_orcid | prepend: 'https://orcid.org/' | jsonify }}
+          {% endif %}
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+      {% if page.citation_doi %},
+      "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": {{ page.citation_doi | jsonify }} },
+      "sameAs": {{ page.citation_doi | prepend: 'https://doi.org/' | jsonify }}
+      {% endif %}
+      {% if page.citation_journal_title %},
+      "isPartOf": { "@type": "Periodical", "name": {{ page.citation_journal_title | jsonify }} }
+      {% endif %}
+    }
+    {% endif %}
+    {% if page.dataset_id %},
+    {% assign dataset = site.data.datasets[page.dataset_id] %}
+    {
+      "@type": "Dataset",
+      "@id": {{ canonical_url | append: '#dataset' | jsonify }},
+      "name": {{ dataset.name | jsonify }},
+      "description": {{ dataset.description | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "sameAs": {{ dataset.url | jsonify }},
+      "identifier": {{ dataset.doi | prepend: 'https://doi.org/' | jsonify }},
+      "datePublished": {{ dataset.date_published | jsonify }},
+      "license": {{ dataset.license | jsonify }},
+      "creator": [{% for name in dataset.creators %}{"@type": "Person", "name": {{ name | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}],
+      "citation": "https://doi.org/10.1038/s41597-022-01578-x",
+      "includedInDataCatalog": {"@type": "DataCatalog", "name": "Zenodo", "url": "https://zenodo.org/"},
+      "distribution": [{% for file in dataset.files %}{"@type": "DataDownload", "name": {{ file.name | jsonify }}, "contentUrl": {{ file.url | jsonify }}, "contentSize": {{ file.bytes | append: ' bytes' | jsonify }}, "encodingFormat": {{ file.encoding_format | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]
+    }
+    {% endif %}
+    {% if page.topic_id or page.publication_key or page.dataset_id %},
+    {
+      "@type": "BreadcrumbList",
+      "@id": {{ canonical_url | append: '#breadcrumbs' | jsonify }},
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": {% if page.dataset_id %}"Resources"{% else %}"Research"{% endif %}, "item": {% if page.dataset_id %}{{ '/resources/' | absolute_url | jsonify }}{% else %}{{ '/research/' | absolute_url | jsonify }}{% endif %}},
+        {% if page.publication_key %}{"@type": "ListItem", "position": 2, "name": "Publications", "item": {{ '/publications/' | absolute_url | jsonify }}},{% endif %}
+        {"@type": "ListItem", "position": {% if page.publication_key %}3{% else %}2{% endif %}, "name": {{ page.title | jsonify }}, "item": {{ canonical_url | jsonify }}}
+      ]
+    }
+    {% endif %}
+  ]
+}
+{% endcapture %}
+<script type="application/ld+json">{{ structured_data | replace: '<', '\u003c' }}</script>

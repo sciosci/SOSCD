@@ -1,0 +1,33 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# Science of Science & Computational Discovery Lab
+
+> SOS+CD is a research lab led by Daniel Acuña in the Department of Computer Science at the University of Colorado Boulder. Its work examines research integrity, peer review and discovery, the science of science, and computational methods.
+
+## Research
+- [Research overview]({{ '/research/' | absolute_url }}): Main questions and research areas.
+- [Research integrity]({{ '/research/research-integrity/' | absolute_url }}): Scientific images, responsible AI, and research resources.
+- [Peer review and discovery]({{ '/research/peer-review-discovery/' | absolute_url }}): Review evaluation and scientific retrieval.
+- [Science of science]({{ '/research/science-of-science/' | absolute_url }}): Mentorship, teams, careers, and funding.
+- [Cognition and methods]({{ '/research/cognition-methods/' | absolute_url }}): Earlier research and methodological foundations.
+
+## Publications and resources
+- [Publication archive]({{ '/publications/' | absolute_url }}): {{ site.data.publication_stats.total }} works from 2008 onward, with overlapping topics and tags.
+- [Publication metadata]({{ '/publications.json' | absolute_url }}): JSON records with ordered authors, dates, publication status, identifiers, and resource links.
+- [BibTeX catalog]({{ '/publications.bib' | absolute_url }}): Bibliographic records for reference managers.
+- [Resource directory]({{ '/resources/' | absolute_url }}): Code, data, citations, and feeds.
+- [Mentorship dataset guide]({{ '/mentorship/' | absolute_url }}): A 2021 dataset release and its related 2022 paper, documented separately.
+- [Publication feed]({{ '/publications/feed.xml' | absolute_url }}).
+- [Lab news feed]({{ '/feed.xml' | absolute_url }}).
+
+Publication overviews distinguish preprints from published versions and explain the scope of reported findings. Complete citation records and linked original sources supply the evidence behind each overview.
+
+## Lab
+- [People]({{ '/people/' | absolute_url }}).
+- [About and contact]({{ '/about/' | absolute_url }}).
+- [Join Us: Ph.D. applications and other research opportunities]({{ '/openings/' | absolute_url }}).
+- [Funding]({{ '/funding/' | absolute_url }}).
+- [Support the lab]({{ '/support/' | absolute_url }}): Current giving guidance; no confirmed direct lab-fund donation link is listed.

@@ -2,13 +2,18 @@ require 'bibtex'
 require 'yaml'
 require 'cgi'
 require_relative 'lib/publication_catalog'
+require_relative 'lib/research_publishing'
 
 # The bibliography remains the only source of publication facts.
 entries = BibTeX.open('./_bibliography/references.bib').entries.values
 entry_map = entries.to_h { |entry| [entry.key, entry] }
-catalog = PublicationCatalog.new(entries, YAML.safe_load(File.read('_data/publication_taxonomy.yml')))
+details = YAML.safe_load(File.read('_data/publication_details.yml'))
+pdf_sources = YAML.safe_load(File.read('_data/paper_pdf_sources.yml'))
+catalog = PublicationCatalog.new(entries, YAML.safe_load(File.read('_data/publication_taxonomy.yml')), details, pdf_sources)
+ResearchPublishing.new(entries, catalog, details).write
 File.write('_data/publication_index.yml', catalog.index.to_yaml)
 File.write('_data/publication_facets.yml', catalog.facets.to_yaml)
+File.write('_data/publication_lens.yml', catalog.index.transform_values { |record| record.select { |key, _value| %w[title authors_short year_label venue topics].include?(key) } }.to_yaml)
 years = entries.map { |entry| entry[:year].to_s }.uniq.sort_by { |year| -year.to_i }
 html = years.map do |year|
   <<~HTML
@@ -38,7 +43,7 @@ featured = selection.filter_map do |key, topic|
   end
   {
     'key' => key, 'topic' => topic, 'title' => entry[:title].to_s.delete('{}'),
-    'url' => entry[:url].to_s.gsub('\\_', '_'), 'authors' => names.join(', '),
+    'url' => catalog.index.fetch(key)['page_path'] || entry[:url].to_s.gsub('\\_', '_'), 'authors' => catalog.index.fetch(key)['authors'],
     'venue' => (entry[:journal] || entry[:booktitle]).to_s,
     'status' => catalog.index.fetch(key).fetch('year_label')
   }
@@ -57,7 +62,7 @@ nodes = sorted.each_with_index.map do |entry, i|
   title = entry[:title].to_s.delete('{}')
   topics = catalog.index.fetch(entry.key).fetch('topics').join(' ')
   label = "#{title} (#{catalog.index.fetch(entry.key).fetch('year_label')})"
-  href = CGI.escapeHTML(entry[:url].to_s.gsub('\\_', '_'))
+  href = CGI.escapeHTML(catalog.index.fetch(entry.key)['page_path'] || entry[:url].to_s.gsub('\\_', '_'))
   href = "{{ '/publications/##{entry.key}' | relative_url }}" if href.empty?
   <<~SVG
     <a href="#{href}" class="research-node" data-paper="#{CGI.escapeHTML(entry.key)}" data-topics="#{topics}" aria-label="#{CGI.escapeHTML(label)}"><circle class="node-target" cx="#{x.round(2)}" cy="#{y.round(2)}" r="11" fill="transparent"/><circle class="node-dot" cx="#{x.round(2)}" cy="#{y.round(2)}" r="#{catalog.index.fetch(entry.key).fetch('format') == 'preprint' ? 5.5 : 4}"/></a>

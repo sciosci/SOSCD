@@ -6,8 +6,15 @@
 
 {% assign title_separator = site.title_separator | default: '-' | replace: '|', '&#124;' %}
 
-{%- if page.title -%}
-  {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: site.title -%}
+{%- assign seo_brand = site.short_title | default: site.title -%}
+{%- if page.seo_title -%}
+  {%- assign seo_title = page.seo_title -%}
+{%- elsif page.citation_title -%}
+  {%- assign seo_title = page.citation_title -%}
+{%- elsif page.title -%}
+  {%- assign seo_title = page.title | append: " " | append: title_separator | append: " " | append: seo_brand -%}
+{%- else -%}
+  {%- assign seo_title = site.title -%}
 {%- endif -%}
 
 {%- if seo_title -%}
@@ -22,7 +29,8 @@
 
 {%- assign seo_description = page.description | default: page.excerpt | default: site.description -%}
 {%- if seo_description -%}
-  {%- assign seo_description = seo_description | markdownify | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | escape_once | strip -%}
+  {%- assign seo_description_text = seo_description | markdownify | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip -%}
+  {%- assign seo_description = seo_description_text | escape_once -%}
 {%- endif -%}
 
 {%- assign author = page.author | default: page.authors[0] | default: site.author -%}
@@ -49,6 +57,7 @@
 
 <title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 <meta name="description" content="{{ seo_description }}">
+{% if page.robots %}<meta name="robots" content="{{ page.robots | escape }}">{% endif %}
 
 {% if author.name %}
   <meta name="author" content="{{ author.name | default: author }}">
@@ -59,8 +68,8 @@
 
 <meta property="og:type" content="{{ og_type }}">
 <meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}">
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+<meta property="og:site_name" content="{{ site.title | escape_once }}">
+<meta property="og:title" content="{{ page.seo_title | default: page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 <meta property="og:url" content="{{ canonical_url }}">
 
 {% if seo_description %}
@@ -71,11 +80,12 @@
   <meta property="og:image" content="{{ page_large_image }}">
 {% elsif page_teaser_image %}
   <meta property="og:image" content="{{ page_teaser_image }}">
+  {% if page_teaser_image == site_og_image %}<meta property="og:image:alt" content="Science of Science and Computational Discovery Lab at CU Boulder, with the SOS+CD diamond logo"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">{% endif %}
 {% endif %}
 
 {% if site.twitter.username %}
   <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
-  <meta name="twitter:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+  <meta name="twitter:title" content="{{ page.seo_title | default: page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
   <meta name="twitter:description" content="{{ seo_description }}">
   <meta name="twitter:url" content="{{ canonical_url }}">
 
@@ -83,7 +93,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{ page_large_image }}">
   {% else %}
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="{% if page_teaser_image == site_og_image %}summary_large_image{% else %}summary{% endif %}">
     {% if page_teaser_image %}
       <meta name="twitter:image" content="{{ page_teaser_image }}">
     {% endif %}
@@ -121,21 +131,7 @@
   <link rel="next" href="{{ paginator.next_page_path | absolute_url }}">
 {% endif %}
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    {% if site.social.type == "Organization" %}
-      "@type": "Organization",
-      "url": {{ '/' | absolute_url | jsonify }}{% if site.og_image %},
-      "logo": {{ site_og_image | jsonify }}{% endif %}
-    {% else %}
-      "@type": "Person",
-      "name": {{ site.social.name | default: site.name | jsonify }},
-      "url": {{ '/' | absolute_url |jsonify }}{% if site.social.links %},
-      "sameAs": {{ site.social.links | jsonify }}{% endif %}
-    {% endif %}
-  }
-</script>
+{% include structured-data.html %}
 
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />

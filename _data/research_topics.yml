@@ -1,0 +1,116 @@
+{
+  "integrity": {
+    "title": "Research integrity",
+    "path": "/research/research-integrity/",
+    "description": "Computational research on scientific image integrity, responsible AI, reporting quality, and the availability of research resources.",
+    "question": "How can we make the scientific record easier to trust?",
+    "intro": "Research integrity depends on evidence that people can inspect. We develop computational methods to identify patterns that deserve attention, measure uncertainty, and help researchers evaluate scientific work.",
+    "sections": [
+      {
+        "title": "Scientific images and figures",
+        "text": "Our work examines image reuse, image manipulation, and graphical inconsistencies. A detection method helps locate and characterize a problem; interpretation still depends on the original material and the scientific context."
+      },
+      {
+        "title": "Responsible use of AI",
+        "text": "Language models can assist scientific work, but their behavior needs evaluation. We study how models respond to research-integrity scenarios, including requests that disguise misconduct as ordinary scientific tasks."
+      },
+      {
+        "title": "A durable, inspectable record",
+        "text": "Links to code and data are part of the evidence behind a paper. Our resource-longevity work examines why these links persist or disappear, while journal-screening research investigates the signals and limits of automated assessment."
+      }
+    ],
+    "selected": [
+      "meguimtsop2026sciintbench",
+      "zhuang2025estimating",
+      "zhuangacuna2021",
+      "acuna2022predicting",
+      "acuna2020nullmodel",
+      "xiang2020tampering"
+    ],
+    "open_question": "How can screening systems communicate uncertainty clearly enough to help investigators without turning a model's score into a verdict?"
+  },
+  "discovery": {
+    "title": "Peer review & discovery",
+    "path": "/research/peer-review-discovery/",
+    "description": "Research on AI-assisted peer review, reviewer selection, scientific information retrieval, and computational discovery at the SOS+CD Lab.",
+    "question": "How can we find and evaluate scientific work better?",
+    "intro": "Scientific knowledge is useful when people can find relevant work and evaluate it carefully. We study both the social processes of peer review and computational methods for navigating publications, figures, and research context.",
+    "sections": [
+      {
+        "title": "Evaluating AI-generated reviews",
+        "text": "Our review-generation work studies reasoning, reinforcement learning, and external context. The central questions concern the substance of a review and how well its comments are grounded in the manuscript. Evaluation scores should be interpreted within the tasks and models that produced them."
+      },
+      {
+        "title": "Understanding reviewer selection",
+        "text": "Peer review is also a social process. Our analysis of author-suggested reviewers examines how reviewer selection is associated with evaluations and acceptance outcomes, with attention to the limits of observational evidence."
+      },
+      {
+        "title": "Retrieval with scientific context",
+        "text": "Scientific documents contain more than prose. Models such as MISTI combine figures, captions, and publication metadata to improve retrieval. Related work in the archive addresses recommendations, datasets, and the interpretation of scholarly text."
+      }
+    ],
+    "selected": [
+      "taechoyotin2026remctx",
+      "taechoyotin2025remor",
+      "taechoyotin2024misti",
+      "acuna2022",
+      "zengacuna2020"
+    ],
+    "open_question": "How should review systems be evaluated when a fluent review, a high reward score, and a useful scientific criticism are different outcomes?"
+  },
+  "ecosystem": {
+    "title": "Science of science",
+    "path": "/research/science-of-science/",
+    "description": "Research on mentorship, collaboration, scientific careers, incentives, and the organization of science at the University of Colorado Boulder.",
+    "question": "What shapes the people and institutions that produce science?",
+    "intro": "Science is made by people working within teams, institutions, and systems of recognition and support. We use publication records, mentorship networks, and computational methods to study how those systems relate to scientific activity.",
+    "sections": [
+      {
+        "title": "Mentorship and scientific careers",
+        "text": "Our work studies mentorship as a relationship that extends beyond coauthorship. The open mentorship dataset connects academic-family records to publications and representations of research, with documented coverage and estimation limits."
+      },
+      {
+        "title": "Teams, recognition, and opportunity",
+        "text": "The publication archive includes studies of collaboration, shared leadership, recognition, and disparities in scientific careers. These questions require care about what the available records capture and which people or contributions they leave out."
+      },
+      {
+        "title": "Funding under uncertainty",
+        "text": "Research programs face uncertain outcomes. Our decision-theoretic work makes costs and benefits explicit when considering research evidence, complementing work on funding, incentives, and the direction of scientific activity."
+      }
+    ],
+    "selected": [
+      "keacuna2022",
+      "lienard2018intellectual",
+      "10.1162/qss_a_00332",
+      "zhuang2025estimating"
+    ],
+    "open_question": "How can we build useful measures of scientific activity without treating incomplete records or predicted demographic attributes as a complete account of a person's contribution?"
+  },
+  "foundations": {
+    "title": "Cognition & methods",
+    "path": "/research/cognition-methods/",
+    "description": "Research foundations in decision-making, learning, perception, and computational methods across the SOS+CD publication archive.",
+    "question": "What can learning and decision-making teach us about scientific work?",
+    "intro": "The archive includes earlier work by lab members on cognition, learning, and computational methods. These studies provide context for questions about how people and models learn, evaluate evidence, and act under uncertainty.",
+    "sections": [
+      {
+        "title": "Learning the problem itself",
+        "text": "Decision-making requires more than choosing the best action under a known model. Our structure-learning work asks how people infer the environment that produces rewards and how this changes the interpretation of their choices."
+      },
+      {
+        "title": "Models as explicit assumptions",
+        "text": "A model makes assumptions about information, uncertainty, and objectives. Studies of Bayesian decision theory and reinforcement learning make those assumptions inspectable and explore the behavior they imply."
+      },
+      {
+        "title": "Methods across the archive",
+        "text": "Related publications cover perception, motor learning, statistical models, and scientific text and image representations. This is a historical research thread; the archive preserves the dates and contexts of those contributions."
+      }
+    ],
+    "selected": [
+      "acuna2010structure",
+      "10.1162/qss_a_00332",
+      "taechoyotin2024misti"
+    ],
+    "open_question": "Which assumptions about a learner's knowledge change our judgment of whether a choice or model behavior is appropriate?"
+  }
+}

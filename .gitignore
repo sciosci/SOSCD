@@ -43,3 +43,4 @@ npm-debug.log*
 .playwright-mcp/
 .impeccable/review/*.png
 .impeccable/mocks/
+.impeccable/research/seo-sources/

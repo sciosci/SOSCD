@@ -1,0 +1,955 @@
+[
+  {
+    "page": "https://scienceofscience.org/",
+    "fetchTime": "2026-09-07T21:58:33.400Z",
+    "lighthouseVersion": "13.4.1",
+    "settings": {
+      "output": [
+        "json"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    },
+    "scores": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 930.72,
+        "unit": "millisecond",
+        "displayValue": "0.9 s"
+      },
+      "largest-contentful-paint": {
+        "value": 1371.72,
+        "unit": "millisecond",
+        "displayValue": "1.4 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "unit": "millisecond",
+        "displayValue": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "unit": "unitless",
+        "displayValue": "0"
+      },
+      "speed-index": {
+        "value": 1558.7899459787004,
+        "unit": "millisecond",
+        "displayValue": "1.6 s"
+      }
+    },
+    "findings": {
+      "label-content-name-mismatch": {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.12/label-content-name-mismatch).",
+        "score": 0,
+        "scoreDisplayMode": "binary",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,2,HEADER,0,DIV,0,A",
+                "selector": "body#top > header.site-header > div.header-inner > a.brand",
+                "boundingRect": {
+                  "top": 21,
+                  "bottom": 56,
+                  "left": 20,
+                  "right": 184,
+                  "width": 164,
+                  "height": 36
+                },
+                "snippet": "<a class=\"brand\" href=\"/\" aria-label=\"SOS+CD Lab home\">",
+                "nodeLabel": "SOS+CDLab",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-1-BUTTON",
+                "path": "1,HTML,1,BODY,3,MAIN,0,SECTION,1,DIV,2,DIV,3,BUTTON",
+                "selector": "section.home-hero > div.research-lens > div.lens-controls > button",
+                "boundingRect": {
+                  "top": 853,
+                  "bottom": 893,
+                  "left": 242,
+                  "right": 303,
+                  "width": 61,
+                  "height": 40
+                },
+                "snippet": "<button type=\"button\" data-lens=\"ecosystem\" aria-pressed=\"false\" aria-label=\"Science of science\">",
+                "nodeLabel": "Ecosystem",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5",
+              "experimental"
+            ]
+          }
+        }
+      },
+      "cache-insight": {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache).",
+        "score": 0,
+        "scoreDisplayMode": "metricSavings",
+        "displayValue": "Est savings of 168 KiB",
+        "metricSavings": {
+          "FCP": 0,
+          "LCP": 450
+        },
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "https://scienceofscience.org/assets/images/lab/pawin.webp",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 50622,
+              "wastedBytes": 46403.5
+            },
+            {
+              "url": "https://scienceofscience.org/assets/images/lab/carolina.webp",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 42406,
+              "wastedBytes": 38872.166666666664
+            },
+            {
+              "url": "https://scienceofscience.org/assets/fonts/hanken-latin.woff2",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 34864,
+              "wastedBytes": 31958.666666666664
+            },
+            {
+              "url": "https://scienceofscience.org/assets/fonts/sora-latin.woff2",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 25445,
+              "wastedBytes": 23324.583333333332
+            },
+            {
+              "url": "https://scienceofscience.org/assets/images/lab/daniel.webp",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 19850,
+              "wastedBytes": 18195.833333333332
+            },
+            {
+              "url": "https://scienceofscience.org/assets/css/lab.css",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 10136,
+              "wastedBytes": 9291.333333333332
+            },
+            {
+              "url": "https://scienceofscience.org/assets/js/lab.js",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 3681,
+              "wastedBytes": 3374.25
+            },
+            {
+              "url": "https://scienceofscience.org/assets/images/lab/logo.svg",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 538,
+              "wastedBytes": 493.16666666666663
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 171913.5
+          }
+        },
+        "guidanceLevel": 3
+      },
+      "image-delivery-insight": {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)",
+        "score": 0.5,
+        "scoreDisplayMode": "metricSavings",
+        "displayValue": "Est savings of 101 KiB",
+        "metricSavings": {
+          "FCP": 0,
+          "LCP": 0
+        },
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,4,SECTION,1,DIV,2,A,0,IMG",
+                "selector": "section.people-preview > div.portrait-strip > a > img",
+                "boundingRect": {
+                  "top": 3758,
+                  "bottom": 3913,
+                  "left": 275,
+                  "right": 392,
+                  "width": 117,
+                  "height": 156
+                },
+                "snippet": "<img src=\"/assets/images/lab/pawin.webp\" alt=\"Pawin Taechoyotin\" width=\"320\" height=\"400\" loading=\"lazy\">",
+                "nodeLabel": "Pawin Taechoyotin"
+              },
+              "url": "https://scienceofscience.org/assets/images/lab/pawin.webp",
+              "totalBytes": 50410,
+              "wastedBytes": 46466,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (483x640) for its displayed dimensions (156x156). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 46466
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-2-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,4,SECTION,1,DIV,1,A,0,IMG",
+                "selector": "section.people-preview > div.portrait-strip > a > img",
+                "boundingRect": {
+                  "top": 3758,
+                  "bottom": 3913,
+                  "left": 148,
+                  "right": 264,
+                  "width": 117,
+                  "height": 156
+                },
+                "snippet": "<img src=\"/assets/images/lab/carolina.webp\" alt=\"Carolina Chávez-Ruelas\" width=\"320\" height=\"400\" loading=\"lazy\">",
+                "nodeLabel": "Carolina Chávez-Ruelas"
+              },
+              "url": "https://scienceofscience.org/assets/images/lab/carolina.webp",
+              "totalBytes": 42172,
+              "wastedBytes": 38821,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (476x640) for its displayed dimensions (156x156). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 38821
+                  }
+                ]
+              }
+            },
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-3-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,4,SECTION,1,DIV,0,A,0,IMG",
+                "selector": "section.people-preview > div.portrait-strip > a > img",
+                "boundingRect": {
+                  "top": 3758,
+                  "bottom": 3913,
+                  "left": 20,
+                  "right": 137,
+                  "width": 117,
+                  "height": 156
+                },
+                "snippet": "<img src=\"/assets/images/lab/daniel.webp\" alt=\"Daniel Acuña\" width=\"320\" height=\"400\" loading=\"lazy\">",
+                "nodeLabel": "Daniel Acuña"
+              },
+              "url": "https://scienceofscience.org/assets/images/lab/daniel.webp",
+              "totalBytes": 19584,
+              "wastedBytes": 18052,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "This image file is larger than it needs to be (483x640) for its displayed dimensions (156x156). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 18052
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 103339
+          }
+        },
+        "guidanceLevel": 3
+      },
+      "network-dependency-tree-insight": {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+        "score": 0,
+        "scoreDisplayMode": "numeric",
+        "metricSavings": {
+          "LCP": 0
+        },
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "E52ED1F9B159F86220F9B13C4D683BE3": {
+                    "url": "https://scienceofscience.org/",
+                    "navStartToEndTime": 122,
+                    "transferSize": 19495,
+                    "isLongest": true,
+                    "children": {
+                      "13365.4": {
+                        "url": "https://scienceofscience.org/assets/css/lab.css",
+                        "navStartToEndTime": 171,
+                        "transferSize": 10136,
+                        "isLongest": true,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 171
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "no origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        },
+        "guidanceLevel": 1
+      },
+      "render-blocking-insight": {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "description": "Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking) can move these network requests out of the critical path.",
+        "score": 0.5,
+        "scoreDisplayMode": "metricSavings",
+        "metricSavings": {
+          "FCP": 0,
+          "LCP": 0
+        },
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://scienceofscience.org/assets/css/lab.css",
+              "totalBytes": 10136
+            }
+          ]
+        },
+        "guidanceLevel": 3
+      }
+    },
+    "warnings": []
+  },
+  {
+    "page": "https://scienceofscience.org/publications/",
+    "fetchTime": "2026-09-07T23:29:53.785Z",
+    "lighthouseVersion": "13.4.1",
+    "settings": {
+      "output": [
+        "json"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    },
+    "scores": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 992.279,
+        "unit": "millisecond",
+        "displayValue": "1.0 s"
+      },
+      "largest-contentful-paint": {
+        "value": 1479.279,
+        "unit": "millisecond",
+        "displayValue": "1.5 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "unit": "millisecond",
+        "displayValue": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "unit": "unitless",
+        "displayValue": "0"
+      },
+      "speed-index": {
+        "value": 2368.9816575939335,
+        "unit": "millisecond",
+        "displayValue": "2.4 s"
+      }
+    },
+    "findings": {
+      "speed-index": {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
+        "score": 0.98,
+        "scoreDisplayMode": "numeric",
+        "numericValue": 2368.9816575939335,
+        "numericUnit": "millisecond",
+        "displayValue": "2.4 s",
+        "scoringOptions": {
+          "p10": 3387,
+          "median": 5800
+        }
+      },
+      "label-content-name-mismatch": {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "description": "Visible text labels that do not match the accessible name can result in a confusing experience for screen reader users. [Learn more about accessible names](https://dequeuniversity.com/rules/axe/4.12/label-content-name-mismatch).",
+        "score": 0,
+        "scoreDisplayMode": "binary",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-A",
+                "path": "1,HTML,1,BODY,2,HEADER,0,DIV,0,A",
+                "selector": "body#top > header.site-header > div.header-inner > a.brand",
+                "boundingRect": {
+                  "top": 21,
+                  "bottom": 56,
+                  "left": 20,
+                  "right": 184,
+                  "width": 164,
+                  "height": 36
+                },
+                "snippet": "<a class=\"brand\" href=\"/\" aria-label=\"SOS+CD Lab home\">",
+                "nodeLabel": "SOS+CDLab",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5",
+              "experimental"
+            ]
+          }
+        }
+      },
+      "cache-insight": {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache).",
+        "score": 0,
+        "scoreDisplayMode": "metricSavings",
+        "displayValue": "Est savings of 122 KiB",
+        "metricSavings": {
+          "FCP": 0,
+          "LCP": 450
+        },
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "Request"
+            },
+            {
+              "key": "cacheLifetimeMs",
+              "valueType": "ms",
+              "label": "Cache TTL",
+              "displayUnit": "duration"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size",
+              "displayUnit": "kb",
+              "granularity": 1
+            }
+          ],
+          "items": [
+            {
+              "url": "https://scienceofscience.org/assets/images/publications/paraphrase_preprint.png",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 60565,
+              "wastedBytes": 55517.916666666664
+            },
+            {
+              "url": "https://scienceofscience.org/assets/fonts/hanken-latin.woff2",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 34865,
+              "wastedBytes": 31959.583333333332
+            },
+            {
+              "url": "https://scienceofscience.org/assets/fonts/sora-latin.woff2",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 25480,
+              "wastedBytes": 23356.666666666664
+            },
+            {
+              "url": "https://scienceofscience.org/assets/css/lab.css",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 10325,
+              "wastedBytes": 9464.583333333332
+            },
+            {
+              "url": "https://scienceofscience.org/assets/js/lab.js",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 3690,
+              "wastedBytes": 3382.5
+            },
+            {
+              "url": "https://scienceofscience.org/assets/js/publication-search.js",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 1013,
+              "wastedBytes": 928.5833333333333
+            },
+            {
+              "url": "https://scienceofscience.org/assets/images/lab/logo.svg",
+              "cacheLifetimeMs": 600000,
+              "totalBytes": 335,
+              "wastedBytes": 307.0833333333333
+            }
+          ],
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "skipSumming": [
+            "cacheLifetimeMs"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 124916.91666666666
+          }
+        },
+        "guidanceLevel": 3
+      },
+      "image-delivery-insight": {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)",
+        "score": 0.5,
+        "scoreDisplayMode": "metricSavings",
+        "displayValue": "Est savings of 58 KiB",
+        "metricSavings": {
+          "FCP": 0,
+          "LCP": 0
+        },
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "label": ""
+            },
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL",
+              "subItemsHeading": {
+                "key": "reason",
+                "valueType": "text"
+              }
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Resource Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings",
+              "subItemsHeading": {
+                "key": "wastedBytes",
+                "valueType": "bytes"
+              }
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-IMG",
+                "path": "1,HTML,1,BODY,3,MAIN,3,DIV,2,SECTION,1,OL,0,LI,0,ARTICLE,1,IMG",
+                "selector": "ol.bibliography > li > article#zhou2022paraphrase > img.bib-image",
+                "boundingRect": {
+                  "top": 3525,
+                  "bottom": 3605,
+                  "left": 317,
+                  "right": 392,
+                  "width": 75,
+                  "height": 80
+                },
+                "snippet": "<img class=\"bib-image\" src=\"/assets/images/publications/paraphrase_preprint.png\" alt=\"Figure from Paraphrase Identification with Deep Learning: A Review of Data…\" loading=\"lazy\" width=\"180\" height=\"120\">",
+                "nodeLabel": "Figure from Paraphrase Identification with Deep Learning: A Review of Datasets …"
+              },
+              "url": "https://scienceofscience.org/assets/images/publications/paraphrase_preprint.png",
+              "totalBytes": 60341,
+              "wastedBytes": 59399,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "reason": "Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.",
+                    "wastedBytes": 22485
+                  },
+                  {
+                    "reason": "This image file is larger than it needs to be (448x507) for its displayed dimensions (71x80). Use responsive images to reduce the image download size.",
+                    "wastedBytes": 58839
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "wastedBytes": 59399
+          }
+        },
+        "guidanceLevel": 3
+      },
+      "network-dependency-tree-insight": {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+        "score": 0,
+        "scoreDisplayMode": "numeric",
+        "metricSavings": {
+          "LCP": 0
+        },
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "01B29F95266984120DF03A3EE299ECC1": {
+                    "url": "https://scienceofscience.org/publications/",
+                    "navStartToEndTime": 287,
+                    "transferSize": 20862,
+                    "isLongest": true,
+                    "children": {
+                      "18419.4": {
+                        "url": "https://scienceofscience.org/assets/css/lab.css",
+                        "navStartToEndTime": 349,
+                        "transferSize": 10325,
+                        "isLongest": true,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 349
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "text",
+                "value": "no origins were preconnected"
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4.",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        },
+        "guidanceLevel": 1
+      },
+      "render-blocking-insight": {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "description": "Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking) can move these network requests out of the critical path.",
+        "score": 0.5,
+        "scoreDisplayMode": "metricSavings",
+        "metricSavings": {
+          "FCP": 0,
+          "LCP": 0
+        },
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://scienceofscience.org/assets/css/lab.css",
+              "totalBytes": 10325
+            }
+          ]
+        },
+        "guidanceLevel": 3
+      }
+    },
+    "warnings": []
+  }
+]

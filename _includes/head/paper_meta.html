@@ -1,173 +1,174 @@
 <!-- begin paper_meta.html -->
 
 {% if page.citation_title %}
-<meta name="citation_title" content="{{ page.citation_title }}">
+<meta name="citation_title" content="{{ page.citation_title | escape_once }}">
 {% endif %}
 
-{% if page.author_affilliation_list %}
-    {% for author_affi in page.author_affilliation_list %}
+{% assign citation_authors = page.author_affiliation_list | default: page.author_affilliation_list %}
+{% if citation_authors %}
+    {% for author_affi in citation_authors %}
         {% if author_affi.citation_author %}
-        <meta name="citation_author" content="{{ author_affi.citation_author }}">
+        <meta name="citation_author" content="{{ author_affi.citation_author | escape_once }}">
         {% endif %}
         {% if author_affi.citation_author_institution %}
             {% for affi in author_affi.citation_author_institution %}
-            <meta name="citation_author_institution" content="{{ affi }}">
+            <meta name="citation_author_institution" content="{{ affi | escape_once }}">
             {% endfor %}
         {% endif %}
         {% if author_affi.citation_author_orcid %}
-        <meta name="citation_author_orcid" content="{{ author_affi.citation_author_orcid }}">
+        <meta name="citation_author_orcid" content="{{ author_affi.citation_author_orcid | escape_once }}">
         {% endif %}
     {% endfor %}
 {% endif %}
 
 {% if page.citation_keywords %}
     {% for keyword in page.citation_keywords %}
-        <meta name="citation_keywords" content="{{ keyword }}">
+        <meta name="citation_keywords" content="{{ keyword | escape_once }}">
     {% endfor %}
 {% endif %}
 
 {% if page.citation_abstract %}
-<meta name="citation_abstract" content="{{ page.citation_abstract }}">
+<meta name="citation_abstract" content="{{ page.citation_abstract | escape_once }}">
 {% endif %}
 
 {% if page.citation_publisher %}
-<meta name="citation_publisher" content="{{ page.citation_publisher }}">
+<meta name="citation_publisher" content="{{ page.citation_publisher | escape_once }}">
 {% endif %}
 
 {% if page.citation_year %}
-<meta name="citation_year" content="{{ page.citation_year }}">
+<meta name="citation_year" content="{{ page.citation_year | escape_once }}">
 {% endif %}
 
 {% if page.citation_date %}
-<meta name="citation_date" content="{{ page.citation_date }}">
+<meta name="citation_date" content="{{ page.citation_date | escape_once }}">
 {% endif %}
 
 {% if page.citation_publication_date %}
-<meta name="citation_publication_date" content="{{ page.citation_publication_date }}">
+<meta name="citation_publication_date" content="{{ page.citation_publication_date | escape_once }}">
 {% endif %}
 
 {% if page.citation_cover_date %}
-<meta name="citation_cover_date" content="{{ page.citation_cover_date }}">
+<meta name="citation_cover_date" content="{{ page.citation_cover_date | escape_once }}">
 {% endif %}
 
 {% if page.citation_online_date %}
-<meta name="citation_online_date" content="{{ page.citation_online_date }}">
+<meta name="citation_online_date" content="{{ page.citation_online_date | escape_once }}">
 {% endif %}
 
 {% if page.citation_journal_title %}
-<meta name="citation_journal_title" content="{{ page.citation_journal_title }}">
+<meta name="citation_journal_title" content="{{ page.citation_journal_title | escape_once }}">
 {% endif %}
 
 {% if page.citation_journal_abbrev %}
-<meta name="citation_journal_abbrev" content="{{ page.citation_journal_abbrev }}">
+<meta name="citation_journal_abbrev" content="{{ page.citation_journal_abbrev | escape_once }}">
 {% endif %}
 
 {% if page.citation_journal_issn %}
-<meta name="citation_journal_issn" content="{{ page.citation_journal_issn }}">
+<meta name="citation_journal_issn" content="{{ page.citation_journal_issn | escape_once }}">
 {% endif %}
 
 {% if page.citation_series_title %}
-<meta name="citation_series_title" content="{{ page.citation_series_title }}">
+<meta name="citation_series_title" content="{{ page.citation_series_title | escape_once }}">
 {% endif %}
 
 {% if page.citation_book_title %}
-<meta name="citation_book_title" content="{{ page.citation_book_title }}">
+<meta name="citation_book_title" content="{{ page.citation_book_title | escape_once }}">
 {% endif %}
 
 {% if page.citation_volume %}
-<meta name="citation_volume" content="{{ page.citation_volume }}">
+<meta name="citation_volume" content="{{ page.citation_volume | escape_once }}">
 {% endif %}
 
 {% if page.citation_issue %}
-<meta name="citation_issue" content="{{ page.citation_issue }}">
+<meta name="citation_issue" content="{{ page.citation_issue | escape_once }}">
 {% endif %}
 
 {% if page.citation_conference_title %}
-<meta name="citation_conference_title" content="{{ page.citation_conference_title }}">
+<meta name="citation_conference_title" content="{{ page.citation_conference_title | escape_once }}">
 {% endif %}
 
 {% if page.citation_inbook_title %}
-<meta name="citation_inbook_title" content="{{ page.citation_inbook_title }}">
+<meta name="citation_inbook_title" content="{{ page.citation_inbook_title | escape_once }}">
 {% endif %}
 
 {% if page.citation_conference_sequence_num %}
-<meta name="citation_conference_sequence_num" content="{{ page.citation_conference_sequence_num }}">
+<meta name="citation_conference_sequence_num" content="{{ page.citation_conference_sequence_num | escape_once }}">
 {% endif %}
 
 {% if page.citation_conference_abbrev %}
-<meta name="citation_conference_abbrev" content="{{ page.citation_conference_abbrev }}">
+<meta name="citation_conference_abbrev" content="{{ page.citation_conference_abbrev | escape_once }}">
 {% endif %}
 
 {% if page.citation_dissertation_institution %}
-<meta name="citation_dissertation_institution" content="{{ page.citation_dissertation_institution }}">
+<meta name="citation_dissertation_institution" content="{{ page.citation_dissertation_institution | escape_once }}">
 {% endif %}
 
 {% if page.citation_technical_report_institution %}
-<meta name="citation_technical_report_institution" content="{{ page.citation_technical_report_institution }}">
+<meta name="citation_technical_report_institution" content="{{ page.citation_technical_report_institution | escape_once }}">
 {% endif %}
 
 {% if page.citation_technical_report_number %}
-<meta name="citation_technical_report_number" content="{{ page.citation_technical_report_number }}">
+<meta name="citation_technical_report_number" content="{{ page.citation_technical_report_number | escape_once }}">
 {% endif %}
 
 {% if page.citation_isbn %}
-<meta name="citation_isbn" content="{{ page.citation_isbn }}">
+<meta name="citation_isbn" content="{{ page.citation_isbn | escape_once }}">
 {% endif %}
 
 {% if page.citation_doi %}
-<meta name="citation_doi" content="{{ page.citation_doi }}">
+<meta name="citation_doi" content="{{ page.citation_doi | escape_once }}">
 {% endif %}
 
 {% if page.citation_arxiv_id %}
-<meta name="citation_arxiv_id" content="{{ page.citation_arxiv_id }}">
+<meta name="citation_arxiv_id" content="{{ page.citation_arxiv_id | escape_once }}">
 {% endif %}
 
 {% if page.citation_issn %}
-<meta name="citation_issn" content="{{ page.citation_issn }}">
+<meta name="citation_issn" content="{{ page.citation_issn | escape_once }}">
 {% endif %}
 
 {% if page.citation_eIssn %}
-<meta name="citation_eIssn" content="{{ page.citation_eIssn }}">
+<meta name="citation_eIssn" content="{{ page.citation_eIssn | escape_once }}">
 {% endif %}
 
 {% if page.citation_pmid %}
-<meta name="citation_pmid" content="{{ page.citation_pmid }}">
+<meta name="citation_pmid" content="{{ page.citation_pmid | escape_once }}">
 {% endif %}
 
 {% if page.citation_patent_number %}
-<meta name="citation_patent_number" content="{{ page.citation_patent_number }}">
+<meta name="citation_patent_number" content="{{ page.citation_patent_number | escape_once }}">
 {% endif %}
 
 {% if page.citation_patent_country %}
-<meta name="citation_patent_country" content="{{ page.citation_patent_country }}">
+<meta name="citation_patent_country" content="{{ page.citation_patent_country | escape_once }}">
 {% endif %}
 
 {% if page.citation_public_url %}
-<meta name="citation_public_url" content="{{ page.citation_public_url }}">
+<meta name="citation_public_url" content="{{ page.citation_public_url | escape_once }}">
 {% endif %}
 
 {% if page.citation_language %}
-<meta name="citation_language" content="{{ page.citation_language }}">
+<meta name="citation_language" content="{{ page.citation_language | escape_once }}">
 {% endif %}
 
 {% if page.citation_firstpage %}
-<meta name="citation_firstpage" content="{{ page.citation_firstpage }}">
+<meta name="citation_firstpage" content="{{ page.citation_firstpage | escape_once }}">
 {% endif %}
 
 {% if page.citation_lastpage %}
-<meta name="citation_lastpage" content="{{ page.citation_lastpage }}">
+<meta name="citation_lastpage" content="{{ page.citation_lastpage | escape_once }}">
 {% endif %}
 
 {% if page.citation_abstract_html_url %}
-<meta name="citation_abstract_html_url" content="{{ page.citation_abstract_html_url }}">
+<meta name="citation_abstract_html_url" content="{{ page.citation_abstract_html_url | escape_once }}">
 {% endif %}
 
 {% if page.citation_fulltext_html_url %}
-<meta name="citation_fulltext_html_url" content="{{ page.citation_fulltext_html_url }}">
+<meta name="citation_fulltext_html_url" content="{{ page.citation_fulltext_html_url | escape_once }}">
 {% endif %}
 
 {% if page.citation_pdf_url %}
-<meta name="citation_pdf_url" content="{{ page.citation_pdf_url }}">
+<meta name="citation_pdf_url" content="{{ page.citation_pdf_url | absolute_url | escape_once }}">
 {% endif %}
 
 <!-- end paper_meta.html -->

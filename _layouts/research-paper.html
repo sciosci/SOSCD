@@ -1,0 +1,40 @@
+---
+layout: lab
+---
+{% assign paper = site.data.publication_index[page.publication_key] %}
+{% assign detail = site.data.publication_details[page.publication_key] %}
+<main id="main" class="interior-main wrap research-reading">
+  <nav class="research-breadcrumbs" aria-label="Breadcrumb"><a href="{{ '/research/' | relative_url }}">Research</a><span aria-hidden="true">/</span><a href="{{ '/publications/' | relative_url }}">Publications</a></nav>
+  <header class="paper-heading">
+    <h1>{{ paper.title | escape }}</h1>
+    <p class="paper-authors">{{ paper.authors | escape }}</p>
+    <p class="paper-citation-meta">{% if paper.format == 'preprint' %}<strong>Preprint / working paper</strong> · {% elsif paper.format == 'inproceedings' %}Conference contribution · {% endif %}<em>{{ paper.venue | escape }}</em> · <time datetime="{{ paper.publication_date }}">{% if paper.publication_date.size == 10 %}{{ paper.publication_date | date: '%B %-d, %Y' }}{% else %}{{ paper.year }}{% endif %}</time>{% if paper.volume != '' %} · Volume {{ paper.volume }}{% endif %}</p>
+    {% if paper.doi != '' %}<p class="paper-doi"><a href="https://doi.org/{{ paper.doi }}">DOI: {{ paper.doi }}</a></p>{% endif %}
+    <div class="resource-actions"><a class="button button-primary" href="{{ paper.url | escape }}" data-resource-type="paper" data-publication-key="{{ paper.key | escape }}">Read {% if paper.format == 'preprint' %}the preprint{% else %}the paper{% endif %} {% include lab-arrow.html %}</a><a href="#cite">Cite this work</a><a href="#paper-resources">Resources</a></div>
+  </header>
+  <div class="research-reading-grid">
+    <article class="research-prose">
+      <section aria-labelledby="research-question"><h2 id="research-question">{{ detail.question | escape }}</h2><p class="research-lead">{{ detail.summary | escape }}</p></section>
+      <section aria-labelledby="findings"><h2 id="findings">What the study found</h2><ul>{% for finding in detail.findings %}<li>{{ finding | escape }}</li>{% endfor %}</ul></section>
+      <section aria-labelledby="methods"><h2 id="methods">How the study works</h2><p>{{ detail.methods | escape }}</p></section>
+      <section aria-labelledby="scope"><h2 id="scope">Scope and limitations</h2><ul>{% for limitation in detail.limitations %}<li>{{ limitation | escape }}</li>{% endfor %}</ul></section>
+      {% if detail.abstract and detail.abstract != '' %}
+      <section aria-labelledby="abstract"><h2 id="abstract">Abstract</h2><p>{{ detail.abstract | escape }}</p><p class="source-note">Abstract from <a href="{{ paper.url | escape }}">the original work</a>{% if detail.abstract_license %}, reproduced under its <a href="{{ detail.abstract_license }}">Creative Commons license</a>{% endif %}. The overview above summarizes the study.</p></section>
+      {% else %}<p><a href="{{ paper.url | escape }}">Read the original abstract and paper</a>.</p>{% endif %}
+      <section id="cite" aria-labelledby="cite-heading"><h2 id="cite-heading">Cite this work</h2><p class="citation-text" id="paper-citation">{{ paper.citation | escape }}</p><div class="resource-actions"><button type="button" class="button button-primary" data-copy-citation="paper-citation" hidden>Copy citation</button><a href="{{ paper.bibtex_path | relative_url }}" download data-resource-type="citation" data-publication-key="{{ paper.key | escape }}">Download BibTeX</a></div><p class="copy-status" data-copy-status role="status" aria-live="polite"></p><details class="bibtex-details"><summary>View BibTeX</summary><pre><code>{{ paper.bibtex | escape }}</code></pre></details></section>
+      <p class="source-note">Overview checked {{ detail.reviewed_at | date: '%B %-d, %Y' }} against the <a href="{{ detail.source_url | escape }}">publication record</a>. Publication and preprint dates refer to the linked versions.</p>
+      {% assign pdf_source = site.data.paper_pdf_sources[page.publication_key] %}{% if pdf_source.status == 'mirrored' %}<p class="source-note">The locally hosted PDF is an unchanged copy from <a href="{{ pdf_source.source_url | escape }}">the original source</a>, shared under its <a href="{{ pdf_source.license }}">Creative Commons license</a>. Copyright remains with the credited authors or rights holders.</p>{% endif %}
+    </article>
+    <aside class="research-sidebar" id="paper-resources" aria-label="Paper resources and topics">
+      <section><h2>Read and reuse</h2><ul class="resource-list">
+        <li><a href="{{ paper.url | escape }}" data-resource-type="paper" data-publication-key="{{ paper.key | escape }}">{% if paper.format == 'preprint' %}Read the preprint{% else %}Read the original paper{% endif %} {% include lab-arrow.html %}</a></li>
+        {% for resource in paper.resources %}<li><a href="{{ resource.url | relative_url }}" data-resource-type="{{ resource.type }}" data-publication-key="{{ paper.key | escape }}">{% case resource.type %}{% when 'pdf' %}Download paper (PDF){% when 'preprint' %}Earlier preprint{% when 'code' %}Code repository{% when 'dataset' %}Dataset{% when 'demo' %}Try the demo{% endcase %} {% include lab-arrow.html %}</a></li>{% endfor %}
+        {% if page.publication_key == 'keacuna2022' %}<li><a href="{{ '/mentorship/' | relative_url }}">Dataset guide {% include lab-arrow.html %}</a></li>{% endif %}
+        <li><a href="#cite">Citation and BibTeX {% include lab-arrow.html %}</a></li>
+      </ul></section>
+      <section><h2>Research topics</h2><ul class="resource-list">{% for topic_id in paper.topics %}{% assign topic = site.data.research_topics[topic_id] %}<li><a href="{{ topic.path | relative_url }}">{{ topic.title }} {% include lab-arrow.html %}</a></li>{% endfor %}</ul></section>
+      <section><h2>Explore the tags</h2><ul class="bib-tags" aria-label="Paper tags">{% for tag_id in paper.tags %}{% assign tag = site.data.publication_facets.tags[tag_id] %}<li><a href="{{ '/publications/' | relative_url }}?tag={{ tag_id }}">{{ tag.label }}</a></li>{% endfor %}</ul></section>
+    </aside>
+  </div>
+  <section class="related-research" aria-labelledby="related-heading"><h2 id="related-heading">Related research</h2>{% assign shown = 0 %}{% for related_key in site.data.publication_order %}{% assign related = site.data.publication_index[related_key] %}{% if related.page_path and related.key != paper.key %}{% assign overlaps = false %}{% for topic in paper.topics %}{% if related.topics contains topic %}{% assign overlaps = true %}{% endif %}{% endfor %}{% if overlaps and shown < 3 %}{% include research-paper-row.html paper=related %}{% assign shown = shown | plus: 1 %}{% endif %}{% endif %}{% endfor %}</section>
+</main>

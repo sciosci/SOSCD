@@ -3,6 +3,7 @@ layout: single
 permalink: /undergrads/
 author_profile: false
 title: "Research Opportunities for Undergraduate Students"
+description: "Past undergraduate research opportunities in the SOS+CD Lab, with links to current openings and computational research areas."
 toc: true
 ---
 

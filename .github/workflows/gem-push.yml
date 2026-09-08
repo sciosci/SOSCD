@@ -21,15 +21,20 @@ jobs:
     - name: Build Jekyll site
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        JEKYLL_ENV: production
       run: |
-        set -xo pipefail
+        set -euo pipefail
         rm -rf _site/*
         gem install bundler
         bundle install
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        ruby news_generator.rb
-        ruby publications_generator.rb
+        bundle exec ruby news_generator.rb
+        bundle exec ruby publications_generator.rb
+        bundle exec jekyll build
+        bundle exec ruby tests/publication_catalog_test.rb
+        node --test tests/publication-search.test.cjs
+        bundle exec ruby tests/seo_test.rb
         if [[ -n $(git status --porcelain) ]]; then
           echo "Changes detected. Committing and pushing changes."
           git add .
@@ -38,13 +43,12 @@ jobs:
         else
           echo "No changes detected. No commit or push performed."
         fi
-        bundle exec jekyll build
         cp CNAME _site/CNAME
     - name: Deploy
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
-        set -xo pipefail
+        set -euo pipefail
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git checkout gh-pages

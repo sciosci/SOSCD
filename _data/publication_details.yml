@@ -1,0 +1,518 @@
+---
+acuna2010structure:
+  path: "/publications/structure-learning/"
+  question: How do people learn the structure of a decision problem?
+  summary: Behavior that looks inefficient under a fixed model can make sense when
+    a person is also learning how the environment works. This study connects human
+    choices in sequential reward tasks with Bayesian models that learn both rewards
+    and the structure that generates them.
+  findings:
+  - Learning the environment's structure changes the behavior expected of an optimal
+    agent.
+  - Participants' choices in the tested bandit tasks were consistent with near-optimal
+    structure learning.
+  methods: The study combines Bayesian reinforcement-learning models with human experiments
+    involving one-armed and two-armed bandit reward structures.
+  limitations:
+  - The evidence concerns controlled reward tasks; it does not establish optimal behavior
+    in every real-world decision.
+  - A model's assumptions about what the learner knows are part of the comparison,
+    rather than a neutral baseline.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://api.crossref.org/works/10.1371/journal.pcbi.1001003
+  source_url: https://api.crossref.org/works/10.1371/journal.pcbi.1001003
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  abstract: Studies of sequential decision-making in humans frequently find suboptimal
+    performance relative to an ideal actor that has perfect knowledge of the model
+    of how rewards and events are generated in the environment. Rather than being
+    suboptimal, we argue that the learning problem humans face is more complex, in
+    that it also involves learning the structure of reward generation in the environment.
+    We formulate the problem of structure learning in sequential decision tasks using
+    Bayesian reinforcement learning, and show that learning the generative model for
+    rewards qualitatively changes the behavior of an optimal learning agent. To test
+    whether people exhibit structure learning, we performed experiments involving
+    a mixture of one-armed and two-armed bandit reward models, where structure learning
+    produces many of the qualitative behaviors deemed suboptimal in previous studies.
+    Our results demonstrate humans can perform structure learning in a near-optimal
+    manner.
+lienard2018intellectual:
+  path: "/publications/intellectual-synthesis-mentorship/"
+  question: What can researchers gain from mentors with different expertise?
+  summary: This observational study examines how graduate and postdoctoral mentorship
+    relate to later academic careers. It asks whether combining ideas from mentors
+    with different expertise predicts a trainee's subsequent success.
+  findings:
+  - Postdoctoral mentorship was more strongly associated with the study's career outcomes
+    than graduate mentorship.
+  - Trainees were more likely to succeed when they integrated the distinct expertise
+    of their graduate and postdoctoral mentors.
+  methods: The analysis follows 18,856 researchers with both graduate and postdoctoral
+    training, using an open mentorship database concentrated in biomedical science
+    and neuroscience.
+  limitations:
+  - The relationships are observational and should not be interpreted as proof that
+    changing a mentor causes a particular career outcome.
+  - The study's academic-career measures and disciplinary coverage do not capture
+    every form of research success.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://api.crossref.org/works/10.1038/s41467-018-07034-y
+  abstract: As academic careers become more competitive, junior scientists need to
+    understand the value that mentorship brings to their success in academia. Previous
+    research has found that, unsurprisingly, successful mentors tend to train successful
+    students. But what characteristics of this relationship predict success, and how?
+    We analyzed an open-access database of 18,856 researchers who have undergone both
+    graduate and postdoctoral training, compiled across several fields of biomedical
+    science with an emphasis on neuroscience. Our results show that postdoctoral mentors
+    were more instrumental to trainees’ success compared to graduate mentors. Trainees’
+    success in academia was also predicted by the degree of intellectual synthesis
+    between their graduate and postdoctoral mentors. Researchers were more likely
+    to succeed if they trained under mentors with disparate expertise and integrated
+    that expertise into their own work. This pattern has held up over at least 40
+    years, despite fluctuations in the number of students and availability of independent
+    research positions.
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  source_url: https://api.crossref.org/works/10.1038/s41467-018-07034-y
+acuna2020nullmodel:
+  path: "/publications/image-reuse-null-model/"
+  question: How surprising is a match between two scientific images?
+  summary: 'Image similarities need a reference point: a repeated pattern might be
+    rare, or it might be common in scientific imagery. This preprint develops a statistical
+    baseline for estimating how often a feature could occur by chance.'
+  findings:
+  - The method estimates the rarity of ORB image features against a large collection
+    of scientific images.
+  - It provides a null model to help interpret suspected reuse during research-integrity
+    investigations.
+  methods: High-dimensional density estimation is applied to features from more than
+    seven million images in the PubMed Open Access Subset. Examples examine how estimated
+    rarity changes with image complexity.
+  limitations:
+  - Rarity depends on the feature representation and reference collection.
+  - A low probability under this model is not, by itself, evidence of intent or a
+    finding of misconduct.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://arxiv.org/abs/2003.00878
+  source_url: https://arxiv.org/abs/2003.00878
+xiang2020tampering:
+  path: "/publications/scientific-image-tampering/"
+  question: Can image noise help identify manipulated scientific figures?
+  summary: Scientific images have different properties from everyday photographs.
+    This preprint develops a detector tailored to scientific imagery and tests whether
+    inconsistencies in image noise can reveal manipulated regions.
+  findings:
+  - The method is trained and evaluated using manipulated western blot and microscopy
+    images.
+  - On the reported benchmarks, it outperformed the general-purpose image-tampering
+    methods used for comparison.
+  methods: The work constructs scientific-image manipulation datasets and learns to
+    detect noise inconsistencies associated with edits.
+  limitations:
+  - Benchmark performance on these image types does not establish performance on every
+    scientific imaging modality.
+  - A detector output is a signal to inspect the source material, not a determination
+    of research misconduct.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://arxiv.org/abs/2001.07799
+  source_url: https://arxiv.org/abs/2001.07799
+zengacuna2020:
+  path: "/publications/ic2s2-author-name-disambiguation.html"
+  question: How can author identities be resolved across large publication collections?
+  summary: 'Names alone are unreliable identifiers: different people can share a name,
+    and one person''s name can appear in several forms. This work investigates a scalable
+    approach to author-name disambiguation using approximate network structures.'
+  findings:
+  - The work addresses the computational cost of author disambiguation at large scale.
+  - It describes an approach that uses network structure to help distinguish publication
+    authors.
+  methods: The conference contribution studies approximate network structures for
+    grouping publication records that may refer to the same author.
+  limitations:
+  - Disambiguation is an estimation task; name ambiguity and incomplete metadata can
+    leave uncertainty.
+  - Use the paper's evaluation when deciding whether the approach fits a different
+    publication collection.
+  reviewed_at: '2026-09-07'
+  abstract: Properly identifying the author of a scientific article is an important
+    task for giving credit, tracking progress, and identifying ideas’ lineages. Usually,
+    publications and citations do not provide unique identifiers to authors but only
+    the raw string character representation of their name and affiliation. The fundamental
+    problem is that an author might change the string representations due to changing
+    in name spelling (e.g., removing accents), journal limitations (e.g., only allow
+    first letter of first name), or simply two people having the same name. Several
+    researchers have proposed methods to solve this problem, but most methods do not
+    scale well and are not open to the community. In this work, we develop a scalable
+    method that we make publicly available to disambiguate large-scale publications
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  metadata_source: https://zenodo.org/records/4403705
+  source_url: https://zenodo.org/records/4403705
+zhuangacuna2021:
+  path: "/publications/graphical-integrity/"
+  question: Do the areas in scientific bar charts match the quantities they represent?
+  summary: 'This study examines violations of the proportional ink principle: the
+    amount of visual ink representing a value should agree with that value. It develops
+    an automated method for detecting these inconsistencies in scientific bar charts.'
+  findings:
+  - The detector achieved an AUC of 0.917 in the reported evaluation.
+  - The analysis estimated that about 5% of the bar charts in its sample contained
+    proportional ink violations.
+  methods: A deep-learning method was applied to bar charts drawn from a collection
+    of roughly 300,000 figures in open-access publications, followed by analyses of
+    variation across fields and regions.
+  limitations:
+  - The prevalence estimate describes the studied sample and chart type, not every
+    figure in science.
+  - A graphical inconsistency does not establish why a chart was made that way or
+    whether misconduct occurred.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://api.crossref.org/works/10.1371/journal.pcbi.1009650
+  abstract: Academic graphs are essential for communicating complex scientific ideas
+    and results. To ensure that these graphs truthfully reflect underlying data and
+    relationships, visualization researchers have proposed several principles to guide
+    the graph creation process. However, the extent of violations of these principles
+    in academic publications is unknown. In this work, we develop a deep learning-based
+    method to accurately measure violations of the proportional ink principle (AUC
+    = 0.917), which states that the size of shaded areas in graphs should be consistent
+    with their corresponding quantities. We apply our method to analyze a large sample
+    of bar charts contained in 300K figures from open access publications. Our results
+    estimate that 5% of bar charts contain proportional ink violations. Further analysis
+    reveals that these graphical integrity issues are significantly more prevalent
+    in some research fields, such as psychology and computer science, and some regions
+    of the globe. Additionally, we find no temporal and seniority trends in violations.
+    Finally, apart from openly releasing our large annotated dataset and method, we
+    discuss how computational research integrity could be part of peer-review and
+    the publication processes.
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  source_url: https://api.crossref.org/works/10.1371/journal.pcbi.1009650
+acuna2022:
+  path: "/publications/author-suggested-reviewers/"
+  question: How does reviewer selection relate to manuscript evaluations?
+  summary: This study examines the association between author-suggested reviewers
+    and peer-review outcomes. It uses records from the neuroscience section of PLOS
+    ONE to compare reviewer invitations, evaluations, and acceptance outcomes.
+  findings:
+  - Manuscripts reviewed entirely by author-suggested panels had an acceptance probability
+    about 20 percentage points higher than those with entirely editor-suggested panels.
+  - Author-suggested reviewers agreed to review less often in the studied records.
+  methods: The cross-sectional analysis covers close to 8,000 manuscripts, 46,000
+    authors, and 21,000 reviewers, and examines multiple stages of the review process.
+  limitations:
+  - These are associations from a particular journal section, not a randomized experiment.
+  - Reviewer selection, manuscript characteristics, and editorial processes should
+    be considered when applying the findings elsewhere.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://api.crossref.org/works/10.1371/journal.pone.0273994
+  abstract: Peer review is an important part of science, aimed at providing expert
+    and objective assessment of a manuscript. Because of many factors, including time
+    constraints, unique expertise needs, and deference, many journals ask authors
+    to suggest peer reviewers for their own manuscript. Previous researchers have
+    found differing effects about this practice that might be inconclusive due to
+    sample sizes. In this article, we analyze the association between author-suggested
+    reviewers and review invitation, review scores, acceptance rates, and subjective
+    review quality using a large dataset of close to 8K manuscripts from 46K authors
+    and 21K reviewers from the journal PLOS ONE’s Neuroscience section. We found that
+    all-author-suggested review panels increase the chances of acceptance by 20 percent
+    points vs all-editor-suggested panels while agreeing to review less often. While
+    PLOS ONE has since ended the practice of asking for suggested reviewers, many
+    others still use them and perhaps should consider the results presented here.
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  source_url: https://api.crossref.org/works/10.1371/journal.pone.0273994
+keacuna2022:
+  path: "/publications/mentorship-dataset/"
+  question: How can we study mentorship beyond coauthorship?
+  summary: This data descriptor introduces a resource linking academic mentorship
+    relationships to publication records, research representations, and demographic
+    estimates. It is designed to support analysis of mentorship and scientific careers.
+  findings:
+  - The dataset enriches Academic Family Tree records with Microsoft Academic Graph
+    publication information.
+  - It adds semantic representations and estimated demographic variables, with validations
+    described in the paper.
+  methods: The work combines crowdsourced mentorship records, researcher-to-publication
+    matching, text-based research representations, and name-based demographic estimation.
+  limitations:
+  - Coverage and validation are strongest in neuroscience and biomedical science.
+  - Demographic fields are uncertain model estimates, not self-reported identities.
+    Matching errors and missing records can affect analyses.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://api.crossref.org/works/10.1038/s41597-022-01578-x
+  abstract: Mentorship in science is crucial for topic choice, career decisions, and
+    the success of mentees and mentors. Typically, researchers who study mentorship
+    use article co-authorship and doctoral dissertation datasets. However, available
+    datasets of this type focus on narrow selections of fields and miss out on early
+    career and non-publication-related interactions. Here, we describe Mentorship,
+    a crowdsourced dataset of 743176 mentorship relationships among 738989 scientists
+    primarily in biosciences that avoids these shortcomings. Our dataset enriches
+    the Academic Family Tree project by adding publication data from the Microsoft
+    Academic Graph and “semantic” representations of research using deep learning
+    content analysis. Because gender and race have become critical dimensions when
+    analyzing mentorship and disparities in science, we also provide estimations of
+    these factors. We perform extensive validations of the profile–publication matching,
+    semantic content, and demographic inferences, which mostly cover neuroscience
+    and biomedical sciences. We anticipate this dataset will spur the study of mentorship
+    in science and deepen our understanding of its role in scientists’ career outcomes.
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  source_url: https://api.crossref.org/works/10.1038/s41597-022-01578-x
+10.1162/qss_a_00332:
+  path: "/publications/research-costs-benefits/"
+  question: How should costs and benefits affect the evaluation of uncertain research?
+  summary: A study's chance of being correct is only one part of deciding whether
+    a research program is worth pursuing. This paper develops a decision-theoretic
+    framework that makes potential costs and benefits explicit.
+  findings:
+  - Acceptable uncertainty changes with the potential consequences of a research decision.
+  - The cancer-research applications illustrate why exploratory research can be worth
+    supporting despite uncertain results.
+  methods: The framework uses Bayesian decision theory to derive thresholds involving
+    prestudy odds and positive predictive values, then applies the calculations to
+    cancer research and funding.
+  limitations:
+  - The conclusions depend on the costs, benefits, probabilities, and alternatives
+    supplied to the model.
+  - The framework supports deliberation about research programs; it does not supply
+    universal funding thresholds.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://api.crossref.org/works/10.1162/qss_a_00332
+  abstract: Abstract Correctness is a key aspiration of the scientific process, yet
+    recent studies suggest that many high-profile findings may be difficult to replicate
+    or require considerable evidence for verification. Proposals to fix these issues
+    typically ask for tighter statistical controls (e.g., stricter p-value thresholds
+    or higher statistical power). However, these approaches often overlook the importance
+    of contemplating research outcomes’ potential costs and benefits. Here, we develop
+    a framework grounded in Bayesian decision theory that seamlessly integrates cost-benefit
+    analysis into evaluating research programs with potentially uncertain results.
+    We derive minimally acceptable prestudy odds and positive predictive values for
+    cost and benefit levels. We show that tolerance to inaccurate results changes
+    dramatically due to uncertainties posed by research. We also show that reducing
+    uncertainties (e.g., by recruiting more subjects) may have limited effects on
+    the expected benefit of continuing specific research programs. We apply our framework
+    to several types of cancer research and their funding. Our analysis shows that
+    highly exploratory research designs are easily justifiable due to their potential
+    benefits, even when probabilistic models suggest otherwise. We discuss how the
+    cost and benefit of research could and should always be part of the toolkit used
+    by scientists, institutions, or funding agencies.
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  source_url: https://api.crossref.org/works/10.1162/qss_a_00332
+taechoyotin2024misti:
+  path: "/publications/misti/"
+  question: Can publication metadata improve scientific image and text retrieval?
+  summary: MISTI learns joint representations of scientific figures, captions, and
+    publication metadata. The study tests whether contextual information such as titles,
+    sections, and concepts improves retrieval beyond the image-caption pair alone.
+  findings:
+  - Including metadata improved retrieval performance over the reported baselines.
+  - The model reached 30% Recall@1 in a caption-retrieval task with 70,000 candidates.
+  methods: The model uses contrastive learning on figures, captions, and metadata
+    from the PubMed Open Access Subset, and is evaluated on information-retrieval
+    tasks.
+  limitations:
+  - The reported results depend on the tasks, candidate set, and publication collection
+    used for evaluation.
+  - Retrieving a relevant figure or caption is different from establishing that a
+    scientific claim is correct.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://aclanthology.org/2024.sdp-1.15/
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  source_url: https://aclanthology.org/2024.sdp-1.15/
+  abstract: In scientific publications, automatic representations of figures and their
+    captions can be used in NLP, computer vision, and information retrieval tasks.
+    Contrastive learning has proven effective for creating such joint representations
+    for natural scenes, but its application to scientific imagery and descriptions
+    remains under-explored. Recent open-access publication datasets provide an opportunity
+    to understand the effectiveness of this technique as well as evaluate the usefulness
+    of additional metadata, which are available only in the scientific context. Here,
+    we introduce MISTI, a novel model that uses contrastive learning to simultaneously
+    learn the representation of figures, captions, and metadata, such as a paper’s
+    title, sections, and curated concepts from the PubMed Open Access Subset. We evaluate
+    our model on multiple information retrieval tasks, showing substantial improvements
+    over baseline models. Notably, incorporating metadata doubled retrieval performance,
+    achieving a Recall@1 of 30% on a 70K-item caption retrieval task. We qualitatively
+    explore how metadata can be used to strategically retrieve distinctive representations
+    of the same concept but for different sections, such as introduction and results.
+    Additionally, we show that our model seamlessly handles out-of-domain tasks related
+    to image segmentation. We share our dataset and methods (https://github.com/Khempawin/scientific-image-caption-pair/tree/section-attr)
+    and outline future research directions.
+acuna2022predicting:
+  path: "/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html"
+  question: What makes a scientific resource link more likely to remain available?
+  summary: Code and data links can stop working long after a paper is published. This
+    study examines which features of a resource, its host, and its associated publication
+    help explain and predict its availability over time.
+  findings:
+  - Where and how a resource is shared were important predictors of its longevity.
+  - Author reputation and journal prestige contributed less than the resource-sharing
+    factors highlighted in the study.
+  methods: The study reconstructs resource availability through web archives and examines
+    features of publications, authors, references, and hosting locations.
+  limitations:
+  - Archived observations and predictive associations do not establish that a particular
+    hosting choice guarantees permanence.
+  - A reachable URL alone does not establish that its contents are complete, usable,
+    or unchanged.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://www.nature.com/articles/s41599-025-04716-z
+  abstract: Research has shown that most resources shared in articles (e.g., URLs
+    to code or data) are not kept up to date and mostly disappear from the web after
+    some years (Zeng et al., 2019). Little is known about the factors that differentiate
+    and predict the longevity of these resources. This article explores a range of
+    explanatory features related to the publication venue, authors, references, and
+    where the resource is shared. We analyze an extensive repository of publications
+    and, through web archival services, reconstruct how they looked at different time
+    points. We discover that the most important factors are related to where and how
+    the resource is shared, while surprisingly little consideration is given to the
+    author’s reputation or prestige of the journal. By examining the places where
+    long-lasting resources are shared, we suggest that it is critical to educate researchers
+    on modern sharing technologies. Finally, we discuss implications for reproducibility
+    and acknowledge scientific datasets as first-class citizens of science.
+  abstract_license: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  source_url: https://www.nature.com/articles/s41599-025-04716-z
+zhuang2025estimating:
+  path: "/publications/questionable-journals/"
+  question: Can computational screening help assess questionable journals?
+  summary: This study evaluates whether journal websites and publication metadata
+    can support large-scale screening for questionable open-access journals. It treats
+    automated predictions as a way to focus expert investigation.
+  findings:
+  - Screening behavior can be adjusted to favor broader coverage or fewer false positives.
+  - Error analysis identifies cases such as discontinued titles, book series, and
+    small society journals where classification is difficult.
+  methods: The work evaluates models using human-annotated reference sets and features
+    describing website presentation, content, and publication metadata.
+  limitations:
+  - A predicted label is not a final judgment about a journal or an individual article.
+  - Reference labels, incomplete metadata, and limited web presence affect the interpretation
+    of model outputs.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://api.crossref.org/works/10.1126/sciadv.adt2792
+  abstract_license: https://creativecommons.org/licenses/by-nc/4.0/
+  abstract: Questionable journals threaten global research integrity, yet manual vetting
+    can be slow and inflexible. Here, we explore the potential of artificial intelligence
+    (AI) to systematically identify such venues by analyzing website design, content,
+    and publication metadata. Evaluated against extensive human-annotated datasets,
+    our method achieves practical accuracy and uncovers previously overlooked indicators
+    of journal legitimacy. By adjusting the decision threshold, our method can prioritize
+    either comprehensive screening or precise, low-noise identification. At a balanced
+    threshold, we flag over 1000 suspect journals, which collectively publish hundreds
+    of thousands of articles, receive millions of citations, acknowledge funding from
+    major agencies, and attract authors from developing countries. Error analysis
+    reveals challenges involving discontinued titles, book series misclassified as
+    journals, and small society outlets with limited online presence, which are issues
+    addressable with improved data quality. Our findings demonstrate AI’s potential
+    for scalable integrity checks, while also highlighting the need to pair automated
+    triage with expert review.
+  source_url: https://api.crossref.org/works/10.1126/sciadv.adt2792
+taechoyotin2025remor:
+  path: "/publications/remor/"
+  question: Can reinforcement learning improve the substance of an AI-generated review?
+  summary: REMOR studies review generation with a reasoning language model and rewards
+    for multiple aspects of review quality. It compares different reward designs and
+    examines how training changes the feedback produced.
+  findings:
+  - Reward design affected the substance of generated reviews; the human-aligned weighting
+    did not uniformly favor stronger criticism.
+  - The trained models achieved higher scores on the reported evaluation rewards than
+    the selected comparison systems.
+  methods: The approach combines supervised fine-tuning on reasoning-enriched peer
+    reviews with Group Relative Policy Optimization, evaluating human-aligned and
+    uniform reward variants.
+  limitations:
+  - A higher reward score is not equivalent to an independent demonstration of better
+    editorial decisions.
+  - The results concern the tested reviews, reward functions, and models. This work
+    remains a preprint.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://arxiv.org/abs/2505.11718
+  abstract: 'AI-based peer review systems tend to produce shallow and overpraising
+    suggestions compared to human feedback. Here, we evaluate how well a reasoning
+    LLM trained with multi-objective reinforcement learning (REMOR) can overcome these
+    limitations. We start by designing a multi-aspect reward function that aligns
+    with human evaluation of reviews. The aspects are related to the review itself
+    (e.g., criticisms, novelty) and the relationship between the review and the manuscript
+    (i.e., relevance). First, we perform supervised fine-tuning of DeepSeek-R1-Distill-Qwen-7B
+    using LoRA on PeerRT, a new dataset of high-quality top AI conference reviews
+    enriched with reasoning traces. We then apply Group Relative Policy Optimization
+    (GRPO) to train two models: REMOR-H (with the human-aligned reward) and REMOR-U
+    (with a uniform reward). Interestingly, the human-aligned reward penalizes aspects
+    typically associated with strong reviews, leading REMOR-U to produce qualitatively
+    more substantive feedback. Our results show that REMOR-U and REMOR-H achieve more
+    than twice the average rewards of human reviews, non-reasoning state-of-the-art
+    agentic multi-modal AI review systems, and general commercial LLM baselines. We
+    found that while the best AI and human reviews are comparable in quality, REMOR
+    avoids the long tail of low-quality human reviews. We discuss how reasoning is
+    key to achieving these improvements and release the Human-aligned Peer Review
+    Reward (HPRR) function, the Peer Review Reasoning-enriched Traces (PeerRT) dataset,
+    and the REMOR models, which we believe can help spur progress in the area.'
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  source_url: https://arxiv.org/abs/2505.11718
+taechoyotin2026remctx:
+  path: "/publications/rem-ctx/"
+  question: Can an automated review make better use of figures and scholarly context?
+  summary: REM-CTX extends review generation beyond manuscript text. It trains a language
+    model to use auxiliary context and tests whether explicit correspondence rewards
+    improve the grounding of generated reviews.
+  findings:
+  - The full model outperformed the reported baselines on the study's overall review-quality
+    evaluation.
+  - Ablations found complementary contributions from the two correspondence rewards.
+  methods: An eight-billion-parameter model is trained with Group Relative Policy
+    Optimization and quality/correspondence rewards, then evaluated on manuscripts
+    across computer, biological, and physical sciences.
+  limitations:
+  - The evaluation concerns the specified metrics and manuscript collections, rather
+    than every editorial setting.
+  - This preprint evaluates review-generation behavior; it does not establish that
+    automated reviews can replace human judgment.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://arxiv.org/abs/2604.00248
+  abstract: 'Most automated peer review systems rely on textual manuscript content
+    alone, leaving visual elements such as figures and external scholarly signals
+    underutilized. We introduce REM-CTX, a reinforcement-learning system that incorporates
+    auxiliary context into the review generation process via correspondence-aware
+    reward functions. REM-CTX trains an 8B-parameter language model with Group Relative
+    Policy Optimization (GRPO) and combines a multi-aspect quality reward with two
+    correspondence rewards that explicitly encourage alignment with auxiliary context.
+    Experiments on manuscripts across Computer, Biological, and Physical Sciences
+    show that REM-CTX achieves the highest overall review quality among six baselines,
+    outperforming other systems with substantially larger commercial models, and surpassing
+    the next-best RL baseline across both quality and contextual grounding metrics.
+    Ablation studies confirm that the two correspondence rewards are complementary:
+    each selectively improves its targeted correspondence reward while preserving
+    all quality dimensions, and the full model outperforms all partial variants. Analysis
+    of training dynamics reveals that the criticism aspect is negatively correlated
+    with other metrics during training, suggesting that future studies should group
+    multi-dimension rewards for review generation.'
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  source_url: https://arxiv.org/abs/2604.00248
+meguimtsop2026sciintbench:
+  path: "/publications/sciintbench/"
+  question: Do language models uphold research-integrity norms when misconduct is
+    disguised?
+  summary: SciIntBench evaluates how language models respond to scientific requests
+    framed as explicit misconduct, covert misconduct, or legitimate work. It measures
+    both refusal of problematic requests and helpfulness on benign ones.
+  findings:
+  - Models refused overt misconduct more reliably than covert violations.
+  - The study reports weaker boundaries in areas including transparency, plagiarism,
+    and fabrication.
+  methods: The benchmark contains 810 prompts across ten responsible-conduct categories
+    and three scientific domains. The paper evaluates 16 models and 12,960 responses.
+  limitations:
+  - Results reflect the tested model versions and prompts, which may differ from later
+    deployments.
+  - A benchmark response is evidence about model behavior in that setting, not a measurement
+    of real-world misconduct.
+  reviewed_at: '2026-09-07'
+  metadata_source: https://arxiv.org/abs/2605.29468
+  abstract: 'Large language models (LLMs) are increasingly used to support scientific
+    work, but it is unclear whether they uphold responsible conduct of research (RCR)
+    norms or help undermine them. We introduce SciIntBench, an adversarial benchmark
+    of 810 prompts across ten RCR categories and three scientific domains. Each scenario
+    appears as an Overt Adversarial, Covert Adversarial, and Benign version, allowing
+    us to jointly measure framing-sensitive refusal of misconduct and helpfulness
+    on legitimate requests. We evaluate 16 commercial and open-weight LLMs from six
+    providers (2024--2026), producing 12,960 responses. We find that scientific integrity
+    alignment is strongly framing-sensitive: models refuse explicit misconduct far
+    more reliably than covert violations, especially failing when misconduct is presented
+    as a pressure-driven shortcut. Refusals vary by RCR category, with weaker boundaries
+    around transparency, plagiarism, and fabrication.'
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  source_url: https://arxiv.org/abs/2605.29468

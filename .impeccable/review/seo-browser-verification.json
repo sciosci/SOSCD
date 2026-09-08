@@ -1,0 +1,304 @@
+{
+  "screenshots": [
+    {
+      "name": "research",
+      "viewport": "desktop",
+      "path": "/research/",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-research-desktop.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-research-desktop-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [
+        "18 works in the archive",
+        "24 works in the archive",
+        "33 works in the archive",
+        "25 works in the archive"
+      ],
+      "buttons": [
+        {
+          "text": "Browse publications",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        }
+      ]
+    },
+    {
+      "name": "integrity",
+      "viewport": "desktop",
+      "path": "/research/research-integrity/",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-integrity-desktop.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-integrity-desktop-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": [
+        {
+          "text": "Browse all 18 works",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        }
+      ]
+    },
+    {
+      "name": "paper",
+      "viewport": "desktop",
+      "path": "/publications/sciintbench/",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-paper-desktop.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-paper-desktop-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": [
+        {
+          "text": "Read the preprint",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        },
+        {
+          "text": "Copy citation",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        }
+      ]
+    },
+    {
+      "name": "legacy",
+      "viewport": "desktop",
+      "path": "/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-legacy-desktop.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-legacy-desktop-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": [
+        {
+          "text": "Read the paper",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        },
+        {
+          "text": "Copy citation",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        }
+      ]
+    },
+    {
+      "name": "dataset",
+      "viewport": "desktop",
+      "path": "/mentorship/",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-dataset-desktop.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-dataset-desktop-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": [
+        {
+          "text": "Get the dataset",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        },
+        {
+          "text": "Copy citation",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        }
+      ]
+    },
+    {
+      "name": "resources",
+      "viewport": "desktop",
+      "path": "/resources/",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-resources-desktop.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-resources-desktop-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": []
+    },
+    {
+      "name": "archive",
+      "viewport": "desktop",
+      "path": "/publications/",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-archive-desktop-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": [],
+      "segments": [
+        ".impeccable/review/seo-archive-desktop-header.png",
+        ".impeccable/review/seo-archive-desktop-first-records.png",
+        ".impeccable/review/seo-archive-desktop-oldest-records.png",
+        ".impeccable/review/seo-archive-desktop-footer.png"
+      ]
+    },
+    {
+      "name": "people",
+      "viewport": "desktop",
+      "path": "/people/",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-people-desktop.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-people-desktop-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": []
+    },
+    {
+      "name": "research",
+      "viewport": "mobile",
+      "path": "/research/",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-research-mobile.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-research-mobile-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [
+        "18 works in the archive",
+        "24 works in the archive",
+        "33 works in the archive",
+        "25 works in the archive"
+      ],
+      "buttons": [
+        {
+          "text": "Browse publications",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        }
+      ]
+    },
+    {
+      "name": "integrity",
+      "viewport": "mobile",
+      "path": "/research/research-integrity/",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-integrity-mobile.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-integrity-mobile-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": [
+        {
+          "text": "Browse all 18 works",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        }
+      ]
+    },
+    {
+      "name": "paper",
+      "viewport": "mobile",
+      "path": "/publications/sciintbench/",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-paper-mobile.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-paper-mobile-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": [
+        {
+          "text": "Read the preprint",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        },
+        {
+          "text": "Copy citation",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        }
+      ]
+    },
+    {
+      "name": "legacy",
+      "viewport": "mobile",
+      "path": "/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-legacy-mobile.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-legacy-mobile-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": [
+        {
+          "text": "Read the paper",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        },
+        {
+          "text": "Copy citation",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        }
+      ]
+    },
+    {
+      "name": "dataset",
+      "viewport": "mobile",
+      "path": "/mentorship/",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-dataset-mobile.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-dataset-mobile-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": [
+        {
+          "text": "Get the dataset",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        },
+        {
+          "text": "Copy citation",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(81, 53, 138)"
+        }
+      ]
+    },
+    {
+      "name": "resources",
+      "viewport": "mobile",
+      "path": "/resources/",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-resources-mobile.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-resources-mobile-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": []
+    },
+    {
+      "name": "archive",
+      "viewport": "mobile",
+      "path": "/publications/",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-archive-mobile-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": [],
+      "segments": [
+        ".impeccable/review/seo-archive-mobile-header.png",
+        ".impeccable/review/seo-archive-mobile-first-records.png",
+        ".impeccable/review/seo-archive-mobile-oldest-records.png",
+        ".impeccable/review/seo-archive-mobile-footer.png"
+      ]
+    },
+    {
+      "name": "people",
+      "viewport": "mobile",
+      "path": "/people/",
+      "full": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-people-mobile.png",
+      "initial": "/Users/danielacuna/Documents/workspace/SOSCD/.impeccable/review/seo-people-mobile-viewport.png",
+      "scroll": 0,
+      "overflow": false,
+      "counts": [],
+      "buttons": []
+    }
+  ],
+  "interactions": {
+    "citation_copy": "clipboard exact match",
+    "clipboard_denied": "text selected with Copy instruction",
+    "query_integrity": 18,
+    "query_peer_review_discovery": 24,
+    "no_javascript_archive": 70,
+    "page_errors": 0,
+    "topic_event": {
+      "name": "publication_filter",
+      "filter_type": "topic",
+      "filter_value": "integrity"
+    }
+  },
+  "capture_note": "Archive full-page compositor artifacts were discarded and replaced with normal viewport segments at explicit instant-scroll offsets."
+}

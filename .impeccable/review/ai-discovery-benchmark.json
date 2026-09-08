@@ -1,0 +1,117 @@
+{
+  "created": "2026-09-07",
+  "status": "Unrun protocol; execute against the published site after deployment.",
+  "origin": "https://scienceofscience.org",
+  "instructions": "For each run, retain exact prompt, date, product/model, returned citations, version accuracy and whether the requested download/action completed. Score criteria 0/1. Repeat consistently; do not call the result a universal AI ranking.",
+  "runs": [],
+  "cases": [
+    {
+      "id": "lab_identity",
+      "prompt": "What does the Science of Science and Computational Discovery Lab at CU Boulder study, and who leads it?",
+      "paths": [
+        "/about/",
+        "/people/",
+        "/research/"
+      ],
+      "criteria": [
+        "Correct lab name and CU Boulder affiliation",
+        "Daniel Acuña identified as PI",
+        "Links to relevant official lab pages"
+      ]
+    },
+    {
+      "id": "integrity_evidence",
+      "prompt": "Find this lab's research on detecting scientific image reuse and explain what a detection can and cannot establish.",
+      "paths": [
+        "/research/research-integrity/",
+        "/publications/image-reuse-null-model/",
+        "/publications/scientific-image-tampering/"
+      ],
+      "criteria": [
+        "Links specific research",
+        "Distinguishes statistical flags from a determination of misconduct",
+        "Preserves preprint status"
+      ]
+    },
+    {
+      "id": "preprint_status",
+      "prompt": "What is SciIntBench and what does its evaluation show?",
+      "paths": [
+        "/publications/sciintbench/"
+      ],
+      "criteria": [
+        "Identifies preprint/working-paper status",
+        "810 prompts, 16 models and 12,960 responses if counts are stated",
+        "Links original evidence and states benchmark limitations"
+      ]
+    },
+    {
+      "id": "dataset_release",
+      "prompt": "Find the mentorship dataset from this lab, its license, citation, and smallest starting files.",
+      "paths": [
+        "/mentorship/",
+        "/datasets/mentorship.json",
+        "/datasets/mentorship.bib"
+      ],
+      "criteria": [
+        "Dataset DOI10.5281/zenodo.4917086, release2021, five creators",
+        "CCBY4.0",
+        "Distinguishes the 2022 paper",
+        "Mentorship/researcher CSV links and download sizes; no embedding requirement"
+      ]
+    },
+    {
+      "id": "resource_version",
+      "prompt": "Give me the published citation and earlier preprint for Predicting the longevity of resources shared in scientific publications.",
+      "paths": [
+        "/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html"
+      ],
+      "criteria": [
+        "Published2025-05-22; DOI10.1057/s41599-025-04716-z",
+        "Five authors in correct order",
+        "Earlier2022arXiv version distinguished"
+      ]
+    },
+    {
+      "id": "peer_review",
+      "prompt": "Find the lab's peer-review research, including AI review generation and the study of author-suggested reviewers.",
+      "paths": [
+        "/research/peer-review-discovery/",
+        "/publications/author-suggested-reviewers/",
+        "/publications/remor/",
+        "/publications/rem-ctx/"
+      ],
+      "criteria": [
+        "Includes social and computational review research",
+        "No causal overstatement of observational reviewer results",
+        "Preprints distinguished"
+      ]
+    },
+    {
+      "id": "citation_task",
+      "prompt": "Find the MISTI paper, download its BibTeX citation, and locate its code repository.",
+      "paths": [
+        "/publications/misti/"
+      ],
+      "criteria": [
+        "Correct2024ACL paper",
+        "Valid individualBibTeXdownload",
+        "Verifiedrepositorylink frompaperpage"
+      ]
+    },
+    {
+      "id": "catalog_task",
+      "prompt": "Download the lab's full publication metadata from 2008 onward and find all records tagged with research integrity.",
+      "paths": [
+        "/publications.json",
+        "/publications.bib",
+        "/publications/?topic=integrity"
+      ],
+      "criteria": [
+        "70records in initial snapshot, nonebefore2008",
+        "18integrityrecords in initial snapshot",
+        "Uses explicit topic assignments, not title substring only"
+      ]
+    }
+  ]
+}

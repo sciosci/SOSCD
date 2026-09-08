@@ -20,17 +20,22 @@ The website uses semantic Jekyll/Liquid templates, a standalone stylesheet (`ass
 - **Giving:** edit `_pages/support.md` for copy and `_data/giving.yml` for contacts. Leave `fund_name` and `fund_url` empty until CU Advancement confirms a lab-specific gift designation. Set both to activate the direct giving button; the default is a contact route. Never substitute a generic department fund URL.
 - **Featured publications:** update the `selection` list in `publications_generator.rb`; bibliographic facts are read from the bibliography.
 - **People:** edit `_pages/people.md`; optimized photographs live in `assets/images/lab/`, with source provenance in adjacent JSON files.
-- **Research and funding:** edit `_pages/project_research.md`.
-- **Recruitment:** edit `_pages/recruitment.md` and the homepage recruitment notices in `_pages/index.md` together when the opening changes.
+- **Research topics:** edit `_data/research_topics.yml`; `/research/` links to four explanatory topic hubs.
+- **Funding:** edit `_pages/project_research.md`.
+- **Paper overviews:** edit `_data/publication_details.yml`; the generator writes individual pages using the bibliography and reviewed PDF-source manifest.
+- **Dataset documentation:** edit `_pages/mentorship.md` and `_data/datasets.yml`. The latter also supplies Dataset JSON-LD and the JSON file/checksum export.
+- **Join Us:** `_pages/recruitment.md` covers joining the lab generally, with a dedicated Ph.D. application section and other research opportunities. Keep `_pages/recruitment.md` and the homepage application links in `_pages/index.md` consistent. Use general, objective application guidance; link CU Boulder for current requirements and deadlines instead of advertising a fixed number of positions.
 - **Homepage:** `_pages/index.md` is the sole owner of `/`.
 
-The research lens is a radial publication index, not a citation graph. Radius reflects the actual publication year, including preprints; larger points distinguish working papers. Its overlapping topic assignments come from the same reviewed taxonomy as the archive. Hover or keyboard focus reveals a styled paper preview, and topic controls link to the full filtered archive. Each point opens the original paper, or its archive record if no external URL exists.
+The research lens is a radial publication index, not a citation graph. Radius reflects the actual publication year, including preprints; larger points distinguish working papers. Its overlapping topic assignments come from the same reviewed taxonomy as the archive. Hover or keyboard focus reveals a styled paper preview, and topic controls link to the full filtered archive. Each point opens the local research overview when available, otherwise the original paper or archive record.
 
 The lab logo is `assets/images/lab/logo.svg`: only the gray diamond and blue/cyan semicircles, on transparency. Header, footer, and SVG favicon share this source. `logo-restored.png` is a transparent 2048 px export; the smaller PNGs are compatibility icons. See `.impeccable/decisions/logo-restoration.md`.
 
 The September 2026 Scholar reconciliation is recorded in `.impeccable/review/scholar-reconciliation.md`, with a disposition for every Scholar entry. Fourteen distinct works were added; alternate versions, duplicates, non-paper records, and uncertain metadata are explicitly accounted for.
 
-The existing GitHub Actions publishing workflow continues to run both generators. No deployment settings need to change for the redesign.
+The GitHub Actions publishing workflow runs both generators, builds in production mode, and checks publication metadata, search behavior, feeds, and internal links before deploying. A failed check stops the deployment.
+
+See [.impeccable/decisions/research-publishing.md](.impeccable/decisions/research-publishing.md) for maintaining paper pages, abstracts/PDF licenses, publication exports, feeds, GA4, and the existing Search Console property. GA4 requires the confirmed `G-…` Measurement ID in `_config.yml`; the retired Universal Analytics ID is no longer emitted.
 
 ---
 

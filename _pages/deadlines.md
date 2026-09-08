@@ -3,6 +3,9 @@ layout: single
 permalink: /deadlines
 author_profile: false
 title: "Deadlines"
+description: "Archived internal lab deadlines from 2020."
+robots: "noindex, follow"
+sitemap: false
 toc: false
 ---
 
@@ -56,4 +59,3 @@ toc: false
         
     });
 </script>
-

@@ -1,0 +1,129 @@
+{
+  "acuna2010structure": {
+    "key": "acuna2010structure",
+    "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1001003&type=printable",
+    "path": "/publications/structure-learning/paper.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed_at": "2026-09-07",
+    "status": "mirrored",
+    "bytes": 815804,
+    "sha256": "0e812158b939a8eb78cbe84cbbf731058a67b9c79fb612ad5722dea65043fc2f"
+  },
+  "lienard2018intellectual": {
+    "key": "lienard2018intellectual",
+    "source_url": "https://www.nature.com/articles/s41467-018-07034-y.pdf",
+    "path": "/publications/intellectual-synthesis-mentorship/paper.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed_at": "2026-09-07",
+    "status": "mirrored",
+    "bytes": 849139,
+    "sha256": "3b4705fe7cbcc8a9929bc1fe18ec0aecaf11c13970b848bb99eac68074d55744"
+  },
+  "zengacuna2020": {
+    "key": "zengacuna2020",
+    "source_url": "https://scienceofscience.org/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf",
+    "path": "/publications/ic2s2-author-name-disambiguation.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed_at": "2026-09-07",
+    "status": "mirrored",
+    "bytes": 227172,
+    "sha256": "a43694220c151ff63a39c17e49fdc7e5b4eb6c4eeb1dbb2ba30cccd1ca8aa72b"
+  },
+  "zhuangacuna2021": {
+    "key": "zhuangacuna2021",
+    "source_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1009650&type=printable",
+    "path": "/publications/graphical-integrity/paper.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed_at": "2026-09-07",
+    "status": "mirrored",
+    "bytes": 2856813,
+    "sha256": "1528288581b1a5f2d797e47da22659cd416ff03843a4368091ba4bc63fd79297"
+  },
+  "acuna2022": {
+    "key": "acuna2022",
+    "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0273994&type=printable",
+    "path": "/publications/author-suggested-reviewers/paper.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed_at": "2026-09-07",
+    "status": "mirrored",
+    "bytes": 952482,
+    "sha256": "569bb21495629ec28b251b2c7ecf59c6c53fe6393abcf8c6d282cf8eba9125b3"
+  },
+  "keacuna2022": {
+    "key": "keacuna2022",
+    "source_url": "https://www.nature.com/articles/s41597-022-01578-x.pdf",
+    "path": "/publications/mentorship-dataset/paper.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed_at": "2026-09-07",
+    "status": "mirrored",
+    "bytes": 1679535,
+    "sha256": "d15bad74d52e93d61b9cfc8c9378a39158c653b8f3684adb811f1ff4a6d2d964"
+  },
+  "10.1162/qss_a_00332": {
+    "key": "10.1162/qss_a_00332",
+    "source_url": "https://direct.mit.edu/qss/article-pdf/5/4/1047/2482654/qss_a_00332.pdf",
+    "path": "/publications/research-costs-benefits/paper.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed_at": "2026-09-07",
+    "status": "external",
+    "note": "HTTP Error 403: Forbidden"
+  },
+  "taechoyotin2024misti": {
+    "key": "taechoyotin2024misti",
+    "source_url": "https://aclanthology.org/2024.sdp-1.15.pdf",
+    "path": "/publications/misti/paper.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed_at": "2026-09-07",
+    "status": "mirrored",
+    "bytes": 4639974,
+    "sha256": "68eaeba0f84b8c94410101645339d4f0ca43ce5e8d677f31883229aa51731b74"
+  },
+  "acuna2022predicting": {
+    "key": "acuna2022predicting",
+    "source_url": "https://www.nature.com/articles/s41599-025-04716-z.pdf",
+    "path": "/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.pdf",
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "reviewed_at": "2026-09-07",
+    "status": "mirrored",
+    "bytes": 2428098,
+    "sha256": "fc1671c0c6316a996662d714093a0e28301b8b85ef0b98d2d6be5073849b9eb2"
+  },
+  "zhuang2025estimating": {
+    "key": "zhuang2025estimating",
+    "source_url": "https://www.science.org/doi/pdf/10.1126/sciadv.adt2792",
+    "path": "/publications/questionable-journals/paper.pdf",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "reviewed_at": "2026-09-07",
+    "status": "external",
+    "note": "HTTP Error 403: Forbidden"
+  },
+  "taechoyotin2025remor": {
+    "key": "taechoyotin2025remor",
+    "source_url": "https://arxiv.org/pdf/2505.11718",
+    "path": "/publications/remor/paper.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed_at": "2026-09-07",
+    "status": "mirrored",
+    "bytes": 1828032,
+    "sha256": "2f145be4d84486edf72a98a2424e8b9b31494aaa15eda98c01c83da19bd6c913"
+  },
+  "taechoyotin2026remctx": {
+    "key": "taechoyotin2026remctx",
+    "source_url": "https://arxiv.org/pdf/2604.00248",
+    "path": "/publications/rem-ctx/paper.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed_at": "2026-09-07",
+    "status": "external",
+    "note": "PDF exceeds 5 MB; retain publisher link"
+  },
+  "meguimtsop2026sciintbench": {
+    "key": "meguimtsop2026sciintbench",
+    "source_url": "https://arxiv.org/pdf/2605.29468",
+    "path": "/publications/sciintbench/paper.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "reviewed_at": "2026-09-07",
+    "status": "mirrored",
+    "bytes": 4882103,
+    "sha256": "c7e46c72b5de431159f3ce83f42736f06c028bb40b380879278a4913af2dbfe2"
+  }
+}

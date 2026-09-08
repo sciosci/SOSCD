@@ -5,10 +5,10 @@ main:
   - title: "People"
     url: /people/
   - title: "Research"
-    url: /funding/
+    url: /research/
   - title: "About"
     url: /about/
-  - title: "Join the lab"
+  - title: "Join Us"
     url: /openings/
   - title: "Support"
     url: /support/

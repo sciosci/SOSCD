@@ -4,6 +4,7 @@
 <article id="{{ entry.key }}" class="bib_entry" data-alternate-title="{{ record.alternate_title | escape }}" data-topics="{{ record.topics | join: ' ' }}" data-tags="{{ record.tags | join: ' ' }}" data-type="{{ record.format }}" data-code="{% if entry.code %}true{% else %}false{% endif %}" data-dataset="{% if entry.dataset_url %}true{% else %}false{% endif %}" data-demo="{% if entry.demo %}true{% else %}false{% endif %}">
   <div class="bib-main">
     <h3 class="bib-title">{% if entry.paper_intro_url %}<a href="{{ entry.paper_intro_url | relative_url }}">{% elsif entry.url %}<a href="{{ entry.url | replace: '\_', '_' }}">{% endif %}{{ entry.title }}{% if entry.paper_intro_url or entry.url %}</a>{% endif %}</h3>
+    {% include paper-overview-link.html paper=record %}
     {% if entry.author_array.size > 12 %}
     <p class="bib-authors">{% for author in entry.author_array limit:3 %}{{ author.first }} {{ author.last }}, {% endfor %}et al.</p>
     <details class="bib-all-authors"><summary>All {{ entry.author_array.size }} authors</summary><p class="bib-authors">{% for author in entry.author_array %}{{ author.first }} {{ author.last }}{% unless forloop.last %}, {% endunless %}{% endfor %}</p></details>
@@ -13,11 +14,11 @@
     <p class="bib-topics">{% for topic_id in record.topics %}{% assign topic = site.data.publication_facets.topics[topic_id] %}<a data-topic-link="{{ topic_id }}" href="{{ '/publications/' | relative_url }}?topic={{ topic_id }}">{{ topic.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> · </span>{% endunless %}{% endfor %}</p>
     <ul class="bib-tags" aria-label="Paper tags">{% for tag_id in record.tags %}{% assign tag = site.data.publication_facets.tags[tag_id] %}<li><a data-tag-link="{{ tag_id }}" href="{{ '/publications/' | relative_url }}?tag={{ tag_id }}">{{ tag.label }}</a></li>{% endfor %}</ul>
     <div class="bib-links">
-      {% if entry.url %}<a href="{{ entry.url | replace: '\_', '_' }}">{% if record.format == 'webarticle' %}Article{% elsif entry.note == 'Workshop description' %}Workshop{% elsif entry.note == 'Archived preprint' %}Archived paper{% else %}Paper{% endif %} {% include lab-arrow.html %}</a>{% endif %}
-      {% if entry.paper_intro_url %}<a href="{{ entry.paper_intro_url | relative_url }}">Overview {% include lab-arrow.html %}</a>{% endif %}
-      {% if entry.code %}<a href="{{ entry.code }}">Code {% include lab-arrow.html %}</a>{% endif %}
-      {% if entry.dataset_url %}<a href="{{ entry.dataset_url }}">Dataset {% include lab-arrow.html %}</a>{% endif %}
-      {% if entry.demo %}<a href="{{ entry.demo }}">Demo {% include lab-arrow.html %}</a>{% endif %}
+      {% if entry.url %}<a data-resource-type="paper" data-publication-key="{{ entry.key | escape }}" href="{{ entry.url | replace: '\_', '_' }}">{% if record.format == 'webarticle' %}Article{% elsif entry.note == 'Workshop description' %}Workshop{% elsif entry.note == 'Archived preprint' %}Archived paper{% else %}Paper{% endif %} {% include lab-arrow.html %}</a>{% endif %}
+      <a href="{{ record.bibtex_path | relative_url }}" download aria-label="BibTeX for {{ record.title | escape }}" data-resource-type="citation" data-publication-key="{{ entry.key | escape }}">BibTeX {% include lab-arrow.html %}</a>
+      {% if entry.code %}<a href="{{ entry.code }}" data-resource-type="code" data-publication-key="{{ entry.key | escape }}">Code {% include lab-arrow.html %}</a>{% endif %}
+      {% if entry.dataset_url %}<a href="{{ entry.dataset_url }}" data-resource-type="dataset" data-publication-key="{{ entry.key | escape }}">Dataset {% include lab-arrow.html %}</a>{% endif %}
+      {% if entry.demo %}<a href="{{ entry.demo }}" data-resource-type="demo" data-publication-key="{{ entry.key | escape }}">Demo {% include lab-arrow.html %}</a>{% endif %}
       {% if entry.press_name0 %}<a href="{{ entry.press_url0 }}">{{ entry.press_name0 }} {% include lab-arrow.html %}</a>{% endif %}
       {% if entry.press_name1 %}<a href="{{ entry.press_url1 }}">{{ entry.press_name1 }} {% include lab-arrow.html %}</a>{% endif %}
       {% if entry.press_name2 %}<a href="{{ entry.press_url2 }}">{{ entry.press_name2 }} {% include lab-arrow.html %}</a>{% endif %}
@@ -25,5 +26,5 @@
     </div>
     {% if entry.abstract %}<details class="bib-abstract"><summary>Read abstract</summary><p>{{ entry.abstract }}</p></details>{% endif %}
   </div>
-  {% if entry.image %}<img class="bib-image" src="{{ entry.image | relative_url }}" alt="Figure from {{ entry.title | escape }}" loading="lazy" width="180" height="120">{% endif %}
+  {% if entry.image %}{% if entry.key == 'zhou2022paraphrase' %}<img class="bib-image" src="{{ '/assets/images/publications/paraphrase_preprint-180.webp' | relative_url }}" srcset="{{ '/assets/images/publications/paraphrase_preprint-180.webp' | relative_url }} 180w, {{ '/assets/images/publications/paraphrase_preprint-360.webp' | relative_url }} 360w" sizes="(max-width: 600px) 75px, (max-width: 960px) 90px, 130px" alt="Figure from {{ entry.title | escape }}" loading="lazy" width="180" height="204">{% else %}<img class="bib-image" src="{{ entry.image | relative_url }}" alt="Figure from {{ entry.title | escape }}" loading="lazy" width="180" height="120">{% endif %}{% endif %}
 </article>

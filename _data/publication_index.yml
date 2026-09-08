@@ -5,6 +5,13 @@ acuna2008bayesian:
     bandit problem
   alternate_title: ''
   authors: Daniel Ernesto Acuna, Paul Schrater
+  author_list:
+  - name: Daniel Ernesto Acuna
+    given: Daniel Ernesto
+    family: Acuna
+  - name: Paul Schrater
+    given: Paul
+    family: Schrater
   authors_short: Daniel Ernesto Acuna, Paul Schrater
   year: '2008'
   year_label: '2008'
@@ -16,11 +23,46 @@ acuna2008bayesian:
   tags:
   - decision-making
   - reinforcement-learning
+  doi: ''
+  publication_date: '2008'
+  volume: '100'
+  issue: ''
+  pages: 200--300
+  publisher: ''
+  url: https://core.ac.uk/download/pdf/22874996.pdf
+  page_path:
+  bibtex_path: "/publications/citations/acuna2008bayesian.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Daniel Ernesto Acuna, Paul Schrater (2008). Bayesian modeling of human
+    sequential decision-making on the multi-armed bandit problem. Proceedings of the
+    30th annual conference of the cognitive science society.
+  bibtex: |+
+    @inproceedings{acuna2008bayesian,
+      title = {Bayesian modeling of human sequential decision-making on the multi-armed bandit problem},
+      author = {Acuna, Daniel Ernesto and Schrater, Paul},
+      year = {2008},
+      booktitle = {Proceedings of the 30th annual conference of the cognitive science society},
+      volume = {100},
+      pages = {200--300},
+      url = {https://core.ac.uk/download/pdf/22874996.pdf}
+    }
+
 acuna2008structure:
   key: acuna2008structure
   title: Structure learning in human sequential decision-making
   alternate_title: ''
   authors: Daniel E Acuna, Paul Schrater
+  author_list:
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Paul Schrater
+    given: Paul
+    family: Schrater
   authors_short: Daniel E Acuna, Paul Schrater
   year: '2008'
   year_label: '2008'
@@ -33,11 +75,45 @@ acuna2008structure:
   tags:
   - decision-making
   - reinforcement-learning
+  doi: ''
+  publication_date: '2008'
+  volume: ''
+  issue: ''
+  pages: 1--8
+  publisher: ''
+  url: https://dl.acm.org/doi/abs/10.5555/2981780.2981781
+  page_path:
+  bibtex_path: "/publications/citations/acuna2008structure.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Daniel E Acuna, Paul Schrater (2008). Structure learning in human sequential
+    decision-making. Proceedings of the 21st International Conference on Neural Information
+    Processing Systems.
+  bibtex: |+
+    @inproceedings{acuna2008structure,
+      title = {Structure learning in human sequential decision-making},
+      author = {Acuna, Daniel E and Schrater, Paul},
+      year = {2008},
+      booktitle = {Proceedings of the 21st International Conference on Neural Information Processing Systems},
+      pages = {1--8},
+      url = {https://dl.acm.org/doi/abs/10.5555/2981780.2981781}
+    }
+
 acuna2009improving:
   key: acuna2009improving
   title: Improving bayesian reinforcement learning using transition abstraction
   alternate_title: ''
   authors: Daniel E Acuna, Paul Schrater
+  author_list:
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Paul Schrater
+    given: Paul
+    family: Schrater
   authors_short: Daniel E Acuna, Paul Schrater
   year: '2009'
   year_label: '2009'
@@ -50,13 +126,47 @@ acuna2009improving:
   tags:
   - reinforcement-learning
   - decision-making
+  doi: ''
+  publication_date: '2009'
+  volume: ''
+  issue: ''
+  pages: '1'
+  publisher: ''
+  url: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.147.5877&rep=rep1&type=pdf
+  page_path:
+  bibtex_path: "/publications/citations/acuna2009improving.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Daniel E Acuna, Paul Schrater (2009). Improving bayesian reinforcement
+    learning using transition abstraction. Proceedings of the ICML/UAI/COLT Workshop
+    on Abstraction in Reinforcement Learning.
+  bibtex: |+
+    @article{acuna2009improving,
+      title = {Improving bayesian reinforcement learning using transition abstraction},
+      author = {Acuna, Daniel E and Schrater, Paul},
+      year = {2009},
+      journal = {Proceedings of the ICML/UAI/COLT Workshop on Abstraction in Reinforcement Learning},
+      pages = {1},
+      url = {https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.147.5877&rep=rep1&type=pdf}
+    }
+
 acuna2010people:
   key: acuna2010people
   title: People efficiently explore the solution space of the computationally intractable
     traveling salesman problem to find near-optimal tours
   alternate_title: ''
-  authors: Daniel E Acuna, V{\'\i}ctor Parada
-  authors_short: Daniel E Acuna, V{\'\i}ctor Parada
+  authors: Daniel E Acuna, Víctor Parada
+  author_list:
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Víctor Parada
+    given: Víctor
+    family: Parada
+  authors_short: Daniel E Acuna, Víctor Parada
   year: '2010'
   year_label: '2010'
   format: article
@@ -66,11 +176,48 @@ acuna2010people:
   - foundations
   tags:
   - decision-making
+  doi: ''
+  publication_date: '2010'
+  volume: '5'
+  issue: '7'
+  pages: e11685
+  publisher: Public Library of Science San Francisco, USA
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011685
+  page_path:
+  bibtex_path: "/publications/citations/acuna2010people.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Daniel E Acuna, Víctor Parada (2010). People efficiently explore the solution
+    space of the computationally intractable traveling salesman problem to find near-optimal
+    tours. PloS ONE.
+  bibtex: |+
+    @article{acuna2010people,
+      title = {People efficiently explore the solution space of the computationally intractable traveling salesman problem to find near-optimal tours},
+      author = {Acuna, Daniel E and Parada, V{\'\i}ctor},
+      year = {2010},
+      journal = {PloS ONE},
+      volume = {5},
+      number = {7},
+      pages = {e11685},
+      publisher = {Public Library of Science San Francisco, USA},
+      url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011685}
+    }
+
 acuna2010structure:
   key: acuna2010structure
   title: Structure learning in human sequential decision-making
   alternate_title: ''
   authors: Daniel E Acuna, Paul Schrater
+  author_list:
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Paul Schrater
+    given: Paul
+    family: Schrater
   authors_short: Daniel E Acuna, Paul Schrater
   year: '2010'
   year_label: '2010'
@@ -82,12 +229,64 @@ acuna2010structure:
   tags:
   - decision-making
   - reinforcement-learning
+  doi: 10.1371/journal.pcbi.1001003
+  publication_date: '2010-12-02'
+  volume: '6'
+  issue: '12'
+  pages: e1001003
+  publisher: Public Library of Science San Francisco, USA
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1001003
+  page_path: "/publications/structure-learning/"
+  bibtex_path: "/publications/citations/acuna2010structure.bib"
+  summary: Behavior that looks inefficient under a fixed model can make sense when
+    a person is also learning how the environment works. This study connects human
+    choices in sequential reward tasks with Bayesian models that learn both rewards
+    and the structure that generates them.
+  abstract: Studies of sequential decision-making in humans frequently find suboptimal
+    performance relative to an ideal actor that has perfect knowledge of the model
+    of how rewards and events are generated in the environment. Rather than being
+    suboptimal, we argue that the learning problem humans face is more complex, in
+    that it also involves learning the structure of reward generation in the environment.
+    We formulate the problem of structure learning in sequential decision tasks using
+    Bayesian reinforcement learning, and show that learning the generative model for
+    rewards qualitatively changes the behavior of an optimal learning agent. To test
+    whether people exhibit structure learning, we performed experiments involving
+    a mixture of one-armed and two-armed bandit reward models, where structure learning
+    produces many of the qualitative behaviors deemed suboptimal in previous studies.
+    Our results demonstrate humans can perform structure learning in a near-optimal
+    manner.
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: "/publications/structure-learning/paper.pdf"
+  citation: Daniel E Acuna, Paul Schrater (2010). Structure learning in human sequential
+    decision-making. PLoS computational biology. https://doi.org/10.1371/journal.pcbi.1001003
+  bibtex: |+
+    @article{acuna2010structure,
+      title = {Structure learning in human sequential decision-making},
+      author = {Acuna, Daniel E and Schrater, Paul},
+      year = {2010},
+      publication_date = {2010-12-02},
+      journal = {PLoS computational biology},
+      volume = {6},
+      number = {12},
+      pages = {e1001003},
+      publisher = {Public Library of Science San Francisco, USA},
+      doi = {10.1371/journal.pcbi.1001003},
+      url = {https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1001003}
+    }
+
 acuna2011rational:
   key: acuna2011rational
   title: Rational Bayesian Analysis of Sequential Decision-Making Under Uncertainty
     In Humans and Machines
   alternate_title: ''
   authors: Daniel Ernesto Acuna
+  author_list:
+  - name: Daniel Ernesto Acuna
+    given: Daniel Ernesto
+    family: Acuna
   authors_short: Daniel Ernesto Acuna
   year: '2011'
   year_label: '2011'
@@ -99,6 +298,31 @@ acuna2011rational:
   tags:
   - decision-making
   - reinforcement-learning
+  doi: ''
+  publication_date: '2011'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://dl.acm.org/doi/book/10.5555/2521677
+  page_path:
+  bibtex_path: "/publications/citations/acuna2011rational.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Daniel Ernesto Acuna (2011). Rational Bayesian Analysis of Sequential
+    Decision-Making Under Uncertainty In Humans and Machines. University of Minnesota.
+  bibtex: |+
+    @phdthesis{acuna2011rational,
+      title = {Rational Bayesian Analysis of Sequential Decision-Making Under Uncertainty In Humans and Machines},
+      author = {Acuna, Daniel Ernesto},
+      year = {2011},
+      school = {University of Minnesota},
+      url = {https://dl.acm.org/doi/book/10.5555/2521677}
+    }
+
 avraham2012toward:
   key: avraham2012toward
   title: 'Toward perceiving robots as humans: Three handshake models face the turing-like
@@ -106,6 +330,28 @@ avraham2012toward:
   alternate_title: ''
   authors: Guy Avraham, Ilana Nisky, Hugo L Fernandes, Daniel E Acuna, Konrad P Kording,
     Gerald E Loeb, Amir Karniel
+  author_list:
+  - name: Guy Avraham
+    given: Guy
+    family: Avraham
+  - name: Ilana Nisky
+    given: Ilana
+    family: Nisky
+  - name: Hugo L Fernandes
+    given: Hugo L
+    family: Fernandes
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Konrad P Kording
+    given: Konrad P
+    family: Kording
+  - name: Gerald E Loeb
+    given: Gerald E
+    family: Loeb
+  - name: Amir Karniel
+    given: Amir
+    family: Karniel
   authors_short: Guy Avraham, Ilana Nisky, Hugo L Fernandes, et al.
   year: '2012'
   year_label: '2012'
@@ -117,11 +363,52 @@ avraham2012toward:
   tags:
   - human-computer-interaction
   - perception
+  doi: ''
+  publication_date: '2012'
+  volume: '5'
+  issue: '3'
+  pages: 196--207
+  publisher: IEEE
+  url: https://ieeexplore.ieee.org/abstract/document/6185551
+  page_path:
+  bibtex_path: "/publications/citations/avraham2012toward.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Guy Avraham, Ilana Nisky, Hugo L Fernandes, Daniel E Acuna, Konrad P
+    Kording, Gerald E Loeb, Amir Karniel (2012). Toward perceiving robots as humans:
+    Three handshake models face the turing-like handshake test. IEEE Transactions
+    on Haptics.'
+  bibtex: |+
+    @article{avraham2012toward,
+      title = {Toward perceiving robots as humans: Three handshake models face the turing-like handshake test},
+      author = {Avraham, Guy and Nisky, Ilana and Fernandes, Hugo L and Acuna, Daniel E and Kording, Konrad P and Loeb, Gerald E and Karniel, Amir},
+      year = {2012},
+      journal = {IEEE Transactions on Haptics},
+      volume = {5},
+      number = {3},
+      pages = {196--207},
+      publisher = {IEEE},
+      url = {https://ieeexplore.ieee.org/abstract/document/6185551}
+    }
+
 acuna2012predicting:
   key: acuna2012predicting
   title: Predicting scientific success
   alternate_title: ''
   authors: Daniel E Acuna, Stefano Allesina, Konrad P Kording
+  author_list:
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Stefano Allesina
+    given: Stefano
+    family: Allesina
+  - name: Konrad P Kording
+    given: Konrad P
+    family: Kording
   authors_short: Daniel E Acuna, Stefano Allesina, Konrad P Kording
   year: '2012'
   year_label: '2012'
@@ -133,11 +420,50 @@ acuna2012predicting:
   tags:
   - careers
   - citation-analysis
+  doi: ''
+  publication_date: '2012'
+  volume: '489'
+  issue: '7415'
+  pages: 201--202
+  publisher: Nature Publishing Group
+  url: https://www.nature.com/articles/489201a
+  page_path:
+  bibtex_path: "/publications/citations/acuna2012predicting.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Daniel E Acuna, Stefano Allesina, Konrad P Kording (2012). Predicting
+    scientific success. Nature.
+  bibtex: |+
+    @article{acuna2012predicting,
+      title = {Predicting scientific success},
+      author = {Acuna, Daniel E and Allesina, Stefano and Kording, Konrad P},
+      year = {2012},
+      journal = {Nature},
+      volume = {489},
+      number = {7415},
+      pages = {201--202},
+      publisher = {Nature Publishing Group},
+      url = {https://www.nature.com/articles/489201a}
+    }
+
 acuna2013future:
   key: acuna2013future
   title: The future h-index is an excellent way to predict scientistsˈ future impact
   alternate_title: ''
   authors: Daniel E Acuna, Orion Penner, Colin G Orton
+  author_list:
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Orion Penner
+    given: Orion
+    family: Penner
+  - name: Colin G Orton
+    given: Colin G
+    family: Orton
   authors_short: Daniel E Acuna, Orion Penner, Colin G Orton
   year: '2013'
   year_label: '2013'
@@ -149,12 +475,65 @@ acuna2013future:
   tags:
   - careers
   - citation-analysis
+  doi: ''
+  publication_date: '2013'
+  volume: '40'
+  issue: '11'
+  pages: ''
+  publisher: Wiley Online Library
+  url: https://aapm.onlinelibrary.wiley.com/doi/pdfdirect/10.1118/1.4816659
+  page_path:
+  bibtex_path: "/publications/citations/acuna2013future.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Daniel E Acuna, Orion Penner, Colin G Orton (2013). The future h-index
+    is an excellent way to predict scientistsˈ future impact. Medical Physics.
+  bibtex: |+
+    @article{acuna2013future,
+      title = {The future h-index is an excellent way to predict scientistsˈ future impact},
+      author = {Acuna, Daniel E and Penner, Orion and Orton, Colin G},
+      year = {2013},
+      journal = {Medical Physics},
+      volume = {40},
+      number = {11},
+      publisher = {Wiley Online Library},
+      url = {https://aapm.onlinelibrary.wiley.com/doi/pdfdirect/10.1118/1.4816659}
+    }
+
 acuna2014multifaceted:
   key: acuna2014multifaceted
   title: Multifaceted aspects of chunking enable robust algorithms
   alternate_title: ''
   authors: Daniel E Acuna, Nicholas F Wymbs, Chelsea A Reynolds, Nathalie Picard,
     Robert S Turner, Peter L Strick, Scott T Grafton, Konrad P Kording
+  author_list:
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Nicholas F Wymbs
+    given: Nicholas F
+    family: Wymbs
+  - name: Chelsea A Reynolds
+    given: Chelsea A
+    family: Reynolds
+  - name: Nathalie Picard
+    given: Nathalie
+    family: Picard
+  - name: Robert S Turner
+    given: Robert S
+    family: Turner
+  - name: Peter L Strick
+    given: Peter L
+    family: Strick
+  - name: Scott T Grafton
+    given: Scott T
+    family: Grafton
+  - name: Konrad P Kording
+    given: Konrad P
+    family: Kording
   authors_short: Daniel E Acuna, Nicholas F Wymbs, Chelsea A Reynolds, et al.
   year: '2014'
   year_label: '2014'
@@ -166,11 +545,54 @@ acuna2014multifaceted:
   tags:
   - neuroscience
   - decision-making
+  doi: ''
+  publication_date: '2014'
+  volume: '112'
+  issue: '8'
+  pages: 1849--1856
+  publisher: American Physiological Society Bethesda, MD
+  url: https://journals.physiology.org/doi/full/10.1152/jn.00028.2014
+  page_path:
+  bibtex_path: "/publications/citations/acuna2014multifaceted.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Daniel E Acuna, Nicholas F Wymbs, Chelsea A Reynolds, Nathalie Picard,
+    Robert S Turner, Peter L Strick, Scott T Grafton, Konrad P Kording (2014). Multifaceted
+    aspects of chunking enable robust algorithms. Journal of neurophysiology.
+  bibtex: |+
+    @article{acuna2014multifaceted,
+      title = {Multifaceted aspects of chunking enable robust algorithms},
+      author = {Acuna, Daniel E and Wymbs, Nicholas F and Reynolds, Chelsea A and Picard, Nathalie and Turner, Robert S and Strick, Peter L and Grafton, Scott T and Kording, Konrad P},
+      year = {2014},
+      journal = {Journal of neurophysiology},
+      volume = {112},
+      number = {8},
+      pages = {1849--1856},
+      publisher = {American Physiological Society Bethesda, MD},
+      url = {https://journals.physiology.org/doi/full/10.1152/jn.00028.2014}
+    }
+
 acuna2015using:
   key: acuna2015using
   title: Using psychophysics to ask if the brain samples or maximizes
   alternate_title: ''
   authors: Daniel E Acuna, Max Berniker, Hugo L Fernandes, Konrad P Kording
+  author_list:
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Max Berniker
+    given: Max
+    family: Berniker
+  - name: Hugo L Fernandes
+    given: Hugo L
+    family: Fernandes
+  - name: Konrad P Kording
+    given: Konrad P
+    family: Kording
   authors_short: Daniel E Acuna, Max Berniker, Hugo L Fernandes, et al.
   year: '2015'
   year_label: '2015'
@@ -182,12 +604,60 @@ acuna2015using:
   tags:
   - perception
   - decision-making
+  doi: ''
+  publication_date: '2015'
+  volume: '15'
+  issue: '3'
+  pages: 7--7
+  publisher: The Association for Research in Vision and Ophthalmology
+  url: https://jov.arvojournals.org/article.aspx?articleid=2213288
+  page_path:
+  bibtex_path: "/publications/citations/acuna2015using.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Daniel E Acuna, Max Berniker, Hugo L Fernandes, Konrad P Kording (2015).
+    Using psychophysics to ask if the brain samples or maximizes. Journal of vision.
+  bibtex: |+
+    @article{acuna2015using,
+      title = {Using psychophysics to ask if the brain samples or maximizes},
+      author = {Acuna, Daniel E and Berniker, Max and Fernandes, Hugo L and Kording, Konrad P},
+      year = {2015},
+      journal = {Journal of vision},
+      volume = {15},
+      number = {3},
+      pages = {7--7},
+      publisher = {The Association for Research in Vision and Ophthalmology},
+      url = {https://jov.arvojournals.org/article.aspx?articleid=2213288}
+    }
+
 ramkumar2016chunking:
   key: ramkumar2016chunking
   title: Chunking as the result of an efficiency computation trade-off
   alternate_title: ''
   authors: Pavan Ramkumar, Daniel E Acuna, Max Berniker, Scott T Grafton, Robert S
     Turner, Konrad P Kording
+  author_list:
+  - name: Pavan Ramkumar
+    given: Pavan
+    family: Ramkumar
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Max Berniker
+    given: Max
+    family: Berniker
+  - name: Scott T Grafton
+    given: Scott T
+    family: Grafton
+  - name: Robert S Turner
+    given: Robert S
+    family: Turner
+  - name: Konrad P Kording
+    given: Konrad P
+    family: Kording
   authors_short: Pavan Ramkumar, Daniel E Acuna, Max Berniker, et al.
   year: '2016'
   year_label: '2016'
@@ -199,11 +669,54 @@ ramkumar2016chunking:
   tags:
   - neuroscience
   - decision-making
+  doi: ''
+  publication_date: '2016'
+  volume: '7'
+  issue: '1'
+  pages: 1--11
+  publisher: Nature Publishing Group
+  url: https://www.nature.com/articles/ncomms12176
+  page_path:
+  bibtex_path: "/publications/citations/ramkumar2016chunking.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Pavan Ramkumar, Daniel E Acuna, Max Berniker, Scott T Grafton, Robert
+    S Turner, Konrad P Kording (2016). Chunking as the result of an efficiency computation
+    trade-off. Nature communications.
+  bibtex: |+
+    @article{ramkumar2016chunking,
+      title = {Chunking as the result of an efficiency computation trade-off},
+      author = {Ramkumar, Pavan and Acuna, Daniel E and Berniker, Max and Grafton, Scott T and Turner, Robert S and Kording, Konrad P},
+      year = {2016},
+      journal = {Nature communications},
+      volume = {7},
+      number = {1},
+      pages = {1--11},
+      publisher = {Nature Publishing Group},
+      url = {https://www.nature.com/articles/ncomms12176}
+    }
+
 ethier2016adaptive:
   key: ethier2016adaptive
   title: Adaptive neuron-to-EMG decoder training for FES neuroprostheses
   alternate_title: ''
   authors: Christian Ethier, Daniel Acuna, Sara A Solla, Lee E Miller
+  author_list:
+  - name: Christian Ethier
+    given: Christian
+    family: Ethier
+  - name: Daniel Acuna
+    given: Daniel
+    family: Acuna
+  - name: Sara A Solla
+    given: Sara A
+    family: Solla
+  - name: Lee E Miller
+    given: Lee E
+    family: Miller
   authors_short: Christian Ethier, Daniel Acuna, Sara A Solla, et al.
   year: '2016'
   year_label: '2016'
@@ -215,12 +728,54 @@ ethier2016adaptive:
   tags:
   - neuroscience
   - statistical-methods
+  doi: ''
+  publication_date: '2016'
+  volume: '13'
+  issue: '4'
+  pages: '046009'
+  publisher: IOP Publishing
+  url: https://iopscience.iop.org/article/10.1088/1741-2560/13/4/046009
+  page_path:
+  bibtex_path: "/publications/citations/ethier2016adaptive.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Christian Ethier, Daniel Acuna, Sara A Solla, Lee E Miller (2016). Adaptive
+    neuron-to-EMG decoder training for FES neuroprostheses. Journal of neural engineering.
+  bibtex: |+
+    @article{ethier2016adaptive,
+      title = {Adaptive neuron-to-EMG decoder training for FES neuroprostheses},
+      author = {Ethier, Christian and Acuna, Daniel and Solla, Sara A and Miller, Lee E},
+      year = {2016},
+      journal = {Journal of neural engineering},
+      volume = {13},
+      number = {4},
+      pages = {046009},
+      publisher = {IOP Publishing},
+      url = {https://iopscience.iop.org/article/10.1088/1741-2560/13/4/046009}
+    }
+
 achakulvisut2016science:
   key: achakulvisut2016science
   title: 'Science Concierge: A fast content-based recommendation system for scientific
     publications'
   alternate_title: ''
   authors: Titipat Achakulvisut, Daniel E Acuna, Tulakan Ruangrong, Konrad Kording
+  author_list:
+  - name: Titipat Achakulvisut
+    given: Titipat
+    family: Achakulvisut
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Tulakan Ruangrong
+    given: Tulakan
+    family: Ruangrong
+  - name: Konrad Kording
+    given: Konrad
+    family: Kording
   authors_short: Titipat Achakulvisut, Daniel E Acuna, Tulakan Ruangrong, et al.
   year: '2016'
   year_label: '2016'
@@ -233,12 +788,49 @@ achakulvisut2016science:
   - research-recommendation
   - recommender-systems
   - text-mining
+  doi: ''
+  publication_date: '2016'
+  volume: '11'
+  issue: '7'
+  pages: e0158423
+  publisher: Public Library of Science San Francisco, CA USA
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158423
+  page_path:
+  bibtex_path: "/publications/citations/achakulvisut2016science.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Titipat Achakulvisut, Daniel E Acuna, Tulakan Ruangrong, Konrad Kording
+    (2016). Science Concierge: A fast content-based recommendation system for scientific
+    publications. PloS ONE.'
+  bibtex: |+
+    @article{achakulvisut2016science,
+      title = {Science Concierge: A fast content-based recommendation system for scientific publications},
+      author = {Achakulvisut, Titipat and Acuna, Daniel E and Ruangrong, Tulakan and Kording, Konrad},
+      year = {2016},
+      journal = {PloS ONE},
+      volume = {11},
+      number = {7},
+      pages = {e0158423},
+      publisher = {Public Library of Science San Francisco, CA USA},
+      url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158423}
+    }
+
 shema2017show:
   key: shema2017show
   title: 'Show Me Your App Usage and I Will Tell Who Your Close Friends Are: Predicting
-    User''s Context from Simple Cellphone Activity'
+    User’s Context from Simple Cellphone Activity'
   alternate_title: ''
   authors: Alain Shema, Daniel E Acuna
+  author_list:
+  - name: Alain Shema
+    given: Alain
+    family: Shema
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
   authors_short: Alain Shema, Daniel E Acuna
   year: '2017'
   year_label: '2017'
@@ -250,11 +842,49 @@ shema2017show:
   - foundations
   tags:
   - human-computer-interaction
+  doi: ''
+  publication_date: '2017'
+  volume: ''
+  issue: ''
+  pages: 2929--2935
+  publisher: ''
+  url: https://dl.acm.org/doi/abs/10.1145/3027063.3053275
+  page_path:
+  bibtex_path: "/publications/citations/shema2017show.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Alain Shema, Daniel E Acuna (2017). Show Me Your App Usage and I Will
+    Tell Who Your Close Friends Are: Predicting User’s Context from Simple Cellphone
+    Activity. Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors
+    in Computing Systems.'
+  bibtex: |+
+    @inproceedings{shema2017show,
+      title = {Show Me Your App Usage and I Will Tell Who Your Close Friends Are: Predicting User's Context from Simple Cellphone Activity},
+      author = {Shema, Alain and Acuna, Daniel E},
+      year = {2017},
+      booktitle = {Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
+      pages = {2929--2935},
+      url = {https://dl.acm.org/doi/abs/10.1145/3027063.3053275}
+    }
+
 acuna2018bioscience:
   key: acuna2018bioscience
   title: Bioscience-scale automated detection of figure element reuse
   alternate_title: ''
   authors: Daniel E Acuna, Paul S Brookes, Konrad P Kording
+  author_list:
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Paul S Brookes
+    given: Paul S
+    family: Brookes
+  - name: Konrad P Kording
+    given: Konrad P
+    family: Kording
   authors_short: Daniel E Acuna, Paul S Brookes, Konrad P Kording
   year: '2018'
   year_label: 2018 · Preprint / working paper
@@ -266,14 +896,57 @@ acuna2018bioscience:
   tags:
   - figure-integrity
   - image-forensics
+  doi: ''
+  publication_date: '2018'
+  volume: ''
+  issue: ''
+  pages: '269415'
+  publisher: Cold Spring Harbor Laboratory
+  url: https://www.biorxiv.org/content/10.1101/269415v3
+  page_path:
+  bibtex_path: "/publications/citations/acuna2018bioscience.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Daniel E Acuna, Paul S Brookes, Konrad P Kording (2018). Bioscience-scale
+    automated detection of figure element reuse. BioRxiv.
+  bibtex: |+
+    @article{acuna2018bioscience,
+      title = {Bioscience-scale automated detection of figure element reuse},
+      author = {Acuna, Daniel E and Brookes, Paul S and Kording, Konrad P},
+      year = {2018},
+      journal = {BioRxiv},
+      pages = {269415},
+      publisher = {Cold Spring Harbor Laboratory},
+      url = {https://www.biorxiv.org/content/10.1101/269415v3}
+    }
+
 teplitskiy2018sociology:
   key: teplitskiy2018sociology
   title: 'The sociology of scientific validity: How professional networks shape judgement
     in peer review'
   alternate_title: ''
-  authors: Misha Teplitskiy, Daniel Acuna, A{\"\i}da Elamrani-Raoult, Konrad K{\"o}rding,
+  authors: Misha Teplitskiy, Daniel Acuna, Aı̈da Elamrani-Raoult, Konrad Körding,
     James Evans
-  authors_short: Misha Teplitskiy, Daniel Acuna, A{\"\i}da Elamrani-Raoult, et al.
+  author_list:
+  - name: Misha Teplitskiy
+    given: Misha
+    family: Teplitskiy
+  - name: Daniel Acuna
+    given: Daniel
+    family: Acuna
+  - name: Aı̈da Elamrani-Raoult
+    given: Aı̈da
+    family: Elamrani-Raoult
+  - name: Konrad Körding
+    given: Konrad
+    family: Körding
+  - name: James Evans
+    given: James
+    family: Evans
+  authors_short: Misha Teplitskiy, Daniel Acuna, Aı̈da Elamrani-Raoult, et al.
   year: '2018'
   year_label: '2018'
   format: article
@@ -287,12 +960,55 @@ teplitskiy2018sociology:
   - peer-review
   - review-bias
   - collaboration
+  doi: ''
+  publication_date: '2018'
+  volume: '47'
+  issue: '9'
+  pages: 1825--1841
+  publisher: Elsevier
+  url: https://www.sciencedirect.com/science/article/pii/S0048733318301598
+  page_path:
+  bibtex_path: "/publications/citations/teplitskiy2018sociology.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Misha Teplitskiy, Daniel Acuna, Aı̈da Elamrani-Raoult, Konrad Körding,
+    James Evans (2018). The sociology of scientific validity: How professional networks
+    shape judgement in peer review. Research Policy.'
+  bibtex: |+
+    @article{teplitskiy2018sociology,
+      title = {The sociology of scientific validity: How professional networks shape judgement in peer review},
+      author = {Teplitskiy, Misha and Acuna, Daniel and Elamrani-Raoult, A{\"\i}da and K{\"o}rding, Konrad and Evans, James},
+      year = {2018},
+      journal = {Research Policy},
+      volume = {47},
+      number = {9},
+      pages = {1825--1841},
+      publisher = {Elsevier},
+      url = {https://www.sciencedirect.com/science/article/pii/S0048733318301598}
+    }
+
 lienard2018intellectual:
   key: lienard2018intellectual
   title: Intellectual synthesis in mentorship determines success in academic careers
   alternate_title: ''
-  authors: Jean F Li{\'e}nard, Titipat Achakulvisut, Daniel E Acuna, Stephen V David
-  authors_short: Jean F Li{\'e}nard, Titipat Achakulvisut, Daniel E Acuna, et al.
+  authors: Jean F Liénard, Titipat Achakulvisut, Daniel E Acuna, Stephen V David
+  author_list:
+  - name: Jean F Liénard
+    given: Jean F
+    family: Liénard
+  - name: Titipat Achakulvisut
+    given: Titipat
+    family: Achakulvisut
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Stephen V David
+    given: Stephen V
+    family: David
+  authors_short: Jean F Liénard, Titipat Achakulvisut, Daniel E Acuna, et al.
   year: '2018'
   year_label: '2018'
   format: article
@@ -304,28 +1020,130 @@ lienard2018intellectual:
   - mentorship
   - careers
   - interdisciplinarity
+  doi: 10.1038/s41467-018-07034-y
+  publication_date: '2018-11-27'
+  volume: '9'
+  issue: '1'
+  pages: 1--13
+  publisher: Nature Publishing Group
+  url: https://www.nature.com/articles/s41467-018-07034-y
+  page_path: "/publications/intellectual-synthesis-mentorship/"
+  bibtex_path: "/publications/citations/lienard2018intellectual.bib"
+  summary: This observational study examines how graduate and postdoctoral mentorship
+    relate to later academic careers. It asks whether combining ideas from mentors
+    with different expertise predicts a trainee's subsequent success.
+  abstract: As academic careers become more competitive, junior scientists need to
+    understand the value that mentorship brings to their success in academia. Previous
+    research has found that, unsurprisingly, successful mentors tend to train successful
+    students. But what characteristics of this relationship predict success, and how?
+    We analyzed an open-access database of 18,856 researchers who have undergone both
+    graduate and postdoctoral training, compiled across several fields of biomedical
+    science with an emphasis on neuroscience. Our results show that postdoctoral mentors
+    were more instrumental to trainees’ success compared to graduate mentors. Trainees’
+    success in academia was also predicted by the degree of intellectual synthesis
+    between their graduate and postdoctoral mentors. Researchers were more likely
+    to succeed if they trained under mentors with disparate expertise and integrated
+    that expertise into their own work. This pattern has held up over at least 40
+    years, despite fluctuations in the number of students and availability of independent
+    research positions.
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: "/publications/intellectual-synthesis-mentorship/paper.pdf"
+  citation: Jean F Liénard, Titipat Achakulvisut, Daniel E Acuna, Stephen V David
+    (2018). Intellectual synthesis in mentorship determines success in academic careers.
+    Nature communications. https://doi.org/10.1038/s41467-018-07034-y
+  bibtex: |+
+    @article{lienard2018intellectual,
+      title = {Intellectual synthesis in mentorship determines success in academic careers},
+      author = {Li{\'e}nard, Jean F and Achakulvisut, Titipat and Acuna, Daniel E and David, Stephen V},
+      year = {2018},
+      publication_date = {2018-11-27},
+      journal = {Nature communications},
+      volume = {9},
+      number = {1},
+      pages = {1--13},
+      publisher = {Nature Publishing Group},
+      doi = {10.1038/s41467-018-07034-y},
+      url = {https://www.nature.com/articles/s41467-018-07034-y}
+    }
+
 lee2019limiting:
   key: lee2019limiting
   title: Limiting motor skill knowledge via incidental training protects against choking
     under pressure
   alternate_title: ''
   authors: Taraz G Lee, Daniel E Acuna, Konrad P Kording, Scott T Grafton
+  author_list:
+  - name: Taraz G Lee
+    given: Taraz G
+    family: Lee
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Konrad P Kording
+    given: Konrad P
+    family: Kording
+  - name: Scott T Grafton
+    given: Scott T
+    family: Grafton
   authors_short: Taraz G Lee, Daniel E Acuna, Konrad P Kording, et al.
   year: '2019'
   year_label: '2019'
   format: article
   format_label: ''
-  venue: Psychonomic bulletin \& review
+  venue: Psychonomic bulletin & review
   topics:
   - foundations
   tags:
   - neuroscience
+  doi: ''
+  publication_date: '2019'
+  volume: '26'
+  issue: '1'
+  pages: 279--290
+  publisher: Springer
+  url: https://link.springer.com/article/10.3758/s13423-018-1486-x
+  page_path:
+  bibtex_path: "/publications/citations/lee2019limiting.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Taraz G Lee, Daniel E Acuna, Konrad P Kording, Scott T Grafton (2019).
+    Limiting motor skill knowledge via incidental training protects against choking
+    under pressure. Psychonomic bulletin & review.
+  bibtex: |+
+    @article{lee2019limiting,
+      title = {Limiting motor skill knowledge via incidental training protects against choking under pressure},
+      author = {Lee, Taraz G and Acuna, Daniel E and Kording, Konrad P and Grafton, Scott T},
+      year = {2019},
+      journal = {Psychonomic bulletin \& review},
+      volume = {26},
+      number = {1},
+      pages = {279--290},
+      publisher = {Springer},
+      url = {https://link.springer.com/article/10.3758/s13423-018-1486-x}
+    }
+
 zeng2019dead:
   key: zeng2019dead
   title: 'Dead science: Most resources linked in biomedical articles disappear in
     eight years'
   alternate_title: ''
   authors: Tong Zeng, Alain Shema, Daniel E Acuna
+  author_list:
+  - name: Tong Zeng
+    given: Tong
+    family: Zeng
+  - name: Alain Shema
+    given: Alain
+    family: Shema
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
   authors_short: Tong Zeng, Alain Shema, Daniel E Acuna
   year: '2019'
   year_label: '2019'
@@ -338,12 +1156,46 @@ zeng2019dead:
   tags:
   - reproducibility
   - dataset-discovery
+  doi: ''
+  publication_date: '2019'
+  volume: ''
+  issue: ''
+  pages: 170--176
+  publisher: ''
+  url: https://link.springer.com/chapter/10.1007/978-3-030-15742-5_16
+  page_path:
+  bibtex_path: "/publications/citations/zeng2019dead.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Tong Zeng, Alain Shema, Daniel E Acuna (2019). Dead science: Most resources
+    linked in biomedical articles disappear in eight years. International Conference
+    on Information.'
+  bibtex: |+
+    @inproceedings{zeng2019dead,
+      title = {Dead science: Most resources linked in biomedical articles disappear in eight years},
+      author = {Zeng, Tong and Shema, Alain and Acuna, Daniel E},
+      year = {2019},
+      booktitle = {International Conference on Information},
+      pages = {170--176},
+      url = {https://link.springer.com/chapter/10.1007/978-3-030-15742-5_16}
+    }
+
 zeng2020finding:
   key: zeng2020finding
   title: 'Finding datasets in publications: the Syracuse University approach'
   alternate_title: Dataset Mention Extraction in Scientific Articles Using Bi-LSTM-CRF
     Model
   authors: Tong Zeng, Daniel E Acuna
+  author_list:
+  - name: Tong Zeng
+    given: Tong
+    family: Zeng
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
   authors_short: Tong Zeng, Daniel E Acuna
   year: '2020'
   year_label: '2020'
@@ -356,12 +1208,51 @@ zeng2020finding:
   - dataset-discovery
   - text-mining
   - scholarly-data
+  doi: 10.5281/zenodo.4402304
+  publication_date: '2020'
+  volume: ''
+  issue: ''
+  pages: 158--165
+  publisher: SAGE
+  url: https://surface.syr.edu/cgi/viewcontent.cgi?article=1194&context=istpub
+  page_path:
+  bibtex_path: "/publications/citations/zeng2020finding.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources:
+  - type: preprint
+    url: https://arxiv.org/abs/2405.13135
+  citation: 'Tong Zeng, Daniel E Acuna (2020). Finding datasets in publications: the
+    Syracuse University approach. Rich Search and Discovery for Research Datasets.
+    https://doi.org/10.5281/zenodo.4402304'
+  bibtex: |+
+    @incollection{zeng2020finding,
+      title = {Finding datasets in publications: the Syracuse University approach},
+      author = {Zeng, Tong and Acuna, Daniel E},
+      editor = {Lane, Julia I. and Mulvany, Ian and Nathan, Paco},
+      year = {2020},
+      booktitle = {Rich Search and Discovery for Research Datasets},
+      pages = {158--165},
+      publisher = {SAGE},
+      doi = {10.5281/zenodo.4402304},
+      url = {https://surface.syr.edu/cgi/viewcontent.cgi?article=1194&context=istpub}
+    }
+
 liang2020artificial:
   key: liang2020artificial
   title: 'Artificial mental phenomena: Psychophysics as a framework to detect perception
     biases in AI models'
   alternate_title: ''
   authors: Lizhen Liang, Daniel E Acuna
+  author_list:
+  - name: Lizhen Liang
+    given: Lizhen
+    family: Liang
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
   authors_short: Lizhen Liang, Daniel E Acuna
   year: '2020'
   year_label: '2020'
@@ -373,11 +1264,53 @@ liang2020artificial:
   tags:
   - ai-bias
   - perception
+  doi: ''
+  publication_date: '2020'
+  volume: ''
+  issue: ''
+  pages: 403--412
+  publisher: ''
+  url: https://dl.acm.org/doi/abs/10.1145/3351095.3375623
+  page_path:
+  bibtex_path: "/publications/citations/liang2020artificial.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources:
+  - type: code
+    url: https://github.com/LiamLiang/Bias_AI
+  citation: 'Lizhen Liang, Daniel E Acuna (2020). Artificial mental phenomena: Psychophysics
+    as a framework to detect perception biases in AI models. Proceedings of the 2020
+    Conference on Fairness, Accountability, and Transparency.'
+  bibtex: |+
+    @inproceedings{liang2020artificial,
+      title = {Artificial mental phenomena: Psychophysics as a framework to detect perception biases in AI models},
+      author = {Liang, Lizhen and Acuna, Daniel E},
+      year = {2020},
+      booktitle = {Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency},
+      pages = {403--412},
+      url = {https://dl.acm.org/doi/abs/10.1145/3351095.3375623}
+    }
+
 zeng2020assigning:
   key: zeng2020assigning
   title: Assigning credit to scientific datasets using article citation networks
   alternate_title: ''
   authors: Tong Zeng, Longfeng Wu, Sarah Bratt, Daniel E Acuna
+  author_list:
+  - name: Tong Zeng
+    given: Tong
+    family: Zeng
+  - name: Longfeng Wu
+    given: Longfeng
+    family: Wu
+  - name: Sarah Bratt
+    given: Sarah
+    family: Bratt
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
   authors_short: Tong Zeng, Longfeng Wu, Sarah Bratt, et al.
   year: '2020'
   year_label: '2020'
@@ -391,12 +1324,51 @@ zeng2020assigning:
   - dataset-discovery
   - citation-analysis
   - scholarly-data
+  doi: ''
+  publication_date: '2020'
+  volume: '14'
+  issue: '2'
+  pages: '101013'
+  publisher: Elsevier
+  url: https://www.sciencedirect.com/science/article/pii/S1751157719301841
+  page_path:
+  bibtex_path: "/publications/citations/zeng2020assigning.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Tong Zeng, Longfeng Wu, Sarah Bratt, Daniel E Acuna (2020). Assigning
+    credit to scientific datasets using article citation networks. Journal of Informetrics.
+  bibtex: |+
+    @article{zeng2020assigning,
+      title = {Assigning credit to scientific datasets using article citation networks},
+      author = {Zeng, Tong and Wu, Longfeng and Bratt, Sarah and Acuna, Daniel E},
+      year = {2020},
+      journal = {Journal of Informetrics},
+      volume = {14},
+      number = {2},
+      pages = {101013},
+      publisher = {Elsevier},
+      url = {https://www.sciencedirect.com/science/article/pii/S1751157719301841}
+    }
+
 achakulvisut2020pubmed:
   key: achakulvisut2020pubmed
   title: 'Pubmed parser: a python parser for pubmed open-access XML subset and MEDLINE
     XML dataset XML dataset'
   alternate_title: ''
   authors: Titipat Achakulvisut, Daniel E Acuna, Konrad Kording
+  author_list:
+  - name: Titipat Achakulvisut
+    given: Titipat
+    family: Achakulvisut
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
+  - name: Konrad Kording
+    given: Konrad
+    family: Kording
   authors_short: Titipat Achakulvisut, Daniel E Acuna, Konrad Kording
   year: '2020'
   year_label: '2020'
@@ -408,15 +1380,80 @@ achakulvisut2020pubmed:
   tags:
   - scholarly-data
   - text-mining
+  doi: ''
+  publication_date: '2020'
+  volume: '5'
+  issue: '46'
+  pages: '1979'
+  publisher: ''
+  url: https://joss.theoj.org/papers/10.21105/joss.01979
+  page_path:
+  bibtex_path: "/publications/citations/achakulvisut2020pubmed.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources:
+  - type: code
+    url: https://github.com/titipata/pubmed_parser
+  citation: 'Titipat Achakulvisut, Daniel E Acuna, Konrad Kording (2020). Pubmed parser:
+    a python parser for pubmed open-access XML subset and MEDLINE XML dataset XML
+    dataset. Journal of Open Source Software.'
+  bibtex: |+
+    @article{achakulvisut2020pubmed,
+      title = {Pubmed parser: a python parser for pubmed open-access XML subset and MEDLINE XML dataset XML dataset},
+      author = {Achakulvisut, Titipat and Acuna, Daniel E and Kording, Konrad},
+      year = {2020},
+      journal = {Journal of Open Source Software},
+      volume = {5},
+      number = {46},
+      pages = {1979},
+      url = {https://joss.theoj.org/papers/10.21105/joss.01979}
+    }
+
 jas2020pyglmnet:
   key: jas2020pyglmnet
   title: 'Pyglmnet: Python implementation of elastic-net regularized generalized linear
     models'
   alternate_title: ''
-  authors: Mainak Jas, Titipat Achakulvisut, Aid Idrizovi{\'c}, Daniel Ernesto Acuna,
+  authors: Mainak Jas, Titipat Achakulvisut, Aid Idrizović, Daniel Ernesto Acuna,
     Matthew Antalek, Vinicius Marques, Tommy Odland, Ravi Prakash Garg, Mayank Agrawal,
     Yu Umegaki, others
-  authors_short: Mainak Jas, Titipat Achakulvisut, Aid Idrizovi{\'c}, et al.
+  author_list:
+  - name: Mainak Jas
+    given: Mainak
+    family: Jas
+  - name: Titipat Achakulvisut
+    given: Titipat
+    family: Achakulvisut
+  - name: Aid Idrizović
+    given: Aid
+    family: Idrizović
+  - name: Daniel Ernesto Acuna
+    given: Daniel Ernesto
+    family: Acuna
+  - name: Matthew Antalek
+    given: Matthew
+    family: Antalek
+  - name: Vinicius Marques
+    given: Vinicius
+    family: Marques
+  - name: Tommy Odland
+    given: Tommy
+    family: Odland
+  - name: Ravi Prakash Garg
+    given: Ravi Prakash
+    family: Garg
+  - name: Mayank Agrawal
+    given: Mayank
+    family: Agrawal
+  - name: Yu Umegaki
+    given: Yu
+    family: Umegaki
+  - name: others
+    given: ''
+    family: others
+  authors_short: Mainak Jas, Titipat Achakulvisut, Aid Idrizović, et al.
   year: '2020'
   year_label: '2020'
   format: article
@@ -426,12 +1463,50 @@ jas2020pyglmnet:
   - foundations
   tags:
   - statistical-methods
+  doi: ''
+  publication_date: '2020'
+  volume: '5'
+  issue: '47'
+  pages: ''
+  publisher: ''
+  url: https://joss.theoj.org/papers/10.21105/joss.01959
+  page_path:
+  bibtex_path: "/publications/citations/jas2020pyglmnet.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources:
+  - type: code
+    url: https://github.com/glm-tools/pyglmnet
+  citation: 'Mainak Jas, Titipat Achakulvisut, Aid Idrizović, Daniel Ernesto Acuna,
+    Matthew Antalek, Vinicius Marques, Tommy Odland, Ravi Prakash Garg, Mayank Agrawal,
+    Yu Umegaki, others (2020). Pyglmnet: Python implementation of elastic-net regularized
+    generalized linear models. Journal of Open Source Software.'
+  bibtex: |+
+    @article{jas2020pyglmnet,
+      title = {Pyglmnet: Python implementation of elastic-net regularized generalized linear models},
+      author = {Jas, Mainak and Achakulvisut, Titipat and Idrizovi{\'c}, Aid and Acuna, Daniel Ernesto and Antalek, Matthew and Marques, Vinicius and Odland, Tommy and Garg, Ravi Prakash and Agrawal, Mayank and Umegaki, Yu and others},
+      year = {2020},
+      journal = {Journal of Open Source Software},
+      volume = {5},
+      number = {47},
+      url = {https://joss.theoj.org/papers/10.21105/joss.01959}
+    }
+
 zeng2020modeling:
   key: zeng2020modeling
   title: Modeling citation worthiness by using attention-based bidirectional long
     short-term memory networks and interpretable models
   alternate_title: ''
   authors: Tong Zeng, Daniel E Acuna
+  author_list:
+  - name: Tong Zeng
+    given: Tong
+    family: Zeng
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
   authors_short: Tong Zeng, Daniel E Acuna
   year: '2020'
   year_label: '2020'
@@ -445,11 +1520,52 @@ zeng2020modeling:
   - citation-practices
   - text-mining
   - scholarly-data
+  doi: ''
+  publication_date: '2020'
+  volume: '124'
+  issue: '1'
+  pages: 399--428
+  publisher: Springer
+  url: https://link.springer.com/article/10.1007/s11192-020-03421-9
+  page_path:
+  bibtex_path: "/publications/citations/zeng2020modeling.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources:
+  - type: code
+    url: https://github.com/sciosci/cite-worthiness
+  - type: demo
+    url: https://cite-worthiness.scienceofscience.org
+  citation: Tong Zeng, Daniel E Acuna (2020). Modeling citation worthiness by using
+    attention-based bidirectional long short-term memory networks and interpretable
+    models. Scientometrics.
+  bibtex: |+
+    @article{zeng2020modeling,
+      title = {Modeling citation worthiness by using attention-based bidirectional long short-term memory networks and interpretable models},
+      author = {Zeng, Tong and Acuna, Daniel E},
+      year = {2020},
+      journal = {Scientometrics},
+      volume = {124},
+      number = {1},
+      pages = {399--428},
+      publisher = {Springer},
+      url = {https://link.springer.com/article/10.1007/s11192-020-03421-9}
+    }
+
 zhuangacuna2020:
   key: zhuangacuna2020
   title: An Automatic Misleading Graph Detection Tool
   alternate_title: ''
   authors: Han Zhuang, Daniel E Acuna
+  author_list:
+  - name: Han Zhuang
+    given: Han
+    family: Zhuang
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
   authors_short: Han Zhuang, Daniel E Acuna
   year: '2020'
   year_label: '2020'
@@ -461,12 +1577,43 @@ zhuangacuna2020:
   tags:
   - figure-integrity
   - graphical-integrity
+  doi: ''
+  publication_date: '2020'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: ''
+  page_path:
+  bibtex_path: "/publications/citations/zhuangacuna2020.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Han Zhuang, Daniel E Acuna (2020). An Automatic Misleading Graph Detection
+    Tool. International Conference on Computational Social Science.
+  bibtex: |+
+    @article{zhuangacuna2020,
+      title = {An Automatic Misleading Graph Detection Tool},
+      author = {Zhuang, Han and Acuna, Daniel E},
+      year = {2020},
+      journal = {International Conference on Computational Social Science}
+    }
+
 liangacuna2020:
   key: liangacuna2020
   title: Are author, affiliation, and citation networks predictive of a journal getting
     blacklisted?
   alternate_title: ''
   authors: Lizhen Liang, Daniel E Acuna
+  author_list:
+  - name: Lizhen Liang
+    given: Lizhen
+    family: Liang
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
   authors_short: Lizhen Liang, Daniel E Acuna
   year: '2020'
   year_label: '2020'
@@ -479,12 +1626,45 @@ liangacuna2020:
   tags:
   - questionable-journals
   - citation-analysis
+  doi: ''
+  publication_date: '2020'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://zenodo.org/record/4403394/files/ic2s2_Liang.pdf
+  page_path:
+  bibtex_path: "/publications/citations/liangacuna2020.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Lizhen Liang, Daniel E Acuna (2020). Are author, affiliation, and citation
+    networks predictive of a journal getting blacklisted?. International Conference
+    on Computational Social Science.
+  bibtex: |+
+    @article{liangacuna2020,
+      title = {Are author, affiliation, and citation networks predictive of a journal getting blacklisted?},
+      author = {Liang, Lizhen and Acuna, Daniel E},
+      year = {2020},
+      journal = {International Conference on Computational Social Science},
+      url = {https://zenodo.org/record/4403394/files/ic2s2_Liang.pdf}
+    }
+
 liang2020don:
   key: liang2020don
-  title: 'Don''t judge a journal by its cover?: Appearance of a Journal''s website
-    as predictor of blacklisted Open-Access status'
+  title: 'Don’t judge a journal by its cover?: Appearance of a Journal’s website as
+    predictor of blacklisted Open-Access status'
   alternate_title: ''
   authors: Lizhen Liang, Daniel E Acuna
+  author_list:
+  - name: Lizhen Liang
+    given: Lizhen
+    family: Liang
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
   authors_short: Lizhen Liang, Daniel E Acuna
   year: '2020'
   year_label: '2020'
@@ -495,11 +1675,48 @@ liang2020don:
   - integrity
   tags:
   - questionable-journals
+  doi: ''
+  publication_date: '2020'
+  volume: '57'
+  issue: '1'
+  pages: e306
+  publisher: Wiley Online Library
+  url: https://zenodo.org/record/4403155/files/Liang_L%20AM20.pdf
+  page_path:
+  bibtex_path: "/publications/citations/liang2020don.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Lizhen Liang, Daniel E Acuna (2020). Don’t judge a journal by its cover?:
+    Appearance of a Journal’s website as predictor of blacklisted Open-Access status.
+    Proceedings of the Association for Information Science and Technology.'
+  bibtex: |+
+    @article{liang2020don,
+      title = {Don't judge a journal by its cover?: Appearance of a Journal's website as predictor of blacklisted Open-Access status},
+      author = {Liang, Lizhen and Acuna, Daniel E},
+      year = {2020},
+      journal = {Proceedings of the Association for Information Science and Technology},
+      volume = {57},
+      number = {1},
+      pages = {e306},
+      publisher = {Wiley Online Library},
+      url = {https://zenodo.org/record/4403155/files/Liang_L%20AM20.pdf}
+    }
+
 zengacuna2020:
   key: zengacuna2020
   title: Large-scale author name disambiguation using approximate network structures
   alternate_title: ''
   authors: Tong Zeng, Daniel E Acuna
+  author_list:
+  - name: Tong Zeng
+    given: Tong
+    family: Zeng
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
   authors_short: Tong Zeng, Daniel E Acuna
   year: '2020'
   year_label: '2020'
@@ -512,11 +1729,59 @@ zengacuna2020:
   tags:
   - scholarly-data
   - citation-analysis
+  doi: 10.5281/zenodo.4403705
+  publication_date: '2020-07-17'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://scienceofscience.org/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf
+  page_path: "/publications/ic2s2-author-name-disambiguation.html"
+  bibtex_path: "/publications/citations/zengacuna2020.bib"
+  summary: 'Names alone are unreliable identifiers: different people can share a name,
+    and one person''s name can appear in several forms. This work investigates a scalable
+    approach to author-name disambiguation using approximate network structures.'
+  abstract: Properly identifying the author of a scientific article is an important
+    task for giving credit, tracking progress, and identifying ideas’ lineages. Usually,
+    publications and citations do not provide unique identifiers to authors but only
+    the raw string character representation of their name and affiliation. The fundamental
+    problem is that an author might change the string representations due to changing
+    in name spelling (e.g., removing accents), journal limitations (e.g., only allow
+    first letter of first name), or simply two people having the same name. Several
+    researchers have proposed methods to solve this problem, but most methods do not
+    scale well and are not open to the community. In this work, we develop a scalable
+    method that we make publicly available to disambiguate large-scale publications
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: "/publications/ic2s2-author-name-disambiguation.pdf"
+  citation: Tong Zeng, Daniel E Acuna (2020). Large-scale author name disambiguation
+    using approximate network structures. International Conference on Computational
+    Social Science. https://doi.org/10.5281/zenodo.4403705
+  bibtex: |+
+    @article{zengacuna2020,
+      title = {Large-scale author name disambiguation using approximate network structures},
+      author = {Zeng, Tong and Acuna, Daniel E},
+      year = {2020},
+      publication_date = {2020-07-17},
+      journal = {International Conference on Computational Social Science},
+      doi = {10.5281/zenodo.4403705},
+      url = {https://scienceofscience.org/assets/pdf/ic2s2-author_name_disambiguation_zeng_and_acuna.pdf}
+    }
+
 zeng2020gotfunding:
   key: zeng2020gotfunding
   title: 'GotFunding: A grant recommendation system based on scientific articles'
   alternate_title: ''
   authors: Tong Zeng, Daniel E Acuna
+  author_list:
+  - name: Tong Zeng
+    given: Tong
+    family: Zeng
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
   authors_short: Tong Zeng, Daniel E Acuna
   year: '2020'
   year_label: '2020'
@@ -531,12 +1796,49 @@ zeng2020gotfunding:
   - research-recommendation
   - recommender-systems
   - text-mining
+  doi: ''
+  publication_date: '2020'
+  volume: '57'
+  issue: '1'
+  pages: e323
+  publisher: Wiley Online Library
+  url: https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/pra2.323
+  page_path:
+  bibtex_path: "/publications/citations/zeng2020gotfunding.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Tong Zeng, Daniel E Acuna (2020). GotFunding: A grant recommendation
+    system based on scientific articles. Proceedings of the Association for Information
+    Science and Technology.'
+  bibtex: |+
+    @article{zeng2020gotfunding,
+      title = {GotFunding: A grant recommendation system based on scientific articles},
+      author = {Zeng, Tong and Acuna, Daniel E},
+      year = {2020},
+      journal = {Proceedings of the Association for Information Science and Technology},
+      volume = {57},
+      number = {1},
+      pages = {e323},
+      publisher = {Wiley Online Library},
+      url = {https://asistdl.onlinelibrary.wiley.com/doi/full/10.1002/pra2.323}
+    }
+
 10.1145/3461702.3462616:
   key: 10.1145/3461702.3462616
   title: Are AI Ethics Conferences Different and More Diverse Compared to Traditional
     Computer Science Conferences?
   alternate_title: ''
   authors: Daniel E. Acuna, Lizhen Liang
+  author_list:
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
+  - name: Lizhen Liang
+    given: Lizhen
+    family: Liang
   authors_short: Daniel E. Acuna, Lizhen Liang
   year: '2021'
   year_label: '2021'
@@ -548,12 +1850,57 @@ zeng2020gotfunding:
   tags:
   - diversity
   - responsible-ai
+  doi: 10.1145/3461702.3462616
+  publication_date: '2021'
+  volume: ''
+  issue: ''
+  pages: 307–315
+  publisher: Association for Computing Machinery
+  url: https://dl.acm.org/doi/pdf/10.1145/3461702.3462616
+  page_path:
+  bibtex_path: "/publications/citations/10-1145-3461702-3462616.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources:
+  - type: code
+    url: https://github.com/sciosci/demographicx
+  citation: Daniel E. Acuna, Lizhen Liang (2021). Are AI Ethics Conferences Different
+    and More Diverse Compared to Traditional Computer Science Conferences?. Proceedings
+    of the 2021 AAAI/ACM Conference on AI, Ethics, and Society. https://doi.org/10.1145/3461702.3462616
+  bibtex: |+
+    @inproceedings{10.1145/3461702.3462616,
+      title = {Are AI Ethics Conferences Different and More Diverse Compared to Traditional Computer Science Conferences?},
+      author = {Acuna, Daniel E. and Liang, Lizhen},
+      year = {2021},
+      booktitle = {Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society},
+      pages = {307–315},
+      publisher = {Association for Computing Machinery},
+      doi = {10.1145/3461702.3462616},
+      url = {https://dl.acm.org/doi/pdf/10.1145/3461702.3462616},
+      isbn = {9781450384735}
+    }
+
 acunaiconference2022:
   key: acunaiconference2022
   title: Predicting the usage of scientific datasets based on article, author, institution,
     and journal bibliometrics
   alternate_title: ''
   authors: Daniel E. Acuna, Zijun Yi, Lizhen Liang, Han Zhuang
+  author_list:
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
+  - name: Zijun Yi
+    given: Zijun
+    family: Yi
+  - name: Lizhen Liang
+    given: Lizhen
+    family: Liang
+  - name: Han Zhuang
+    given: Han
+    family: Zhuang
   authors_short: Daniel E. Acuna, Zijun Yi, Lizhen Liang, et al.
   year: '2022'
   year_label: '2022'
@@ -565,12 +1912,50 @@ acunaiconference2022:
   tags:
   - dataset-discovery
   - citation-analysis
+  doi: 10.1007/978-3-030-96957-8_5
+  publication_date: '2022'
+  volume: ''
+  issue: ''
+  pages: 42--52
+  publisher: ''
+  url: https://link.springer.com/chapter/10.1007/978-3-030-96957-8_5
+  page_path:
+  bibtex_path: "/publications/citations/acunaiconference2022.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Daniel E. Acuna, Zijun Yi, Lizhen Liang, Han Zhuang (2022). Predicting
+    the usage of scientific datasets based on article, author, institution, and journal
+    bibliometrics. International Conference on Information. https://doi.org/10.1007/978-3-030-96957-8_5
+  bibtex: |+
+    @inproceedings{acunaiconference2022,
+      title = {Predicting the usage of scientific datasets based on article, author, institution, and journal bibliometrics},
+      author = {Acuna, Daniel E. and Yi, Zijun and Liang, Lizhen and Zhuang, Han},
+      year = {2022},
+      booktitle = {International Conference on Information},
+      pages = {42--52},
+      doi = {10.1007/978-3-030-96957-8_5},
+      url = {https://link.springer.com/chapter/10.1007/978-3-030-96957-8_5}
+    }
+
 zhuangacuna2021:
   key: zhuangacuna2021
   title: 'Graphical integrity issues in open access publications: detection and patterns
     of proportional ink violations'
   alternate_title: ''
   authors: Han Zhuang, Tzu-Yang Huang, Daniel Ernesto Acuna
+  author_list:
+  - name: Han Zhuang
+    given: Han
+    family: Zhuang
+  - name: Tzu-Yang Huang
+    given: Tzu-Yang
+    family: Huang
+  - name: Daniel Ernesto Acuna
+    given: Daniel Ernesto
+    family: Acuna
   authors_short: Han Zhuang, Tzu-Yang Huang, Daniel Ernesto Acuna
   year: '2021'
   year_label: '2021'
@@ -582,12 +1967,74 @@ zhuangacuna2021:
   tags:
   - figure-integrity
   - graphical-integrity
+  doi: 10.1371/journal.pcbi.1009650
+  publication_date: '2021-12-13'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009650
+  page_path: "/publications/graphical-integrity/"
+  bibtex_path: "/publications/citations/zhuangacuna2021.bib"
+  summary: 'This study examines violations of the proportional ink principle: the
+    amount of visual ink representing a value should agree with that value. It develops
+    an automated method for detecting these inconsistencies in scientific bar charts.'
+  abstract: Academic graphs are essential for communicating complex scientific ideas
+    and results. To ensure that these graphs truthfully reflect underlying data and
+    relationships, visualization researchers have proposed several principles to guide
+    the graph creation process. However, the extent of violations of these principles
+    in academic publications is unknown. In this work, we develop a deep learning-based
+    method to accurately measure violations of the proportional ink principle (AUC
+    = 0.917), which states that the size of shaded areas in graphs should be consistent
+    with their corresponding quantities. We apply our method to analyze a large sample
+    of bar charts contained in 300K figures from open access publications. Our results
+    estimate that 5% of bar charts contain proportional ink violations. Further analysis
+    reveals that these graphical integrity issues are significantly more prevalent
+    in some research fields, such as psychology and computer science, and some regions
+    of the globe. Additionally, we find no temporal and seniority trends in violations.
+    Finally, apart from openly releasing our large annotated dataset and method, we
+    discuss how computational research integrity could be part of peer-review and
+    the publication processes.
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: "/publications/graphical-integrity/paper.pdf"
+  - type: code
+    url: https://github.com/sciosci/graph_check
+  citation: 'Han Zhuang, Tzu-Yang Huang, Daniel Ernesto Acuna (2021). Graphical integrity
+    issues in open access publications: detection and patterns of proportional ink
+    violations. PloS Computational Biology. https://doi.org/10.1371/journal.pcbi.1009650'
+  bibtex: |+
+    @article{zhuangacuna2021,
+      title = {Graphical integrity issues in open access publications: detection and patterns of proportional ink violations},
+      author = {Zhuang, Han and Huang, Tzu-Yang and Acuna, Daniel Ernesto},
+      year = {2021},
+      publication_date = {2021-12-13},
+      journal = {PloS Computational Biology},
+      doi = {10.1371/journal.pcbi.1009650},
+      url = {https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009650}
+    }
+
 acuna2022:
   key: acuna2022
   title: 'Author-suggested reviewers rate manuscripts much more favorably: A cross-sectional
     analysis of the neuroscience section of PLOS ONE'
   alternate_title: ''
   authors: D E Acuna, M Teplitskiy, J. Evans, K. Kording
+  author_list:
+  - name: D E Acuna
+    given: D E
+    family: Acuna
+  - name: M Teplitskiy
+    given: M
+    family: Teplitskiy
+  - name: J. Evans
+    given: J.
+    family: Evans
+  - name: K. Kording
+    given: K.
+    family: Kording
   authors_short: D E Acuna, M Teplitskiy, J. Evans, et al.
   year: '2022'
   year_label: '2022'
@@ -601,11 +2048,71 @@ acuna2022:
   tags:
   - peer-review
   - review-bias
+  doi: 10.1371/journal.pone.0273994
+  publication_date: '2022-12-12'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0273994
+  page_path: "/publications/author-suggested-reviewers/"
+  bibtex_path: "/publications/citations/acuna2022.bib"
+  summary: This study examines the association between author-suggested reviewers
+    and peer-review outcomes. It uses records from the neuroscience section of PLOS
+    ONE to compare reviewer invitations, evaluations, and acceptance outcomes.
+  abstract: Peer review is an important part of science, aimed at providing expert
+    and objective assessment of a manuscript. Because of many factors, including time
+    constraints, unique expertise needs, and deference, many journals ask authors
+    to suggest peer reviewers for their own manuscript. Previous researchers have
+    found differing effects about this practice that might be inconclusive due to
+    sample sizes. In this article, we analyze the association between author-suggested
+    reviewers and review invitation, review scores, acceptance rates, and subjective
+    review quality using a large dataset of close to 8K manuscripts from 46K authors
+    and 21K reviewers from the journal PLOS ONE’s Neuroscience section. We found that
+    all-author-suggested review panels increase the chances of acceptance by 20 percent
+    points vs all-editor-suggested panels while agreeing to review less often. While
+    PLOS ONE has since ended the practice of asking for suggested reviewers, many
+    others still use them and perhaps should consider the results presented here.
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: "/publications/author-suggested-reviewers/paper.pdf"
+  citation: 'D E Acuna, M Teplitskiy, J. Evans, K. Kording (2022). Author-suggested
+    reviewers rate manuscripts much more favorably: A cross-sectional analysis of
+    the neuroscience section of PLOS ONE. PLOS ONE. https://doi.org/10.1371/journal.pone.0273994'
+  bibtex: |+
+    @article{acuna2022,
+      title = {Author-suggested reviewers rate manuscripts much more favorably: A cross-sectional analysis of the neuroscience section of PLOS ONE},
+      author = {Acuna, D E and Teplitskiy, M and Evans, J. and Kording, K.},
+      year = {2022},
+      publication_date = {2022-12-12},
+      journal = {PLOS ONE},
+      doi = {10.1371/journal.pone.0273994},
+      url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0273994}
+    }
+
 keacuna2022:
   key: keacuna2022
   title: A dataset of mentorship in bioscience with semantic and demographic estimations
   alternate_title: ''
   authors: Q. Ke, L. Liang, Y. Ding, S V David, D E Acuna
+  author_list:
+  - name: Q. Ke
+    given: Q.
+    family: Ke
+  - name: L. Liang
+    given: L.
+    family: Liang
+  - name: Y. Ding
+    given: Y.
+    family: Ding
+  - name: S V David
+    given: S V
+    family: David
+  - name: D E Acuna
+    given: D E
+    family: Acuna
   authors_short: Q. Ke, L. Liang, Y. Ding, et al.
   year: '2022'
   year_label: '2022'
@@ -618,12 +2125,71 @@ keacuna2022:
   - mentorship
   - scholarly-data
   - diversity
+  doi: 10.1038/s41597-022-01578-x
+  publication_date: '2022-08-02'
+  volume: '9'
+  issue: '467'
+  pages: ''
+  publisher: ''
+  url: https://www.nature.com/articles/s41597-022-01578-x
+  page_path: "/publications/mentorship-dataset/"
+  bibtex_path: "/publications/citations/keacuna2022.bib"
+  summary: This data descriptor introduces a resource linking academic mentorship
+    relationships to publication records, research representations, and demographic
+    estimates. It is designed to support analysis of mentorship and scientific careers.
+  abstract: Mentorship in science is crucial for topic choice, career decisions, and
+    the success of mentees and mentors. Typically, researchers who study mentorship
+    use article co-authorship and doctoral dissertation datasets. However, available
+    datasets of this type focus on narrow selections of fields and miss out on early
+    career and non-publication-related interactions. Here, we describe Mentorship,
+    a crowdsourced dataset of 743176 mentorship relationships among 738989 scientists
+    primarily in biosciences that avoids these shortcomings. Our dataset enriches
+    the Academic Family Tree project by adding publication data from the Microsoft
+    Academic Graph and “semantic” representations of research using deep learning
+    content analysis. Because gender and race have become critical dimensions when
+    analyzing mentorship and disparities in science, we also provide estimations of
+    these factors. We perform extensive validations of the profile–publication matching,
+    semantic content, and demographic inferences, which mostly cover neuroscience
+    and biomedical sciences. We anticipate this dataset will spur the study of mentorship
+    in science and deepen our understanding of its role in scientists’ career outcomes.
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: "/publications/mentorship-dataset/paper.pdf"
+  - type: dataset
+    url: https://zenodo.org/record/4917086
+  citation: Q. Ke, L. Liang, Y. Ding, S V David, D E Acuna (2022). A dataset of mentorship
+    in bioscience with semantic and demographic estimations. Scientific Data. https://doi.org/10.1038/s41597-022-01578-x
+  bibtex: |+
+    @article{keacuna2022,
+      title = {A dataset of mentorship in bioscience with semantic and demographic estimations},
+      author = {Ke, Q. and Liang, L. and Ding, Y. and David, S V and Acuna, D E},
+      year = {2022},
+      publication_date = {2022-08-02},
+      journal = {Scientific Data},
+      volume = {9},
+      number = {467},
+      doi = {10.1038/s41597-022-01578-x},
+      url = {https://www.nature.com/articles/s41597-022-01578-x}
+    }
+
 zhuang2023computational:
   key: zhuang2023computational
   title: A computational analysis of accessibility, readability, and explainability
     of figures in open access publications
   alternate_title: ''
   authors: Han Zhuang, Tzu-Yang Huang, Daniel E Acuna
+  author_list:
+  - name: Han Zhuang
+    given: Han
+    family: Zhuang
+  - name: Tzu-Yang Huang
+    given: Tzu-Yang
+    family: Huang
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
   authors_short: Han Zhuang, Tzu-Yang Huang, Daniel E Acuna
   year: '2023'
   year_label: '2023'
@@ -635,12 +2201,49 @@ zhuang2023computational:
   - ecosystem
   tags:
   - figure-accessibility
+  doi: ''
+  publication_date: '2023'
+  volume: '12'
+  issue: '1'
+  pages: '5'
+  publisher: Springer Berlin Heidelberg
+  url: https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-023-00380-y
+  page_path:
+  bibtex_path: "/publications/citations/zhuang2023computational.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Han Zhuang, Tzu-Yang Huang, Daniel E Acuna (2023). A computational analysis
+    of accessibility, readability, and explainability of figures in open access publications.
+    EPJ Data Science.
+  bibtex: |+
+    @article{zhuang2023computational,
+      title = {A computational analysis of accessibility, readability, and explainability of figures in open access publications},
+      author = {Zhuang, Han and Huang, Tzu-Yang and Acuna, Daniel E},
+      year = {2023},
+      journal = {EPJ Data Science},
+      volume = {12},
+      number = {1},
+      pages = {5},
+      publisher = {Springer Berlin Heidelberg},
+      url = {https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-023-00380-y}
+    }
+
 10.1162/qss_a_00332:
   key: 10.1162/qss_a_00332
   title: 'Incorporating costs and benefits to the evaluation of uncertain research
     results: applications to cancer research funding'
   alternate_title: ''
   authors: Han Zhuang, Daniel E. Acuna
+  author_list:
+  - name: Han Zhuang
+    given: Han
+    family: Zhuang
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
   authors_short: Han Zhuang, Daniel E. Acuna
   year: '2024'
   year_label: '2024'
@@ -653,11 +2256,75 @@ zhuang2023computational:
   tags:
   - funding
   - decision-making
+  doi: 10.1162/qss_a_00332
+  publication_date: '2024'
+  volume: ''
+  issue: ''
+  pages: 1-27
+  publisher: ''
+  url: https://doi.org/10.1162/qss_a_00332
+  page_path: "/publications/research-costs-benefits/"
+  bibtex_path: "/publications/citations/10-1162-qss-a-00332.bib"
+  summary: A study's chance of being correct is only one part of deciding whether
+    a research program is worth pursuing. This paper develops a decision-theoretic
+    framework that makes potential costs and benefits explicit.
+  abstract: Abstract Correctness is a key aspiration of the scientific process, yet
+    recent studies suggest that many high-profile findings may be difficult to replicate
+    or require considerable evidence for verification. Proposals to fix these issues
+    typically ask for tighter statistical controls (e.g., stricter p-value thresholds
+    or higher statistical power). However, these approaches often overlook the importance
+    of contemplating research outcomes’ potential costs and benefits. Here, we develop
+    a framework grounded in Bayesian decision theory that seamlessly integrates cost-benefit
+    analysis into evaluating research programs with potentially uncertain results.
+    We derive minimally acceptable prestudy odds and positive predictive values for
+    cost and benefit levels. We show that tolerance to inaccurate results changes
+    dramatically due to uncertainties posed by research. We also show that reducing
+    uncertainties (e.g., by recruiting more subjects) may have limited effects on
+    the expected benefit of continuing specific research programs. We apply our framework
+    to several types of cancer research and their funding. Our analysis shows that
+    highly exploratory research designs are easily justifiable due to their potential
+    benefits, even when probabilistic models suggest otherwise. We discuss how the
+    cost and benefit of research could and should always be part of the toolkit used
+    by scientists, institutions, or funding agencies.
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: https://direct.mit.edu/qss/article-pdf/5/4/1047/2482654/qss_a_00332.pdf
+  citation: 'Han Zhuang, Daniel E. Acuna (2024). Incorporating costs and benefits
+    to the evaluation of uncertain research results: applications to cancer research
+    funding. Quantitative Science Studies. https://doi.org/10.1162/qss_a_00332'
+  bibtex: |+
+    @article{10.1162/qss_a_00332,
+      title = {{Incorporating costs and benefits to the evaluation of uncertain research results: applications to cancer research funding}},
+      author = {Zhuang, Han and Acuna, Daniel E.},
+      year = {2024},
+      publication_date = {2024},
+      journal = {Quantitative Science Studies},
+      pages = {1-27},
+      doi = {10.1162/qss_a_00332},
+      url = {https://doi.org/10.1162/qss_a_00332},
+      issn = {2641-3337}
+    }
+
 novoa2024science:
   key: novoa2024science
   title: 'Science Needs You: Mobilizing for Diversity in Award Recognition'
   alternate_title: ''
   authors: Elizabeth Novoa-Monsalve, David Patterson, Stephanie Ludi, Daniel E Acuna
+  author_list:
+  - name: Elizabeth Novoa-Monsalve
+    given: Elizabeth
+    family: Novoa-Monsalve
+  - name: David Patterson
+    given: David
+    family: Patterson
+  - name: Stephanie Ludi
+    given: Stephanie
+    family: Ludi
+  - name: Daniel E Acuna
+    given: Daniel E
+    family: Acuna
   authors_short: Elizabeth Novoa-Monsalve, David Patterson, Stephanie Ludi, et al.
   year: '2024'
   year_label: '2024'
@@ -669,12 +2336,49 @@ novoa2024science:
   tags:
   - diversity
   - careers
+  doi: ''
+  publication_date: '2024'
+  volume: '67'
+  issue: '8'
+  pages: 18--21
+  publisher: ACM New York, NY, USA
+  url: https://dl.acm.org/doi/10.1145/3651150
+  page_path:
+  bibtex_path: "/publications/citations/novoa2024science.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Elizabeth Novoa-Monsalve, David Patterson, Stephanie Ludi, Daniel E Acuna
+    (2024). Science Needs You: Mobilizing for Diversity in Award Recognition. Communications
+    of the ACM.'
+  bibtex: |+
+    @article{novoa2024science,
+      title = {Science Needs You: Mobilizing for Diversity in Award Recognition},
+      author = {Novoa-Monsalve, Elizabeth and Patterson, David and Ludi, Stephanie and Acuna, Daniel E},
+      year = {2024},
+      journal = {Communications of the ACM},
+      volume = {67},
+      number = {8},
+      pages = {18--21},
+      publisher = {ACM New York, NY, USA},
+      url = {https://dl.acm.org/doi/10.1145/3651150}
+    }
+
 taechoyotin2024misti:
   key: taechoyotin2024misti
   title: 'MISTI: Metadata-Informed Scientific Text and Image Representation through
     Contrastive Learning'
   alternate_title: ''
   authors: Pawin Taechoyotin, Daniel Acuna
+  author_list:
+  - name: Pawin Taechoyotin
+    given: Pawin
+    family: Taechoyotin
+  - name: Daniel Acuna
+    given: Daniel
+    family: Acuna
   authors_short: Pawin Taechoyotin, Daniel Acuna
   year: '2024'
   year_label: '2024'
@@ -688,12 +2392,95 @@ taechoyotin2024misti:
   - multimodal-learning
   - text-mining
   - scholarly-data
+  doi: 10.18653/v1/2024.sdp-1.15
+  publication_date: '2024'
+  volume: ''
+  issue: ''
+  pages: 155--164
+  publisher: ''
+  url: https://aclanthology.org/2024.sdp-1.15/
+  page_path: "/publications/misti/"
+  bibtex_path: "/publications/citations/taechoyotin2024misti.bib"
+  summary: MISTI learns joint representations of scientific figures, captions, and
+    publication metadata. The study tests whether contextual information such as titles,
+    sections, and concepts improves retrieval beyond the image-caption pair alone.
+  abstract: In scientific publications, automatic representations of figures and their
+    captions can be used in NLP, computer vision, and information retrieval tasks.
+    Contrastive learning has proven effective for creating such joint representations
+    for natural scenes, but its application to scientific imagery and descriptions
+    remains under-explored. Recent open-access publication datasets provide an opportunity
+    to understand the effectiveness of this technique as well as evaluate the usefulness
+    of additional metadata, which are available only in the scientific context. Here,
+    we introduce MISTI, a novel model that uses contrastive learning to simultaneously
+    learn the representation of figures, captions, and metadata, such as a paper’s
+    title, sections, and curated concepts from the PubMed Open Access Subset. We evaluate
+    our model on multiple information retrieval tasks, showing substantial improvements
+    over baseline models. Notably, incorporating metadata doubled retrieval performance,
+    achieving a Recall@1 of 30% on a 70K-item caption retrieval task. We qualitatively
+    explore how metadata can be used to strategically retrieve distinctive representations
+    of the same concept but for different sections, such as introduction and results.
+    Additionally, we show that our model seamlessly handles out-of-domain tasks related
+    to image segmentation. We share our dataset and methods (https://github.com/Khempawin/scientific-image-caption-pair/tree/section-attr)
+    and outline future research directions.
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: "/publications/misti/paper.pdf"
+  - type: code
+    url: https://github.com/Khempawin/scientific-image-caption-pair/tree/section-attr
+  citation: 'Pawin Taechoyotin, Daniel Acuna (2024). MISTI: Metadata-Informed Scientific
+    Text and Image Representation through Contrastive Learning. Proceedings of the
+    Fourth Workshop on Scholarly Document Processing (SDP 2024). https://doi.org/10.18653/v1/2024.sdp-1.15'
+  bibtex: |+
+    @inproceedings{taechoyotin2024misti,
+      title = {MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning},
+      author = {Taechoyotin, Pawin and Acuna, Daniel},
+      year = {2024},
+      publication_date = {2024},
+      booktitle = {Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)},
+      pages = {155--164},
+      doi = {10.18653/v1/2024.sdp-1.15},
+      url = {https://aclanthology.org/2024.sdp-1.15/}
+    }
+
 XU2024103542:
   key: XU2024103542
   title: The impact of heterogeneous shared leadership in scientific teams
   alternate_title: 'Shared Leadership in Scientific Teams: Heterogeneity vs. Homogeneity'
   authors: Huimin Xu, Meijun Liu, Yi Bu, Shujing Sun, Yi Zhang, Chenwei Zhang, Daniel
     E. Acuna, Steven Gray, Eric Meyer, Ying Ding
+  author_list:
+  - name: Huimin Xu
+    given: Huimin
+    family: Xu
+  - name: Meijun Liu
+    given: Meijun
+    family: Liu
+  - name: Yi Bu
+    given: Yi
+    family: Bu
+  - name: Shujing Sun
+    given: Shujing
+    family: Sun
+  - name: Yi Zhang
+    given: Yi
+    family: Zhang
+  - name: Chenwei Zhang
+    given: Chenwei
+    family: Zhang
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
+  - name: Steven Gray
+    given: Steven
+    family: Gray
+  - name: Eric Meyer
+    given: Eric
+    family: Meyer
+  - name: Ying Ding
+    given: Ying
+    family: Ding
   authors_short: Huimin Xu, Meijun Liu, Yi Bu, et al.
   year: '2024'
   year_label: '2024'
@@ -705,13 +2492,60 @@ XU2024103542:
   tags:
   - collaboration
   - diversity
+  doi: 10.1016/j.ipm.2023.103542
+  publication_date: '2024'
+  volume: '61'
+  issue: '1'
+  pages: '103542'
+  publisher: ''
+  url: https://www.sciencedirect.com/science/article/pii/S0306457323002790
+  page_path:
+  bibtex_path: "/publications/citations/xu2024103542.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Huimin Xu, Meijun Liu, Yi Bu, Shujing Sun, Yi Zhang, Chenwei Zhang, Daniel
+    E. Acuna, Steven Gray, Eric Meyer, Ying Ding (2024). The impact of heterogeneous
+    shared leadership in scientific teams. Information Processing & Management. https://doi.org/10.1016/j.ipm.2023.103542
+  bibtex: |+
+    @article{XU2024103542,
+      title = {The impact of heterogeneous shared leadership in scientific teams},
+      author = {Xu, Huimin and Liu, Meijun and Bu, Yi and Sun, Shujing and Zhang, Yi and Zhang, Chenwei and Acuna, Daniel E. and Gray, Steven and Meyer, Eric and Ding, Ying},
+      year = {2024},
+      journal = {Information Processing & Management},
+      volume = {61},
+      number = {1},
+      pages = {103542},
+      doi = {10.1016/j.ipm.2023.103542},
+      url = {https://www.sciencedirect.com/science/article/pii/S0306457323002790},
+      issn = {0306-4573}
+    }
+
 leto2024first:
   key: leto2024first
   title: 'A First Step towards Measuring Interdisciplinary Engagement in Scientific
     Publications: A Case Study on NLP+ CSS Research'
   alternate_title: ''
-  authors: Alexandria Leto, Shamik Roy, Alexander Hoyle, Daniel Acuna, Mar{\'\i}a
-    Leonor Pacheco
+  authors: Alexandria Leto, Shamik Roy, Alexander Hoyle, Daniel Acuna, María Leonor
+    Pacheco
+  author_list:
+  - name: Alexandria Leto
+    given: Alexandria
+    family: Leto
+  - name: Shamik Roy
+    given: Shamik
+    family: Roy
+  - name: Alexander Hoyle
+    given: Alexander
+    family: Hoyle
+  - name: Daniel Acuna
+    given: Daniel
+    family: Acuna
+  - name: María Leonor Pacheco
+    given: María Leonor
+    family: Pacheco
   authors_short: Alexandria Leto, Shamik Roy, Alexander Hoyle, et al.
   year: '2024'
   year_label: '2024'
@@ -726,13 +2560,64 @@ leto2024first:
   - interdisciplinarity
   - citation-analysis
   - text-mining
+  doi: ''
+  publication_date: '2024'
+  volume: ''
+  issue: ''
+  pages: 144--158
+  publisher: ''
+  url: https://aclanthology.org/2024.nlpcss-1.11/
+  page_path:
+  bibtex_path: "/publications/citations/leto2024first.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Alexandria Leto, Shamik Roy, Alexander Hoyle, Daniel Acuna, María Leonor
+    Pacheco (2024). A First Step towards Measuring Interdisciplinary Engagement in
+    Scientific Publications: A Case Study on NLP+ CSS Research. Proceedings of the
+    Sixth Workshop on Natural Language Processing and Computational Social Science
+    (NLP+ CSS 2024).'
+  bibtex: |+
+    @inproceedings{leto2024first,
+      title = {A First Step towards Measuring Interdisciplinary Engagement in Scientific Publications: A Case Study on NLP+ CSS Research},
+      author = {Leto, Alexandria and Roy, Shamik and Hoyle, Alexander and Acuna, Daniel and Pacheco, Mar{\'\i}a Leonor},
+      year = {2024},
+      booktitle = {Proceedings of the Sixth Workshop on Natural Language Processing and Computational Social Science (NLP+ CSS 2024)},
+      pages = {144--158},
+      url = {https://aclanthology.org/2024.nlpcss-1.11/}
+    }
+
 Bibal2024:
   key: Bibal2024
   title: 'RecSOI: recommending research directions using statements of ignorance'
   alternate_title: ''
-  authors: Adrien Bibal, Nourah M. Salem, R{\'e}mi Cardon, Elizabeth K. White, Daniel E.
+  authors: Adrien Bibal, Nourah M. Salem, Rémi Cardon, Elizabeth K. White, Daniel E.
     Acuna, Robin Burke, Lawrence E. Hunter
-  authors_short: Adrien Bibal, Nourah M. Salem, R{\'e}mi Cardon, et al.
+  author_list:
+  - name: Adrien Bibal
+    given: Adrien
+    family: Bibal
+  - name: Nourah M. Salem
+    given: Nourah M.
+    family: Salem
+  - name: Rémi Cardon
+    given: Rémi
+    family: Cardon
+  - name: Elizabeth K. White
+    given: Elizabeth K.
+    family: White
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
+  - name: Robin Burke
+    given: Robin
+    family: Burke
+  - name: Lawrence E. Hunter
+    given: Lawrence E.
+    family: Hunter
+  authors_short: Adrien Bibal, Nourah M. Salem, Rémi Cardon, et al.
   year: '2024'
   year_label: '2024'
   format: article
@@ -744,12 +2629,58 @@ Bibal2024:
   - research-recommendation
   - recommender-systems
   - text-mining
+  doi: 10.1186/s13326-024-00304-3
+  publication_date: '2024'
+  volume: '15'
+  issue: '1'
+  pages: '2'
+  publisher: ''
+  url: https://doi.org/10.1186/s13326-024-00304-3
+  page_path:
+  bibtex_path: "/publications/citations/bibal2024.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Adrien Bibal, Nourah M. Salem, Rémi Cardon, Elizabeth K. White, Daniel E.
+    Acuna, Robin Burke, Lawrence E. Hunter (2024). RecSOI: recommending research directions
+    using statements of ignorance. Journal of Biomedical Semantics. https://doi.org/10.1186/s13326-024-00304-3'
+  bibtex: |+
+    @article{Bibal2024,
+      title = {RecSOI: recommending research directions using statements of ignorance},
+      author = {Bibal, Adrien and Salem, Nourah M. and Cardon, R{\'e}mi and White, Elizabeth K. and Acuna, Daniel E. and Burke, Robin and Hunter, Lawrence E.},
+      year = {2024},
+      journal = {Journal of Biomedical Semantics},
+      volume = {15},
+      number = {1},
+      pages = {2},
+      doi = {10.1186/s13326-024-00304-3},
+      url = {https://doi.org/10.1186/s13326-024-00304-3}
+    }
+
 taechoyotin2024mamorx:
   key: taechoyotin2024mamorx
   title: 'MAMORX: Multi-agent Multi-modal Scientific Review Generation with External
     Knowledge'
   alternate_title: ''
   authors: Pawin Taechoyotin, Guanchao Wang, Tong Zeng, Bradley Sides, Daniel E. Acuna
+  author_list:
+  - name: Pawin Taechoyotin
+    given: Pawin
+    family: Taechoyotin
+  - name: Guanchao Wang
+    given: Guanchao
+    family: Wang
+  - name: Tong Zeng
+    given: Tong
+    family: Zeng
+  - name: Bradley Sides
+    given: Bradley
+    family: Sides
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
   authors_short: Pawin Taechoyotin, Guanchao Wang, Tong Zeng, et al.
   year: '2024'
   year_label: '2024'
@@ -763,12 +2694,59 @@ taechoyotin2024mamorx:
   - peer-review
   - language-models
   - multimodal-learning
+  doi: ''
+  publication_date: '2024'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://openreview.net/forum?id=frvkE8rCfX
+  page_path:
+  bibtex_path: "/publications/citations/taechoyotin2024mamorx.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources:
+  - type: code
+    url: https://github.com/sciosci/mamorx-review-system
+  - type: demo
+    url: https://rev0.ai
+  citation: 'Pawin Taechoyotin, Guanchao Wang, Tong Zeng, Bradley Sides, Daniel E.
+    Acuna (2024). MAMORX: Multi-agent Multi-modal Scientific Review Generation with
+    External Knowledge. NeurIPS 2024 Workshop on Foundation Models for Science: Progress,
+    Opportunities, and Challenges.'
+  bibtex: |+
+    @inproceedings{taechoyotin2024mamorx,
+      title = {MAMORX: Multi-agent Multi-modal Scientific Review Generation with External Knowledge},
+      author = {Taechoyotin, Pawin and Wang, Guanchao and Zeng, Tong and Sides, Bradley and Acuna, Daniel E.},
+      year = {2024},
+      booktitle = {NeurIPS 2024 Workshop on Foundation Models for Science: Progress, Opportunities, and Challenges},
+      url = {https://openreview.net/forum?id=frvkE8rCfX}
+    }
+
 varasteh2024comparative:
   key: varasteh2024comparative
   title: 'Comparative Explanations for Recommendation: Research Directions'
   alternate_title: ''
   authors: Meysam Varasteh, Elizabeth McKinnie, Amanda Aird, Daniel E. Acuna, Robin
     Burke
+  author_list:
+  - name: Meysam Varasteh
+    given: Meysam
+    family: Varasteh
+  - name: Elizabeth McKinnie
+    given: Elizabeth
+    family: McKinnie
+  - name: Amanda Aird
+    given: Amanda
+    family: Aird
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
+  - name: Robin Burke
+    given: Robin
+    family: Burke
   authors_short: Meysam Varasteh, Elizabeth McKinnie, Amanda Aird, et al.
   year: '2024'
   year_label: '2024'
@@ -783,11 +2761,51 @@ varasteh2024comparative:
   - recommender-systems
   - ai-bias
   - human-computer-interaction
+  doi: ''
+  publication_date: '2024'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://ceur-ws.org/Vol-3815/paper1.pdf
+  page_path:
+  bibtex_path: "/publications/citations/varasteh2024comparative.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Meysam Varasteh, Elizabeth McKinnie, Amanda Aird, Daniel E. Acuna, Robin
+    Burke (2024). Comparative Explanations for Recommendation: Research Directions.
+    Proceedings of the 11th Joint Workshop on Interfaces and Human Decision Making
+    for Recommender Systems (IntRS 2024), co-located with RecSys 2024.'
+  bibtex: |+
+    @inproceedings{varasteh2024comparative,
+      title = {Comparative Explanations for Recommendation: Research Directions},
+      author = {Varasteh, Meysam and McKinnie, Elizabeth and Aird, Amanda and Acuna, Daniel E. and Burke, Robin},
+      year = {2024},
+      booktitle = {Proceedings of the 11th Joint Workshop on Interfaces and Human Decision Making for Recommender Systems (IntRS 2024), co-located with RecSys 2024},
+      url = {https://ceur-ws.org/Vol-3815/paper1.pdf}
+    }
+
 zhou2022paraphrase:
   key: zhou2022paraphrase
   title: 'Paraphrase Identification with Deep Learning: A Review of Datasets and Methods'
   alternate_title: ''
   authors: Chao Zhou, Cheng Qiu, Lizhen Liang, Daniel E. Acuna
+  author_list:
+  - name: Chao Zhou
+    given: Chao
+    family: Zhou
+  - name: Cheng Qiu
+    given: Cheng
+    family: Qiu
+  - name: Lizhen Liang
+    given: Lizhen
+    family: Liang
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
   authors_short: Chao Zhou, Cheng Qiu, Lizhen Liang, et al.
   year: '2025'
   year_label: '2025'
@@ -799,11 +2817,56 @@ zhou2022paraphrase:
   - foundations
   tags:
   - text-mining
+  doi: 10.1109/ACCESS.2025.3556899
+  publication_date: '2025'
+  volume: '13'
+  issue: ''
+  pages: 65797--65822
+  publisher: ''
+  url: https://doi.org/10.1109/ACCESS.2025.3556899
+  page_path:
+  bibtex_path: "/publications/citations/zhou2022paraphrase.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Chao Zhou, Cheng Qiu, Lizhen Liang, Daniel E. Acuna (2025). Paraphrase
+    Identification with Deep Learning: A Review of Datasets and Methods. IEEE Access.
+    https://doi.org/10.1109/ACCESS.2025.3556899'
+  bibtex: |+
+    @article{zhou2022paraphrase,
+      title = {Paraphrase Identification with Deep Learning: A Review of Datasets and Methods},
+      author = {Zhou, Chao and Qiu, Cheng and Liang, Lizhen and Acuna, Daniel E.},
+      year = {2025},
+      journal = {IEEE Access},
+      volume = {13},
+      pages = {65797--65822},
+      doi = {10.1109/ACCESS.2025.3556899},
+      url = {https://doi.org/10.1109/ACCESS.2025.3556899}
+    }
+
 acuna2022predicting:
   key: acuna2022predicting
   title: Predicting the longevity of resources shared in scientific publications
   alternate_title: ''
   authors: Daniel E. Acuna, Jian Jian, Tong Zeng, Lizhen Liang, Han Zhuang
+  author_list:
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
+  - name: Jian Jian
+    given: Jian
+    family: Jian
+  - name: Tong Zeng
+    given: Tong
+    family: Zeng
+  - name: Lizhen Liang
+    given: Lizhen
+    family: Liang
+  - name: Han Zhuang
+    given: Han
+    family: Zhuang
   authors_short: Daniel E. Acuna, Jian Jian, Tong Zeng, et al.
   year: '2025'
   year_label: '2025'
@@ -816,11 +2879,72 @@ acuna2022predicting:
   tags:
   - reproducibility
   - dataset-discovery
+  doi: 10.1057/s41599-025-04716-z
+  publication_date: '2025-05-22'
+  volume: '12'
+  issue: '1'
+  pages: '698'
+  publisher: ''
+  url: https://doi.org/10.1057/s41599-025-04716-z
+  page_path: "/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.html"
+  bibtex_path: "/publications/citations/acuna2022predicting.bib"
+  summary: Code and data links can stop working long after a paper is published. This
+    study examines which features of a resource, its host, and its associated publication
+    help explain and predict its availability over time.
+  abstract: Research has shown that most resources shared in articles (e.g., URLs
+    to code or data) are not kept up to date and mostly disappear from the web after
+    some years (Zeng et al., 2019). Little is known about the factors that differentiate
+    and predict the longevity of these resources. This article explores a range of
+    explanatory features related to the publication venue, authors, references, and
+    where the resource is shared. We analyze an extensive repository of publications
+    and, through web archival services, reconstruct how they looked at different time
+    points. We discover that the most important factors are related to where and how
+    the resource is shared, while surprisingly little consideration is given to the
+    author’s reputation or prestige of the journal. By examining the places where
+    long-lasting resources are shared, we suggest that it is critical to educate researchers
+    on modern sharing technologies. Finally, we discuss implications for reproducibility
+    and acknowledge scientific datasets as first-class citizens of science.
+  abstract_license: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: "/publications/predicting-the-longevity-of-resources-shared-in-scientific-publications.pdf"
+  - type: preprint
+    url: https://arxiv.org/abs/2203.12800
+  - type: code
+    url: https://github.com/sciosci/predicting_resource_longevity/
+  citation: Daniel E. Acuna, Jian Jian, Tong Zeng, Lizhen Liang, Han Zhuang (2025).
+    Predicting the longevity of resources shared in scientific publications. Humanities
+    and Social Sciences Communications. https://doi.org/10.1057/s41599-025-04716-z
+  bibtex: |+
+    @article{acuna2022predicting,
+      title = {Predicting the longevity of resources shared in scientific publications},
+      author = {Acuna, Daniel E. and Jian, Jian and Zeng, Tong and Liang, Lizhen and Zhuang, Han},
+      year = {2025},
+      publication_date = {2025-05-22},
+      journal = {Humanities and Social Sciences Communications},
+      volume = {12},
+      number = {1},
+      pages = {698},
+      doi = {10.1057/s41599-025-04716-z},
+      url = {https://doi.org/10.1057/s41599-025-04716-z}
+    }
+
 zhuang2025estimating:
   key: zhuang2025estimating
   title: Estimating the predictability of questionable open-access journals
   alternate_title: ''
   authors: Han Zhuang, Lizhen Liang, Daniel E. Acuna
+  author_list:
+  - name: Han Zhuang
+    given: Han
+    family: Zhuang
+  - name: Lizhen Liang
+    given: Lizhen
+    family: Liang
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
   authors_short: Han Zhuang, Lizhen Liang, Daniel E. Acuna
   year: '2025'
   year_label: '2025'
@@ -832,11 +2956,69 @@ zhuang2025estimating:
   - ecosystem
   tags:
   - questionable-journals
+  doi: 10.1126/sciadv.adt2792
+  publication_date: '2025-08-27'
+  volume: '11'
+  issue: '35'
+  pages: eadt2792
+  publisher: ''
+  url: https://doi.org/10.1126/sciadv.adt2792
+  page_path: "/publications/questionable-journals/"
+  bibtex_path: "/publications/citations/zhuang2025estimating.bib"
+  summary: This study evaluates whether journal websites and publication metadata
+    can support large-scale screening for questionable open-access journals. It treats
+    automated predictions as a way to focus expert investigation.
+  abstract: Questionable journals threaten global research integrity, yet manual vetting
+    can be slow and inflexible. Here, we explore the potential of artificial intelligence
+    (AI) to systematically identify such venues by analyzing website design, content,
+    and publication metadata. Evaluated against extensive human-annotated datasets,
+    our method achieves practical accuracy and uncovers previously overlooked indicators
+    of journal legitimacy. By adjusting the decision threshold, our method can prioritize
+    either comprehensive screening or precise, low-noise identification. At a balanced
+    threshold, we flag over 1000 suspect journals, which collectively publish hundreds
+    of thousands of articles, receive millions of citations, acknowledge funding from
+    major agencies, and attract authors from developing countries. Error analysis
+    reveals challenges involving discontinued titles, book series misclassified as
+    journals, and small society outlets with limited online presence, which are issues
+    addressable with improved data quality. Our findings demonstrate AI’s potential
+    for scalable integrity checks, while also highlighting the need to pair automated
+    triage with expert review.
+  abstract_license: https://creativecommons.org/licenses/by-nc/4.0/
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: https://www.science.org/doi/pdf/10.1126/sciadv.adt2792
+  citation: Han Zhuang, Lizhen Liang, Daniel E. Acuna (2025). Estimating the predictability
+    of questionable open-access journals. Science Advances. https://doi.org/10.1126/sciadv.adt2792
+  bibtex: |+
+    @article{zhuang2025estimating,
+      title = {Estimating the predictability of questionable open-access journals},
+      author = {Zhuang, Han and Liang, Lizhen and Acuna, Daniel E.},
+      year = {2025},
+      publication_date = {2025-08-27},
+      journal = {Science Advances},
+      volume = {11},
+      number = {35},
+      pages = {eadt2792},
+      doi = {10.1126/sciadv.adt2792},
+      url = {https://doi.org/10.1126/sciadv.adt2792}
+    }
+
 zhou2026widespread:
   key: zhou2026widespread
   title: Widespread reference missingness disparities in open scholarly metadata
   alternate_title: ''
   authors: Huaxia Zhou, Lizhen Liang, Daniel E. Acuna
+  author_list:
+  - name: Huaxia Zhou
+    given: Huaxia
+    family: Zhou
+  - name: Lizhen Liang
+    given: Lizhen
+    family: Liang
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
   authors_short: Huaxia Zhou, Lizhen Liang, Daniel E. Acuna
   year: '2026'
   year_label: '2026'
@@ -851,6 +3033,35 @@ zhou2026widespread:
   - scholarly-data
   - citation-analysis
   - diversity
+  doi: 10.1162/qss.a.400
+  publication_date: '2026'
+  volume: '7'
+  issue: ''
+  pages: 53--65
+  publisher: ''
+  url: https://doi.org/10.1162/qss.a.400
+  page_path:
+  bibtex_path: "/publications/citations/zhou2026widespread.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Huaxia Zhou, Lizhen Liang, Daniel E. Acuna (2026). Widespread reference
+    missingness disparities in open scholarly metadata. Quantitative Science Studies.
+    https://doi.org/10.1162/qss.a.400
+  bibtex: |+
+    @article{zhou2026widespread,
+      title = {Widespread reference missingness disparities in open scholarly metadata},
+      author = {Zhou, Huaxia and Liang, Lizhen and Acuna, Daniel E.},
+      year = {2026},
+      journal = {Quantitative Science Studies},
+      volume = {7},
+      pages = {53--65},
+      doi = {10.1162/qss.a.400},
+      url = {https://doi.org/10.1162/qss.a.400}
+    }
+
 xu2026beyond:
   key: xu2026beyond
   title: 'Beyond a number game: Flat team structures improve inclusion and performance
@@ -859,6 +3070,34 @@ xu2026beyond:
     in Diverse Scientific Teams'
   authors: Huimin Xu, Shujing Sun, Meijun Liu, Chenwei Zhang, Yi Bu, Yi Zhang, Daniel
     E. Acuna, Eric Meyer, Ying Ding
+  author_list:
+  - name: Huimin Xu
+    given: Huimin
+    family: Xu
+  - name: Shujing Sun
+    given: Shujing
+    family: Sun
+  - name: Meijun Liu
+    given: Meijun
+    family: Liu
+  - name: Chenwei Zhang
+    given: Chenwei
+    family: Zhang
+  - name: Yi Bu
+    given: Yi
+    family: Bu
+  - name: Yi Zhang
+    given: Yi
+    family: Zhang
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
+  - name: Eric Meyer
+    given: Eric
+    family: Meyer
+  - name: Ying Ding
+    given: Ying
+    family: Ding
   authors_short: Huimin Xu, Shujing Sun, Meijun Liu, et al.
   year: '2026'
   year_label: '2026'
@@ -870,12 +3109,55 @@ xu2026beyond:
   tags:
   - collaboration
   - diversity
+  doi: 10.1002/asi.70083
+  publication_date: '2026'
+  volume: '77'
+  issue: '9'
+  pages: 1119--1135
+  publisher: ''
+  url: https://doi.org/10.1002/asi.70083
+  page_path:
+  bibtex_path: "/publications/citations/xu2026beyond.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources:
+  - type: preprint
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4751297
+  citation: 'Huimin Xu, Shujing Sun, Meijun Liu, Chenwei Zhang, Yi Bu, Yi Zhang, Daniel
+    E. Acuna, Eric Meyer, Ying Ding (2026). Beyond a number game: Flat team structures
+    improve inclusion and performance in diverse scientific teams. Journal of the
+    Association for Information Science and Technology. https://doi.org/10.1002/asi.70083'
+  bibtex: |+
+    @article{xu2026beyond,
+      title = {Beyond a number game: Flat team structures improve inclusion and performance in diverse scientific teams},
+      author = {Xu, Huimin and Sun, Shujing and Liu, Meijun and Zhang, Chenwei and Bu, Yi and Zhang, Yi and Acuna, Daniel E. and Meyer, Eric and Ding, Ying},
+      year = {2026},
+      journal = {Journal of the Association for Information Science and Technology},
+      volume = {77},
+      number = {9},
+      pages = {1119--1135},
+      doi = {10.1002/asi.70083},
+      url = {https://doi.org/10.1002/asi.70083}
+    }
+
 kusumegi2026dissecting:
   key: kusumegi2026dissecting
   title: 'Dissecting the gender divide: authorship and acknowledgment in scientific
     publications'
   alternate_title: ''
   authors: Keigo Kusumegi, Daniel E. Acuna, Yukie Sano
+  author_list:
+  - name: Keigo Kusumegi
+    given: Keigo
+    family: Kusumegi
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
+  - name: Yukie Sano
+    given: Yukie
+    family: Sano
   authors_short: Keigo Kusumegi, Daniel E. Acuna, Yukie Sano
   year: '2026'
   year_label: '2026'
@@ -888,12 +3170,49 @@ kusumegi2026dissecting:
   - diversity
   - collaboration
   - careers
+  doi: 10.1007/s11192-026-05712-z
+  publication_date: '2026'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://doi.org/10.1007/s11192-026-05712-z
+  page_path:
+  bibtex_path: "/publications/citations/kusumegi2026dissecting.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Keigo Kusumegi, Daniel E. Acuna, Yukie Sano (2026). Dissecting the gender
+    divide: authorship and acknowledgment in scientific publications. Scientometrics.
+    https://doi.org/10.1007/s11192-026-05712-z'
+  bibtex: |+
+    @article{kusumegi2026dissecting,
+      title = {Dissecting the gender divide: authorship and acknowledgment in scientific publications},
+      author = {Kusumegi, Keigo and Acuna, Daniel E. and Sano, Yukie},
+      year = {2026},
+      journal = {Scientometrics},
+      doi = {10.1007/s11192-026-05712-z},
+      url = {https://doi.org/10.1007/s11192-026-05712-z}
+    }
+
 meguimtsop2026sciintbench:
   key: meguimtsop2026sciintbench
   title: 'SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under
     Adversarial Framing'
   alternate_title: ''
   authors: Almene De Meran Meguimtsop, Maria Leonor Pacheco, Daniel E. Acuna
+  author_list:
+  - name: Almene De Meran Meguimtsop
+    given: Almene De Meran
+    family: Meguimtsop
+  - name: Maria Leonor Pacheco
+    given: Maria Leonor
+    family: Pacheco
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
   authors_short: Almene De Meran Meguimtsop, Maria Leonor Pacheco, Daniel E. Acuna
   year: '2026'
   year_label: 2026 · Preprint / working paper
@@ -906,12 +3225,62 @@ meguimtsop2026sciintbench:
   tags:
   - responsible-ai
   - language-models
+  doi: 10.48550/arXiv.2605.29468
+  publication_date: '2026-05-28'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://arxiv.org/abs/2605.29468
+  page_path: "/publications/sciintbench/"
+  bibtex_path: "/publications/citations/meguimtsop2026sciintbench.bib"
+  summary: SciIntBench evaluates how language models respond to scientific requests
+    framed as explicit misconduct, covert misconduct, or legitimate work. It measures
+    both refusal of problematic requests and helpfulness on benign ones.
+  abstract: 'Large language models (LLMs) are increasingly used to support scientific
+    work, but it is unclear whether they uphold responsible conduct of research (RCR)
+    norms or help undermine them. We introduce SciIntBench, an adversarial benchmark
+    of 810 prompts across ten RCR categories and three scientific domains. Each scenario
+    appears as an Overt Adversarial, Covert Adversarial, and Benign version, allowing
+    us to jointly measure framing-sensitive refusal of misconduct and helpfulness
+    on legitimate requests. We evaluate 16 commercial and open-weight LLMs from six
+    providers (2024--2026), producing 12,960 responses. We find that scientific integrity
+    alignment is strongly framing-sensitive: models refuse explicit misconduct far
+    more reliably than covert violations, especially failing when misconduct is presented
+    as a pressure-driven shortcut. Refusals vary by RCR category, with weaker boundaries
+    around transparency, plagiarism, and fabrication.'
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: "/publications/sciintbench/paper.pdf"
+  citation: 'Almene De Meran Meguimtsop, Maria Leonor Pacheco, Daniel E. Acuna (2026).
+    SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under Adversarial
+    Framing. arXiv preprint arXiv:2605.29468. https://doi.org/10.48550/arXiv.2605.29468'
+  bibtex: |+
+    @article{meguimtsop2026sciintbench,
+      title = {SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under Adversarial Framing},
+      author = {Meguimtsop, Almene De Meran and Pacheco, Maria Leonor and Acuna, Daniel E.},
+      year = {2026},
+      publication_date = {2026-05-28},
+      journal = {arXiv preprint arXiv:2605.29468},
+      doi = {10.48550/arXiv.2605.29468},
+      url = {https://arxiv.org/abs/2605.29468}
+    }
+
 taechoyotin2026remctx:
   key: taechoyotin2026remctx
   title: 'REM-CTX: Automated Peer Review via Reinforcement Learning with Auxiliary
     Context'
   alternate_title: ''
   authors: Pawin Taechoyotin, Daniel E. Acuna
+  author_list:
+  - name: Pawin Taechoyotin
+    given: Pawin
+    family: Taechoyotin
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
   authors_short: Pawin Taechoyotin, Daniel E. Acuna
   year: '2026'
   year_label: 2026 · Preprint / working paper
@@ -925,11 +3294,72 @@ taechoyotin2026remctx:
   - language-models
   - reinforcement-learning
   - multimodal-learning
+  doi: 10.48550/arXiv.2604.00248
+  publication_date: '2026-03-31'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://arxiv.org/abs/2604.00248
+  page_path: "/publications/rem-ctx/"
+  bibtex_path: "/publications/citations/taechoyotin2026remctx.bib"
+  summary: REM-CTX extends review generation beyond manuscript text. It trains a language
+    model to use auxiliary context and tests whether explicit correspondence rewards
+    improve the grounding of generated reviews.
+  abstract: 'Most automated peer review systems rely on textual manuscript content
+    alone, leaving visual elements such as figures and external scholarly signals
+    underutilized. We introduce REM-CTX, a reinforcement-learning system that incorporates
+    auxiliary context into the review generation process via correspondence-aware
+    reward functions. REM-CTX trains an 8B-parameter language model with Group Relative
+    Policy Optimization (GRPO) and combines a multi-aspect quality reward with two
+    correspondence rewards that explicitly encourage alignment with auxiliary context.
+    Experiments on manuscripts across Computer, Biological, and Physical Sciences
+    show that REM-CTX achieves the highest overall review quality among six baselines,
+    outperforming other systems with substantially larger commercial models, and surpassing
+    the next-best RL baseline across both quality and contextual grounding metrics.
+    Ablation studies confirm that the two correspondence rewards are complementary:
+    each selectively improves its targeted correspondence reward while preserving
+    all quality dimensions, and the full model outperforms all partial variants. Analysis
+    of training dynamics reveals that the criticism aspect is negatively correlated
+    with other metrics during training, suggesting that future studies should group
+    multi-dimension rewards for review generation.'
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: https://arxiv.org/pdf/2604.00248
+  citation: 'Pawin Taechoyotin, Daniel E. Acuna (2026). REM-CTX: Automated Peer Review
+    via Reinforcement Learning with Auxiliary Context. arXiv preprint arXiv:2604.00248.
+    https://doi.org/10.48550/arXiv.2604.00248'
+  bibtex: |+
+    @article{taechoyotin2026remctx,
+      title = {REM-CTX: Automated Peer Review via Reinforcement Learning with Auxiliary Context},
+      author = {Taechoyotin, Pawin and Acuna, Daniel E.},
+      year = {2026},
+      publication_date = {2026-03-31},
+      journal = {arXiv preprint arXiv:2604.00248},
+      doi = {10.48550/arXiv.2604.00248},
+      url = {https://arxiv.org/abs/2604.00248}
+    }
+
 popp2026government:
   key: popp2026government
   title: Government Funding and the Direction of Academic Energy Research
   alternate_title: ''
   authors: David Popp, Myriam Gregoire-Zawilski, Lizhen Liang, Daniel E. Acuna
+  author_list:
+  - name: David Popp
+    given: David
+    family: Popp
+  - name: Myriam Gregoire-Zawilski
+    given: Myriam
+    family: Gregoire-Zawilski
+  - name: Lizhen Liang
+    given: Lizhen
+    family: Liang
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
   authors_short: David Popp, Myriam Gregoire-Zawilski, Lizhen Liang, et al.
   year: '2026'
   year_label: 2026 · Preprint / working paper
@@ -940,12 +3370,46 @@ popp2026government:
   - ecosystem
   tags:
   - funding
+  doi: 10.3386/w34856
+  publication_date: '2026'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://doi.org/10.3386/w34856
+  page_path:
+  bibtex_path: "/publications/citations/popp2026government.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: David Popp, Myriam Gregoire-Zawilski, Lizhen Liang, Daniel E. Acuna (2026).
+    Government Funding and the Direction of Academic Energy Research. NBER Working
+    Paper No. 34856. https://doi.org/10.3386/w34856
+  bibtex: |+
+    @article{popp2026government,
+      title = {Government Funding and the Direction of Academic Energy Research},
+      author = {Popp, David and Gregoire-Zawilski, Myriam and Liang, Lizhen and Acuna, Daniel E.},
+      year = {2026},
+      journal = {NBER Working Paper No. 34856},
+      doi = {10.3386/w34856},
+      url = {https://doi.org/10.3386/w34856}
+    }
+
 taechoyotin2025remor:
   key: taechoyotin2025remor
   title: 'REMOR: Automated Peer Review Generation with LLM Reasoning and Multi-Objective
     Reinforcement Learning'
   alternate_title: ''
   authors: Pawin Taechoyotin, Daniel E. Acuna
+  author_list:
+  - name: Pawin Taechoyotin
+    given: Pawin
+    family: Taechoyotin
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
   authors_short: Pawin Taechoyotin, Daniel E. Acuna
   year: '2025'
   year_label: 2025 · Preprint / working paper
@@ -958,11 +3422,75 @@ taechoyotin2025remor:
   - peer-review
   - language-models
   - reinforcement-learning
+  doi: 10.48550/arXiv.2505.11718
+  publication_date: '2025-05-16'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://arxiv.org/abs/2505.11718
+  page_path: "/publications/remor/"
+  bibtex_path: "/publications/citations/taechoyotin2025remor.bib"
+  summary: REMOR studies review generation with a reasoning language model and rewards
+    for multiple aspects of review quality. It compares different reward designs and
+    examines how training changes the feedback produced.
+  abstract: 'AI-based peer review systems tend to produce shallow and overpraising
+    suggestions compared to human feedback. Here, we evaluate how well a reasoning
+    LLM trained with multi-objective reinforcement learning (REMOR) can overcome these
+    limitations. We start by designing a multi-aspect reward function that aligns
+    with human evaluation of reviews. The aspects are related to the review itself
+    (e.g., criticisms, novelty) and the relationship between the review and the manuscript
+    (i.e., relevance). First, we perform supervised fine-tuning of DeepSeek-R1-Distill-Qwen-7B
+    using LoRA on PeerRT, a new dataset of high-quality top AI conference reviews
+    enriched with reasoning traces. We then apply Group Relative Policy Optimization
+    (GRPO) to train two models: REMOR-H (with the human-aligned reward) and REMOR-U
+    (with a uniform reward). Interestingly, the human-aligned reward penalizes aspects
+    typically associated with strong reviews, leading REMOR-U to produce qualitatively
+    more substantive feedback. Our results show that REMOR-U and REMOR-H achieve more
+    than twice the average rewards of human reviews, non-reasoning state-of-the-art
+    agentic multi-modal AI review systems, and general commercial LLM baselines. We
+    found that while the best AI and human reviews are comparable in quality, REMOR
+    avoids the long tail of low-quality human reviews. We discuss how reasoning is
+    key to achieving these improvements and release the Human-aligned Peer Review
+    Reward (HPRR) function, the Peer Review Reasoning-enriched Traces (PeerRT) dataset,
+    and the REMOR models, which we believe can help spur progress in the area.'
+  abstract_license: https://creativecommons.org/licenses/by/4.0/
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: "/publications/remor/paper.pdf"
+  citation: 'Pawin Taechoyotin, Daniel E. Acuna (2025). REMOR: Automated Peer Review
+    Generation with LLM Reasoning and Multi-Objective Reinforcement Learning. arXiv
+    preprint arXiv:2505.11718. https://doi.org/10.48550/arXiv.2505.11718'
+  bibtex: |+
+    @article{taechoyotin2025remor,
+      title = {REMOR: Automated Peer Review Generation with LLM Reasoning and Multi-Objective Reinforcement Learning},
+      author = {Taechoyotin, Pawin and Acuna, Daniel E.},
+      year = {2025},
+      publication_date = {2025-05-16},
+      journal = {arXiv preprint arXiv:2505.11718},
+      doi = {10.48550/arXiv.2505.11718},
+      url = {https://arxiv.org/abs/2505.11718}
+    }
+
 liang2024complementary:
   key: liang2024complementary
   title: The complementary contributions of academia and industry to AI research
   alternate_title: ''
   authors: Lizhen Liang, Han Zhuang, James Zou, Daniel E. Acuna
+  author_list:
+  - name: Lizhen Liang
+    given: Lizhen
+    family: Liang
+  - name: Han Zhuang
+    given: Han
+    family: Zhuang
+  - name: James Zou
+    given: James
+    family: Zou
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
   authors_short: Lizhen Liang, Han Zhuang, James Zou, et al.
   year: '2024'
   year_label: 2024 · Preprint / working paper
@@ -973,12 +3501,56 @@ liang2024complementary:
   - ecosystem
   tags:
   - collaboration
+  doi: ''
+  publication_date: '2024'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://arxiv.org/abs/2401.10268
+  page_path:
+  bibtex_path: "/publications/citations/liang2024complementary.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Lizhen Liang, Han Zhuang, James Zou, Daniel E. Acuna (2024). The complementary
+    contributions of academia and industry to AI research. arXiv preprint arXiv:2401.10268.
+  bibtex: |+
+    @article{liang2024complementary,
+      title = {The complementary contributions of academia and industry to AI research},
+      author = {Liang, Lizhen and Zhuang, Han and Zou, James and Acuna, Daniel E.},
+      year = {2024},
+      journal = {arXiv preprint arXiv:2401.10268},
+      url = {https://arxiv.org/abs/2401.10268}
+    }
+
 lancichinetti2015topic:
   key: lancichinetti2015topic
   title: High-Reproducibility and High-Accuracy Method for Automated Topic Classification
   alternate_title: ''
   authors: Andrea Lancichinetti, M. Irmak Sirer, Jane X. Wang, Daniel Acuna, Konrad
     Körding, Luís A. Nunes Amaral
+  author_list:
+  - name: Andrea Lancichinetti
+    given: Andrea
+    family: Lancichinetti
+  - name: M. Irmak Sirer
+    given: M. Irmak
+    family: Sirer
+  - name: Jane X. Wang
+    given: Jane X.
+    family: Wang
+  - name: Daniel Acuna
+    given: Daniel
+    family: Acuna
+  - name: Konrad Körding
+    given: Konrad
+    family: Körding
+  - name: Luís A. Nunes Amaral
+    given: Luís A.
+    family: Nunes Amaral
   authors_short: Andrea Lancichinetti, M. Irmak Sirer, Jane X. Wang, et al.
   year: '2015'
   year_label: '2015'
@@ -991,12 +3563,55 @@ lancichinetti2015topic:
   tags:
   - text-mining
   - statistical-methods
+  doi: 10.1103/PhysRevX.5.011007
+  publication_date: '2015'
+  volume: '5'
+  issue: '1'
+  pages: '011007'
+  publisher: ''
+  url: https://doi.org/10.1103/PhysRevX.5.011007
+  page_path:
+  bibtex_path: "/publications/citations/lancichinetti2015topic.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Andrea Lancichinetti, M. Irmak Sirer, Jane X. Wang, Daniel Acuna, Konrad
+    Körding, Luís A. Nunes Amaral (2015). High-Reproducibility and High-Accuracy Method
+    for Automated Topic Classification. Physical Review X. https://doi.org/10.1103/PhysRevX.5.011007
+  bibtex: |+
+    @article{lancichinetti2015topic,
+      title = {High-Reproducibility and High-Accuracy Method for Automated Topic Classification},
+      author = {Lancichinetti, Andrea and Sirer, M. Irmak and Wang, Jane X. and Acuna, Daniel and Körding, Konrad and Nunes Amaral, Luís A.},
+      year = {2015},
+      journal = {Physical Review X},
+      volume = {5},
+      number = {1},
+      pages = {011007},
+      doi = {10.1103/PhysRevX.5.011007},
+      url = {https://doi.org/10.1103/PhysRevX.5.011007}
+    }
+
 achakulvisut2019claim:
   key: achakulvisut2019claim
   title: Claim Extraction in Biomedical Publications using Deep Discourse Model and
     Transfer Learning
   alternate_title: ''
   authors: Titipat Achakulvisut, Chandra Bhagavatula, Daniel Acuna, Konrad Kording
+  author_list:
+  - name: Titipat Achakulvisut
+    given: Titipat
+    family: Achakulvisut
+  - name: Chandra Bhagavatula
+    given: Chandra
+    family: Bhagavatula
+  - name: Daniel Acuna
+    given: Daniel
+    family: Acuna
+  - name: Konrad Kording
+    given: Konrad
+    family: Kording
   authors_short: Titipat Achakulvisut, Chandra Bhagavatula, Daniel Acuna, et al.
   year: '2019'
   year_label: 2019 · Preprint / working paper
@@ -1009,6 +3624,33 @@ achakulvisut2019claim:
   tags:
   - text-mining
   - scholarly-data
+  doi: 10.48550/arXiv.1907.00962
+  publication_date: '2019'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://arxiv.org/abs/1907.00962
+  page_path:
+  bibtex_path: "/publications/citations/achakulvisut2019claim.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Titipat Achakulvisut, Chandra Bhagavatula, Daniel Acuna, Konrad Kording
+    (2019). Claim Extraction in Biomedical Publications using Deep Discourse Model
+    and Transfer Learning. arXiv:1907.00962. https://doi.org/10.48550/arXiv.1907.00962
+  bibtex: |+
+    @article{achakulvisut2019claim,
+      title = {Claim Extraction in Biomedical Publications using Deep Discourse Model and Transfer Learning},
+      author = {Achakulvisut, Titipat and Bhagavatula, Chandra and Acuna, Daniel and Kording, Konrad},
+      year = {2019},
+      journal = {arXiv:1907.00962},
+      doi = {10.48550/arXiv.1907.00962},
+      url = {https://arxiv.org/abs/1907.00962}
+    }
+
 liu2022team:
   key: liu2022team
   title: 'Team formation and team impact: The balance between team freshness and repeat
@@ -1016,6 +3658,31 @@ liu2022team:
   alternate_title: ''
   authors: Meijun Liu, Ajay Jaiswal, Yi Bu, Chao Min, Sijie Yang, Zhibo Liu, Daniel
     Acuña, Ying Ding
+  author_list:
+  - name: Meijun Liu
+    given: Meijun
+    family: Liu
+  - name: Ajay Jaiswal
+    given: Ajay
+    family: Jaiswal
+  - name: Yi Bu
+    given: Yi
+    family: Bu
+  - name: Chao Min
+    given: Chao
+    family: Min
+  - name: Sijie Yang
+    given: Sijie
+    family: Yang
+  - name: Zhibo Liu
+    given: Zhibo
+    family: Liu
+  - name: Daniel Acuña
+    given: Daniel
+    family: Acuña
+  - name: Ying Ding
+    given: Ying
+    family: Ding
   authors_short: Meijun Liu, Ajay Jaiswal, Yi Bu, et al.
   year: '2022'
   year_label: '2022'
@@ -1027,12 +3694,61 @@ liu2022team:
   tags:
   - collaboration
   - citation-analysis
+  doi: 10.1016/j.joi.2022.101337
+  publication_date: '2022'
+  volume: '16'
+  issue: '4'
+  pages: '101337'
+  publisher: ''
+  url: https://doi.org/10.1016/j.joi.2022.101337
+  page_path:
+  bibtex_path: "/publications/citations/liu2022team.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Meijun Liu, Ajay Jaiswal, Yi Bu, Chao Min, Sijie Yang, Zhibo Liu, Daniel
+    Acuña, Ying Ding (2022). Team formation and team impact: The balance between team
+    freshness and repeat collaboration. Journal of Informetrics. https://doi.org/10.1016/j.joi.2022.101337'
+  bibtex: |+
+    @article{liu2022team,
+      title = {Team formation and team impact: The balance between team freshness and repeat collaboration},
+      author = {Liu, Meijun and Jaiswal, Ajay and Bu, Yi and Min, Chao and Yang, Sijie and Liu, Zhibo and Acuña, Daniel and Ding, Ying},
+      year = {2022},
+      journal = {Journal of Informetrics},
+      volume = {16},
+      number = {4},
+      pages = {101337},
+      doi = {10.1016/j.joi.2022.101337},
+      url = {https://doi.org/10.1016/j.joi.2022.101337}
+    }
+
 achakulvisut2020neuromatch:
   key: achakulvisut2020neuromatch
   title: 'neuromatch: Algorithms to match scientists'
   alternate_title: ''
   authors: Titipat Achakulvisut, Tulakan Ruangrong, Daniel Ernesto Acuna, Brad Wyble,
     Dan Goodman, Konrad Kording
+  author_list:
+  - name: Titipat Achakulvisut
+    given: Titipat
+    family: Achakulvisut
+  - name: Tulakan Ruangrong
+    given: Tulakan
+    family: Ruangrong
+  - name: Daniel Ernesto Acuna
+    given: Daniel Ernesto
+    family: Acuna
+  - name: Brad Wyble
+    given: Brad
+    family: Wyble
+  - name: Dan Goodman
+    given: Dan
+    family: Goodman
+  - name: Konrad Kording
+    given: Konrad
+    family: Kording
   authors_short: Titipat Achakulvisut, Tulakan Ruangrong, Daniel Ernesto Acuna, et
     al.
   year: '2020'
@@ -1048,12 +3764,44 @@ achakulvisut2020neuromatch:
   - collaboration
   - careers
   - text-mining
+  doi: ''
+  publication_date: '2020'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://elifesciences.org/labs/5ed408f4/neuromatch-algorithms-to-match-scientists
+  page_path:
+  bibtex_path: "/publications/citations/achakulvisut2020neuromatch.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Titipat Achakulvisut, Tulakan Ruangrong, Daniel Ernesto Acuna, Brad Wyble,
+    Dan Goodman, Konrad Kording (2020). neuromatch: Algorithms to match scientists.
+    eLife Labs.'
+  bibtex: |+
+    @misc{achakulvisut2020neuromatch,
+      title = {neuromatch: Algorithms to match scientists},
+      author = {Achakulvisut, Titipat and Ruangrong, Tulakan and Acuna, Daniel Ernesto and Wyble, Brad and Goodman, Dan and Kording, Konrad},
+      year = {2020},
+      url = {https://elifesciences.org/labs/5ed408f4/neuromatch-algorithms-to-match-scientists}
+    }
+
 xiang2020tampering:
   key: xiang2020tampering
   title: 'Scientific Image Tampering Detection Based On Noise Inconsistencies: A Method
     And Datasets'
   alternate_title: ''
   authors: Ziyue Xiang, Daniel E. Acuna
+  author_list:
+  - name: Ziyue Xiang
+    given: Ziyue
+    family: Xiang
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
   authors_short: Ziyue Xiang, Daniel E. Acuna
   year: '2020'
   year_label: 2020 · Preprint / working paper
@@ -1066,11 +3814,49 @@ xiang2020tampering:
   tags:
   - figure-integrity
   - image-forensics
+  doi: 10.48550/arXiv.2001.07799
+  publication_date: '2020-01-21'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://arxiv.org/abs/2001.07799
+  page_path: "/publications/scientific-image-tampering/"
+  bibtex_path: "/publications/citations/xiang2020tampering.bib"
+  summary: Scientific images have different properties from everyday photographs.
+    This preprint develops a detector tailored to scientific imagery and tests whether
+    inconsistencies in image noise can reveal manipulated regions.
+  abstract:
+  abstract_license:
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: https://arxiv.org/pdf/2001.07799
+  citation: 'Ziyue Xiang, Daniel E. Acuna (2020). Scientific Image Tampering Detection
+    Based On Noise Inconsistencies: A Method And Datasets. arXiv:2001.07799. https://doi.org/10.48550/arXiv.2001.07799'
+  bibtex: |+
+    @article{xiang2020tampering,
+      title = {Scientific Image Tampering Detection Based On Noise Inconsistencies: A Method And Datasets},
+      author = {Xiang, Ziyue and Acuna, Daniel E.},
+      year = {2020},
+      publication_date = {2020-01-21},
+      journal = {arXiv:2001.07799},
+      doi = {10.48550/arXiv.2001.07799},
+      url = {https://arxiv.org/abs/2001.07799}
+    }
+
 zhuang2019novelty:
   key: zhuang2019novelty
   title: The effect of novelty on the future impact of scientific grants
   alternate_title: ''
   authors: Han Zhuang, Daniel E. Acuna
+  author_list:
+  - name: Han Zhuang
+    given: Han
+    family: Zhuang
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
   authors_short: Han Zhuang, Daniel E. Acuna
   year: '2019'
   year_label: 2019 · Preprint / working paper
@@ -1082,12 +3868,42 @@ zhuang2019novelty:
   tags:
   - funding
   - citation-analysis
+  doi: 10.48550/arXiv.1911.02712
+  publication_date: '2019'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://arxiv.org/abs/1911.02712
+  page_path:
+  bibtex_path: "/publications/citations/zhuang2019novelty.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Han Zhuang, Daniel E. Acuna (2019). The effect of novelty on the future
+    impact of scientific grants. arXiv:1911.02712. https://doi.org/10.48550/arXiv.1911.02712
+  bibtex: |+
+    @article{zhuang2019novelty,
+      title = {The effect of novelty on the future impact of scientific grants},
+      author = {Zhuang, Han and Acuna, Daniel E.},
+      year = {2019},
+      journal = {arXiv:1911.02712},
+      doi = {10.48550/arXiv.1911.02712},
+      url = {https://arxiv.org/abs/1911.02712}
+    }
+
 acuna2020mentorshipcommentary:
   key: acuna2020mentorshipcommentary
   title: 'Some considerations for studying gender, mentorship, and scientific impact:
     commentary on AlShebli, Makovi, and Rahwan (2020)'
   alternate_title: ''
   authors: Daniel Ernesto Acuna
+  author_list:
+  - name: Daniel Ernesto Acuna
+    given: Daniel Ernesto
+    family: Acuna
   authors_short: Daniel Ernesto Acuna
   year: '2020'
   year_label: 2020 · Archived preprint
@@ -1101,6 +3917,34 @@ acuna2020mentorshipcommentary:
   - mentorship
   - diversity
   - statistical-methods
+  doi: 10.31219/osf.io/ybfk6
+  publication_date: '2020'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://scholar.archive.org/work/qk62l25nhjcnzck3fhcxdogl2u/access/wayback/https://files.osf.io/v1/resources/ybfk6/providers/osfstorage/5fe01fca149e75061b032ad0?action=download&direct&version=3
+  page_path:
+  bibtex_path: "/publications/citations/acuna2020mentorshipcommentary.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Daniel Ernesto Acuna (2020). Some considerations for studying gender,
+    mentorship, and scientific impact: commentary on AlShebli, Makovi, and Rahwan
+    (2020). OSF Preprints. https://doi.org/10.31219/osf.io/ybfk6'
+  bibtex: |+
+    @article{acuna2020mentorshipcommentary,
+      title = {Some considerations for studying gender, mentorship, and scientific impact: commentary on AlShebli, Makovi, and Rahwan (2020)},
+      author = {Acuna, Daniel Ernesto},
+      year = {2020},
+      journal = {OSF Preprints},
+      doi = {10.31219/osf.io/ybfk6},
+      url = {https://scholar.archive.org/work/qk62l25nhjcnzck3fhcxdogl2u/access/wayback/https://files.osf.io/v1/resources/ybfk6/providers/osfstorage/5fe01fca149e75061b032ad0?action=download&direct&version=3},
+      note = {Archived preprint}
+    }
+
 abatayo2026credibility:
   key: abatayo2026credibility
   title: Assessments of Credibility in the Social and Behavioral Sciences
@@ -1122,6 +3966,256 @@ abatayo2026credibility:
     Anna M Squicciarini, Theresa Stankov, Jordan W Suchow, Barnabas Szaszi, Louisa
     Tran, Peter A Vesk, Tim Vines, Colby J Vorland, Juntao Wang, Zhuoer Wang, David
     P Wilkinson, Bonnie Wintle, Jian Wu
+  author_list:
+  - name: Anna Lou Abatayo
+    given: Anna Lou
+    family: Abatayo
+  - name: Titipat Achakulvisut
+    given: Titipat
+    family: Achakulvisut
+  - name: Daniel Acuna
+    given: Daniel
+    family: Acuna
+  - name: Balazs Aczel
+    given: Balazs
+    family: Aczel
+  - name: Laxmaan Balaji
+    given: Laxmaan
+    family: Balaji
+  - name: Anita Bandrowski
+    given: Anita
+    family: Bandrowski
+  - name: Daniel M Benjamin
+    given: Daniel M
+    family: Benjamin
+  - name: Michael M Bishop
+    given: Michael M
+    family: Bishop
+  - name: Gary L Brase
+    given: Gary L
+    family: Brase
+  - name: Andrew W Brown
+    given: Andrew W
+    family: Brown
+  - name: Martin Bush
+    given: Martin
+    family: Bush
+  - name: James Caverlee
+    given: James
+    family: Caverlee
+  - name: Tatiana Chakravorti
+    given: Tatiana
+    family: Chakravorti
+  - name: Yiling Chen
+    given: Yiling
+    family: Chen
+  - name: Macie Daley
+    given: Macie
+    family: Daley
+  - name: Morteza Dehghani
+    given: Morteza
+    family: Dehghani
+  - name: Mirka Dirzo
+    given: Mirka
+    family: Dirzo
+  - name: Anna Dreber
+    given: Anna
+    family: Dreber
+  - name: Peter Eckmann
+    given: Peter
+    family: Eckmann
+  - name: Timothy M Errington
+    given: Timothy M
+    family: Errington
+  - name: Qizhang Feng
+    given: Qizhang
+    family: Feng
+  - name: Fiona Fidler
+    given: Fiona
+    family: Fidler
+  - name: Samuel Field
+    given: Samuel
+    family: Field
+  - name: Nicholas W Fox
+    given: Nicholas W
+    family: Fox
+  - name: Robert D Fraleigh
+    given: Robert D
+    family: Fraleigh
+  - name: Aaron Frank
+    given: Aaron
+    family: Frank
+  - name: Hannah Fraser
+    given: Hannah
+    family: Fraser
+  - name: James Gentile
+    given: James
+    family: Gentile
+  - name: C L Giles
+    given: C L
+    family: Giles
+  - name: Brandon Goldfedder
+    given: Brandon
+    family: Goldfedder
+  - name: Phil Gooch
+    given: Phil
+    family: Gooch
+  - name: Michael Gordon
+    given: Michael
+    family: Gordon
+  - name: Elliot Gould
+    given: Elliot
+    family: Gould
+  - name: Christopher Griffin
+    given: Christopher
+    family: Griffin
+  - name: Timothy Gulden
+    given: Timothy
+    family: Gulden
+  - name: Noah Haber
+    given: Noah
+    family: Haber
+  - name: Krystal Hahn
+    given: Krystal
+    family: Hahn
+  - name: Felix Holzmeister
+    given: Felix
+    family: Holzmeister
+  - name: Xia B Hu
+    given: Xia B
+    family: Hu
+  - name: Yuzhong Huang
+    given: Yuzhong
+    family: Huang
+  - name: Magnus Johannesson
+    given: Magnus
+    family: Johannesson
+  - name: Brendan Kennedy
+    given: Brendan
+    family: Kennedy
+  - name: Melissa Kline Struhl
+    given: Melissa
+    family: Kline Struhl
+  - name: Anthony Kwasnica
+    given: Anthony
+    family: Kwasnica
+  - name: Dong-Ho Lee
+    given: Dong-Ho
+    family: Lee
+  - name: Kristina Lerman
+    given: Kristina
+    family: Lerman
+  - name: Yang Liu
+    given: Yang
+    family: Liu
+  - name: Allegra Pearce
+    given: Allegra
+    family: Pearce
+  - name: Isabella Mandema
+    given: Isabella
+    family: Mandema
+  - name: Alexandru Marcoci
+    given: Alexandru
+    family: Marcoci
+  - name: Brinna Mawhinney
+    given: Brinna
+    family: Mawhinney
+  - name: Souad McIntosh
+    given: Souad
+    family: McIntosh
+  - name: Michael Mclaughlin
+    given: Michael
+    family: Mclaughlin
+  - name: Arjun Menon
+    given: Arjun
+    family: Menon
+  - name: Olivia Miske
+    given: Olivia
+    family: Miske
+  - name: Fallon Mody
+    given: Fallon
+    family: Mody
+  - name: Fred Morstatter
+    given: Fred
+    family: Morstatter
+  - name: Nishanth S Nakshatri
+    given: Nishanth S
+    family: Nakshatri
+  - name: Brian A Nosek
+    given: Brian A
+    family: Nosek
+  - name: Michele B Nuijten
+    given: Michele B
+    family: Nuijten
+  - name: David Pennock
+    given: David
+    family: Pennock
+  - name: Thomas Pfeiffer
+    given: Thomas
+    family: Pfeiffer
+  - name: Darien Pipkin
+    given: Darien
+    family: Pipkin
+  - name: Jay Pujara
+    given: Jay
+    family: Pujara
+  - name: Sarah Rajtmajer
+    given: Sarah
+    family: Rajtmajer
+  - name: Martijn Roelandse
+    given: Martijn
+    family: Roelandse
+  - name: Adam Russell
+    given: Adam
+    family: Russell
+  - name: Priya Silverstein
+    given: Priya
+    family: Silverstein
+  - name: Vaibhav Singh
+    given: Vaibhav
+    family: Singh
+  - name: Courtney K Soderberg
+    given: Courtney K
+    family: Soderberg
+  - name: Anna M Squicciarini
+    given: Anna M
+    family: Squicciarini
+  - name: Theresa Stankov
+    given: Theresa
+    family: Stankov
+  - name: Jordan W Suchow
+    given: Jordan W
+    family: Suchow
+  - name: Barnabas Szaszi
+    given: Barnabas
+    family: Szaszi
+  - name: Louisa Tran
+    given: Louisa
+    family: Tran
+  - name: Peter A Vesk
+    given: Peter A
+    family: Vesk
+  - name: Tim Vines
+    given: Tim
+    family: Vines
+  - name: Colby J Vorland
+    given: Colby J
+    family: Vorland
+  - name: Juntao Wang
+    given: Juntao
+    family: Wang
+  - name: Zhuoer Wang
+    given: Zhuoer
+    family: Wang
+  - name: David P Wilkinson
+    given: David P
+    family: Wilkinson
+  - name: Bonnie Wintle
+    given: Bonnie
+    family: Wintle
+  - name: Jian Wu
+    given: Jian
+    family: Wu
   authors_short: Anna Lou Abatayo, Titipat Achakulvisut, Daniel Acuna, et al.
   year: '2026'
   year_label: 2026 · Preprint / working paper
@@ -1134,11 +4228,64 @@ abatayo2026credibility:
   tags:
   - reproducibility
   - statistical-methods
+  doi: ''
+  publication_date: '2026'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://osf.io/preprints/metaarxiv/7u58q_v1
+  page_path:
+  bibtex_path: "/publications/citations/abatayo2026credibility.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources:
+  - type: dataset
+    url: https://osf.io/9fpyb/
+  citation: Anna Lou Abatayo, Titipat Achakulvisut, Daniel Acuna, Balazs Aczel, Laxmaan
+    Balaji, Anita Bandrowski, Daniel M Benjamin, Michael M Bishop, Gary L Brase, Andrew
+    W Brown, Martin Bush, James Caverlee, Tatiana Chakravorti, Yiling Chen, Macie
+    Daley, Morteza Dehghani, Mirka Dirzo, Anna Dreber, Peter Eckmann, Timothy M Errington,
+    Qizhang Feng, Fiona Fidler, Samuel Field, Nicholas W Fox, Robert D Fraleigh, Aaron
+    Frank, Hannah Fraser, James Gentile, C L Giles, Brandon Goldfedder, Phil Gooch,
+    Michael Gordon, Elliot Gould, Christopher Griffin, Timothy Gulden, Noah Haber,
+    Krystal Hahn, Felix Holzmeister, Xia B Hu, Yuzhong Huang, Magnus Johannesson,
+    Brendan Kennedy, Melissa Kline Struhl, Anthony Kwasnica, Dong-Ho Lee, Kristina
+    Lerman, Yang Liu, Allegra Pearce, Isabella Mandema, Alexandru Marcoci, Brinna
+    Mawhinney, Souad McIntosh, Michael Mclaughlin, Arjun Menon, Olivia Miske, Fallon
+    Mody, Fred Morstatter, Nishanth S Nakshatri, Brian A Nosek, Michele B Nuijten,
+    David Pennock, Thomas Pfeiffer, Darien Pipkin, Jay Pujara, Sarah Rajtmajer, Martijn
+    Roelandse, Adam Russell, Priya Silverstein, Vaibhav Singh, Courtney K Soderberg,
+    Anna M Squicciarini, Theresa Stankov, Jordan W Suchow, Barnabas Szaszi, Louisa
+    Tran, Peter A Vesk, Tim Vines, Colby J Vorland, Juntao Wang, Zhuoer Wang, David
+    P Wilkinson, Bonnie Wintle, Jian Wu (2026). Assessments of Credibility in the
+    Social and Behavioral Sciences. MetaArXiv.
+  bibtex: |+
+    @article{abatayo2026credibility,
+      title = {Assessments of Credibility in the Social and Behavioral Sciences},
+      author = {Abatayo, Anna Lou and Achakulvisut, Titipat and Acuna, Daniel and Aczel, Balazs and Balaji, Laxmaan and Bandrowski, Anita and Benjamin, Daniel M and Bishop, Michael M and Brase, Gary L and Brown, Andrew W and Bush, Martin and Caverlee, James and Chakravorti, Tatiana and Chen, Yiling and Daley, Macie and Dehghani, Morteza and Dirzo, Mirka and Dreber, Anna and Eckmann, Peter and Errington, Timothy M and Feng, Qizhang and Fidler, Fiona and Field, Samuel and Fox, Nicholas W and Fraleigh, Robert D and Frank, Aaron and Fraser, Hannah and Gentile, James and Giles, C L and Goldfedder, Brandon and Gooch, Phil and Gordon, Michael and Gould, Elliot and Griffin, Christopher and Gulden, Timothy and Haber, Noah and Hahn, Krystal and Holzmeister, Felix and Hu, Xia B and Huang, Yuzhong and Johannesson, Magnus and Kennedy, Brendan and Kline Struhl, Melissa and Kwasnica, Anthony and Lee, Dong-Ho and Lerman, Kristina and Liu, Yang and Pearce, Allegra and Mandema, Isabella and Marcoci, Alexandru and Mawhinney, Brinna and McIntosh, Souad and Mclaughlin, Michael and Menon, Arjun and Miske, Olivia and Mody, Fallon and Morstatter, Fred and Nakshatri, Nishanth S and Nosek, Brian A and Nuijten, Michele B and Pennock, David and Pfeiffer, Thomas and Pipkin, Darien and Pujara, Jay and Rajtmajer, Sarah and Roelandse, Martijn and Russell, Adam and Silverstein, Priya and Singh, Vaibhav and Soderberg, Courtney K and Squicciarini, Anna M and Stankov, Theresa and Suchow, Jordan W and Szaszi, Barnabas and Tran, Louisa and Vesk, Peter A and Vines, Tim and Vorland, Colby J and Wang, Juntao and Wang, Zhuoer and Wilkinson, David P and Wintle, Bonnie and Wu, Jian},
+      year = {2026},
+      journal = {MetaArXiv},
+      url = {https://osf.io/preprints/metaarxiv/7u58q_v1}
+    }
+
 acuna2021eileen:
   key: acuna2021eileen
   title: 'EILEEN: A recommendation system for scientific publications and grants'
   alternate_title: ''
   authors: Daniel E. Acuna, Kartik Nagre, Priya Matnani
+  author_list:
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
+  - name: Kartik Nagre
+    given: Kartik
+    family: Nagre
+  - name: Priya Matnani
+    given: Priya
+    family: Matnani
   authors_short: Daniel E. Acuna, Kartik Nagre, Priya Matnani
   year: '2021'
   year_label: 2021 · Preprint / working paper
@@ -1153,12 +4300,60 @@ acuna2021eileen:
   - recommender-systems
   - funding
   - text-mining
+  doi: 10.48550/arXiv.2110.09663
+  publication_date: '2021'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://arxiv.org/abs/2110.09663
+  page_path:
+  bibtex_path: "/publications/citations/acuna2021eileen.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Daniel E. Acuna, Kartik Nagre, Priya Matnani (2021). EILEEN: A recommendation
+    system for scientific publications and grants. arXiv:2110.09663. https://doi.org/10.48550/arXiv.2110.09663'
+  bibtex: |+
+    @article{acuna2021eileen,
+      title = {EILEEN: A recommendation system for scientific publications and grants},
+      author = {Acuna, Daniel E. and Nagre, Kartik and Matnani, Priya},
+      year = {2021},
+      journal = {arXiv:2110.09663},
+      doi = {10.48550/arXiv.2110.09663},
+      url = {https://arxiv.org/abs/2110.09663}
+    }
+
 bu2022workshop:
   key: bu2022workshop
   title: International Workshop on Data-driven Science of Science
   alternate_title: ''
   authors: Yi Bu, Meijun Liu, Yujia Zhai, Ying Ding, Feng Xia, Daniel E. Acuña, Yi
     Zhang
+  author_list:
+  - name: Yi Bu
+    given: Yi
+    family: Bu
+  - name: Meijun Liu
+    given: Meijun
+    family: Liu
+  - name: Yujia Zhai
+    given: Yujia
+    family: Zhai
+  - name: Ying Ding
+    given: Ying
+    family: Ding
+  - name: Feng Xia
+    given: Feng
+    family: Xia
+  - name: Daniel E. Acuña
+    given: Daniel E.
+    family: Acuña
+  - name: Yi Zhang
+    given: Yi
+    family: Zhang
   authors_short: Yi Bu, Meijun Liu, Yujia Zhai, et al.
   year: '2022'
   year_label: 2022 · Workshop announcement
@@ -1171,11 +4366,50 @@ bu2022workshop:
   - discovery
   tags:
   - scholarly-data
+  doi: 10.1145/3534678.3542891
+  publication_date: '2022'
+  volume: ''
+  issue: ''
+  pages: 4856--4857
+  publisher: ''
+  url: https://doi.org/10.1145/3534678.3542891
+  page_path:
+  bibtex_path: "/publications/citations/bu2022workshop.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Yi Bu, Meijun Liu, Yujia Zhai, Ying Ding, Feng Xia, Daniel E. Acuña, Yi
+    Zhang (2022). International Workshop on Data-driven Science of Science. Proceedings
+    of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. https://doi.org/10.1145/3534678.3542891
+  bibtex: |+
+    @inproceedings{bu2022workshop,
+      title = {International Workshop on Data-driven Science of Science},
+      author = {Bu, Yi and Liu, Meijun and Zhai, Yujia and Ding, Ying and Xia, Feng and Acuña, Daniel E. and Zhang, Yi},
+      year = {2022},
+      booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+      pages = {4856--4857},
+      doi = {10.1145/3534678.3542891},
+      url = {https://doi.org/10.1145/3534678.3542891},
+      note = {Workshop announcement}
+    }
+
 acuna2010aspiration:
   key: acuna2010aspiration
   title: The rational control of aspiration in learning
   alternate_title: ''
   authors: Daniel Acuna, C. Shawn Green, Paul Schrater
+  author_list:
+  - name: Daniel Acuna
+    given: Daniel
+    family: Acuna
+  - name: C. Shawn Green
+    given: C. Shawn
+    family: Green
+  - name: Paul Schrater
+    given: Paul
+    family: Schrater
   authors_short: Daniel Acuna, C. Shawn Green, Paul Schrater
   year: '2010'
   year_label: 2010 · Conference abstract
@@ -1187,12 +4421,46 @@ acuna2010aspiration:
   tags:
   - decision-making
   - reinforcement-learning
+  doi: 10.3389/conf.fnins.2010.03.00169
+  publication_date: '2010'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://www.frontiersin.org/10.3389/conf.fnins.2010.03.00169/event_abstract
+  page_path:
+  bibtex_path: "/publications/citations/acuna2010aspiration.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: Daniel Acuna, C. Shawn Green, Paul Schrater (2010). The rational control
+    of aspiration in learning. Computational and Systems Neuroscience 2010. https://doi.org/10.3389/conf.fnins.2010.03.00169
+  bibtex: |+
+    @inproceedings{acuna2010aspiration,
+      title = {The rational control of aspiration in learning},
+      author = {Acuna, Daniel and Green, C. Shawn and Schrater, Paul},
+      year = {2010},
+      booktitle = {Computational and Systems Neuroscience 2010},
+      doi = {10.3389/conf.fnins.2010.03.00169},
+      url = {https://www.frontiersin.org/10.3389/conf.fnins.2010.03.00169/event_abstract},
+      note = {Conference abstract}
+    }
+
 acuna2020nullmodel:
   key: acuna2020nullmodel
   title: Estimating a Null Model of Scientific Image Reuse to Support Research Integrity
     Investigations
   alternate_title: ''
   authors: Daniel E. Acuna, Ziyue Xiang
+  author_list:
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
+  - name: Ziyue Xiang
+    given: Ziyue
+    family: Xiang
   authors_short: Daniel E. Acuna, Ziyue Xiang
   year: '2020'
   year_label: 2020 · Preprint / working paper
@@ -1206,11 +4474,49 @@ acuna2020nullmodel:
   - figure-integrity
   - image-forensics
   - statistical-methods
+  doi: 10.48550/arXiv.2003.00878
+  publication_date: '2020-02-22'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://arxiv.org/abs/2003.00878
+  page_path: "/publications/image-reuse-null-model/"
+  bibtex_path: "/publications/citations/acuna2020nullmodel.bib"
+  summary: 'Image similarities need a reference point: a repeated pattern might be
+    rare, or it might be common in scientific imagery. This preprint develops a statistical
+    baseline for estimating how often a feature could occur by chance.'
+  abstract:
+  abstract_license:
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: pdf
+    url: https://arxiv.org/pdf/2003.00878
+  citation: Daniel E. Acuna, Ziyue Xiang (2020). Estimating a Null Model of Scientific
+    Image Reuse to Support Research Integrity Investigations. arXiv:2003.00878. https://doi.org/10.48550/arXiv.2003.00878
+  bibtex: |+
+    @article{acuna2020nullmodel,
+      title = {Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations},
+      author = {Acuna, Daniel E. and Xiang, Ziyue},
+      year = {2020},
+      publication_date = {2020-02-22},
+      journal = {arXiv:2003.00878},
+      doi = {10.48550/arXiv.2003.00878},
+      url = {https://arxiv.org/abs/2003.00878}
+    }
+
 schrater2009structure:
   key: schrater2009structure
   title: Structure learning in sequential decision making
   alternate_title: ''
   authors: Paul Schrater, Daniel Acuna
+  author_list:
+  - name: Paul Schrater
+    given: Paul
+    family: Schrater
+  - name: Daniel Acuna
+    given: Daniel
+    family: Acuna
   authors_short: Paul Schrater, Daniel Acuna
   year: '2009'
   year_label: 2009 · Conference abstract
@@ -1222,12 +4528,54 @@ schrater2009structure:
   tags:
   - decision-making
   - reinforcement-learning
+  doi: ''
+  publication_date: '2009'
+  volume: '9'
+  issue: '8'
+  pages: '829'
+  publisher: ''
+  url: https://jov.arvojournals.org/article.aspx?articleid=2136291
+  page_path:
+  bibtex_path: "/publications/citations/schrater2009structure.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Paul Schrater, Daniel Acuna (2009). Structure learning in sequential
+    decision making. Journal of Vision: Vision Sciences Society Annual Meeting Abstracts.'
+  bibtex: |+
+    @inproceedings{schrater2009structure,
+      title = {Structure learning in sequential decision making},
+      author = {Schrater, Paul and Acuna, Daniel},
+      year = {2009},
+      booktitle = {Journal of Vision: Vision Sciences Society Annual Meeting Abstracts},
+      volume = {9},
+      number = {8},
+      pages = {829},
+      url = {https://jov.arvojournals.org/article.aspx?articleid=2136291},
+      note = {Conference abstract}
+    }
+
 acuna2021mlworkshop:
   key: acuna2021mlworkshop
   title: 'Machine Learning and Artificial Intelligence for Science of Science and
     Computational Discovery: Principles, Applications, and Future Opportunities'
   alternate_title: ''
   authors: Daniel E. Acuna, Tong Zeng, Han Zhuang, Lizhen Liang
+  author_list:
+  - name: Daniel E. Acuna
+    given: Daniel E.
+    family: Acuna
+  - name: Tong Zeng
+    given: Tong
+    family: Zeng
+  - name: Han Zhuang
+    given: Han
+    family: Zhuang
+  - name: Lizhen Liang
+    given: Lizhen
+    family: Liang
   authors_short: Daniel E. Acuna, Tong Zeng, Han Zhuang, et al.
   year: '2021'
   year_label: 2021 · Workshop description
@@ -1242,3 +4590,32 @@ acuna2021mlworkshop:
   - scholarly-data
   - text-mining
   - statistical-methods
+  doi: ''
+  publication_date: '2021'
+  volume: ''
+  issue: ''
+  pages: ''
+  publisher: ''
+  url: https://scienceofscience.org/workshops/
+  page_path:
+  bibtex_path: "/publications/citations/acuna2021mlworkshop.bib"
+  summary:
+  abstract:
+  abstract_license:
+  reviewed_at:
+  resources: []
+  citation: 'Daniel E. Acuna, Tong Zeng, Han Zhuang, Lizhen Liang (2021). Machine
+    Learning and Artificial Intelligence for Science of Science and Computational
+    Discovery: Principles, Applications, and Future Opportunities. iConference 2021
+    workshop.'
+  bibtex: |+
+    @inproceedings{acuna2021mlworkshop,
+      title = {Machine Learning and Artificial Intelligence for Science of Science and Computational Discovery: Principles, Applications, and Future Opportunities},
+      author = {Acuna, Daniel E. and Zeng, Tong and Zhuang, Han and Liang, Lizhen},
+      year = {2021},
+      booktitle = {iConference 2021 workshop},
+      url = {https://scienceofscience.org/workshops/},
+      note = {Workshop description}
+    }
+
+...

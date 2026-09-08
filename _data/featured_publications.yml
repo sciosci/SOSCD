@@ -3,7 +3,7 @@
   topic: Research integrity
   title: 'SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under
     Adversarial Framing'
-  url: https://arxiv.org/abs/2605.29468
+  url: "/publications/sciintbench/"
   authors: Almene De Meran Meguimtsop, Maria Leonor Pacheco, Daniel E. Acuna
   venue: arXiv preprint arXiv:2605.29468
   status: 2026 · Preprint / working paper
@@ -11,7 +11,7 @@
   topic: AI for peer review
   title: 'REM-CTX: Automated Peer Review via Reinforcement Learning with Auxiliary
     Context'
-  url: https://arxiv.org/abs/2604.00248
+  url: "/publications/rem-ctx/"
   authors: Pawin Taechoyotin, Daniel E. Acuna
   venue: arXiv preprint arXiv:2604.00248
   status: 2026 · Preprint / working paper
@@ -26,7 +26,7 @@
 - key: zhuang2025estimating
   topic: Research integrity
   title: Estimating the predictability of questionable open-access journals
-  url: https://doi.org/10.1126/sciadv.adt2792
+  url: "/publications/questionable-journals/"
   authors: Han Zhuang, Lizhen Liang, Daniel E. Acuna
   venue: Science Advances
   status: '2025'
