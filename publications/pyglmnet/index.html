@@ -1,0 +1,718 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3f8">
+  <!-- begin _includes/seo.html --><title>Pyglmnet: Python implementation of elastic-net regularized generalized linear models</title>
+<meta name="description" content="Pyglmnet implements generalized linear models with penalties that help control model complexity. Researchers can select a response distribution and regularization approach within a Python workflow, including applications where observations are counts, binary outcomes, or continuous measurements.">
+
+
+
+  <meta name="author" content="SOS+CD">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Science of Science &amp; Computational Discovery Lab">
+<meta property="og:title" content="Pyglmnet: Python implementation of elastic-net regularized generalized linear models">
+<meta property="og:url" content="https://scienceofscience.org/publications/pyglmnet/">
+
+
+  <meta property="og:description" content="Pyglmnet implements generalized linear models with penalties that help control model complexity. Researchers can select a response distribution and regularization approach within a Python workflow, including applications where observations are counts, binary outcomes, or continuous measurements.">
+
+
+
+  <meta property="og:image" content="https://scienceofscience.org/assets/images/lab/social-card.png">
+  <meta property="og:image:alt" content="Science of Science and Computational Discovery Lab at CU Boulder, with the SOS+CD diamond logo"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+
+
+
+  <meta name="twitter:site" content="@daniel_akuna">
+  <meta name="twitter:title" content="Pyglmnet: Python implementation of elastic-net regularized generalized linear models">
+  <meta name="twitter:description" content="Pyglmnet implements generalized linear models with penalties that help control model complexity. Researchers can select a response distribution and regularization approach within a Python workflow, including applications where observations are counts, binary outcomes, or continuous measurements.">
+  <meta name="twitter:url" content="https://scienceofscience.org/publications/pyglmnet/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    
+      <meta name="twitter:image" content="https://scienceofscience.org/assets/images/lab/social-card.png">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://scienceofscience.org/publications/pyglmnet/">
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://scienceofscience.org/#organization",
+      "name": "Science of Science & Computational Discovery Lab",
+      "alternateName": "SOS+CD Lab",
+      "url": "https://scienceofscience.org/",
+      "description": "The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuña.",
+      "logo": "https://scienceofscience.org/assets/images/lab/logo.svg",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Department of Computer Science",
+        "url": "https://www.colorado.edu/cs/",
+        "parentOrganization": { "@id": "https://www.colorado.edu/#organization" }
+      },
+      "sameAs": ["https://github.com/sciosci"]
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "@id": "https://www.colorado.edu/#organization",
+      "name": "University of Colorado Boulder",
+      "url": "https://www.colorado.edu/"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://scienceofscience.org/people/#principal-investigator",
+      "name": "Daniel Acuña",
+      "alternateName": "Daniel E. Acuna",
+      "jobTitle": "Associate Professor of Computer Science",
+      "url": "https://acuna.io/",
+      "worksFor": { "@id": "https://www.colorado.edu/#organization" },
+      "affiliation": { "@id": "https://scienceofscience.org/#organization" },
+      "sameAs": [
+        "https://www.colorado.edu/cs/daniel-acuna",
+        "https://orcid.org/0000-0002-7765-1595",
+        "https://scholar.google.com/citations?user=GAi23ssAAAAJ"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://scienceofscience.org/#website",
+      "url": "https://scienceofscience.org/",
+      "name": "Science of Science & Computational Discovery Lab",
+      "alternateName": "SOS+CD Lab",
+      "inLanguage": "en-US",
+      "publisher": { "@id": "https://scienceofscience.org/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://scienceofscience.org/publications/pyglmnet/#webpage",
+      "url": "https://scienceofscience.org/publications/pyglmnet/",
+      "name": "Pyglmnet: Python implementation of elastic-net regularized generalized linear models",
+      "description": "Pyglmnet implements generalized linear models with penalties that help control model complexity. Researchers can select a response distribution and regularization approach within a Python workflow, including applications where observations are counts, binary outcomes, or continuous measurements.",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://scienceofscience.org/#website" },
+      "publisher": { "@id": "https://scienceofscience.org/#organization" }
+      ,
+      "mainEntity": { "@id": "https://scienceofscience.org/publications/pyglmnet/#paper" }
+      
+    }
+    ,
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://scienceofscience.org/publications/pyglmnet/#paper",
+      "url": "https://scienceofscience.org/publications/pyglmnet/",
+      "headline": "Pyglmnet: Python implementation of elastic-net regularized generalized linear models",
+      "name": "Pyglmnet: Python implementation of elastic-net regularized generalized linear models",
+      "description": "Pyglmnet implements generalized linear models with penalties that help control model complexity. Researchers can select a response distribution and regularization approach within a Python workflow, including applications where observations are counts, binary outcomes, or continuous measurements.",
+      
+      "datePublished": "2020-03-01",
+      "mainEntityOfPage": { "@id": "https://scienceofscience.org/publications/pyglmnet/#webpage" },
+      "author": [
+        
+        {
+          "@type": "Person",
+          "name": "Jas, Mainak"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Achakulvisut, Titipat"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Idrizović, Aid"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Acuna, Daniel"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Antalek, Matthew"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Marques, Vinicius"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Odland, Tommy"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Garg, Ravi"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Agrawal, Mayank"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Umegaki, Yu"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Foley, Peter"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Fernandes, Hugo"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Harris, Drew"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Li, Beibin"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Pieters, Olivier"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Otterson, Scott"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "De Toni, Giovanni"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Rodgers, Chris"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Dyer, Eva"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Hamalainen, Matti"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Kording, Konrad"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Ramkumar, Pavan"
+          
+        }
+        
+      ]
+      ,
+      "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": "10.21105/joss.01959" },
+      "sameAs": "https://doi.org/10.21105/joss.01959"
+      
+      ,
+      "isPartOf": { "@type": "Periodical", "name": "Journal of Open Source Software" }
+      
+    }
+    
+    
+    ,
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://scienceofscience.org/publications/pyglmnet/#breadcrumbs",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Research", "item": "https://scienceofscience.org/research/"},
+        {"@type": "ListItem", "position": 2, "name": "Publications", "item": "https://scienceofscience.org/publications/"},
+        {"@type": "ListItem", "position": 3, "name": "Pyglmnet: Python implementation of elastic-net regularized generalized linear models", "item": "https://scienceofscience.org/publications/pyglmnet/"}
+      ]
+    }
+    
+  ]
+}
+</script>
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+  <!-- begin paper_meta.html -->
+
+
+<meta name="citation_title" content="Pyglmnet: Python implementation of elastic-net regularized generalized linear models">
+
+
+
+
+    
+        
+        <meta name="citation_author" content="Jas, Mainak">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Achakulvisut, Titipat">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Idrizović, Aid">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Acuna, Daniel">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Antalek, Matthew">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Marques, Vinicius">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Odland, Tommy">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Garg, Ravi">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Agrawal, Mayank">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Umegaki, Yu">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Foley, Peter">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Fernandes, Hugo">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Harris, Drew">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Li, Beibin">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Pieters, Olivier">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Otterson, Scott">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="De Toni, Giovanni">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Rodgers, Chris">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Dyer, Eva">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Hamalainen, Matti">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Kording, Konrad">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Ramkumar, Pavan">
+        
+        
+        
+    
+
+
+
+    
+        <meta name="citation_keywords" content="Statistical methods &amp; software">
+    
+
+
+
+
+
+
+
+<meta name="citation_year" content="2020">
+
+
+
+
+
+<meta name="citation_publication_date" content="2020/03/01">
+
+
+
+
+
+
+
+<meta name="citation_journal_title" content="Journal of Open Source Software">
+
+
+
+
+
+
+
+
+
+
+
+<meta name="citation_volume" content="5">
+
+
+
+<meta name="citation_issue" content="47">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="citation_doi" content="10.21105/joss.01959">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="citation_language" content="en">
+
+
+
+<meta name="citation_firstpage" content="1959">
+
+
+
+
+
+
+
+
+
+
+<!-- end paper_meta.html -->
+
+  <link rel="icon" href="/assets/images/lab/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="/assets/images/lab/logo.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/images/lab/apple-touch-icon.png" sizes="180x180">
+  <link rel="preload" href="/assets/fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/hanken-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/lab.css">
+  <link rel="stylesheet" href="/assets/css/research.css">
+  <link rel="alternate" type="application/atom+xml" title="Science of Science & Computational Discovery Lab" href="/feed.xml">
+  <link rel="alternate" type="application/atom+xml" title="SOS+CD publications and preprints" href="/publications/feed.xml">
+  <link rel="alternate" type="application/json" title="SOS+CD publication metadata" href="/publications.json">
+  
+  <script src="/assets/js/lab.js" defer></script>
+  <script src="/assets/js/research.js" defer></script>
+</head>
+<body id="top" class="is-interior route-publications-pyglmnet">
+  <!--
+  THESIS: Science itself is the specimen. Real research questions lead an inspectable field of work.
+  OWN-WORLD: Cool white, saturated violet, chartreuse selection; Sora display, Hanken Grotesk reading; optical rings and precise open layouts.
+  STORY: Understand what this lab studies, explore its publications, meet its people, and find a research opportunity.
+  FIRST VIEWPORT: Oversized left-aligned purpose, a violet research specimen to the right, visible publication action, topic controls beneath the field.
+  FORM: Optical research bench, grounded direction 4, seed 0f53ec25. Code-led execution; the selected research lens changes the specimen and its associated paper.
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+  -->
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/" aria-label="SOS+CD Lab home">
+      <img class="brand-mark" src="/assets/images/lab/logo.svg" width="42" height="42" alt="">
+      <span class="brand-name">SOS<span class="brand-plus">+</span>CD <span class="brand-lab">Lab</span></span>
+    </a>
+    <a class="university-link" href="https://www.colorado.edu/cs/">University of<br>Colorado Boulder</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span>Menu</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 6h14M3 14h14" stroke="currentColor" stroke-width="1.5"/></svg></button>
+    <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+      
+      <a href="/publications/">Publications</a>
+      
+      <a href="/people/">People</a>
+      
+      <a href="/research/">Research</a>
+      
+      <a href="/about/">About</a>
+      
+      <a href="/openings/" class="nav-join">Join Us<svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a>
+      
+      <a href="/support/">Support</a>
+      
+    </nav>
+  </div>
+</header>
+
+  
+
+<main id="main" class="interior-main wrap research-reading">
+  <nav class="research-breadcrumbs" aria-label="Breadcrumb"><a href="/research/">Research</a><span aria-hidden="true">/</span><a href="/publications/">Publications</a></nav>
+  <header class="paper-heading">
+    <h1>Pyglmnet: Python implementation of elastic-net regularized generalized linear models</h1>
+    <p class="paper-authors">Mainak Jas, Titipat Achakulvisut, Aid Idrizović, Daniel Acuna, Matthew Antalek, Vinicius Marques, Tommy Odland, Ravi Garg, Mayank Agrawal, Yu Umegaki, Peter Foley, Hugo Fernandes, Drew Harris, Beibin Li, Olivier Pieters, Scott Otterson, Giovanni De Toni, Chris Rodgers, Eva Dyer, Matti Hamalainen, Konrad Kording, Pavan Ramkumar</p>
+    <p class="paper-citation-meta"><em>Journal of Open Source Software</em> · <time datetime="2020-03-01">March 1, 2020</time> · Volume 5</p>
+    <p class="paper-doi"><a href="https://doi.org/10.21105/joss.01959">DOI: 10.21105/joss.01959</a></p>
+    <div class="resource-actions"><a class="button button-primary" href="https://joss.theoj.org/papers/10.21105/joss.01959" data-resource-type="paper" data-publication-key="jas2020pyglmnet">Read the paper <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a><a href="#cite">Cite this work</a><a href="#paper-resources">Resources</a></div>
+  </header>
+  <div class="research-reading-grid">
+    <article class="research-prose">
+      <section aria-labelledby="research-question"><h2 id="research-question">How can researchers fit regularized generalized linear models in Python?</h2><p class="research-lead">Pyglmnet implements generalized linear models with penalties that help control model complexity. Researchers can select a response distribution and regularization approach within a Python workflow, including applications where observations are counts, binary outcomes, or continuous measurements.</p></section>
+      <section aria-labelledby="findings"><h2 id="findings">What the study found</h2><ul><li>The package supports multiple response models and regularizers, including lasso, ridge, and elastic net.</li><li>Its Python implementation provides fitting, prediction, and scoring interfaces with examples that separate training and test data.</li></ul></section>
+      <section aria-labelledby="methods"><h2 id="methods">How the study works</h2><p>The optimizer uses cyclical coordinate descent with Newton updates, active sets, caching, and warm restarts. The model combines a specified response distribution with a penalty on its coefficients.</p></section>
+      <section aria-labelledby="scope"><h2 id="scope">Scope and limitations</h2><ul><li>A fitted model depends on the chosen distribution, predictors, regularization strength, and validation procedure.</li><li>Predictive performance does not by itself establish a causal relationship between predictors and outcomes.</li></ul></section>
+      <section aria-labelledby="reuse"><h2 id="reuse">Using this work</h2><p>Begin with the repository&#39;s simulated-data GLM example and documentation. Evaluate predictions on held-out data and record the package version and tuning choices. Pyglmnet is MIT licensed; cite its JOSS software paper.</p><p><a href="https://github.com/glm-tools/pyglmnet" data-resource-type="code" data-publication-key="jas2020pyglmnet">Implementation and documentation <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></p></section>
+      <p><a href="https://joss.theoj.org/papers/10.21105/joss.01959">Read the original abstract and paper</a>.</p>
+      <section id="cite" aria-labelledby="cite-heading"><h2 id="cite-heading">Cite this work</h2><p class="citation-text" id="paper-citation">Mainak Jas, Titipat Achakulvisut, Aid Idrizović, Daniel Acuna, Matthew Antalek, Vinicius Marques, Tommy Odland, Ravi Garg, Mayank Agrawal, Yu Umegaki, Peter Foley, Hugo Fernandes, Drew Harris, Beibin Li, Olivier Pieters, Scott Otterson, Giovanni De Toni, Chris Rodgers, Eva Dyer, Matti Hamalainen, Konrad Kording, Pavan Ramkumar (2020). Pyglmnet: Python implementation of elastic-net regularized generalized linear models. Journal of Open Source Software. https://doi.org/10.21105/joss.01959</p><div class="resource-actions"><button type="button" class="button button-primary" data-copy-citation="paper-citation" data-publication-key="jas2020pyglmnet" hidden>Copy citation</button><a href="/publications/citations/jas2020pyglmnet.bib" download data-resource-type="citation" data-publication-key="jas2020pyglmnet">Download BibTeX</a></div><p class="copy-status" data-copy-status role="status" aria-live="polite"></p><details class="bibtex-details"><summary>View BibTeX</summary><pre><code>@article{jas2020pyglmnet,
+  title = {Pyglmnet: Python implementation of elastic-net regularized generalized linear models},
+  author = {Jas, Mainak and Achakulvisut, Titipat and Idrizović, Aid and Acuna, Daniel and Antalek, Matthew and Marques, Vinicius and Odland, Tommy and Garg, Ravi and Agrawal, Mayank and Umegaki, Yu and Foley, Peter and Fernandes, Hugo and Harris, Drew and Li, Beibin and Pieters, Olivier and Otterson, Scott and De Toni, Giovanni and Rodgers, Chris and Dyer, Eva and Hamalainen, Matti and Kording, Konrad and Ramkumar, Pavan},
+  year = {2020},
+  publication_date = {2020-03-01},
+  journal = {Journal of Open Source Software},
+  volume = {5},
+  number = {47},
+  pages = {1959},
+  doi = {10.21105/joss.01959},
+  url = {https://joss.theoj.org/papers/10.21105/joss.01959}
+}
+</code></pre></details></section>
+      <p class="source-note">Overview checked September 7, 2026 against the <a href="https://joss.theoj.org/papers/10.21105/joss.01959">publication record</a>. Publication and preprint dates refer to the linked versions.</p>
+      
+    </article>
+    <aside class="research-sidebar" id="paper-resources" aria-label="Paper resources and topics">
+      <section><h2>Read and reuse</h2><ul class="resource-list">
+        <li><a href="https://joss.theoj.org/papers/10.21105/joss.01959" data-resource-type="paper" data-publication-key="jas2020pyglmnet">Read the original paper <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></li>
+        <li><a href="https://github.com/glm-tools/pyglmnet" data-resource-type="code" data-publication-key="jas2020pyglmnet">Code repository <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></li>
+        
+        <li><a href="#cite">Citation and BibTeX <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></li>
+      </ul></section>
+      <section><h2>Research topics</h2><ul class="resource-list"><li><a href="/research/cognition-methods/">Cognition & methods <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></li></ul></section>
+      <section><h2>Explore the tags</h2><ul class="bib-tags" aria-label="Paper tags"><li><a href="/publications/?tag=statistical-methods">Statistical methods & software</a></li></ul></section>
+    </aside>
+  </div>
+  <section class="related-research" aria-labelledby="related-heading"><h2 id="related-heading">Related research</h2><article class="research-paper-row"><h3><a href="/publications/research-costs-benefits/">Incorporating costs and benefits to the evaluation of uncertain research results: applications to cancer research funding</a></h3><a class="paper-overview-link" href="/publications/research-costs-benefits/" aria-label="Research overview for Incorporating costs and benefits to the evaluation of uncertain research results: applications to cancer research funding" data-resource-type="overview" data-publication-key="10.1162/qss_a_00332"><svg width="15" height="17" viewBox="0 0 18 20" fill="none" aria-hidden="true"><path d="M4 1.5h6l4 4V18H4V1.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M10 1.5v4h4M6.5 9h5M6.5 12h5M6.5 15h3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Research overview</span></a>
+<p class="source-note">Han Zhuang, Daniel E. Acuna · 2024</p><p>A study&#39;s chance of being correct is only one part of deciding whether a research program is worth pursuing. This paper develops a decision-theoretic framework that makes potential costs and benefits explicit.</p></article>
+<article class="research-paper-row"><h3><a href="/publications/image-reuse-null-model/">Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations</a></h3><a class="paper-overview-link" href="/publications/image-reuse-null-model/" aria-label="Research overview for Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations" data-resource-type="overview" data-publication-key="acuna2020nullmodel"><svg width="15" height="17" viewBox="0 0 18 20" fill="none" aria-hidden="true"><path d="M4 1.5h6l4 4V18H4V1.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M10 1.5v4h4M6.5 9h5M6.5 12h5M6.5 15h3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Research overview</span></a>
+<p class="source-note">Daniel E. Acuna, Ziyue Xiang · 2020 · Preprint</p><p>Image similarities need a reference point: a repeated pattern might be rare, or it might be common in scientific imagery. This preprint develops a statistical baseline for estimating how often a feature could occur by chance.</p></article>
+<article class="research-paper-row"><h3><a href="/publications/scientific-image-tampering/">Scientific Image Tampering Detection Based On Noise Inconsistencies: A Method And Datasets</a></h3><a class="paper-overview-link" href="/publications/scientific-image-tampering/" aria-label="Research overview for Scientific Image Tampering Detection Based On Noise Inconsistencies: A Method And Datasets" data-resource-type="overview" data-publication-key="xiang2020tampering"><svg width="15" height="17" viewBox="0 0 18 20" fill="none" aria-hidden="true"><path d="M4 1.5h6l4 4V18H4V1.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M10 1.5v4h4M6.5 9h5M6.5 12h5M6.5 15h3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Research overview</span></a>
+<p class="source-note">Ziyue Xiang, Daniel E. Acuna · 2020 · Preprint</p><p>Scientific images have different properties from everyday photographs. This preprint develops a detector tailored to scientific imagery and tests whether inconsistencies in image noise can reveal manipulated regions.</p></article>
+</section>
+</main>
+
+  <footer class="site-footer" id="footer">
+  <div class="footer-main wrap">
+    <div class="footer-identity">
+      <a class="footer-wordmark" href="/" aria-label="SOS+CD Lab home"><img class="footer-mark" src="/assets/images/lab/logo.svg" width="54" height="54" alt="" loading="lazy"><span class="footer-brand-text">SOS<span>+</span>CD</span></a>
+      <p>Science of Science &amp;<br>Computational Discovery Lab</p>
+      <p class="footer-affiliation">Department of Computer Science<br>University of Colorado Boulder</p>
+    </div>
+    <nav aria-label="Research links"><h2>Explore</h2><a href="/research/">Research topics</a><a href="/publications/">Publications</a><a href="/resources/">Code, data &amp; citations</a><a href="/funding/">Funding</a><a href="/publications/feed.xml">Publication feed</a></nav>
+    <nav aria-label="Lab links"><h2>The lab</h2><a href="/people/">People</a><a href="/about/">About us</a><a href="/news/">News &amp; events</a><a href="/openings/">Join Us</a><a href="/support/">Support the lab</a></nav>
+    <div class="footer-address"><h2>Find us</h2><address>1111 Engineering Drive<br>Room 105 ECNW<br>Boulder, CO 80309</address><a class="text-link" href="https://www.colorado.edu/map?id=336#!s/?mc/40.00793399332605,-105.26281640367506?z/21?lvl/1">Campus map <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></div>
+  </div>
+  <div class="footer-bottom wrap"><span>&copy; 2026 SOS+CD Lab</span><span>Studying science. Advancing discovery.</span><a href="#top" data-back-top>Back to top <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></div>
+</footer>
+
+  
+
+
+  
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P91ZSLM4VH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  const analyticsPage = new URL(location.href);
+  analyticsPage.searchParams.delete('q');
+  analyticsPage.hash = '';
+  let analyticsReferrer = document.referrer;
+  if (analyticsReferrer) {
+    const referrer = new URL(analyticsReferrer);
+    if (referrer.origin === location.origin) {
+      referrer.searchParams.delete('q');
+      referrer.hash = '';
+      analyticsReferrer = referrer.href;
+    }
+  }
+  gtag('set', 'page_location', analyticsPage.href);
+  gtag('set', 'page_referrer', analyticsReferrer);
+  gtag('config', "G-P91ZSLM4VH", {
+    page_location: analyticsPage.href,
+    page_referrer: analyticsReferrer,
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false
+  });
+  window.soscdAnalyticsReady = true;
+</script>
+
+
+
+
+
+</body>
+</html>

@@ -13,7 +13,10 @@
       try {
         await navigator.clipboard.writeText(target.textContent.trim());
         status.textContent = 'Citation copied.';
-        track('citation_copy', {page_path: location.pathname});
+        track('citation_copy', {
+          publication_id: button.dataset.publicationKey || '',
+          page_path: location.pathname
+        });
       } catch {
         const range = document.createRange();
         range.selectNodeContents(target);

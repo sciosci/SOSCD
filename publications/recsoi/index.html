@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f3f8">
-  <!-- begin _includes/seo.html --><title>MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning</title>
-<meta name="description" content="MISTI learns joint representations of scientific figures, captions, and publication metadata. The study tests whether contextual information such as titles, sections, and concepts improves retrieval beyond the image-caption pair alone.">
+  <!-- begin _includes/seo.html --><title>RecSOI: recommending research directions using statements of ignorance</title>
+<meta name="description" content="RecSOI recommends statements of ignorance from scientific articles: passages that identify gaps, uncertainties, or unanswered questions. It matches these passages to a researcher’s publication history and presents their surrounding context, helping readers investigate questions connected to their expertise.">
 
 
 
@@ -16,11 +16,11 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Science of Science &amp; Computational Discovery Lab">
-<meta property="og:title" content="MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning">
-<meta property="og:url" content="https://scienceofscience.org/publications/misti/">
+<meta property="og:title" content="RecSOI: recommending research directions using statements of ignorance">
+<meta property="og:url" content="https://scienceofscience.org/publications/recsoi/">
 
 
-  <meta property="og:description" content="MISTI learns joint representations of scientific figures, captions, and publication metadata. The study tests whether contextual information such as titles, sections, and concepts improves retrieval beyond the image-caption pair alone.">
+  <meta property="og:description" content="RecSOI recommends statements of ignorance from scientific articles: passages that identify gaps, uncertainties, or unanswered questions. It matches these passages to a researcher’s publication history and presents their surrounding context, helping readers investigate questions connected to their expertise.">
 
 
 
@@ -30,9 +30,9 @@
 
 
   <meta name="twitter:site" content="@daniel_akuna">
-  <meta name="twitter:title" content="MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning">
-  <meta name="twitter:description" content="MISTI learns joint representations of scientific figures, captions, and publication metadata. The study tests whether contextual information such as titles, sections, and concepts improves retrieval beyond the image-caption pair alone.">
-  <meta name="twitter:url" content="https://scienceofscience.org/publications/misti/">
+  <meta name="twitter:title" content="RecSOI: recommending research directions using statements of ignorance">
+  <meta name="twitter:description" content="RecSOI recommends statements of ignorance from scientific articles: passages that identify gaps, uncertainties, or unanswered questions. It matches these passages to a researcher’s publication history and presents their surrounding context, helping readers investigate questions connected to their expertise.">
+  <meta name="twitter:url" content="https://scienceofscience.org/publications/recsoi/">
 
   
     <meta name="twitter:card" content="summary_large_image">
@@ -54,7 +54,7 @@
   
 
 
-<link rel="canonical" href="https://scienceofscience.org/publications/misti/">
+<link rel="canonical" href="https://scienceofscience.org/publications/recsoi/">
 
 
 
@@ -118,47 +118,79 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://scienceofscience.org/publications/misti/#webpage",
-      "url": "https://scienceofscience.org/publications/misti/",
-      "name": "MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning",
-      "description": "MISTI learns joint representations of scientific figures, captions, and publication metadata. The study tests whether contextual information such as titles, sections, and concepts improves retrieval beyond the image-caption pair alone.",
+      "@id": "https://scienceofscience.org/publications/recsoi/#webpage",
+      "url": "https://scienceofscience.org/publications/recsoi/",
+      "name": "RecSOI: recommending research directions using statements of ignorance",
+      "description": "RecSOI recommends statements of ignorance from scientific articles: passages that identify gaps, uncertainties, or unanswered questions. It matches these passages to a researcher’s publication history and presents their surrounding context, helping readers investigate questions connected to their expertise.",
       "inLanguage": "en-US",
       "isPartOf": { "@id": "https://scienceofscience.org/#website" },
       "publisher": { "@id": "https://scienceofscience.org/#organization" }
       ,
-      "mainEntity": { "@id": "https://scienceofscience.org/publications/misti/#paper" }
+      "mainEntity": { "@id": "https://scienceofscience.org/publications/recsoi/#paper" }
       
     }
     ,
     {
       "@type": "ScholarlyArticle",
-      "@id": "https://scienceofscience.org/publications/misti/#paper",
-      "url": "https://scienceofscience.org/publications/misti/",
-      "headline": "MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning",
-      "name": "MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning",
-      "description": "MISTI learns joint representations of scientific figures, captions, and publication metadata. The study tests whether contextual information such as titles, sections, and concepts improves retrieval beyond the image-caption pair alone.",
-      "abstract": "In scientific publications, automatic representations of figures and their captions can be used in NLP, computer vision, and information retrieval tasks. Contrastive learning has proven effective for creating such joint representations for natural scenes, but its application to scientific imagery and descriptions remains under-explored. Recent open-access publication datasets provide an opportunity to understand the effectiveness of this technique as well as evaluate the usefulness of additional metadata, which are available only in the scientific context. Here, we introduce MISTI, a novel model that uses contrastive learning to simultaneously learn the representation of figures, captions, and metadata, such as a paper’s title, sections, and curated concepts from the PubMed Open Access Subset. We evaluate our model on multiple information retrieval tasks, showing substantial improvements over baseline models. Notably, incorporating metadata doubled retrieval performance, achieving a Recall@1 of 30% on a 70K-item caption retrieval task. We qualitatively explore how metadata can be used to strategically retrieve distinctive representations of the same concept but for different sections, such as introduction and results. Additionally, we show that our model seamlessly handles out-of-domain tasks related to image segmentation. We share our dataset and methods (https://github.com/Khempawin/scientific-image-caption-pair/tree/section-attr) and outline future research directions.",
-      "datePublished": "2024",
-      "mainEntityOfPage": { "@id": "https://scienceofscience.org/publications/misti/#webpage" },
+      "@id": "https://scienceofscience.org/publications/recsoi/#paper",
+      "url": "https://scienceofscience.org/publications/recsoi/",
+      "headline": "RecSOI: recommending research directions using statements of ignorance",
+      "name": "RecSOI: recommending research directions using statements of ignorance",
+      "description": "RecSOI recommends statements of ignorance from scientific articles: passages that identify gaps, uncertainties, or unanswered questions. It matches these passages to a researcher’s publication history and presents their surrounding context, helping readers investigate questions connected to their expertise.",
+      
+      "datePublished": "2024-04-22",
+      "mainEntityOfPage": { "@id": "https://scienceofscience.org/publications/recsoi/#webpage" },
       "author": [
         
         {
           "@type": "Person",
-          "name": "Taechoyotin, Pawin"
+          "name": "Bibal, Adrien"
           
         },
         
         {
           "@type": "Person",
-          "name": "Acuna, Daniel"
+          "name": "Salem, Nourah M."
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Cardon, Rémi"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "White, Elizabeth K."
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Acuna, Daniel E."
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Burke, Robin"
+          
+        },
+        
+        {
+          "@type": "Person",
+          "name": "Hunter, Lawrence E."
           
         }
         
       ]
       ,
-      "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": "10.18653/v1/2024.sdp-1.15" },
-      "sameAs": "https://doi.org/10.18653/v1/2024.sdp-1.15"
+      "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": "10.1186/s13326-024-00304-3" },
+      "sameAs": "https://doi.org/10.1186/s13326-024-00304-3"
       
+      ,
+      "isPartOf": { "@type": "Periodical", "name": "Journal of Biomedical Semantics" }
       
     }
     
@@ -166,11 +198,11 @@
     ,
     {
       "@type": "BreadcrumbList",
-      "@id": "https://scienceofscience.org/publications/misti/#breadcrumbs",
+      "@id": "https://scienceofscience.org/publications/recsoi/#breadcrumbs",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Research", "item": "https://scienceofscience.org/research/"},
         {"@type": "ListItem", "position": 2, "name": "Publications", "item": "https://scienceofscience.org/publications/"},
-        {"@type": "ListItem", "position": 3, "name": "MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning", "item": "https://scienceofscience.org/publications/misti/"}
+        {"@type": "ListItem", "position": 3, "name": "RecSOI: recommending research directions using statements of ignorance", "item": "https://scienceofscience.org/publications/recsoi/"}
       ]
     }
     
@@ -190,20 +222,50 @@
   <!-- begin paper_meta.html -->
 
 
-<meta name="citation_title" content="MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning">
+<meta name="citation_title" content="RecSOI: recommending research directions using statements of ignorance">
 
 
 
 
     
         
-        <meta name="citation_author" content="Taechoyotin, Pawin">
+        <meta name="citation_author" content="Bibal, Adrien">
         
         
         
     
         
-        <meta name="citation_author" content="Acuna, Daniel">
+        <meta name="citation_author" content="Salem, Nourah M.">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Cardon, Rémi">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="White, Elizabeth K.">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Acuna, Daniel E.">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Burke, Robin">
+        
+        
+        
+    
+        
+        <meta name="citation_author" content="Hunter, Lawrence E.">
         
         
         
@@ -212,16 +274,14 @@
 
 
     
-        <meta name="citation_keywords" content="Multimodal learning">
+        <meta name="citation_keywords" content="Research recommendation">
+    
+        <meta name="citation_keywords" content="Recommender systems">
     
         <meta name="citation_keywords" content="Text mining &amp; NLP">
     
-        <meta name="citation_keywords" content="Scholarly data &amp; tools">
-    
 
 
-
-<meta name="citation_abstract" content="In scientific publications, automatic representations of figures and their captions can be used in NLP, computer vision, and information retrieval tasks. Contrastive learning has proven effective for creating such joint representations for natural scenes, but its application to scientific imagery and descriptions remains under-explored. Recent open-access publication datasets provide an opportunity to understand the effectiveness of this technique as well as evaluate the usefulness of additional metadata, which are available only in the scientific context. Here, we introduce MISTI, a novel model that uses contrastive learning to simultaneously learn the representation of figures, captions, and metadata, such as a paper’s title, sections, and curated concepts from the PubMed Open Access Subset. We evaluate our model on multiple information retrieval tasks, showing substantial improvements over baseline models. Notably, incorporating metadata doubled retrieval performance, achieving a Recall@1 of 30% on a 70K-item caption retrieval task. We qualitatively explore how metadata can be used to strategically retrieve distinctive representations of the same concept but for different sections, such as introduction and results. Additionally, we show that our model seamlessly handles out-of-domain tasks related to image segmentation. We share our dataset and methods (https://github.com/Khempawin/scientific-image-caption-pair/tree/section-attr) and outline future research directions.">
 
 
 
@@ -233,7 +293,31 @@
 
 
 
-<meta name="citation_publication_date" content="2024">
+<meta name="citation_publication_date" content="2024/04/22">
+
+
+
+
+
+
+
+<meta name="citation_journal_title" content="Journal of Biomedical Semantics">
+
+
+
+
+
+
+
+
+
+
+
+<meta name="citation_volume" content="15">
+
+
+
+<meta name="citation_issue" content="1">
 
 
 
@@ -253,27 +337,7 @@
 
 
 
-
-
-<meta name="citation_conference_title" content="Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta name="citation_doi" content="10.18653/v1/2024.sdp-1.15">
+<meta name="citation_doi" content="10.1186/s13326-024-00304-3">
 
 
 
@@ -295,7 +359,7 @@
 
 
 
-<meta name="citation_firstpage" content="155">
+<meta name="citation_firstpage" content="2">
 
 
 
@@ -304,8 +368,6 @@
 
 
 
-
-<meta name="citation_pdf_url" content="https://scienceofscience.org/publications/misti/paper.pdf">
 
 
 <!-- end paper_meta.html -->
@@ -324,7 +386,7 @@
   <script src="/assets/js/lab.js" defer></script>
   <script src="/assets/js/research.js" defer></script>
 </head>
-<body id="top" class="is-interior route-publications-misti">
+<body id="top" class="is-interior route-publications-recsoi">
   <!--
   THESIS: Science itself is the specimen. Real research questions lead an inspectable field of work.
   OWN-WORLD: Cool white, saturated violet, chartreuse selection; Sora display, Hanken Grotesk reading; optical rings and precise open layouts.
@@ -366,43 +428,43 @@
 <main id="main" class="interior-main wrap research-reading">
   <nav class="research-breadcrumbs" aria-label="Breadcrumb"><a href="/research/">Research</a><span aria-hidden="true">/</span><a href="/publications/">Publications</a></nav>
   <header class="paper-heading">
-    <h1>MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning</h1>
-    <p class="paper-authors">Pawin Taechoyotin, Daniel Acuna</p>
-    <p class="paper-citation-meta">Conference contribution · <em>Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)</em> · <time datetime="2024">2024</time></p>
-    <p class="paper-doi"><a href="https://doi.org/10.18653/v1/2024.sdp-1.15">DOI: 10.18653/v1/2024.sdp-1.15</a></p>
-    <div class="resource-actions"><a class="button button-primary" href="https://aclanthology.org/2024.sdp-1.15/" data-resource-type="paper" data-publication-key="taechoyotin2024misti">Read the paper <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <h1>RecSOI: recommending research directions using statements of ignorance</h1>
+    <p class="paper-authors">Adrien Bibal, Nourah M. Salem, Rémi Cardon, Elizabeth K. White, Daniel E. Acuna, Robin Burke, Lawrence E. Hunter</p>
+    <p class="paper-citation-meta"><em>Journal of Biomedical Semantics</em> · <time datetime="2024-04-22">April 22, 2024</time> · Volume 15</p>
+    <p class="paper-doi"><a href="https://doi.org/10.1186/s13326-024-00304-3">DOI: 10.1186/s13326-024-00304-3</a></p>
+    <div class="resource-actions"><a class="button button-primary" href="https://doi.org/10.1186/s13326-024-00304-3" data-resource-type="paper" data-publication-key="Bibal2024">Read the paper <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
 </a><a href="#cite">Cite this work</a><a href="#paper-resources">Resources</a></div>
   </header>
   <div class="research-reading-grid">
     <article class="research-prose">
-      <section aria-labelledby="research-question"><h2 id="research-question">Can publication metadata improve scientific image and text retrieval?</h2><p class="research-lead">MISTI learns joint representations of scientific figures, captions, and publication metadata. The study tests whether contextual information such as titles, sections, and concepts improves retrieval beyond the image-caption pair alone.</p></section>
-      <section aria-labelledby="findings"><h2 id="findings">What the study found</h2><ul><li>Including metadata improved retrieval performance over the reported baselines.</li><li>The model reached 30% Recall@1 in a caption-retrieval task with 70,000 candidates.</li></ul></section>
-      <section aria-labelledby="methods"><h2 id="methods">How the study works</h2><p>The model uses contrastive learning on figures, captions, and metadata from the PubMed Open Access Subset, and is evaluated on information-retrieval tasks.</p></section>
-      <section aria-labelledby="scope"><h2 id="scope">Scope and limitations</h2><ul><li>The reported results depend on the tasks, candidate set, and publication collection used for evaluation.</li><li>Retrieving a relevant figure or caption is different from establishing that a scientific claim is correct.</li></ul></section>
-      
-      
-      <section aria-labelledby="abstract"><h2 id="abstract">Abstract</h2><p>In scientific publications, automatic representations of figures and their captions can be used in NLP, computer vision, and information retrieval tasks. Contrastive learning has proven effective for creating such joint representations for natural scenes, but its application to scientific imagery and descriptions remains under-explored. Recent open-access publication datasets provide an opportunity to understand the effectiveness of this technique as well as evaluate the usefulness of additional metadata, which are available only in the scientific context. Here, we introduce MISTI, a novel model that uses contrastive learning to simultaneously learn the representation of figures, captions, and metadata, such as a paper’s title, sections, and curated concepts from the PubMed Open Access Subset. We evaluate our model on multiple information retrieval tasks, showing substantial improvements over baseline models. Notably, incorporating metadata doubled retrieval performance, achieving a Recall@1 of 30% on a 70K-item caption retrieval task. We qualitatively explore how metadata can be used to strategically retrieve distinctive representations of the same concept but for different sections, such as introduction and results. Additionally, we show that our model seamlessly handles out-of-domain tasks related to image segmentation. We share our dataset and methods (https://github.com/Khempawin/scientific-image-caption-pair/tree/section-attr) and outline future research directions.</p><p class="source-note">Abstract from <a href="https://aclanthology.org/2024.sdp-1.15/">the original work</a>, reproduced under its <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license</a>. The overview above summarizes the study.</p></section>
-      
-      <section id="cite" aria-labelledby="cite-heading"><h2 id="cite-heading">Cite this work</h2><p class="citation-text" id="paper-citation">Pawin Taechoyotin, Daniel Acuna (2024). MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning. Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024). https://doi.org/10.18653/v1/2024.sdp-1.15</p><div class="resource-actions"><button type="button" class="button button-primary" data-copy-citation="paper-citation" data-publication-key="taechoyotin2024misti" hidden>Copy citation</button><a href="/publications/citations/taechoyotin2024misti.bib" download data-resource-type="citation" data-publication-key="taechoyotin2024misti">Download BibTeX</a></div><p class="copy-status" data-copy-status role="status" aria-live="polite"></p><details class="bibtex-details"><summary>View BibTeX</summary><pre><code>@inproceedings{taechoyotin2024misti,
-  title = {MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning},
-  author = {Taechoyotin, Pawin and Acuna, Daniel},
+      <section aria-labelledby="research-question"><h2 id="research-question">Can statements of what remains unknown suggest research directions?</h2><p class="research-lead">RecSOI recommends statements of ignorance from scientific articles: passages that identify gaps, uncertainties, or unanswered questions. It matches these passages to a researcher&#39;s publication history and presents their surrounding context, helping readers investigate questions connected to their expertise.</p></section>
+      <section aria-labelledby="findings"><h2 id="findings">What the study found</h2><ul><li>The system turns explicit knowledge gaps in the literature into personalized recommendations.</li><li>A concept-overlap evaluation found that recommended statements often connected to concepts in the researcher&#39;s abstracts.</li></ul></section>
+      <section aria-labelledby="methods"><h2 id="methods">How the study works</h2><p>The method combines embeddings of statements and their context with a weighted profile built from a researcher&#39;s prior abstracts. A heuristic evaluation checks whether recommended statements share concepts with the researcher&#39;s work.</p></section>
+      <section aria-labelledby="scope"><h2 id="scope">Scope and limitations</h2><ul><li>Concept overlap does not establish that a suggested direction is novel, feasible, or scientifically productive.</li><li>An unanswered question in an older article may have been resolved by later research.</li></ul></section>
+      <section aria-labelledby="reuse"><h2 id="reuse">Using this work</h2><p>The linked repository provides the implementation and supporting resources. Read recommended statements in their original context and check newer literature before treating them as open questions. Consult the repository&#39;s resource and license information for your intended use.</p><p><a href="https://github.com/AdrienBibal/RecSOI" data-resource-type="code" data-publication-key="Bibal2024">Implementation and documentation <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a></p></section>
+      <p><a href="https://doi.org/10.1186/s13326-024-00304-3">Read the original abstract and paper</a>.</p>
+      <section id="cite" aria-labelledby="cite-heading"><h2 id="cite-heading">Cite this work</h2><p class="citation-text" id="paper-citation">Adrien Bibal, Nourah M. Salem, Rémi Cardon, Elizabeth K. White, Daniel E. Acuna, Robin Burke, Lawrence E. Hunter (2024). RecSOI: recommending research directions using statements of ignorance. Journal of Biomedical Semantics. https://doi.org/10.1186/s13326-024-00304-3</p><div class="resource-actions"><button type="button" class="button button-primary" data-copy-citation="paper-citation" data-publication-key="Bibal2024" hidden>Copy citation</button><a href="/publications/citations/bibal2024.bib" download data-resource-type="citation" data-publication-key="Bibal2024">Download BibTeX</a></div><p class="copy-status" data-copy-status role="status" aria-live="polite"></p><details class="bibtex-details"><summary>View BibTeX</summary><pre><code>@article{Bibal2024,
+  title = {RecSOI: recommending research directions using statements of ignorance},
+  author = {Bibal, Adrien and Salem, Nourah M. and Cardon, R{\&#39;e}mi and White, Elizabeth K. and Acuna, Daniel E. and Burke, Robin and Hunter, Lawrence E.},
   year = {2024},
-  publication_date = {2024},
-  booktitle = {Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)},
-  pages = {155--164},
-  doi = {10.18653/v1/2024.sdp-1.15},
-  url = {https://aclanthology.org/2024.sdp-1.15/}
+  publication_date = {2024-04-22},
+  journal = {Journal of Biomedical Semantics},
+  volume = {15},
+  number = {1},
+  pages = {2},
+  doi = {10.1186/s13326-024-00304-3},
+  url = {https://doi.org/10.1186/s13326-024-00304-3}
 }
 </code></pre></details></section>
-      <p class="source-note">Overview checked September 7, 2026 against the <a href="https://aclanthology.org/2024.sdp-1.15/">publication record</a>. Publication and preprint dates refer to the linked versions.</p>
-      <p class="source-note">The locally hosted PDF is an unchanged copy from <a href="https://aclanthology.org/2024.sdp-1.15.pdf">the original source</a>, shared under its <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons license</a>. Copyright remains with the credited authors or rights holders.</p>
+      <p class="source-note">Overview checked September 7, 2026 against the <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11034121/">publication record</a>. Publication and preprint dates refer to the linked versions.</p>
+      
     </article>
     <aside class="research-sidebar" id="paper-resources" aria-label="Paper resources and topics">
       <section><h2>Read and reuse</h2><ul class="resource-list">
-        <li><a href="https://aclanthology.org/2024.sdp-1.15/" data-resource-type="paper" data-publication-key="taechoyotin2024misti">Read the original paper <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <li><a href="https://doi.org/10.1186/s13326-024-00304-3" data-resource-type="paper" data-publication-key="Bibal2024">Read the original paper <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
 </a></li>
-        <li><a href="/publications/misti/paper.pdf" data-resource-type="pdf" data-publication-key="taechoyotin2024misti">Download paper (PDF) <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-</a></li><li><a href="https://github.com/Khempawin/scientific-image-caption-pair/tree/section-attr" data-resource-type="code" data-publication-key="taechoyotin2024misti">Code repository <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <li><a href="https://github.com/AdrienBibal/RecSOI" data-resource-type="code" data-publication-key="Bibal2024">Code repository <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
 </a></li>
         
         <li><a href="#cite">Citation and BibTeX <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -410,7 +472,7 @@
       </ul></section>
       <section><h2>Research topics</h2><ul class="resource-list"><li><a href="/research/peer-review-discovery/">Peer review & discovery <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
 </a></li></ul></section>
-      <section><h2>Explore the tags</h2><ul class="bib-tags" aria-label="Paper tags"><li><a href="/publications/?tag=multimodal-learning">Multimodal learning</a></li><li><a href="/publications/?tag=text-mining">Text mining & NLP</a></li><li><a href="/publications/?tag=scholarly-data">Scholarly data & tools</a></li></ul></section>
+      <section><h2>Explore the tags</h2><ul class="bib-tags" aria-label="Paper tags"><li><a href="/publications/?tag=research-recommendation">Research recommendation</a></li><li><a href="/publications/?tag=recommender-systems">Recommender systems</a></li><li><a href="/publications/?tag=text-mining">Text mining & NLP</a></li></ul></section>
     </aside>
   </div>
   <section class="related-research" aria-labelledby="related-heading"><h2 id="related-heading">Related research</h2><article class="research-paper-row"><h3><a href="/publications/sciintbench/">SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under Adversarial Framing</a></h3><a class="paper-overview-link" href="/publications/sciintbench/" aria-label="Research overview for SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under Adversarial Framing" data-resource-type="overview" data-publication-key="meguimtsop2026sciintbench"><svg width="15" height="17" viewBox="0 0 18 20" fill="none" aria-hidden="true"><path d="M4 1.5h6l4 4V18H4V1.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M10 1.5v4h4M6.5 9h5M6.5 12h5M6.5 15h3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Research overview</span></a>

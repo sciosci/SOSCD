@@ -9,6 +9,18 @@
   <author><name>SOS+CD Lab</name></author>
   
   <entry>
+    <id>https://scienceofscience.org/publications/#kusumegi2026dissecting</id>
+    <title>Dissecting the gender divide: authorship and acknowledgment in scientific publications</title>
+    <link href="https://scienceofscience.org/publications/gender-authorship-acknowledgment/"/>
+    <link href="https://doi.org/10.1007/s11192-026-05712-z" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2026-08-08T00:00:00+00:00</published>
+    <author><name>Keigo Kusumegi</name></author><author><name>Daniel E. Acuna</name></author><author><name>Yukie Sano</name></author>
+    <summary>2026. Scientometrics. This study compares authorship and acknowledgment to examine how scientific contributions receive credit. Using PLOS articles and linked researcher records, it investigates differences associated with gender, contribution type, and citation standing.</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
     <id>https://scienceofscience.org/publications/#meguimtsop2026sciintbench</id>
     <title>SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under Adversarial Framing</title>
     <link href="https://scienceofscience.org/publications/sciintbench/"/>
@@ -35,36 +47,24 @@
   <entry>
     <id>https://scienceofscience.org/publications/#zhou2026widespread</id>
     <title>Widespread reference missingness disparities in open scholarly metadata</title>
-    <link href="https://scienceofscience.org/publications/#zhou2026widespread"/>
+    <link href="https://scienceofscience.org/publications/openalex-reference-missingness/"/>
     <link href="https://doi.org/10.1162/qss.a.400" rel="related"/>
     <updated>2026-09-07T23:57:57+00:00</updated>
     
     <author><name>Huaxia Zhou</name></author><author><name>Lizhen Liang</name></author><author><name>Daniel E. Acuna</name></author>
-    <summary>2026. Quantitative Science Studies. Huaxia Zhou, Lizhen Liang, Daniel E. Acuna (2026). Widespread reference missingness disparities in open scholarly metadata. Quantitative Science Studies. https://doi.org/10.1162/qss.a.400</summary>
+    <summary>2026. Quantitative Science Studies. This study examines missing reference lists in OpenAlex and asks whether the gaps are distributed evenly. It finds that missingness is associated with journal and institutional prestige and with country economic standing, which matters when metadata are used to compare scientific impact.</summary>
     <category term="integrity" label="Research integrity"/><category term="ecosystem" label="Science of science"/>
   </entry>
   
   <entry>
     <id>https://scienceofscience.org/publications/#popp2026government</id>
     <title>Government Funding and the Direction of Academic Energy Research</title>
-    <link href="https://scienceofscience.org/publications/#popp2026government"/>
+    <link href="https://scienceofscience.org/publications/energy-research-funding/"/>
     <link href="https://doi.org/10.3386/w34856" rel="related"/>
     <updated>2026-09-07T23:57:57+00:00</updated>
     
     <author><name>David Popp</name></author><author><name>Myriam Gregoire-Zawilski</name></author><author><name>Lizhen Liang</name></author><author><name>Daniel E. Acuna</name></author>
-    <summary>2026 · Preprint / working paper. NBER Working Paper No. 34856. David Popp, Myriam Gregoire-Zawilski, Lizhen Liang, Daniel E. Acuna (2026). Government Funding and the Direction of Academic Energy Research. NBER Working Paper No. 34856. https://doi.org/10.3386/w34856</summary>
-    <category term="ecosystem" label="Science of science"/>
-  </entry>
-  
-  <entry>
-    <id>https://scienceofscience.org/publications/#kusumegi2026dissecting</id>
-    <title>Dissecting the gender divide: authorship and acknowledgment in scientific publications</title>
-    <link href="https://scienceofscience.org/publications/#kusumegi2026dissecting"/>
-    <link href="https://doi.org/10.1007/s11192-026-05712-z" rel="related"/>
-    <updated>2026-09-07T23:57:57+00:00</updated>
-    
-    <author><name>Keigo Kusumegi</name></author><author><name>Daniel E. Acuna</name></author><author><name>Yukie Sano</name></author>
-    <summary>2026. Scientometrics. Keigo Kusumegi, Daniel E. Acuna, Yukie Sano (2026). Dissecting the gender divide: authorship and acknowledgment in scientific publications. Scientometrics. https://doi.org/10.1007/s11192-026-05712-z</summary>
+    <summary>2026 · Preprint / working paper. NBER Working Paper No. 34856. This working paper studies whether government grants shift researchers&apos; subsequent publications toward funded topics. It compares energy researchers supported by the U.S. Department of Energy and National Science Foundation with matched researchers, using publication text to track changes in research direction.</summary>
     <category term="ecosystem" label="Science of science"/>
   </entry>
   
@@ -141,6 +141,18 @@
   </entry>
   
   <entry>
+    <id>https://scienceofscience.org/publications/#Bibal2024</id>
+    <title>RecSOI: recommending research directions using statements of ignorance</title>
+    <link href="https://scienceofscience.org/publications/recsoi/"/>
+    <link href="https://doi.org/10.1186/s13326-024-00304-3" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2024-04-22T00:00:00+00:00</published>
+    <author><name>Adrien Bibal</name></author><author><name>Nourah M. Salem</name></author><author><name>Rémi Cardon</name></author><author><name>Elizabeth K. White</name></author><author><name>Daniel E. Acuna</name></author><author><name>Robin Burke</name></author><author><name>Lawrence E. Hunter</name></author>
+    <summary>2024. Journal of Biomedical Semantics. RecSOI recommends statements of ignorance from scientific articles: passages that identify gaps, uncertainties, or unanswered questions. It matches these passages to a researcher&apos;s publication history and presents their surrounding context, helping readers investigate questions connected to their expertise.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/>
+  </entry>
+  
+  <entry>
     <id>https://scienceofscience.org/publications/#XU2024103542</id>
     <title>The impact of heterogeneous shared leadership in scientific teams</title>
     <link href="https://scienceofscience.org/publications/#XU2024103542"/>
@@ -177,18 +189,6 @@
   </entry>
   
   <entry>
-    <id>https://scienceofscience.org/publications/#Bibal2024</id>
-    <title>RecSOI: recommending research directions using statements of ignorance</title>
-    <link href="https://scienceofscience.org/publications/#Bibal2024"/>
-    <link href="https://doi.org/10.1186/s13326-024-00304-3" rel="related"/>
-    <updated>2026-09-07T23:57:57+00:00</updated>
-    
-    <author><name>Adrien Bibal</name></author><author><name>Nourah M. Salem</name></author><author><name>Rémi Cardon</name></author><author><name>Elizabeth K. White</name></author><author><name>Daniel E. Acuna</name></author><author><name>Robin Burke</name></author><author><name>Lawrence E. Hunter</name></author>
-    <summary>2024. Journal of Biomedical Semantics. Adrien Bibal, Nourah M. Salem, Rémi Cardon, Elizabeth K. White, Daniel E. Acuna, Robin Burke, Lawrence E. Hunter (2024). RecSOI: recommending research directions using statements of ignorance. Journal of Biomedical Semantics. https://doi.org/10.1186/s13326-024-00304-3</summary>
-    <category term="discovery" label="Peer review &amp; discovery"/>
-  </entry>
-  
-  <entry>
     <id>https://scienceofscience.org/publications/#taechoyotin2024misti</id>
     <title>MISTI: Metadata-Informed Scientific Text and Image Representation through Contrastive Learning</title>
     <link href="https://scienceofscience.org/publications/misti/"/>
@@ -203,12 +203,12 @@
   <entry>
     <id>https://scienceofscience.org/publications/#taechoyotin2024mamorx</id>
     <title>MAMORX: Multi-agent Multi-modal Scientific Review Generation with External Knowledge</title>
-    <link href="https://scienceofscience.org/publications/#taechoyotin2024mamorx"/>
+    <link href="https://scienceofscience.org/publications/mamorx/"/>
     <link href="https://openreview.net/forum?id=frvkE8rCfX" rel="related"/>
     <updated>2026-09-07T23:57:57+00:00</updated>
     
     <author><name>Pawin Taechoyotin</name></author><author><name>Guanchao Wang</name></author><author><name>Tong Zeng</name></author><author><name>Bradley Sides</name></author><author><name>Daniel E. Acuna</name></author>
-    <summary>2024. NeurIPS 2024 Workshop on Foundation Models for Science: Progress, Opportunities, and Challenges. Pawin Taechoyotin, Guanchao Wang, Tong Zeng, Bradley Sides, Daniel E. Acuna (2024). MAMORX: Multi-agent Multi-modal Scientific Review Generation with External Knowledge. NeurIPS 2024 Workshop on Foundation Models for Science: Progress, Opportunities, and Challenges.</summary>
+    <summary>2024. NeurIPS 2024 Workshop on Foundation Models for Science: Progress, Opportunities, and Challenges. MAMORX generates scientific reviews using multiple agents and multimodal foundation models. It considers manuscript text, figures, and citations, while retrieving external scholarly information to support assessments of novelty and related work.</summary>
     <category term="discovery" label="Peer review &amp; discovery"/>
   </entry>
   
@@ -381,6 +381,18 @@
   </entry>
   
   <entry>
+    <id>https://scienceofscience.org/publications/#jas2020pyglmnet</id>
+    <title>Pyglmnet: Python implementation of elastic-net regularized generalized linear models</title>
+    <link href="https://scienceofscience.org/publications/pyglmnet/"/>
+    <link href="https://joss.theoj.org/papers/10.21105/joss.01959" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2020-03-01T00:00:00+00:00</published>
+    <author><name>Mainak Jas</name></author><author><name>Titipat Achakulvisut</name></author><author><name>Aid Idrizović</name></author><author><name>Daniel Acuna</name></author><author><name>Matthew Antalek</name></author><author><name>Vinicius Marques</name></author><author><name>Tommy Odland</name></author><author><name>Ravi Garg</name></author><author><name>Mayank Agrawal</name></author><author><name>Yu Umegaki</name></author><author><name>Peter Foley</name></author><author><name>Hugo Fernandes</name></author><author><name>Drew Harris</name></author><author><name>Beibin Li</name></author><author><name>Olivier Pieters</name></author><author><name>Scott Otterson</name></author><author><name>Giovanni De Toni</name></author><author><name>Chris Rodgers</name></author><author><name>Eva Dyer</name></author><author><name>Matti Hamalainen</name></author><author><name>Konrad Kording</name></author><author><name>Pavan Ramkumar</name></author>
+    <summary>2020. Journal of Open Source Software. Pyglmnet implements generalized linear models with penalties that help control model complexity. Researchers can select a response distribution and regularization approach within a Python workflow, including applications where observations are counts, binary outcomes, or continuous measurements.</summary>
+    <category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
     <id>https://scienceofscience.org/publications/#acuna2020nullmodel</id>
     <title>Estimating a Null Model of Scientific Image Reuse to Support Research Integrity Investigations</title>
     <link href="https://scienceofscience.org/publications/image-reuse-null-model/"/>
@@ -390,6 +402,18 @@
     <author><name>Daniel E. Acuna</name></author><author><name>Ziyue Xiang</name></author>
     <summary>2020 · Preprint / working paper. arXiv:2003.00878. Image similarities need a reference point: a repeated pattern might be rare, or it might be common in scientific imagery. This preprint develops a statistical baseline for estimating how often a feature could occur by chance.</summary>
     <category term="integrity" label="Research integrity"/><category term="foundations" label="Cognition &amp; methods"/>
+  </entry>
+  
+  <entry>
+    <id>https://scienceofscience.org/publications/#achakulvisut2020pubmed</id>
+    <title>Pubmed parser: a python parser for pubmed open-access XML subset and MEDLINE XML dataset XML dataset</title>
+    <link href="https://scienceofscience.org/publications/pubmed-parser/"/>
+    <link href="https://joss.theoj.org/papers/10.21105/joss.01979" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2020-02-08T00:00:00+00:00</published>
+    <author><name>Titipat Achakulvisut</name></author><author><name>Daniel E Acuna</name></author><author><name>Konrad Kording</name></author>
+    <summary>2020. Journal of Open Source Software. PubMed Parser converts biomedical article XML into Python data structures for text mining and bibliometric analysis. It supports the PubMed Central Open Access subset and MEDLINE, giving researchers a common starting point for extracting publication information without building a separate XML parser for each project.</summary>
+    <category term="discovery" label="Peer review &amp; discovery"/>
   </entry>
   
   <entry>
@@ -426,30 +450,6 @@
     <author><name>Daniel Ernesto Acuna</name></author>
     <summary>2020 · Archived preprint. OSF Preprints. Daniel Ernesto Acuna (2020). Some considerations for studying gender, mentorship, and scientific impact: commentary on AlShebli, Makovi, and Rahwan (2020). OSF Preprints. https://doi.org/10.31219/osf.io/ybfk6</summary>
     <category term="integrity" label="Research integrity"/><category term="ecosystem" label="Science of science"/>
-  </entry>
-  
-  <entry>
-    <id>https://scienceofscience.org/publications/#jas2020pyglmnet</id>
-    <title>Pyglmnet: Python implementation of elastic-net regularized generalized linear models</title>
-    <link href="https://scienceofscience.org/publications/#jas2020pyglmnet"/>
-    <link href="https://joss.theoj.org/papers/10.21105/joss.01959" rel="related"/>
-    <updated>2026-09-07T23:57:57+00:00</updated>
-    
-    <author><name>Mainak Jas</name></author><author><name>Titipat Achakulvisut</name></author><author><name>Aid Idrizović</name></author><author><name>Daniel Ernesto Acuna</name></author><author><name>Matthew Antalek</name></author><author><name>Vinicius Marques</name></author><author><name>Tommy Odland</name></author><author><name>Ravi Prakash Garg</name></author><author><name>Mayank Agrawal</name></author><author><name>Yu Umegaki</name></author><author><name>others</name></author>
-    <summary>2020. Journal of Open Source Software. Mainak Jas, Titipat Achakulvisut, Aid Idrizović, Daniel Ernesto Acuna, Matthew Antalek, Vinicius Marques, Tommy Odland, Ravi Prakash Garg, Mayank Agrawal, Yu Umegaki, others (2020). Pyglmnet: Python implementation of elastic-net regularized generalized linear models. Journal of Open Source Software.</summary>
-    <category term="foundations" label="Cognition &amp; methods"/>
-  </entry>
-  
-  <entry>
-    <id>https://scienceofscience.org/publications/#achakulvisut2020pubmed</id>
-    <title>Pubmed parser: a python parser for pubmed open-access XML subset and MEDLINE XML dataset XML dataset</title>
-    <link href="https://scienceofscience.org/publications/#achakulvisut2020pubmed"/>
-    <link href="https://joss.theoj.org/papers/10.21105/joss.01979" rel="related"/>
-    <updated>2026-09-07T23:57:57+00:00</updated>
-    
-    <author><name>Titipat Achakulvisut</name></author><author><name>Daniel E Acuna</name></author><author><name>Konrad Kording</name></author>
-    <summary>2020. Journal of Open Source Software. Titipat Achakulvisut, Daniel E Acuna, Konrad Kording (2020). Pubmed parser: a python parser for pubmed open-access XML subset and MEDLINE XML dataset XML dataset. Journal of Open Source Software.</summary>
-    <category term="discovery" label="Peer review &amp; discovery"/>
   </entry>
   
   <entry>
@@ -647,12 +647,12 @@
   <entry>
     <id>https://scienceofscience.org/publications/#achakulvisut2016science</id>
     <title>Science Concierge: A fast content-based recommendation system for scientific publications</title>
-    <link href="https://scienceofscience.org/publications/#achakulvisut2016science"/>
+    <link href="https://scienceofscience.org/publications/science-concierge/"/>
     <link href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158423" rel="related"/>
     <updated>2026-09-07T23:57:57+00:00</updated>
-    
+    <published>2016-07-06T00:00:00+00:00</published>
     <author><name>Titipat Achakulvisut</name></author><author><name>Daniel E Acuna</name></author><author><name>Tulakan Ruangrong</name></author><author><name>Konrad Kording</name></author>
-    <summary>2016. PloS ONE. Titipat Achakulvisut, Daniel E Acuna, Tulakan Ruangrong, Konrad Kording (2016). Science Concierge: A fast content-based recommendation system for scientific publications. PloS ONE.</summary>
+    <summary>2016. PloS ONE. Science Concierge is a content-based recommender that learns from papers a researcher marks as relevant or irrelevant. It uses their text to find related work and updates recommendations as the researcher provides feedback.</summary>
     <category term="discovery" label="Peer review &amp; discovery"/>
   </entry>
   
@@ -729,6 +729,18 @@
   </entry>
   
   <entry>
+    <id>https://scienceofscience.org/publications/#acuna2012predicting</id>
+    <title>Predicting scientific success</title>
+    <link href="https://scienceofscience.org/publications/#acuna2012predicting"/>
+    <link href="https://www.nature.com/articles/489201a" rel="related"/>
+    <updated>2026-09-07T23:57:57+00:00</updated>
+    <published>2012-09-12T00:00:00+00:00</published>
+    <author><name>Daniel E Acuna</name></author><author><name>Stefano Allesina</name></author><author><name>Konrad P Kording</name></author>
+    <summary>2012. Nature. Daniel E Acuna, Stefano Allesina, Konrad P Kording (2012). Predicting scientific success. Nature. https://doi.org/10.1038/489201a</summary>
+    <category term="ecosystem" label="Science of science"/>
+  </entry>
+  
+  <entry>
     <id>https://scienceofscience.org/publications/#avraham2012toward</id>
     <title>Toward perceiving robots as humans: Three handshake models face the turing-like handshake test</title>
     <link href="https://scienceofscience.org/publications/#avraham2012toward"/>
@@ -738,18 +750,6 @@
     <author><name>Guy Avraham</name></author><author><name>Ilana Nisky</name></author><author><name>Hugo L Fernandes</name></author><author><name>Daniel E Acuna</name></author><author><name>Konrad P Kording</name></author><author><name>Gerald E Loeb</name></author><author><name>Amir Karniel</name></author>
     <summary>2012. IEEE Transactions on Haptics. Guy Avraham, Ilana Nisky, Hugo L Fernandes, Daniel E Acuna, Konrad P Kording, Gerald E Loeb, Amir Karniel (2012). Toward perceiving robots as humans: Three handshake models face the turing-like handshake test. IEEE Transactions on Haptics.</summary>
     <category term="foundations" label="Cognition &amp; methods"/>
-  </entry>
-  
-  <entry>
-    <id>https://scienceofscience.org/publications/#acuna2012predicting</id>
-    <title>Predicting scientific success</title>
-    <link href="https://scienceofscience.org/publications/#acuna2012predicting"/>
-    <link href="https://www.nature.com/articles/489201a" rel="related"/>
-    <updated>2026-09-07T23:57:57+00:00</updated>
-    
-    <author><name>Daniel E Acuna</name></author><author><name>Stefano Allesina</name></author><author><name>Konrad P Kording</name></author>
-    <summary>2012. Nature. Daniel E Acuna, Stefano Allesina, Konrad P Kording (2012). Predicting scientific success. Nature.</summary>
-    <category term="ecosystem" label="Science of science"/>
   </entry>
   
   <entry>
