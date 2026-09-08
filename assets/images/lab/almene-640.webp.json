@@ -1,0 +1,15 @@
+{
+  "source_page": "https://almene08.github.io/",
+  "source_url": "https://almene08.github.io/hero-image.jpg",
+  "retrieved": "2026-09-07",
+  "photo_date": null,
+  "original_width": 2196,
+  "original_height": 3158,
+  "note": "Portrait published on Almene De Meran Meguimtsop's own professional website. Original preserved unchanged; capture date not supplied.",
+  "sha256": "08ea71ab152545ae83a6e64a5f7057ddb1ba639b00afff8d4ac3d03bf8d1e769",
+  "source_file": "assets/images/lab/sources/almene-personal-portrait.jpg",
+  "width": 640,
+  "processing": "Proportional downsampling and WebP conversion with cwebp quality 88. No AI generation or retouching.",
+  "createdAt": "2026-09-08T02:44:31.915805+00:00",
+  "height": 921
+}
