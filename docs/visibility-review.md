@@ -13,6 +13,12 @@ Use the **SOS+CD Lab — scienceofscience.org** GA4 property (552893037), not Da
 
 Custom dimensions and standard reports can require 24–48 hours to populate. Realtime is the immediate collection check. A citation-copy event means the clipboard operation succeeded; a resource open is a click, and a contact event is an email-link click, not a completed inquiry. Free-text archive queries are not recorded.
 
+## Monthly email
+
+**SOS+CD Lab - Monthly activity summary** is scheduled in GA4 to send the Reports snapshot as a PDF to Daniel's existing Analytics account on the fourth of each month, beginning October 4, 2026. It uses the rolling **Last 28 days** report preset, not a full calendar month. The first report includes the September 7 setup day and an incomplete collection window.
+
+The schedule was verified under **Admin → Property → Scheduled emails**: Monthly, PDF, one recipient, status Scheduled, active until October 4, 2027. Renew it before that expiration; GA4 schedules support up to 12 months. This email contains the dashboard's engagement, events, traffic sources, page views, and linked Search Console cards. It is separate from the public GitHub audit below. See [Google's scheduling instructions](https://support.google.com/analytics/answer/13722168?hl=en) to change recipients, frequency, or the active period.
+
 ## Monthly review
 
 The **Monthly visibility review** GitHub Actions workflow runs on the eighth of each month and can be started manually. It checks every sitemapped HTML page on the live lab site for HTTP errors, canonical URLs, headings, descriptions, valid JSON-LD, Analytics tags, and access for Googlebot, OAI-SearchBot and ChatGPT-User. It also checks the publication export and the 2008 cutoff. Read the run summary and download the public audit artifact before its 90-day retention expires. GitHub may disable scheduled workflows in inactive public repositories; check the Actions tab if a run is missing.
