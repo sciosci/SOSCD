@@ -1,0 +1,29 @@
+name: Monthly visibility review
+
+on:
+  schedule:
+    - cron: '17 15 8 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  public-site-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check deployed pages, structured data, sitemap and crawler access
+        run: python3 lib/audit_live_site.py --output tmp/live-seo
+      - name: Add results and account-review dates to run summary
+        if: always()
+        run: cat tmp/live-seo/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Retain public audit results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-visibility-audit-${{ github.run_id }}
+          path: tmp/live-seo/
+          retention-days: 90
+          if-no-files-found: error

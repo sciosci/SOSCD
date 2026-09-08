@@ -413,8 +413,8 @@ acuna2012predicting:
   tags:
   - careers
   - citation-analysis
-  doi: ''
-  publication_date: '2012'
+  doi: 10.1038/489201a
+  publication_date: '2012-09-12'
   volume: '489'
   issue: '7415'
   pages: 201--202
@@ -428,17 +428,19 @@ acuna2012predicting:
   reviewed_at:
   resources: []
   citation: Daniel E Acuna, Stefano Allesina, Konrad P Kording (2012). Predicting
-    scientific success. Nature.
+    scientific success. Nature. https://doi.org/10.1038/489201a
   bibtex: |
     @article{acuna2012predicting,
       title = {Predicting scientific success},
       author = {Acuna, Daniel E and Allesina, Stefano and Kording, Konrad P},
       year = {2012},
+      publication_date = {2012-09-12},
       journal = {Nature},
       volume = {489},
       number = {7415},
       pages = {201--202},
       publisher = {Nature Publishing Group},
+      doi = {10.1038/489201a},
       url = {https://www.nature.com/articles/489201a}
     }
 acuna2013future:
@@ -775,33 +777,39 @@ achakulvisut2016science:
   - research-recommendation
   - recommender-systems
   - text-mining
-  doi: ''
-  publication_date: '2016'
+  doi: 10.1371/journal.pone.0158423
+  publication_date: '2016-07-06'
   volume: '11'
   issue: '7'
   pages: e0158423
   publisher: Public Library of Science San Francisco, CA USA
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158423
-  page_path:
+  page_path: "/publications/science-concierge/"
   bibtex_path: "/publications/citations/achakulvisut2016science.bib"
-  summary:
+  summary: Science Concierge is a content-based recommender that learns from papers
+    a researcher marks as relevant or irrelevant. It uses their text to find related
+    work and updates recommendations as the researcher provides feedback.
   abstract:
   abstract_license:
-  reviewed_at:
-  resources: []
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: code
+    url: https://github.com/titipata/science_concierge
   citation: 'Titipat Achakulvisut, Daniel E Acuna, Tulakan Ruangrong, Konrad Kording
     (2016). Science Concierge: A fast content-based recommendation system for scientific
-    publications. PloS ONE.'
+    publications. PloS ONE. https://doi.org/10.1371/journal.pone.0158423'
   bibtex: |
     @article{achakulvisut2016science,
       title = {Science Concierge: A fast content-based recommendation system for scientific publications},
       author = {Achakulvisut, Titipat and Acuna, Daniel E and Ruangrong, Tulakan and Kording, Konrad},
       year = {2016},
+      publication_date = {2016-07-06},
       journal = {PloS ONE},
       volume = {11},
       number = {7},
       pages = {e0158423},
       publisher = {Public Library of Science San Francisco, CA USA},
+      doi = {10.1371/journal.pone.0158423},
       url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158423}
     }
 shema2017show:
@@ -1357,34 +1365,39 @@ achakulvisut2020pubmed:
   tags:
   - scholarly-data
   - text-mining
-  doi: ''
-  publication_date: '2020'
+  doi: 10.21105/joss.01979
+  publication_date: '2020-02-08'
   volume: '5'
   issue: '46'
   pages: '1979'
   publisher: ''
   url: https://joss.theoj.org/papers/10.21105/joss.01979
-  page_path:
+  page_path: "/publications/pubmed-parser/"
   bibtex_path: "/publications/citations/achakulvisut2020pubmed.bib"
-  summary:
+  summary: PubMed Parser converts biomedical article XML into Python data structures
+    for text mining and bibliometric analysis. It supports the PubMed Central Open
+    Access subset and MEDLINE, giving researchers a common starting point for extracting
+    publication information without building a separate XML parser for each project.
   abstract:
   abstract_license:
-  reviewed_at:
+  reviewed_at: '2026-09-07'
   resources:
   - type: code
     url: https://github.com/titipata/pubmed_parser
   citation: 'Titipat Achakulvisut, Daniel E Acuna, Konrad Kording (2020). Pubmed parser:
     a python parser for pubmed open-access XML subset and MEDLINE XML dataset XML
-    dataset. Journal of Open Source Software.'
+    dataset. Journal of Open Source Software. https://doi.org/10.21105/joss.01979'
   bibtex: |
     @article{achakulvisut2020pubmed,
       title = {Pubmed parser: a python parser for pubmed open-access XML subset and MEDLINE XML dataset XML dataset},
       author = {Achakulvisut, Titipat and Acuna, Daniel E and Kording, Konrad},
       year = {2020},
+      publication_date = {2020-02-08},
       journal = {Journal of Open Source Software},
       volume = {5},
       number = {46},
       pages = {1979},
+      doi = {10.21105/joss.01979},
       url = {https://joss.theoj.org/papers/10.21105/joss.01979}
     }
 jas2020pyglmnet:
@@ -1392,9 +1405,11 @@ jas2020pyglmnet:
   title: 'Pyglmnet: Python implementation of elastic-net regularized generalized linear
     models'
   alternate_title: ''
-  authors: Mainak Jas, Titipat Achakulvisut, Aid Idrizović, Daniel Ernesto Acuna,
-    Matthew Antalek, Vinicius Marques, Tommy Odland, Ravi Prakash Garg, Mayank Agrawal,
-    Yu Umegaki, others
+  authors: Mainak Jas, Titipat Achakulvisut, Aid Idrizović, Daniel Acuna, Matthew
+    Antalek, Vinicius Marques, Tommy Odland, Ravi Garg, Mayank Agrawal, Yu Umegaki,
+    Peter Foley, Hugo Fernandes, Drew Harris, Beibin Li, Olivier Pieters, Scott Otterson,
+    Giovanni De Toni, Chris Rodgers, Eva Dyer, Matti Hamalainen, Konrad Kording, Pavan
+    Ramkumar
   author_list:
   - name: Mainak Jas
     given: Mainak
@@ -1405,8 +1420,8 @@ jas2020pyglmnet:
   - name: Aid Idrizović
     given: Aid
     family: Idrizović
-  - name: Daniel Ernesto Acuna
-    given: Daniel Ernesto
+  - name: Daniel Acuna
+    given: Daniel
     family: Acuna
   - name: Matthew Antalek
     given: Matthew
@@ -1417,8 +1432,8 @@ jas2020pyglmnet:
   - name: Tommy Odland
     given: Tommy
     family: Odland
-  - name: Ravi Prakash Garg
-    given: Ravi Prakash
+  - name: Ravi Garg
+    given: Ravi
     family: Garg
   - name: Mayank Agrawal
     given: Mayank
@@ -1426,9 +1441,42 @@ jas2020pyglmnet:
   - name: Yu Umegaki
     given: Yu
     family: Umegaki
-  - name: others
-    given: ''
-    family: others
+  - name: Peter Foley
+    given: Peter
+    family: Foley
+  - name: Hugo Fernandes
+    given: Hugo
+    family: Fernandes
+  - name: Drew Harris
+    given: Drew
+    family: Harris
+  - name: Beibin Li
+    given: Beibin
+    family: Li
+  - name: Olivier Pieters
+    given: Olivier
+    family: Pieters
+  - name: Scott Otterson
+    given: Scott
+    family: Otterson
+  - name: Giovanni De Toni
+    given: Giovanni
+    family: De Toni
+  - name: Chris Rodgers
+    given: Chris
+    family: Rodgers
+  - name: Eva Dyer
+    given: Eva
+    family: Dyer
+  - name: Matti Hamalainen
+    given: Matti
+    family: Hamalainen
+  - name: Konrad Kording
+    given: Konrad
+    family: Kording
+  - name: Pavan Ramkumar
+    given: Pavan
+    family: Ramkumar
   authors_short: Mainak Jas, Titipat Achakulvisut, Aid Idrizović, et al.
   year: '2020'
   year_label: '2020'
@@ -1439,34 +1487,42 @@ jas2020pyglmnet:
   - foundations
   tags:
   - statistical-methods
-  doi: ''
-  publication_date: '2020'
+  doi: 10.21105/joss.01959
+  publication_date: '2020-03-01'
   volume: '5'
   issue: '47'
-  pages: ''
+  pages: '1959'
   publisher: ''
   url: https://joss.theoj.org/papers/10.21105/joss.01959
-  page_path:
+  page_path: "/publications/pyglmnet/"
   bibtex_path: "/publications/citations/jas2020pyglmnet.bib"
-  summary:
+  summary: Pyglmnet implements generalized linear models with penalties that help
+    control model complexity. Researchers can select a response distribution and regularization
+    approach within a Python workflow, including applications where observations are
+    counts, binary outcomes, or continuous measurements.
   abstract:
   abstract_license:
-  reviewed_at:
+  reviewed_at: '2026-09-07'
   resources:
   - type: code
     url: https://github.com/glm-tools/pyglmnet
-  citation: 'Mainak Jas, Titipat Achakulvisut, Aid Idrizović, Daniel Ernesto Acuna,
-    Matthew Antalek, Vinicius Marques, Tommy Odland, Ravi Prakash Garg, Mayank Agrawal,
-    Yu Umegaki, others (2020). Pyglmnet: Python implementation of elastic-net regularized
-    generalized linear models. Journal of Open Source Software.'
+  citation: 'Mainak Jas, Titipat Achakulvisut, Aid Idrizović, Daniel Acuna, Matthew
+    Antalek, Vinicius Marques, Tommy Odland, Ravi Garg, Mayank Agrawal, Yu Umegaki,
+    Peter Foley, Hugo Fernandes, Drew Harris, Beibin Li, Olivier Pieters, Scott Otterson,
+    Giovanni De Toni, Chris Rodgers, Eva Dyer, Matti Hamalainen, Konrad Kording, Pavan
+    Ramkumar (2020). Pyglmnet: Python implementation of elastic-net regularized generalized
+    linear models. Journal of Open Source Software. https://doi.org/10.21105/joss.01959'
   bibtex: |
     @article{jas2020pyglmnet,
       title = {Pyglmnet: Python implementation of elastic-net regularized generalized linear models},
-      author = {Jas, Mainak and Achakulvisut, Titipat and Idrizovi{\'c}, Aid and Acuna, Daniel Ernesto and Antalek, Matthew and Marques, Vinicius and Odland, Tommy and Garg, Ravi Prakash and Agrawal, Mayank and Umegaki, Yu and others},
+      author = {Jas, Mainak and Achakulvisut, Titipat and Idrizović, Aid and Acuna, Daniel and Antalek, Matthew and Marques, Vinicius and Odland, Tommy and Garg, Ravi and Agrawal, Mayank and Umegaki, Yu and Foley, Peter and Fernandes, Hugo and Harris, Drew and Li, Beibin and Pieters, Olivier and Otterson, Scott and De Toni, Giovanni and Rodgers, Chris and Dyer, Eva and Hamalainen, Matti and Kording, Konrad and Ramkumar, Pavan},
       year = {2020},
+      publication_date = {2020-03-01},
       journal = {Journal of Open Source Software},
       volume = {5},
       number = {47},
+      pages = {1959},
+      doi = {10.21105/joss.01959},
       url = {https://joss.theoj.org/papers/10.21105/joss.01959}
     }
 zeng2020modeling:
@@ -2588,19 +2644,24 @@ Bibal2024:
   - recommender-systems
   - text-mining
   doi: 10.1186/s13326-024-00304-3
-  publication_date: '2024'
+  publication_date: '2024-04-22'
   volume: '15'
   issue: '1'
   pages: '2'
   publisher: ''
   url: https://doi.org/10.1186/s13326-024-00304-3
-  page_path:
+  page_path: "/publications/recsoi/"
   bibtex_path: "/publications/citations/bibal2024.bib"
-  summary:
+  summary: 'RecSOI recommends statements of ignorance from scientific articles: passages
+    that identify gaps, uncertainties, or unanswered questions. It matches these passages
+    to a researcher''s publication history and presents their surrounding context,
+    helping readers investigate questions connected to their expertise.'
   abstract:
   abstract_license:
-  reviewed_at:
-  resources: []
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: code
+    url: https://github.com/AdrienBibal/RecSOI
   citation: 'Adrien Bibal, Nourah M. Salem, Rémi Cardon, Elizabeth K. White, Daniel E.
     Acuna, Robin Burke, Lawrence E. Hunter (2024). RecSOI: recommending research directions
     using statements of ignorance. Journal of Biomedical Semantics. https://doi.org/10.1186/s13326-024-00304-3'
@@ -2609,6 +2670,7 @@ Bibal2024:
       title = {RecSOI: recommending research directions using statements of ignorance},
       author = {Bibal, Adrien and Salem, Nourah M. and Cardon, R{\'e}mi and White, Elizabeth K. and Acuna, Daniel E. and Burke, Robin and Hunter, Lawrence E.},
       year = {2024},
+      publication_date = {2024-04-22},
       journal = {Journal of Biomedical Semantics},
       volume = {15},
       number = {1},
@@ -2658,12 +2720,15 @@ taechoyotin2024mamorx:
   pages: ''
   publisher: ''
   url: https://openreview.net/forum?id=frvkE8rCfX
-  page_path:
+  page_path: "/publications/mamorx/"
   bibtex_path: "/publications/citations/taechoyotin2024mamorx.bib"
-  summary:
+  summary: MAMORX generates scientific reviews using multiple agents and multimodal
+    foundation models. It considers manuscript text, figures, and citations, while
+    retrieving external scholarly information to support assessments of novelty and
+    related work.
   abstract:
   abstract_license:
-  reviewed_at:
+  reviewed_at: '2026-09-07'
   resources:
   - type: code
     url: https://github.com/sciosci/mamorx-review-system
@@ -2992,12 +3057,15 @@ zhou2026widespread:
   pages: 53--65
   publisher: ''
   url: https://doi.org/10.1162/qss.a.400
-  page_path:
+  page_path: "/publications/openalex-reference-missingness/"
   bibtex_path: "/publications/citations/zhou2026widespread.bib"
-  summary:
+  summary: This study examines missing reference lists in OpenAlex and asks whether
+    the gaps are distributed evenly. It finds that missingness is associated with
+    journal and institutional prestige and with country economic standing, which matters
+    when metadata are used to compare scientific impact.
   abstract:
   abstract_license:
-  reviewed_at:
+  reviewed_at: '2026-09-07'
   resources: []
   citation: Huaxia Zhou, Lizhen Liang, Daniel E. Acuna (2026). Widespread reference
     missingness disparities in open scholarly metadata. Quantitative Science Studies.
@@ -3121,19 +3189,24 @@ kusumegi2026dissecting:
   - collaboration
   - careers
   doi: 10.1007/s11192-026-05712-z
-  publication_date: '2026'
+  publication_date: '2026-08-08'
   volume: ''
   issue: ''
   pages: ''
   publisher: ''
   url: https://doi.org/10.1007/s11192-026-05712-z
-  page_path:
+  page_path: "/publications/gender-authorship-acknowledgment/"
   bibtex_path: "/publications/citations/kusumegi2026dissecting.bib"
-  summary:
+  summary: This study compares authorship and acknowledgment to examine how scientific
+    contributions receive credit. Using PLOS articles and linked researcher records,
+    it investigates differences associated with gender, contribution type, and citation
+    standing.
   abstract:
   abstract_license:
-  reviewed_at:
-  resources: []
+  reviewed_at: '2026-09-07'
+  resources:
+  - type: preprint
+    url: https://arxiv.org/abs/2506.15237
   citation: 'Keigo Kusumegi, Daniel E. Acuna, Yukie Sano (2026). Dissecting the gender
     divide: authorship and acknowledgment in scientific publications. Scientometrics.
     https://doi.org/10.1007/s11192-026-05712-z'
@@ -3142,6 +3215,7 @@ kusumegi2026dissecting:
       title = {Dissecting the gender divide: authorship and acknowledgment in scientific publications},
       author = {Kusumegi, Keigo and Acuna, Daniel E. and Sano, Yukie},
       year = {2026},
+      publication_date = {2026-08-08},
       journal = {Scientometrics},
       doi = {10.1007/s11192-026-05712-z},
       url = {https://doi.org/10.1007/s11192-026-05712-z}
@@ -3324,12 +3398,15 @@ popp2026government:
   pages: ''
   publisher: ''
   url: https://doi.org/10.3386/w34856
-  page_path:
+  page_path: "/publications/energy-research-funding/"
   bibtex_path: "/publications/citations/popp2026government.bib"
-  summary:
+  summary: This working paper studies whether government grants shift researchers'
+    subsequent publications toward funded topics. It compares energy researchers supported
+    by the U.S. Department of Energy and National Science Foundation with matched
+    researchers, using publication text to track changes in research direction.
   abstract:
   abstract_license:
-  reviewed_at:
+  reviewed_at: '2026-09-07'
   resources: []
   citation: David Popp, Myriam Gregoire-Zawilski, Lizhen Liang, Daniel E. Acuna (2026).
     Government Funding and the Direction of Academic Energy Research. NBER Working

@@ -81,6 +81,14 @@ DOIS = {
     'taechoyotin2024misti': '10.18653/v1/2024.sdp-1.15',
     'acuna2022predicting': '10.1057/s41599-025-04716-z',
     'zhuang2025estimating': '10.1126/sciadv.adt2792',
+    'achakulvisut2020pubmed': '10.21105/joss.01979',
+    'jas2020pyglmnet': '10.21105/joss.01959',
+    'achakulvisut2016science': '10.1371/journal.pone.0158423',
+    'Bibal2024': '10.1186/s13326-024-00304-3',
+    'kusumegi2026dissecting': '10.1007/s11192-026-05712-z',
+    'zhou2026widespread': '10.1162/qss.a.400',
+    'popp2026government': '10.3386/w34856',
+    'acuna2012predicting': '10.1038/489201a',
 }
 ARXIV = {
     'acuna2020nullmodel': '2003.00878',
@@ -111,6 +119,7 @@ tasks += [(key + '-europepmc', 'https://www.ebi.ac.uk/europepmc/webservices/rest
 tasks += [(key + '-arxiv', 'https://arxiv.org/abs/' + identifier, '.html') for key, identifier in ARXIV.items()]
 tasks += [('mentorship-zenodo', 'https://zenodo.org/api/records/4917086', '.json'), ('disambiguation-zenodo', 'https://zenodo.org/api/records/4403705', '.json')]
 tasks += [('misti-publisher', 'https://aclanthology.org/2024.sdp-1.15/', '.html')]
+tasks += [('mamorx-openreview', 'https://api2.openreview.net/notes?id=frvkE8rCfX', '.json')]
 tasks += [('structure-publisher', 'https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1001003&type=manuscript', '.xml')]
 for path in OUT.glob('*europepmc.json'):
     for record in json.loads(path.read_text()).get('resultList', {}).get('result', []):

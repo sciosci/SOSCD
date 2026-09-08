@@ -3,6 +3,8 @@ layout: lab
 title: "SOS+CD Lab at CU Boulder"
 seo_title: "Science of Science & Computational Discovery Lab | CU Boulder"
 permalink: /
+redirect_from:
+  - /en/
 description: "We study how science works—and build computational tools to help it work better. A research lab at the University of Colorado Boulder."
 ---
 <main id="main">

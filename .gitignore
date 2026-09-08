@@ -44,3 +44,4 @@ npm-debug.log*
 .impeccable/review/*.png
 .impeccable/mocks/
 .impeccable/research/seo-sources/
+.impeccable/research/analytics/

@@ -33,7 +33,7 @@ jobs:
         bundle exec ruby publications_generator.rb
         bundle exec jekyll build
         bundle exec ruby tests/publication_catalog_test.rb
-        node --test tests/publication-search.test.cjs
+        node --test tests/*.test.cjs
         bundle exec ruby tests/seo_test.rb
         if [[ -n $(git status --porcelain) ]]; then
           echo "Changes detected. Committing and pushing changes."

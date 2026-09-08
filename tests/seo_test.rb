@@ -90,7 +90,11 @@ class SeoTest < Minitest::Test
       article = graph(doc).find { |entity| entity['@type'] == 'ScholarlyArticle' }
       assert_equal paper.fetch('title'), doc.at_css('h1').text.strip, key
       assert_equal paper.fetch('title'), meta(doc, 'citation_title'), key
-      assert_equal paper.fetch('doi'), meta(doc, 'citation_doi'), key
+      if paper.fetch('doi').empty?
+        assert_nil meta(doc, 'citation_doi'), key
+      else
+        assert_equal paper.fetch('doi'), meta(doc, 'citation_doi'), key
+      end
       assert_equal paper.fetch('publication_date'), meta(doc, 'citation_publication_date').tr('/', '-'), key
       assert_equal paper.fetch('year'), meta(doc, 'citation_year'), key
       expected_authors = paper.fetch('author_list').map { |author| [author.fetch('family'), author.fetch('given')].reject(&:empty?).join(', ') }
@@ -98,6 +102,10 @@ class SeoTest < Minitest::Test
       assert_equal expected_authors, article.fetch('author').map { |author| author.fetch('name') }, key
       assert_equal paper.fetch('publication_date'), article.fetch('datePublished'), key
       assert_equal paper.fetch('citation'), doc.at_css('#paper-citation').text, key
+      assert_equal key, doc.at_css('[data-copy-citation]')['data-publication-key'], key
+      if detail['reuse']
+        assert_includes doc.at_css('#reuse').parent.text, detail.fetch('reuse'), key
+      end
       refute_empty doc.at_css('#scope').parent.text, key
       assert_equal 3, doc.css('.related-research .research-paper-row').size, key
       if detail['abstract']

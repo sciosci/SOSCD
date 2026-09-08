@@ -516,3 +516,144 @@ meguimtsop2026sciintbench:
     around transparency, plagiarism, and fabrication.'
   abstract_license: https://creativecommons.org/licenses/by/4.0/
   source_url: https://arxiv.org/abs/2605.29468
+achakulvisut2020pubmed:
+  path: /publications/pubmed-parser/
+  question: How can biomedical XML become usable research data?
+  summary: >-
+    PubMed Parser converts biomedical article XML into Python data structures for text mining and bibliometric analysis. It supports the PubMed Central Open Access subset and MEDLINE, giving researchers a common starting point for extracting publication information without building a separate XML parser for each project.
+  findings:
+  - The library exposes article metadata, references, paragraphs, and figure captions through separate parsing functions.
+  - MEDLINE and full-text article XML have different structures; the appropriate parser depends on the input collection.
+  methods: >-
+    The software uses lxml to read XML and returns dictionaries or lists of dictionaries. Article identifiers and reference links allow extracted text and citation information to be joined in downstream analyses.
+  limitations:
+  - Available fields depend on the source XML. Parsing does not correct incomplete metadata or establish the scientific validity of an article.
+  - Access and reuse terms for article content are separate from the software license.
+  reuse: >-
+    Start with the example XML files and parsing functions in the linked repository, then test a sample of your own corpus. Record the package version and input collection. The software is MIT licensed; cite the JOSS paper when using it in research.
+  source_url: https://joss.theoj.org/papers/10.21105/joss.01979
+  reuse_source_url: https://github.com/titipata/pubmed_parser
+  reviewed_at: '2026-09-07'
+jas2020pyglmnet:
+  path: /publications/pyglmnet/
+  question: How can researchers fit regularized generalized linear models in Python?
+  summary: >-
+    Pyglmnet implements generalized linear models with penalties that help control model complexity. Researchers can select a response distribution and regularization approach within a Python workflow, including applications where observations are counts, binary outcomes, or continuous measurements.
+  findings:
+  - The package supports multiple response models and regularizers, including lasso, ridge, and elastic net.
+  - Its Python implementation provides fitting, prediction, and scoring interfaces with examples that separate training and test data.
+  methods: >-
+    The optimizer uses cyclical coordinate descent with Newton updates, active sets, caching, and warm restarts. The model combines a specified response distribution with a penalty on its coefficients.
+  limitations:
+  - A fitted model depends on the chosen distribution, predictors, regularization strength, and validation procedure.
+  - Predictive performance does not by itself establish a causal relationship between predictors and outcomes.
+  reuse: >-
+    Begin with the repository's simulated-data GLM example and documentation. Evaluate predictions on held-out data and record the package version and tuning choices. Pyglmnet is MIT licensed; cite its JOSS software paper.
+  source_url: https://joss.theoj.org/papers/10.21105/joss.01959
+  reuse_source_url: https://github.com/glm-tools/pyglmnet
+  reviewed_at: '2026-09-07'
+achakulvisut2016science:
+  path: /publications/science-concierge/
+  question: Can a few examples of relevant papers guide scientific recommendations?
+  summary: >-
+    Science Concierge is a content-based recommender that learns from papers a researcher marks as relevant or irrelevant. It uses their text to find related work and updates recommendations as the researcher provides feedback.
+  findings:
+  - In an evaluation using Society for Neuroscience conference abstracts, the method outperformed the tested keyword-based baseline.
+  - Positive and negative feedback can be combined to refine a researcher's interest profile.
+  methods: >-
+    The pipeline represents article text numerically, reduces its dimensionality with latent semantic analysis, and uses Rocchio relevance feedback to update a query profile. Nearest-neighbor search retrieves matching abstracts. Human-assigned conference topics provide a relevance proxy for evaluation.
+  limitations:
+  - Conference topic similarity is a proxy for usefulness, not a direct measure of scientific novelty or a reader's satisfaction.
+  - The evaluation concerns one conference collection and does not establish performance across all research fields.
+  reuse: >-
+    Use the linked Python repository to explore the recommendation pipeline with a corpus you are permitted to analyze. The conference dataset used in the paper is not publicly downloadable; access requires arrangements with the Society for Neuroscience.
+  source_url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158423
+  reuse_source_url: https://github.com/titipata/science_concierge
+  reviewed_at: '2026-09-07'
+Bibal2024:
+  path: /publications/recsoi/
+  question: Can statements of what remains unknown suggest research directions?
+  summary: >-
+    RecSOI recommends statements of ignorance from scientific articles: passages that identify gaps, uncertainties, or unanswered questions. It matches these passages to a researcher's publication history and presents their surrounding context, helping readers investigate questions connected to their expertise.
+  findings:
+  - The system turns explicit knowledge gaps in the literature into personalized recommendations.
+  - A concept-overlap evaluation found that recommended statements often connected to concepts in the researcher's abstracts.
+  methods: >-
+    The method combines embeddings of statements and their context with a weighted profile built from a researcher's prior abstracts. A heuristic evaluation checks whether recommended statements share concepts with the researcher's work.
+  limitations:
+  - Concept overlap does not establish that a suggested direction is novel, feasible, or scientifically productive.
+  - An unanswered question in an older article may have been resolved by later research.
+  reuse: >-
+    The linked repository provides the implementation and supporting resources. Read recommended statements in their original context and check newer literature before treating them as open questions. Consult the repository's resource and license information for your intended use.
+  source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11034121/
+  reuse_source_url: https://github.com/AdrienBibal/RecSOI
+  reviewed_at: '2026-09-07'
+taechoyotin2024mamorx:
+  path: /publications/mamorx/
+  question: How can automated reviews use figures and outside scholarly evidence?
+  summary: >-
+    MAMORX generates scientific reviews using multiple agents and multimodal foundation models. It considers manuscript text, figures, and citations, while retrieving external scholarly information to support assessments of novelty and related work.
+  findings:
+  - In the reported arena comparison, judges preferred MAMORX reviews to the tested alternatives, including human reviews.
+  - Large context windows reduced the number of agents and processing time needed compared with the preceding approach examined by the authors.
+  methods: >-
+    Structured outputs and function calling connect manuscript analysis with figure handling and external knowledge retrieval. Evaluation uses pairwise human preferences and Elo ratings on machine-learning and natural-language-processing papers.
+  limitations:
+  - Preference for a review does not establish that every criticism or citation in it is correct.
+  - The evaluation's disciplinary scope and judging sample limit conclusions about other research areas or editorial decisions.
+  reuse: >-
+    The repository contains the review system and arena evaluation components. Check generated claims against the manuscript and cited sources. The repository specifies CC BY-NC-ND 4.0, with restrictions on commercial use and distribution of adaptations; consult its license before reuse.
+  source_url: https://openreview.net/forum?id=frvkE8rCfX
+  reuse_source_url: https://github.com/sciosci/mamorx-review-system
+  reviewed_at: '2026-09-07'
+kusumegi2026dissecting:
+  path: /publications/gender-authorship-acknowledgment/
+  question: Who receives authorship credit for contributing to a scientific paper?
+  summary: >-
+    This study compares authorship and acknowledgment to examine how scientific contributions receive credit. Using PLOS articles and linked researcher records, it investigates differences associated with gender, contribution type, and citation standing.
+  findings:
+  - Women had lower authorship rates for several contribution categories, including investigation and analysis and writing.
+  - Higher citation standing was associated with authorship for both genders, and relative standing within collaborating pairs also mattered.
+  methods: >-
+    The analysis identifies contributions in acknowledgment text and links acknowledged individuals to Microsoft Academic Graph records. It compares authorship patterns across nine fields, contribution categories, and citation-based measures of standing.
+  limitations:
+  - Only a subset of acknowledged individuals could be linked to researcher records, creating a possible selection bias.
+  - The analysis uses inferred binary gender categories and observational data; it does not identify the cause of an individual authorship decision.
+  reuse: >-
+    Use the study's contribution categories and linkage rules when interpreting or comparing its results. Check the journal article and earlier preprint for version differences. Citation standing is a study measure, not a complete assessment of a person's contribution.
+  source_url: https://link.springer.com/article/10.1007/s11192-026-05712-z
+  reviewed_at: '2026-09-07'
+zhou2026widespread:
+  path: /publications/openalex-reference-missingness/
+  question: Whose references are missing from open scholarly metadata?
+  summary: >-
+    This study examines missing reference lists in OpenAlex and asks whether the gaps are distributed evenly. It finds that missingness is associated with journal and institutional prestige and with country economic standing, which matters when metadata are used to compare scientific impact.
+  findings:
+  - Missing references were more prevalent for articles associated with lower-prestige institutions and lower-impact journals.
+  - Regression analyses linked the disparities primarily to journal and institutional prestige, raising concerns about citation-based comparisons.
+  methods: >-
+    The analysis compares reference completeness across article groups and uses regressions to examine associations with institutional, journal, and country characteristics.
+  limitations:
+  - Missing references in a metadata service do not mean that the original article has no reference list.
+  - Results concern the database records examined by the study; coverage can change as OpenAlex is updated.
+  reuse: >-
+    Before calculating citation or disruption indicators, audit reference completeness for the groups being compared. Record the database snapshot and distinguish missing records from observed zero citations. Consult the paper for the sampling and regression specifications.
+  source_url: https://doi.org/10.1162/qss.a.400
+  reviewed_at: '2026-09-07'
+popp2026government:
+  path: /publications/energy-research-funding/
+  question: How does public funding relate to the direction of energy research?
+  summary: >-
+    This working paper studies whether government grants shift researchers' subsequent publications toward funded topics. It compares energy researchers supported by the U.S. Department of Energy and National Science Foundation with matched researchers, using publication text to track changes in research direction.
+  findings:
+  - Funded researchers' later publications became more similar to their grant topics in the reported comparisons.
+  - Topic shifts were largest for ARPA-E awards, while broader NSF calls were associated with smaller changes.
+  methods: >-
+    Text-based measures of research similarity are combined with matched-control comparisons and regression analyses of scientists' publication trajectories.
+  limitations:
+  - Matching and regression depend on assumptions about comparability; this is not a randomized funding experiment.
+  - A change in research topic does not by itself establish improved research quality, commercialization, or climate outcomes.
+  reuse: >-
+    Treat the findings as working-paper results and check for newer versions before citing. Use the paper's definitions of funding programs, comparison groups, and topic similarity when comparing results across agencies.
+  source_url: https://www.nber.org/papers/w34856
+  reviewed_at: '2026-09-07'

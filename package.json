@@ -33,6 +33,7 @@
     "build:js": "npm run uglify && npm run add-banner",
     "dev": "ruby news_generator.rb && bundle exec ruby publications_generator.rb && bundle exec jekyll serve --host 127.0.0.1 --port 4000 --livereload",
     "build": "ruby news_generator.rb && bundle exec ruby publications_generator.rb && bundle exec jekyll build",
-    "test": "bundle exec ruby publications_generator.rb && bundle exec ruby tests/publication_catalog_test.rb && node --test tests/publication-search.test.cjs"
+    "test": "bundle exec ruby publications_generator.rb && bundle exec ruby tests/publication_catalog_test.rb && node --test tests/*.test.cjs",
+    "audit:live": "python3 lib/audit_live_site.py"
   }
 }

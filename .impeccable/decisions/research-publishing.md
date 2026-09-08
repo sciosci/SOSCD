@@ -92,3 +92,11 @@ The production checks cover canonical/title/description/social metadata, connect
 CSV column names were read from the four actual compressed files. After network retries, both small core tables downloaded and the complete join was verified with Python standard-library CSV processing: 774,733 researcher rows, no duplicate researcher IDs, and all 743,176 mentorship rows matched a mentee. The pandas example passed Python syntax validation; pandas itself is not installed in this environment. Repeat `python3 lib/fetch_research_metadata.py --verify-quickstart` to check the complete data. The large embedding matrices are never downloaded by this check.
 
 Keep visual asset provenance with its files. `social-card.png` uses the original diamond and local fonts; responsive WebP variants retain the original lab photographs. See `seo-asset-manifest.md` under `.impeccable/review/`.
+
+### September 7 follow-up: reporting and expanded overviews
+
+The existing Search Console domain property is now linked to the lab stream, the current HTTPS sitemap reports Success, and the integrity hub's indexing request was accepted. The older pending-account steps above describe the initial setup; [the visibility review runbook](../../docs/visibility-review.md) records the current configuration. Bing and CU donations remain deferred by the user.
+
+GA4 now has a Lab visibility overview as its Reports snapshot, a published Lab research collection containing Research engagement, four event-scoped research dimensions, and a launch annotation. Citation-copy events now include the publication key after a successful clipboard write. The account baseline is saved locally under the gitignored `.impeccable/research/analytics/` directory, separate from the public website.
+
+Eight additional primary-source overviews bring the total to 23. Optional `reuse` and `reuse_source_url` fields add practical guidance within the existing paper template. These do not change the visual design system. The 70-paper archive and 2008 cutoff remain intact. The former `/en/` address redirects to the homepage. A monthly GitHub workflow audits public deployed pages and provides the review dates; account exports remain a signed-in review step.
