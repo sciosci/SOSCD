@@ -21,7 +21,7 @@ class ResearchPublishing
       record = @catalog.index.fetch(entry.key)
       clean[:doi] = record['doi'] unless record['doi'].empty?
       clean[:url] = record['url'] unless record['url'].empty?
-      content = clean.to_s + "\n"
+      content = clean.to_s.rstrip + "\n"
       File.write(record.fetch('bibtex_path').delete_prefix('/'), content)
       record['bibtex'] = content
       content
