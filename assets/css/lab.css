@@ -289,6 +289,7 @@ input::placeholder{color:var(--muted);opacity:1}
 .member{min-width:0}
 .member>a{display:block;text-decoration:none}
 .member-photo,.member-placeholder{width:100%;aspect-ratio:1/1.12;object-fit:cover;border-radius:10px}
+.member-photo--top{object-position:center top}
 .member-placeholder{display:flex;align-items:center;justify-content:center;background:var(--purple-pale);color:var(--purple);font-family:var(--display);font-size:54px;letter-spacing:-.03em}
 .member h3{font-size:20px;margin-top:20px;line-height:1.25;letter-spacing:-.025em}
 .member p{font-size:14px;color:var(--muted);margin-top:10px}
@@ -321,7 +322,7 @@ input::placeholder{color:var(--muted);opacity:1}
 .about-lead figure img{width:100%;border-radius:12px}
 .about-lead figcaption{font-size:12px;color:var(--muted);margin-top:12px}
 .about-lead a{color:var(--purple)}
-.about-columns{display:grid;grid-template-columns:1.3fr 1fr;gap:90px;padding-top:60px;border-top:1px solid var(--line)}
+.about-columns{display:grid;grid-template-columns:1.3fr 1fr;gap:90px;align-items:start;padding-top:60px;border-top:1px solid var(--line)}
 .about-columns h2{font-size:32px;margin-bottom:25px}
 .about-columns .text-link + .prose{margin-top:44px}
 .about-columns p{font-size:18px;color:var(--muted);margin-bottom:22px}
