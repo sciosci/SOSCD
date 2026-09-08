@@ -353,11 +353,20 @@ input::placeholder{color:var(--muted);opacity:1}
 .opening-notes ol{padding-left:20px;margin:0}
 .opening-notes li{padding-left:8px;margin-bottom:18px;font-size:17px}
 .opening-notes a{color:var(--purple)}
+.joining-nav{margin-bottom:55px;border-block:1px solid var(--line);padding-block:8px}
+.joining-nav .contents-list{display:flex;flex-wrap:wrap;gap:8px 30px}
+.joining-nav .contents-list li{margin:0}
+.joining-nav .contents-list a{padding-block:12px;color:var(--purple);font-size:16px}
+.mentoring-section{padding-bottom:55px;margin-bottom:55px;border-bottom:1px solid var(--line)}
+.mentoring-section .mentoring-sources{font-size:14px;line-height:1.6;color:var(--muted);margin-bottom:0}
 .opportunity-list{margin-top:70px;border-top:1px solid var(--line);padding-top:45px}
 .opportunity-list>h2{font-size:31px;margin-bottom:30px}
 .opportunity-list article{display:grid;grid-template-columns:250px 1fr;gap:45px;padding-block:25px;border-top:1px solid var(--line)}
 .opportunity-list h3{font-size:21px}
 .opportunity-list p{font-size:17px;color:var(--muted);max-width:660px}
+.mentoring-stages{margin-top:30px;border-top:0;padding-top:0}
+.mentoring-stages h3{line-height:1.4}
+.mentoring-stages p{font-size:18px;max-width:73ch}
 .dataset-download{display:flex;align-items:center;justify-content:space-between;gap:35px;background:var(--purple-pale);padding:35px;border-radius:12px;margin-bottom:40px}
 .dataset-download p{max-width:560px;font-size:19px}
 
@@ -444,6 +453,7 @@ input::placeholder{color:var(--muted);opacity:1}
   .about-lead{grid-template-columns:1fr;gap:30px;padding-bottom:45px}.about-lead>div>p{font-size:20px}.about-lead>div>p+p{font-size:17px}.about-lead figure{max-width:600px}.about-columns{grid-template-columns:1fr;gap:35px;padding-top:40px}.about-columns h2{font-size:29px}.location-panel{padding:27px}.research-detail{padding-block:28px}.research-detail h2{font-size:27px}.funding-list>li{grid-template-columns:1fr;gap:10px}.funding-list time{font-size:13px}.funding-list h3{font-size:18px}
   .opening-feature{grid-template-columns:1fr;gap:24px;padding:28px 24px;margin-bottom:40px}.opening-feature h2{font-size:29px}.opening-feature dl>div{font-size:14px}.opening-feature .button{font-size:14px;width:100%;gap:15px}.opening-notes{grid-template-columns:1fr;gap:30px}.opening-notes h2,.opening-notes h3{font-size:26px}.opening-notes p,.opening-notes li{font-size:16px}.opportunity-list{margin-top:45px;padding-top:30px}.opportunity-list>h2{font-size:27px}.opportunity-list article{grid-template-columns:1fr;gap:14px;padding-block:22px}.opportunity-list h3{font-size:21px}.opportunity-list p{font-size:16px}.dataset-download{display:block;padding:27px}.dataset-download p{font-size:18px;margin-bottom:23px}.dataset-download .button{font-size:14px}.is-interior #main .page__title{font-size:35px}
 }
+@media(max-width:680px){.joining-nav{margin-bottom:35px}.joining-nav .contents-list{gap:0 24px}.mentoring-section{padding-bottom:35px;margin-bottom:35px}.mentoring-section .mentoring-stages{margin-top:24px;padding-top:0}.mentoring-stages p{font-size:17px}}
 @media(max-width:360px){.wrap,.header-inner{width:calc(100% - 32px)}.brand-lab{display:none}.hero-copy h1{font-size:46px}.hero-intro{font-size:20px}.research-lens{padding-inline:16px}.lens-controls{gap:4px}.lens-controls button{font-size:11px}.portrait-strip{gap:8px}.portrait-strip span{font-size:11px}.bib-image{display:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.map-points{transform:none}}
 @media(max-width:960px){
