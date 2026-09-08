@@ -50,13 +50,24 @@
     };
     const positionPreview = () => {
       if (!activeNode) return;
+      if (getComputedStyle(preview).position !== 'absolute') {
+        preview.style.removeProperty('max-height');
+        return;
+      }
       const frame = stage.getBoundingClientRect();
       const point = activeNode.getBoundingClientRect();
+      const topEdge = Math.max(8, 8 - frame.top);
+      const bottomEdge = Math.min(frame.height - 8, innerHeight - frame.top - 8);
+      const below = point.bottom - frame.top + 10;
+      const above = point.top - frame.top - 10;
+      const belowSpace = Math.max(0, bottomEdge - below);
+      const aboveSpace = Math.max(0, above - topEdge);
+      // Long previews scroll within the available space instead of covering the paper link.
+      preview.style.maxHeight = `${Math.max(1, belowSpace, aboveSpace)}px`;
       const width = preview.offsetWidth;
       const height = preview.offsetHeight;
       const x = Math.max(8, Math.min(point.x - frame.x + point.width / 2 - width / 2, frame.width - width - 8));
-      const below = point.bottom - frame.top + 10;
-      const y = below + height <= frame.height - 8 ? below : Math.max(8, point.top - frame.top - height - 10);
+      const y = height <= belowSpace || belowSpace >= aboveSpace ? below : above - height;
       preview.style.left = `${x}px`;
       preview.style.top = `${y}px`;
     };
@@ -105,6 +116,7 @@
       }
     });
     window.addEventListener('resize', positionPreview);
+    window.addEventListener('scroll', positionPreview, {passive: true});
     controls.hidden = false;
     controls.addEventListener('click', event => {
       const button = event.target.closest('[data-lens]');
