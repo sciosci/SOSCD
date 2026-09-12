@@ -25,4 +25,3 @@ Publication overviews distinguish preprints from published versions and explain 
 - [About and contact](https://scienceofscience.org/about/).
 - [Join Us: Ph.D. applications and other research opportunities](https://scienceofscience.org/openings/).
 - [Funding](https://scienceofscience.org/funding/).
-- [Support the lab](https://scienceofscience.org/support/): Current giving guidance; no confirmed direct lab-fund donation link is listed.
