@@ -1,6 +1,6 @@
 # Science of Science & Computational Discovery Lab
 
-> SOS+CD is a research lab led by Daniel Acuña in the Department of Computer Science at the University of Colorado Boulder. Its work examines research integrity, peer review and discovery, the science of science, and computational methods.
+> SOS+CD is a research lab led by Daniel Acuna in the Department of Computer Science at the University of Colorado Boulder. Its work examines research integrity, peer review and discovery, the science of science, and computational methods.
 
 ## Research
 - [Research overview](https://scienceofscience.org/research/): Main questions and research areas.

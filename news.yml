@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f3f8">
   <!-- begin _includes/seo.html --><title>Science of Science &amp; Computational Discovery Lab</title>
-<meta name="description" content="The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuña.">
+<meta name="description" content="The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuna.">
 
 
 
@@ -20,7 +20,7 @@
 <meta property="og:url" content="https://scienceofscience.org/news.yml">
 
 
-  <meta property="og:description" content="The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuña.">
+  <meta property="og:description" content="The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuna.">
 
 
 
@@ -31,7 +31,7 @@
 
   <meta name="twitter:site" content="@daniel_akuna">
   <meta name="twitter:title" content="Science of Science &amp; Computational Discovery Lab">
-  <meta name="twitter:description" content="The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuña.">
+  <meta name="twitter:description" content="The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuna.">
   <meta name="twitter:url" content="https://scienceofscience.org/news.yml">
 
   
@@ -76,7 +76,7 @@
       "name": "Science of Science & Computational Discovery Lab",
       "alternateName": "SOS+CD Lab",
       "url": "https://scienceofscience.org/",
-      "description": "The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuña.",
+      "description": "The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuna.",
       "logo": "https://scienceofscience.org/assets/images/lab/logo.svg",
       "parentOrganization": {
         "@type": "Organization",
@@ -95,7 +95,7 @@
     {
       "@type": "Person",
       "@id": "https://scienceofscience.org/people/#principal-investigator",
-      "name": "Daniel Acuña",
+      "name": "Daniel Acuna",
       "alternateName": "Daniel E. Acuna",
       "jobTitle": "Associate Professor of Computer Science",
       "url": "https://acuna.io/",
@@ -121,7 +121,7 @@
       "@id": "https://scienceofscience.org/news.yml#webpage",
       "url": "https://scienceofscience.org/news.yml",
       "name": "Science of Science & Computational Discovery Lab",
-      "description": "The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuña.",
+      "description": "The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuna.",
       "inLanguage": "en-US",
       "isPartOf": { "@id": "https://scienceofscience.org/#website" },
       "publisher": { "@id": "https://scienceofscience.org/#organization" }
