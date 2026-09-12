@@ -9,8 +9,6 @@ toc: true
 <section class="research-detail" id="peer-review"><h2 id="review-heading">Peer review &amp; computational discovery</h2><p>We develop and study computational methods for scientific peer review, recommendation, and knowledge extraction, including language models, reinforcement learning, and multimodal representations.</p><a class="text-link" href="{{ '/publications/?topic=discovery' | relative_url }}">Explore peer review &amp; discovery {% include lab-arrow.html %}</a></section>
 <section class="research-detail" id="science-of-science"><h2 id="science-heading">The science of science</h2><p>We examine how funding, mentorship, collaboration, and socioeconomic diversity shape science and innovation, and how biases enter the research ecosystem and artificial intelligence.</p><a class="text-link" href="{{ '/publications/?topic=ecosystem' | relative_url }}">Explore the science of science {% include lab-arrow.html %}</a></section>
 
-<div class="support-invitation"><div><h2>Help the next idea take shape.</h2><p>Interested in supporting our research and the people behind it?</p></div><a class="text-link" href="{{ '/support/' | relative_url }}">Support the lab {% include lab-arrow.html %}</a></div>
-
 <h2 id="funding-sources">Funding sources</h2>
 <p>Our research has been supported by the following organizations and programs.</p>
 <ul class="funding-list">

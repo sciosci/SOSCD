@@ -39,7 +39,7 @@ class SeoTest < Minitest::Test
     paths = sitemap_urls.reject { |url| url.end_with?('.pdf') }.map { |url| URI(url).path }
     expected_new = DETAILS.values.map { |detail| detail.fetch('path') } +
       YAML.safe_load(File.read('_data/research_topics.yml')).values.map { |topic| topic.fetch('path') } + ['/research/', '/resources/']
-    assert_equal 11 + expected_new.size, paths.size
+    assert_equal 10 + expected_new.size, paths.size
     assert_empty expected_new - paths
     assert_equal paths.uniq, paths
     assert_includes paths, '/publications/'

@@ -30,4 +30,3 @@ Publication overviews distinguish preprints from published versions and explain 
 - [About and contact]({{ '/about/' | absolute_url }}).
 - [Join Us: Ph.D. applications and other research opportunities]({{ '/openings/' | absolute_url }}).
 - [Funding]({{ '/funding/' | absolute_url }}).
-- [Support the lab]({{ '/support/' | absolute_url }}): Current giving guidance; no confirmed direct lab-fund donation link is listed.

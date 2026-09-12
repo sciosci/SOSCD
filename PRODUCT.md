@@ -29,7 +29,7 @@ The website is a Jekyll site. Publications originate in _bibliography/references
 - Preserve existing factual content, all bibliographic records and associated paper/code/data links, people and alumni, funding entries, contact address, historical pages, and citation metadata.
 - Preserve existing route destinations and the content generation workflow.
 - Publication discovery uses explicit, overlapping topics and tags for every record. Search and the homepage explorer must share those assignments.
-- The user requests a Support page routed through CU giving. Until a lab-specific fund and URL are confirmed, show contact options without a payment button or a generic department donation link.
+- The user requests removal of the lab Support page and donation prompts because they intend donations to go to AIKI. Do not restore lab-specific giving solicitations.
 - The main page and navigation say “Join Us” and cover joining the lab generally. Ph.D. applications are a section within that page, alongside other research opportunities. Ph.D. content provides general application guidance, not an advertisement for a fixed number of positions or a specific admissions cycle. Use objective language, link current requirements and deadlines to the CU Boulder Computer Science Ph.D. program, identify Daniel Acuna as the prospective adviser, and preserve the instruction not to email the PI about individual Ph.D. applications. Do not describe funding as guaranteed or fully funded. Keep other research opportunities factual and separate.
 - No framework migration or deployment is requested.
 
@@ -52,4 +52,4 @@ Preserve the lab name and its CU Boulder affiliation. The user explicitly reques
 
 ## Open Decisions
 
-Audience priority remains provisional. The original lab icon is now required by the user. A confirmed CU gift fund name and direct donation URL remain outstanding.
+Audience priority remains provisional. The original lab icon is now required by the user. Lab-specific giving setup has been retired; donations are intended for AIKI.

@@ -51,5 +51,4 @@ description: "We study how science works—and build computational tools to help
   <section class="news-section wrap section-space" id="news" aria-labelledby="news-heading"><div class="section-heading"><h2 id="news-heading">From the lab.</h2><a class="text-link" href="{{ '/news/' | relative_url }}">All news &amp; events {% include lab-arrow.html %}</a></div>{% include lab-news-preview.html %}</section>
 
   <section class="join-section wrap" aria-labelledby="join-heading"><div><h2 id="join-heading">Join Us</h2><p>Information about doctoral study, student research, and visiting appointments in the lab.</p></div><div class="join-details"><p>Department of Computer Science<br><strong>University of Colorado Boulder</strong></p><a class="button button-light" href="{{ '/openings/' | relative_url }}">Joining the lab {% include lab-arrow.html %}</a></div></section>
-  <div class="support-invitation wrap"><div><h2>Help the next idea take shape.</h2><p>Support our mission to understand and improve science.</p></div><a class="text-link" href="{{ '/support/' | relative_url }}">Support the lab {% include lab-arrow.html %}</a></div>
 </main>
