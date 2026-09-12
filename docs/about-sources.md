@@ -18,7 +18,7 @@ The previous hidden ranking paragraph cited April 2023 reporting and has been re
 
 ## Almene's portrait
 
-The People page uses the portrait published on [Almene De Meran Meguimtsop's own website](https://almene08.github.io/), whose biography identifies her as a CU Boulder Computer Science Ph.D. student advised by Daniel Acuña.
+The People page uses the portrait published on [Almene De Meran Meguimtsop's own website](https://almene08.github.io/), whose biography identifies her as a CU Boulder Computer Science Ph.D. student advised by Daniel Acuna.
 
 - [Original image URL](https://almene08.github.io/hero-image.jpg), retrieved September 7, 2026; capture date not supplied.
 - Preserved original: `assets/images/lab/sources/almene-personal-portrait.jpg`, 2196 × 3158 pixels.

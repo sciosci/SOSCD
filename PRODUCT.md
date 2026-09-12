@@ -12,7 +12,7 @@ Working assumption, pending the user's answers: prospective research students an
 
 ## Product Purpose
 
-Present the research, people, publications, projects, and opportunities of the Science of Science & Computational Discovery Lab (SOS+CD), led by Daniel Acuña in the Department of Computer Science at the University of Colorado Boulder.
+Present the research, people, publications, projects, and opportunities of the Science of Science & Computational Discovery Lab (SOS+CD), led by Daniel Acuna in the Department of Computer Science at the University of Colorado Boulder.
 
 ## Positioning
 
@@ -30,10 +30,12 @@ The website is a Jekyll site. Publications originate in _bibliography/references
 - Preserve existing route destinations and the content generation workflow.
 - Publication discovery uses explicit, overlapping topics and tags for every record. Search and the homepage explorer must share those assignments.
 - The user requests a Support page routed through CU giving. Until a lab-specific fund and URL are confirmed, show contact options without a payment button or a generic department donation link.
-- The main page and navigation say “Join Us” and cover joining the lab generally. Ph.D. applications are a section within that page, alongside other research opportunities. Ph.D. content provides general application guidance, not an advertisement for a fixed number of positions or a specific admissions cycle. Use objective language, link current requirements and deadlines to the CU Boulder Computer Science Ph.D. program, identify Daniel Acuña as the prospective adviser, and preserve the instruction not to email the PI about individual Ph.D. applications. Do not describe funding as guaranteed or fully funded. Keep other research opportunities factual and separate.
+- The main page and navigation say “Join Us” and cover joining the lab generally. Ph.D. applications are a section within that page, alongside other research opportunities. Ph.D. content provides general application guidance, not an advertisement for a fixed number of positions or a specific admissions cycle. Use objective language, link current requirements and deadlines to the CU Boulder Computer Science Ph.D. program, identify Daniel Acuna as the prospective adviser, and preserve the instruction not to email the PI about individual Ph.D. applications. Do not describe funding as guaranteed or fully funded. Keep other research opportunities factual and separate.
 - No framework migration or deployment is requested.
 
 ## Brand Commitments
+
+Use the spelling “Daniel Acuna” without a tilde in site copy, metadata, and publication exports.
 
 Preserve the lab name and its CU Boulder affiliation. The user explicitly requests their original lab icon: a gray diamond with blue and cyan left semicircles, with transparent space outside the diamond. Their uploaded reference and subsequent clarification are authoritative: the surrounding purple frame is not part of the logo. Replace the invented orbital brand mark with a faithful restoration of this original; preserve its shape, color, and asymmetry. The modern page design remains, but the lab icon is no longer an open identity decision.
 

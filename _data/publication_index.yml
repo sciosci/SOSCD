@@ -3676,7 +3676,7 @@ liu2022team:
     collaboration'
   alternate_title: ''
   authors: Meijun Liu, Ajay Jaiswal, Yi Bu, Chao Min, Sijie Yang, Zhibo Liu, Daniel
-    Acuña, Ying Ding
+    Acuna, Ying Ding
   author_list:
   - name: Meijun Liu
     given: Meijun
@@ -3696,9 +3696,9 @@ liu2022team:
   - name: Zhibo Liu
     given: Zhibo
     family: Liu
-  - name: Daniel Acuña
+  - name: Daniel Acuna
     given: Daniel
-    family: Acuña
+    family: Acuna
   - name: Ying Ding
     given: Ying
     family: Ding
@@ -3728,12 +3728,12 @@ liu2022team:
   reviewed_at:
   resources: []
   citation: 'Meijun Liu, Ajay Jaiswal, Yi Bu, Chao Min, Sijie Yang, Zhibo Liu, Daniel
-    Acuña, Ying Ding (2022). Team formation and team impact: The balance between team
+    Acuna, Ying Ding (2022). Team formation and team impact: The balance between team
     freshness and repeat collaboration. Journal of Informetrics. https://doi.org/10.1016/j.joi.2022.101337'
   bibtex: |
     @article{liu2022team,
       title = {Team formation and team impact: The balance between team freshness and repeat collaboration},
-      author = {Liu, Meijun and Jaiswal, Ajay and Bu, Yi and Min, Chao and Yang, Sijie and Liu, Zhibo and Acuña, Daniel and Ding, Ying},
+      author = {Liu, Meijun and Jaiswal, Ajay and Bu, Yi and Min, Chao and Yang, Sijie and Liu, Zhibo and Acuna, Daniel and Ding, Ying},
       year = {2022},
       journal = {Journal of Informetrics},
       volume = {16},
@@ -4342,7 +4342,7 @@ bu2022workshop:
   key: bu2022workshop
   title: International Workshop on Data-driven Science of Science
   alternate_title: ''
-  authors: Yi Bu, Meijun Liu, Yujia Zhai, Ying Ding, Feng Xia, Daniel E. Acuña, Yi
+  authors: Yi Bu, Meijun Liu, Yujia Zhai, Ying Ding, Feng Xia, Daniel E. Acuna, Yi
     Zhang
   author_list:
   - name: Yi Bu
@@ -4360,9 +4360,9 @@ bu2022workshop:
   - name: Feng Xia
     given: Feng
     family: Xia
-  - name: Daniel E. Acuña
+  - name: Daniel E. Acuna
     given: Daniel E.
-    family: Acuña
+    family: Acuna
   - name: Yi Zhang
     given: Yi
     family: Zhang
@@ -4392,13 +4392,13 @@ bu2022workshop:
   abstract_license:
   reviewed_at:
   resources: []
-  citation: Yi Bu, Meijun Liu, Yujia Zhai, Ying Ding, Feng Xia, Daniel E. Acuña, Yi
+  citation: Yi Bu, Meijun Liu, Yujia Zhai, Ying Ding, Feng Xia, Daniel E. Acuna, Yi
     Zhang (2022). International Workshop on Data-driven Science of Science. Proceedings
     of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. https://doi.org/10.1145/3534678.3542891
   bibtex: |
     @inproceedings{bu2022workshop,
       title = {International Workshop on Data-driven Science of Science},
-      author = {Bu, Yi and Liu, Meijun and Zhai, Yujia and Ding, Ying and Xia, Feng and Acuña, Daniel E. and Zhang, Yi},
+      author = {Bu, Yi and Liu, Meijun and Zhai, Yujia and Ding, Ying and Xia, Feng and Acuna, Daniel E. and Zhang, Yi},
       year = {2022},
       booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
       pages = {4856--4857},

@@ -14,7 +14,7 @@ description: "Help the SOS+CD Lab advance trustworthy science, open research too
       {% if fund_url != '' and fund_name != '' %}
       <h2 id="give-heading">Make a gift.</h2><p>Your gift through CU supports the {{ fund_name | escape }}.</p><a class="button button-primary" href="{{ fund_url | escape }}">Give to the lab {% include lab-arrow.html %}</a><p class="support-action-note">For monthly support, select the recurring-gift option on CU’s giving form.</p><a class="text-link" href="{{ site.data.giving.recurring_gifts_url }}">About recurring gifts {% include lab-arrow.html %}</a>
       {% else %}
-      <h2 id="give-heading">Let’s make it possible.</h2><p>Interested in supporting SOS+CD? Contact Daniel Acuña to discuss your interests and arrange a gift through CU Boulder.</p><a class="button button-primary" href="mailto:{{ site.data.giving.contact_email }}?subject=Supporting%20the%20SOS%2BCD%20Lab">Discuss a gift {% include lab-arrow.html %}</a><p class="support-action-note">A dedicated online giving link for the lab is not yet available. CU Advancement can help confirm the designation for your gift.</p>
+      <h2 id="give-heading">Let’s make it possible.</h2><p>Interested in supporting SOS+CD? Contact Daniel Acuna to discuss your interests and arrange a gift through CU Boulder.</p><a class="button button-primary" href="mailto:{{ site.data.giving.contact_email }}?subject=Supporting%20the%20SOS%2BCD%20Lab">Discuss a gift {% include lab-arrow.html %}</a><p class="support-action-note">A dedicated online giving link for the lab is not yet available. CU Advancement can help confirm the designation for your gift.</p>
       {% endif %}
     </aside>
   </section>

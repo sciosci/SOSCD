@@ -20,7 +20,7 @@ title                    : "Science of Science & Computational Discovery Lab"
 short_title              : "SOS+CD Lab"
 title_separator          : "-"
 name                     : "SOS+CD"
-description              : "The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuña."
+description              : "The SOS+CD Lab at CU Boulder studies research integrity, peer review, and the science of science through computational methods. Led by Daniel Acuna."
 url                      : https://scienceofscience.org
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
